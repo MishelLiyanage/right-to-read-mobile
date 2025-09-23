@@ -1,4 +1,4 @@
-import { TextBlock } from '@/types/book';
+import { SpeechMark, TextBlock } from '@/types/book';
 import { Audio, AVPlaybackStatus } from 'expo-av';
 
 export interface TTSServiceCallbacks {
@@ -8,6 +8,8 @@ export interface TTSServiceCallbacks {
   onBlockStart?: (blockIndex: number, text: string) => void;
   onBlockComplete?: (blockIndex: number) => void;
   onPlaybackProgress?: (position: number, duration: number, blockIndex: number) => void;
+  onWordPlaybackStart?: (word: string) => void;
+  onWordPlaybackComplete?: (word: string) => void;
 }
 
 export class TTSService {
@@ -224,6 +226,99 @@ export class TTSService {
   async cleanup(): Promise<void> {
     await this.stop();
     this.isPaused = false;
+  }
+
+  // Word-level audio methods for dictionary functionality
+  async playWordFromPage(word: string, allBlocks: TextBlock[]): Promise<void> {
+    if (!this.isInitialized) {
+      await this.initialize();
+    }
+
+    try {
+      const normalizedWord = word.toLowerCase().trim();
+      console.log(`Looking for word: "${normalizedWord}" in page blocks`);
+
+      // Search through all blocks to find the word
+      for (const block of allBlocks) {
+        if (block.speechMarks) {
+          const wordMark = block.speechMarks.find((mark: SpeechMark) => {
+            if (mark.type !== 'word') return false;
+            
+            const markValue = mark.value.toLowerCase().replace(/[^\w]/g, '');
+            const searchWord = normalizedWord.replace(/[^\w]/g, '');
+            
+            // Try exact match first
+            if (markValue === searchWord) return true;
+            
+            // Try partial match for plurals, verb forms, etc.
+            return markValue.includes(searchWord) || searchWord.includes(markValue);
+          });
+
+          if (wordMark) {
+            console.log(`Found word "${normalizedWord}" in block: "${block.text}"`);
+            await this.playWordFromBlock(word, block.audio, block.speechMarks, wordMark);
+            return;
+          }
+        }
+      }
+
+      throw new Error(`Word "${word}" not found in current page`);
+    } catch (error) {
+      console.error(`Error playing word "${word}":`, error);
+      this.callbacks.onPlaybackError?.(`Failed to play word: ${error}`);
+      throw error;
+    }
+  }
+
+  private async playWordFromBlock(
+    word: string, 
+    blockAudio: any, 
+    speechMarks: SpeechMark[], 
+    wordMark: SpeechMark
+  ): Promise<void> {
+    try {
+      this.callbacks.onWordPlaybackStart?.(word);
+
+      // Find the next word mark to determine end time
+      const currentIndex = speechMarks.findIndex(mark => mark === wordMark);
+      let endTime = wordMark.time + 800; // Default 800ms duration
+
+      // Look for the next word mark
+      for (let i = currentIndex + 1; i < speechMarks.length; i++) {
+        if (speechMarks[i].type === 'word') {
+          endTime = speechMarks[i].time;
+          break;
+        }
+      }
+
+      console.log(`Playing word "${word}" from ${wordMark.time}ms to ${endTime}ms`);
+
+      // Create a new sound instance for word playback
+      const { sound } = await Audio.Sound.createAsync(blockAudio);
+      
+      // Set position to word start time and play
+      await sound.setPositionAsync(wordMark.time);
+      await sound.playAsync();
+
+      // Stop playback after word duration
+      const playDuration = Math.max(endTime - wordMark.time, 500); // Minimum 500ms
+      setTimeout(async () => {
+        try {
+          await sound.stopAsync();
+          await sound.unloadAsync();
+          this.callbacks.onWordPlaybackComplete?.(word);
+          console.log(`Completed playing word: "${word}"`);
+        } catch (error) {
+          console.error('Error stopping word playback:', error);
+          this.callbacks.onWordPlaybackComplete?.(word);
+        }
+      }, playDuration);
+
+    } catch (error) {
+      console.error(`Error playing word "${word}" from block:`, error);
+      this.callbacks.onWordPlaybackComplete?.(word);
+      throw error;
+    }
   }
 
   // Status getters

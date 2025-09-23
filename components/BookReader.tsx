@@ -1,11 +1,15 @@
+import DictionarySidebar from '@/components/DictionarySidebar';
 import TableOfContentsSidebar from '@/components/TableOfContentsSidebar';
 import TextHighlighter from '@/components/TextHighlighter';
 import { ThemedText } from '@/components/ThemedText';
 import { useImageLayout } from '@/hooks/useImageLayout';
 import { PageSize } from '@/services/coordinateScaler';
+import { DictionaryService } from '@/services/dictionaryService';
 import { BlockHighlightData, highlightDataService } from '@/services/highlightDataService';
+import { TextProcessor } from '@/services/textProcessor';
 import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
-import { Book } from '@/types/book';
+import { WordAudioService } from '@/services/wordAudioService';
+import { Book, DictionaryEntry } from '@/types/book';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
@@ -29,11 +33,15 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [currentBlockHighlightData, setCurrentBlockHighlightData] = useState<BlockHighlightData | null>(null);
   const [isPageTransitioning, setIsPageTransitioning] = useState(false);
   const [isTOCSidebarVisible, setIsTOCSidebarVisible] = useState(false);
+  const [isDictionarySidebarVisible, setIsDictionarySidebarVisible] = useState(false);
+  const [dictionaryEntries, setDictionaryEntries] = useState<DictionaryEntry[]>([]);
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
 
   const ttsService = useRef<TTSService | null>(null);
+  const dictionaryService = useRef(DictionaryService.getInstance());
+  const wordAudioService = useRef(WordAudioService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
 
@@ -235,6 +243,93 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     setIsTOCSidebarVisible(false);
   };
 
+  const handleDictionaryToggle = async () => {
+    if (!isDictionarySidebarVisible) {
+      // Extract words from current page and load dictionary entries
+      await loadDictionaryForCurrentPage();
+    }
+    setIsDictionarySidebarVisible(!isDictionarySidebarVisible);
+  };
+
+  const handleCloseDictionarySidebar = () => {
+    setIsDictionarySidebarVisible(false);
+  };
+
+  const loadDictionaryForCurrentPage = async () => {
+    if (!currentPage?.blocks || currentPage.blocks.length === 0) {
+      setDictionaryEntries([]);
+      return;
+    }
+
+    try {
+      // Extract words from current page blocks
+      const words = TextProcessor.extractWordsFromBlocks(currentPage.blocks, false);
+      const potentialNouns = TextProcessor.getPotentialNouns(words);
+      const limitedWords = TextProcessor.limitWordCount(potentialNouns, 15); // Further reduced for better performance
+
+      console.log(`Loading dictionary for ${limitedWords.length} potential nouns from page ${currentPageIndex + 1}`);
+
+      // Helper function to check if a word definition contains nouns
+      const containsNoun = (definitions: any[]): boolean => {
+        return definitions.some(def => 
+          def.meanings?.some((meaning: any) => 
+            meaning.partOfSpeech?.toLowerCase().includes('noun')
+          )
+        );
+      };
+
+      // Load definitions and filter for nouns only
+      const validNounEntries: DictionaryEntry[] = [];
+      
+      // Set initial loading state
+      const initialEntries: DictionaryEntry[] = limitedWords.map(word => ({
+        word,
+        definitions: [],
+        isLoading: true
+      }));
+      setDictionaryEntries(initialEntries);
+
+      for (const word of limitedWords) {
+        try {
+          const definitions = await dictionaryService.current.lookupWord(word);
+          
+          // Only include words that are nouns
+          if (containsNoun(definitions)) {
+            validNounEntries.push({
+              word,
+              definitions,
+              isLoading: false
+            });
+            
+            // Update UI with valid nouns as they're found
+            setDictionaryEntries([...validNounEntries]);
+          } else {
+            console.log(`Skipping "${word}" - not a noun`);
+          }
+        } catch (error) {
+          // Silently skip words that can't be found - no error display
+          console.log(`Skipping "${word}" - definition not found`);
+        }
+      }
+
+      // Final update with all found nouns
+      setDictionaryEntries(validNounEntries);
+      console.log(`Found ${validNounEntries.length} nouns out of ${limitedWords.length} words`);
+    } catch (error) {
+      console.error('Error loading dictionary for current page:', error);
+      setDictionaryEntries([]);
+    }
+  };
+
+  const handleSpeakWord = async (word: string): Promise<void> => {
+    try {
+      await wordAudioService.current.speakWord(word);
+    } catch (error) {
+      console.error(`Error speaking word "${word}":`, error);
+      throw new Error(`Failed to pronounce "${word}"`);
+    }
+  };
+
   if (!currentPage) {
     return (
       <View style={styles.container}>
@@ -259,6 +354,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           <ThemedText style={styles.tocText}>☰</ThemedText>
         </TouchableOpacity>
       )}
+
+      {/* Floating Dictionary Button */}
+      <TouchableOpacity 
+        onPress={handleDictionaryToggle} 
+        style={styles.floatingDictionaryButton}
+      >
+        <ThemedText style={styles.dictionaryText}>📚</ThemedText>
+      </TouchableOpacity>
 
       {/* Page Content */}
       <Animated.View style={{ flex: 1, opacity: pageTransition }}>
@@ -416,6 +519,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           onSectionPress={handleTOCNavigation}
         />
       )}
+
+      {/* Dictionary Sidebar */}
+      <DictionarySidebar
+        isVisible={isDictionarySidebarVisible}
+        entries={dictionaryEntries}
+        onClose={handleCloseDictionarySidebar}
+        onSpeakWord={handleSpeakWord}
+      />
     </View>
   );
 }
@@ -473,6 +584,31 @@ const styles = StyleSheet.create({
   tocText: {
     fontSize: 20,
     color: '#4A90E2',
+    fontWeight: 'bold',
+  },
+  floatingDictionaryButton: {
+    position: 'absolute',
+    top: 110, // Position below TOC button
+    right: 20,
+    zIndex: 1000,
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    borderRadius: 25,
+    width: 50,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  dictionaryText: {
+    fontSize: 18,
+    color: '#8e44ad',
     fontWeight: 'bold',
   },
   scrollContainer: {
