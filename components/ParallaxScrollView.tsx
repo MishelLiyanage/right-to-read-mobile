@@ -1,5 +1,5 @@
-import React from 'react';
 import type { PropsWithChildren, ReactElement } from 'react';
+import React from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 
 import { ThemedView } from '@/components/ThemedView';
