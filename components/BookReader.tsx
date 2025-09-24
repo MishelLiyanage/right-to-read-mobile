@@ -2,6 +2,8 @@ import DictionarySidebar from '@/components/DictionarySidebar';
 import TableOfContentsSidebar from '@/components/TableOfContentsSidebar';
 import TextHighlighter from '@/components/TextHighlighter';
 import { ThemedText } from '@/components/ThemedText';
+import WordOverlay from '@/components/WordOverlay';
+import WordPopup from '@/components/WordPopup';
 import { useImageLayout } from '@/hooks/useImageLayout';
 import { PageSize } from '@/services/coordinateScaler';
 import { DictionaryService } from '@/services/dictionaryService';
@@ -9,7 +11,8 @@ import { BlockHighlightData, highlightDataService } from '@/services/highlightDa
 import { TextProcessor } from '@/services/textProcessor';
 import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
-import { Book, DictionaryEntry } from '@/types/book';
+import { WordLayoutData, WordPosition, WordPositionService } from '@/services/wordPositionService';
+import { Book, DictionaryEntry, WordDefinition } from '@/types/book';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
@@ -35,6 +38,15 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [isTOCSidebarVisible, setIsTOCSidebarVisible] = useState(false);
   const [isDictionarySidebarVisible, setIsDictionarySidebarVisible] = useState(false);
   const [dictionaryEntries, setDictionaryEntries] = useState<DictionaryEntry[]>([]);
+  
+  // Word selection states
+  const [wordLayoutData, setWordLayoutData] = useState<WordLayoutData | null>(null);
+  const [isWordPopupVisible, setIsWordPopupVisible] = useState(false);
+  const [selectedWord, setSelectedWord] = useState<string>('');
+  const [selectedWordPosition, setSelectedWordPosition] = useState<WordPosition | null>(null);
+  const [selectedWordDefinition, setSelectedWordDefinition] = useState<WordDefinition | null>(null);
+  const [isLoadingDefinition, setIsLoadingDefinition] = useState(false);
+  const [definitionError, setDefinitionError] = useState<string | null>(null);
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
@@ -42,6 +54,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const ttsService = useRef<TTSService | null>(null);
   const dictionaryService = useRef(DictionaryService.getInstance());
   const wordAudioService = useRef(WordAudioService.getInstance());
+  const wordPositionService = useRef(WordPositionService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
 
@@ -134,8 +147,71 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       if (ttsService.current) {
         ttsService.current.cleanup();
       }
+      // Clear word position cache
+      wordPositionService.current.clearCache();
     };
   }, [currentPageIndex]);
+
+  // Calculate word positions when image layout is ready
+  useEffect(() => {
+    const calculateWordLayout = async () => {
+      // Skip calculation if other overlays are visible or in debug mode
+      if (isDictionarySidebarVisible || isTOCSidebarVisible || isWordPopupVisible) {
+        return;
+      }
+
+      if (!currentPage?.blocks || !containerDimensions || !sourceImageDimensions) {
+        setWordLayoutData(null);
+        return;
+      }
+
+      try {
+        console.log('Calculating word layout for page', currentPageIndex + 1);
+        
+        const renderedImageSize = getRenderedImageSize();
+        const imageOffset = getImageOffset();
+        
+        if (!renderedImageSize || !imageOffset) {
+          console.warn('Image dimensions not ready for word layout calculation');
+          return;
+        }
+
+        // Use requestAnimationFrame for better performance
+        requestAnimationFrame(() => {
+          try {
+            // Use the new method that loads your actual coordinate data
+            const layoutData = wordPositionService.current.calculateWordPositionsFromData(
+              currentPage.pageNumber,
+              ORIGINAL_PAGE_SIZE,
+              renderedImageSize,
+              imageOffset
+            );
+
+            setWordLayoutData(layoutData);
+            console.log(`Word layout calculated from data files: ${layoutData.totalWords} words (displaying ${layoutData.words.length})`);
+          } catch (error) {
+            console.error('Failed to load word layout from data files:', error);
+            // Fallback to the old method if data files are not available
+            const layoutData = wordPositionService.current.calculateWordPositions(
+              currentPage.blocks!,
+              ORIGINAL_PAGE_SIZE,
+              renderedImageSize,
+              imageOffset
+            );
+            setWordLayoutData(layoutData);
+            console.log(`Word layout calculated (fallback): ${layoutData.totalWords} words`);
+          }
+        });
+      } catch (error) {
+        console.error('Failed to calculate word layout:', error);
+        setWordLayoutData(null);
+      }
+    };
+
+    // Debounce the calculation to avoid excessive calls
+    const timeoutId = setTimeout(calculateWordLayout, 300);
+    return () => clearTimeout(timeoutId);
+  }, [currentPageIndex, containerDimensions, sourceImageDimensions, currentPage, isDictionarySidebarVisible, isTOCSidebarVisible, isWordPopupVisible]);
 
   // Navigation functions
   const handlePreviousPage = () => {
@@ -241,6 +317,65 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   const handleCloseTOCSidebar = () => {
     setIsTOCSidebarVisible(false);
+  };
+
+  // Word selection handlers
+  const handleWordSelect = async (word: string, position: WordPosition) => {
+    console.log(`Word selected: "${word}"`);
+    
+    try {
+      // Set selected word and position
+      setSelectedWord(word);
+      setSelectedWordPosition(position);
+      setIsWordPopupVisible(true);
+      setDefinitionError(null);
+      setSelectedWordDefinition(null);
+      
+      // Load definition
+      setIsLoadingDefinition(true);
+      
+      const definitions = await dictionaryService.current.lookupWord(word);
+      if (definitions && definitions.length > 0) {
+        setSelectedWordDefinition(definitions[0]);
+      } else {
+        setDefinitionError(`No definition found for "${word}"`);
+      }
+    } catch (error) {
+      console.error('Error loading word definition:', error);
+      
+      if (error instanceof Error) {
+        if (error.message.includes('404') || error.message.includes('not found')) {
+          setDefinitionError(`"${word}" not found in dictionary`);
+        } else if (error.message.includes('network')) {
+          setDefinitionError('Please check your internet connection');
+        } else {
+          setDefinitionError(`Unable to load definition for "${word}"`);
+        }
+      } else {
+        setDefinitionError(`Failed to load definition for "${word}"`);
+      }
+    } finally {
+      setIsLoadingDefinition(false);
+    }
+  };
+
+  const handleWordPopupClose = () => {
+    setIsWordPopupVisible(false);
+    setSelectedWord('');
+    setSelectedWordPosition(null);
+    setSelectedWordDefinition(null);
+    setDefinitionError(null);
+    setIsLoadingDefinition(false);
+  };
+
+  const handleSpeakSelectedWord = async (word: string) => {
+    try {
+      await wordAudioService.current.speakWord(word);
+      console.log(`Spoken word: "${word}"`);
+    } catch (error) {
+      console.error('Error speaking word:', error);
+      Alert.alert('Error', `Failed to speak "${word}"`);
+    }
   };
 
   const handleDictionaryToggle = async () => {
@@ -519,6 +654,29 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           onSectionPress={handleTOCNavigation}
         />
       )}
+
+      {/* Word Overlay for word selection */}
+      {containerDimensions && (
+        <WordOverlay
+          layoutData={wordLayoutData}
+          onWordSelect={handleWordSelect}
+          isEnabled={!isWordPopupVisible && !isDictionarySidebarVisible && !isTOCSidebarVisible}
+          containerDimensions={containerDimensions}
+        />
+      )}
+
+      {/* Word Definition Popup */}
+      <WordPopup
+        isVisible={isWordPopupVisible}
+        word={selectedWord}
+        wordPosition={selectedWordPosition}
+        definition={selectedWordDefinition}
+        isLoading={isLoadingDefinition}
+        error={definitionError}
+        onClose={handleWordPopupClose}
+        onSpeakWord={handleSpeakSelectedWord}
+        containerDimensions={containerDimensions || { width: screenWidth, height: screenHeight }}
+      />
 
       {/* Dictionary Sidebar */}
       <DictionarySidebar
