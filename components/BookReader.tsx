@@ -48,6 +48,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [isLoadingDefinition, setIsLoadingDefinition] = useState(false);
   const [definitionError, setDefinitionError] = useState<string | null>(null);
   const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
+  const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
@@ -314,6 +315,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     }
   };
 
+  const handleZoomToggle = () => {
+    setIsZoomed(!isZoomed);
+  };
+
   const handleTOCNavigation = (targetPageNumber: number) => {
     // Find the page index that corresponds to the target page number
     const targetPageIndex = book.pages?.findIndex(page => page.pageNumber === targetPageNumber);
@@ -508,11 +513,24 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       {/* Page Content */}
       <Animated.View style={{ flex: 1, opacity: pageTransition }}>
-        <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.scrollContent}>
-          <View style={styles.imageContainer}>
+        <ScrollView 
+          style={styles.scrollContainer} 
+          contentContainerStyle={isZoomed ? styles.scrollContentZoomed : styles.scrollContent}
+          showsHorizontalScrollIndicator={isZoomed}
+          showsVerticalScrollIndicator={isZoomed}
+          scrollEnabled={isZoomed}
+        >
+          <View style={[styles.imageContainer, isZoomed && styles.imageContainerZoomed]}>
             <Image
               source={currentPage.image}
-              style={styles.pageImage}
+              style={[
+                styles.pageImage, 
+                isZoomed && { 
+                  transform: [{ scale: 2.0 }],
+                  width: '200%',
+                  height: '200%'
+                }
+              ]}
               contentFit="contain"
               onLoad={onImageLoad}
               onLayout={onImageLayout}
@@ -597,6 +615,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
           {/* Center Audio Controls */}
           <View style={styles.centerAudioControls}>
+            {/* Zoom/Magnifier Button */}
+            <TouchableOpacity 
+              style={[styles.controlButton, styles.magnifierButton]} 
+              onPress={handleZoomToggle}
+            >
+              <ThemedText style={styles.controlButtonText}>
+                {isZoomed ? '🔍−' : '🔍+'}
+              </ThemedText>
+            </TouchableOpacity>
+            
             {/* Play Button */}
             <TouchableOpacity 
               style={[
@@ -638,21 +666,24 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             
             {/* Speed Control */}
             <View style={styles.speedControl}>
+              {/* Decrease Speed Button */}
+              <TouchableOpacity 
+                style={styles.speedButton} 
+                onPress={() => handleSpeedChange(Math.max(0.25, playbackSpeed - 0.25))}
+              >
+                <ThemedText style={styles.speedButtonText}>−</ThemedText>
+              </TouchableOpacity>
+              
+              {/* Speed Indicator */}
               <ThemedText style={styles.speedLabel}>{playbackSpeed}×</ThemedText>
-              <View style={styles.speedButtons}>
-                <TouchableOpacity 
-                  style={styles.speedButton} 
-                  onPress={() => handleSpeedChange(Math.max(0.25, playbackSpeed - 0.25))}
-                >
-                  <ThemedText style={styles.speedButtonText}>−</ThemedText>
-                </TouchableOpacity>
-                <TouchableOpacity 
-                  style={styles.speedButton} 
-                  onPress={() => handleSpeedChange(Math.min(3.0, playbackSpeed + 0.25))}
-                >
-                  <ThemedText style={styles.speedButtonText}>+</ThemedText>
-                </TouchableOpacity>
-              </View>
+              
+              {/* Increase Speed Button */}
+              <TouchableOpacity 
+                style={styles.speedButton} 
+                onPress={() => handleSpeedChange(Math.min(3.0, playbackSpeed + 0.25))}
+              >
+                <ThemedText style={styles.speedButtonText}>+</ThemedText>
+              </TouchableOpacity>
             </View>
           </View>
 
@@ -809,11 +840,21 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     minHeight: '100%',
   },
+  scrollContentZoomed: {
+    flexGrow: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    minHeight: '200%',
+    minWidth: '200%',
+  },
   imageContainer: {
     flex: 1,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  imageContainerZoomed: {
+    overflow: 'visible',
   },
   pageImage: {
     width: '100%',
@@ -867,6 +908,11 @@ const styles = StyleSheet.create({
   stopButton: {
     backgroundColor: '#F44336',
   },
+  magnifierButton: {
+    backgroundColor: '#9C27B0',
+    marginRight: 108,
+    paddingRight: 8,
+  },
   controlButtonText: {
     color: '#fff',
     fontSize: 12,
@@ -912,32 +958,30 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   speedControl: {
+    flexDirection: 'row',
     alignItems: 'center',
-    minWidth: 60,
     marginLeft: 16,
     paddingLeft: 98,
+    gap: 8,
   },
   speedLabel: {
-    fontSize: 11,
+    fontSize: 12,
     color: '#666',
     fontWeight: '600',
-    marginBottom: 2,
-  },
-  speedButtons: {
-    flexDirection: 'row',
-    gap: 2,
+    minWidth: 30,
+    textAlign: 'center',
   },
   speedButton: {
-    backgroundColor: '#e0e0e0',
-    borderRadius: 12,
-    width: 20,
-    height: 20,
+    backgroundColor: '#0c6c05ff',
+    borderRadius: 16,
+    width: 32,
+    height: 32,
     alignItems: 'center',
     justifyContent: 'center',
   },
   speedButtonText: {
-    fontSize: 12,
-    color: '#333',
+    fontSize: 16,
+    color: '#fff',
     fontWeight: 'bold',
   },
 });
