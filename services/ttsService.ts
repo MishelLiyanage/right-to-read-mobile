@@ -20,6 +20,7 @@ export class TTSService {
   private blocks: TextBlock[] = [];
   private callbacks: TTSServiceCallbacks = {};
   private isInitialized: boolean = false;
+  private playbackRate: number = 1.0; // Default speed (1.0 = normal speed)
 
   constructor(callbacks?: TTSServiceCallbacks) {
     if (callbacks) {
@@ -29,6 +30,30 @@ export class TTSService {
 
   setCallbacks(callbacks: TTSServiceCallbacks) {
     this.callbacks = callbacks;
+  }
+
+  // Get current playback rate
+  getPlaybackRate(): number {
+    return this.playbackRate;
+  }
+
+  // Set playback rate (0.5 = half speed, 1.0 = normal speed, 2.0 = double speed)
+  async setPlaybackRate(rate: number): Promise<void> {
+    // Clamp rate between 0.25x and 3.0x
+    this.playbackRate = Math.max(0.25, Math.min(3.0, rate));
+    
+    // If currently playing, update the current sound's playback rate
+    if (this.currentSound && this.isPlaying) {
+      try {
+        await this.currentSound.setStatusAsync({
+          rate: this.playbackRate,
+          shouldCorrectPitch: true // Maintain voice pitch at different speeds
+        });
+        console.log(`TTS Service: Playback rate set to ${this.playbackRate}x`);
+      } catch (error) {
+        console.error('Failed to set playback rate:', error);
+      }
+    }
   }
 
   async initialize(): Promise<void> {
@@ -140,6 +165,11 @@ export class TTSService {
         }
       });
 
+      // Set playback rate and play
+      await sound.setStatusAsync({
+        rate: this.playbackRate,
+        shouldCorrectPitch: true
+      });
       await sound.playAsync();
       
     } catch (error) {
@@ -214,6 +244,11 @@ export class TTSService {
   async resume(): Promise<void> {
     try {
       if (this.currentSound && this.isPlaying && this.isPaused) {
+        // Ensure correct playback rate is set when resuming
+        await this.currentSound.setStatusAsync({
+          rate: this.playbackRate,
+          shouldCorrectPitch: true
+        });
         await this.currentSound.playAsync();
         this.isPaused = false;
         console.log('TTS Service: Resumed');
@@ -296,8 +331,12 @@ export class TTSService {
       // Create a new sound instance for word playback
       const { sound } = await Audio.Sound.createAsync(blockAudio);
       
-      // Set position to word start time and play
+      // Set position to word start time, set playback rate, and play
       await sound.setPositionAsync(wordMark.time);
+      await sound.setStatusAsync({
+        rate: this.playbackRate,
+        shouldCorrectPitch: true
+      });
       await sound.playAsync();
 
       // Stop playback after word duration

@@ -47,6 +47,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [selectedWordDefinition, setSelectedWordDefinition] = useState<WordDefinition | null>(null);
   const [isLoadingDefinition, setIsLoadingDefinition] = useState(false);
   const [definitionError, setDefinitionError] = useState<string | null>(null);
+  const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
@@ -303,6 +304,13 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       await ttsService.current.stop();
       setIsPlaying(false);
       setIsPaused(false);
+    }
+  };
+
+  const handleSpeedChange = async (newSpeed: number) => {
+    setPlaybackSpeed(newSpeed);
+    if (ttsService.current) {
+      await ttsService.current.setPlaybackRate(newSpeed);
     }
   };
 
@@ -627,6 +635,25 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             >
               <ThemedText style={styles.controlButtonText}>⏹ Stop</ThemedText>
             </TouchableOpacity>
+            
+            {/* Speed Control */}
+            <View style={styles.speedControl}>
+              <ThemedText style={styles.speedLabel}>{playbackSpeed}×</ThemedText>
+              <View style={styles.speedButtons}>
+                <TouchableOpacity 
+                  style={styles.speedButton} 
+                  onPress={() => handleSpeedChange(Math.max(0.25, playbackSpeed - 0.25))}
+                >
+                  <ThemedText style={styles.speedButtonText}>−</ThemedText>
+                </TouchableOpacity>
+                <TouchableOpacity 
+                  style={styles.speedButton} 
+                  onPress={() => handleSpeedChange(Math.min(3.0, playbackSpeed + 0.25))}
+                >
+                  <ThemedText style={styles.speedButtonText}>+</ThemedText>
+                </TouchableOpacity>
+              </View>
+            </View>
           </View>
 
           {/* Next Navigation Button - Right */}
@@ -883,5 +910,34 @@ const styles = StyleSheet.create({
     color: '#666',
     fontWeight: '500',
     textAlign: 'center',
+  },
+  speedControl: {
+    alignItems: 'center',
+    minWidth: 60,
+    marginLeft: 16,
+    paddingLeft: 98,
+  },
+  speedLabel: {
+    fontSize: 11,
+    color: '#666',
+    fontWeight: '600',
+    marginBottom: 2,
+  },
+  speedButtons: {
+    flexDirection: 'row',
+    gap: 2,
+  },
+  speedButton: {
+    backgroundColor: '#e0e0e0',
+    borderRadius: 12,
+    width: 20,
+    height: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  speedButtonText: {
+    fontSize: 12,
+    color: '#333',
+    fontWeight: 'bold',
   },
 });
