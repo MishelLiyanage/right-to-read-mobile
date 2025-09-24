@@ -570,45 +570,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         
         {/* All Controls in One Row */}
         <View style={styles.allControlsRow}>
-          {/* Audio Control Buttons */}
-          <TouchableOpacity 
-            style={[
-              styles.controlButton, 
-              isPaused 
-                ? styles.resumeButton 
-                : isPlaying 
-                  ? styles.pauseButton 
-                  : styles.playButton
-            ]} 
-            onPress={isPaused ? handlePlayPage : isPlaying ? handlePauseReading : handlePlayPage}
-            disabled={false}
-          >
-            <ThemedText style={styles.controlButtonText}>
-              {isPaused 
-                ? '▶ Resume' 
-                : isPlaying 
-                  ? '⏸ Pause' 
-                  : '▶ Play'
-              }
-            </ThemedText>
-          </TouchableOpacity>
-          
-          <TouchableOpacity 
-            style={[styles.controlButton, styles.stopButton]} 
-            onPress={handleStopReading}
-            disabled={!isPlaying && !isPaused}
-          >
-            <ThemedText style={styles.controlButtonText}>⏹ Stop</ThemedText>
-          </TouchableOpacity>
-
-          {/* Page Indicator */}
-          <View style={styles.pageIndicatorCenter}>
-            <ThemedText style={styles.pageIndicatorText}>
-              Page {currentPageIndex + 1} of {book?.pages?.length || 0}
-            </ThemedText>
-          </View>
-
-          {/* Previous Navigation Button */}
+          {/* Previous Navigation Button - Left */}
           <TouchableOpacity 
             style={[
               styles.navigationButton, 
@@ -625,7 +587,49 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             </ThemedText>
           </TouchableOpacity>
 
-          {/* Next Navigation Button */}
+          {/* Center Audio Controls */}
+          <View style={styles.centerAudioControls}>
+            {/* Play Button */}
+            <TouchableOpacity 
+              style={[
+                styles.controlButton, 
+                isPaused 
+                  ? styles.resumeButton 
+                  : isPlaying 
+                    ? styles.pauseButton 
+                    : styles.playButton
+              ]} 
+              onPress={isPaused ? handlePlayPage : isPlaying ? handlePauseReading : handlePlayPage}
+              disabled={false}
+            >
+              <ThemedText style={styles.controlButtonText}>
+                {isPaused 
+                  ? '▶ Resume' 
+                  : isPlaying 
+                    ? '⏸ Pause' 
+                    : '▶ Play'
+                }
+              </ThemedText>
+            </TouchableOpacity>
+            
+            {/* Page Indicator */}
+            <View style={styles.pageIndicatorCenter}>
+              <ThemedText style={styles.pageIndicatorText}>
+                Page {currentPageIndex + 1} of {book?.pages?.length || 0}
+              </ThemedText>
+            </View>
+            
+            {/* Stop Button */}
+            <TouchableOpacity 
+              style={[styles.controlButton, styles.stopButton]} 
+              onPress={handleStopReading}
+              disabled={!isPlaying && !isPaused}
+            >
+              <ThemedText style={styles.controlButtonText}>⏹ Stop</ThemedText>
+            </TouchableOpacity>
+          </View>
+
+          {/* Next Navigation Button - Right */}
           <TouchableOpacity 
             style={[
               styles.navigationButton, 
@@ -810,6 +814,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexWrap: 'wrap',
     gap: 4,
+  },
+  centerAudioControls: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
   },
   controlButton: {
     paddingHorizontal: 8,
