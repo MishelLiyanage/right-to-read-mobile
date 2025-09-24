@@ -35,3 +35,24 @@ export interface SpeechMark {
   end: number;
   value: string;
 }
+
+export interface WordDefinition {
+  word: string;
+  phonetic?: string;
+  meanings: WordMeaning[];
+}
+
+export interface WordMeaning {
+  partOfSpeech: string;
+  definitions: {
+    definition: string;
+    example?: string;
+  }[];
+}
+
+export interface DictionaryEntry {
+  word: string;
+  definitions: WordDefinition[];
+  isLoading?: boolean;
+  error?: string;
+}
