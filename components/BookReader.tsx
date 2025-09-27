@@ -13,6 +13,7 @@ import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
 import { WordLayoutData, WordPosition, WordPositionService } from '@/services/wordPositionService';
 import { Book, DictionaryEntry, WordDefinition } from '@/types/book';
+import Slider from '@react-native-community/slider';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
@@ -26,6 +27,11 @@ const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 // Original page dimensions based on coordinate analysis
 const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
+
+// Audio speed control constants
+const MIN_SPEED = 0.25;
+const MAX_SPEED = 3.0;
+const SPEED_STEP = 0.25;
 
 export default function BookReader({ book, onClose }: BookReaderProps) {
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -47,9 +53,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [selectedWordDefinition, setSelectedWordDefinition] = useState<WordDefinition | null>(null);
   const [isLoadingDefinition, setIsLoadingDefinition] = useState(false);
   const [definitionError, setDefinitionError] = useState<string | null>(null);
+  const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
+  const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
+  const [isFooterVisible, setIsFooterVisible] = useState(true); // Footer visibility state
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
+  const footerAnimation = useRef(new Animated.Value(0)).current; // 0 = visible, 1 = hidden
+  const footerTimer = useRef<number | null>(null); // Timer for auto-hide
 
   const ttsService = useRef<TTSService | null>(null);
   const dictionaryService = useRef(DictionaryService.getInstance());
@@ -57,6 +68,15 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const wordPositionService = useRef(WordPositionService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
+
+  // Cleanup effect for timer
+  useEffect(() => {
+    return () => {
+      if (footerTimer.current) {
+        clearTimeout(footerTimer.current);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     console.log(`Initializing page ${currentPageIndex + 1} of ${totalPages}`);
@@ -86,6 +106,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         onPlaybackStart: () => {
           setIsPlaying(true);
           setIsPaused(false);
+          hideFooter(); // Auto-hide footer when reading starts
           console.log('Started reading page content');
         },
         onPlaybackComplete: () => {
@@ -93,6 +114,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setIsPaused(false);
           setCurrentBlockIndex(0);
           setCurrentBlockHighlightData(null);
+          showFooter(); // Show footer when reading completes
           console.log('Completed reading page content');
         },
         onPlaybackError: (error) => {
@@ -215,6 +237,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   // Navigation functions
   const handlePreviousPage = () => {
+    resetFooterTimer(); // Reset timer on interaction
+    
     if (isPageTransitioning || currentPageIndex <= 0) return;
     
     setIsPageTransitioning(true);
@@ -239,6 +263,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleNextPage = () => {
+    resetFooterTimer(); // Reset timer on interaction
+    
     if (isPageTransitioning || !book?.pages || currentPageIndex >= book.pages.length - 1) return;
     
     setIsPageTransitioning(true);
@@ -263,6 +289,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handlePlayPage = async () => {
+    resetFooterTimer(); // Reset timer on interaction
+    
     if (!ttsService.current || !currentPage?.blocks) {
       Alert.alert('Error', 'No content available to read');
       return;
@@ -286,10 +314,13 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handlePauseReading = async () => {
+    resetFooterTimer(); // Reset timer on interaction
+    
     if (ttsService.current && isPlaying && !isPaused) {
       try {
         await ttsService.current.pause();
         setIsPaused(true);
+        showFooter(); // Show footer when paused so user can interact
         console.log('Paused reading');
       } catch (error) {
         console.error('Error pausing TTS:', error);
@@ -299,12 +330,74 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleStopReading = async () => {
+    resetFooterTimer(); // Reset timer on interaction
+    
     if (ttsService.current) {
       await ttsService.current.stop();
       setIsPlaying(false);
       setIsPaused(false);
     }
   };
+
+  const handleSpeedChange = async (newSpeed: number) => {
+    resetFooterTimer(); // Reset timer on interaction
+    
+    setPlaybackSpeed(newSpeed);
+    if (ttsService.current) {
+      await ttsService.current.setPlaybackRate(newSpeed);
+    }
+  };
+
+  const handleZoomToggle = () => {
+    setIsZoomed(!isZoomed);
+  };
+
+  // Footer animation functions
+  const hideFooter = () => {
+    // Clear any existing timer
+    if (footerTimer.current) {
+      clearTimeout(footerTimer.current);
+      footerTimer.current = null;
+    }
+    
+    setIsFooterVisible(false);
+    Animated.timing(footerAnimation, {
+      toValue: 1, // 1 = hidden
+      duration: 300,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  const showFooter = () => {
+    // Clear any existing timer
+    if (footerTimer.current) {
+      clearTimeout(footerTimer.current);
+    }
+    
+    setIsFooterVisible(true);
+    Animated.timing(footerAnimation, {
+      toValue: 0, // 0 = visible
+      duration: 300,
+      useNativeDriver: true,
+    }).start();
+    
+    // Set auto-hide timer for 5 seconds
+    footerTimer.current = setTimeout(() => {
+      hideFooter();
+    }, 5000);
+  };
+
+  // Reset the auto-hide timer (called when user interacts with footer)
+  const resetFooterTimer = () => {
+    if (isFooterVisible && footerTimer.current) {
+      clearTimeout(footerTimer.current);
+      footerTimer.current = setTimeout(() => {
+        hideFooter();
+      }, 5000);
+    }
+  };
+
+
 
   const handleTOCNavigation = (targetPageNumber: number) => {
     // Find the page index that corresponds to the target page number
@@ -473,8 +566,38 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     );
   }
 
+  // Touch handling for swipe detection
+  const touchStart = useRef({ y: 0, time: 0 });
+  
+  const handleTouchStart = (event: any) => {
+    touchStart.current = {
+      y: event.nativeEvent.pageY,
+      time: Date.now()
+    };
+  };
+
+  const handleTouchEnd = (event: any) => {
+    const touchEnd = {
+      y: event.nativeEvent.pageY,
+      time: Date.now()
+    };
+    
+    const deltaY = touchStart.current.y - touchEnd.y;
+    const deltaTime = touchEnd.time - touchStart.current.time;
+    const velocity = deltaY / deltaTime;
+    
+    // Detect upward swipe (positive deltaY, fast velocity, and footer is hidden)
+    if (deltaY > 50 && velocity > 0.5 && !isFooterVisible) {
+      showFooter();
+    }
+  };
+
   return (
-    <View style={styles.container}>
+    <View 
+      style={styles.container}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       {/* Floating Back Button */}
       <TouchableOpacity onPress={onClose} style={styles.floatingBackButton}>
         <ThemedText style={styles.backText}>←</ThemedText>
@@ -500,11 +623,24 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       {/* Page Content */}
       <Animated.View style={{ flex: 1, opacity: pageTransition }}>
-        <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.scrollContent}>
-          <View style={styles.imageContainer}>
+        <ScrollView 
+          style={styles.scrollContainer} 
+          contentContainerStyle={isZoomed ? styles.scrollContentZoomed : styles.scrollContent}
+          showsHorizontalScrollIndicator={isZoomed}
+          showsVerticalScrollIndicator={isZoomed}
+          scrollEnabled={isZoomed}
+        >
+          <View style={[styles.imageContainer, isZoomed && styles.imageContainerZoomed]}>
             <Image
               source={currentPage.image}
-              style={styles.pageImage}
+              style={[
+                styles.pageImage, 
+                isZoomed && { 
+                  transform: [{ scale: 2.0 }],
+                  width: '200%',
+                  height: '200%'
+                }
+              ]}
               contentFit="contain"
               onLoad={onImageLoad}
               onLayout={onImageLayout}
@@ -513,8 +649,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             {/* Text Highlighting Overlay */}
           {currentBlockHighlightData && (() => {
             // Calculate display image size based on full height layout
-            // The image takes the full available height (from top to audio controls) and adjusts width maintaining aspect ratio
-            const availableHeight = screenHeight - 100; // Only subtract space for audio controls at bottom
+            // The image takes the full available height since footer now overlays
+            const availableHeight = screenHeight; // Use full screen height since footer overlays
             const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
             
             // Calculate display size - image fills height, width is calculated from aspect ratio
@@ -565,7 +701,19 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       </Animated.View>
 
       {/* Audio Controls */}
-      <View style={styles.audioControls}>
+      <Animated.View 
+        style={[
+          styles.audioControls,
+          {
+            transform: [{
+              translateY: footerAnimation.interpolate({
+                inputRange: [0, 1],
+                outputRange: [0, 100], // Slide down 100px when hidden
+              })
+            }]
+          }
+        ]}
+      >
         <ThemedText style={styles.audioTitle}>Listen to this page:</ThemedText>
         
         {/* All Controls in One Row */}
@@ -589,6 +737,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
           {/* Center Audio Controls */}
           <View style={styles.centerAudioControls}>
+            {/* Zoom/Magnifier Button */}
+            <TouchableOpacity 
+              style={[styles.controlButton, styles.magnifierButton]} 
+              onPress={handleZoomToggle}
+            >
+              <ThemedText style={styles.controlButtonText}>
+                {isZoomed ? '🔍−' : '🔍+'}
+              </ThemedText>
+            </TouchableOpacity>
+            
             {/* Play Button */}
             <TouchableOpacity 
               style={[
@@ -627,6 +785,24 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             >
               <ThemedText style={styles.controlButtonText}>⏹ Stop</ThemedText>
             </TouchableOpacity>
+            
+            {/* Speed Control */}
+            <View style={styles.speedControl}>
+              <ThemedText style={styles.speedControlTitle}>{playbackSpeed}x</ThemedText>
+              <View style={styles.sliderContainer}>
+                <Slider
+                  style={styles.speedSlider}
+                  minimumValue={MIN_SPEED}
+                  maximumValue={MAX_SPEED}
+                  step={SPEED_STEP}
+                  value={playbackSpeed}
+                  onValueChange={handleSpeedChange}
+                  minimumTrackTintColor="#000"
+                  maximumTrackTintColor="#ddd"
+                  thumbTintColor="#000"
+                />
+              </View>
+            </View>
           </View>
 
           {/* Next Navigation Button - Right */}
@@ -646,7 +822,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             </ThemedText>
           </TouchableOpacity>
         </View>
-      </View>
+      </Animated.View>
 
       {/* Table of Contents Sidebar */}
       {book.tableOfContents && (
@@ -782,11 +958,21 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     minHeight: '100%',
   },
+  scrollContentZoomed: {
+    flexGrow: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    minHeight: '200%',
+    minWidth: '200%',
+  },
   imageContainer: {
     flex: 1,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  imageContainerZoomed: {
+    overflow: 'visible',
   },
   pageImage: {
     width: '100%',
@@ -794,12 +980,17 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   audioControls: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
     backgroundColor: '#fff',
-    paddingVertical: 6,
-    paddingBottom: 32,
+    paddingVertical: 4,
+    paddingBottom: 20,
     paddingHorizontal: 26,
     borderTopWidth: 1,
     borderTopColor: '#e0e0e0',
+    zIndex: 1000,
   },
   audioTitle: {
     fontSize: 14,
@@ -839,6 +1030,11 @@ const styles = StyleSheet.create({
   },
   stopButton: {
     backgroundColor: '#F44336',
+  },
+  magnifierButton: {
+    backgroundColor: '#9C27B0',
+    marginRight: 108,
+    paddingRight: 8,
   },
   controlButtonText: {
     color: '#fff',
@@ -883,5 +1079,45 @@ const styles = StyleSheet.create({
     color: '#666',
     fontWeight: '500',
     textAlign: 'center',
+  },
+  speedControl: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginLeft: 16,
+    paddingLeft: 60,
+    gap: 8,
+  },
+  speedControlTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 4,
+  },
+  sliderContainer: {
+    position: 'relative',
+    width: 180,
+    alignItems: 'center',
+  },
+  speedSlider: {
+    width: 180,
+    height: 30,
+  },
+  speedDots: {
+    position: 'absolute',
+    top: 13,
+    left: 0,
+    right: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+  },
+  speedDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#ddd',
+  },
+  speedDotActive: {
+    backgroundColor: '#000',
   },
 });
