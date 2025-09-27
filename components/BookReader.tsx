@@ -13,6 +13,7 @@ import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
 import { WordLayoutData, WordPosition, WordPositionService } from '@/services/wordPositionService';
 import { Book, DictionaryEntry, WordDefinition } from '@/types/book';
+import Slider from '@react-native-community/slider';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
@@ -26,6 +27,11 @@ const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 // Original page dimensions based on coordinate analysis
 const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
+
+// Audio speed control constants
+const MIN_SPEED = 0.25;
+const MAX_SPEED = 3.0;
+const SPEED_STEP = 0.25;
 
 export default function BookReader({ book, onClose }: BookReaderProps) {
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -666,24 +672,20 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             
             {/* Speed Control */}
             <View style={styles.speedControl}>
-              {/* Decrease Speed Button */}
-              <TouchableOpacity 
-                style={styles.speedButton} 
-                onPress={() => handleSpeedChange(Math.max(0.25, playbackSpeed - 0.25))}
-              >
-                <ThemedText style={styles.speedButtonText}>−</ThemedText>
-              </TouchableOpacity>
-              
-              {/* Speed Indicator */}
-              <ThemedText style={styles.speedLabel}>{playbackSpeed}×</ThemedText>
-              
-              {/* Increase Speed Button */}
-              <TouchableOpacity 
-                style={styles.speedButton} 
-                onPress={() => handleSpeedChange(Math.min(3.0, playbackSpeed + 0.25))}
-              >
-                <ThemedText style={styles.speedButtonText}>+</ThemedText>
-              </TouchableOpacity>
+              <ThemedText style={styles.speedControlTitle}>{playbackSpeed}x</ThemedText>
+              <View style={styles.sliderContainer}>
+                <Slider
+                  style={styles.speedSlider}
+                  minimumValue={MIN_SPEED}
+                  maximumValue={MAX_SPEED}
+                  step={SPEED_STEP}
+                  value={playbackSpeed}
+                  onValueChange={handleSpeedChange}
+                  minimumTrackTintColor="#000"
+                  maximumTrackTintColor="#ddd"
+                  thumbTintColor="#000"
+                />
+              </View>
             </View>
           </View>
 
@@ -863,8 +865,8 @@ const styles = StyleSheet.create({
   },
   audioControls: {
     backgroundColor: '#fff',
-    paddingVertical: 6,
-    paddingBottom: 32,
+    paddingVertical: 4,
+    paddingBottom: 20,
     paddingHorizontal: 26,
     borderTopWidth: 1,
     borderTopColor: '#e0e0e0',
@@ -958,30 +960,43 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   speedControl: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
     marginLeft: 16,
-    paddingLeft: 98,
+    paddingLeft: 60,
     gap: 8,
   },
-  speedLabel: {
-    fontSize: 12,
-    color: '#666',
-    fontWeight: '600',
-    minWidth: 30,
-    textAlign: 'center',
-  },
-  speedButton: {
-    backgroundColor: '#0c6c05ff',
-    borderRadius: 16,
-    width: 32,
-    height: 32,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  speedButtonText: {
+  speedControlTitle: {
     fontSize: 16,
-    color: '#fff',
     fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 4,
+  },
+  sliderContainer: {
+    position: 'relative',
+    width: 180,
+    alignItems: 'center',
+  },
+  speedSlider: {
+    width: 180,
+    height: 30,
+  },
+  speedDots: {
+    position: 'absolute',
+    top: 13,
+    left: 0,
+    right: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+  },
+  speedDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#ddd',
+  },
+  speedDotActive: {
+    backgroundColor: '#000',
   },
 });
