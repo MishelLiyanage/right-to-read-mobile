@@ -165,6 +165,193 @@ export const getAllBooks = (): Book[] => {
           ]
         },
         {
+          pageNumber: 23,
+          image: require('@/data/grade_3_english_book_page_23/grade_3_english_book.pdf_page_23.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Listen and repeat.",
+              audio: require('@/data/grade_3_english_book_page_23/block_23_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "Hello! I'm Rashini. What's your name?",
+              audio: require('@/data/grade_3_english_book_page_23/block_23_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "Hello! I'm Tharindu.",
+              audio: require('@/data/grade_3_english_book_page_23/block_23_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "Nice to meet you!",
+              audio: require('@/data/grade_3_english_book_page_23/block_23_5_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 26,
+          image: require('@/data/grade_3_english_book_page_26/grade_3_english_book.pdf_page_26.png'),
+          blocks: [
+            {
+              id: 1,
+              text: "17 Listen and say.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "This is my pet. It is a cat.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_2_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "This is my pet. It is a dog.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "This is my pet. It is a bird.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_5_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "This is my pet. It is a fish.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_7_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "This is my pet. It is a rabbit.",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_8_audio.mp3'),
+            },
+            {
+              id: 10,
+              text: "What is your pet?",
+              audio: require('@/data/grade_3_english_book_page_26/block_26_10_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 27,
+          image: require('@/data/grade_3_english_book_page_27/grade_3_english_book.pdf_page_27.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Sing the song.",
+              audio: require('@/data/grade_3_english_book_page_27/block_27_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "My pet, my pet. I have a pet.",
+              audio: require('@/data/grade_3_english_book_page_27/block_27_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "What pet do you have? A cat, a cat. I have a cat.",
+              audio: require('@/data/grade_3_english_book_page_27/block_27_4_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 29,
+          image: require('@/data/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Listen and say.",
+              audio: require('@/data/grade_3_english_book_page_29/block_29_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "This is my family.",
+              audio: require('@/data/grade_3_english_book_page_29/block_29_3_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 30,
+          image: require('@/data/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Listen and say.",
+              audio: require('@/data/grade_3_english_book_page_30/block_30_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "Where do you live?",
+              audio: require('@/data/grade_3_english_book_page_30/block_30_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "I live in Colombo.",
+              audio: require('@/data/grade_3_english_book_page_30/block_30_4_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "I live in Kandy.",
+              audio: require('@/data/grade_3_english_book_page_30/block_30_6_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 31,
+          image: require('@/data/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Listen and say.",
+              audio: require('@/data/grade_3_english_book_page_31/block_31_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "This is a house.",
+              audio: require('@/data/grade_3_english_book_page_31/block_31_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "This is a school.",
+              audio: require('@/data/grade_3_english_book_page_31/block_31_4_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "This is a shop.",
+              audio: require('@/data/grade_3_english_book_page_31/block_31_7_audio.mp3'),
+            },
+            {
+              id: 10,
+              text: "This is a hospital.",
+              audio: require('@/data/grade_3_english_book_page_31/block_31_10_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 32,
+          image: require('@/data/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32.png'),
+          blocks: [
+            {
+              id: 2,
+              text: "Listen and say.",
+              audio: require('@/data/grade_3_english_book_page_32/block_32_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "Where is the school?",
+              audio: require('@/data/grade_3_english_book_page_32/block_32_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "It is here.",
+              audio: require('@/data/grade_3_english_book_page_32/block_32_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "Where is the hospital?",
+              audio: require('@/data/grade_3_english_book_page_32/block_32_5_audio.mp3'),
+            },
+          ]
+        },
+        {
           pageNumber: 44,
           image: require('@/data/grade_3_english_book_page_44/grade_3_english_book.pdf_page_44.png'),
           blocks: [

@@ -19,6 +19,8 @@ export interface BookPage {
   pageNumber: number;
   image: any; // require() result
   blocks?: TextBlock[];
+  blocksData?: any; // The full blocks JSON data
+  trimmedBlocksData?: any; // The trimmed blocks JSON data
 }
 
 export interface TextBlock {
@@ -26,6 +28,20 @@ export interface TextBlock {
   text: string;
   audio: any; // require() result
   speechMarks?: SpeechMark[];
+  words?: string[];
+  boundingBoxes?: number[][][]; // Array of bounding boxes for each word
+  ssml?: string;
+  dialog?: string;
+  personType?: string;
+  timing?: WordTiming[];
+}
+
+export interface WordTiming {
+  time: number;
+  type: string;
+  start: number;
+  end: number;
+  value: string;
 }
 
 export interface SpeechMark {
