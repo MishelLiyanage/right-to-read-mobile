@@ -13,7 +13,7 @@ export class WordAudioService {
 
   async speakWord(word: string): Promise<void> {
     if (this.isSpeaking) {
-      console.log('Already speaking, stopping previous speech');
+
       await this.stop();
     }
 
@@ -27,15 +27,15 @@ export class WordAudioService {
           rate: 0.75, // Slightly slower for better clarity
           voice: undefined, // Use default system voice
           onStart: () => {
-            console.log(`Started speaking word: "${word}"`);
+
           },
           onDone: () => {
-            console.log(`Finished speaking word: "${word}"`);
+
             this.isSpeaking = false;
             resolve();
           },
           onStopped: () => {
-            console.log(`Stopped speaking word: "${word}"`);
+
             this.isSpeaking = false;
             resolve();
           },

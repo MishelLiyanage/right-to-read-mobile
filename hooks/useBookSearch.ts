@@ -29,7 +29,7 @@ export function useBookSearch(allBooks: Book[]): UseBookSearchReturn {
       const suggestions = BookSearchService.getSearchSuggestions(allBooks, searchQuery);
       setSearchSuggestions(suggestions);
       
-      console.log(`Search completed: "${searchQuery}" found ${results.length} results`);
+
     } catch (error) {
       console.error('Search error:', error);
       setFilteredBooks(allBooks);
@@ -57,7 +57,7 @@ export function useBookSearch(allBooks: Book[]): UseBookSearchReturn {
       setSearchSuggestions(suggestions);
       
       setIsSearching(false);
-      console.log(`Real-time search: "${query}" found ${results.length} results`);
+
     }
   }, [allBooks]);
 

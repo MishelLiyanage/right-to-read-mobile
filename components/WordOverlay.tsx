@@ -73,7 +73,7 @@ function WordOverlay({
   }, [layoutData, isEnabled, containerDimensions]);
 
   const handleWordPress = (wordPos: WordPosition) => {
-    console.log(`Word selected: "${wordPos.word}" from block ${wordPos.blockId}`);
+
     onWordSelect(wordPos.word, wordPos);
   };
 

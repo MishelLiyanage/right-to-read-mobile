@@ -21,7 +21,7 @@ export class ImagePreloadService {
    * Preload images for all words on a specific page
    */
   async preloadImagesForPage(pageNumber: number, words: string[]): Promise<void> {
-    console.log(`Starting image preload for page ${pageNumber} with ${words.length} words`);
+
     
     // If already preloading this page, return the existing promise
     if (this.preloadingPromises.has(pageNumber)) {
@@ -30,7 +30,7 @@ export class ImagePreloadService {
 
     // If already cached, return immediately
     if (this.pageImageCache.has(pageNumber)) {
-      console.log(`Images already cached for page ${pageNumber}`);
+
       return;
     }
 
@@ -48,7 +48,7 @@ export class ImagePreloadService {
     const imageCache: WordImageCache = {};
     const uniqueWords = [...new Set(words.map(word => word.toLowerCase().trim()))];
     
-    console.log(`Preloading images for ${uniqueWords.length} unique words on page ${pageNumber}`);
+
 
     // Preload images in batches to avoid overwhelming the API
     const batchSize = 3;
@@ -59,7 +59,7 @@ export class ImagePreloadService {
         try {
           const imageUrl = await this.googleImageService.searchImage(word);
           imageCache[word] = imageUrl;
-          console.log(`Preloaded image for "${word}": ${imageUrl ? 'success' : 'fallback'}`);
+
         } catch (error) {
           console.error(`Failed to preload image for "${word}":`, error);
           imageCache[word] = null;
@@ -75,7 +75,7 @@ export class ImagePreloadService {
     }
 
     this.pageImageCache.set(pageNumber, imageCache);
-    console.log(`Completed image preload for page ${pageNumber}`);
+
   }
 
   /**

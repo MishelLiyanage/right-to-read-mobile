@@ -32,7 +32,7 @@ export default function BooksScreen() {
     // Add book to recent books when clicked
     try {
       await addRecentBook(book);
-      console.log(`Added "${book.title}" to recent books`);
+
     } catch (error) {
       console.error('Failed to add book to recent:', error);
     }
@@ -51,7 +51,7 @@ export default function BooksScreen() {
   const handleClearRecent = async () => {
     try {
       await clearRecentBooks();
-      console.log('Cleared all recent books');
+
     } catch (error) {
       console.error('Failed to clear recent books:', error);
     }

@@ -65,7 +65,7 @@ class HighlightDataService {
       const bookDataService = require('./bookDataService').BookDataService.getInstance();
       const blockData = bookDataService.getBlocksForPage(pageNumber) || {};
       
-      console.log(`Loaded block data for page ${pageNumber} with keys:`, Object.keys(blockData));
+
       this.blockDataCache.set(cacheKey, blockData);
       return blockData;
     } catch (error) {
@@ -76,18 +76,17 @@ class HighlightDataService {
 
   async getBlockHighlightData(blockId: number, pageNumber: number): Promise<BlockHighlightData | null> {
     try {
-      console.log(`Loading highlight data for block ${blockId} on page ${pageNumber}`);
+
       
       const [speechMarks, allBlockData] = await Promise.all([
         this.loadSpeechMarks(blockId, pageNumber),
         this.loadBlockData(pageNumber)
       ]);
 
-      console.log(`Speech marks loaded: ${speechMarks.length} items`);
-      console.log(`Block data keys:`, Object.keys(allBlockData));
+
       
       const blockData = allBlockData[blockId.toString()];
-      console.log(`Block data for ${blockId}:`, blockData);
+
       
       if (!blockData) {
         console.warn(`No block data found for block ${blockId}`);

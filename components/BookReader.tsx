@@ -84,8 +84,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   }, []);
 
   useEffect(() => {
-    console.log(`Initializing page ${currentPageIndex + 1} of ${totalPages}`);
-    
     // Cleanup previous TTS service
     const cleanupPrevious = async () => {
       if (ttsService.current) {
@@ -112,7 +110,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setIsPlaying(true);
           setIsPaused(false);
           hideFooter(); // Auto-hide footer when reading starts
-          console.log('Started reading page content');
         },
         onPlaybackComplete: () => {
           setIsPlaying(false);
@@ -121,7 +118,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setCurrentBlockHighlightData(null);
           setCurrentlyPlayingBlockId(null); // Reset individual block playback
           showFooter(); // Show footer when reading completes
-          console.log('Completed reading page content');
         },
         onPlaybackError: (error) => {
           setIsPlaying(false);
@@ -134,7 +130,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         },
         onBlockStart: async (blockIndex, text) => {
           setCurrentBlockIndex(blockIndex);
-          console.log(`Reading block ${blockIndex + 1}: "${text}"`);
           
           // Load highlighting data for current block
           const blockId = currentPage?.blocks?.[blockIndex]?.id;
@@ -148,7 +143,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           }
         },
         onBlockComplete: (blockIndex) => {
-          console.log(`Completed block ${blockIndex + 1}`);
         },
         onPlaybackProgress: (position, duration, blockIndex) => {
           setCurrentPlaybackPosition(position);
@@ -162,7 +156,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         try {
           await ttsService.current.initialize();
           ttsService.current.loadContent(currentPage.blocks);
-          console.log(`TTS initialized and loaded ${currentPage.blocks.length} blocks for page ${currentPageIndex + 1}`);
         } catch (error) {
           console.error('Failed to initialize TTS Service:', error);
         }
@@ -195,13 +188,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       }
 
       try {
-        console.log('Calculating word layout for page', currentPageIndex + 1);
-        
         const renderedImageSize = getRenderedImageSize();
         const imageOffset = getImageOffset();
         
         if (!renderedImageSize || !imageOffset) {
-          console.warn('Image dimensions not ready for word layout calculation');
           return;
         }
 
@@ -217,13 +207,12 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             );
 
             setWordLayoutData(layoutData);
-            console.log(`Word layout calculated from data files: ${layoutData.totalWords} words (displaying ${layoutData.words.length})`);
             
             // Preload images for all words on this page
             const allWords = layoutData.words.map(wordPos => wordPos.word);
             imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
               .then(() => {
-                console.log(`Image preloading completed for page ${currentPage.pageNumber}`);
+                // Image preloading completed
               })
               .catch(error => {
                 console.error(`Image preloading failed for page ${currentPage.pageNumber}:`, error);
@@ -239,13 +228,12 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               imageOffset
             );
             setWordLayoutData(layoutData);
-            console.log(`Word layout calculated (fallback): ${layoutData.totalWords} words`);
             
             // Preload images for fallback method too
             const allWords = layoutData.words.map(wordPos => wordPos.word);
             imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
               .then(() => {
-                console.log(`Image preloading completed for page ${currentPage.pageNumber} (fallback)`);
+                // Image preloading completed (fallback)
               })
               .catch(error => {
                 console.error(`Image preloading failed for page ${currentPage.pageNumber} (fallback):`, error);
@@ -334,11 +322,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         // Resume if paused
         await ttsService.current.resume();
         setIsPaused(false);
-        console.log('Resumed reading from pause');
       } else if (!isPlaying) {
         // Start from beginning if not playing
         await ttsService.current.startReading();
-        console.log('Started reading from beginning');
       }
     } catch (error) {
       console.error('Error with play/resume:', error);
@@ -354,7 +340,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         await ttsService.current.pause();
         setIsPaused(true);
         showFooter(); // Show footer when paused so user can interact
-        console.log('Paused reading');
       } catch (error) {
         console.error('Error pausing TTS:', error);
         Alert.alert('Error', 'Failed to pause reading');
@@ -399,7 +384,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       if (currentlyPlayingBlockId === blockId) {
         await ttsService.current.stop();
         setCurrentlyPlayingBlockId(null);
-        console.log(`Stopped playing block ${blockId}`);
         return;
       }
 
@@ -413,7 +397,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       // Start playing the specific block
       setCurrentlyPlayingBlockId(blockId);
-      console.log(`Starting to play block ${blockId}: "${blockText}"`);
       
       await ttsService.current.playSpecificBlock(blockId);
       
@@ -486,8 +469,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   // Word selection handlers
   const handleWordSelect = async (word: string, position: WordPosition) => {
-    console.log(`Word selected: "${word}"`);
-    
     try {
       // Set selected word and position
       setSelectedWord(word);
@@ -536,7 +517,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const handleSpeakSelectedWord = async (word: string) => {
     try {
       await wordAudioService.current.speakWord(word);
-      console.log(`Spoken word: "${word}"`);
     } catch (error) {
       console.error('Error speaking word:', error);
       Alert.alert('Error', `Failed to speak "${word}"`);
@@ -566,8 +546,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       const words = TextProcessor.extractWordsFromBlocks(currentPage.blocks, false);
       const potentialNouns = TextProcessor.getPotentialNouns(words);
       const limitedWords = TextProcessor.limitWordCount(potentialNouns, 15); // Further reduced for better performance
-
-      console.log(`Loading dictionary for ${limitedWords.length} potential nouns from page ${currentPageIndex + 1}`);
 
       // Helper function to check if a word definition contains nouns
       const containsNoun = (definitions: any[]): boolean => {
@@ -603,18 +581,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             
             // Update UI with valid nouns as they're found
             setDictionaryEntries([...validNounEntries]);
-          } else {
-            console.log(`Skipping "${word}" - not a noun`);
           }
         } catch (error) {
           // Silently skip words that can't be found - no error display
-          console.log(`Skipping "${word}" - definition not found`);
         }
       }
 
       // Final update with all found nouns
       setDictionaryEntries(validNounEntries);
-      console.log(`Found ${validNounEntries.length} nouns out of ${limitedWords.length} words`);
     } catch (error) {
       console.error('Error loading dictionary for current page:', error);
       setDictionaryEntries([]);
@@ -743,11 +717,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               y: (availableHeight - displayImageSize.height) / 2
             };
             
-            console.log(`Using display image size for highlighting: ${displayImageSize.width}x${displayImageSize.height}`);
-            console.log(`Original page size: ${ORIGINAL_PAGE_SIZE.width}x${ORIGINAL_PAGE_SIZE.height}`);
-            console.log(`Image offset: x=${imageOffset.x}, y=${imageOffset.y}`);
-            console.log(`Available height: ${availableHeight}, Screen height: ${screenHeight}, Aspect ratio: ${aspectRatio}`);
-            
             return (
               <TextHighlighter
                 blockData={{
@@ -763,7 +732,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                 renderedImageSize={displayImageSize}
                 imageOffset={imageOffset}
                 onWordHighlight={(wordIndex, word) => {
-                  console.log(`Highlighting word ${wordIndex}: ${word}`);
+                  // Word highlighting callback
                 }}
               />
             );
@@ -803,8 +772,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                 bounding_boxes: blockData?.bounding_boxes
               };
             }).filter(block => block.bounding_boxes); // Only include blocks with bounding boxes
-
-            console.log(`Rendering ${blocksWithBounds.length} block play buttons for page ${currentPage.pageNumber}`);
 
             return (
               <BlockPlayButtonsOverlay
@@ -922,6 +889,32 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                   maximumTrackTintColor="#ddd"
                   thumbTintColor="#000"
                 />
+              </View>
+              {/* Temporary Speed Buttons as fallback */}
+              <View style={{ flexDirection: 'row', marginTop: 5, gap: 5 }}>
+                {[0.5, 1.0, 1.5, 2.0, 2.5].map((speed) => (
+                  <TouchableOpacity 
+                    key={speed}
+                    onPress={() => {
+                      handleSpeedChange(speed);
+                    }}
+                    style={{ 
+                      backgroundColor: playbackSpeed === speed ? '#FF6B6B' : '#ddd', 
+                      padding: 5, 
+                      borderRadius: 3,
+                      minWidth: 30,
+                      alignItems: 'center'
+                    }}
+                  >
+                    <ThemedText style={{ 
+                      color: playbackSpeed === speed ? 'white' : 'black',
+                      fontSize: 12,
+                      fontWeight: playbackSpeed === speed ? 'bold' : 'normal'
+                    }}>
+                      {speed}x
+                    </ThemedText>
+                  </TouchableOpacity>
+                ))}
               </View>
             </View>
           </View>
@@ -1106,8 +1099,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     backgroundColor: '#fff',
-    paddingVertical: 4,
-    paddingBottom: 20,
+    paddingVertical: 0,
+    paddingBottom: 5,
     paddingHorizontal: 26,
     borderTopWidth: 1,
     borderTopColor: '#e0e0e0',
@@ -1209,10 +1202,9 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   speedControlTitle: {
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: 'bold',
     color: '#333',
-    marginBottom: 4,
   },
   sliderContainer: {
     position: 'relative',
@@ -1221,7 +1213,7 @@ const styles = StyleSheet.create({
   },
   speedSlider: {
     width: 180,
-    height: 30,
+    height: 5,
   },
   speedDots: {
     position: 'absolute',

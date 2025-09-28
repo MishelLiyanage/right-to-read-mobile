@@ -14,13 +14,13 @@ export function useImageLayout() {
   const onImageLoad = useCallback((event: ImageLoadEventData) => {
     const { width, height } = event.source;
     setSourceImageDimensions({ width, height });
-    console.log(`Source image dimensions: ${width}x${height}`);
+
   }, []);
 
   const onImageLayout = useCallback((event: LayoutChangeEvent) => {
     const { width, height } = event.nativeEvent.layout;
     setContainerDimensions({ width, height });
-    console.log(`Image container layout: ${width}x${height}`);
+
   }, []);
 
   // Calculate the actual rendered image size with contentFit="contain"
@@ -46,7 +46,7 @@ export function useImageLayout() {
     }
 
     const result = { width: renderedWidth, height: renderedHeight };
-    console.log(`Calculated rendered image size: ${renderedWidth}x${renderedHeight}`);
+
     return result;
   }, [sourceImageDimensions, containerDimensions]);
 
@@ -65,7 +65,7 @@ export function useImageLayout() {
     const offsetX = (containerDimensions.width - renderedSize.width) / 2;
     const offsetY = (containerDimensions.height - renderedSize.height) / 2;
 
-    console.log(`Image offset: x=${offsetX}, y=${offsetY}`);
+
     return { x: offsetX, y: offsetY };
   }, [sourceImageDimensions, containerDimensions, getRenderedImageSize]);
 
