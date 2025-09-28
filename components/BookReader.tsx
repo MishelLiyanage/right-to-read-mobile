@@ -1,3 +1,4 @@
+import BlockPlayButtonsOverlay from '@/components/BlockPlayButtonsOverlay';
 import DictionarySidebar from '@/components/DictionarySidebar';
 import TableOfContentsSidebar from '@/components/TableOfContentsSidebar';
 import TextHighlighter from '@/components/TextHighlighter';
@@ -5,9 +6,11 @@ import { ThemedText } from '@/components/ThemedText';
 import WordOverlay from '@/components/WordOverlay';
 import WordPopup from '@/components/WordPopup';
 import { useImageLayout } from '@/hooks/useImageLayout';
+import { BookDataService } from '@/services/bookDataService';
 import { PageSize } from '@/services/coordinateScaler';
 import { DictionaryService } from '@/services/dictionaryService';
 import { BlockHighlightData, highlightDataService } from '@/services/highlightDataService';
+import { ImagePreloadService } from '@/services/imagePreloadService';
 import { TextProcessor } from '@/services/textProcessor';
 import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
@@ -56,6 +59,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
   const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
   const [isFooterVisible, setIsFooterVisible] = useState(true); // Footer visibility state
+  const [currentlyPlayingBlockId, setCurrentlyPlayingBlockId] = useState<number | null>(null); // Individual block playback
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
@@ -66,6 +70,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const dictionaryService = useRef(DictionaryService.getInstance());
   const wordAudioService = useRef(WordAudioService.getInstance());
   const wordPositionService = useRef(WordPositionService.getInstance());
+  const imagePreloadService = useRef(ImagePreloadService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
 
@@ -114,6 +119,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setIsPaused(false);
           setCurrentBlockIndex(0);
           setCurrentBlockHighlightData(null);
+          setCurrentlyPlayingBlockId(null); // Reset individual block playback
           showFooter(); // Show footer when reading completes
           console.log('Completed reading page content');
         },
@@ -122,7 +128,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setIsPaused(false);
           setCurrentBlockIndex(0);
           setCurrentBlockHighlightData(null);
-          Alert.alert('Playback Error', error);
+          setCurrentlyPlayingBlockId(null); // Reset individual block playback
+          Alert.alert('Playbook Error', error);
           console.error('TTS Error:', error);
         },
         onBlockStart: async (blockIndex, text) => {
@@ -211,6 +218,17 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
             setWordLayoutData(layoutData);
             console.log(`Word layout calculated from data files: ${layoutData.totalWords} words (displaying ${layoutData.words.length})`);
+            
+            // Preload images for all words on this page
+            const allWords = layoutData.words.map(wordPos => wordPos.word);
+            imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
+              .then(() => {
+                console.log(`Image preloading completed for page ${currentPage.pageNumber}`);
+              })
+              .catch(error => {
+                console.error(`Image preloading failed for page ${currentPage.pageNumber}:`, error);
+              });
+              
           } catch (error) {
             console.error('Failed to load word layout from data files:', error);
             // Fallback to the old method if data files are not available
@@ -222,6 +240,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             );
             setWordLayoutData(layoutData);
             console.log(`Word layout calculated (fallback): ${layoutData.totalWords} words`);
+            
+            // Preload images for fallback method too
+            const allWords = layoutData.words.map(wordPos => wordPos.word);
+            imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
+              .then(() => {
+                console.log(`Image preloading completed for page ${currentPage.pageNumber} (fallback)`);
+              })
+              .catch(error => {
+                console.error(`Image preloading failed for page ${currentPage.pageNumber} (fallback):`, error);
+              });
           }
         });
       } catch (error) {
@@ -297,6 +325,11 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     }
 
     try {
+      // Reset individual block playback when starting full page playback
+      if (currentlyPlayingBlockId !== null) {
+        setCurrentlyPlayingBlockId(null);
+      }
+
       if (isPaused) {
         // Resume if paused
         await ttsService.current.resume();
@@ -336,6 +369,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       await ttsService.current.stop();
       setIsPlaying(false);
       setIsPaused(false);
+      setCurrentlyPlayingBlockId(null); // Reset individual block playback
     }
   };
 
@@ -350,6 +384,44 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   const handleZoomToggle = () => {
     setIsZoomed(!isZoomed);
+  };
+
+  const handleBlockPlay = async (blockId: number, blockText: string) => {
+    resetFooterTimer(); // Reset timer on interaction
+    
+    if (!ttsService.current) {
+      Alert.alert('Error', 'No TTS service available');
+      return;
+    }
+
+    try {
+      // If the same block is currently playing, stop it
+      if (currentlyPlayingBlockId === blockId) {
+        await ttsService.current.stop();
+        setCurrentlyPlayingBlockId(null);
+        console.log(`Stopped playing block ${blockId}`);
+        return;
+      }
+
+      // Stop any current playback (both full page and individual block)
+      if (isPlaying || currentlyPlayingBlockId !== null) {
+        await ttsService.current.stop();
+        setIsPlaying(false);
+        setIsPaused(false);
+        setCurrentlyPlayingBlockId(null);
+      }
+
+      // Start playing the specific block
+      setCurrentlyPlayingBlockId(blockId);
+      console.log(`Starting to play block ${blockId}: "${blockText}"`);
+      
+      await ttsService.current.playSpecificBlock(blockId);
+      
+    } catch (error) {
+      console.error('Error with block play:', error);
+      Alert.alert('Error', 'Failed to play block');
+      setCurrentlyPlayingBlockId(null);
+    }
   };
 
   // Footer animation functions
@@ -427,7 +499,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       // Load definition
       setIsLoadingDefinition(true);
       
-      const definitions = await dictionaryService.current.lookupWord(word);
+      const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
       if (definitions && definitions.length > 0) {
         setSelectedWordDefinition(definitions[0]);
       } else {
@@ -519,7 +591,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       for (const word of limitedWords) {
         try {
-          const definitions = await dictionaryService.current.lookupWord(word);
+          const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
           
           // Only include words that are nouns
           if (containsNoun(definitions)) {
@@ -693,6 +765,55 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                 onWordHighlight={(wordIndex, word) => {
                   console.log(`Highlighting word ${wordIndex}: ${word}`);
                 }}
+              />
+            );
+          })()}
+
+          {/* Block Play Buttons Overlay */}
+          {currentPage?.blocks && (() => {
+            // Use the same display image size calculation as TextHighlighter
+            const availableHeight = screenHeight;
+            const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
+            
+            let displayImageSize = {
+              width: availableHeight * aspectRatio,
+              height: availableHeight
+            };
+            
+            if (displayImageSize.width > screenWidth) {
+              displayImageSize.width = screenWidth;
+              displayImageSize.height = screenWidth / aspectRatio;
+            }
+            
+            const imageOffset = {
+              x: (screenWidth - displayImageSize.width) / 2,
+              y: (availableHeight - displayImageSize.height) / 2
+            };
+
+            // Load block data with bounding boxes from BookDataService
+            const bookDataService = BookDataService.getInstance();
+            const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
+            
+            // Prepare blocks data with bounding boxes
+            const blocksWithBounds = currentPage.blocks.map(block => {
+              const blockData = pageBlocksData?.[block.id.toString()];
+              return {
+                id: block.id,
+                text: block.text,
+                bounding_boxes: blockData?.bounding_boxes
+              };
+            }).filter(block => block.bounding_boxes); // Only include blocks with bounding boxes
+
+            console.log(`Rendering ${blocksWithBounds.length} block play buttons for page ${currentPage.pageNumber}`);
+
+            return (
+              <BlockPlayButtonsOverlay
+                blocks={blocksWithBounds}
+                originalPageSize={ORIGINAL_PAGE_SIZE}
+                renderedImageSize={displayImageSize}
+                imageOffset={imageOffset}
+                currentlyPlayingBlockId={currentlyPlayingBlockId}
+                onBlockPlay={handleBlockPlay}
               />
             );
           })()}

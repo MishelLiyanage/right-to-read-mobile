@@ -360,6 +360,64 @@ export class TTSService {
     }
   }
 
+  // Play specific block by ID
+  async playSpecificBlock(blockId: number): Promise<void> {
+    if (!this.isInitialized) {
+      await this.initialize();
+    }
+
+    if (this.blocks.length === 0) {
+      this.callbacks.onPlaybackError?.('No content loaded');
+      return;
+    }
+
+    try {
+      // Find the block by ID
+      const blockIndex = this.blocks.findIndex(block => block.id === blockId);
+      if (blockIndex === -1) {
+        throw new Error(`Block with ID ${blockId} not found`);
+      }
+
+      const block = this.blocks[blockIndex];
+      
+      // Stop any current playback
+      await this.stop();
+      
+      // Set playing state
+      this.isPlaying = true;
+      this.isPaused = false;
+      this.currentBlockIndex = blockIndex;
+      
+      // Notify callback
+      this.callbacks.onBlockStart?.(blockIndex, block.text);
+      this.callbacks.onPlaybackStart?.();
+      
+      console.log(`Playing specific block ${blockId}: "${block.text}"`);
+      
+      // Play the specific block
+      await this.playBlock(block);
+      
+      // Wait for completion
+      await this.waitForCompletion();
+      
+      // Reset state after completion
+      this.isPlaying = false;
+      this.isPaused = false;
+      
+      // Notify completion
+      this.callbacks.onBlockComplete?.(blockIndex);
+      this.callbacks.onPlaybackComplete?.();
+      
+      console.log(`Completed playing block ${blockId}`);
+      
+    } catch (error) {
+      console.error('TTS Service: Error playing specific block:', error);
+      this.callbacks.onPlaybackError?.(`Failed to play block: ${error}`);
+      this.isPlaying = false;
+      this.isPaused = false;
+    }
+  }
+
   // Status getters
   getIsPlaying(): boolean {
     return this.isPlaying;
