@@ -30,8 +30,8 @@ interface WordPopupProps {
 }
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
-const POPUP_WIDTH = 280;
-const POPUP_MAX_HEIGHT = 400;
+const POPUP_WIDTH = 320;
+const POPUP_MAX_HEIGHT = 450;
 const ARROW_SIZE = 12;
 
 export default function WordPopup({
@@ -247,7 +247,7 @@ export default function WordPopup({
                       {definition.imageUrl && imageLoadError && (
                         <View style={styles.imageContainer}>
                           <Image
-                            source={{ uri: `https://picsum.photos/seed/${word}/80/80` }}
+                            source={{ uri: `https://picsum.photos/seed/${word}/140/140` }}
                             style={styles.wordImage}
                             contentFit="cover"
                             transition={300}
@@ -429,12 +429,12 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     alignItems: 'center',
-    marginBottom: 8,
+    marginBottom: 12,
   },
   wordImage: {
-    width: 80,
-    height: 80,
-    borderRadius: 10,
+    width: 140,
+    height: 140,
+    borderRadius: 12,
     backgroundColor: '#F2F2F7',
   },
   meaningSection: {
