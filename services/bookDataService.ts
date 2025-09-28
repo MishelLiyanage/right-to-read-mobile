@@ -45,13 +45,13 @@ export class BookDataService {
     this.dataMap.set(32, page32BlocksData as any);
     this.dataMap.set(44, page44BlocksData as any);
 
-    console.log('BookDataService initialized with pages:', Array.from(this.dataMap.keys()));
+
   }
 
   getBlocksForPage(pageNumber: number): BlockData | null {
     const data = this.dataMap.get(pageNumber);
     if (data) {
-      console.log(`BookDataService: Found blocks data for page ${pageNumber}`);
+
       return data;
     } else {
       console.warn(`BookDataService: No blocks data found for page ${pageNumber}`);

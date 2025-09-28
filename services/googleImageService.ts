@@ -65,7 +65,6 @@ export class GoogleImageService {
         const searchQuery = this.buildEducationalSearchQuery(word, i);
         const url = `${this.BASE_URL}?key=${this.API_KEY}&cx=${this.SEARCH_ENGINE_ID}&q=${encodeURIComponent(searchQuery)}&searchType=image&imgSize=medium&imgType=clipart&safe=active&num=5&fileType=png,jpg`;
         
-        console.log(`Strategy ${i + 1} for "${word}": ${searchQuery}`);
         const response = await fetch(url);
         
         if (response.ok) {
@@ -214,7 +213,6 @@ export class GoogleImageService {
     // First try curated educational images
     if (this.curatedImages.has(word.toLowerCase())) {
       const curatedUrl = this.curatedImages.get(word.toLowerCase())!;
-      console.log(`Using curated educational image for "${word}": ${curatedUrl}`);
       this.cache.set(word, curatedUrl);
       return curatedUrl;
     }
@@ -222,7 +220,6 @@ export class GoogleImageService {
     // Fall back to placeholder if no curated image available
     const randomSeed = Math.abs(word.split('').reduce((a, b) => a + b.charCodeAt(0), 0));
     const fallbackUrl = `https://picsum.photos/seed/${randomSeed}/80/80`;
-    console.log(`Using placeholder image for "${word}": ${fallbackUrl}`);
     this.cache.set(word, fallbackUrl);
     return fallbackUrl;
   }
@@ -232,29 +229,22 @@ export class GoogleImageService {
     
     // Check cache first
     if (this.cache.has(normalizedWord)) {
-      console.log(`Image cache hit for: ${normalizedWord}`);
+
       return this.cache.get(normalizedWord)!;
     }
 
     try {
-      console.log(`Searching educational images for: ${normalizedWord}`);
+
       
       // Try multiple search strategies to find the best educational images
       const allValidImages = await this.tryMultipleSearchStrategies(normalizedWord);
         
       if (allValidImages.length > 0) {
-        console.log(`Found ${allValidImages.length} valid images for "${normalizedWord}"`);
+
         
         // Score and select the best educational image
         const scoredImages = allValidImages.map((item: any) => {
           const score = this.scoreImageForEducationalValue(item, normalizedWord);
-          console.log(`Image scoring for "${normalizedWord}":`, {
-            title: item.title,
-            snippet: item.snippet,
-            domain: item.displayLink,
-            score: score,
-            url: item.link
-          });
           return {
             ...item,
             score: score
@@ -263,10 +253,10 @@ export class GoogleImageService {
         
         // Filter out negative scores (irrelevant content)
         const positiveScoreImages = scoredImages.filter(img => img.score > 0);
-        console.log(`${positiveScoreImages.length} images with positive scores for "${normalizedWord}"`);
+
         
         if (positiveScoreImages.length === 0) {
-          console.log(`No relevant educational images found for "${normalizedWord}" - all images had negative scores`);
+
           return this.getFallbackImage(normalizedWord);
         }
         
@@ -278,15 +268,15 @@ export class GoogleImageService {
         
         for (const scoredImage of positiveScoreImages) {
           const imageUrl = scoredImage.link;
-          console.log(`Attempting to validate image for "${normalizedWord}" (score: ${scoredImage.score}): ${imageUrl}`);
+
           const isValidForEducation = await this.validateImageForEducationalUse(imageUrl, normalizedWord);
           
           if (isValidForEducation) {
             selectedImageUrl = imageUrl;
-            console.log(`✅ Selected validated educational image for "${normalizedWord}" (score: ${scoredImage.score}): ${imageUrl}`);
+
             break;
           } else {
-            console.log(`❌ Image validation failed for "${normalizedWord}": ${imageUrl}`);
+
           }
         }
         
@@ -294,11 +284,11 @@ export class GoogleImageService {
           this.cache.set(normalizedWord, selectedImageUrl);
           return selectedImageUrl;
         } else {
-          console.log(`No valid educational images passed validation for "${normalizedWord}", using fallback`);
+
           return this.getFallbackImage(normalizedWord);
         }
       } else {
-        console.log(`No valid educational images found for "${normalizedWord}", using fallback`);
+
         return this.getFallbackImage(normalizedWord);
       }
 

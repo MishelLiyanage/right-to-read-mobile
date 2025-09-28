@@ -17,7 +17,7 @@ export default function RecentScreen() {
     // Add book to recent books when clicked (moves it to top)
     try {
       await addRecentBook(book);
-      console.log(`Updated recent position for "${book.title}"`);
+
     } catch (error) {
       console.error('Failed to update book in recent:', error);
     }
@@ -32,7 +32,7 @@ export default function RecentScreen() {
   const handleClearRecent = async () => {
     try {
       await clearRecentBooks();
-      console.log('Cleared all recent books');
+
     } catch (error) {
       console.error('Failed to clear recent books:', error);
     }

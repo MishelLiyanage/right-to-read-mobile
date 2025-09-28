@@ -46,7 +46,7 @@ export default function TextHighlighter({
     if (originalPageSize && renderedImageSize) {
       const scaler = new CoordinateScaler(originalPageSize, renderedImageSize);
       setCoordinateScaler(scaler);
-      console.log(`TextHighlighter: Initialized coordinate scaler with offset x=${imageOffset.x}, y=${imageOffset.y}`);
+
     }
   }, [originalPageSize, renderedImageSize, imageOffset]);
 

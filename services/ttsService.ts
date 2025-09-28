@@ -49,7 +49,7 @@ export class TTSService {
           rate: this.playbackRate,
           shouldCorrectPitch: true // Maintain voice pitch at different speeds
         });
-        console.log(`TTS Service: Playback rate set to ${this.playbackRate}x`);
+
       } catch (error) {
         console.error('Failed to set playback rate:', error);
       }
@@ -68,7 +68,7 @@ export class TTSService {
       });
 
       this.isInitialized = true;
-      console.log('TTS Service initialized');
+
     } catch (error) {
       console.error('TTS Service initialization failed:', error);
       this.callbacks.onPlaybackError?.(`Initialization failed: ${error}`);
@@ -78,7 +78,7 @@ export class TTSService {
   loadContent(blocks: TextBlock[]): void {
     this.blocks = blocks;
     this.currentBlockIndex = 0;
-    console.log(`TTS Service: Loaded ${blocks.length} blocks`);
+
   }
 
   async startReading(): Promise<void> {
@@ -138,7 +138,7 @@ export class TTSService {
 
   private async playBlock(block: TextBlock): Promise<void> {
     try {
-      console.log(`Playing: "${block.text}"`);
+
       
       // Cleanup previous sound
       if (this.currentSound) {
@@ -153,7 +153,7 @@ export class TTSService {
       sound.setOnPlaybackStatusUpdate((status: AVPlaybackStatus) => {
         if (status.isLoaded) {
           if (status.didJustFinish) {
-            console.log(`Completed: "${block.text}"`);
+
           } else if (status.positionMillis !== undefined && status.durationMillis !== undefined) {
             // Provide real-time progress updates
             this.callbacks.onPlaybackProgress?.(
@@ -223,7 +223,7 @@ export class TTSService {
       }
       
       this.currentBlockIndex = 0;
-      console.log('TTS Service: Stopped');
+
     } catch (error) {
       console.error('Error stopping TTS:', error);
     }
@@ -234,7 +234,7 @@ export class TTSService {
       if (this.currentSound && this.isPlaying && !this.isPaused) {
         await this.currentSound.pauseAsync();
         this.isPaused = true;
-        console.log('TTS Service: Paused');
+
       }
     } catch (error) {
       console.error('Error pausing TTS:', error);
@@ -251,7 +251,7 @@ export class TTSService {
         });
         await this.currentSound.playAsync();
         this.isPaused = false;
-        console.log('TTS Service: Resumed');
+
       }
     } catch (error) {
       console.error('Error resuming TTS:', error);
@@ -271,7 +271,7 @@ export class TTSService {
 
     try {
       const normalizedWord = word.toLowerCase().trim();
-      console.log(`Looking for word: "${normalizedWord}" in page blocks`);
+
 
       // Search through all blocks to find the word
       for (const block of allBlocks) {
@@ -290,7 +290,7 @@ export class TTSService {
           });
 
           if (wordMark) {
-            console.log(`Found word "${normalizedWord}" in block: "${block.text}"`);
+
             await this.playWordFromBlock(word, block.audio, block.speechMarks, wordMark);
             return;
           }
@@ -326,7 +326,7 @@ export class TTSService {
         }
       }
 
-      console.log(`Playing word "${word}" from ${wordMark.time}ms to ${endTime}ms`);
+
 
       // Create a new sound instance for word playback
       const { sound } = await Audio.Sound.createAsync(blockAudio);
@@ -346,7 +346,7 @@ export class TTSService {
           await sound.stopAsync();
           await sound.unloadAsync();
           this.callbacks.onWordPlaybackComplete?.(word);
-          console.log(`Completed playing word: "${word}"`);
+
         } catch (error) {
           console.error('Error stopping word playback:', error);
           this.callbacks.onWordPlaybackComplete?.(word);
@@ -392,7 +392,7 @@ export class TTSService {
       this.callbacks.onBlockStart?.(blockIndex, block.text);
       this.callbacks.onPlaybackStart?.();
       
-      console.log(`Playing specific block ${blockId}: "${block.text}"`);
+
       
       // Play the specific block
       await this.playBlock(block);
@@ -408,7 +408,7 @@ export class TTSService {
       this.callbacks.onBlockComplete?.(blockIndex);
       this.callbacks.onPlaybackComplete?.();
       
-      console.log(`Completed playing block ${blockId}`);
+
       
     } catch (error) {
       console.error('TTS Service: Error playing specific block:', error);

@@ -50,7 +50,6 @@ export class WordPositionService {
     const cacheKey = `page_${pageNumber}_${currentPageSize.width}x${currentPageSize.height}`;
     
     if (this.cache.has(cacheKey)) {
-      console.log('WordPositionService: Cache hit for word positions');
       return this.cache.get(cacheKey)!;
     }
 
@@ -61,7 +60,7 @@ export class WordPositionService {
         return { words: [], totalWords: 0 };
       }
 
-      console.log(`WordPositionService: Calculating word positions for page ${pageNumber}`);
+
       
       const coordinateScaler = new CoordinateScaler(originalPageSize, currentPageSize);
       const words: WordPosition[] = [];
@@ -131,7 +130,7 @@ export class WordPositionService {
       }
       
       this.cache.set(cacheKey, layoutData);
-      console.log(`WordPositionService: Calculated positions for ${words.length} words (displaying ${layoutData.words.length})`);
+
 
       return layoutData;
     } catch (error) {
@@ -152,11 +151,10 @@ export class WordPositionService {
     const cacheKey = this.generateCacheKey(blocks, currentPageSize);
     
     if (this.cache.has(cacheKey)) {
-      console.log('WordPositionService: Cache hit for word positions');
       return this.cache.get(cacheKey)!;
     }
 
-    console.log('WordPositionService: Calculating word positions for', blocks.length, 'blocks');
+
     
     const coordinateScaler = new CoordinateScaler(originalPageSize, currentPageSize);
     const words: WordPosition[] = [];
@@ -195,7 +193,7 @@ export class WordPositionService {
     }
     
     this.cache.set(cacheKey, layoutData);
-    console.log(`WordPositionService: Calculated positions for ${words.length} words (limited to ${layoutData.words.length})`);
+
 
     return layoutData;
   }
@@ -324,7 +322,6 @@ export class WordPositionService {
    */
   clearCache(): void {
     this.cache.clear();
-    console.log('WordPositionService: Cache cleared');
   }
 
   /**

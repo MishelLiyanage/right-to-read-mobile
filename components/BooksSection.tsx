@@ -13,11 +13,11 @@ interface BooksSectionProps {
 
 export default function BooksSection({ books, onBookPress, isSearchMode = false, searchQuery = '' }: BooksSectionProps) {
   const handleBookPress = (book: Book) => {
-    console.log('Book pressed:', book.title);
+
     if (book.hasData) {
       onBookPress(book);
     } else {
-      console.log('Book content not available yet');
+
     }
   };
 

@@ -48,7 +48,7 @@ export default function BlockPlayButton({
   };
 
   // Debug logging to help troubleshoot positioning
-  console.log(`Block ${blockId} button position:`, buttonPosition, `Block bounds:`, position);
+
 
   return (
     <TouchableOpacity

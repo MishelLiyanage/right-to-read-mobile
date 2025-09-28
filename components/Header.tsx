@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   const handleMenuItemPress = (item: string) => {
-    console.log(`${item} pressed`);
+
     setShowDropdown(false);
     // Handle navigation based on item
     switch (item) {
@@ -30,7 +30,7 @@ export default function Header() {
 
   const handlePullBooksSuccess = () => {
     // Refresh the books list or trigger a re-render
-    console.log('Books pulled successfully!');
+
     // TODO: Add logic to refresh the books data
   };
 

@@ -16,8 +16,7 @@ export class CoordinateScaler {
     this.scaleX = currentPageSize.width / originalPageSize.width;
     this.scaleY = currentPageSize.height / originalPageSize.height;
     
-    console.log(`Coordinate scaling: ${originalPageSize.width}x${originalPageSize.height} -> ${currentPageSize.width}x${currentPageSize.height}`);
-    console.log(`Scale factors: X=${this.scaleX.toFixed(3)}, Y=${this.scaleY.toFixed(3)}`);
+
   }
 
   scaleCoordinates(boundingBox: number[][]): BoundingBox {

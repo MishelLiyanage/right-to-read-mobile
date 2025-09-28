@@ -6,15 +6,15 @@ import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-    ActivityIndicator,
-    Animated,
-    Dimensions,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    TouchableOpacity,
-    TouchableWithoutFeedback,
-    View,
+  ActivityIndicator,
+  Animated,
+  Dimensions,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
 } from 'react-native';
 
 interface WordPopupProps {
@@ -234,11 +234,11 @@ export default function WordPopup({
                             transition={300}
                             cachePolicy="memory-disk"
                             onLoad={() => {
-                              console.log('Word image loaded successfully:', definition.imageUrl);
+
                               setImageLoadError(false);
                             }}
                             onError={(error) => {
-                              console.log('Word image failed to load, using fallback:', error, definition.imageUrl);
+
                               setImageLoadError(true);
                             }}
                           />
