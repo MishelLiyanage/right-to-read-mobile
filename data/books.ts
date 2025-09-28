@@ -58,47 +58,47 @@ export const getAllBooks = (): Book[] => {
             {
               id: 2,
               text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book_page_19/block_2_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_2_audio.mp3'),
             },
             {
               id: 3,
               text: "Grade 3",
-              audio: require('@/data/grade_3_english_book_page_19/block_3_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_3_audio.mp3'),
             },
             {
               id: 4,
               text: "Grade 4",
-              audio: require('@/data/grade_3_english_book_page_19/block_4_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_4_audio.mp3'),
             },
             {
               id: 5,
               text: "Grade 5",
-              audio: require('@/data/grade_3_english_book_page_19/block_5_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_5_audio.mp3'),
             },
             {
               id: 6,
               text: "Grade 6",
-              audio: require('@/data/grade_3_english_book_page_19/block_6_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_6_audio.mp3'),
             },
             {
               id: 7,
-              text: "I'm in grade f ive.",
-              audio: require('@/data/grade_3_english_book_page_19/block_7_audio.mp3'),
+              text: "I'm in grade five.",
+              audio: require('@/data/grade_3_english_book_page_19/block_19_7_audio.mp3'),
             },
             {
               id: 8,
               text: "I'm in grade six.",
-              audio: require('@/data/grade_3_english_book_page_19/block_8_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_8_audio.mp3'),
             },
             {
               id: 9,
               text: "I'm in grade three. I'm in grade four.",
-              audio: require('@/data/grade_3_english_book_page_19/block_9_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_9_audio.mp3'),
             },
             {
               id: 10,
               text: "What grade are you in?",
-              audio: require('@/data/grade_3_english_book_page_19/block_10_audio.mp3'),
+              audio: require('@/data/grade_3_english_book_page_19/block_19_10_audio.mp3'),
             },
           ]
         },
@@ -322,32 +322,6 @@ export const getAllBooks = (): Book[] => {
               id: 10,
               text: "This is a hospital.",
               audio: require('@/data/grade_3_english_book_page_31/block_31_10_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 32,
-          image: require('@/data/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book_page_32/block_32_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Where is the school?",
-              audio: require('@/data/grade_3_english_book_page_32/block_32_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "It is here.",
-              audio: require('@/data/grade_3_english_book_page_32/block_32_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "Where is the hospital?",
-              audio: require('@/data/grade_3_english_book_page_32/block_32_5_audio.mp3'),
             },
           ]
         },

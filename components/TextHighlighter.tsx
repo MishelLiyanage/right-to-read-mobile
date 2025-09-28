@@ -1,6 +1,6 @@
 import { CoordinateScaler, PageSize } from '@/services/coordinateScaler';
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, View } from 'react-native';
 
 interface SpeechMark {
   time: number;
@@ -44,9 +44,17 @@ export default function TextHighlighter({
   // Initialize coordinate scaler when dimensions are available
   useEffect(() => {
     if (originalPageSize && renderedImageSize) {
+      // Log environment details for debugging coordinate shifts
+      console.log('[TextHighlighter] Environment Info:', {
+        screenData: Dimensions.get('screen'),
+        windowData: Dimensions.get('window'),
+        originalPageSize,
+        renderedImageSize,
+        imageOffset
+      });
+      
       const scaler = new CoordinateScaler(originalPageSize, renderedImageSize);
       setCoordinateScaler(scaler);
-
     }
   }, [originalPageSize, renderedImageSize, imageOffset]);
 
@@ -87,10 +95,12 @@ export default function TextHighlighter({
 
       // Scale coordinates using the coordinate scaler
       const scaledBox = coordinateScaler.scaleCoordinates(boundingBox);
-      const left = scaledBox.topLeft[0] + imageOffset.x;
-      const top = scaledBox.topLeft[1] + imageOffset.y;
-      const width = scaledBox.bottomRight[0] - scaledBox.topLeft[0];
-      const height = scaledBox.bottomRight[1] - scaledBox.topLeft[1];
+      
+      // Apply pixel-perfect positioning
+      const left = Math.round(scaledBox.topLeft[0] + imageOffset.x);
+      const top = Math.round(scaledBox.topLeft[1] + imageOffset.y);
+      const width = Math.round(scaledBox.bottomRight[0] - scaledBox.topLeft[0]);
+      const height = Math.round(scaledBox.bottomRight[1] - scaledBox.topLeft[1]);
 
       return (
         <View
@@ -138,10 +148,11 @@ export default function TextHighlighter({
     const scaledTopLeft = coordinateScaler.scalePoint(minX, minY);
     const scaledBottomRight = coordinateScaler.scalePoint(maxX, maxY);
     
-    const left = scaledTopLeft[0] + imageOffset.x;
-    const top = scaledTopLeft[1] + imageOffset.y;
-    const width = scaledBottomRight[0] - scaledTopLeft[0];
-    const height = scaledBottomRight[1] - scaledTopLeft[1];
+    // Apply pixel-perfect positioning
+    const left = Math.round(scaledTopLeft[0] + imageOffset.x);
+    const top = Math.round(scaledTopLeft[1] + imageOffset.y);
+    const width = Math.round(scaledBottomRight[0] - scaledTopLeft[0]);
+    const height = Math.round(scaledBottomRight[1] - scaledTopLeft[1]);
 
     return (
       <View

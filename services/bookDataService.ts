@@ -9,7 +9,6 @@ import page27BlocksData from '@/data/grade_3_english_book_page_27/grade_3_englis
 import page29BlocksData from '@/data/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29_blocks.json';
 import page30BlocksData from '@/data/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30_blocks.json';
 import page31BlocksData from '@/data/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31_blocks.json';
-import page32BlocksData from '@/data/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32_blocks.json';
 import page44BlocksData from '@/data/grade_3_english_book_page_44/grade_3_english_book.pdf_page_44_blocks.json';
 
 export interface BlockData {
@@ -42,7 +41,6 @@ export class BookDataService {
     this.dataMap.set(29, page29BlocksData as any);
     this.dataMap.set(30, page30BlocksData as any);
     this.dataMap.set(31, page31BlocksData as any);
-    this.dataMap.set(32, page32BlocksData as any);
     this.dataMap.set(44, page44BlocksData as any);
 
 

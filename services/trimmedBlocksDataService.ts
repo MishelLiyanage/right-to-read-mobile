@@ -9,7 +9,6 @@ import page27TrimmedBlocks from '@/data/grade_3_english_book_page_27/grade_3_eng
 import page29TrimmedBlocks from '@/data/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29_trimmed_blocks.json';
 import page30TrimmedBlocks from '@/data/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30_trimmed_blocks.json';
 import page31TrimmedBlocks from '@/data/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31_trimmed_blocks.json';
-import page32TrimmedBlocks from '@/data/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32_trimmed_blocks.json';
 import page44TrimmedBlocks from '@/data/grade_3_english_book_page_44/grade_3_english_book.pdf_page_44_trimmed_blocks.json';
 
 export interface TrimmedBlockData {
@@ -53,7 +52,6 @@ export class TrimmedBlocksDataService {
     this.dataMap.set(29, page29TrimmedBlocks as any);
     this.dataMap.set(30, page30TrimmedBlocks as any);
     this.dataMap.set(31, page31TrimmedBlocks as any);
-    this.dataMap.set(32, page32TrimmedBlocks as any);
     this.dataMap.set(44, page44TrimmedBlocks as any);
 
     console.log('TrimmedBlocksDataService initialized with pages:', Array.from(this.dataMap.keys()));
