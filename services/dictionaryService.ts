@@ -1,9 +1,11 @@
 import { WordDefinition } from '@/types/book';
+import { ImagePreloadService } from './imagePreloadService';
 
 export class DictionaryService {
   private static instance: DictionaryService;
   private cache: Map<string, WordDefinition[]> = new Map();
   private baseUrl = 'https://api.dictionaryapi.dev/api/v2/entries/en';
+  private imagePreloadService = ImagePreloadService.getInstance();
 
   static getInstance(): DictionaryService {
     if (!DictionaryService.instance) {
@@ -12,7 +14,7 @@ export class DictionaryService {
     return DictionaryService.instance;
   }
 
-  async lookupWord(word: string): Promise<WordDefinition[]> {
+  async lookupWord(word: string, pageNumber?: number): Promise<WordDefinition[]> {
     const normalizedWord = word.toLowerCase().trim();
     
     // Check cache first
@@ -34,6 +36,16 @@ export class DictionaryService {
 
       const data = await response.json();
       const definitions = this.parseApiResponse(data);
+      
+      // Add preloaded image if available
+      if (pageNumber !== undefined) {
+        const cachedImageUrl = this.imagePreloadService.getCachedImage(pageNumber, normalizedWord);
+        if (cachedImageUrl) {
+          definitions.forEach(definition => {
+            definition.imageUrl = cachedImageUrl;
+          });
+        }
+      }
       
       // Cache the result
       this.cache.set(normalizedWord, definitions);
@@ -58,6 +70,8 @@ export class DictionaryService {
       }))
     }));
   }
+
+
 
   clearCache(): void {
     this.cache.clear();

@@ -40,6 +40,7 @@ export interface WordDefinition {
   word: string;
   phonetic?: string;
   meanings: WordMeaning[];
+  imageUrl?: string;
 }
 
 export interface WordMeaning {

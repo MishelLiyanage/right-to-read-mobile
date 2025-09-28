@@ -3,6 +3,7 @@ import { ThemedView } from '@/components/ThemedView';
 import { WordPosition } from '@/services/wordPositionService';
 import { WordDefinition } from '@/types/book';
 import { Ionicons } from '@expo/vector-icons';
+import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import {
     ActivityIndicator,
@@ -46,6 +47,7 @@ export default function WordPopup({
 }: WordPopupProps) {
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0, arrowPosition: 'bottom' });
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [imageLoadError, setImageLoadError] = useState(false);
   const scaleAnim = useRef(new Animated.Value(0)).current;
   const opacityAnim = useRef(new Animated.Value(0)).current;
 
@@ -53,6 +55,7 @@ export default function WordPopup({
     if (isVisible && wordPosition) {
       calculatePopupPosition();
       showPopup();
+      setImageLoadError(false); // Reset image error state
     } else {
       hidePopup();
     }
@@ -221,6 +224,37 @@ export default function WordPopup({
 
                   {definition && !isLoading && !error && (
                     <View style={styles.definitionContainer}>
+                      {definition.imageUrl && !imageLoadError && (
+                        <View style={styles.imageContainer}>
+                          <Image
+                            source={{ uri: definition.imageUrl }}
+                            style={styles.wordImage}
+                            contentFit="cover"
+                            placeholder={{ uri: `https://picsum.photos/seed/${word}/80/80` }}
+                            transition={300}
+                            cachePolicy="memory-disk"
+                            onLoad={() => {
+                              console.log('Word image loaded successfully:', definition.imageUrl);
+                              setImageLoadError(false);
+                            }}
+                            onError={(error) => {
+                              console.log('Word image failed to load, using fallback:', error, definition.imageUrl);
+                              setImageLoadError(true);
+                            }}
+                          />
+                        </View>
+                      )}
+                      {definition.imageUrl && imageLoadError && (
+                        <View style={styles.imageContainer}>
+                          <Image
+                            source={{ uri: `https://picsum.photos/seed/${word}/80/80` }}
+                            style={styles.wordImage}
+                            contentFit="cover"
+                            transition={300}
+                            cachePolicy="memory-disk"
+                          />
+                        </View>
+                      )}
                       {definition.meanings.map((meaning, index) => (
                         <View key={index} style={styles.meaningSection}>
                           <ThemedText style={styles.partOfSpeech}>
@@ -345,8 +379,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-start',
     justifyContent: 'space-between',
-    padding: 16,
-    paddingBottom: 8,
+    padding: 12,
+    paddingBottom: 6,
   },
   wordContainer: {
     flex: 1,
@@ -367,7 +401,7 @@ const styles = StyleSheet.create({
   },
   content: {
     maxHeight: POPUP_MAX_HEIGHT - 100,
-    paddingHorizontal: 16,
+    paddingHorizontal: 12,
   },
   loadingContainer: {
     flexDirection: 'row',
@@ -392,6 +426,16 @@ const styles = StyleSheet.create({
   },
   definitionContainer: {
     paddingBottom: 8,
+  },
+  imageContainer: {
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  wordImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 10,
+    backgroundColor: '#F2F2F7',
   },
   meaningSection: {
     marginBottom: 12,

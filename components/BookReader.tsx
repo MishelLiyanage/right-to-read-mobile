@@ -8,6 +8,7 @@ import { useImageLayout } from '@/hooks/useImageLayout';
 import { PageSize } from '@/services/coordinateScaler';
 import { DictionaryService } from '@/services/dictionaryService';
 import { BlockHighlightData, highlightDataService } from '@/services/highlightDataService';
+import { ImagePreloadService } from '@/services/imagePreloadService';
 import { TextProcessor } from '@/services/textProcessor';
 import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
@@ -66,6 +67,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const dictionaryService = useRef(DictionaryService.getInstance());
   const wordAudioService = useRef(WordAudioService.getInstance());
   const wordPositionService = useRef(WordPositionService.getInstance());
+  const imagePreloadService = useRef(ImagePreloadService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
 
@@ -211,6 +213,17 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
             setWordLayoutData(layoutData);
             console.log(`Word layout calculated from data files: ${layoutData.totalWords} words (displaying ${layoutData.words.length})`);
+            
+            // Preload images for all words on this page
+            const allWords = layoutData.words.map(wordPos => wordPos.word);
+            imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
+              .then(() => {
+                console.log(`Image preloading completed for page ${currentPage.pageNumber}`);
+              })
+              .catch(error => {
+                console.error(`Image preloading failed for page ${currentPage.pageNumber}:`, error);
+              });
+              
           } catch (error) {
             console.error('Failed to load word layout from data files:', error);
             // Fallback to the old method if data files are not available
@@ -222,6 +235,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             );
             setWordLayoutData(layoutData);
             console.log(`Word layout calculated (fallback): ${layoutData.totalWords} words`);
+            
+            // Preload images for fallback method too
+            const allWords = layoutData.words.map(wordPos => wordPos.word);
+            imagePreloadService.current.preloadImagesForPage(currentPage.pageNumber, allWords)
+              .then(() => {
+                console.log(`Image preloading completed for page ${currentPage.pageNumber} (fallback)`);
+              })
+              .catch(error => {
+                console.error(`Image preloading failed for page ${currentPage.pageNumber} (fallback):`, error);
+              });
           }
         });
       } catch (error) {
@@ -427,7 +450,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       // Load definition
       setIsLoadingDefinition(true);
       
-      const definitions = await dictionaryService.current.lookupWord(word);
+      const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
       if (definitions && definitions.length > 0) {
         setSelectedWordDefinition(definitions[0]);
       } else {
@@ -519,7 +542,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       for (const word of limitedWords) {
         try {
-          const definitions = await dictionaryService.current.lookupWord(word);
+          const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
           
           // Only include words that are nouns
           if (containsNoun(definitions)) {
