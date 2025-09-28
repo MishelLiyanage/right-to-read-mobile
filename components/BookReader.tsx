@@ -376,9 +376,13 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const handleSpeedChange = async (newSpeed: number) => {
     resetFooterTimer(); // Reset timer on interaction
     
+    console.log(`Speed slider changed to: ${newSpeed}x`);
     setPlaybackSpeed(newSpeed);
     if (ttsService.current) {
       await ttsService.current.setPlaybackRate(newSpeed);
+      console.log(`TTS service playback rate updated to: ${newSpeed}x`);
+    } else {
+      console.log('TTS service not available');
     }
   };
 
@@ -918,10 +922,39 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                   step={SPEED_STEP}
                   value={playbackSpeed}
                   onValueChange={handleSpeedChange}
+                  onSlidingStart={() => console.log('Slider: Started sliding')}
+                  onSlidingComplete={(value) => console.log('Slider: Completed sliding with value:', value)}
                   minimumTrackTintColor="#000"
                   maximumTrackTintColor="#ddd"
                   thumbTintColor="#000"
                 />
+              </View>
+              {/* Temporary Speed Buttons as fallback */}
+              <View style={{ flexDirection: 'row', marginTop: 5, gap: 5 }}>
+                {[0.5, 1.0, 1.5, 2.0, 2.5].map((speed) => (
+                  <TouchableOpacity 
+                    key={speed}
+                    onPress={() => {
+                      console.log(`Speed button pressed: ${speed}x`);
+                      handleSpeedChange(speed);
+                    }}
+                    style={{ 
+                      backgroundColor: playbackSpeed === speed ? '#FF6B6B' : '#ddd', 
+                      padding: 5, 
+                      borderRadius: 3,
+                      minWidth: 30,
+                      alignItems: 'center'
+                    }}
+                  >
+                    <ThemedText style={{ 
+                      color: playbackSpeed === speed ? 'white' : 'black',
+                      fontSize: 12,
+                      fontWeight: playbackSpeed === speed ? 'bold' : 'normal'
+                    }}>
+                      {speed}x
+                    </ThemedText>
+                  </TouchableOpacity>
+                ))}
               </View>
             </View>
           </View>
@@ -1106,8 +1139,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     backgroundColor: '#fff',
-    paddingVertical: 4,
-    paddingBottom: 20,
+    paddingVertical: 0,
+    paddingBottom: 5,
     paddingHorizontal: 26,
     borderTopWidth: 1,
     borderTopColor: '#e0e0e0',
@@ -1209,10 +1242,9 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   speedControlTitle: {
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: 'bold',
     color: '#333',
-    marginBottom: 4,
   },
   sliderContainer: {
     position: 'relative',
@@ -1221,7 +1253,7 @@ const styles = StyleSheet.create({
   },
   speedSlider: {
     width: 180,
-    height: 30,
+    height: 5,
   },
   speedDots: {
     position: 'absolute',
