@@ -39,20 +39,89 @@ export class TTSService {
 
   // Set playback rate (0.5 = half speed, 1.0 = normal speed, 2.0 = double speed)
   async setPlaybackRate(rate: number): Promise<void> {
+    console.log(`[TTS] Setting playback rate to: ${rate}`);
+    
     // Clamp rate between 0.25x and 3.0x
     this.playbackRate = Math.max(0.25, Math.min(3.0, rate));
+    console.log(`[TTS] Clamped playback rate: ${this.playbackRate}`);
     
     // If currently playing, update the current sound's playback rate
     if (this.currentSound && this.isPlaying) {
       try {
-        await this.currentSound.setStatusAsync({
-          rate: this.playbackRate,
-          shouldCorrectPitch: true // Maintain voice pitch at different speeds
-        });
-
+        // First check if sound is loaded and available
+        const status = await this.currentSound.getStatusAsync();
+        console.log('[TTS] Current sound status:', status);
+        
+        if (status.isLoaded) {
+          // Try multiple approaches for setting playback rate
+          let success = false;
+          
+          // Approach 1: Standard rate setting with pitch correction
+          try {
+            await this.currentSound.setStatusAsync({
+              rate: this.playbackRate,
+              shouldCorrectPitch: true
+            });
+            success = true;
+            console.log('[TTS] Successfully set rate with pitch correction');
+          } catch (pitchError) {
+            console.warn('[TTS] Failed with pitch correction, trying without:', pitchError);
+            
+            // Approach 2: Rate setting without pitch correction
+            try {
+              await this.currentSound.setStatusAsync({
+                rate: this.playbackRate,
+                shouldCorrectPitch: false
+              });
+              success = true;
+              console.log('[TTS] Successfully set rate without pitch correction');
+            } catch (noPitchError) {
+              console.warn('[TTS] Failed without pitch correction, trying rate only:', noPitchError);
+              
+              // Approach 3: Rate only
+              try {
+                await this.currentSound.setStatusAsync({
+                  rate: this.playbackRate
+                });
+                success = true;
+                console.log('[TTS] Successfully set rate only');
+              } catch (rateOnlyError) {
+                console.error('[TTS] All rate setting approaches failed:', rateOnlyError);
+              }
+            }
+          }
+          
+          if (success) {
+            // Verify the rate was actually applied
+            const newStatus = await this.currentSound.getStatusAsync();
+            if (newStatus.isLoaded && 'rate' in newStatus) {
+              console.log(`[TTS] Verified rate applied: ${(newStatus as any).rate}`);
+            }
+          } else {
+            // If all methods fail, try to restart the current sound with new rate
+            console.log('[TTS] Attempting to restart sound with new rate');
+            const currentPosition = status.positionMillis || 0;
+            await this.currentSound.stopAsync();
+            await this.currentSound.setPositionAsync(currentPosition);
+            await this.currentSound.setStatusAsync({
+              rate: this.playbackRate,
+              shouldCorrectPitch: true
+            });
+            await this.currentSound.playAsync();
+            console.log('[TTS] Successfully restarted with new rate');
+          }
+        } else {
+          console.warn('[TTS] Sound not loaded, cannot set playback rate');
+        }
       } catch (error) {
-        console.error('Failed to set playback rate:', error);
+        console.error('[TTS] Failed to set playback rate:', error);
+        console.error('[TTS] Error details:', JSON.stringify(error, Object.getOwnPropertyNames(error)));
+        
+        // Notify callbacks about the error
+        this.callbacks.onPlaybackError?.(`Failed to change playback speed: ${error}`);
       }
+    } else {
+      console.log(`[TTS] Not currently playing, rate will be applied to next playback. Current sound: ${!!this.currentSound}, Is playing: ${this.isPlaying}`);
     }
   }
 
@@ -138,16 +207,19 @@ export class TTSService {
 
   private async playBlock(block: TextBlock): Promise<void> {
     try {
-
+      console.log(`[TTS] Starting playBlock with rate: ${this.playbackRate}, block:`, block.id);
       
       // Cleanup previous sound
       if (this.currentSound) {
+        console.log('[TTS] Cleaning up previous sound');
         await this.currentSound.unloadAsync();
       }
 
       // Load and play new audio
+      console.log('[TTS] Creating new sound from block audio');
       const { sound } = await Audio.Sound.createAsync(block.audio);
       this.currentSound = sound;
+      console.log('[TTS] Sound created successfully');
 
       // Set up playback status monitoring
       sound.setOnPlaybackStatusUpdate((status: AVPlaybackStatus) => {
@@ -165,15 +237,63 @@ export class TTSService {
         }
       });
 
-      // Set playback rate and play
-      await sound.setStatusAsync({
-        rate: this.playbackRate,
-        shouldCorrectPitch: true
-      });
+      // Set playback rate with robust error handling
+      console.log(`[TTS] Setting initial playback rate for new block: ${this.playbackRate}`);
+      
+      let rateSetSuccessfully = false;
+      
+      // Try multiple approaches for setting playback rate
+      try {
+        await sound.setStatusAsync({
+          rate: this.playbackRate,
+          shouldCorrectPitch: true
+        });
+        rateSetSuccessfully = true;
+        console.log('[TTS] Block rate set with pitch correction');
+      } catch (pitchError) {
+        console.warn('[TTS] Block rate failed with pitch correction, trying without:', pitchError);
+        
+        try {
+          await sound.setStatusAsync({
+            rate: this.playbackRate,
+            shouldCorrectPitch: false
+          });
+          rateSetSuccessfully = true;
+          console.log('[TTS] Block rate set without pitch correction');
+        } catch (noPitchError) {
+          console.warn('[TTS] Block rate failed without pitch correction, trying rate only:', noPitchError);
+          
+          try {
+            await sound.setStatusAsync({
+              rate: this.playbackRate
+            });
+            rateSetSuccessfully = true;
+            console.log('[TTS] Block rate set with rate only');
+          } catch (rateOnlyError) {
+            console.error('[TTS] All block rate setting attempts failed:', rateOnlyError);
+            // Continue without rate adjustment
+          }
+        }
+      }
+      
+      if (rateSetSuccessfully) {
+        // Verify the rate was set
+        try {
+          const status = await sound.getStatusAsync();
+          if (status.isLoaded && 'rate' in status) {
+            console.log(`[TTS] Verified block playback rate: ${(status as any).rate}`);
+          }
+        } catch (statusError) {
+          console.warn('[TTS] Could not verify block playback rate:', statusError);
+        }
+      }
+      
       await sound.playAsync();
+      console.log('[TTS] Block playback started successfully');
       
     } catch (error) {
-      console.error('Error playing block:', error);
+      console.error('[TTS] Error playing block:', error);
+      console.error('[TTS] Block error details:', JSON.stringify(error, Object.getOwnPropertyNames(error)));
       this.callbacks.onPlaybackError?.(`Failed to play audio: ${error}`);
       throw error;
     }
