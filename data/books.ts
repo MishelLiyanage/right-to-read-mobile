@@ -17,12 +17,14 @@ export const getAllBooks = (): Book[] => {
         {
           id: 'my-home',
           title: 'My home',
-          pageNumber: 21
+          pageNumber: 20,
+          navigationPageNumber: 29
         },
         {
           id: 'our-school',
           title: 'Our school',
-          pageNumber: 44
+          pageNumber: 35,
+          navigationPageNumber: 44
         },
         {
           id: 'my-food-bag',
@@ -32,7 +34,8 @@ export const getAllBooks = (): Book[] => {
         {
           id: 'animal-friends',
           title: 'Animal friends',
-          pageNumber: 67
+          pageNumber: 17,
+          navigationPageNumber: 26
         },
         {
           id: 'clothes-we-wear',

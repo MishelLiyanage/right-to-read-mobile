@@ -936,7 +936,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               </View>
               {/* Temporary Speed Buttons as fallback */}
               <View style={{ flexDirection: 'row', marginTop: 5, gap: 5 }}>
-                {[0.5, 1.0, 1.5, 2.0, 2.5].map((speed) => (
+                {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
                   <TouchableOpacity 
                     key={speed}
                     onPress={() => {
