@@ -417,13 +417,28 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Listen and say.",
+              text: "Excuse me May I... Please Thank you You're welcome",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_99/block_99_1_audio.mp3'),
             },
             {
               id: 2,
-              text: "Switch off the lights.",
+              text: "Lesson 2",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_99/block_99_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "Act out.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_99/block_99_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "Rasini : Excuse me teacher, may I come in? Teacher : Yes, you may.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_99/block_99_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "Waruni : Please give me your pen. Meena : Here you are. Waruni : Thank you. Meena : You're welcome.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_99/block_99_5_audio.mp3'),
             },
           ]
         },
@@ -433,8 +448,18 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Read and understand.",
+              text: "How are you? I'm fine. I'm very well. I'm great.",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_100/block_100_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Sonia : How are you, Kumar? Kumar : I'm fine. Thank you. How about you? Sonia : I'm very well. Thank you.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_100/block_100_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "Teacher : How are you all today? Children: We're fine. Thank you. How are you teacher? Teacher : I'm great. Thank you.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_100/block_100_3_audio.mp3'),
             },
           ]
         },
@@ -444,8 +469,48 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Listen and understand.",
+              text: "Lesson 3",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Read and match.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "This is our school bus. Let's protect it.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "This is our school wall. Let's keep it clean.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_5_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "We dump garbage into the bin.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_6_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "The road is busy. Let's follow the road rules.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_7_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "They help us. Let's say thank you.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_8_audio.mp3'),
+            },
+            {
+              id: 9,
+              text: "Let's wait for our turn.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_101/block_101_9_audio.mp3'),
             },
           ]
         },
@@ -455,8 +520,75 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Read and practice.",
+              text: "Lesson 4",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Read the good practices.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "How many do you practise?",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "We have a good sleep.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "We brush our teeth everyday. We get up early.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_5_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "We take dinner together. We eat healthy food. We wash our hands before meals.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_6_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "We drink boiled water. We are kind to animals.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_102/block_102_7_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 103,
+          image: require('@/data/grade_4_english_book/grade_4_english_book_page_103/english PB G-4.pdf_page_103.png'),
+          blocks: [
+            {
+              id: 1,
+              text: "Lesson 5",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_103/block_103_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Let's sing.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_103/block_103_2_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "Brush your teeth up and down. Brush your teeth round and round. Brush your teeth from left to right. Brush your teeth in the morning and night. Brush, brush, brush, brush, brush, brush, Brush your teeth in the morning and night.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_103/block_103_5_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "Brush your teeth to keep them white. Brush your teeth so that your smile is bright. Brush your teeth it's so much fun. Brush your teeth when you start the day. Brush, brush, brush, brush, brush, brush, Brush your teeth when you start the day.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_103/block_103_7_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 104,
+          image: require('@/data/grade_4_english_book/grade_4_english_book_page_104/english PB G-4.pdf_page_104.png'),
+          blocks: [
+            {
+              id: 3,
+              text: "Brush your teeth just open and wide. Brush your teeth from side to side. Brush your teeth you sleepyhead. Brush your teeth before you go to bed. Brush, brush, brush, brush, brush, brush, Brush your teeth before you go to bed.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_104/block_104_3_audio.mp3'),
             },
           ]
         },
@@ -466,8 +598,201 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Activities and exercises.",
+              text: "Lesson 6",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Read aloud.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_2_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "fresh fruits",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "green leaves",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_5_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "fresh vegetables",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_6_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "cereal",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_7_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "Let's eat …",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_105/block_105_8_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 106,
+          image: require('@/data/grade_4_english_book/grade_4_english_book_page_106/english PB G-4.pdf_page_106.png'),
+          blocks: [
+            {
+              id: 1,
+              text: "What are the types of food you eat?",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_106/block_106_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "I eat ...................... I don't eat ..................",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_106/block_106_2_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 107,
+          image: require('@/data/grade_4_english_book/grade_4_english_book_page_107/english PB G-4.pdf_page_107.png'),
+          blocks: [
+            {
+              id: 1,
+              text: "Lesson 7",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Read aloud.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_2_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "Trees give us vegetables.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_4_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "Trees give us medicine.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_6_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "Trees give us shade.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_8_audio.mp3'),
+            },
+            {
+              id: 9,
+              text: "Trees give us cool air.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_9_audio.mp3'),
+            },
+            {
+              id: 12,
+              text: "Trees give us beautiful flowers.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_12_audio.mp3'),
+            },
+            {
+              id: 14,
+              text: "Trees give us fruits.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_107/block_107_14_audio.mp3'),
+            },
+          ]
+        },
+        {
+          pageNumber: 108,
+          image: require('@/data/grade_4_english_book/grade_4_english_book_page_108/english PB G-4.pdf_page_108.png'),
+          blocks: [
+            {
+              id: 1,
+              text: "Read aloud.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "We need trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "We love nature too.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "We love trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "Let's protect trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_5_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "Let's plant trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_6_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_7_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "We need trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_8_audio.mp3'),
+            },
+            {
+              id: 9,
+              text: "Let's protect trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_9_audio.mp3'),
+            },
+            {
+              id: 10,
+              text: "Let's plant trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_10_audio.mp3'),
+            },
+            {
+              id: 11,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_11_audio.mp3'),
+            },
+            {
+              id: 12,
+              text: "We need trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_12_audio.mp3'),
+            },
+            {
+              id: 13,
+              text: "Let's protect trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_13_audio.mp3'),
+            },
+            {
+              id: 14,
+              text: "Let's plant trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_14_audio.mp3'),
+            },
+            {
+              id: 15,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_15_audio.mp3'),
+            },
+            {
+              id: 16,
+              text: "We need trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_16_audio.mp3'),
+            },
+            {
+              id: 17,
+              text: "Let's protect trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_17_audio.mp3'),
+            },
+            {
+              id: 18,
+              text: "Let's plant trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_18_audio.mp3'),
+            },
+            {
+              id: 19,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_108/block_108_19_audio.mp3'),
             },
           ]
         },
@@ -477,8 +802,43 @@ export const getAllBooks = (): Book[] => {
           blocks: [
             {
               id: 1,
-              text: "Final activities.",
+              text: "Lesson 8",
               audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_1_audio.mp3'),
+            },
+            {
+              id: 2,
+              text: "Let's play hopscotch.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_2_audio.mp3'),
+            },
+            {
+              id: 3,
+              text: "We need trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_3_audio.mp3'),
+            },
+            {
+              id: 4,
+              text: "Let's protect trees. Let's plant trees.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_4_audio.mp3'),
+            },
+            {
+              id: 5,
+              text: "We love nature.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_5_audio.mp3'),
+            },
+            {
+              id: 6,
+              text: "We love nature.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_6_audio.mp3'),
+            },
+            {
+              id: 7,
+              text: "Trees are useful.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_7_audio.mp3'),
+            },
+            {
+              id: 8,
+              text: "Trees are beautiful. Trees are our friends.",
+              audio: require('@/data/grade_4_english_book/grade_4_english_book_page_109/block_109_8_audio.mp3'),
             },
           ]
         }
