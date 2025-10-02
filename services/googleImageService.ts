@@ -10,7 +10,11 @@ export interface GoogleImageResult {
  */
 export class GoogleImageService {
   private static instance: GoogleImageService;
-  private cache = new Map<string, string>();
+  private cache = new Map<string, string | null>();
+  private requestQueue: Array<() => Promise<void>> = [];
+  private isProcessingQueue = false;
+  private lastRequestTime = 0;
+  private readonly MIN_REQUEST_INTERVAL = 1000; // 1 second between requests
 
   // 🔑 Replace these with your actual credentials
   private readonly API_KEY = "AIzaSyC6jx0h3inM3BLHuK1-WMSHLwv7RbIcL1w";
@@ -43,43 +47,94 @@ export class GoogleImageService {
   }
 
   /**
-   * Fetches image URL for the given word
+   * Add request to queue to respect rate limits
+   */
+  private async processRequestQueue(): Promise<void> {
+    if (this.isProcessingQueue || this.requestQueue.length === 0) {
+      return;
+    }
+
+    this.isProcessingQueue = true;
+
+    while (this.requestQueue.length > 0) {
+      const now = Date.now();
+      const timeSinceLastRequest = now - this.lastRequestTime;
+
+      if (timeSinceLastRequest < this.MIN_REQUEST_INTERVAL) {
+        await new Promise(resolve => setTimeout(resolve, this.MIN_REQUEST_INTERVAL - timeSinceLastRequest));
+      }
+
+      const request = this.requestQueue.shift();
+      if (request) {
+        this.lastRequestTime = Date.now();
+        await request();
+      }
+    }
+
+    this.isProcessingQueue = false;
+  }
+
+  /**
+   * Fetches image URL for the given word with rate limiting
    */
   async searchImage(word: string): Promise<string | null> {
     const normalizedWord = word.toLowerCase().trim();
 
     // ✅ Return from cache if available
     if (this.cache.has(normalizedWord)) {
+      console.log(`Image cache hit for: ${normalizedWord}`);
       return this.cache.get(normalizedWord)!;
     }
 
-    try {
-      const url = this.buildSearchUrl(normalizedWord);
-      const response = await fetch(url);
+    return new Promise((resolve) => {
+      const request = async () => {
+        try {
+          console.log(`Searching image for: ${normalizedWord}`);
+          const url = this.buildSearchUrl(normalizedWord);
+          const response = await fetch(url);
 
-      if (!response.ok) {
-        console.error(`Google Image Search failed for "${word}"`);
-        return null;
-      }
+          if (!response.ok) {
+            if (response.status === 429) {
+              console.warn(`Rate limit exceeded for Google Image Search. Try again later.`);
+              resolve(null);
+              return;
+            }
+            console.error(`Google Image Search failed for "${word}" (${response.status})`);
+            resolve(null);
+            return;
+          }
 
-      const data = await response.json();
+          const data = await response.json();
 
-      if (data.items && data.items.length > 0) {
-        const firstItem = data.items[0];
-        const imageUrl = firstItem.link;
+          if (data.error) {
+            console.error(`Google API Error:`, data.error);
+            resolve(null);
+            return;
+          }
 
-        // ✅ Cache it for next time
-        this.cache.set(normalizedWord, imageUrl);
+          if (data.items && data.items.length > 0) {
+            const firstItem = data.items[0];
+            const imageUrl = firstItem.link;
 
-        return imageUrl;
-      } else {
-        console.warn(`No images found for "${word}"`);
-        return null;
-      }
-    } catch (error) {
-      console.error(`Error searching image for "${word}":`, error);
-      return null;
-    }
+            // ✅ Cache it for next time
+            this.cache.set(normalizedWord, imageUrl);
+            console.log(`Image found for "${normalizedWord}": ${imageUrl}`);
+
+            resolve(imageUrl);
+          } else {
+            console.warn(`No images found for "${word}"`);
+            this.cache.set(normalizedWord, null); // Cache negative results
+            resolve(null);
+          }
+        } catch (error) {
+          console.error(`Error searching image for "${word}":`, error);
+          resolve(null);
+        }
+      };
+
+      this.requestQueue.push(request);
+      this.processRequestQueue();
+    });
   }
 
   clearCache() {

@@ -40,17 +40,35 @@ function WordOverlay({
 }: WordOverlayProps) {
   // Memoize word areas to prevent unnecessary re-renders
   const wordAreas = useMemo(() => {
-    if (!layoutData || !isEnabled) return [];
+    if (!layoutData || !isEnabled) {
+      console.log('[WordOverlay] No data or disabled:', { hasLayoutData: !!layoutData, isEnabled });
+      return [];
+    }
+
+    console.log('[WordOverlay] Rendering word areas:', {
+      totalWords: layoutData.words.length,
+      containerDimensions,
+      firstFewWords: layoutData.words.slice(0, 3).map(w => ({
+        word: w.word,
+        position: w.position
+      }))
+    });
 
     return layoutData.words.map((wordPos, index) => {
       const { topLeft, bottomRight } = wordPos.position;
       const width = bottomRight[0] - topLeft[0];
       const height = bottomRight[1] - topLeft[1];
 
+      // Validate dimensions
+      if (width <= 0 || height <= 0) {
+        console.warn(`[WordOverlay] Invalid dimensions for word "${wordPos.word}":`, { width, height, position: wordPos.position });
+        return null;
+      }
+
       // Make touch area fit exactly around the word with small padding
-      const padding = 2; // Small padding for easier tapping
-      const touchWidth = width + (padding * 2);
-      const touchHeight = height + (padding * 2);
+      const padding = 4; // Increased padding for easier tapping
+      const touchWidth = Math.max(20, width + (padding * 2)); // Minimum touch width
+      const touchHeight = Math.max(20, height + (padding * 2)); // Minimum touch height
 
       // Position with padding
       const adjustedLeft = topLeft[0] - padding;
@@ -65,11 +83,13 @@ function WordOverlay({
           width: touchWidth,
           height: touchHeight,
           backgroundColor: 'transparent', // Always transparent
+          borderWidth: 0,
+          borderColor: 'transparent',
         },
         wordPos,
         onPress: () => handleWordPress(wordPos),
       };
-    });
+    }).filter(Boolean); // Remove null entries
   }, [layoutData, isEnabled, containerDimensions]);
 
   const handleWordPress = (wordPos: WordPosition) => {
@@ -86,14 +106,16 @@ function WordOverlay({
       width: containerDimensions.width, 
       height: containerDimensions.height 
     }]}>
-      {wordAreas.map(({ key, style, wordPos, onPress }) => (
-        <WordArea
-          key={key}
-          style={style}
-          wordPos={wordPos}
-          onPress={onPress}
-        />
-      ))}
+      {wordAreas
+        .filter((area): area is NonNullable<typeof area> => area !== null)
+        .map(({ key, style, wordPos, onPress }) => (
+          <WordArea
+            key={key}
+            style={style}
+            wordPos={wordPos}
+            onPress={onPress}
+          />
+        ))}
       
       {/* Debug overlay to show total word count */}
       {__DEV__ && layoutData && (

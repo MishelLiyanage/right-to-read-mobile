@@ -177,12 +177,25 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   // Calculate word positions when image layout is ready
   useEffect(() => {
     const calculateWordLayout = async () => {
+      console.log('[BookReader] Starting word layout calculation:', {
+        hasCurrentPage: !!currentPage,
+        hasBlocks: !!currentPage?.blocks,
+        blockCount: currentPage?.blocks?.length || 0,
+        hasContainerDimensions: !!containerDimensions,
+        hasSourceImageDimensions: !!sourceImageDimensions,
+        isDictionarySidebarVisible,
+        isTOCSidebarVisible,
+        isWordPopupVisible
+      });
+
       // Skip calculation if other overlays are visible or in debug mode
       if (isDictionarySidebarVisible || isTOCSidebarVisible || isWordPopupVisible) {
+        console.log('[BookReader] Skipping word layout - overlay visible');
         return;
       }
 
       if (!currentPage?.blocks || !containerDimensions || !sourceImageDimensions) {
+        console.log('[BookReader] Missing required data for word layout');
         setWordLayoutData(null);
         return;
       }
@@ -191,7 +204,15 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         const renderedImageSize = getRenderedImageSize();
         const imageOffset = getImageOffset();
         
+        console.log('[BookReader] Image layout data:', {
+          renderedImageSize,
+          imageOffset,
+          containerDimensions,
+          sourceImageDimensions
+        });
+        
         if (!renderedImageSize || !imageOffset) {
+          console.log('[BookReader] Missing image layout data');
           return;
         }
 
@@ -205,6 +226,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               renderedImageSize,
               imageOffset
             );
+
+            console.log('[BookReader] Word layout calculated:', {
+              pageNumber: currentPage.pageNumber,
+              totalWords: layoutData.totalWords,
+              wordsWithPositions: layoutData.words.length,
+              firstFewWords: layoutData.words.slice(0, 3).map(w => ({
+                word: w.word,
+                position: w.position
+              }))
+            });
 
             setWordLayoutData(layoutData);
             

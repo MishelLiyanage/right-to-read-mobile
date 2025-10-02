@@ -41,11 +41,20 @@ export default function BlockPlayButtonsOverlay({
   }, [originalPageSize, renderedImageSize, imageOffset]);
 
   const renderBlockPlayButtons = () => {
-    if (!coordinateScaler) return null;
+    if (!coordinateScaler) {
+      console.log('[BlockPlayButtons] No coordinate scaler available');
+      return null;
+    }
+
+    console.log('[BlockPlayButtons] Rendering buttons for blocks:', {
+      totalBlocks: blocks.length,
+      blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length
+    });
 
     return blocks.map((block) => {
       // Skip blocks without bounding boxes
       if (!block.bounding_boxes || !block.bounding_boxes.length) {
+        console.warn(`[BlockPlayButtons] Block ${block.id} has no bounding boxes`);
         return null;
       }
 
@@ -91,14 +100,16 @@ export default function BlockPlayButtonsOverlay({
       };
       
       // Debug logging for production troubleshooting
-      console.log(`[BlockPlayButtons] Block ${block.id} Position:`, {
-        originalBounds: { minX, minY, maxX, maxY },
-        scaledBounds: { scaledTopLeft, scaledBottomRight },
-        imageOffset,
-        finalPosition: position,
-        renderedImageSize,
-        originalPageSize
-      });
+      if (__DEV__) {
+        console.log(`[BlockPlayButtons] Block ${block.id} Position:`, {
+          originalBounds: { minX, minY, maxX, maxY },
+          scaledBounds: { scaledTopLeft, scaledBottomRight },
+          imageOffset,
+          finalPosition: position,
+          renderedImageSize,
+          originalPageSize
+        });
+      }
 
       return (
         <BlockPlayButton

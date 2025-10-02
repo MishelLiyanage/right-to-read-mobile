@@ -23,6 +23,16 @@ import page106TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_bo
 import page107TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_107/english PB G-4.pdf_page_107_trimmed_blocks.json';
 import page108TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_108/english PB G-4.pdf_page_108_trimmed_blocks.json';
 import page109TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_109/english PB G-4.pdf_page_109_trimmed_blocks.json';
+import page110TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_110/english PB G-4.pdf_page_110_trimmed_blocks.json';
+import page111TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_111/english PB G-4.pdf_page_111_trimmed_blocks.json';
+import page112TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_112/english PB G-4.pdf_page_112_trimmed_blocks.json';
+import page113TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_113/english PB G-4.pdf_page_113_trimmed_blocks.json';
+import page114TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_114/english PB G-4.pdf_page_114_trimmed_blocks.json';
+import page115TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_115/english PB G-4.pdf_page_115_trimmed_blocks.json';
+import page116TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_116/english PB G-4.pdf_page_116_trimmed_blocks.json';
+import page117TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_117/english PB G-4.pdf_page_117_trimmed_blocks.json';
+import page118TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_118/english PB G-4.pdf_page_118_trimmed_blocks.json';
+import page119TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_119/english PB G-4.pdf_page_119_trimmed_blocks.json';
 import page98TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_98/english PB G-4.pdf_page_98_trimmed_blocks.json';
 import page99TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_99/english PB G-4.pdf_page_99_trimmed_blocks.json';
 
@@ -84,6 +94,16 @@ export class TrimmedBlocksDataService {
     this.dataMap.set(107, page107TrimmedBlocks as any);
     this.dataMap.set(108, page108TrimmedBlocks as any);
     this.dataMap.set(109, page109TrimmedBlocks as any);
+    this.dataMap.set(110, page110TrimmedBlocks as any);
+    this.dataMap.set(111, page111TrimmedBlocks as any);
+    this.dataMap.set(112, page112TrimmedBlocks as any);
+    this.dataMap.set(113, page113TrimmedBlocks as any);
+    this.dataMap.set(114, page114TrimmedBlocks as any);
+    this.dataMap.set(115, page115TrimmedBlocks as any);
+    this.dataMap.set(116, page116TrimmedBlocks as any);
+    this.dataMap.set(117, page117TrimmedBlocks as any);
+    this.dataMap.set(118, page118TrimmedBlocks as any);
+    this.dataMap.set(119, page119TrimmedBlocks as any);
 
     console.log('TrimmedBlocksDataService initialized with pages:', Array.from(this.dataMap.keys()));
   }
