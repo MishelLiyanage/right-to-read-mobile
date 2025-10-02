@@ -23,6 +23,16 @@ import page106BlocksData from '@/data/grade_4_english_book/grade_4_english_book_
 import page107BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_107/english PB G-4.pdf_page_107_blocks.json';
 import page108BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_108/english PB G-4.pdf_page_108_blocks.json';
 import page109BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_109/english PB G-4.pdf_page_109_blocks.json';
+import page110BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_110/english PB G-4.pdf_page_110_blocks.json';
+import page111BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_111/english PB G-4.pdf_page_111_blocks.json';
+import page112BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_112/english PB G-4.pdf_page_112_blocks.json';
+import page113BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_113/english PB G-4.pdf_page_113_blocks.json';
+import page114BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_114/english PB G-4.pdf_page_114_blocks.json';
+import page115BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_115/english PB G-4.pdf_page_115_blocks.json';
+import page116BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_116/english PB G-4.pdf_page_116_blocks.json';
+import page117BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_117/english PB G-4.pdf_page_117_blocks.json';
+import page118BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_118/english PB G-4.pdf_page_118_blocks.json';
+import page119BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_119/english PB G-4.pdf_page_119_blocks.json';
 import page98BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_98/english PB G-4.pdf_page_98_blocks.json';
 import page99BlocksData from '@/data/grade_4_english_book/grade_4_english_book_page_99/english PB G-4.pdf_page_99_blocks.json';
 
@@ -73,6 +83,16 @@ export class BookDataService {
     this.dataMap.set(107, page107BlocksData as any);
     this.dataMap.set(108, page108BlocksData as any);
     this.dataMap.set(109, page109BlocksData as any);
+    this.dataMap.set(110, page110BlocksData as any);
+    this.dataMap.set(111, page111BlocksData as any);
+    this.dataMap.set(112, page112BlocksData as any);
+    this.dataMap.set(113, page113BlocksData as any);
+    this.dataMap.set(114, page114BlocksData as any);
+    this.dataMap.set(115, page115BlocksData as any);
+    this.dataMap.set(116, page116BlocksData as any);
+    this.dataMap.set(117, page117BlocksData as any);
+    this.dataMap.set(118, page118BlocksData as any);
+    this.dataMap.set(119, page119BlocksData as any);
   }
 
   getBlocksForPage(pageNumber: number): BlockData | null {
