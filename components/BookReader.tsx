@@ -16,7 +16,6 @@ import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
 import { WordLayoutData, WordPosition, WordPositionService } from '@/services/wordPositionService';
 import { Book, DictionaryEntry, WordDefinition } from '@/types/book';
-import Slider from '@react-native-community/slider';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Animated, Dimensions, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
@@ -35,6 +34,9 @@ const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 738 };
 const MIN_SPEED = 0.25;
 const MAX_SPEED = 3.0;
 const SPEED_STEP = 0.25;
+
+// Sidebar dimensions
+const SIDEBAR_WIDTH = 100;
 
 export default function BookReader({ book, onClose }: BookReaderProps) {
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -58,13 +60,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [definitionError, setDefinitionError] = useState<string | null>(null);
   const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
   const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
-  const [isFooterVisible, setIsFooterVisible] = useState(true); // Footer visibility state
   const [currentlyPlayingBlockId, setCurrentlyPlayingBlockId] = useState<number | null>(null); // Individual block playback
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   const pageTransition = useRef(new Animated.Value(1)).current;
-  const footerAnimation = useRef(new Animated.Value(0)).current; // 0 = visible, 1 = hidden
-  const footerTimer = useRef<number | null>(null); // Timer for auto-hide
 
   const ttsService = useRef<TTSService | null>(null);
   const dictionaryService = useRef(DictionaryService.getInstance());
@@ -74,14 +73,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const currentPage = book.pages?.[currentPageIndex];
   const totalPages = book.pages?.length || 0;
 
-  // Cleanup effect for timer
-  useEffect(() => {
-    return () => {
-      if (footerTimer.current) {
-        clearTimeout(footerTimer.current);
-      }
-    };
-  }, []);
+
 
   useEffect(() => {
     // Cleanup previous TTS service
@@ -109,7 +101,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         onPlaybackStart: () => {
           setIsPlaying(true);
           setIsPaused(false);
-          hideFooter(); // Auto-hide footer when reading starts
         },
         onPlaybackComplete: () => {
           setIsPlaying(false);
@@ -117,7 +108,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setCurrentBlockIndex(0);
           setCurrentBlockHighlightData(null);
           setCurrentlyPlayingBlockId(null); // Reset individual block playback
-          showFooter(); // Show footer when reading completes
         },
         onPlaybackError: (error) => {
           setIsPlaying(false);
@@ -284,8 +274,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   // Navigation functions
   const handlePreviousPage = () => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (isPageTransitioning || currentPageIndex <= 0) return;
     
     setIsPageTransitioning(true);
@@ -310,8 +298,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleNextPage = () => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (isPageTransitioning || !book?.pages || currentPageIndex >= book.pages.length - 1) return;
     
     setIsPageTransitioning(true);
@@ -336,8 +322,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handlePlayPage = async () => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (!ttsService.current || !currentPage?.blocks) {
       Alert.alert('Error', 'No content available to read');
       return;
@@ -364,13 +348,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handlePauseReading = async () => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (ttsService.current && isPlaying && !isPaused) {
       try {
         await ttsService.current.pause();
         setIsPaused(true);
-        showFooter(); // Show footer when paused so user can interact
       } catch (error) {
         console.error('Error pausing TTS:', error);
         Alert.alert('Error', 'Failed to pause reading');
@@ -379,8 +360,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleStopReading = async () => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (ttsService.current) {
       await ttsService.current.stop();
       setIsPlaying(false);
@@ -390,8 +369,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleSpeedChange = async (newSpeed: number) => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     setPlaybackSpeed(newSpeed);
     if (ttsService.current) {
       await ttsService.current.setPlaybackRate(newSpeed);
@@ -403,8 +380,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   };
 
   const handleBlockPlay = async (blockId: number, blockText: string) => {
-    resetFooterTimer(); // Reset timer on interaction
-    
     if (!ttsService.current) {
       Alert.alert('Error', 'No TTS service available');
       return;
@@ -438,50 +413,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     }
   };
 
-  // Footer animation functions
-  const hideFooter = () => {
-    // Clear any existing timer
-    if (footerTimer.current) {
-      clearTimeout(footerTimer.current);
-      footerTimer.current = null;
-    }
-    
-    setIsFooterVisible(false);
-    Animated.timing(footerAnimation, {
-      toValue: 1, // 1 = hidden
-      duration: 300,
-      useNativeDriver: true,
-    }).start();
-  };
 
-  const showFooter = () => {
-    // Clear any existing timer
-    if (footerTimer.current) {
-      clearTimeout(footerTimer.current);
-    }
-    
-    setIsFooterVisible(true);
-    Animated.timing(footerAnimation, {
-      toValue: 0, // 0 = visible
-      duration: 300,
-      useNativeDriver: true,
-    }).start();
-    
-    // Set auto-hide timer for 5 seconds
-    footerTimer.current = setTimeout(() => {
-      hideFooter();
-    }, 5000);
-  };
-
-  // Reset the auto-hide timer (called when user interacts with footer)
-  const resetFooterTimer = () => {
-    if (isFooterVisible && footerTimer.current) {
-      clearTimeout(footerTimer.current);
-      footerTimer.current = setTimeout(() => {
-        hideFooter();
-      }, 5000);
-    }
-  };
 
 
 
@@ -643,37 +575,11 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     );
   }
 
-  // Touch handling for swipe detection
-  const touchStart = useRef({ y: 0, time: 0 });
-  
-  const handleTouchStart = (event: any) => {
-    touchStart.current = {
-      y: event.nativeEvent.pageY,
-      time: Date.now()
-    };
-  };
 
-  const handleTouchEnd = (event: any) => {
-    const touchEnd = {
-      y: event.nativeEvent.pageY,
-      time: Date.now()
-    };
-    
-    const deltaY = touchStart.current.y - touchEnd.y;
-    const deltaTime = touchEnd.time - touchStart.current.time;
-    const velocity = deltaY / deltaTime;
-    
-    // Detect upward swipe (positive deltaY, fast velocity, and footer is hidden)
-    if (deltaY > 50 && velocity > 0.5 && !isFooterVisible) {
-      showFooter();
-    }
-  };
 
   return (
     <View 
       style={styles.container}
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
     >
       {/* Floating Back Button */}
       <TouchableOpacity onPress={onClose} style={styles.floatingBackButton}>
@@ -699,7 +605,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       </TouchableOpacity>
 
       {/* Page Content */}
-      <Animated.View style={{ flex: 1, opacity: pageTransition }}>
+      <Animated.View style={[styles.pageContentContainer, { opacity: pageTransition }]}>
         <ScrollView 
           style={styles.scrollContainer} 
           contentContainerStyle={isZoomed ? styles.scrollContentZoomed : styles.scrollContent}
@@ -732,21 +638,26 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               // Fallback to manual calculation if hook data not available yet
               if (!renderedImageSize || !imageOffset) {
                 console.log('[BookReader] Using fallback calculation - hook data not ready');
+                const availableWidth = screenWidth - SIDEBAR_WIDTH;
                 const availableHeight = screenHeight;
                 const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
                 
-                const fallbackImageSize = {
+                // Use full height and calculate width proportionally
+                let fallbackImageSize = {
                   width: availableHeight * aspectRatio,
                   height: availableHeight
                 };
                 
-                if (fallbackImageSize.width > screenWidth) {
-                  fallbackImageSize.width = screenWidth;
-                  fallbackImageSize.height = screenWidth / aspectRatio;
+                // If calculated width exceeds available width, constrain by width instead
+                if (fallbackImageSize.width > availableWidth) {
+                  fallbackImageSize = {
+                    width: availableWidth,
+                    height: availableWidth / aspectRatio
+                  };
                 }
                 
                 const fallbackOffset = {
-                  x: (screenWidth - fallbackImageSize.width) / 2,
+                  x: (availableWidth - fallbackImageSize.width) / 2,
                   y: (availableHeight - fallbackImageSize.height) / 2
                 };
                 
@@ -863,155 +774,120 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       </ScrollView>
       </Animated.View>
 
-      {/* Audio Controls */}
-      <Animated.View 
-        style={[
-          styles.audioControls,
-          {
-            transform: [{
-              translateY: footerAnimation.interpolate({
-                inputRange: [0, 1],
-                outputRange: [0, 100], // Slide down 100px when hidden
-              })
-            }]
-          }
-        ]}
+      {/* Vertical Sidebar Controls */}
+      <View 
+        style={styles.verticalSidebar}
       >
-        <ThemedText style={styles.audioTitle}>Listen to this page:</ThemedText>
-        
-        {/* All Controls in One Row */}
-        <View style={styles.allControlsRow}>
-          {/* Previous Navigation Button - Left */}
+        {/* Vertical Controls in Order */}
+        <View style={styles.sidebarSection}>
+          {/* 1. Previous Arrow Button */}
           <TouchableOpacity 
             style={[
-              styles.navigationButton, 
+              styles.sidebarButton, 
               currentPageIndex <= 0 ? styles.disabledButton : styles.enabledButton
             ]} 
             onPress={handlePreviousPage}
             disabled={isPageTransitioning || currentPageIndex <= 0}
           >
             <ThemedText style={[
-              styles.navigationButtonText,
+              styles.sidebarButtonText,
               currentPageIndex <= 0 ? styles.disabledText : styles.enabledText
             ]}>
-              ← Previous
+              ←
             </ThemedText>
           </TouchableOpacity>
 
-          {/* Center Audio Controls */}
-          <View style={styles.centerAudioControls}>
-            {/* Zoom/Magnifier Button */}
-            <TouchableOpacity 
-              style={[styles.controlButton, styles.magnifierButton]} 
-              onPress={handleZoomToggle}
-            >
-              <ThemedText style={styles.controlButtonText}>
-                {isZoomed ? '🔍−' : '🔍+'}
-              </ThemedText>
-            </TouchableOpacity>
-            
-            {/* Play Button */}
-            <TouchableOpacity 
-              style={[
-                styles.controlButton, 
-                isPaused 
-                  ? styles.resumeButton 
-                  : isPlaying 
-                    ? styles.pauseButton 
-                    : styles.playButton
-              ]} 
-              onPress={isPaused ? handlePlayPage : isPlaying ? handlePauseReading : handlePlayPage}
-              disabled={false}
-            >
-              <ThemedText style={styles.controlButtonText}>
-                {isPaused 
-                  ? '▶ Resume' 
-                  : isPlaying 
-                    ? '⏸ Pause' 
-                    : '▶ Play'
-                }
-              </ThemedText>
-            </TouchableOpacity>
-            
-            {/* Page Indicator */}
-            <View style={styles.pageIndicatorCenter}>
-              <ThemedText style={styles.pageIndicatorText}>
-                Page {currentPageIndex + 1} of {book?.pages?.length || 0}
-              </ThemedText>
-            </View>
-            
-            {/* Stop Button */}
-            <TouchableOpacity 
-              style={[styles.controlButton, styles.stopButton]} 
-              onPress={handleStopReading}
-              disabled={!isPlaying && !isPaused}
-            >
-              <ThemedText style={styles.controlButtonText}>⏹ Stop</ThemedText>
-            </TouchableOpacity>
-            
-            {/* Speed Control */}
-            <View style={styles.speedControl}>
-              <ThemedText style={styles.speedControlTitle}>{playbackSpeed}x</ThemedText>
-              <View style={styles.sliderContainer}>
-                <Slider
-                  style={styles.speedSlider}
-                  minimumValue={MIN_SPEED}
-                  maximumValue={MAX_SPEED}
-                  step={SPEED_STEP}
-                  value={playbackSpeed}
-                  onValueChange={handleSpeedChange}
-                  minimumTrackTintColor="#000"
-                  maximumTrackTintColor="#ddd"
-                  thumbTintColor="#000"
-                />
-              </View>
-              {/* Temporary Speed Buttons as fallback */}
-              <View style={{ flexDirection: 'row', marginTop: 5, gap: 5 }}>
-                {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
-                  <TouchableOpacity 
-                    key={speed}
-                    onPress={() => {
-                      handleSpeedChange(speed);
-                    }}
-                    style={{ 
-                      backgroundColor: playbackSpeed === speed ? '#FF6B6B' : '#ddd', 
-                      padding: 5, 
-                      borderRadius: 3,
-                      minWidth: 30,
-                      alignItems: 'center'
-                    }}
-                  >
-                    <ThemedText style={{ 
-                      color: playbackSpeed === speed ? 'white' : 'black',
-                      fontSize: 12,
-                      fontWeight: playbackSpeed === speed ? 'bold' : 'normal'
-                    }}>
-                      {speed}x
-                    </ThemedText>
-                  </TouchableOpacity>
-                ))}
-              </View>
-            </View>
-          </View>
+          {/* 2. Zoom Button */}
+          <TouchableOpacity 
+            style={[styles.sidebarButton, styles.magnifierButton]} 
+            onPress={handleZoomToggle}
+          >
+            <ThemedText style={styles.sidebarButtonText}>
+              {isZoomed ? '🔍−' : '🔍+'}
+            </ThemedText>
+          </TouchableOpacity>
 
-          {/* Next Navigation Button - Right */}
+          {/* 3. Play Button */}
           <TouchableOpacity 
             style={[
-              styles.navigationButton, 
+              styles.sidebarButton, 
+              isPaused 
+                ? styles.resumeButton 
+                : isPlaying 
+                  ? styles.pauseButton 
+                  : styles.playButton
+            ]} 
+            onPress={isPaused ? handlePlayPage : isPlaying ? handlePauseReading : handlePlayPage}
+          >
+            <ThemedText style={styles.sidebarButtonText}>
+              {isPaused 
+                ? '▶' 
+                : isPlaying 
+                  ? '⏸' 
+                  : '▶'
+              }
+            </ThemedText>
+          </TouchableOpacity>
+
+          {/* 4. Page Number Indicator */}
+          <View style={styles.pageIndicator}>
+            <ThemedText style={styles.pageText}>
+              {currentPageIndex + 1}
+            </ThemedText>
+            <ThemedText style={styles.pageText}>
+              /{book?.pages?.length || 0}
+            </ThemedText>
+          </View>
+
+          {/* 5. Stop Button */}
+          <TouchableOpacity 
+            style={[styles.sidebarButton, styles.stopButton]} 
+            onPress={handleStopReading}
+            disabled={!isPlaying && !isPaused}
+          >
+            <ThemedText style={styles.sidebarButtonText}>⏹</ThemedText>
+          </TouchableOpacity>
+
+          {/* 6. Audio Speed Changer */}
+          <View style={styles.speedControlSection}>
+            <ThemedText style={styles.speedLabel}>{playbackSpeed}x</ThemedText>
+            {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
+              <TouchableOpacity 
+                key={speed}
+                onPress={() => handleSpeedChange(speed)}
+                style={[
+                  styles.speedButton,
+                  { backgroundColor: playbackSpeed === speed ? '#FF6B6B' : '#ddd' }
+                ]}
+              >
+                <ThemedText style={[
+                  styles.speedButtonText,
+                  { color: playbackSpeed === speed ? 'white' : 'black' }
+                ]}>
+                  {speed}x
+                </ThemedText>
+              </TouchableOpacity>
+            ))}
+          </View>
+
+          {/* 7. Next Arrow Button */}
+          <TouchableOpacity 
+            style={[
+              styles.sidebarButton, 
               (!book?.pages || currentPageIndex >= book.pages.length - 1) ? styles.disabledButton : styles.enabledButton
             ]} 
             onPress={handleNextPage}
             disabled={isPageTransitioning || !book?.pages || currentPageIndex >= book.pages.length - 1}
           >
             <ThemedText style={[
-              styles.navigationButtonText,
+              styles.sidebarButtonText,
               (!book?.pages || currentPageIndex >= book.pages.length - 1) ? styles.disabledText : styles.enabledText
             ]}>
-              Next →
+              →
             </ThemedText>
           </TouchableOpacity>
         </View>
-      </Animated.View>
+      </View>
 
       {/* Table of Contents Sidebar */}
       {book.tableOfContents && (
@@ -1031,6 +907,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           onWordSelect={handleWordSelect}
           isEnabled={!isWordPopupVisible && !isDictionarySidebarVisible && !isTOCSidebarVisible}
           containerDimensions={containerDimensions}
+          sidebarOffset={SIDEBAR_WIDTH}
         />
       )}
 
@@ -1044,7 +921,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         error={definitionError}
         onClose={handleWordPopupClose}
         onSpeakWord={handleSpeakSelectedWord}
-        containerDimensions={containerDimensions || { width: screenWidth, height: screenHeight }}
+        containerDimensions={containerDimensions || { width: screenWidth - SIDEBAR_WIDTH, height: screenHeight }}
+        sidebarOffset={SIDEBAR_WIDTH}
       />
 
       {/* Dictionary Sidebar */}
@@ -1063,10 +941,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f5f5f5',
   },
+  pageContentContainer: {
+    flex: 1,
+    marginLeft: SIDEBAR_WIDTH,
+  },
   floatingBackButton: {
     position: 'absolute',
     top: 50,
-    left: 20,
+    left: SIDEBAR_WIDTH + 20, // Position to the right of sidebar
     zIndex: 1000,
     backgroundColor: 'rgba(255, 255, 255, 0.9)',
     borderRadius: 25,
@@ -1168,17 +1050,16 @@ const styles = StyleSheet.create({
     height: '100%',
     resizeMode: 'contain',
   },
-  audioControls: {
+  verticalSidebar: {
     position: 'absolute',
-    bottom: 0,
     left: 0,
-    right: 0,
+    top: 0,
+    bottom: 0,
+    width: 100,
     backgroundColor: '#fff',
-    paddingVertical: 0,
-    paddingBottom: 5,
-    paddingHorizontal: 26,
-    borderTopWidth: 1,
-    borderTopColor: '#e0e0e0',
+    paddingHorizontal: 8,
+    borderRightWidth: 1,
+    borderRightColor: '#e0e0e0',
     zIndex: 1000,
   },
   audioTitle: {
@@ -1222,8 +1103,6 @@ const styles = StyleSheet.create({
   },
   magnifierButton: {
     backgroundColor: '#9C27B0',
-    marginRight: 108,
-    paddingRight: 8,
   },
   controlButtonText: {
     color: '#fff',
@@ -1255,8 +1134,7 @@ const styles = StyleSheet.create({
   },
   pageIndicator: {
     alignItems: 'center',
-    flex: 1,
-    marginHorizontal: 20,
+    marginVertical: 8,
   },
   pageIndicatorCenter: {
     alignItems: 'center',
@@ -1307,5 +1185,52 @@ const styles = StyleSheet.create({
   },
   speedDotActive: {
     backgroundColor: '#000',
+  },
+  sidebarSection: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+    paddingVertical: 30,
+  },
+  sidebarButton: {
+    width: 60,
+    height: 40,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 8,
+  },
+  sidebarButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  pageText: {
+    fontSize: 12,
+    color: '#666',
+    fontWeight: '500',
+    textAlign: 'center',
+  },
+  speedLabel: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 8,
+  },
+  speedButton: {
+    padding: 4,
+    borderRadius: 4,
+    marginVertical: 2,
+    minWidth: 35,
+    alignItems: 'center',
+  },
+  speedButtonText: {
+    fontSize: 10,
+    fontWeight: 'bold',
+  },
+  speedControlSection: {
+    alignItems: 'center',
+    marginVertical: 8,
   },
 });

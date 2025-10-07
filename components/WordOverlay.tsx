@@ -7,6 +7,7 @@ interface WordOverlayProps {
   onWordSelect: (word: string, position: WordPosition) => void;
   isEnabled?: boolean;
   containerDimensions: { width: number; height: number };
+  sidebarOffset?: number;
 }
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
@@ -36,7 +37,8 @@ function WordOverlay({
   layoutData,
   onWordSelect,
   isEnabled = true,
-  containerDimensions
+  containerDimensions,
+  sidebarOffset = 0
 }: WordOverlayProps) {
   // Memoize word areas to prevent unnecessary re-renders
   const wordAreas = useMemo(() => {
@@ -70,8 +72,8 @@ function WordOverlay({
       const touchWidth = Math.max(20, width + (padding * 2)); // Minimum touch width
       const touchHeight = Math.max(20, height + (padding * 2)); // Minimum touch height
 
-      // Position with padding
-      const adjustedLeft = topLeft[0] - padding;
+      // Position with padding and sidebar offset
+      const adjustedLeft = topLeft[0] - padding + sidebarOffset;
       const adjustedTop = topLeft[1] - padding;
 
       return {
@@ -90,7 +92,7 @@ function WordOverlay({
         onPress: () => handleWordPress(wordPos),
       };
     }).filter(Boolean); // Remove null entries
-  }, [layoutData, isEnabled, containerDimensions]);
+  }, [layoutData, isEnabled, containerDimensions, sidebarOffset]);
 
   const handleWordPress = (wordPos: WordPosition) => {
 
