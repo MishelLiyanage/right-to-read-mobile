@@ -6,15 +6,15 @@ import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-  ActivityIndicator,
-  Animated,
-  Dimensions,
-  Modal,
-  ScrollView,
-  StyleSheet,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
+    ActivityIndicator,
+    Animated,
+    Dimensions,
+    Modal,
+    ScrollView,
+    StyleSheet,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View,
 } from 'react-native';
 
 interface WordPopupProps {
@@ -27,6 +27,7 @@ interface WordPopupProps {
   onClose: () => void;
   onSpeakWord: (word: string) => Promise<void>;
   containerDimensions: { width: number; height: number };
+  sidebarOffset?: number;
 }
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
@@ -44,6 +45,7 @@ export default function WordPopup({
   onClose,
   onSpeakWord,
   containerDimensions,
+  sidebarOffset = 0,
 }: WordPopupProps) {
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0, arrowPosition: 'bottom' });
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -59,13 +61,13 @@ export default function WordPopup({
     } else {
       hidePopup();
     }
-  }, [isVisible, wordPosition]);
+  }, [isVisible, wordPosition, sidebarOffset]);
 
   const calculatePopupPosition = () => {
     if (!wordPosition) return;
 
     const wordCenter = {
-      x: (wordPosition.position.topLeft[0] + wordPosition.position.bottomRight[0]) / 2,
+      x: (wordPosition.position.topLeft[0] + wordPosition.position.bottomRight[0]) / 2 + sidebarOffset,
       y: (wordPosition.position.topLeft[1] + wordPosition.position.bottomRight[1]) / 2,
     };
 
@@ -90,12 +92,12 @@ export default function WordPopup({
     if (popupY + POPUP_MAX_HEIGHT > containerDimensions.height - 20) {
       if (wordCenter.x < containerDimensions.width / 2) {
         // Show on the right
-        popupX = wordPosition.position.bottomRight[0] + ARROW_SIZE + 10;
+        popupX = wordPosition.position.bottomRight[0] + sidebarOffset + ARROW_SIZE + 10;
         popupY = wordCenter.y - POPUP_MAX_HEIGHT / 2;
         arrowPosition = 'left';
       } else {
         // Show on the left
-        popupX = wordPosition.position.topLeft[0] - POPUP_WIDTH - ARROW_SIZE - 10;
+        popupX = wordPosition.position.topLeft[0] + sidebarOffset - POPUP_WIDTH - ARROW_SIZE - 10;
         popupY = wordCenter.y - POPUP_MAX_HEIGHT / 2;
         arrowPosition = 'right';
       }
