@@ -12,6 +12,7 @@ export interface TableOfContentsSection {
   id: string;
   title: string;
   pageNumber: number;
+  navigationPageNumber?: number; // The actual page to navigate to (if different from displayed pageNumber)
   description?: string;
 }
 

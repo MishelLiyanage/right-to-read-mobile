@@ -277,11 +277,6 @@ export default function WordPopup({
                     </View>
                   )}
                 </ScrollView>
-
-                {/* Close button */}
-                <TouchableOpacity onPress={onClose} style={styles.closeButton}>
-                  <Ionicons name="close" size={20} color="#8E8E93" />
-                </TouchableOpacity>
               </ThemedView>
 
               {/* Arrow pointing to word */}
@@ -460,12 +455,6 @@ const styles = StyleSheet.create({
     opacity: 0.8,
     marginTop: 2,
     marginLeft: 12,
-  },
-  closeButton: {
-    position: 'absolute',
-    top: 12,
-    right: 12,
-    padding: 4,
   },
   arrow: {
     zIndex: -1,

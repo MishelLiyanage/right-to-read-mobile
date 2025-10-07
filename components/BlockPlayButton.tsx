@@ -48,7 +48,14 @@ export default function BlockPlayButton({
   };
 
   // Debug logging to help troubleshoot positioning
-
+  if (__DEV__) {
+    console.log(`[BlockPlayButton] Rendering button for block ${blockId}:`, {
+      position,
+      buttonPosition,
+      isPlaying,
+      screenWidth
+    });
+  }
 
   return (
     <TouchableOpacity
@@ -56,8 +63,15 @@ export default function BlockPlayButton({
         styles.playButton,
         buttonPosition,
         isPlaying && styles.playingButton,
-        // Debug: Make buttons very visible with bright background
-        { backgroundColor: isPlaying ? 'rgba(219, 65, 65, 0.66)' : 'rgba(73, 113, 233, 0.69)' }
+        // Make buttons more visible
+        { 
+          backgroundColor: isPlaying ? 'rgba(255, 59, 48, 0.9)' : 'rgba(0, 122, 255, 0.9)',
+          shadowColor: '#000',
+          shadowOffset: { width: 0, height: 4 },
+          shadowOpacity: 0.3,
+          shadowRadius: 8,
+          elevation: 12,
+        }
       ]}
       onPress={handlePress}
       activeOpacity={0.7}

@@ -29,7 +29,7 @@ interface BookReaderProps {
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 // Original page dimensions based on coordinate analysis
-const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
+const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 738 };
 
 // Audio speed control constants
 const MIN_SPEED = 0.25;
@@ -177,12 +177,25 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   // Calculate word positions when image layout is ready
   useEffect(() => {
     const calculateWordLayout = async () => {
+      console.log('[BookReader] Starting word layout calculation:', {
+        hasCurrentPage: !!currentPage,
+        hasBlocks: !!currentPage?.blocks,
+        blockCount: currentPage?.blocks?.length || 0,
+        hasContainerDimensions: !!containerDimensions,
+        hasSourceImageDimensions: !!sourceImageDimensions,
+        isDictionarySidebarVisible,
+        isTOCSidebarVisible,
+        isWordPopupVisible
+      });
+
       // Skip calculation if other overlays are visible or in debug mode
       if (isDictionarySidebarVisible || isTOCSidebarVisible || isWordPopupVisible) {
+        console.log('[BookReader] Skipping word layout - overlay visible');
         return;
       }
 
       if (!currentPage?.blocks || !containerDimensions || !sourceImageDimensions) {
+        console.log('[BookReader] Missing required data for word layout');
         setWordLayoutData(null);
         return;
       }
@@ -191,7 +204,15 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         const renderedImageSize = getRenderedImageSize();
         const imageOffset = getImageOffset();
         
+        console.log('[BookReader] Image layout data:', {
+          renderedImageSize,
+          imageOffset,
+          containerDimensions,
+          sourceImageDimensions
+        });
+        
         if (!renderedImageSize || !imageOffset) {
+          console.log('[BookReader] Missing image layout data');
           return;
         }
 
@@ -205,6 +226,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               renderedImageSize,
               imageOffset
             );
+
+            console.log('[BookReader] Word layout calculated:', {
+              pageNumber: currentPage.pageNumber,
+              totalWords: layoutData.totalWords,
+              wordsWithPositions: layoutData.words.length,
+              firstFewWords: layoutData.words.slice(0, 3).map(w => ({
+                word: w.word,
+                position: w.position
+              }))
+            });
 
             setWordLayoutData(layoutData);
             
@@ -692,99 +723,143 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               onLayout={onImageLayout}
             />
             
-            {/* Text Highlighting Overlay */}
-          {currentBlockHighlightData && (() => {
-            // Calculate display image size based on full height layout
-            // The image takes the full available height since footer now overlays
-            const availableHeight = screenHeight; // Use full screen height since footer overlays
-            const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
-            
-            // Calculate display size - image fills height, width is calculated from aspect ratio
-            const displayImageSize = {
-              width: availableHeight * aspectRatio,
-              height: availableHeight
-            };
-            
-            // If calculated width exceeds screen width, limit by width instead
-            if (displayImageSize.width > screenWidth) {
-              displayImageSize.width = screenWidth;
-              displayImageSize.height = screenWidth / aspectRatio;
-            }
-            
-            // Calculate image offset for centering
-            const imageOffset = {
-              x: (screenWidth - displayImageSize.width) / 2,
-              y: (availableHeight - displayImageSize.height) / 2
-            };
-            
-            return (
-              <TextHighlighter
-                blockData={{
-                  id: currentBlockHighlightData.blockId,
-                  text: currentBlockHighlightData.text,
-                  words: currentBlockHighlightData.words,
-                  bounding_boxes: currentBlockHighlightData.bounding_boxes
-                }}
-                speechMarks={currentBlockHighlightData.speechMarks}
-                isPlaying={isPlaying && !isPaused}
-                currentTime={currentPlaybackPosition}
-                originalPageSize={ORIGINAL_PAGE_SIZE}
-                renderedImageSize={displayImageSize}
-                imageOffset={imageOffset}
-                onWordHighlight={(wordIndex, word) => {
-                  // Word highlighting callback
-                }}
-              />
-            );
-          })()}
+            {/* Calculate shared display dimensions for consistent positioning */}
+            {(() => {
+              // Use the useImageLayout hook for CONSISTENT calculations
+              const renderedImageSize = getRenderedImageSize();
+              const imageOffset = getImageOffset();
+              
+              // Fallback to manual calculation if hook data not available yet
+              if (!renderedImageSize || !imageOffset) {
+                console.log('[BookReader] Using fallback calculation - hook data not ready');
+                const availableHeight = screenHeight;
+                const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
+                
+                const fallbackImageSize = {
+                  width: availableHeight * aspectRatio,
+                  height: availableHeight
+                };
+                
+                if (fallbackImageSize.width > screenWidth) {
+                  fallbackImageSize.width = screenWidth;
+                  fallbackImageSize.height = screenWidth / aspectRatio;
+                }
+                
+                const fallbackOffset = {
+                  x: (screenWidth - fallbackImageSize.width) / 2,
+                  y: (availableHeight - fallbackImageSize.height) / 2
+                };
+                
+                return (
+                  <>
+                    {currentBlockHighlightData && (
+                      <TextHighlighter
+                        blockData={{
+                          id: currentBlockHighlightData.blockId,
+                          text: currentBlockHighlightData.text,
+                          words: currentBlockHighlightData.words,
+                          bounding_boxes: currentBlockHighlightData.bounding_boxes
+                        }}
+                        speechMarks={currentBlockHighlightData.speechMarks}
+                        isPlaying={isPlaying && !isPaused}
+                        currentTime={currentPlaybackPosition}
+                        originalPageSize={ORIGINAL_PAGE_SIZE}
+                        renderedImageSize={fallbackImageSize}
+                        imageOffset={fallbackOffset}
+                        onWordHighlight={(wordIndex, word) => {}}
+                      />
+                    )}
+                    {currentPage?.blocks && (() => {
+                      const bookDataService = BookDataService.getInstance();
+                      const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
+                      const blocksWithBounds = currentPage.blocks.map(block => {
+                        const blockData = pageBlocksData?.[block.id.toString()];
+                        return {
+                          id: block.id,
+                          text: block.text,
+                          bounding_boxes: blockData?.bounding_boxes
+                        };
+                      }).filter(block => block.bounding_boxes);
 
-          {/* Block Play Buttons Overlay */}
-          {currentPage?.blocks && (() => {
-            // Use the same display image size calculation as TextHighlighter
-            const availableHeight = screenHeight;
-            const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
-            
-            let displayImageSize = {
-              width: availableHeight * aspectRatio,
-              height: availableHeight
-            };
-            
-            if (displayImageSize.width > screenWidth) {
-              displayImageSize.width = screenWidth;
-              displayImageSize.height = screenWidth / aspectRatio;
-            }
-            
-            const imageOffset = {
-              x: (screenWidth - displayImageSize.width) / 2,
-              y: (availableHeight - displayImageSize.height) / 2
-            };
+                      return (
+                        <BlockPlayButtonsOverlay
+                          blocks={blocksWithBounds}
+                          originalPageSize={ORIGINAL_PAGE_SIZE}
+                          renderedImageSize={fallbackImageSize}
+                          imageOffset={fallbackOffset}
+                          currentlyPlayingBlockId={currentlyPlayingBlockId}
+                          onBlockPlay={handleBlockPlay}
+                        />
+                      );
+                    })()}
+                  </>
+                );
+              }
+              
+              // Debug logging to verify consistent calculations
+              console.log('[BookReader] Using Hook-Based Calculations:', {
+                renderedImageSize,
+                imageOffset,
+                sourceImageDimensions,
+                containerDimensions,
+                screenWidth,
+                screenHeight
+              });
+              
+              return (
+                <>
+                  {/* Text Highlighting Overlay */}
+                  {currentBlockHighlightData && (
+                    <TextHighlighter
+                      blockData={{
+                        id: currentBlockHighlightData.blockId,
+                        text: currentBlockHighlightData.text,
+                        words: currentBlockHighlightData.words,
+                        bounding_boxes: currentBlockHighlightData.bounding_boxes
+                      }}
+                      speechMarks={currentBlockHighlightData.speechMarks}
+                      isPlaying={isPlaying && !isPaused}
+                      currentTime={currentPlaybackPosition}
+                      originalPageSize={ORIGINAL_PAGE_SIZE}
+                      renderedImageSize={renderedImageSize}
+                      imageOffset={imageOffset}
+                      onWordHighlight={(wordIndex, word) => {
+                        // Word highlighting callback
+                      }}
+                    />
+                  )}
 
-            // Load block data with bounding boxes from BookDataService
-            const bookDataService = BookDataService.getInstance();
-            const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
-            
-            // Prepare blocks data with bounding boxes
-            const blocksWithBounds = currentPage.blocks.map(block => {
-              const blockData = pageBlocksData?.[block.id.toString()];
-              return {
-                id: block.id,
-                text: block.text,
-                bounding_boxes: blockData?.bounding_boxes
-              };
-            }).filter(block => block.bounding_boxes); // Only include blocks with bounding boxes
+                  {/* Block Play Buttons Overlay */}
+                  {currentPage?.blocks && (() => {
+                    // Load block data with bounding boxes from BookDataService
+                    const bookDataService = BookDataService.getInstance();
+                    const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
+                    
+                    // Prepare blocks data with bounding boxes
+                    const blocksWithBounds = currentPage.blocks.map(block => {
+                      const blockData = pageBlocksData?.[block.id.toString()];
+                      return {
+                        id: block.id,
+                        text: block.text,
+                        bounding_boxes: blockData?.bounding_boxes
+                      };
+                    }).filter(block => block.bounding_boxes); // Only include blocks with bounding boxes
 
-            return (
-              <BlockPlayButtonsOverlay
-                blocks={blocksWithBounds}
-                originalPageSize={ORIGINAL_PAGE_SIZE}
-                renderedImageSize={displayImageSize}
-                imageOffset={imageOffset}
-                currentlyPlayingBlockId={currentlyPlayingBlockId}
-                onBlockPlay={handleBlockPlay}
-              />
-            );
-          })()}
-        </View>
+                    return (
+                      <BlockPlayButtonsOverlay
+                        blocks={blocksWithBounds}
+                        originalPageSize={ORIGINAL_PAGE_SIZE}
+                        renderedImageSize={renderedImageSize}
+                        imageOffset={imageOffset}
+                        currentlyPlayingBlockId={currentlyPlayingBlockId}
+                        onBlockPlay={handleBlockPlay}
+                      />
+                    );
+                  })()}
+                </>
+              );
+            })()}
+          </View>
       </ScrollView>
       </Animated.View>
 
@@ -892,7 +967,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               </View>
               {/* Temporary Speed Buttons as fallback */}
               <View style={{ flexDirection: 'row', marginTop: 5, gap: 5 }}>
-                {[0.5, 1.0, 1.5, 2.0, 2.5].map((speed) => (
+                {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
                   <TouchableOpacity 
                     key={speed}
                     onPress={() => {

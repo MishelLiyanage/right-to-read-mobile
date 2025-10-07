@@ -1,6 +1,6 @@
 import { CoordinateScaler, PageSize } from '@/services/coordinateScaler';
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, View } from 'react-native';
 
 interface SpeechMark {
   time: number;
@@ -44,9 +44,17 @@ export default function TextHighlighter({
   // Initialize coordinate scaler when dimensions are available
   useEffect(() => {
     if (originalPageSize && renderedImageSize) {
+      // Log environment details for debugging coordinate shifts
+      console.log('[TextHighlighter] Environment Info:', {
+        screenData: Dimensions.get('screen'),
+        windowData: Dimensions.get('window'),
+        originalPageSize,
+        renderedImageSize,
+        imageOffset
+      });
+      
       const scaler = new CoordinateScaler(originalPageSize, renderedImageSize);
       setCoordinateScaler(scaler);
-
     }
   }, [originalPageSize, renderedImageSize, imageOffset]);
 
@@ -75,7 +83,23 @@ export default function TextHighlighter({
   }, [currentTime, isPlaying, speechMarks, currentWordIndex, onWordHighlight]);
 
   const renderWordHighlights = () => {
-    if (!blockData.bounding_boxes || !speechMarks.length || !coordinateScaler) return null;
+    if (!blockData.bounding_boxes || !speechMarks.length || !coordinateScaler) {
+      console.log('[TextHighlighter] Missing required data:', {
+        hasBoundingBoxes: !!blockData.bounding_boxes,
+        speechMarksLength: speechMarks.length,
+        hasCoordinateScaler: !!coordinateScaler
+      });
+      return null;
+    }
+
+    console.log('[TextHighlighter] Rendering highlights:', {
+      blockId: blockData.id,
+      speechMarksCount: speechMarks.length,
+      boundingBoxesCount: blockData.bounding_boxes.length,
+      currentWordIndex,
+      isPlaying,
+      currentTime
+    });
 
     return speechMarks.map((speechMark, index) => {
       const isCurrentWord = index === currentWordIndex;
@@ -83,14 +107,36 @@ export default function TextHighlighter({
       
       // Get bounding box for this word
       const boundingBox = blockData.bounding_boxes[index];
-      if (!boundingBox || !boundingBox[0]) return null;
+      if (!boundingBox || !boundingBox[0]) {
+        console.warn(`[TextHighlighter] No bounding box for word ${index}:`, speechMark.value);
+        return null;
+      }
 
       // Scale coordinates using the coordinate scaler
       const scaledBox = coordinateScaler.scaleCoordinates(boundingBox);
-      const left = scaledBox.topLeft[0] + imageOffset.x;
-      const top = scaledBox.topLeft[1] + imageOffset.y;
-      const width = scaledBox.bottomRight[0] - scaledBox.topLeft[0];
-      const height = scaledBox.bottomRight[1] - scaledBox.topLeft[1];
+      
+      // Apply pixel-perfect positioning
+      const left = Math.round(scaledBox.topLeft[0] + imageOffset.x);
+      const top = Math.round(scaledBox.topLeft[1] + imageOffset.y);
+      const width = Math.round(scaledBox.bottomRight[0] - scaledBox.topLeft[0]);
+      const height = Math.round(scaledBox.bottomRight[1] - scaledBox.topLeft[1]);
+
+      // Validate dimensions
+      if (width <= 0 || height <= 0) {
+        console.warn(`[TextHighlighter] Invalid dimensions for word "${speechMark.value}":`, { width, height, left, top });
+        return null;
+      }
+
+      if (__DEV__ && index < 5) {
+        console.log(`[TextHighlighter] Rendering highlight for "${speechMark.value}":`, {
+          index,
+          isCurrentWord,
+          isPassedWord,
+          position: { left, top, width, height },
+          originalBox: boundingBox,
+          scaledBox
+        });
+      }
 
       return (
         <View
@@ -103,12 +149,13 @@ export default function TextHighlighter({
               width,
               height,
               backgroundColor: isCurrentWord 
-                ? 'rgba(255, 255, 0, 0.7)' // Bright yellow for current word
+                ? 'rgba(255, 255, 0, 0.8)' // Bright yellow for current word
                 : isPassedWord 
-                  ? 'rgba(0, 255, 0, 0.3)' // Light green for completed words
-                  : 'rgba(0, 0, 255, 0.2)', // Light blue for upcoming words
+                  ? 'rgba(0, 255, 0, 0.5)' // Light green for completed words
+                  : 'transparent', // Transparent for upcoming words
               borderColor: isCurrentWord ? '#FFD700' : 'transparent',
               borderWidth: isCurrentWord ? 2 : 0,
+              zIndex: isCurrentWord ? 1000 : 500,
             }
           ]}
         />
@@ -138,10 +185,11 @@ export default function TextHighlighter({
     const scaledTopLeft = coordinateScaler.scalePoint(minX, minY);
     const scaledBottomRight = coordinateScaler.scalePoint(maxX, maxY);
     
-    const left = scaledTopLeft[0] + imageOffset.x;
-    const top = scaledTopLeft[1] + imageOffset.y;
-    const width = scaledBottomRight[0] - scaledTopLeft[0];
-    const height = scaledBottomRight[1] - scaledTopLeft[1];
+    // Apply pixel-perfect positioning
+    const left = Math.round(scaledTopLeft[0] + imageOffset.x);
+    const top = Math.round(scaledTopLeft[1] + imageOffset.y);
+    const width = Math.round(scaledBottomRight[0] - scaledTopLeft[0]);
+    const height = Math.round(scaledBottomRight[1] - scaledTopLeft[1]);
 
     return (
       <View

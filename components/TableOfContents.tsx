@@ -17,7 +17,7 @@ export default function TableOfContents({ sections, currentPageNumber, onSection
       
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         {sections.map((section) => {
-          const isCurrentSection = section.pageNumber === currentPageNumber;
+          const isCurrentSection = (section.navigationPageNumber || section.pageNumber) === currentPageNumber;
           
           return (
             <TouchableOpacity
@@ -26,7 +26,7 @@ export default function TableOfContents({ sections, currentPageNumber, onSection
                 styles.sectionItem,
                 isCurrentSection && styles.currentSectionItem
               ]}
-              onPress={() => onSectionPress(section.pageNumber)}
+              onPress={() => onSectionPress(section.navigationPageNumber || section.pageNumber)}
               activeOpacity={0.7}
             >
               <View style={styles.sectionContent}>

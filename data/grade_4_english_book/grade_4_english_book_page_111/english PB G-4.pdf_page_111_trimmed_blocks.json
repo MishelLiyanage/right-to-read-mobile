@@ -1,0 +1,525 @@
+{
+    "1": {
+        "text": "hungry thirsty happy sleepy tired",
+        "words": [
+            "hungry",
+            "thirsty",
+            "happy",
+            "sleepy",
+            "tired"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    383.2069091796875,
+                    185.89517211914062
+                ],
+                [
+                    443.992919921875,
+                    207.3331756591797
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    207.49514770507812
+                ],
+                [
+                    436.2709045410156,
+                    228.9331512451172
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    229.09515380859375
+                ],
+                [
+                    436.450927734375,
+                    250.5331573486328
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    250.69515991210938
+                ],
+                [
+                    436.23492431640625,
+                    272.1331787109375
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    272.295166015625
+                ],
+                [
+                    421.2589111328125,
+                    293.7331848144531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">hungry thirsty happy sleepy tired</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "hungry"
+            },
+            {
+                "time": 470,
+                "type": "word",
+                "start": 34,
+                "end": 41,
+                "value": "thirsty"
+            },
+            {
+                "time": 1162,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "happy"
+            },
+            {
+                "time": 1599,
+                "type": "word",
+                "start": 48,
+                "end": 54,
+                "value": "sleepy"
+            },
+            {
+                "time": 2132,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "tired"
+            }
+        ]
+    },
+    "2": {
+        "text": "Lesson 1",
+        "words": [
+            "Lesson",
+            "1"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    64.1688003540039,
+                    198.92922973632812
+                ],
+                [
+                    133.5788116455078,
+                    225.1312255859375
+                ]
+            ],
+            [
+                [
+                    137.9788055419922,
+                    198.92922973632812
+                ],
+                [
+                    147.3288116455078,
+                    225.1312255859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">Lesson 1</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Lesson"
+            },
+            {
+                "time": 472,
+                "type": "word",
+                "start": 34,
+                "end": 35,
+                "value": "1"
+            }
+        ]
+    },
+    "3": {
+        "text": "Listen and match.",
+        "words": [
+            "Listen",
+            "and",
+            "match."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    140.65480041503906,
+                    248.349609375
+                ],
+                [
+                    201.39678955078125,
+                    274.5516052246094
+                ]
+            ],
+            [
+                [
+                    206.89678955078125,
+                    248.349609375
+                ],
+                [
+                    247.50880432128906,
+                    274.5516052246094
+                ]
+            ],
+            [
+                [
+                    253.00880432128906,
+                    248.349609375
+                ],
+                [
+                    329.0188293457031,
+                    274.5516052246094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">Listen and match.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 518,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 836,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "match"
+            }
+        ]
+    },
+    "9": {
+        "text": "I\u2019m hungry.",
+        "words": [
+            "I\u2019m",
+            "hungry."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    369.8031921386719,
+                    337.6907958984375
+                ],
+                [
+                    398.2252197265625,
+                    359.1288146972656
+                ]
+            ],
+            [
+                [
+                    402.7252197265625,
+                    337.6907958984375
+                ],
+                [
+                    467.7232360839844,
+                    359.1288146972656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">I\u2019m hungry.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "I\u2019m"
+            },
+            {
+                "time": 246,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "hungry"
+            }
+        ]
+    },
+    "10": {
+        "text": "I\u2019m happy.",
+        "words": [
+            "I\u2019m",
+            "happy."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    373.5740966796875,
+                    485.9153137207031
+                ],
+                [
+                    401.9961242675781,
+                    507.35333251953125
+                ]
+            ],
+            [
+                [
+                    406.4961242675781,
+                    485.9153137207031
+                ],
+                [
+                    463.9521484375,
+                    507.35333251953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">I\u2019m happy.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "I\u2019m"
+            },
+            {
+                "time": 209,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "happy"
+            }
+        ]
+    },
+    "11": {
+        "text": "I\u2019m sleepy.",
+        "words": [
+            "I\u2019m",
+            "sleepy."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    370.80218505859375,
+                    559.100830078125
+                ],
+                [
+                    399.2242126464844,
+                    580.538818359375
+                ]
+            ],
+            [
+                [
+                    403.7242126464844,
+                    559.100830078125
+                ],
+                [
+                    460.9642333984375,
+                    580.538818359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">I\u2019m sleepy.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "I\u2019m"
+            },
+            {
+                "time": 207,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "sleepy"
+            }
+        ]
+    },
+    "12": {
+        "text": "I\u2019m tired.",
+        "words": [
+            "I\u2019m",
+            "tired."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    377.66009521484375,
+                    630.5679321289062
+                ],
+                [
+                    406.0821228027344,
+                    652.0059204101562
+                ]
+            ],
+            [
+                [
+                    410.4021301269531,
+                    630.5679321289062
+                ],
+                [
+                    454.10614013671875,
+                    652.0059204101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">I\u2019m tired.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "I\u2019m"
+            },
+            {
+                "time": 291,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "tired"
+            }
+        ]
+    },
+    "13": {
+        "text": "I\u2019m thirsty.",
+        "words": [
+            "I\u2019m",
+            "thirsty."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    372.55010986328125,
+                    411.8620910644531
+                ],
+                [
+                    400.9721374511719,
+                    433.30010986328125
+                ]
+            ],
+            [
+                [
+                    405.2921447753906,
+                    411.8620910644531
+                ],
+                [
+                    462.5681457519531,
+                    433.30010986328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">I\u2019m thirsty.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "I\u2019m"
+            },
+            {
+                "time": 224,
+                "type": "word",
+                "start": 33,
+                "end": 40,
+                "value": "thirsty"
+            }
+        ]
+    },
+    "14": {
+        "text": "10 Happy days",
+        "words": [
+            "10",
+            "Happy",
+            "days"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.53500366210938,
+                    138.2582244873047
+                ],
+                [
+                    141.2550048828125,
+                    195.4262237548828
+                ]
+            ],
+            [
+                [
+                    195.658203125,
+                    145.25030517578125
+                ],
+                [
+                    307.0062255859375,
+                    188.12631225585938
+                ]
+            ],
+            [
+                [
+                    315.646240234375,
+                    145.25030517578125
+                ],
+                [
+                    393.9462585449219,
+                    188.12631225585938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"70%\">10 Happy days</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "10"
+            },
+            {
+                "time": 334,
+                "type": "word",
+                "start": 30,
+                "end": 35,
+                "value": "Happy"
+            },
+            {
+                "time": 718,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "days"
+            }
+        ]
+    }
+}

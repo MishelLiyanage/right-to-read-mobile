@@ -9,6 +9,7 @@ export class ImagePreloadService {
   private googleImageService = GoogleImageService.getInstance();
   private pageImageCache: Map<number, WordImageCache> = new Map();
   private preloadingPromises: Map<number, Promise<void>> = new Map();
+  private isRateLimited = false;
 
   static getInstance(): ImagePreloadService {
     if (!ImagePreloadService.instance) {
@@ -21,7 +22,11 @@ export class ImagePreloadService {
    * Preload images for all words on a specific page
    */
   async preloadImagesForPage(pageNumber: number, words: string[]): Promise<void> {
-
+    // Skip preloading if we've hit rate limits
+    if (this.isRateLimited) {
+      console.log(`Skipping image preload for page ${pageNumber} due to rate limits`);
+      return;
+    }
     
     // If already preloading this page, return the existing promise
     if (this.preloadingPromises.has(pageNumber)) {
@@ -30,7 +35,7 @@ export class ImagePreloadService {
 
     // If already cached, return immediately
     if (this.pageImageCache.has(pageNumber)) {
-
+      console.log(`Image cache hit for page ${pageNumber}`);
       return;
     }
 
@@ -59,8 +64,12 @@ export class ImagePreloadService {
         try {
           const imageUrl = await this.googleImageService.searchImage(word);
           imageCache[word] = imageUrl;
-
+          console.log(`Preloaded image for "${word}": ${imageUrl ? 'success' : 'no image found'}`);
         } catch (error) {
+          if (error instanceof Error && error.message.includes('429')) {
+            console.warn('Rate limit hit during preloading. Disabling further preloading.');
+            this.isRateLimited = true;
+          }
           console.error(`Failed to preload image for "${word}":`, error);
           imageCache[word] = null;
         }
@@ -135,5 +144,20 @@ export class ImagePreloadService {
       totalPages: this.pageImageCache.size,
       totalWords
     };
+  }
+
+  /**
+   * Reset rate limiting state (call this after some time has passed)
+   */
+  resetRateLimit(): void {
+    this.isRateLimited = false;
+    console.log('Rate limit state reset. Image preloading re-enabled.');
+  }
+
+  /**
+   * Check if currently rate limited
+   */
+  isCurrentlyRateLimited(): boolean {
+    return this.isRateLimited;
   }
 }

@@ -1,6 +1,6 @@
 import { CoordinateScaler, PageSize } from '@/services/coordinateScaler';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, View } from 'react-native';
 import BlockPlayButton from './BlockPlayButton';
 
 interface BlockPlayButtonsOverlayProps {
@@ -26,17 +26,35 @@ export default function BlockPlayButtonsOverlay({
 }: BlockPlayButtonsOverlayProps) {
   const coordinateScaler = React.useMemo(() => {
     if (originalPageSize && renderedImageSize) {
+      // Log detailed environment info for debugging
+      console.log('[BlockPlayButtons] Environment Info:', {
+        screenData: Dimensions.get('screen'),
+        windowData: Dimensions.get('window'),
+        originalPageSize,
+        renderedImageSize,
+        imageOffset
+      });
+      
       return new CoordinateScaler(originalPageSize, renderedImageSize);
     }
     return null;
-  }, [originalPageSize, renderedImageSize]);
+  }, [originalPageSize, renderedImageSize, imageOffset]);
 
   const renderBlockPlayButtons = () => {
-    if (!coordinateScaler) return null;
+    if (!coordinateScaler) {
+      console.log('[BlockPlayButtons] No coordinate scaler available');
+      return null;
+    }
+
+    console.log('[BlockPlayButtons] Rendering buttons for blocks:', {
+      totalBlocks: blocks.length,
+      blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length
+    });
 
     return blocks.map((block) => {
       // Skip blocks without bounding boxes
       if (!block.bounding_boxes || !block.bounding_boxes.length) {
+        console.warn(`[BlockPlayButtons] Block ${block.id} has no bounding boxes`);
         return null;
       }
 
@@ -73,12 +91,25 @@ export default function BlockPlayButtonsOverlay({
       const scaledTopLeft = coordinateScaler.scalePoint(minX, minY);
       const scaledBottomRight = coordinateScaler.scalePoint(maxX, maxY);
       
+      // Calculate final position with pixel-perfect positioning
       const position = {
-        left: scaledTopLeft[0] + imageOffset.x,
-        top: scaledTopLeft[1] + imageOffset.y,
-        width: scaledBottomRight[0] - scaledTopLeft[0],
-        height: scaledBottomRight[1] - scaledTopLeft[1],
+        left: Math.round(scaledTopLeft[0] + imageOffset.x),
+        top: Math.round(scaledTopLeft[1] + imageOffset.y),
+        width: Math.round(scaledBottomRight[0] - scaledTopLeft[0]),
+        height: Math.round(scaledBottomRight[1] - scaledTopLeft[1]),
       };
+      
+      // Debug logging for production troubleshooting
+      if (__DEV__) {
+        console.log(`[BlockPlayButtons] Block ${block.id} Position:`, {
+          originalBounds: { minX, minY, maxX, maxY },
+          scaledBounds: { scaledTopLeft, scaledBottomRight },
+          imageOffset,
+          finalPosition: position,
+          renderedImageSize,
+          originalPageSize
+        });
+      }
 
       return (
         <BlockPlayButton

@@ -13,14 +13,18 @@ export function useImageLayout() {
 
   const onImageLoad = useCallback((event: ImageLoadEventData) => {
     const { width, height } = event.source;
-    setSourceImageDimensions({ width, height });
-
+    const dimensions = { width, height };
+    setSourceImageDimensions(dimensions);
+    
+    console.log('[ImageLayout] Image loaded:', dimensions);
   }, []);
 
   const onImageLayout = useCallback((event: LayoutChangeEvent) => {
     const { width, height } = event.nativeEvent.layout;
-    setContainerDimensions({ width, height });
-
+    const dimensions = { width, height };
+    setContainerDimensions(dimensions);
+    
+    console.log('[ImageLayout] Container layout:', dimensions);
   }, []);
 
   // Calculate the actual rendered image size with contentFit="contain"
@@ -45,7 +49,20 @@ export function useImageLayout() {
       renderedWidth = containerDimensions.height * sourceAspectRatio;
     }
 
-    const result = { width: renderedWidth, height: renderedHeight };
+    // Ensure pixel-perfect calculations for production consistency
+    const result = { 
+      width: Math.round(renderedWidth), 
+      height: Math.round(renderedHeight) 
+    };
+    
+    console.log('[ImageLayout] Calculated rendered size:', {
+      sourceAspectRatio,
+      containerAspectRatio,
+      sourceImageDimensions,
+      containerDimensions,
+      rawResult: { width: renderedWidth, height: renderedHeight },
+      roundedResult: result
+    });
 
     return result;
   }, [sourceImageDimensions, containerDimensions]);
@@ -61,12 +78,22 @@ export function useImageLayout() {
       return { x: 0, y: 0 };
     }
 
-    // Calculate how much space is left on each side
-    const offsetX = (containerDimensions.width - renderedSize.width) / 2;
-    const offsetY = (containerDimensions.height - renderedSize.height) / 2;
+    // Calculate how much space is left on each side - ensure pixel-perfect positioning
+    const offsetX = Math.round((containerDimensions.width - renderedSize.width) / 2);
+    const offsetY = Math.round((containerDimensions.height - renderedSize.height) / 2);
 
+    const result = { x: offsetX, y: offsetY };
+    console.log('[ImageLayout] Calculated image offset:', {
+      containerDimensions,
+      renderedSize,
+      rawOffset: { 
+        x: (containerDimensions.width - renderedSize.width) / 2, 
+        y: (containerDimensions.height - renderedSize.height) / 2 
+      },
+      roundedOffset: result
+    });
 
-    return { x: offsetX, y: offsetY };
+    return result;
   }, [sourceImageDimensions, containerDimensions, getRenderedImageSize]);
 
   return {
