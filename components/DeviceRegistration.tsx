@@ -1,16 +1,18 @@
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
 import { useThemeColor } from '@/hooks/useThemeColor';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
+import { BlurView } from 'expo-blur';
 import React, { useState } from 'react';
 import {
     ActivityIndicator,
     Alert,
+    Dimensions,
     FlatList,
+    ImageBackground,
     KeyboardAvoidingView,
     Modal,
     Platform,
     StyleSheet,
+    Text,
     TextInput,
     TouchableOpacity,
     View,
@@ -78,241 +80,276 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
     }
   };
 
-  const renderGradeItem = ({ item }: { item: string }) => (
-    <TouchableOpacity
-      style={[styles.dropdownItem, { borderBottomColor: textColor + '20' }]}
-      onPress={() => handleGradeSelect(item)}
-    >
-      <ThemedText style={styles.dropdownItemText}>Grade {item}</ThemedText>
-    </TouchableOpacity>
-  );
-
   return (
-    <ThemedView style={styles.container}>
-      <KeyboardAvoidingView
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={styles.keyboardAvoidingView}
-      >
-        <View style={styles.content}>
-          {/* Header */}
-          <View style={styles.header}>
-            <ThemedText type="title" style={styles.title}>
-              Welcome to Right to Read!
-            </ThemedText>
-            <ThemedText style={styles.subtitle}>
-              Please provide some information to help us customize your experience.
-            </ThemedText>
-          </View>
-
-          {/* Form */}
-          <View style={styles.form}>
-            {/* Grade Selection */}
-            <View style={styles.inputGroup}>
-              <ThemedText type="defaultSemiBold" style={styles.label}>
-                Select Your Grade
-              </ThemedText>
-              <TouchableOpacity
-                style={[
-                  styles.dropdown,
-                  { borderColor: textColor + '30', backgroundColor: backgroundColor }
-                ]}
-                onPress={() => setIsGradeDropdownOpen(true)}
-                disabled={isRegistering}
-              >
-                <ThemedText style={[styles.dropdownText, !selectedGrade && styles.placeholderText]}>
-                  {selectedGrade ? `Grade ${selectedGrade}` : 'Select Grade'}
-                </ThemedText>
-                <ThemedText style={styles.dropdownArrow}>▼</ThemedText>
-              </TouchableOpacity>
-            </View>
-
-            {/* Class Input */}
-            <View style={styles.inputGroup}>
-              <ThemedText type="defaultSemiBold" style={styles.label}>
-                Enter Your Class
-              </ThemedText>
-              <TextInput
-                style={[
-                  styles.textInput,
-                  { 
-                    borderColor: textColor + '30', 
-                    backgroundColor: backgroundColor,
-                    color: textColor
-                  }
-                ]}
-                placeholder="e.g., A, B, C, 1, 2, etc."
-                placeholderTextColor={textColor + '60'}
-                value={className}
-                onChangeText={setClassName}
-                maxLength={20}
-                autoCapitalize="characters"
-                editable={!isRegistering}
-              />
-            </View>
-
-            {/* Register Button */}
-            <TouchableOpacity
-              style={[
-                styles.registerButton,
-                { backgroundColor: tintColor },
-                (!selectedGrade || !className.trim() || isRegistering) && styles.disabledButton
-              ]}
-              onPress={handleRegistration}
-              disabled={!selectedGrade || !className.trim() || isRegistering}
-            >
-              {isRegistering ? (
-                <ActivityIndicator color="#000000" />
-              ) : (
-                <ThemedText style={styles.registerButtonText}>
-                  Register Device
-                </ThemedText>
-              )}
-            </TouchableOpacity>
-          </View>
-
-          {/* Info Text */}
-          <View style={styles.footer}>
-            <ThemedText style={styles.infoText}>
-              This information is used for analytics purposes to improve the app experience.
-            </ThemedText>
-          </View>
-        </View>
-
-        {/* Grade Dropdown Modal */}
-        <Modal
-          visible={isGradeDropdownOpen}
-          transparent={true}
-          animated={true}
-          onRequestClose={() => setIsGradeDropdownOpen(false)}
+    <ImageBackground
+      source={require('@/assets/images/registrationBackground.png')}
+      style={styles.backgroundImage}
+      resizeMode="cover"
+    >
+      <View style={styles.overlay}>
+        <KeyboardAvoidingView
+          behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+          style={styles.keyboardAvoidingView}
         >
-          <TouchableOpacity
-            style={styles.modalOverlay}
-            activeOpacity={1}
-            onPress={() => setIsGradeDropdownOpen(false)}
-          >
-            <View style={[styles.modalContent, { backgroundColor }]}>
-              <ThemedText type="defaultSemiBold" style={styles.modalTitle}>
-                Select Grade
-              </ThemedText>
-              <FlatList
-                data={grades}
-                renderItem={renderGradeItem}
-                keyExtractor={(item) => item}
-                style={styles.gradeList}
-                showsVerticalScrollIndicator={false}
-              />
-              <TouchableOpacity
-                style={[styles.modalCloseButton, { backgroundColor: tintColor }]}
-                onPress={() => setIsGradeDropdownOpen(false)}
-              >
-                <ThemedText style={styles.modalCloseButtonText}>Close</ThemedText>
-              </TouchableOpacity>
-            </View>
-          </TouchableOpacity>
-        </Modal>
-      </KeyboardAvoidingView>
-    </ThemedView>
+          <View style={styles.content}>
+            {/* Glassmorphism Card Container */}
+            <BlurView intensity={10} tint="light" style={styles.glassCard}>
+              {/* Header */}
+              <View style={styles.header}>
+                <Text style={styles.title}>DEVICE REGISTRATION</Text>
+                <Text style={styles.subtitle}>
+                  Please provide some information to help us customize your experience.
+                </Text>
+              </View>
+
+              {/* Form */}
+              <View style={styles.form}>
+                {/* Grade Selection */}
+                <View style={styles.inputGroup}>
+                  <Text style={styles.label}>Select Your Grade</Text>
+                  <TouchableOpacity
+                    style={styles.glassInput}
+                    onPress={() => setIsGradeDropdownOpen(true)}
+                    disabled={isRegistering}
+                  >
+                    <Text style={[styles.inputText, !selectedGrade && styles.placeholderText]}>
+                      {selectedGrade ? `Grade ${selectedGrade}` : 'Select Grade'}
+                    </Text>
+                    <Text style={styles.dropdownArrow}>▼</Text>
+                  </TouchableOpacity>
+                </View>
+
+                {/* Class Input */}
+                <View style={styles.inputGroup}>
+                  <Text style={styles.label}>Enter Your Class</Text>
+                  <View style={styles.glassInput}>
+                    <TextInput
+                      style={styles.textInput}
+                      placeholder="e.g., A, B, C, 1, 2, etc."
+                      placeholderTextColor="#a0aec0"
+                      value={className}
+                      onChangeText={setClassName}
+                      maxLength={20}
+                      autoCapitalize="characters"
+                      editable={!isRegistering}
+                    />
+                  </View>
+                </View>
+
+                {/* Register Button */}
+                <TouchableOpacity
+                  style={[
+                    styles.registerButton,
+                    (!selectedGrade || !className.trim() || isRegistering) && styles.disabledButton
+                  ]}
+                  onPress={handleRegistration}
+                  disabled={!selectedGrade || !className.trim() || isRegistering}
+                >
+                  {isRegistering ? (
+                    <ActivityIndicator color="white" />
+                  ) : (
+                    <Text style={styles.registerButtonText}>Register Device</Text>
+                  )}
+                </TouchableOpacity>
+              </View>
+
+              {/* Info Text */}
+              <View style={styles.footer}>
+                <Text style={styles.infoText}>
+                  This information is used for analytics purposes to improve the app experience.
+                </Text>
+              </View>
+            </BlurView>
+          </View>
+        </KeyboardAvoidingView>
+      </View>
+
+      {/* Grade Dropdown Modal */}
+      <Modal
+        visible={isGradeDropdownOpen}
+        transparent={true}
+        animated={true}
+        onRequestClose={() => setIsGradeDropdownOpen(false)}
+      >
+        <TouchableOpacity
+          style={styles.modalOverlay}
+          activeOpacity={1}
+          onPress={() => setIsGradeDropdownOpen(false)}
+        >
+          <BlurView intensity={30} tint="dark" style={styles.modalContent}>
+            <Text style={styles.modalTitle}>Select Grade</Text>
+            <FlatList
+              data={grades}
+              renderItem={({ item }) => (
+                <TouchableOpacity
+                  style={styles.gradeOption}
+                  onPress={() => handleGradeSelect(item)}
+                >
+                  <Text style={styles.gradeOptionText}>Grade {item}</Text>
+                </TouchableOpacity>
+              )}
+              keyExtractor={(item) => item}
+              style={styles.gradeList}
+              showsVerticalScrollIndicator={false}
+            />
+            <TouchableOpacity
+              style={styles.modalCloseButton}
+              onPress={() => setIsGradeDropdownOpen(false)}
+            >
+              <Text style={styles.modalCloseButtonText}>Close</Text>
+            </TouchableOpacity>
+          </BlurView>
+        </TouchableOpacity>
+      </Modal>
+    </ImageBackground>
   );
 }
 
+const { width, height } = Dimensions.get('window');
+
 const styles = StyleSheet.create({
-  container: {
+  backgroundImage: {
     flex: 1,
+    width: '100%',
+    height: '100%',
+  },
+  overlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
   keyboardAvoidingView: {
     flex: 1,
   },
   content: {
     flex: 1,
-    paddingHorizontal: 24,
-    paddingTop: 60,
-    paddingBottom: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+  },
+  glassCard: {
+    width: '100%',
+    maxWidth: 400,
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    borderRadius: 20,
+    padding: 30,
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.95)',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 25,
+    elevation: 15,
   },
   header: {
     alignItems: 'center',
-    marginBottom: 40,
+    marginBottom: 30,
   },
   title: {
-    fontSize: 28,
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#1a365d',
     textAlign: 'center',
-    marginBottom: 12,
+    marginBottom: 10,
+    letterSpacing: 1,
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 14,
+    color: '#4a5568',
     textAlign: 'center',
-    opacity: 0.8,
-    lineHeight: 22,
+    lineHeight: 20,
   },
   form: {
-    flex: 1,
-    justifyContent: 'center',
+    width: '100%',
   },
   inputGroup: {
-    marginBottom: 24,
+    marginBottom: 20,
   },
   label: {
-    fontSize: 18,
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#2d3748',
     marginBottom: 8,
   },
-  dropdown: {
+  glassInput: {
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: 'rgba(10, 126, 164, 0.3)',
+    paddingHorizontal: 16,
+    paddingVertical: 16,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-    borderWidth: 2,
-    borderRadius: 12,
     minHeight: 54,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
-  dropdownText: {
+  inputText: {
     fontSize: 16,
+    color: '#2d3748',
     flex: 1,
   },
   placeholderText: {
-    opacity: 0.6,
+    color: '#718096',
   },
   dropdownArrow: {
     fontSize: 12,
-    opacity: 0.6,
+    color: '#4a5568',
   },
   textInput: {
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-    borderWidth: 2,
-    borderRadius: 12,
     fontSize: 16,
-    minHeight: 54,
+    color: '#2d3748',
+    flex: 1,
   },
   registerButton: {
+    backgroundColor: '#0a7ea4',
     paddingVertical: 18,
     paddingHorizontal: 24,
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 16,
+    marginTop: 20,
     minHeight: 56,
+    borderWidth: 0,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 6,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 8,
   },
   disabledButton: {
     opacity: 0.5,
   },
   registerButtonText: {
-    color: '#000000',
+    color: '#FFFFFF',
     fontSize: 18,
-    fontWeight: '600',
+    fontWeight: '700',
   },
   footer: {
-    marginTop: 24,
+    marginTop: 20,
     alignItems: 'center',
   },
   infoText: {
-    fontSize: 14,
+    fontSize: 12,
+    color: '#718096',
     textAlign: 'center',
-    opacity: 0.7,
-    lineHeight: 20,
+    lineHeight: 18,
   },
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -321,42 +358,63 @@ const styles = StyleSheet.create({
     maxWidth: 300,
     borderRadius: 16,
     padding: 24,
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.2)',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 8,
     },
     shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    shadowRadius: 10,
+    elevation: 10,
   },
   modalTitle: {
     fontSize: 20,
     textAlign: 'center',
     marginBottom: 16,
+    fontWeight: '600',
+    color: '#FFFFFF',
+    textShadowColor: 'rgba(0, 0, 0, 0.5)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
   gradeList: {
     maxHeight: 300,
   },
-  dropdownItem: {
+  gradeOption: {
     paddingVertical: 16,
     paddingHorizontal: 8,
     borderBottomWidth: 1,
+    borderBottomColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
   },
-  dropdownItemText: {
+  gradeOptionText: {
     fontSize: 16,
-    textAlign: 'center',
+    color: '#FFFFFF',
+    fontWeight: '500',
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
+
   modalCloseButton: {
     marginTop: 16,
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,
     alignItems: 'center',
+    backgroundColor: 'rgba(10, 126, 164, 0.8)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
   },
   modalCloseButtonText: {
-    color: 'white',
+    color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '600',
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
 });
