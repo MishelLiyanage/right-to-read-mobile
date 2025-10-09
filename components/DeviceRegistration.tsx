@@ -3,19 +3,19 @@ import { DeviceRegistrationService } from '@/services/deviceRegistrationService'
 import { BlurView } from 'expo-blur';
 import React, { useState } from 'react';
 import {
-    ActivityIndicator,
-    Alert,
-    Dimensions,
-    FlatList,
-    ImageBackground,
-    KeyboardAvoidingView,
-    Modal,
-    Platform,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  Alert,
+  Dimensions,
+  FlatList,
+  ImageBackground,
+  KeyboardAvoidingView,
+  Modal,
+  Platform,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 
 interface DeviceRegistrationProps {
@@ -25,8 +25,10 @@ interface DeviceRegistrationProps {
 const grades = ['3', '4', '5', '6', '7', '8', '9'];
 
 export default function DeviceRegistration({ onRegistrationComplete }: DeviceRegistrationProps) {
+  const [schoolName, setSchoolName] = useState<string>('');
   const [selectedGrade, setSelectedGrade] = useState<string>('');
   const [className, setClassName] = useState<string>('');
+  const [serialNumber, setSerialNumber] = useState<string>('');
   const [isGradeDropdownOpen, setIsGradeDropdownOpen] = useState(false);
   const [isRegistering, setIsRegistering] = useState(false);
 
@@ -34,12 +36,18 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
   const textColor = useThemeColor({}, 'text');
   const tintColor = useThemeColor({}, 'tint');
 
+
+
   const handleGradeSelect = (grade: string) => {
     setSelectedGrade(grade);
     setIsGradeDropdownOpen(false);
   };
 
   const validateForm = (): boolean => {
+    if (!schoolName.trim()) {
+      Alert.alert('Validation Error', 'Please enter your school name.');
+      return false;
+    }
     if (!selectedGrade.trim()) {
       Alert.alert('Validation Error', 'Please select a grade.');
       return false;
@@ -62,7 +70,12 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
     setIsRegistering(true);
     try {
-      await DeviceRegistrationService.registerDevice(selectedGrade, className.trim());
+      await DeviceRegistrationService.registerDevice(
+        selectedGrade, 
+        className.trim(), 
+        schoolName.trim(), 
+        serialNumber.trim()
+      );
       Alert.alert(
         'Registration Successful',
         'Your device has been registered successfully!',
@@ -82,7 +95,7 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
   return (
     <ImageBackground
-      source={require('@/assets/images/registrationBackground.png')}
+      source={require('@/assets/images/registration.jpg')}
       style={styles.backgroundImage}
       resizeMode="cover"
     >
@@ -104,6 +117,23 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
               {/* Form */}
               <View style={styles.form}>
+                {/* School Name Input */}
+                <View style={styles.inputGroup}>
+                  <Text style={styles.label}>School Name</Text>
+                  <View style={styles.glassInput}>
+                    <TextInput
+                      style={styles.textInput}
+                      placeholder="Enter your school name"
+                      placeholderTextColor="#a0aec0"
+                      value={schoolName}
+                      onChangeText={setSchoolName}
+                      maxLength={100}
+                      autoCapitalize="words"
+                      editable={!isRegistering}
+                    />
+                  </View>
+                </View>
+
                 {/* Grade Selection */}
                 <View style={styles.inputGroup}>
                   <Text style={styles.label}>Select Your Grade</Text>
@@ -136,14 +166,31 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
                   </View>
                 </View>
 
+                {/* Serial Number Input */}
+                <View style={styles.inputGroup}>
+                  <Text style={styles.label}>Device Serial Number (Optional)</Text>
+                  <View style={styles.glassInput}>
+                    <TextInput
+                      style={styles.textInput}
+                      placeholder="Enter device serial number"
+                      placeholderTextColor="#a0aec0"
+                      value={serialNumber}
+                      onChangeText={setSerialNumber}
+                      maxLength={50}
+                      autoCapitalize="characters"
+                      editable={!isRegistering}
+                    />
+                  </View>
+                </View>
+
                 {/* Register Button */}
                 <TouchableOpacity
                   style={[
                     styles.registerButton,
-                    (!selectedGrade || !className.trim() || isRegistering) && styles.disabledButton
+                    (!schoolName.trim() || !selectedGrade || !className.trim() || isRegistering) && styles.disabledButton
                   ]}
                   onPress={handleRegistration}
-                  disabled={!selectedGrade || !className.trim() || isRegistering}
+                  disabled={!schoolName.trim() || !selectedGrade || !className.trim() || isRegistering}
                 >
                   {isRegistering ? (
                     <ActivityIndicator color="white" />
@@ -201,6 +248,8 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
           </BlurView>
         </TouchableOpacity>
       </Modal>
+
+
     </ImageBackground>
   );
 }
@@ -215,7 +264,7 @@ const styles = StyleSheet.create({
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    backgroundColor: 'rgba(0, 0, 0, 0.25)',
   },
   keyboardAvoidingView: {
     flex: 1,
@@ -245,33 +294,33 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
-    marginBottom: 30,
+    marginBottom: 5,
   },
   title: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#1a365d',
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: 3,
     letterSpacing: 1,
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: 12,
     color: '#4a5568',
     textAlign: 'center',
-    lineHeight: 20,
+    lineHeight: 15,
   },
   form: {
     width: '100%',
   },
   inputGroup: {
-    marginBottom: 20,
+    marginBottom: 8,
   },
   label: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: '600',
     color: '#2d3748',
-    marginBottom: 8,
+    marginBottom: 6,
   },
   glassInput: {
     backgroundColor: 'rgba(255, 255, 255, 0.7)',
@@ -279,11 +328,11 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'rgba(10, 126, 164, 0.3)',
     paddingHorizontal: 16,
-    paddingVertical: 16,
+    paddingVertical: 10,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    minHeight: 54,
+    minHeight: 44,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -305,6 +354,9 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#4a5568',
   },
+  dropdownButton: {
+    padding: 4,
+  },
   textInput: {
     fontSize: 16,
     color: '#2d3748',
@@ -312,12 +364,12 @@ const styles = StyleSheet.create({
   },
   registerButton: {
     backgroundColor: '#0a7ea4',
-    paddingVertical: 18,
+    paddingVertical: 16,
     paddingHorizontal: 24,
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 20,
+    marginTop: 5,
     minHeight: 56,
     borderWidth: 0,
     shadowColor: '#000',
@@ -338,7 +390,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   footer: {
-    marginTop: 20,
+    marginTop: 15,
     alignItems: 'center',
   },
   infoText: {

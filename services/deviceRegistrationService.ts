@@ -1,8 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export interface DeviceRegistrationData {
+  schoolName: string;
   grade: string;
   className: string;
+  serialNumber?: string;
   registrationDate: string;
 }
 
@@ -25,15 +27,19 @@ export class DeviceRegistrationService {
   }
 
   /**
-   * Register the device with user's grade and class information
+   * Register the device with user's school, grade, class and optional serial number
    * @param grade - Student's grade (3-9)
    * @param className - Student's class name
+   * @param schoolName - Student's school name
+   * @param serialNumber - Optional device serial number
    */
-  static async registerDevice(grade: string, className: string): Promise<void> {
+  static async registerDevice(grade: string, className: string, schoolName: string, serialNumber?: string): Promise<void> {
     try {
       const registrationData: DeviceRegistrationData = {
+        schoolName,
         grade,
         className,
+        serialNumber: serialNumber || undefined,
         registrationDate: new Date().toISOString(),
       };
 
@@ -79,12 +85,17 @@ export class DeviceRegistrationService {
 
   /**
    * Get analytics data for tracking purposes
-   * @returns Promise<{grade: string, className: string} | null>
+   * @returns Promise<{schoolName: string, grade: string, className: string, serialNumber?: string} | null>
    */
-  static async getAnalyticsData(): Promise<{grade: string, className: string} | null> {
+  static async getAnalyticsData(): Promise<{schoolName: string, grade: string, className: string, serialNumber?: string} | null> {
     try {
       const data = await this.getRegistrationData();
-      return data ? { grade: data.grade, className: data.className } : null;
+      return data ? { 
+        schoolName: data.schoolName, 
+        grade: data.grade, 
+        className: data.className,
+        serialNumber: data.serialNumber 
+      } : null;
     } catch (error) {
       console.error('Error getting analytics data:', error);
       return null;
