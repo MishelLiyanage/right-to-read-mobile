@@ -7,15 +7,18 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getAllBooks } from '@/data/books';
 import { useBookSearch } from '@/hooks/useBookSearch';
+import { useDeviceRegistration } from '@/hooks/useDeviceRegistration';
 import { useRecentBooks } from '@/hooks/useRecentBooks';
 import { Book } from '@/types/book';
 import React, { useState } from 'react';
-import { RefreshControl, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Alert, RefreshControl, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 
 export default function BooksScreen() {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
   const [activeTab, setActiveTab] = useState<'all' | 'recent'>('all');
+  const [showDebugPanel, setShowDebugPanel] = useState(false);
   const allBooks = getAllBooks();
+  const { analyticsData, clearRegistrationData } = useDeviceRegistration();
   
   const {
     searchQuery,
@@ -55,6 +58,28 @@ export default function BooksScreen() {
     } catch (error) {
       console.error('Failed to clear recent books:', error);
     }
+  };
+
+  const handleClearRegistration = async () => {
+    Alert.alert(
+      'Clear Registration',
+      'This will clear the device registration and show the registration screen again. This is for testing purposes only.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { 
+          text: 'Clear', 
+          style: 'destructive',
+          onPress: async () => {
+            try {
+              await clearRegistrationData();
+              Alert.alert('Success', 'Registration cleared! Please restart the app to see the registration screen.');
+            } catch (error) {
+              Alert.alert('Error', 'Failed to clear registration data.');
+            }
+          }
+        }
+      ]
+    );
   };
 
   if (selectedBook) {
@@ -137,6 +162,46 @@ export default function BooksScreen() {
             </ThemedText>
           </View>
         )}
+
+        {/* Debug Panel - Toggle visibility */}
+        <TouchableOpacity 
+          style={styles.debugToggle}
+          onPress={() => setShowDebugPanel(!showDebugPanel)}
+        >
+          <ThemedText style={styles.debugToggleText}>
+            {showDebugPanel ? 'Hide' : 'Show'} Debug Panel
+          </ThemedText>
+        </TouchableOpacity>
+
+        {/* Debug Panel */}
+        {showDebugPanel && (
+          <View style={styles.debugPanel}>
+            <ThemedText style={styles.debugTitle}>Debug Panel</ThemedText>
+            
+            {analyticsData && (
+              <View style={styles.debugInfo}>
+                <ThemedText style={styles.debugText}>
+                  Current Registration:
+                </ThemedText>
+                <ThemedText style={styles.debugText}>
+                  Grade: {analyticsData.grade}
+                </ThemedText>
+                <ThemedText style={styles.debugText}>
+                  Class: {analyticsData.className}
+                </ThemedText>
+              </View>
+            )}
+            
+            <TouchableOpacity 
+              style={styles.debugButton}
+              onPress={handleClearRegistration}
+            >
+              <ThemedText style={styles.debugButtonText}>
+                Clear Registration (Test)
+              </ThemedText>
+            </TouchableOpacity>
+          </View>
+        )}
       </ScrollView>
     </ThemedView>
   );
@@ -205,5 +270,48 @@ const styles = StyleSheet.create({
     color: '#666',
     textAlign: 'center',
     lineHeight: 24,
+  },
+  debugToggle: {
+    backgroundColor: '#f0f0f0',
+    padding: 10,
+    marginHorizontal: 16,
+    marginVertical: 8,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  debugToggleText: {
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  debugPanel: {
+    backgroundColor: '#f8f8f8',
+    margin: 16,
+    padding: 16,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+  debugTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 12,
+  },
+  debugInfo: {
+    marginBottom: 12,
+  },
+  debugText: {
+    fontSize: 14,
+    marginBottom: 4,
+  },
+  debugButton: {
+    backgroundColor: '#ff6b6b',
+    padding: 10,
+    borderRadius: 6,
+    alignItems: 'center',
+  },
+  debugButtonText: {
+    color: 'white',
+    fontSize: 14,
+    fontWeight: '600',
   },
 });
