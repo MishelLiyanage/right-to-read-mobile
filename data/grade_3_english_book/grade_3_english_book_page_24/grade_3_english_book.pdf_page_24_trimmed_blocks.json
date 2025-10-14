@@ -1,0 +1,291 @@
+{
+    "1": {
+        "text": "15 My pets Listen, point and say.",
+        "words": [
+            "15",
+            "My",
+            "pets",
+            "Listen,",
+            "point",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    554.094970703125,
+                    24.34998893737793
+                ],
+                [
+                    577.2549438476562,
+                    57.109989166259766
+                ]
+            ],
+            [
+                [
+                    267.8340148925781,
+                    52.211029052734375
+                ],
+                [
+                    295.31402587890625,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    297.6340026855469,
+                    52.211029052734375
+                ],
+                [
+                    340.31402587890625,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    59.014007568359375,
+                    82.21102905273438
+                ],
+                [
+                    119.61399841308594,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    123.61399841308594,
+                    82.21102905273438
+                ],
+                [
+                    172.01400756835938,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    176.8140106201172,
+                    82.21102905273438
+                ],
+                [
+                    213.73402404785156,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    218.73402404785156,
+                    82.21102905273438
+                ],
+                [
+                    254.7540283203125,
+                    106.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">15 My pets Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "15"
+            },
+            {
+                "time": 509,
+                "type": "word",
+                "start": 30,
+                "end": 32,
+                "value": "My"
+            },
+            {
+                "time": 693,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "pets"
+            },
+            {
+                "time": 1131,
+                "type": "word",
+                "start": 38,
+                "end": 44,
+                "value": "Listen"
+            },
+            {
+                "time": 1844,
+                "type": "word",
+                "start": 45,
+                "end": 66,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 2244,
+                "type": "word",
+                "start": 67,
+                "end": 72,
+                "value": "point"
+            },
+            {
+                "time": 2620,
+                "type": "word",
+                "start": 73,
+                "end": 76,
+                "value": "and"
+            },
+            {
+                "time": 2795,
+                "type": "word",
+                "start": 77,
+                "end": 80,
+                "value": "say"
+            }
+        ]
+    },
+    "2": {
+        "text": "cat dog",
+        "words": [
+            "cat",
+            "dog"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    178.1999969482422,
+                    279.4110107421875
+                ],
+                [
+                    208.22000122070312,
+                    303.23101806640625
+                ]
+            ],
+            [
+                [
+                    390.6000061035156,
+                    274.44000244140625
+                ],
+                [
+                    426.1800231933594,
+                    298.260009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cat dog</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "cat"
+            },
+            {
+                "time": 312,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "dog"
+            }
+        ]
+    },
+    "3": {
+        "text": "cow fish",
+        "words": [
+            "cow",
+            "fish"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    171.0,
+                    472.45001220703125
+                ],
+                [
+                    208.92001342773438,
+                    496.27001953125
+                ]
+            ],
+            [
+                [
+                    391.5350036621094,
+                    470.6499938964844
+                ],
+                [
+                    425.57501220703125,
+                    494.4700012207031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cow fish</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "cow"
+            },
+            {
+                "time": 289,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "fish"
+            }
+        ]
+    },
+    "4": {
+        "text": "parrot rabbit",
+        "words": [
+            "parrot",
+            "rabbit"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    164.9759979248047,
+                    688.7197265625
+                ],
+                [
+                    221.05599975585938,
+                    712.5396728515625
+                ]
+            ],
+            [
+                [
+                    372.6000061035156,
+                    683.6883544921875
+                ],
+                [
+                    427.86004638671875,
+                    707.5083618164062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">parrot rabbit</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "parrot"
+            },
+            {
+                "time": 372,
+                "type": "word",
+                "start": 34,
+                "end": 40,
+                "value": "rabbit"
+            }
+        ]
+    }
+}

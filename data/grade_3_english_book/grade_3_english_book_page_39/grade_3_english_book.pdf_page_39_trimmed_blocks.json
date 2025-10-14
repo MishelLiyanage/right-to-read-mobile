@@ -1,0 +1,196 @@
+{
+    "2": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.423500061035156,
+                    52.053985595703125
+                ],
+                [
+                    117.64348602294922,
+                    75.87398529052734
+                ]
+            ],
+            [
+                [
+                    122.64348602294922,
+                    52.053985595703125
+                ],
+                [
+                    159.56349182128906,
+                    75.87398529052734
+                ]
+            ],
+            [
+                [
+                    164.56349182128906,
+                    52.053985595703125
+                ],
+                [
+                    200.58349609375,
+                    75.87398529052734
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "say"
+            }
+        ]
+    },
+    "3": {
+        "text": "brush wash",
+        "words": [
+            "brush",
+            "wash"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    170.1739959716797,
+                    258.2749938964844
+                ],
+                [
+                    223.2340087890625,
+                    282.0950012207031
+                ]
+            ],
+            [
+                [
+                    377.8489990234375,
+                    258.2749938964844
+                ],
+                [
+                    428.0090026855469,
+                    282.0950012207031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">brush wash</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "brush"
+            },
+            {
+                "time": 308,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "wash"
+            }
+        ]
+    },
+    "4": {
+        "text": "eat drink",
+        "words": [
+            "eat",
+            "drink"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    184.65499877929688,
+                    484.04998779296875
+                ],
+                [
+                    215.65501403808594,
+                    507.8699951171875
+                ]
+            ],
+            [
+                [
+                    378.04901123046875,
+                    484.04998779296875
+                ],
+                [
+                    425.18902587890625,
+                    507.8699951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">eat drink</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "eat"
+            },
+            {
+                "time": 240,
+                "type": "word",
+                "start": 31,
+                "end": 36,
+                "value": "drink"
+            }
+        ]
+    },
+    "5": {
+        "text": "go",
+        "words": [
+            "go"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    300.0469970703125,
+                    696.5966796875
+                ],
+                [
+                    323.4670104980469,
+                    720.4166870117188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">go</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "go"
+            }
+        ]
+    }
+}

@@ -1,0 +1,237 @@
+{
+    "2": {
+        "text": "Listen and point.",
+        "words": [
+            "Listen",
+            "and",
+            "point."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    52.058990478515625
+                ],
+                [
+                    117.57918548583984,
+                    75.87899017333984
+                ]
+            ],
+            [
+                [
+                    122.57918548583984,
+                    52.058990478515625
+                ],
+                [
+                    159.4991912841797,
+                    75.87899017333984
+                ]
+            ],
+            [
+                [
+                    164.4991912841797,
+                    52.058990478515625
+                ],
+                [
+                    219.17919921875,
+                    75.87899017333984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 428,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "point"
+            }
+        ]
+    },
+    "3": {
+        "text": "This is home screen.",
+        "words": [
+            "This",
+            "is",
+            "home",
+            "screen."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    100.05899047851562
+                ],
+                [
+                    99.33919525146484,
+                    123.87899017333984
+                ]
+            ],
+            [
+                [
+                    104.33919525146484,
+                    100.05899047851562
+                ],
+                [
+                    118.3191909790039,
+                    123.87899017333984
+                ]
+            ],
+            [
+                [
+                    123.3191909790039,
+                    100.05899047851562
+                ],
+                [
+                    179.01918029785156,
+                    123.87899017333984
+                ]
+            ],
+            [
+                [
+                    184.01918029785156,
+                    100.05899047851562
+                ],
+                [
+                    251.3391876220703,
+                    123.87899017333984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">This is home screen.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "This"
+            },
+            {
+                "time": 233,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 396,
+                "type": "word",
+                "start": 35,
+                "end": 39,
+                "value": "home"
+            },
+            {
+                "time": 652,
+                "type": "word",
+                "start": 40,
+                "end": 46,
+                "value": "screen"
+            }
+        ]
+    },
+    "4": {
+        "text": "Click on 'Start' button.",
+        "words": [
+            "Click",
+            "on",
+            "'Start'",
+            "button."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.10490036010742,
+                    478.4670104980469
+                ],
+                [
+                    101.49689483642578,
+                    499.905029296875
+                ]
+            ],
+            [
+                [
+                    105.81689453125,
+                    478.4670104980469
+                ],
+                [
+                    127.29090118408203,
+                    499.905029296875
+                ]
+            ],
+            [
+                [
+                    131.7908935546875,
+                    478.4670104980469
+                ],
+                [
+                    181.25486755371094,
+                    499.905029296875
+                ]
+            ],
+            [
+                [
+                    185.75486755371094,
+                    478.4670104980469
+                ],
+                [
+                    248.75485229492188,
+                    499.905029296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Click on &apos;Start&apos; button.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Click"
+            },
+            {
+                "time": 323,
+                "type": "word",
+                "start": 33,
+                "end": 35,
+                "value": "on"
+            },
+            {
+                "time": 503,
+                "type": "word",
+                "start": 36,
+                "end": 53,
+                "value": "&apos;Start&apos;"
+            },
+            {
+                "time": 906,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "button"
+            }
+        ]
+    }
+}

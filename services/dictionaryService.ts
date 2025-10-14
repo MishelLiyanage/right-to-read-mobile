@@ -71,8 +71,6 @@ export class DictionaryService {
     }));
   }
 
-
-
   clearCache(): void {
     this.cache.clear();
   }

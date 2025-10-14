@@ -1,0 +1,244 @@
+{
+    "2": {
+        "text": "Listen, count and say.",
+        "words": [
+            "Listen,",
+            "count",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.29439926147461,
+                    51.608978271484375
+                ],
+                [
+                    122.89439392089844,
+                    75.4289779663086
+                ]
+            ],
+            [
+                [
+                    126.89439392089844,
+                    51.608978271484375
+                ],
+                [
+                    181.2144012451172,
+                    75.4289779663086
+                ]
+            ],
+            [
+                [
+                    186.014404296875,
+                    51.608978271484375
+                ],
+                [
+                    222.93441772460938,
+                    75.4289779663086
+                ]
+            ],
+            [
+                [
+                    227.93441772460938,
+                    51.608978271484375
+                ],
+                [
+                    263.9544372558594,
+                    75.4289779663086
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> count and say.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1115,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "count"
+            },
+            {
+                "time": 1464,
+                "type": "word",
+                "start": 62,
+                "end": 65,
+                "value": "and"
+            },
+            {
+                "time": 1731,
+                "type": "word",
+                "start": 66,
+                "end": 69,
+                "value": "say"
+            }
+        ]
+    },
+    "4": {
+        "text": "ten",
+        "words": [
+            "ten"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    491.458984375,
+                    676.2119750976562
+                ],
+                [
+                    521.6839599609375,
+                    706.0869750976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">ten</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "ten"
+            }
+        ]
+    },
+    "6": {
+        "text": "six",
+        "words": [
+            "six"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    504.0379943847656,
+                    165.55198669433594
+                ],
+                [
+                    530.3379516601562,
+                    195.42698669433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">six</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "six"
+            }
+        ]
+    },
+    "8": {
+        "text": "seven",
+        "words": [
+            "seven"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    492.52398681640625,
+                    286.1520080566406
+                ],
+                [
+                    547.2490234375,
+                    316.0270080566406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">seven</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "seven"
+            }
+        ]
+    },
+    "10": {
+        "text": "eight",
+        "words": [
+            "eight"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    492.530029296875,
+                    401.2230224609375
+                ],
+                [
+                    542.0300903320312,
+                    431.0980224609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">eight</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "eight"
+            }
+        ]
+    },
+    "12": {
+        "text": "nine",
+        "words": [
+            "nine"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    492.5249938964844,
+                    528.1329956054688
+                ],
+                [
+                    532.4000244140625,
+                    558.0079956054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">nine</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "nine"
+            }
+        ]
+    }
+}

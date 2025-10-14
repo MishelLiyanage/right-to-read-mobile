@@ -1,4 +1,179 @@
+import { BookDataService } from '@/services/bookDataService';
 import { Book } from '@/types/book';
+
+// Static imports for Grade 3 English Book pages (pages 10-39, 41-137)
+const grade3PageImages = {
+  10: require('@/data/grade_3_english_book/grade_3_english_book_page_10/grade_3_english_book.pdf_page_10.png'),
+  11: require('@/data/grade_3_english_book/grade_3_english_book_page_11/grade_3_english_book.pdf_page_11.png'),
+  12: require('@/data/grade_3_english_book/grade_3_english_book_page_12/grade_3_english_book.pdf_page_12.png'),
+  13: require('@/data/grade_3_english_book/grade_3_english_book_page_13/grade_3_english_book.pdf_page_13.png'),
+  14: require('@/data/grade_3_english_book/grade_3_english_book_page_14/grade_3_english_book.pdf_page_14.png'),
+  15: require('@/data/grade_3_english_book/grade_3_english_book_page_15/grade_3_english_book.pdf_page_15.png'),
+  16: require('@/data/grade_3_english_book/grade_3_english_book_page_16/grade_3_english_book.pdf_page_16.png'),
+  17: require('@/data/grade_3_english_book/grade_3_english_book_page_17/grade_3_english_book.pdf_page_17.png'),
+  18: require('@/data/grade_3_english_book/grade_3_english_book_page_18/grade_3_english_book.pdf_page_18.png'),
+  19: require('@/data/grade_3_english_book/grade_3_english_book_page_19/grade_3_english_book.pdf_page_19.png'),
+  20: require('@/data/grade_3_english_book/grade_3_english_book_page_20/grade_3_english_book.pdf_page_20.png'),
+  21: require('@/data/grade_3_english_book/grade_3_english_book_page_21/grade_3_english_book.pdf_page_21.png'),
+  22: require('@/data/grade_3_english_book/grade_3_english_book_page_22/grade_3_english_book.pdf_page_22.png'),
+  23: require('@/data/grade_3_english_book/grade_3_english_book_page_23/grade_3_english_book.pdf_page_23.png'),
+  24: require('@/data/grade_3_english_book/grade_3_english_book_page_24/grade_3_english_book.pdf_page_24.png'),
+  25: require('@/data/grade_3_english_book/grade_3_english_book_page_25/grade_3_english_book.pdf_page_25.png'),
+  26: require('@/data/grade_3_english_book/grade_3_english_book_page_26/grade_3_english_book.pdf_page_26.png'),
+  27: require('@/data/grade_3_english_book/grade_3_english_book_page_27/grade_3_english_book.pdf_page_27.png'),
+  28: require('@/data/grade_3_english_book/grade_3_english_book_page_28/grade_3_english_book.pdf_page_28.png'),
+  29: require('@/data/grade_3_english_book/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29.png'),
+  30: require('@/data/grade_3_english_book/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30.png'),
+  31: require('@/data/grade_3_english_book/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31.png'),
+  32: require('@/data/grade_3_english_book/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32.png'),
+  33: require('@/data/grade_3_english_book/grade_3_english_book_page_33/grade_3_english_book.pdf_page_33.png'),
+  34: require('@/data/grade_3_english_book/grade_3_english_book_page_34/grade_3_english_book.pdf_page_34.png'),
+  35: require('@/data/grade_3_english_book/grade_3_english_book_page_35/grade_3_english_book.pdf_page_35.png'),
+  36: require('@/data/grade_3_english_book/grade_3_english_book_page_36/grade_3_english_book.pdf_page_36.png'),
+  37: require('@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37.png'),
+  38: require('@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38.png'),
+  39: require('@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39.png'),
+  41: require('@/data/grade_3_english_book/grade_3_english_book_page_41/grade_3_english_book.pdf_page_41.png'),
+  42: require('@/data/grade_3_english_book/grade_3_english_book_page_42/grade_3_english_book.pdf_page_42.png'),
+  43: require('@/data/grade_3_english_book/grade_3_english_book_page_43/grade_3_english_book.pdf_page_43.png'),
+  44: require('@/data/grade_3_english_book/grade_3_english_book_page_44/grade_3_english_book.pdf_page_44.png'),
+  45: require('@/data/grade_3_english_book/grade_3_english_book_page_45/grade_3_english_book.pdf_page_45.png'),
+  46: require('@/data/grade_3_english_book/grade_3_english_book_page_46/grade_3_english_book.pdf_page_46.png'),
+  47: require('@/data/grade_3_english_book/grade_3_english_book_page_47/grade_3_english_book.pdf_page_47.png'),
+  48: require('@/data/grade_3_english_book/grade_3_english_book_page_48/grade_3_english_book.pdf_page_48.png'),
+  49: require('@/data/grade_3_english_book/grade_3_english_book_page_49/grade_3_english_book.pdf_page_49.png'),
+  50: require('@/data/grade_3_english_book/grade_3_english_book_page_50/grade_3_english_book.pdf_page_50.png'),
+  51: require('@/data/grade_3_english_book/grade_3_english_book_page_51/grade_3_english_book.pdf_page_51.png'),
+  52: require('@/data/grade_3_english_book/grade_3_english_book_page_52/grade_3_english_book.pdf_page_52.png'),
+  53: require('@/data/grade_3_english_book/grade_3_english_book_page_53/grade_3_english_book.pdf_page_53.png'),
+  54: require('@/data/grade_3_english_book/grade_3_english_book_page_54/grade_3_english_book.pdf_page_54.png'),
+  55: require('@/data/grade_3_english_book/grade_3_english_book_page_55/grade_3_english_book.pdf_page_55.png'),
+  56: require('@/data/grade_3_english_book/grade_3_english_book_page_56/grade_3_english_book.pdf_page_56.png'),
+  57: require('@/data/grade_3_english_book/grade_3_english_book_page_57/grade_3_english_book.pdf_page_57.png'),
+  58: require('@/data/grade_3_english_book/grade_3_english_book_page_58/grade_3_english_book.pdf_page_58.png'),
+  59: require('@/data/grade_3_english_book/grade_3_english_book_page_59/grade_3_english_book.pdf_page_59.png'),
+  60: require('@/data/grade_3_english_book/grade_3_english_book_page_60/grade_3_english_book.pdf_page_60.png'),
+  61: require('@/data/grade_3_english_book/grade_3_english_book_page_61/grade_3_english_book.pdf_page_61.png'),
+  62: require('@/data/grade_3_english_book/grade_3_english_book_page_62/grade_3_english_book.pdf_page_62.png'),
+  63: require('@/data/grade_3_english_book/grade_3_english_book_page_63/grade_3_english_book.pdf_page_63.png'),
+  64: require('@/data/grade_3_english_book/grade_3_english_book_page_64/grade_3_english_book.pdf_page_64.png'),
+  65: require('@/data/grade_3_english_book/grade_3_english_book_page_65/grade_3_english_book.pdf_page_65.png'),
+  66: require('@/data/grade_3_english_book/grade_3_english_book_page_66/grade_3_english_book.pdf_page_66.png'),
+  67: require('@/data/grade_3_english_book/grade_3_english_book_page_67/grade_3_english_book.pdf_page_67.png'),
+  68: require('@/data/grade_3_english_book/grade_3_english_book_page_68/grade_3_english_book.pdf_page_68.png'),
+  69: require('@/data/grade_3_english_book/grade_3_english_book_page_69/grade_3_english_book.pdf_page_69.png'),
+  70: require('@/data/grade_3_english_book/grade_3_english_book_page_70/grade_3_english_book.pdf_page_70.png'),
+  71: require('@/data/grade_3_english_book/grade_3_english_book_page_71/grade_3_english_book.pdf_page_71.png'),
+  72: require('@/data/grade_3_english_book/grade_3_english_book_page_72/grade_3_english_book.pdf_page_72.png'),
+  73: require('@/data/grade_3_english_book/grade_3_english_book_page_73/grade_3_english_book.pdf_page_73.png'),
+  74: require('@/data/grade_3_english_book/grade_3_english_book_page_74/grade_3_english_book.pdf_page_74.png'),
+  75: require('@/data/grade_3_english_book/grade_3_english_book_page_75/grade_3_english_book.pdf_page_75.png'),
+  76: require('@/data/grade_3_english_book/grade_3_english_book_page_76/grade_3_english_book.pdf_page_76.png'),
+  77: require('@/data/grade_3_english_book/grade_3_english_book_page_77/grade_3_english_book.pdf_page_77.png'),
+  78: require('@/data/grade_3_english_book/grade_3_english_book_page_78/grade_3_english_book.pdf_page_78.png'),
+  79: require('@/data/grade_3_english_book/grade_3_english_book_page_79/grade_3_english_book.pdf_page_79.png'),
+  80: require('@/data/grade_3_english_book/grade_3_english_book_page_80/grade_3_english_book.pdf_page_80.png'),
+  81: require('@/data/grade_3_english_book/grade_3_english_book_page_81/grade_3_english_book.pdf_page_81.png'),
+  82: require('@/data/grade_3_english_book/grade_3_english_book_page_82/grade_3_english_book.pdf_page_82.png'),
+  83: require('@/data/grade_3_english_book/grade_3_english_book_page_83/grade_3_english_book.pdf_page_83.png'),
+  84: require('@/data/grade_3_english_book/grade_3_english_book_page_84/grade_3_english_book.pdf_page_84.png'),
+  85: require('@/data/grade_3_english_book/grade_3_english_book_page_85/grade_3_english_book.pdf_page_85.png'),
+  86: require('@/data/grade_3_english_book/grade_3_english_book_page_86/grade_3_english_book.pdf_page_86.png'),
+  87: require('@/data/grade_3_english_book/grade_3_english_book_page_87/grade_3_english_book.pdf_page_87.png'),
+  88: require('@/data/grade_3_english_book/grade_3_english_book_page_88/grade_3_english_book.pdf_page_88.png'),
+  89: require('@/data/grade_3_english_book/grade_3_english_book_page_89/grade_3_english_book.pdf_page_89.png'),
+  90: require('@/data/grade_3_english_book/grade_3_english_book_page_90/grade_3_english_book.pdf_page_90.png'),
+  91: require('@/data/grade_3_english_book/grade_3_english_book_page_91/grade_3_english_book.pdf_page_91.png'),
+  92: require('@/data/grade_3_english_book/grade_3_english_book_page_92/grade_3_english_book.pdf_page_92.png'),
+  93: require('@/data/grade_3_english_book/grade_3_english_book_page_93/grade_3_english_book.pdf_page_93.png'),
+  94: require('@/data/grade_3_english_book/grade_3_english_book_page_94/grade_3_english_book.pdf_page_94.png'),
+  95: require('@/data/grade_3_english_book/grade_3_english_book_page_95/grade_3_english_book.pdf_page_95.png'),
+  96: require('@/data/grade_3_english_book/grade_3_english_book_page_96/grade_3_english_book.pdf_page_96.png'),
+  97: require('@/data/grade_3_english_book/grade_3_english_book_page_97/grade_3_english_book.pdf_page_97.png'),
+  98: require('@/data/grade_3_english_book/grade_3_english_book_page_98/grade_3_english_book.pdf_page_98.png'),
+  99: require('@/data/grade_3_english_book/grade_3_english_book_page_99/grade_3_english_book.pdf_page_99.png'),
+  100: require('@/data/grade_3_english_book/grade_3_english_book_page_100/grade_3_english_book.pdf_page_100.png'),
+  101: require('@/data/grade_3_english_book/grade_3_english_book_page_101/grade_3_english_book.pdf_page_101.png'),
+  102: require('@/data/grade_3_english_book/grade_3_english_book_page_102/grade_3_english_book.pdf_page_102.png'),
+  103: require('@/data/grade_3_english_book/grade_3_english_book_page_103/grade_3_english_book.pdf_page_103.png'),
+  104: require('@/data/grade_3_english_book/grade_3_english_book_page_104/grade_3_english_book.pdf_page_104.png'),
+  105: require('@/data/grade_3_english_book/grade_3_english_book_page_105/grade_3_english_book.pdf_page_105.png'),
+  106: require('@/data/grade_3_english_book/grade_3_english_book_page_106/grade_3_english_book.pdf_page_106.png'),
+  107: require('@/data/grade_3_english_book/grade_3_english_book_page_107/grade_3_english_book.pdf_page_107.png'),
+  108: require('@/data/grade_3_english_book/grade_3_english_book_page_108/grade_3_english_book.pdf_page_108.png'),
+  109: require('@/data/grade_3_english_book/grade_3_english_book_page_109/grade_3_english_book.pdf_page_109.png'),
+  110: require('@/data/grade_3_english_book/grade_3_english_book_page_110/grade_3_english_book.pdf_page_110.png'),
+  111: require('@/data/grade_3_english_book/grade_3_english_book_page_111/grade_3_english_book.pdf_page_111.png'),
+  112: require('@/data/grade_3_english_book/grade_3_english_book_page_112/grade_3_english_book.pdf_page_112.png'),
+  113: require('@/data/grade_3_english_book/grade_3_english_book_page_113/grade_3_english_book.pdf_page_113.png'),
+  114: require('@/data/grade_3_english_book/grade_3_english_book_page_114/grade_3_english_book.pdf_page_114.png'),
+  115: require('@/data/grade_3_english_book/grade_3_english_book_page_115/grade_3_english_book.pdf_page_115.png'),
+  116: require('@/data/grade_3_english_book/grade_3_english_book_page_116/grade_3_english_book.pdf_page_116.png'),
+  117: require('@/data/grade_3_english_book/grade_3_english_book_page_117/grade_3_english_book.pdf_page_117.png'),
+  118: require('@/data/grade_3_english_book/grade_3_english_book_page_118/grade_3_english_book.pdf_page_118.png'),
+  119: require('@/data/grade_3_english_book/grade_3_english_book_page_119/grade_3_english_book.pdf_page_119.png'),
+  120: require('@/data/grade_3_english_book/grade_3_english_book_page_120/grade_3_english_book.pdf_page_120.png'),
+  121: require('@/data/grade_3_english_book/grade_3_english_book_page_121/grade_3_english_book.pdf_page_121.png'),
+  122: require('@/data/grade_3_english_book/grade_3_english_book_page_122/grade_3_english_book.pdf_page_122.png'),
+  123: require('@/data/grade_3_english_book/grade_3_english_book_page_123/grade_3_english_book.pdf_page_123.png'),
+  124: require('@/data/grade_3_english_book/grade_3_english_book_page_124/grade_3_english_book.pdf_page_124.png'),
+  125: require('@/data/grade_3_english_book/grade_3_english_book_page_125/grade_3_english_book.pdf_page_125.png'),
+  126: require('@/data/grade_3_english_book/grade_3_english_book_page_126/grade_3_english_book.pdf_page_126.png'),
+  127: require('@/data/grade_3_english_book/grade_3_english_book_page_127/grade_3_english_book.pdf_page_127.png'),
+  128: require('@/data/grade_3_english_book/grade_3_english_book_page_128/grade_3_english_book.pdf_page_128.png'),
+  129: require('@/data/grade_3_english_book/grade_3_english_book_page_129/grade_3_english_book.pdf_page_129.png'),
+  130: require('@/data/grade_3_english_book/grade_3_english_book_page_130/grade_3_english_book.pdf_page_130.png'),
+  131: require('@/data/grade_3_english_book/grade_3_english_book_page_131/grade_3_english_book.pdf_page_131.png'),
+  132: require('@/data/grade_3_english_book/grade_3_english_book_page_132/grade_3_english_book.pdf_page_132.png'),
+  133: require('@/data/grade_3_english_book/grade_3_english_book_page_133/grade_3_english_book.pdf_page_133.png'),
+  134: require('@/data/grade_3_english_book/grade_3_english_book_page_134/grade_3_english_book.pdf_page_134.png'),
+  135: require('@/data/grade_3_english_book/grade_3_english_book_page_135/grade_3_english_book.pdf_page_135.png'),
+  136: require('@/data/grade_3_english_book/grade_3_english_book_page_136/grade_3_english_book.pdf_page_136.png'),
+  137: require('@/data/grade_3_english_book/grade_3_english_book_page_137/grade_3_english_book.pdf_page_137.png'),
+};
+
+// Helper function to generate blocks dynamically from BookDataService data
+const generateBlocksForPage = (pageNumber: number) => {
+  try {
+    const bookDataService = BookDataService.getInstance();
+    const pageData = bookDataService.getBlocksForPage(pageNumber);
+    
+    if (!pageData) {
+      console.warn(`No block data found for page ${pageNumber}`);
+      return [];
+    }
+
+    // Convert the block data to the format expected by the app
+    const blocks = [];
+    for (const [blockId, blockInfo] of Object.entries(pageData)) {
+      if (blockInfo && blockInfo.text && blockInfo.text.trim()) {
+        // Store page and block info so TTS service can dynamically load audio
+        blocks.push({
+          id: parseInt(blockId),
+          text: blockInfo.text,
+          audio: `grade_3_english_book_page_${pageNumber}/block_${pageNumber}_${blockId}_audio.mp3`,
+          pageNumber: pageNumber,
+          blockId: parseInt(blockId)
+        });
+      }
+    }
+    
+    return blocks;
+  } catch (error) {
+    console.warn(`Error generating blocks for page ${pageNumber}:`, error);
+    return [];
+  }
+};
+
+// Generate pages for Grade 3 English Book using static imports with dynamic blocks
+const generateGrade3Pages = () => {
+  const availablePages = Object.keys(grade3PageImages).map(Number).sort((a, b) => a - b);
+  return availablePages.map(pageNumber => ({
+    pageNumber,
+    image: grade3PageImages[pageNumber as keyof typeof grade3PageImages],
+    blocks: generateBlocksForPage(pageNumber)
+  }));
+};
 
 export const getAllBooks = (): Book[] => {
   return [
@@ -53,303 +228,7 @@ export const getAllBooks = (): Book[] => {
           pageNumber: 111
         }
       ],
-      pages: [
-        {
-          pageNumber: 19,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_19/grade_3_english_book.pdf_page_19.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Grade 3",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "Grade 4",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "Grade 5",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_5_audio.mp3'),
-            },
-            {
-              id: 6,
-              text: "Grade 6",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_6_audio.mp3'),
-            },
-            {
-              id: 7,
-              text: "I'm in grade five.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_7_audio.mp3'),
-            },
-            {
-              id: 8,
-              text: "I'm in grade six.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_8_audio.mp3'),
-            },
-            {
-              id: 9,
-              text: "I'm in grade three. I'm in grade four.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_9_audio.mp3'),
-            },
-            {
-              id: 10,
-              text: "What grade are you in?",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_19/block_19_10_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 21,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_21/grade_3_english_book.pdf_page_21.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "12",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Play the game. Listen and practise.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "Stand in a circle. Ask a friend to stand in the middle. Pass the ball. Practise. \"Where do you live?\" \"I live in ............................",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "Say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_5_audio.mp3'),
-            },
-            {
-              id: 6,
-              text: "Meenu, this is my friend, Rasini.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_6_audio.mp3'),
-            },
-            {
-              id: 7,
-              text: "Hello! Rasini.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_21/block_21_7_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 22,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_22/grade_3_english_book.pdf_page_22.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Sahan, this is my friend, Nizam.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_22/block_22_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Hello! Sahan.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_22/block_22_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "Hello! Nizam.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_22/block_22_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "Make groups of three. Introduce your friend.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_22/block_22_5_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 23,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_23/grade_3_english_book.pdf_page_23.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and repeat.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_23/block_23_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Hello! I'm Rashini. What's your name?",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_23/block_23_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "Hello! I'm Tharindu.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_23/block_23_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "Nice to meet you!",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_23/block_23_5_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 26,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_26/grade_3_english_book.pdf_page_26.png'),
-          blocks: [
-            {
-              id: 1,
-              text: "17 Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_1_audio.mp3'),
-            },
-            {
-              id: 2,
-              text: "This is my pet. It is a cat.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_2_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "This is my pet. It is a dog.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_4_audio.mp3'),
-            },
-            {
-              id: 5,
-              text: "This is my pet. It is a bird.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_5_audio.mp3'),
-            },
-            {
-              id: 7,
-              text: "This is my pet. It is a fish.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_7_audio.mp3'),
-            },
-            {
-              id: 8,
-              text: "This is my pet. It is a rabbit.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_8_audio.mp3'),
-            },
-            {
-              id: 10,
-              text: "What is your pet?",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_26/block_26_10_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 27,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_27/grade_3_english_book.pdf_page_27.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Sing the song.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_27/block_27_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "My pet, my pet. I have a pet.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_27/block_27_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "What pet do you have? A cat, a cat. I have a cat.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_27/block_27_4_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 29,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_29/block_29_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "This is my family.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_29/block_29_3_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 30,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_30/block_30_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Where do you live?",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_30/block_30_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "I live in Colombo.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_30/block_30_4_audio.mp3'),
-            },
-            {
-              id: 6,
-              text: "I live in Kandy.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_30/block_30_6_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 31,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_31/block_31_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "This is a house.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_31/block_31_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "This is a school.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_31/block_31_4_audio.mp3'),
-            },
-            {
-              id: 7,
-              text: "This is a shop.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_31/block_31_7_audio.mp3'),
-            },
-            {
-              id: 10,
-              text: "This is a hospital.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_31/block_31_10_audio.mp3'),
-            },
-          ]
-        },
-        {
-          pageNumber: 44,
-          image: require('@/data/grade_3_english_book/grade_3_english_book_page_44/grade_3_english_book.pdf_page_44.png'),
-          blocks: [
-            {
-              id: 2,
-              text: "Hi, I'm Raveen. This is my school.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_44/block_44_2_audio.mp3'),
-            },
-            {
-              id: 3,
-              text: "Listen and say.",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_44/block_44_3_audio.mp3'),
-            },
-            {
-              id: 4,
-              text: "Our school 3",
-              audio: require('@/data/grade_3_english_book/grade_3_english_book_page_44/block_44_4_audio.mp3'),
-            },
-          ]
-        }
-      ]
+      pages: generateGrade3Pages()
     },
     {
       id: 2,

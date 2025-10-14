@@ -1,0 +1,690 @@
+{
+    "2": {
+        "text": "Listen and repeat.",
+        "words": [
+            "Listen",
+            "and",
+            "repeat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.6172981262207,
+                    52.211029052734375
+                ],
+                [
+                    117.83728790283203,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    122.83728790283203,
+                    52.211029052734375
+                ],
+                [
+                    159.75729370117188,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    164.75729370117188,
+                    52.211029052734375
+                ],
+                [
+                    231.83729553222656,
+                    76.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 452,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 718,
+                "type": "word",
+                "start": 38,
+                "end": 44,
+                "value": "repeat"
+            }
+        ]
+    },
+    "3": {
+        "text": "Come early. Sweep the classroom.",
+        "words": [
+            "Come",
+            "early.",
+            "Sweep",
+            "the",
+            "classroom."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    165.13999938964844,
+                    205.9819793701172
+                ],
+                [
+                    203.79856872558594,
+                    223.8469696044922
+                ]
+            ],
+            [
+                [
+                    207.18728637695312,
+                    205.9819793701172
+                ],
+                [
+                    241.11520385742188,
+                    223.8469696044922
+                ]
+            ],
+            [
+                [
+                    472.63287353515625,
+                    209.7169647216797
+                ],
+                [
+                    514.260009765625,
+                    227.5819549560547
+                ]
+            ],
+            [
+                [
+                    517.51318359375,
+                    209.7169647216797
+                ],
+                [
+                    538.8892822265625,
+                    227.5819549560547
+                ]
+            ],
+            [
+                [
+                    471.8060302734375,
+                    227.7169647216797
+                ],
+                [
+                    540.4074096679688,
+                    245.5819549560547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Come early.<break time=\"500ms\"/> Sweep the classroom.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Come"
+            },
+            {
+                "time": 318,
+                "type": "word",
+                "start": 32,
+                "end": 37,
+                "value": "early"
+            },
+            {
+                "time": 844,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 1731,
+                "type": "word",
+                "start": 60,
+                "end": 65,
+                "value": "Sweep"
+            },
+            {
+                "time": 2165,
+                "type": "word",
+                "start": 66,
+                "end": 69,
+                "value": "the"
+            },
+            {
+                "time": 2268,
+                "type": "word",
+                "start": 70,
+                "end": 79,
+                "value": "classroom"
+            }
+        ]
+    },
+    "4": {
+        "text": "Speak kind words.",
+        "words": [
+            "Speak",
+            "kind",
+            "words."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    470.54541015625,
+                    331.3969421386719
+                ],
+                [
+                    509.27178955078125,
+                    349.261962890625
+                ]
+            ],
+            [
+                [
+                    512.5249633789062,
+                    331.3969421386719
+                ],
+                [
+                    539.9329833984375,
+                    349.261962890625
+                ]
+            ],
+            [
+                [
+                    484.7644958496094,
+                    349.3969421386719
+                ],
+                [
+                    526.3780517578125,
+                    367.261962890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Speak kind words.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Speak"
+            },
+            {
+                "time": 446,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "kind"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "words"
+            }
+        ]
+    },
+    "5": {
+        "text": "Share books.",
+        "words": [
+            "Share",
+            "books."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    275.8021545410156,
+                    308.9119567871094
+                ],
+                [
+                    311.7768859863281,
+                    326.7769775390625
+                ]
+            ],
+            [
+                [
+                    315.1656188964844,
+                    308.9119567871094
+                ],
+                [
+                    356.2098388671875,
+                    326.7769775390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Share books.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Share"
+            },
+            {
+                "time": 299,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "books"
+            }
+        ]
+    },
+    "6": {
+        "text": "Protect the environment.",
+        "words": [
+            "Protect",
+            "the",
+            "environment."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    280.1939392089844,
+                    166.41197204589844
+                ],
+                [
+                    324.89794921875,
+                    184.27696228027344
+                ]
+            ],
+            [
+                [
+                    328.01556396484375,
+                    166.41197204589844
+                ],
+                [
+                    349.3916320800781,
+                    184.27696228027344
+                ]
+            ],
+            [
+                [
+                    272.00677490234375,
+                    184.41197204589844
+                ],
+                [
+                    358.2701416015625,
+                    202.27696228027344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Protect the environment.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "Protect"
+            },
+            {
+                "time": 505,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "the"
+            },
+            {
+                "time": 675,
+                "type": "word",
+                "start": 39,
+                "end": 50,
+                "value": "environment"
+            }
+        ]
+    },
+    "7": {
+        "text": "Study well.",
+        "words": [
+            "Study",
+            "well."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    309.51318359375,
+                    444.96197509765625
+                ],
+                [
+                    345.37945556640625,
+                    462.8269958496094
+                ]
+            ],
+            [
+                [
+                    348.4970703125,
+                    444.96197509765625
+                ],
+                [
+                    378.1280822753906,
+                    462.8269958496094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Study well.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Study"
+            },
+            {
+                "time": 430,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "well"
+            }
+        ]
+    },
+    "8": {
+        "text": "Play games.",
+        "words": [
+            "Play",
+            "games."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    410.67340087890625,
+                    520.8619995117188
+                ],
+                [
+                    437.2003479003906,
+                    538.7269897460938
+                ]
+            ],
+            [
+                [
+                    440.4535217285156,
+                    520.8619995117188
+                ],
+                [
+                    488.9394226074219,
+                    538.7269897460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Play games.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Play"
+            },
+            {
+                "time": 274,
+                "type": "word",
+                "start": 32,
+                "end": 37,
+                "value": "games"
+            }
+        ]
+    },
+    "9": {
+        "text": "Sing songs.",
+        "words": [
+            "Sing",
+            "songs."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    450.6739196777344,
+                    439.32196044921875
+                ],
+                [
+                    478.0006103515625,
+                    457.1869812011719
+                ]
+            ],
+            [
+                [
+                    481.38934326171875,
+                    439.32196044921875
+                ],
+                [
+                    522.3928833007812,
+                    457.1869812011719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing songs.<break time=\"400ms\"/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "Sing"
+            },
+            {
+                "time": 296,
+                "type": "word",
+                "start": 44,
+                "end": 49,
+                "value": "songs"
+            },
+            {
+                "time": 1004,
+                "type": "word",
+                "start": 50,
+                "end": 71,
+                "value": "<break time=\"400ms\"/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "Obey teachers.",
+        "words": [
+            "Obey",
+            "teachers."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    120.99163818359375,
+                    478.9669494628906
+                ],
+                [
+                    154.52645874023438,
+                    496.83197021484375
+                ]
+            ],
+            [
+                [
+                    108.52113342285156,
+                    496.9669494628906
+                ],
+                [
+                    167.53916931152344,
+                    514.8319702148438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Obey teachers.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Obey"
+            },
+            {
+                "time": 322,
+                "type": "word",
+                "start": 32,
+                "end": 40,
+                "value": "teachers"
+            }
+        ]
+    },
+    "11": {
+        "text": "Love your school.",
+        "words": [
+            "Love",
+            "your",
+            "school."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    267.46588134765625,
+                    551.8670043945312
+                ],
+                [
+                    296.1886901855469,
+                    569.7319946289062
+                ]
+            ],
+            [
+                [
+                    299.4418640136719,
+                    551.8670043945312
+                ],
+                [
+                    327.0531921386719,
+                    569.7319946289062
+                ]
+            ],
+            [
+                [
+                    275.24639892578125,
+                    569.8670043945312
+                ],
+                [
+                    319.81488037109375,
+                    587.7319946289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Love your school.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Love"
+            },
+            {
+                "time": 295,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "your"
+            },
+            {
+                "time": 482,
+                "type": "word",
+                "start": 37,
+                "end": 43,
+                "value": "school"
+            }
+        ]
+    },
+    "12": {
+        "text": "Clean the garden.",
+        "words": [
+            "Clean",
+            "the",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    87.87701416015625,
+                    303.7669372558594
+                ],
+                [
+                    125.11233520507812,
+                    321.6319580078125
+                ]
+            ],
+            [
+                [
+                    128.36550903320312,
+                    303.7669372558594
+                ],
+                [
+                    149.7415771484375,
+                    321.6319580078125
+                ]
+            ],
+            [
+                [
+                    94.41047668457031,
+                    321.7669372558594
+                ],
+                [
+                    143.8858642578125,
+                    339.6319580078125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Clean the garden.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Clean"
+            },
+            {
+                "time": 385,
+                "type": "word",
+                "start": 33,
+                "end": 36,
+                "value": "the"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 37,
+                "end": 43,
+                "value": "garden"
+            }
+        ]
+    }
+}

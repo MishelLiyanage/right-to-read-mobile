@@ -1,5 +1,6 @@
 import { SpeechMark, TextBlock } from '@/types/book';
 import { Audio, AVPlaybackStatus } from 'expo-av';
+import { AudioResolver } from './audioResolver';
 
 export interface TTSServiceCallbacks {
   onPlaybackStart?: () => void;
@@ -217,7 +218,18 @@ export class TTSService {
 
       // Load and play new audio
       console.log('[TTS] Creating new sound from block audio');
-      const { sound } = await Audio.Sound.createAsync(block.audio);
+      
+      // Resolve audio using AudioResolver for dynamic paths
+      const resolvedAudio = block.pageNumber && block.blockId ? 
+        AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString()) : null;
+      
+      if (!resolvedAudio) {
+        console.warn('[TTS] No audio available for this block');
+        this.callbacks.onPlaybackError?.('No audio available for this block');
+        return;
+      }
+      
+      const { sound } = await Audio.Sound.createAsync(resolvedAudio);
       this.currentSound = sound;
       console.log('[TTS] Sound created successfully');
 
@@ -410,8 +422,15 @@ export class TTSService {
           });
 
           if (wordMark) {
-
-            await this.playWordFromBlock(word, block.audio, block.speechMarks, wordMark);
+            // Resolve audio using AudioResolver for dynamic paths
+            const resolvedAudio = block.pageNumber && block.blockId ?
+              AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString()) : null;
+            
+            if (resolvedAudio) {
+              await this.playWordFromBlock(word, resolvedAudio, block.speechMarks, wordMark);
+            } else {
+              console.warn('[TTS] No audio available for word playback');
+            }
             return;
           }
         }
