@@ -28,7 +28,7 @@ interface BookReaderProps {
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 // Original page dimensions based on coordinate analysis
-const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 738 };
+const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
 
 // Audio speed control constants
 const MIN_SPEED = 0.25;
