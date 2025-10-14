@@ -1,0 +1,511 @@
+{
+    "2": {
+        "text": "Say 'Hello' to your friend.",
+        "words": [
+            "Say",
+            "'Hello'",
+            "to",
+            "your",
+            "friend."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    179.74600219726562,
+                    205.19998168945312
+                ],
+                [
+                    212.66600036621094,
+                    229.01998901367188
+                ]
+            ],
+            [
+                [
+                    217.26600646972656,
+                    205.19998168945312
+                ],
+                [
+                    275.48602294921875,
+                    229.01998901367188
+                ]
+            ],
+            [
+                [
+                    280.2860107421875,
+                    205.19998168945312
+                ],
+                [
+                    298.8460388183594,
+                    229.01998901367188
+                ]
+            ],
+            [
+                [
+                    303.6460266113281,
+                    205.19998168945312
+                ],
+                [
+                    344.38604736328125,
+                    229.01998901367188
+                ]
+            ],
+            [
+                [
+                    348.98602294921875,
+                    205.19998168945312
+                ],
+                [
+                    410.8060302734375,
+                    229.01998901367188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Say &apos;Hello&apos; to your friend.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Say"
+            },
+            {
+                "time": 321,
+                "type": "word",
+                "start": 31,
+                "end": 48,
+                "value": "&apos;Hello&apos;"
+            },
+            {
+                "time": 717,
+                "type": "word",
+                "start": 49,
+                "end": 51,
+                "value": "to"
+            },
+            {
+                "time": 863,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "your"
+            },
+            {
+                "time": 1045,
+                "type": "word",
+                "start": 57,
+                "end": 63,
+                "value": "friend"
+            }
+        ]
+    },
+    "3": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    58.64600372314453,
+                    237.19998168945312
+                ],
+                [
+                    113.8659896850586,
+                    261.0199890136719
+                ]
+            ],
+            [
+                [
+                    118.8659896850586,
+                    237.19998168945312
+                ],
+                [
+                    155.78599548339844,
+                    261.0199890136719
+                ]
+            ],
+            [
+                [
+                    160.78599548339844,
+                    237.19998168945312
+                ],
+                [
+                    196.80599975585938,
+                    261.0199890136719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "say"
+            }
+        ]
+    },
+    "5": {
+        "text": "Hello!",
+        "words": [
+            "Hello!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    429.1960144042969,
+                    315.0279846191406
+                ],
+                [
+                    477.77801513671875,
+                    336.46600341796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hello!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Hello"
+            }
+        ]
+    },
+    "7": {
+        "text": "Hello!",
+        "words": [
+            "Hello!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    151.4949951171875,
+                    319.9179992675781
+                ],
+                [
+                    200.07699584960938,
+                    341.35601806640625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hello!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Hello"
+            }
+        ]
+    },
+    "8": {
+        "text": "I'm Nisal.",
+        "words": [
+            "I'm",
+            "Nisal."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    441.739013671875,
+                    525.2680053710938
+                ],
+                [
+                    471.4930419921875,
+                    546.7059936523438
+                ]
+            ],
+            [
+                [
+                    475.9930419921875,
+                    525.2680053710938
+                ],
+                [
+                    523.4409790039062,
+                    546.7059936523438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I&apos;m Nisal.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "I&apos;m"
+            },
+            {
+                "time": 171,
+                "type": "word",
+                "start": 36,
+                "end": 41,
+                "value": "Nisal"
+            }
+        ]
+    },
+    "9": {
+        "text": "Ask and answer.",
+        "words": [
+            "Ask",
+            "and",
+            "answer."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    58.648799896240234,
+                    483.20001220703125
+                ],
+                [
+                    91.84880065917969,
+                    507.02001953125
+                ]
+            ],
+            [
+                [
+                    96.6488037109375,
+                    483.20001220703125
+                ],
+                [
+                    133.5688018798828,
+                    507.02001953125
+                ]
+            ],
+            [
+                [
+                    138.5688018798828,
+                    483.20001220703125
+                ],
+                [
+                    212.24880981445312,
+                    507.02001953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Ask and answer.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Ask"
+            },
+            {
+                "time": 358,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "and"
+            },
+            {
+                "time": 575,
+                "type": "word",
+                "start": 35,
+                "end": 41,
+                "value": "answer"
+            }
+        ]
+    },
+    "10": {
+        "text": "I'm Sahan.",
+        "words": [
+            "I'm",
+            "Sahan."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.14109802246094,
+                    548.488037109375
+                ],
+                [
+                    109.89509582519531,
+                    569.926025390625
+                ]
+            ],
+            [
+                [
+                    114.03509521484375,
+                    548.488037109375
+                ],
+                [
+                    173.86709594726562,
+                    569.926025390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I&apos;m Sahan.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "I&apos;m"
+            },
+            {
+                "time": 181,
+                "type": "word",
+                "start": 36,
+                "end": 41,
+                "value": "Sahan"
+            }
+        ]
+    },
+    "11": {
+        "text": "What's your name?",
+        "words": [
+            "What's",
+            "your",
+            "name?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.14109802246094,
+                    578.0800170898438
+                ],
+                [
+                    140.0091094970703,
+                    599.5180053710938
+                ]
+            ],
+            [
+                [
+                    144.32911682128906,
+                    578.0800170898438
+                ],
+                [
+                    180.9951171875,
+                    599.5180053710938
+                ]
+            ],
+            [
+                [
+                    93.64109802246094,
+                    599.6800537109375
+                ],
+                [
+                    153.81509399414062,
+                    621.1180419921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">What&apos;s your name?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 38,
+                "value": "What&apos;s"
+            },
+            {
+                "time": 358,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "your"
+            },
+            {
+                "time": 476,
+                "type": "word",
+                "start": 44,
+                "end": 48,
+                "value": "name"
+            }
+        ]
+    },
+    "12": {
+        "text": "Myself 1",
+        "words": [
+            "Myself",
+            "1"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    294.4570007324219,
+                    85.697021484375
+                ],
+                [
+                    418.8510437011719,
+                    134.52801513671875
+                ]
+            ],
+            [
+                [
+                    213.09800720214844,
+                    96.84355163574219
+                ],
+                [
+                    229.88931274414062,
+                    180.0351104736328
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Myself 1</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Myself"
+            },
+            {
+                "time": 562,
+                "type": "word",
+                "start": 34,
+                "end": 35,
+                "value": "1"
+            }
+        ]
+    }
+}

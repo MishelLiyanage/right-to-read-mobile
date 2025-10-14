@@ -1,0 +1,69 @@
+{
+    "2": {
+        "text": "Listen and practise.",
+        "words": [
+            "Listen",
+            "and",
+            "practise."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    51.920989990234375
+                ],
+                [
+                    117.57918548583984,
+                    75.7409896850586
+                ]
+            ],
+            [
+                [
+                    122.57918548583984,
+                    51.920989990234375
+                ],
+                [
+                    159.4991912841797,
+                    75.7409896850586
+                ]
+            ],
+            [
+                [
+                    164.4991912841797,
+                    51.920989990234375
+                ],
+                [
+                    244.57920837402344,
+                    75.7409896850586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and practise.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 428,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 38,
+                "end": 46,
+                "value": "practise"
+            }
+        ]
+    }
+}

@@ -1,0 +1,528 @@
+{
+    "2": {
+        "text": "Listen and point.",
+        "words": [
+            "Listen",
+            "and",
+            "point."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    51.704010009765625
+                ],
+                [
+                    114.7470932006836,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    119.7470932006836,
+                    51.704010009765625
+                ],
+                [
+                    156.66709899902344,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    161.66709899902344,
+                    51.704010009765625
+                ],
+                [
+                    216.34710693359375,
+                    75.52400970458984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 428,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "point"
+            }
+        ]
+    },
+    "3": {
+        "text": "Good morning, children! Let's go to the computer lab.",
+        "words": [
+            "Good",
+            "morning,",
+            "children!",
+            "Let's",
+            "go",
+            "to",
+            "the",
+            "computer",
+            "lab."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.72709655761719,
+                    119.0259780883789
+                ],
+                [
+                    109.38009643554688,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    113.63009643554688,
+                    119.0259780883789
+                ],
+                [
+                    186.79811096191406,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    190.19810485839844,
+                    119.0259780883789
+                ],
+                [
+                    259.4051208496094,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    66.72709655761719,
+                    139.42599487304688
+                ],
+                [
+                    103.10710144042969,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    107.35710144042969,
+                    139.42599487304688
+                ],
+                [
+                    127.26409912109375,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    131.34410095214844,
+                    139.42599487304688
+                ],
+                [
+                    147.12010192871094,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    151.20010375976562,
+                    139.42599487304688
+                ],
+                [
+                    178.00912475585938,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    182.25912475585938,
+                    139.42599487304688
+                ],
+                [
+                    260.6461486816406,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    264.72613525390625,
+                    139.42599487304688
+                ],
+                [
+                    294.9011535644531,
+                    159.67300415039062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Good morning,<break time=\"300ms\"/> children! Let&apos;s go to the computer lab.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Good"
+            },
+            {
+                "time": 232,
+                "type": "word",
+                "start": 32,
+                "end": 39,
+                "value": "morning"
+            },
+            {
+                "time": 882,
+                "type": "word",
+                "start": 40,
+                "end": 61,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1283,
+                "type": "word",
+                "start": 62,
+                "end": 70,
+                "value": "children"
+            },
+            {
+                "time": 2303,
+                "type": "word",
+                "start": 72,
+                "end": 82,
+                "value": "Let&apos;s"
+            },
+            {
+                "time": 2591,
+                "type": "word",
+                "start": 83,
+                "end": 85,
+                "value": "go"
+            },
+            {
+                "time": 2832,
+                "type": "word",
+                "start": 86,
+                "end": 88,
+                "value": "to"
+            },
+            {
+                "time": 2945,
+                "type": "word",
+                "start": 89,
+                "end": 92,
+                "value": "the"
+            },
+            {
+                "time": 3085,
+                "type": "word",
+                "start": 93,
+                "end": 101,
+                "value": "computer"
+            },
+            {
+                "time": 3682,
+                "type": "word",
+                "start": 102,
+                "end": 105,
+                "value": "lab"
+            }
+        ]
+    },
+    "4": {
+        "text": "This is a computer. A computer has many parts.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "computer.",
+            "A",
+            "computer",
+            "has",
+            "many",
+            "parts."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    251.583984375
+                ],
+                [
+                    96.50709533691406,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    101.50709533691406,
+                    251.583984375
+                ],
+                [
+                    115.48709106445312,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    120.48709106445312,
+                    251.583984375
+                ],
+                [
+                    132.6470947265625,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    137.6470947265625,
+                    251.583984375
+                ],
+                [
+                    235.3470916748047,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    59.527099609375,
+                    275.583984375
+                ],
+                [
+                    72.9271011352539,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    77.527099609375,
+                    275.583984375
+                ],
+                [
+                    169.74710083007812,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    174.54710388183594,
+                    275.583984375
+                ],
+                [
+                    208.40711975097656,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    213.40711975097656,
+                    275.583984375
+                ],
+                [
+                    268.6471252441406,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    273.4471130371094,
+                    275.583984375
+                ],
+                [
+                    328.14715576171875,
+                    299.40399169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">This is a computer.<break time=\"500ms\"/> A computer has many parts.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "This"
+            },
+            {
+                "time": 236,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 390,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "a"
+            },
+            {
+                "time": 444,
+                "type": "word",
+                "start": 37,
+                "end": 45,
+                "value": "computer"
+            },
+            {
+                "time": 1240,
+                "type": "word",
+                "start": 46,
+                "end": 67,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 2126,
+                "type": "word",
+                "start": 68,
+                "end": 69,
+                "value": "A"
+            },
+            {
+                "time": 2189,
+                "type": "word",
+                "start": 70,
+                "end": 78,
+                "value": "computer"
+            },
+            {
+                "time": 2745,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "has"
+            },
+            {
+                "time": 2977,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "many"
+            },
+            {
+                "time": 3256,
+                "type": "word",
+                "start": 88,
+                "end": 93,
+                "value": "parts"
+            }
+        ]
+    },
+    "5": {
+        "text": "CPU monitor",
+        "words": [
+            "CPU",
+            "monitor"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    480.72698974609375,
+                    318.1239929199219
+                ],
+                [
+                    521.6669921875,
+                    341.9440002441406
+                ]
+            ],
+            [
+                [
+                    188.26699829101562,
+                    318.1239929199219
+                ],
+                [
+                    262.76702880859375,
+                    341.9440002441406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\"><emphasis level=\"moderate\">CPU</emphasis> monitor</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "CPU"
+            },
+            {
+                "time": 1103,
+                "type": "word",
+                "start": 69,
+                "end": 76,
+                "value": "monitor"
+            }
+        ]
+    },
+    "6": {
+        "text": "keyboard mouse",
+        "words": [
+            "keyboard",
+            "mouse"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    167.32699584960938,
+                    637.0040283203125
+                ],
+                [
+                    253.0869903564453,
+                    660.823974609375
+                ]
+            ],
+            [
+                [
+                    403.3269958496094,
+                    652.9239501953125
+                ],
+                [
+                    468.12701416015625,
+                    676.7439575195312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">keyboard mouse</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "keyboard"
+            },
+            {
+                "time": 633,
+                "type": "word",
+                "start": 36,
+                "end": 41,
+                "value": "mouse"
+            }
+        ]
+    }
+}

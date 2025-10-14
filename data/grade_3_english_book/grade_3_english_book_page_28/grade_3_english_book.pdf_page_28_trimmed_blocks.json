@@ -1,0 +1,248 @@
+{
+    "2": {
+        "text": "My family Listen and say.",
+        "words": [
+            "My",
+            "family",
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    258.7569885253906,
+                    199.94400024414062
+                ],
+                [
+                    286.23699951171875,
+                    223.76400756835938
+                ]
+            ],
+            [
+                [
+                    291.0369873046875,
+                    199.94400024414062
+                ],
+                [
+                    351.21697998046875,
+                    223.76400756835938
+                ]
+            ],
+            [
+                [
+                    59.696990966796875,
+                    229.94400024414062
+                ],
+                [
+                    114.91698455810547,
+                    253.76400756835938
+                ]
+            ],
+            [
+                [
+                    119.91698455810547,
+                    229.94400024414062
+                ],
+                [
+                    156.8369903564453,
+                    253.76400756835938
+                ]
+            ],
+            [
+                [
+                    161.8369903564453,
+                    229.94400024414062
+                ],
+                [
+                    197.85699462890625,
+                    253.76400756835938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">My family Listen and say.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "My"
+            },
+            {
+                "time": 216,
+                "type": "word",
+                "start": 30,
+                "end": 36,
+                "value": "family"
+            },
+            {
+                "time": 686,
+                "type": "word",
+                "start": 37,
+                "end": 43,
+                "value": "Listen"
+            },
+            {
+                "time": 1155,
+                "type": "word",
+                "start": 44,
+                "end": 47,
+                "value": "and"
+            },
+            {
+                "time": 1337,
+                "type": "word",
+                "start": 48,
+                "end": 51,
+                "value": "say"
+            }
+        ]
+    },
+    "3": {
+        "text": "father mother",
+        "words": [
+            "father",
+            "mother"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    384.2770080566406,
+                    443.7439880371094
+                ],
+                [
+                    442.0370178222656,
+                    467.5639953613281
+                ]
+            ],
+            [
+                [
+                    147.85699462890625,
+                    440.8609924316406
+                ],
+                [
+                    217.75698852539062,
+                    464.6809997558594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">father mother</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "father"
+            },
+            {
+                "time": 417,
+                "type": "word",
+                "start": 34,
+                "end": 40,
+                "value": "mother"
+            }
+        ]
+    },
+    "4": {
+        "text": "brother sister",
+        "words": [
+            "brother",
+            "sister"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    141.13900756835938,
+                    682.3087158203125
+                ],
+                [
+                    208.99900817871094,
+                    706.128662109375
+                ]
+            ],
+            [
+                [
+                    383.6510009765625,
+                    678.718017578125
+                ],
+                [
+                    431.9710388183594,
+                    702.5379638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">brother sister</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "brother"
+            },
+            {
+                "time": 405,
+                "type": "word",
+                "start": 35,
+                "end": 41,
+                "value": "sister"
+            }
+        ]
+    },
+    "5": {
+        "text": "My home",
+        "words": [
+            "My",
+            "home"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    257.5169982910156,
+                    120.21197509765625
+                ],
+                [
+                    313.85101318359375,
+                    169.04296875
+                ]
+            ],
+            [
+                [
+                    323.6910095214844,
+                    120.21197509765625
+                ],
+                [
+                    437.8760070800781,
+                    169.04296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">My home</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "My"
+            },
+            {
+                "time": 207,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "home"
+            }
+        ]
+    }
+}

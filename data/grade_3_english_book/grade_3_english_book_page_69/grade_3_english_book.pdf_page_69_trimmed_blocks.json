@@ -1,0 +1,400 @@
+{
+    "2": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.22209930419922,
+                    52.160003662109375
+                ],
+                [
+                    117.44208526611328,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    122.44208526611328,
+                    52.160003662109375
+                ],
+                [
+                    159.36209106445312,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    164.36209106445312,
+                    52.160003662109375
+                ],
+                [
+                    200.38209533691406,
+                    75.9800033569336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "say"
+            }
+        ]
+    },
+    "3": {
+        "text": "string hoppers bread",
+        "words": [
+            "string",
+            "hoppers",
+            "bread"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    344.69775390625,
+                    131.0395965576172
+                ],
+                [
+                    384.315673828125,
+                    148.8654022216797
+                ]
+            ],
+            [
+                [
+                    388.05743408203125,
+                    131.0395965576172
+                ],
+                [
+                    444.3487243652344,
+                    148.8654022216797
+                ]
+            ],
+            [
+                [
+                    155.25454711914062,
+                    125.6396255493164
+                ],
+                [
+                    195.7554931640625,
+                    143.46543884277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">string hoppers bread</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "string"
+            },
+            {
+                "time": 397,
+                "type": "word",
+                "start": 34,
+                "end": 41,
+                "value": "hoppers"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "bread"
+            }
+        ]
+    },
+    "4": {
+        "text": "potato curry",
+        "words": [
+            "potato",
+            "curry"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    159.8489990234375,
+                    300.24847412109375
+                ],
+                [
+                    205.06369018554688,
+                    317.83526611328125
+                ]
+            ],
+            [
+                [
+                    208.7552947998047,
+                    300.24847412109375
+                ],
+                [
+                    243.633544921875,
+                    317.83526611328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">potato curry</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "potato"
+            },
+            {
+                "time": 483,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "curry"
+            }
+        ]
+    },
+    "5": {
+        "text": "noodles",
+        "words": [
+            "noodles"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    471.8399963378906,
+                    225.5444793701172
+                ],
+                [
+                    525.4567260742188,
+                    243.13125610351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">noodles</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "noodles"
+            }
+        ]
+    },
+    "6": {
+        "text": "pittu",
+        "words": [
+            "pittu"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    185.98699951171875,
+                    461.5095520019531
+                ],
+                [
+                    219.82667541503906,
+                    479.4060974121094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">pittu</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "pittu"
+            }
+        ]
+    },
+    "7": {
+        "text": "fried rice",
+        "words": [
+            "fried",
+            "rice"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    350.60198974609375,
+                    366.5625305175781
+                ],
+                [
+                    382.713623046875,
+                    384.4590759277344
+                ]
+            ],
+            [
+                [
+                    386.4702453613281,
+                    366.5625305175781
+                ],
+                [
+                    411.4743347167969,
+                    384.4590759277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">fried rice</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "fried"
+            },
+            {
+                "time": 412,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "rice"
+            }
+        ]
+    },
+    "8": {
+        "text": "fish curry",
+        "words": [
+            "fish",
+            "curry"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    236.32899475097656,
+                    601.9271240234375
+                ],
+                [
+                    261.81982421875,
+                    619.7647094726562
+                ]
+            ],
+            [
+                [
+                    265.5640869140625,
+                    601.9271240234375
+                ],
+                [
+                    300.9397888183594,
+                    619.7647094726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">fish curry</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "fish"
+            },
+            {
+                "time": 297,
+                "type": "word",
+                "start": 32,
+                "end": 37,
+                "value": "curry"
+            }
+        ]
+    },
+    "9": {
+        "text": "roti",
+        "words": [
+            "roti"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    485.7699890136719,
+                    453.41912841796875
+                ],
+                [
+                    508.1905212402344,
+                    471.2567138671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">roti</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "roti"
+            }
+        ]
+    },
+    "10": {
+        "text": "hoppers",
+        "words": [
+            "hoppers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    459.2449951171875,
+                    616.3740844726562
+                ],
+                [
+                    515.573486328125,
+                    634.211669921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">hoppers</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "hoppers"
+            }
+        ]
+    }
+}

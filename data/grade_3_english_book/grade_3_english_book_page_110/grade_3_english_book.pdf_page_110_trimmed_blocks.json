@@ -1,0 +1,261 @@
+{
+    "1": {
+        "text": "101 Listen, point and read.",
+        "words": [
+            "101",
+            "Listen,",
+            "point",
+            "and",
+            "read."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    549.4810180664062,
+                    24.34998893737793
+                ],
+                [
+                    581.8510131835938,
+                    57.109989166259766
+                ]
+            ],
+            [
+                [
+                    59.529598236083984,
+                    51.805023193359375
+                ],
+                [
+                    120.12959289550781,
+                    75.6250228881836
+                ]
+            ],
+            [
+                [
+                    124.12959289550781,
+                    51.805023193359375
+                ],
+                [
+                    172.52960205078125,
+                    75.6250228881836
+                ]
+            ],
+            [
+                [
+                    177.32960510253906,
+                    51.805023193359375
+                ],
+                [
+                    214.24961853027344,
+                    75.6250228881836
+                ]
+            ],
+            [
+                [
+                    219.24961853027344,
+                    51.805023193359375
+                ],
+                [
+                    267.4896240234375,
+                    75.6250228881836
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">101 Listen,<break time=\"300ms\"/> point and read.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "101"
+            },
+            {
+                "time": 885,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "Listen"
+            },
+            {
+                "time": 1583,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1983,
+                "type": "word",
+                "start": 60,
+                "end": 65,
+                "value": "point"
+            },
+            {
+                "time": 2357,
+                "type": "word",
+                "start": 66,
+                "end": 69,
+                "value": "and"
+            },
+            {
+                "time": 2552,
+                "type": "word",
+                "start": 70,
+                "end": 74,
+                "value": "read"
+            }
+        ]
+    },
+    "2": {
+        "text": "netball",
+        "words": [
+            "netball"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    336.0979919433594,
+                    101.47500610351562
+                ],
+                [
+                    401.6579895019531,
+                    125.29500579833984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">netball</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "netball"
+            }
+        ]
+    },
+    "3": {
+        "text": "volleyball",
+        "words": [
+            "volleyball"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    430.5880126953125,
+                    316.6189880371094
+                ],
+                [
+                    517.468017578125,
+                    340.4389953613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">volleyball</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 37,
+                "value": "volleyball"
+            }
+        ]
+    },
+    "4": {
+        "text": "cricket",
+        "words": [
+            "cricket"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.17150115966797,
+                    101.47500610351562
+                ],
+                [
+                    141.51150512695312,
+                    125.29500579833984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cricket</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "cricket"
+            }
+        ]
+    },
+    "5": {
+        "text": "football",
+        "words": [
+            "football"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    199.80299377441406,
+                    316.6189880371094
+                ],
+                [
+                    271.4029846191406,
+                    340.4389953613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">football</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "football"
+            }
+        ]
+    },
+    "6": {
+        "text": "elle",
+        "words": [
+            "elle"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    279.4960021972656,
+                    681.2984619140625
+                ],
+                [
+                    311.9759826660156,
+                    705.1184692382812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">elle</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "elle"
+            }
+        ]
+    }
+}

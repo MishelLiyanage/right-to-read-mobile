@@ -27,7 +27,9 @@ export interface BookPage {
 export interface TextBlock {
   id: number;
   text: string;
-  audio: any; // require() result
+  audio: any; // require() result or audio path string for dynamic loading
+  pageNumber?: number; // For dynamic audio loading
+  blockId?: number; // For dynamic audio loading
   speechMarks?: SpeechMark[];
   words?: string[];
   boundingBoxes?: number[][][]; // Array of bounding boxes for each word
