@@ -187,45 +187,50 @@ export const getAllBooks = (): Book[] => {
         {
           id: 'myself',
           title: 'Myself',
-          pageNumber: 1
+          pageNumber: 1,
+          navigationPageNumber: 10
         },
         {
           id: 'my-home',
           title: 'My home',
-          pageNumber: 20,
-          navigationPageNumber: 29
+          pageNumber: 19,
+          navigationPageNumber: 28
         },
         {
           id: 'our-school',
           title: 'Our school',
-          pageNumber: 35,
+          pageNumber: 34,
           navigationPageNumber: 44
         },
         {
           id: 'my-food-bag',
           title: 'My food bag',
-          pageNumber: 51
+          pageNumber: 51,
+          navigationPageNumber: 60
         },
         {
           id: 'animal-friends',
           title: 'Animal friends',
-          pageNumber: 17,
-          navigationPageNumber: 26
+          pageNumber: 67,
+          navigationPageNumber: 76
         },
         {
           id: 'clothes-we-wear',
           title: 'Clothes we wear',
-          pageNumber: 85
+          pageNumber: 85,
+          navigationPageNumber: 94
         },
         {
           id: 'playing-is-fun',
           title: 'Playing is fun',
-          pageNumber: 94
+          pageNumber: 94,
+          navigationPageNumber: 103
         },
         {
           id: 'world-around-me',
           title: 'World around me',
-          pageNumber: 111
+          pageNumber: 111,
+          navigationPageNumber: 120
         }
       ],
       pages: generateGrade3Pages()

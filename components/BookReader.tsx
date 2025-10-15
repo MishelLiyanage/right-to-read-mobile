@@ -31,9 +31,9 @@ const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
 
 // Audio speed control constants
-const MIN_SPEED = 0.25;
-const MAX_SPEED = 3.0;
-const SPEED_STEP = 0.25;
+// const MIN_SPEED = 0.25;
+// const MAX_SPEED = 3.0;
+// const SPEED_STEP = 0.25;
 
 // Sidebar dimensions
 const SIDEBAR_WIDTH = 100;
@@ -58,8 +58,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [selectedWordDefinition, setSelectedWordDefinition] = useState<WordDefinition | null>(null);
   const [isLoadingDefinition, setIsLoadingDefinition] = useState(false);
   const [definitionError, setDefinitionError] = useState<string | null>(null);
-  const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
-  const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
+  // const [playbackSpeed, setPlaybackSpeed] = useState(1.0); // Audio playback speed
+  // const [isZoomed, setIsZoomed] = useState(false); // Page zoom state
   const [currentlyPlayingBlockId, setCurrentlyPlayingBlockId] = useState<number | null>(null); // Individual block playback
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
@@ -368,16 +368,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     }
   };
 
-  const handleSpeedChange = async (newSpeed: number) => {
-    setPlaybackSpeed(newSpeed);
-    if (ttsService.current) {
-      await ttsService.current.setPlaybackRate(newSpeed);
-    }
-  };
+  // const handleSpeedChange = async (newSpeed: number) => {
+  //   setPlaybackSpeed(newSpeed);
+  //   if (ttsService.current) {
+  //     await ttsService.current.setPlaybackRate(newSpeed);
+  //   }
+  // };
 
-  const handleZoomToggle = () => {
-    setIsZoomed(!isZoomed);
-  };
+  // const handleZoomToggle = () => {
+  //   setIsZoomed(!isZoomed);
+  // };
 
   const handleBlockPlay = async (blockId: number, blockText: string) => {
     if (!ttsService.current) {
@@ -608,21 +608,16 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       <Animated.View style={[styles.pageContentContainer, { opacity: pageTransition }]}>
         <ScrollView 
           style={styles.scrollContainer} 
-          contentContainerStyle={isZoomed ? styles.scrollContentZoomed : styles.scrollContent}
-          showsHorizontalScrollIndicator={isZoomed}
-          showsVerticalScrollIndicator={isZoomed}
-          scrollEnabled={isZoomed}
+          contentContainerStyle={styles.scrollContent}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+          scrollEnabled={false}
         >
-          <View style={[styles.imageContainer, isZoomed && styles.imageContainerZoomed]}>
+          <View style={[styles.imageContainer]}>
             <Image
               source={currentPage.image}
               style={[
-                styles.pageImage, 
-                isZoomed && { 
-                  transform: [{ scale: 2.0 }],
-                  width: '200%',
-                  height: '200%'
-                }
+                styles.pageImage
               ]}
               contentFit="contain"
               onLoad={onImageLoad}
@@ -798,14 +793,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           </TouchableOpacity>
 
           {/* 2. Zoom Button */}
-          <TouchableOpacity 
+          {/* <TouchableOpacity 
             style={[styles.sidebarButton, styles.magnifierButton]} 
             onPress={handleZoomToggle}
           >
             <ThemedText style={styles.sidebarButtonText}>
               {isZoomed ? '🔍−' : '🔍+'}
             </ThemedText>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
 
           {/* 3. Play Button */}
           <TouchableOpacity 
@@ -849,7 +844,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           </TouchableOpacity>
 
           {/* 6. Audio Speed Changer */}
-          <View style={styles.speedControlSection}>
+          {/* <View style={styles.speedControlSection}>
             <ThemedText style={styles.speedLabel}>{playbackSpeed}x</ThemedText>
             {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
               <TouchableOpacity 
@@ -868,7 +863,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                 </ThemedText>
               </TouchableOpacity>
             ))}
-          </View>
+          </View> */}
 
           {/* 7. Next Arrow Button */}
           <TouchableOpacity 
@@ -1029,22 +1024,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     minHeight: '100%',
   },
-  scrollContentZoomed: {
-    flexGrow: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    minHeight: '200%',
-    minWidth: '200%',
-  },
+  // scrollContentZoomed: {
+  //   flexGrow: 1,
+  //   justifyContent: 'flex-start',
+  //   alignItems: 'flex-start',
+  //   minHeight: '200%',
+  //   minWidth: '200%',
+  // },
   imageContainer: {
     flex: 1,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  imageContainerZoomed: {
-    overflow: 'visible',
-  },
+  // imageContainerZoomed: {
+  //   overflow: 'visible',
+  // },
   pageImage: {
     width: '100%',
     height: '100%',
@@ -1101,9 +1096,9 @@ const styles = StyleSheet.create({
   stopButton: {
     backgroundColor: '#F44336',
   },
-  magnifierButton: {
-    backgroundColor: '#9C27B0',
-  },
+  // magnifierButton: {
+  //   backgroundColor: '#9C27B0',
+  // },
   controlButtonText: {
     color: '#fff',
     fontSize: 12,
@@ -1212,25 +1207,25 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     textAlign: 'center',
   },
-  speedLabel: {
-    fontSize: 12,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 8,
-  },
-  speedButton: {
-    padding: 4,
-    borderRadius: 4,
-    marginVertical: 2,
-    minWidth: 35,
-    alignItems: 'center',
-  },
-  speedButtonText: {
-    fontSize: 10,
-    fontWeight: 'bold',
-  },
-  speedControlSection: {
-    alignItems: 'center',
-    marginVertical: 8,
-  },
+  // speedLabel: {
+  //   fontSize: 12,
+  //   fontWeight: 'bold',
+  //   color: '#333',
+  //   marginBottom: 8,
+  // },
+  // speedButton: {
+  //   padding: 4,
+  //   borderRadius: 4,
+  //   marginVertical: 2,
+  //   minWidth: 35,
+  //   alignItems: 'center',
+  // },
+  // speedButtonText: {
+  //   fontSize: 10,
+  //   fontWeight: 'bold',
+  // },
+  // speedControlSection: {
+  //   alignItems: 'center',
+  //   marginVertical: 8,
+  // },
 });
