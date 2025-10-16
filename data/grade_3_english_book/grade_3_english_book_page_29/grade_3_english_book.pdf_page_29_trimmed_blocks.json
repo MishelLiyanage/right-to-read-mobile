@@ -38,10 +38,9 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 548,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 868,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -116,10 +115,10 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">This is my family.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">This is my family.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -129,21 +128,21 @@
                 "value": "This"
             },
             {
-                "time": 248,
+                "time": 357,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "is"
             },
             {
-                "time": 416,
+                "time": 490,
                 "type": "word",
                 "start": 35,
                 "end": 37,
                 "value": "my"
             },
             {
-                "time": 660,
+                "time": 677,
                 "type": "word",
                 "start": 38,
                 "end": 44,

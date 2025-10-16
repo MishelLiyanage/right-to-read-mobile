@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "70",
+        "words": [
+            "70"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.787099838256836,
+                    24.34998893737793
+                ],
+                [
+                    60.757102966308594,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">70</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "70"
+            }
+        ]
+    },
     "2": {
         "text": "Match.",
         "words": [
@@ -91,9 +121,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a bird bath.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -103,28 +132,28 @@
                 "value": "Let&apos;s"
             },
             {
-                "time": 362,
+                "time": 342,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "make"
             },
             {
-                "time": 683,
+                "time": 588,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 729,
+                "time": 653,
                 "type": "word",
                 "start": 45,
                 "end": 49,
                 "value": "bird"
             },
             {
-                "time": 1086,
+                "time": 992,
                 "type": "word",
                 "start": 50,
                 "end": 54,
@@ -590,7 +619,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a b c</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -105,8 +105,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Meet my sister.<break time=\"500ms\"/> She is Disna.<break time=\"500ms\"/> She is happy.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -116,70 +117,70 @@
                 "value": "Meet"
             },
             {
-                "time": 269,
+                "time": 257,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "my"
             },
             {
-                "time": 436,
+                "time": 546,
                 "type": "word",
                 "start": 35,
                 "end": 41,
                 "value": "sister"
             },
             {
-                "time": 1094,
+                "time": 1254,
                 "type": "word",
                 "start": 42,
                 "end": 63,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1980,
+                "time": 2141,
                 "type": "word",
                 "start": 64,
                 "end": 67,
                 "value": "She"
             },
             {
-                "time": 2249,
+                "time": 2400,
                 "type": "word",
                 "start": 68,
                 "end": 70,
                 "value": "is"
             },
             {
-                "time": 2389,
+                "time": 2574,
                 "type": "word",
                 "start": 71,
                 "end": 76,
                 "value": "Disna"
             },
             {
-                "time": 3054,
+                "time": 3169,
                 "type": "word",
                 "start": 77,
                 "end": 98,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 3940,
+                "time": 4056,
                 "type": "word",
                 "start": 99,
                 "end": 102,
                 "value": "She"
             },
             {
-                "time": 4197,
+                "time": 4314,
                 "type": "word",
                 "start": 103,
                 "end": 105,
                 "value": "is"
             },
             {
-                "time": 4357,
+                "time": 4468,
                 "type": "word",
                 "start": 106,
                 "end": 111,
@@ -293,8 +294,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Meet my brother.<break time=\"500ms\"/> He is Vinura.<break time=\"500ms\"/> He is happy.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -304,70 +306,70 @@
                 "value": "Meet"
             },
             {
-                "time": 291,
+                "time": 296,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "my"
             },
             {
-                "time": 468,
+                "time": 499,
                 "type": "word",
                 "start": 35,
                 "end": 42,
                 "value": "brother"
             },
             {
-                "time": 1027,
+                "time": 1033,
                 "type": "word",
                 "start": 43,
                 "end": 64,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1914,
+                "time": 1920,
                 "type": "word",
                 "start": 65,
                 "end": 67,
                 "value": "He"
             },
             {
-                "time": 2095,
+                "time": 2121,
                 "type": "word",
                 "start": 68,
                 "end": 70,
                 "value": "is"
             },
             {
-                "time": 2280,
+                "time": 2318,
                 "type": "word",
                 "start": 71,
                 "end": 77,
                 "value": "Vinura"
             },
             {
-                "time": 2967,
+                "time": 2991,
                 "type": "word",
                 "start": 78,
                 "end": 99,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 3853,
+                "time": 3877,
                 "type": "word",
                 "start": 100,
                 "end": 102,
                 "value": "He"
             },
             {
-                "time": 4001,
+                "time": 4067,
                 "type": "word",
                 "start": 103,
                 "end": 105,
                 "value": "is"
             },
             {
-                "time": 4175,
+                "time": 4273,
                 "type": "word",
                 "start": 106,
                 "end": 111,
@@ -735,7 +737,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Happy Families 1.<break time=\"500ms\"/> Make six cards.<break time=\"500ms\"/> 2.<break time=\"500ms\"/> Write &quot;father&quot; &quot;mother&quot;&quot;gandmother&quot; &quot;grandfather&quot;&quot;daughter&quot; and &quot;son&quot; on them.<break time=\"500ms\"/> 3.<break time=\"500ms\"/> Take one card.<break time=\"500ms\"/> 4.<break time=\"500ms\"/> Walk around.<break time=\"500ms\"/> 5.<break time=\"500ms\"/> Find family members.<break time=\"500ms\"/> 6.<break time=\"500ms\"/> Hold hands and sit down.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -1292,9 +1294,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Note to the teacher: Make family cards and write the names of the family members on them.<break time=\"500ms\"/> Give them to students.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -1304,147 +1305,147 @@
                 "value": "Note"
             },
             {
-                "time": 349,
+                "time": 312,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "to"
             },
             {
-                "time": 509,
+                "time": 447,
                 "type": "word",
                 "start": 35,
                 "end": 38,
                 "value": "the"
             },
             {
-                "time": 620,
+                "time": 567,
                 "type": "word",
                 "start": 39,
                 "end": 46,
                 "value": "teacher"
             },
             {
-                "time": 1330,
+                "time": 1429,
                 "type": "word",
                 "start": 48,
                 "end": 52,
                 "value": "Make"
             },
             {
-                "time": 1675,
+                "time": 1680,
                 "type": "word",
                 "start": 53,
                 "end": 59,
                 "value": "family"
             },
             {
-                "time": 2119,
+                "time": 2126,
                 "type": "word",
                 "start": 60,
                 "end": 65,
                 "value": "cards"
             },
             {
-                "time": 2553,
+                "time": 2554,
                 "type": "word",
                 "start": 66,
                 "end": 69,
                 "value": "and"
             },
             {
-                "time": 2724,
+                "time": 2737,
                 "type": "word",
                 "start": 70,
                 "end": 75,
                 "value": "write"
             },
             {
-                "time": 3049,
+                "time": 2994,
                 "type": "word",
                 "start": 76,
                 "end": 79,
                 "value": "the"
             },
             {
-                "time": 3168,
+                "time": 3090,
                 "type": "word",
                 "start": 80,
                 "end": 85,
                 "value": "names"
             },
             {
-                "time": 3675,
+                "time": 3442,
                 "type": "word",
                 "start": 86,
                 "end": 88,
                 "value": "of"
             },
             {
-                "time": 3794,
+                "time": 3569,
                 "type": "word",
                 "start": 89,
                 "end": 92,
                 "value": "the"
             },
             {
-                "time": 3883,
+                "time": 3684,
                 "type": "word",
                 "start": 93,
                 "end": 99,
                 "value": "family"
             },
             {
-                "time": 4440,
+                "time": 4146,
                 "type": "word",
                 "start": 100,
                 "end": 107,
                 "value": "members"
             },
             {
-                "time": 4997,
+                "time": 4646,
                 "type": "word",
                 "start": 108,
                 "end": 110,
                 "value": "on"
             },
             {
-                "time": 5287,
+                "time": 4822,
                 "type": "word",
                 "start": 111,
                 "end": 115,
                 "value": "them"
             },
             {
-                "time": 5633,
+                "time": 5175,
                 "type": "word",
                 "start": 116,
                 "end": 137,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 6520,
+                "time": 6061,
                 "type": "word",
                 "start": 138,
                 "end": 142,
                 "value": "Give"
             },
             {
-                "time": 6813,
+                "time": 6263,
                 "type": "word",
                 "start": 143,
                 "end": 147,
                 "value": "them"
             },
             {
-                "time": 7056,
+                "time": 6447,
                 "type": "word",
                 "start": 148,
                 "end": 150,
                 "value": "to"
             },
             {
-                "time": 7195,
+                "time": 6576,
                 "type": "word",
                 "start": 151,
                 "end": 159,

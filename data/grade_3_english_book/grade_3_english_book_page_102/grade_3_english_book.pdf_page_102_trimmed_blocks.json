@@ -1,8 +1,7 @@
 {
     "1": {
-        "text": "93 Her mother gives a present to Dinu. \"Happy birthday my daughter. This is your present.\u201d",
+        "text": "Her mother gives a present to Dinu. \"Happy birthday my daughter. This is your present.\"",
         "words": [
-            "93",
             "Her",
             "mother",
             "gives",
@@ -17,19 +16,9 @@
             "This",
             "is",
             "your",
-            "present.\u201d"
+            "present.\""
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.6019897460938,
-                    24.34998893737793
-                ],
-                [
-                    580.7520141601562,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -181,143 +170,137 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">93 Her mother gives a present to Dinu.<break time=\"500ms\"/> &quot;Happy birthday my daughter.<break time=\"500ms\"/> This is your present.\u201d</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "ssml": "<speak><prosody rate=\"85%\">Her mother gives a present to Dinu.<break time=\"500ms\"/> &quot;Happy birthday my daughter.<break time=\"500ms\"/> This is your present.&quot;</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "93"
-            },
-            {
-                "time": 682,
-                "type": "word",
-                "start": 30,
-                "end": 33,
+                "end": 30,
                 "value": "Her"
             },
             {
-                "time": 845,
+                "time": 151,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 31,
+                "end": 37,
                 "value": "mother"
             },
             {
-                "time": 1192,
+                "time": 483,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 38,
+                "end": 43,
                 "value": "gives"
             },
             {
-                "time": 1552,
+                "time": 814,
                 "type": "word",
-                "start": 47,
-                "end": 48,
+                "start": 44,
+                "end": 45,
                 "value": "a"
             },
             {
-                "time": 1608,
+                "time": 861,
                 "type": "word",
-                "start": 49,
-                "end": 56,
+                "start": 46,
+                "end": 53,
                 "value": "present"
             },
             {
-                "time": 2109,
+                "time": 1342,
                 "type": "word",
-                "start": 57,
-                "end": 59,
+                "start": 54,
+                "end": 56,
                 "value": "to"
             },
             {
-                "time": 2204,
+                "time": 1437,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 57,
+                "end": 61,
                 "value": "Dinu"
             },
             {
-                "time": 2832,
+                "time": 2064,
                 "type": "word",
-                "start": 65,
-                "end": 86,
+                "start": 62,
+                "end": 83,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 3718,
+                "time": 2950,
                 "type": "word",
-                "start": 93,
-                "end": 98,
+                "start": 90,
+                "end": 95,
                 "value": "Happy"
             },
             {
-                "time": 4056,
+                "time": 3288,
                 "type": "word",
-                "start": 99,
-                "end": 107,
+                "start": 96,
+                "end": 104,
                 "value": "birthday"
             },
             {
-                "time": 4567,
+                "time": 3799,
                 "type": "word",
-                "start": 108,
-                "end": 110,
+                "start": 105,
+                "end": 107,
                 "value": "my"
             },
             {
-                "time": 4760,
+                "time": 3992,
                 "type": "word",
-                "start": 111,
-                "end": 119,
+                "start": 108,
+                "end": 116,
                 "value": "daughter"
             },
             {
-                "time": 5303,
+                "time": 4536,
                 "type": "word",
-                "start": 120,
-                "end": 141,
+                "start": 117,
+                "end": 138,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 6190,
+                "time": 5422,
                 "type": "word",
-                "start": 142,
-                "end": 146,
+                "start": 139,
+                "end": 143,
                 "value": "This"
             },
             {
-                "time": 6419,
+                "time": 5651,
                 "type": "word",
-                "start": 147,
-                "end": 149,
+                "start": 144,
+                "end": 146,
                 "value": "is"
             },
             {
-                "time": 6568,
+                "time": 5800,
                 "type": "word",
-                "start": 150,
-                "end": 154,
+                "start": 147,
+                "end": 151,
                 "value": "your"
             },
             {
-                "time": 6715,
+                "time": 5947,
                 "type": "word",
-                "start": 155,
-                "end": 162,
+                "start": 152,
+                "end": 159,
                 "value": "present"
             }
         ]
     },
     "2": {
-        "text": "\u201cWow! It\u2019s a beautiful blouse.Orange in colour. Thank you mother.\u201d 2. What does the mother give her?",
+        "text": "\"Wow! It's a beautiful blouse.Orange in colour. Thank you mother.\" 2. What does the mother give her?",
         "words": [
-            "\u201cWow!",
-            "It\u2019s",
+            "\"Wow!",
+            "It's",
             "a",
             "beautiful",
             "blouse.Orange",
@@ -325,7 +308,7 @@
             "colour.",
             "Thank",
             "you",
-            "mother.\u201d",
+            "mother.\"",
             "2.",
             "What",
             "does",
@@ -506,7 +489,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u201cWow! It\u2019s a beautiful blouse.Orange in colour.<break time=\"500ms\"/> Thank you mother.\u201d 2.<break time=\"500ms\"/> What does the mother give her?</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">&quot;Wow! It&apos;s a beautiful blouse.Orange in colour.<break time=\"500ms\"/> Thank you mother.&quot; 2.<break time=\"500ms\"/> What does the mother give her?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -514,134 +497,134 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 33,
+                "end": 36,
                 "value": "Wow"
             },
             {
                 "time": 909,
                 "type": "word",
-                "start": 35,
-                "end": 41,
-                "value": "It\u2019s"
+                "start": 38,
+                "end": 47,
+                "value": "It&apos;s"
             },
             {
                 "time": 1134,
                 "type": "word",
-                "start": 42,
-                "end": 43,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
                 "time": 1188,
                 "type": "word",
-                "start": 44,
-                "end": 53,
+                "start": 50,
+                "end": 59,
                 "value": "beautiful"
             },
             {
                 "time": 1712,
                 "type": "word",
-                "start": 54,
-                "end": 67,
+                "start": 60,
+                "end": 73,
                 "value": "blouse.Orange"
             },
             {
                 "time": 3041,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 74,
+                "end": 76,
                 "value": "in"
             },
             {
                 "time": 3250,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 77,
+                "end": 83,
                 "value": "colour"
             },
             {
                 "time": 3754,
                 "type": "word",
-                "start": 78,
-                "end": 99,
+                "start": 84,
+                "end": 105,
                 "value": "<break time=\"500ms\"/>"
             },
             {
                 "time": 4640,
                 "type": "word",
-                "start": 100,
-                "end": 105,
+                "start": 106,
+                "end": 111,
                 "value": "Thank"
             },
             {
                 "time": 4881,
                 "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 112,
+                "end": 115,
                 "value": "you"
             },
             {
                 "time": 5046,
                 "type": "word",
-                "start": 110,
-                "end": 116,
+                "start": 116,
+                "end": 122,
                 "value": "mother"
             },
             {
                 "time": 5942,
                 "type": "word",
-                "start": 121,
-                "end": 122,
+                "start": 130,
+                "end": 131,
                 "value": "2"
             },
             {
                 "time": 6430,
                 "type": "word",
-                "start": 123,
-                "end": 144,
+                "start": 132,
+                "end": 153,
                 "value": "<break time=\"500ms\"/>"
             },
             {
                 "time": 7317,
                 "type": "word",
-                "start": 145,
-                "end": 149,
+                "start": 154,
+                "end": 158,
                 "value": "What"
             },
             {
                 "time": 7569,
                 "type": "word",
-                "start": 150,
-                "end": 154,
+                "start": 159,
+                "end": 163,
                 "value": "does"
             },
             {
                 "time": 7881,
                 "type": "word",
-                "start": 155,
-                "end": 158,
+                "start": 164,
+                "end": 167,
                 "value": "the"
             },
             {
                 "time": 7981,
                 "type": "word",
-                "start": 159,
-                "end": 165,
+                "start": 168,
+                "end": 174,
                 "value": "mother"
             },
             {
                 "time": 8341,
                 "type": "word",
-                "start": 166,
-                "end": 170,
+                "start": 175,
+                "end": 179,
                 "value": "give"
             },
             {
                 "time": 8591,
                 "type": "word",
-                "start": 171,
-                "end": 174,
+                "start": 180,
+                "end": 183,
                 "value": "her"
             }
         ]
@@ -708,9 +691,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">3.<break time=\"500ms\"/> What colour is it?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -720,35 +702,35 @@
                 "value": "3"
             },
             {
-                "time": 550,
+                "time": 613,
                 "type": "word",
                 "start": 29,
                 "end": 50,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1437,
+                "time": 1499,
                 "type": "word",
                 "start": 51,
                 "end": 55,
                 "value": "What"
             },
             {
-                "time": 1729,
+                "time": 1735,
                 "type": "word",
                 "start": 56,
                 "end": 62,
                 "value": "colour"
             },
             {
-                "time": 2176,
+                "time": 2114,
                 "type": "word",
                 "start": 63,
                 "end": 65,
                 "value": "is"
             },
             {
-                "time": 2375,
+                "time": 2259,
                 "type": "word",
                 "start": 66,
                 "end": 68,
@@ -907,8 +889,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">&quot;Here&apos;s a present from your fa ther.<break time=\"500ms\"/> There is a birthday card too.&quot;</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -918,7 +900,7 @@
                 "value": "Here&apos;s"
             },
             {
-                "time": 378,
+                "time": 371,
                 "type": "word",
                 "start": 45,
                 "end": 46,
@@ -932,77 +914,77 @@
                 "value": "present"
             },
             {
-                "time": 889,
+                "time": 952,
                 "type": "word",
                 "start": 55,
                 "end": 59,
                 "value": "from"
             },
             {
-                "time": 1120,
+                "time": 1164,
                 "type": "word",
                 "start": 60,
                 "end": 64,
                 "value": "your"
             },
             {
-                "time": 1253,
+                "time": 1313,
                 "type": "word",
                 "start": 65,
                 "end": 67,
                 "value": "fa"
             },
             {
-                "time": 1556,
+                "time": 1618,
                 "type": "word",
                 "start": 68,
                 "end": 72,
                 "value": "ther"
             },
             {
-                "time": 1997,
+                "time": 2073,
                 "type": "word",
                 "start": 73,
                 "end": 94,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2883,
+                "time": 2960,
                 "type": "word",
                 "start": 95,
                 "end": 100,
                 "value": "There"
             },
             {
-                "time": 3099,
+                "time": 3147,
                 "type": "word",
                 "start": 101,
                 "end": 103,
                 "value": "is"
             },
             {
-                "time": 3255,
+                "time": 3294,
                 "type": "word",
                 "start": 104,
                 "end": 105,
                 "value": "a"
             },
             {
-                "time": 3314,
+                "time": 3355,
                 "type": "word",
                 "start": 106,
                 "end": 114,
                 "value": "birthday"
             },
             {
-                "time": 3938,
+                "time": 3879,
                 "type": "word",
                 "start": 115,
                 "end": 119,
                 "value": "card"
             },
             {
-                "time": 4392,
+                "time": 4214,
                 "type": "word",
                 "start": 120,
                 "end": 123,
@@ -1304,9 +1286,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">4.<break time=\"500ms\"/> Who gives her a pair of shoes?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -1316,56 +1297,56 @@
                 "value": "4"
             },
             {
-                "time": 505,
+                "time": 550,
                 "type": "word",
                 "start": 29,
                 "end": 50,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1392,
+                "time": 1437,
                 "type": "word",
                 "start": 51,
                 "end": 54,
                 "value": "Who"
             },
             {
-                "time": 1536,
+                "time": 1576,
                 "type": "word",
                 "start": 55,
                 "end": 60,
                 "value": "gives"
             },
             {
-                "time": 1870,
+                "time": 1869,
                 "type": "word",
                 "start": 61,
                 "end": 64,
                 "value": "her"
             },
             {
-                "time": 2062,
+                "time": 2024,
                 "type": "word",
                 "start": 65,
                 "end": 66,
                 "value": "a"
             },
             {
-                "time": 2115,
+                "time": 2090,
                 "type": "word",
                 "start": 67,
                 "end": 71,
                 "value": "pair"
             },
             {
-                "time": 2440,
+                "time": 2410,
                 "type": "word",
                 "start": 72,
                 "end": 74,
                 "value": "of"
             },
             {
-                "time": 2542,
+                "time": 2517,
                 "type": "word",
                 "start": 75,
                 "end": 80,
@@ -1435,9 +1416,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">5.<break time=\"500ms\"/> What colour is it?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -1447,35 +1427,35 @@
                 "value": "5"
             },
             {
-                "time": 650,
+                "time": 600,
                 "type": "word",
                 "start": 29,
                 "end": 50,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1537,
+                "time": 1487,
                 "type": "word",
                 "start": 51,
                 "end": 55,
                 "value": "What"
             },
             {
-                "time": 1829,
+                "time": 1723,
                 "type": "word",
                 "start": 56,
                 "end": 62,
                 "value": "colour"
             },
             {
-                "time": 2276,
+                "time": 2102,
                 "type": "word",
                 "start": 63,
                 "end": 65,
                 "value": "is"
             },
             {
-                "time": 2475,
+                "time": 2247,
                 "type": "word",
                 "start": 66,
                 "end": 68,

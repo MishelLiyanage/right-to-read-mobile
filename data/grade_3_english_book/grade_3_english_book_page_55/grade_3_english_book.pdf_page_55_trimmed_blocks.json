@@ -105,9 +105,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.<break time=\"500ms\"/> How do you come to school?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -117,63 +116,63 @@
                 "value": "Listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
                 "value": "say"
             },
             {
-                "time": 1204,
+                "time": 1122,
                 "type": "word",
                 "start": 42,
                 "end": 63,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2091,
+                "time": 2008,
                 "type": "word",
                 "start": 64,
                 "end": 67,
                 "value": "How"
             },
             {
-                "time": 2294,
+                "time": 2199,
                 "type": "word",
                 "start": 68,
                 "end": 70,
                 "value": "do"
             },
             {
-                "time": 2413,
+                "time": 2301,
                 "type": "word",
                 "start": 71,
                 "end": 74,
                 "value": "you"
             },
             {
-                "time": 2557,
+                "time": 2464,
                 "type": "word",
                 "start": 75,
                 "end": 79,
                 "value": "come"
             },
             {
-                "time": 2894,
+                "time": 2711,
                 "type": "word",
                 "start": 80,
                 "end": 82,
                 "value": "to"
             },
             {
-                "time": 3043,
+                "time": 2814,
                 "type": "word",
                 "start": 83,
                 "end": 89,
@@ -211,7 +210,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">on foot</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -302,8 +301,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I come to school on foot.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -313,35 +313,35 @@
                 "value": "I"
             },
             {
-                "time": 124,
+                "time": 121,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "come"
             },
             {
-                "time": 418,
+                "time": 364,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "to"
             },
             {
-                "time": 520,
+                "time": 461,
                 "type": "word",
                 "start": 37,
                 "end": 43,
                 "value": "school"
             },
             {
-                "time": 904,
+                "time": 882,
                 "type": "word",
                 "start": 44,
                 "end": 46,
                 "value": "on"
             },
             {
-                "time": 1069,
+                "time": 1011,
                 "type": "word",
                 "start": 47,
                 "end": 51,
@@ -422,8 +422,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I come to school by bicycle.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -433,35 +434,35 @@
                 "value": "I"
             },
             {
-                "time": 139,
+                "time": 121,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "come"
             },
             {
-                "time": 444,
+                "time": 364,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "to"
             },
             {
-                "time": 538,
+                "time": 461,
                 "type": "word",
                 "start": 37,
                 "end": 43,
                 "value": "school"
             },
             {
-                "time": 956,
+                "time": 806,
                 "type": "word",
                 "start": 44,
                 "end": 46,
                 "value": "by"
             },
             {
-                "time": 1166,
+                "time": 1052,
                 "type": "word",
                 "start": 47,
                 "end": 54,
@@ -532,7 +533,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">school van three wheeler bus</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -590,7 +591,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">car</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -631,7 +632,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">motor cycle</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

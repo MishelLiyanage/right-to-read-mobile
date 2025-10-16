@@ -123,8 +123,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have 12 5</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -134,21 +135,21 @@
                 "value": "I"
             },
             {
-                "time": 139,
+                "time": 171,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 324,
+                "time": 423,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "12"
             },
             {
-                "time": 762,
+                "time": 845,
                 "type": "word",
                 "start": 37,
                 "end": 38,
@@ -218,8 +219,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have 18 minus 4</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -229,32 +231,92 @@
                 "value": "I"
             },
             {
-                "time": 146,
+                "time": 120,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 326,
+                "time": 327,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "18"
             },
             {
-                "time": 866,
+                "time": 794,
                 "type": "word",
                 "start": 37,
                 "end": 42,
                 "value": "minus"
             },
             {
-                "time": 1366,
+                "time": 1277,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "4"
+            }
+        ]
+    },
+    "4": {
+        "text": "7",
+        "words": [
+            "7"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    424.0409851074219,
+                    319.0149841308594
+                ],
+                [
+                    434.5409851074219,
+                    342.8349914550781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">7</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "7"
+            }
+        ]
+    },
+    "5": {
+        "text": "14",
+        "words": [
+            "14"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    433.197021484375,
+                    520.3710327148438
+                ],
+                [
+                    449.11700439453125,
+                    539.427001953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "14"
             }
         ]
     },
@@ -320,9 +382,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a number game.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -332,28 +393,28 @@
                 "value": "Let&apos;s"
             },
             {
-                "time": 329,
+                "time": 276,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "play"
             },
             {
-                "time": 626,
+                "time": 590,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 679,
+                "time": 634,
                 "type": "word",
                 "start": 45,
                 "end": 51,
                 "value": "number"
             },
             {
-                "time": 1067,
+                "time": 1088,
                 "type": "word",
                 "start": 52,
                 "end": 56,
@@ -412,9 +473,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Take a number card.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -424,21 +484,21 @@
                 "value": "Take"
             },
             {
-                "time": 286,
+                "time": 265,
                 "type": "word",
                 "start": 32,
                 "end": 33,
                 "value": "a"
             },
             {
-                "time": 342,
+                "time": 300,
                 "type": "word",
                 "start": 34,
                 "end": 40,
                 "value": "number"
             },
             {
-                "time": 743,
+                "time": 643,
                 "type": "word",
                 "start": 41,
                 "end": 45,
@@ -600,7 +660,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">One has the answer.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -706,7 +766,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Match the sum with the answer.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -880,9 +940,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Note to the teacher: Make number cards with sums and answers.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -892,70 +951,70 @@
                 "value": "Note"
             },
             {
-                "time": 285,
+                "time": 312,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "to"
             },
             {
-                "time": 405,
+                "time": 447,
                 "type": "word",
                 "start": 35,
                 "end": 38,
                 "value": "the"
             },
             {
-                "time": 505,
+                "time": 567,
                 "type": "word",
                 "start": 39,
                 "end": 46,
                 "value": "teacher"
             },
             {
-                "time": 1309,
+                "time": 1429,
                 "type": "word",
                 "start": 48,
                 "end": 52,
                 "value": "Make"
             },
             {
-                "time": 1544,
+                "time": 1681,
                 "type": "word",
                 "start": 53,
                 "end": 59,
                 "value": "number"
             },
             {
-                "time": 1880,
+                "time": 2030,
                 "type": "word",
                 "start": 60,
                 "end": 65,
                 "value": "cards"
             },
             {
-                "time": 2321,
+                "time": 2469,
                 "type": "word",
                 "start": 66,
                 "end": 70,
                 "value": "with"
             },
             {
-                "time": 2456,
+                "time": 2681,
                 "type": "word",
                 "start": 71,
                 "end": 75,
                 "value": "sums"
             },
             {
-                "time": 2829,
+                "time": 3051,
                 "type": "word",
                 "start": 76,
                 "end": 79,
                 "value": "and"
             },
             {
-                "time": 2984,
+                "time": 3196,
                 "type": "word",
                 "start": 80,
                 "end": 87,

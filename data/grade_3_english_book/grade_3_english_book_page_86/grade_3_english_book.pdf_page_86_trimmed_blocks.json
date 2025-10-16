@@ -155,8 +155,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -196,8 +197,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -207,14 +209,14 @@
                 "value": "woof"
             },
             {
-                "time": 507,
+                "time": 590,
                 "type": "word",
                 "start": 32,
                 "end": 53,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 901,
+                "time": 990,
                 "type": "word",
                 "start": 54,
                 "end": 58,
@@ -251,8 +253,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -262,14 +265,14 @@
                 "value": "quack"
             },
             {
-                "time": 624,
+                "time": 645,
                 "type": "word",
                 "start": 33,
                 "end": 54,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1024,
+                "time": 1045,
                 "type": "word",
                 "start": 55,
                 "end": 60,
@@ -306,8 +309,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -317,14 +321,14 @@
                 "value": "baa"
             },
             {
-                "time": 595,
+                "time": 529,
                 "type": "word",
                 "start": 31,
                 "end": 52,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 985,
+                "time": 930,
                 "type": "word",
                 "start": 53,
                 "end": 56,
@@ -383,8 +387,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Oh! It&apos;s a tortoise.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -401,14 +406,14 @@
                 "value": "It&apos;s"
             },
             {
-                "time": 1095,
+                "time": 1175,
                 "type": "word",
                 "start": 41,
                 "end": 42,
                 "value": "a"
             },
             {
-                "time": 1146,
+                "time": 1242,
                 "type": "word",
                 "start": 43,
                 "end": 51,

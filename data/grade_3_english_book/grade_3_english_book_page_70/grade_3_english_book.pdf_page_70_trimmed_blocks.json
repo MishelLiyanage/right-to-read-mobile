@@ -127,7 +127,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">breakfast</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -178,8 +178,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">We eat bread.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -223,7 +224,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">lunch</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -296,8 +297,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">We eat rice and curry.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -307,28 +309,28 @@
                 "value": "We"
             },
             {
-                "time": 190,
+                "time": 345,
                 "type": "word",
                 "start": 30,
                 "end": 33,
                 "value": "eat"
             },
             {
-                "time": 389,
+                "time": 685,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "rice"
             },
             {
-                "time": 679,
+                "time": 1107,
                 "type": "word",
                 "start": 39,
                 "end": 42,
                 "value": "and"
             },
             {
-                "time": 847,
+                "time": 1358,
                 "type": "word",
                 "start": 43,
                 "end": 48,
@@ -409,8 +411,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">We drink soup.<break time=\"500ms\"/> We eat vegetables.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -482,7 +485,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">dinner</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

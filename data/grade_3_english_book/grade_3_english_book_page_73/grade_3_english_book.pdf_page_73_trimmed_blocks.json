@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "64",
+        "words": [
+            "64"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.149900436401367,
+                    24.34998893737793
+                ],
+                [
+                    61.37990188598633,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">64</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "64"
+            }
+        ]
+    },
     "2": {
         "text": "Listen and make a fruit basket.",
         "words": [
@@ -72,9 +102,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and make a fruit basket.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -84,35 +113,35 @@
                 "value": "Listen"
             },
             {
-                "time": 417,
+                "time": 380,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 619,
+                "time": 530,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "make"
             },
             {
-                "time": 890,
+                "time": 760,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 999,
+                "time": 826,
                 "type": "word",
                 "start": 45,
                 "end": 50,
                 "value": "fruit"
             },
             {
-                "time": 1377,
+                "time": 1180,
                 "type": "word",
                 "start": 51,
                 "end": 57,
@@ -632,9 +661,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Take A4 sheets.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -644,14 +672,14 @@
                 "value": "Take"
             },
             {
-                "time": 307,
+                "time": 311,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "A4"
             },
             {
-                "time": 703,
+                "time": 687,
                 "type": "word",
                 "start": 35,
                 "end": 41,
@@ -766,7 +794,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Draw vegetables and fruits.<break time=\"500ms\"/> Cut the vegetables and fruits.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -958,7 +986,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Draw a basket on the Bristol board.<break time=\"500ms\"/> Colour the basket.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,

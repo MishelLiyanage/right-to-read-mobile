@@ -83,9 +83,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">69 Listen to the poem and recite.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -95,42 +94,42 @@
                 "value": "69"
             },
             {
-                "time": 953,
+                "time": 790,
                 "type": "word",
                 "start": 30,
                 "end": 36,
                 "value": "Listen"
             },
             {
-                "time": 1282,
+                "time": 1129,
                 "type": "word",
                 "start": 37,
                 "end": 39,
                 "value": "to"
             },
             {
-                "time": 1385,
+                "time": 1253,
                 "type": "word",
                 "start": 40,
                 "end": 43,
                 "value": "the"
             },
             {
-                "time": 1503,
+                "time": 1374,
                 "type": "word",
                 "start": 44,
                 "end": 48,
                 "value": "poem"
             },
             {
-                "time": 1965,
+                "time": 1813,
                 "type": "word",
                 "start": 49,
                 "end": 52,
                 "value": "and"
             },
             {
-                "time": 2121,
+                "time": 1973,
                 "type": "word",
                 "start": 53,
                 "end": 59,
@@ -555,7 +554,7 @@
         ]
     },
     "4": {
-        "text": "He sat upon a branch, so all the world he\u2019d see.",
+        "text": "He sat upon a branch, so all the world he'd see.",
         "words": [
             "He",
             "sat",
@@ -566,7 +565,7 @@
             "all",
             "the",
             "world",
-            "he\u2019d",
+            "he'd",
             "see."
         ],
         "bounding_boxes": [
@@ -681,7 +680,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He sat upon a branch,<break time=\"300ms\"/> so all the world he\u2019d see.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">He sat upon a branch,<break time=\"300ms\"/> so all the world he&apos;d see.</prosody></speak>",
         "dialog": "false",
         "person_type": "narrator",
         "timing": [
@@ -759,14 +758,14 @@
                 "time": 3011,
                 "type": "word",
                 "start": 87,
-                "end": 93,
-                "value": "he\u2019d"
+                "end": 96,
+                "value": "he&apos;d"
             },
             {
                 "time": 3237,
                 "type": "word",
-                "start": 94,
-                "end": 97,
+                "start": 97,
+                "end": 100,
                 "value": "see"
             }
         ]
@@ -1087,9 +1086,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">He looked at a mouse,<break time=\"300ms\"/> but he winked at me!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -1099,70 +1097,70 @@
                 "value": "He"
             },
             {
-                "time": 151,
+                "time": 146,
                 "type": "word",
                 "start": 30,
                 "end": 36,
                 "value": "looked"
             },
             {
-                "time": 468,
+                "time": 440,
                 "type": "word",
                 "start": 37,
                 "end": 39,
                 "value": "at"
             },
             {
-                "time": 614,
+                "time": 552,
                 "type": "word",
                 "start": 40,
                 "end": 41,
                 "value": "a"
             },
             {
-                "time": 667,
+                "time": 609,
                 "type": "word",
                 "start": 42,
                 "end": 47,
                 "value": "mouse"
             },
             {
-                "time": 1402,
+                "time": 1276,
                 "type": "word",
                 "start": 48,
                 "end": 69,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1802,
+                "time": 1676,
                 "type": "word",
                 "start": 70,
                 "end": 73,
                 "value": "but"
             },
             {
-                "time": 1924,
+                "time": 1778,
                 "type": "word",
                 "start": 74,
                 "end": 76,
                 "value": "he"
             },
             {
-                "time": 2053,
+                "time": 1906,
                 "type": "word",
                 "start": 77,
                 "end": 83,
                 "value": "winked"
             },
             {
-                "time": 2412,
+                "time": 2297,
                 "type": "word",
                 "start": 84,
                 "end": 86,
                 "value": "at"
             },
             {
-                "time": 2562,
+                "time": 2432,
                 "type": "word",
                 "start": 87,
                 "end": 89,

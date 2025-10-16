@@ -1,5 +1,5 @@
 {
-    "2": {
+    "1": {
         "text": "Listen and read aloud.",
         "words": [
             "Listen",
@@ -50,9 +50,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and read aloud.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -62,21 +61,21 @@
                 "value": "Listen"
             },
             {
-                "time": 428,
+                "time": 380,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 677,
+                "time": 562,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "read"
             },
             {
-                "time": 957,
+                "time": 769,
                 "type": "word",
                 "start": 43,
                 "end": 48,
@@ -84,7 +83,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "The sky",
         "words": [
             "The",
@@ -114,7 +113,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">The sky</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -132,7 +131,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Hello! I am the moon. Hello! I am the sun. Hello! we are stars. We are in the sky.",
         "words": [
             "Hello!",
@@ -349,8 +348,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Hello! I am the moon.<break time=\"500ms\"/> Hello! I am the sun.<break time=\"500ms\"/> Hello! we are stars.<break time=\"500ms\"/> We are in the sky.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -360,147 +359,147 @@
                 "value": "Hello"
             },
             {
-                "time": 996,
+                "time": 891,
                 "type": "word",
                 "start": 34,
                 "end": 35,
                 "value": "I"
             },
             {
-                "time": 1197,
+                "time": 1014,
                 "type": "word",
                 "start": 36,
                 "end": 38,
                 "value": "am"
             },
             {
-                "time": 1304,
+                "time": 1194,
                 "type": "word",
                 "start": 39,
                 "end": 42,
                 "value": "the"
             },
             {
-                "time": 1398,
+                "time": 1296,
                 "type": "word",
                 "start": 43,
                 "end": 47,
                 "value": "moon"
             },
             {
-                "time": 1995,
+                "time": 1846,
                 "type": "word",
                 "start": 48,
                 "end": 69,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2882,
+                "time": 2733,
                 "type": "word",
                 "start": 70,
                 "end": 75,
                 "value": "Hello"
             },
             {
-                "time": 3872,
+                "time": 3618,
                 "type": "word",
                 "start": 77,
                 "end": 78,
                 "value": "I"
             },
             {
-                "time": 4073,
+                "time": 3740,
                 "type": "word",
                 "start": 79,
                 "end": 81,
                 "value": "am"
             },
             {
-                "time": 4206,
+                "time": 3921,
                 "type": "word",
                 "start": 82,
                 "end": 85,
                 "value": "the"
             },
             {
-                "time": 4293,
+                "time": 4015,
                 "type": "word",
                 "start": 86,
                 "end": 89,
                 "value": "sun"
             },
             {
-                "time": 4837,
+                "time": 4561,
                 "type": "word",
                 "start": 90,
                 "end": 111,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 5724,
+                "time": 5447,
                 "type": "word",
                 "start": 112,
                 "end": 117,
                 "value": "Hello"
             },
             {
-                "time": 6714,
+                "time": 6332,
                 "type": "word",
                 "start": 119,
                 "end": 121,
                 "value": "we"
             },
             {
-                "time": 6855,
+                "time": 6499,
                 "type": "word",
                 "start": 122,
                 "end": 125,
                 "value": "are"
             },
             {
-                "time": 7063,
+                "time": 6621,
                 "type": "word",
                 "start": 126,
                 "end": 131,
                 "value": "stars"
             },
             {
-                "time": 7841,
+                "time": 7327,
                 "type": "word",
                 "start": 132,
                 "end": 153,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 8728,
+                "time": 8213,
                 "type": "word",
                 "start": 154,
                 "end": 156,
                 "value": "We"
             },
             {
-                "time": 8870,
+                "time": 8412,
                 "type": "word",
                 "start": 157,
                 "end": 160,
                 "value": "are"
             },
             {
-                "time": 9038,
+                "time": 8549,
                 "type": "word",
                 "start": 161,
                 "end": 163,
                 "value": "in"
             },
             {
-                "time": 9164,
+                "time": 8768,
                 "type": "word",
                 "start": 164,
                 "end": 167,
                 "value": "the"
             },
             {
-                "time": 9271,
+                "time": 8862,
                 "type": "word",
                 "start": 168,
                 "end": 171,
@@ -508,7 +507,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "What we see:",
         "words": [
             "What",
@@ -574,7 +573,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "Day Night sun moon birds stars aeroplanes aeroplanes kites bats clouds clouds rainbow",
         "words": [
             "Day",
@@ -725,7 +724,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Day Night sun moon birds stars aeroplanes aeroplanes kites bats clouds clouds rainbow</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

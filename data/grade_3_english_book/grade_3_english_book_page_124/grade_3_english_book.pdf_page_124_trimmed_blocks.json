@@ -400,9 +400,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Give me</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -412,7 +411,7 @@
                 "value": "Give"
             },
             {
-                "time": 226,
+                "time": 232,
                 "type": "word",
                 "start": 32,
                 "end": 34,
@@ -589,7 +588,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">many leaves one leaf o</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -680,7 +679,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">big leaf small leaves</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -764,7 +763,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">green leaves brown leaves</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -848,7 +847,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">A crown of leaves</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -910,7 +909,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">wavy leaves</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

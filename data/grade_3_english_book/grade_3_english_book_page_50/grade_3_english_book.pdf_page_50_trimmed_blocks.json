@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 428,
+                "time": 372,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 671,
+                "time": 535,
                 "type": "word",
                 "start": 38,
                 "end": 43,
@@ -173,8 +172,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Good morning,<break time=\"300ms\"/> children! Let&apos;s go to the computer lab.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -184,63 +183,63 @@
                 "value": "Good"
             },
             {
-                "time": 232,
+                "time": 216,
                 "type": "word",
                 "start": 32,
                 "end": 39,
                 "value": "morning"
             },
             {
-                "time": 882,
+                "time": 927,
                 "type": "word",
                 "start": 40,
                 "end": 61,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1283,
+                "time": 1320,
                 "type": "word",
                 "start": 62,
                 "end": 70,
                 "value": "children"
             },
             {
-                "time": 2303,
+                "time": 2434,
                 "type": "word",
                 "start": 72,
                 "end": 82,
                 "value": "Let&apos;s"
             },
             {
-                "time": 2591,
+                "time": 2790,
                 "type": "word",
                 "start": 83,
                 "end": 85,
                 "value": "go"
             },
             {
-                "time": 2832,
+                "time": 2979,
                 "type": "word",
                 "start": 86,
                 "end": 88,
                 "value": "to"
             },
             {
-                "time": 2945,
+                "time": 3134,
                 "type": "word",
                 "start": 89,
                 "end": 92,
                 "value": "the"
             },
             {
-                "time": 3085,
+                "time": 3261,
                 "type": "word",
                 "start": 93,
                 "end": 101,
                 "value": "computer"
             },
             {
-                "time": 3682,
+                "time": 3835,
                 "type": "word",
                 "start": 102,
                 "end": 105,
@@ -459,7 +458,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\"><emphasis level=\"moderate\">CPU</emphasis> monitor</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -507,7 +506,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">keyboard mouse</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

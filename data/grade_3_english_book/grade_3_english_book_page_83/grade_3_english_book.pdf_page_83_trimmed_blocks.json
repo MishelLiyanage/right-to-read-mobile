@@ -1,5 +1,5 @@
 {
-    "2": {
+    "1": {
         "text": "Listen and sing.",
         "words": [
             "Listen",
@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Listen and sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,21 +50,21 @@
                 "value": "Listen"
             },
             {
-                "time": 443,
+                "time": 377,
                 "type": "word",
                 "start": 46,
                 "end": 49,
                 "value": "and"
             },
             {
-                "time": 709,
+                "time": 559,
                 "type": "word",
                 "start": 50,
                 "end": 54,
                 "value": "sing"
             },
             {
-                "time": 1211,
+                "time": 1076,
                 "type": "word",
                 "start": 55,
                 "end": 76,
@@ -73,7 +72,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Old MacDonald had a farm E \u2013 I \u2013 E \u2013 I \u2013O and on his farm he had red cows E \u2013 I \u2013 E \u2013 I \u2013O red cows here and red cows there here cows, there cows, everywhere red cows, Old MacDonald had a farm E \u2013 I \u2013 E \u2013 I \u2013O",
         "words": [
             "Old",
@@ -1093,7 +1092,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Old MacDonald had a farm E \u2013 I \u2013 E \u2013 I \u2013O and on his farm he had pink pigs E \u2013 I \u2013 E \u2013 I \u2013O pink pigs here and pink pigs there here pigs, there pigs everywhere pink pigs Old MacDonald had a farm E \u2013 I \u2013 E \u2013 I \u2013O",
         "words": [
             "Old",
@@ -2099,7 +2098,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Note: Repeat the song replacing the animals.",
         "words": [
             "Note:",
@@ -2183,9 +2182,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Note: Repeat the song replacing the animals.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -2195,49 +2193,49 @@
                 "value": "Note"
             },
             {
-                "time": 686,
+                "time": 722,
                 "type": "word",
                 "start": 45,
                 "end": 51,
                 "value": "Repeat"
             },
             {
-                "time": 1110,
+                "time": 1133,
                 "type": "word",
                 "start": 52,
                 "end": 55,
                 "value": "the"
             },
             {
-                "time": 1220,
+                "time": 1237,
                 "type": "word",
                 "start": 56,
                 "end": 60,
                 "value": "song"
             },
             {
-                "time": 1653,
+                "time": 1601,
                 "type": "word",
                 "start": 61,
                 "end": 70,
                 "value": "replacing"
             },
             {
-                "time": 2300,
+                "time": 2252,
                 "type": "word",
                 "start": 71,
                 "end": 74,
                 "value": "the"
             },
             {
-                "time": 2535,
+                "time": 2407,
                 "type": "word",
                 "start": 75,
                 "end": 82,
                 "value": "animals"
             },
             {
-                "time": 3220,
+                "time": 3130,
                 "type": "word",
                 "start": 83,
                 "end": 104,

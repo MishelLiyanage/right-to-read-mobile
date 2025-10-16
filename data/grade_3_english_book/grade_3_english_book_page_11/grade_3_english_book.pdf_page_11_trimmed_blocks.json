@@ -84,7 +84,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Stand in a circle.<break time=\"500ms\"/> Take a ball.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -304,9 +304,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Tell your name.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -316,14 +315,14 @@
                 "value": "Tell"
             },
             {
-                "time": 247,
+                "time": 235,
                 "type": "word",
                 "start": 32,
                 "end": 36,
                 "value": "your"
             },
             {
-                "time": 451,
+                "time": 415,
                 "type": "word",
                 "start": 37,
                 "end": 41,
@@ -455,9 +454,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Tell your name.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -467,14 +465,14 @@
                 "value": "Tell"
             },
             {
-                "time": 247,
+                "time": 235,
                 "type": "word",
                 "start": 32,
                 "end": 36,
                 "value": "your"
             },
             {
-                "time": 451,
+                "time": 415,
                 "type": "word",
                 "start": 37,
                 "end": 41,
@@ -583,8 +581,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Hello! I&apos;m <break time=\"1000ms\"/></prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -594,14 +592,14 @@
                 "value": "Hello"
             },
             {
-                "time": 898,
+                "time": 996,
                 "type": "word",
                 "start": 34,
                 "end": 42,
                 "value": "I&apos;m"
             },
             {
-                "time": 1604,
+                "time": 1663,
                 "type": "word",
                 "start": 43,
                 "end": 65,
@@ -650,8 +648,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">What&apos;s your name?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -661,14 +659,14 @@
                 "value": "What&apos;s"
             },
             {
-                "time": 358,
+                "time": 246,
                 "type": "word",
                 "start": 39,
                 "end": 43,
                 "value": "your"
             },
             {
-                "time": 476,
+                "time": 400,
                 "type": "word",
                 "start": 44,
                 "end": 48,
@@ -705,9 +703,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Hello game</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -717,7 +714,7 @@
                 "value": "Hello"
             },
             {
-                "time": 487,
+                "time": 332,
                 "type": "word",
                 "start": 33,
                 "end": 37,
@@ -765,9 +762,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and do.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -777,14 +773,14 @@
                 "value": "Listen"
             },
             {
-                "time": 452,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 732,
+                "time": 606,
                 "type": "word",
                 "start": 38,
                 "end": 40,
@@ -866,7 +862,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Make a badge.<break time=\"500ms\"/> Write your name.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -938,7 +934,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Dasuni</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

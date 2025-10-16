@@ -1,15 +1,14 @@
 import { useThemeColor } from '@/hooks/useThemeColor';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
+import { SchoolValidationService } from '@/services/schoolValidationService';
 import { BlurView } from 'expo-blur';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
   Alert,
   Dimensions,
-  FlatList,
   ImageBackground,
   KeyboardAvoidingView,
-  Modal,
   Platform,
   StyleSheet,
   Text,
@@ -22,42 +21,27 @@ interface DeviceRegistrationProps {
   onRegistrationComplete: () => void;
 }
 
-const grades = ['3', '4', '5', '6', '7', '8', '9'];
-
 export default function DeviceRegistration({ onRegistrationComplete }: DeviceRegistrationProps) {
   const [schoolName, setSchoolName] = useState<string>('');
-  const [selectedGrade, setSelectedGrade] = useState<string>('');
-  const [className, setClassName] = useState<string>('');
   const [serialNumber, setSerialNumber] = useState<string>('');
-  const [isGradeDropdownOpen, setIsGradeDropdownOpen] = useState(false);
   const [isRegistering, setIsRegistering] = useState(false);
 
   const backgroundColor = useThemeColor({}, 'background');
   const textColor = useThemeColor({}, 'text');
   const tintColor = useThemeColor({}, 'tint');
 
-
-
-  const handleGradeSelect = (grade: string) => {
-    setSelectedGrade(grade);
-    setIsGradeDropdownOpen(false);
-  };
+  // Initialize schools data when component mounts
+  useEffect(() => {
+    SchoolValidationService.initializeSchools();
+  }, []);
 
   const validateForm = (): boolean => {
     if (!schoolName.trim()) {
       Alert.alert('Validation Error', 'Please enter your school name.');
       return false;
     }
-    if (!selectedGrade.trim()) {
-      Alert.alert('Validation Error', 'Please select a grade.');
-      return false;
-    }
-    if (!className.trim()) {
-      Alert.alert('Validation Error', 'Please enter your class name.');
-      return false;
-    }
-    if (className.trim().length < 1) {
-      Alert.alert('Validation Error', 'Class name must be at least 1 character long.');
+    if (!serialNumber.trim()) {
+      Alert.alert('Validation Error', 'Please enter the device serial number.');
       return false;
     }
     return true;
@@ -70,16 +54,42 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
     setIsRegistering(true);
     try {
-      await DeviceRegistrationService.registerDevice(
-        selectedGrade, 
-        className.trim(), 
+      // Validate school name and serial number combination
+      const isValidSchool = await SchoolValidationService.validateSchool(
         schoolName.trim(), 
         serialNumber.trim()
       );
+
+      if (!isValidSchool) {
+        Alert.alert(
+          'Invalid Credentials',
+          'Either the school name or the serial number is invalid. Please check your details and try again.',
+          [{ text: 'OK' }]
+        );
+        setIsRegistering(false);
+        return;
+      }
+
+      // If validation passes, register the device
+      await DeviceRegistrationService.registerDevice(
+        schoolName.trim(), 
+        serialNumber.trim()
+      );
+      
       Alert.alert(
         'Registration Successful',
         'Your device has been registered successfully!',
-        [{ text: 'Continue', onPress: onRegistrationComplete }]
+        [
+          { 
+            text: 'Back', 
+            style: 'cancel',
+            onPress: () => setIsRegistering(false) 
+          },
+          { 
+            text: 'Continue', 
+            onPress: onRegistrationComplete 
+          }
+        ]
       );
     } catch (error) {
       console.error('Registration error:', error);
@@ -89,7 +99,8 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
         [{ text: 'OK' }]
       );
     } finally {
-      setIsRegistering(false);
+      // Don't set isRegistering to false here if success alert is shown
+      // It will be handled by the alert buttons
     }
   };
 
@@ -134,41 +145,11 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
                   </View>
                 </View>
 
-                {/* Grade Selection */}
-                <View style={styles.inputGroup}>
-                  <Text style={styles.label}>Select Your Grade</Text>
-                  <TouchableOpacity
-                    style={styles.glassInput}
-                    onPress={() => setIsGradeDropdownOpen(true)}
-                    disabled={isRegistering}
-                  >
-                    <Text style={[styles.inputText, !selectedGrade && styles.placeholderText]}>
-                      {selectedGrade ? `Grade ${selectedGrade}` : 'Select Grade'}
-                    </Text>
-                    <Text style={styles.dropdownArrow}>▼</Text>
-                  </TouchableOpacity>
-                </View>
 
-                {/* Class Input */}
-                <View style={styles.inputGroup}>
-                  <Text style={styles.label}>Enter Your Class</Text>
-                  <View style={styles.glassInput}>
-                    <TextInput
-                      style={styles.textInput}
-                      placeholder="e.g., A, B, C, 1, 2, etc."
-                      placeholderTextColor="#a0aec0"
-                      value={className}
-                      onChangeText={setClassName}
-                      maxLength={20}
-                      autoCapitalize="characters"
-                      editable={!isRegistering}
-                    />
-                  </View>
-                </View>
 
                 {/* Serial Number Input */}
                 <View style={styles.inputGroup}>
-                  <Text style={styles.label}>Device Serial Number (Optional)</Text>
+                  <Text style={styles.label}>Device Serial Number</Text>
                   <View style={styles.glassInput}>
                     <TextInput
                       style={styles.textInput}
@@ -187,10 +168,10 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
                 <TouchableOpacity
                   style={[
                     styles.registerButton,
-                    (!schoolName.trim() || !selectedGrade || !className.trim() || isRegistering) && styles.disabledButton
+                    (!schoolName.trim() || !serialNumber.trim() || isRegistering) && styles.disabledButton
                   ]}
                   onPress={handleRegistration}
-                  disabled={!schoolName.trim() || !selectedGrade || !className.trim() || isRegistering}
+                  disabled={!schoolName.trim() || !serialNumber.trim() || isRegistering}
                 >
                   {isRegistering ? (
                     <ActivityIndicator color="white" />
@@ -211,43 +192,7 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
         </KeyboardAvoidingView>
       </View>
 
-      {/* Grade Dropdown Modal */}
-      <Modal
-        visible={isGradeDropdownOpen}
-        transparent={true}
-        animated={true}
-        onRequestClose={() => setIsGradeDropdownOpen(false)}
-      >
-        <TouchableOpacity
-          style={styles.modalOverlay}
-          activeOpacity={1}
-          onPress={() => setIsGradeDropdownOpen(false)}
-        >
-          <BlurView intensity={30} tint="dark" style={styles.modalContent}>
-            <Text style={styles.modalTitle}>Select Grade</Text>
-            <FlatList
-              data={grades}
-              renderItem={({ item }) => (
-                <TouchableOpacity
-                  style={styles.gradeOption}
-                  onPress={() => handleGradeSelect(item)}
-                >
-                  <Text style={styles.gradeOptionText}>Grade {item}</Text>
-                </TouchableOpacity>
-              )}
-              keyExtractor={(item) => item}
-              style={styles.gradeList}
-              showsVerticalScrollIndicator={false}
-            />
-            <TouchableOpacity
-              style={styles.modalCloseButton}
-              onPress={() => setIsGradeDropdownOpen(false)}
-            >
-              <Text style={styles.modalCloseButtonText}>Close</Text>
-            </TouchableOpacity>
-          </BlurView>
-        </TouchableOpacity>
-      </Modal>
+
 
 
     </ImageBackground>
@@ -350,13 +295,6 @@ const styles = StyleSheet.create({
   placeholderText: {
     color: '#718096',
   },
-  dropdownArrow: {
-    fontSize: 12,
-    color: '#4a5568',
-  },
-  dropdownButton: {
-    padding: 4,
-  },
   textInput: {
     fontSize: 16,
     color: '#2d3748',
@@ -399,74 +337,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 18,
   },
-  modalOverlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  modalContent: {
-    width: '80%',
-    maxWidth: 300,
-    borderRadius: 16,
-    padding: 24,
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.2)',
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 8,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 10,
-    elevation: 10,
-  },
-  modalTitle: {
-    fontSize: 20,
-    textAlign: 'center',
-    marginBottom: 16,
-    fontWeight: '600',
-    color: '#FFFFFF',
-    textShadowColor: 'rgba(0, 0, 0, 0.5)',
-    textShadowOffset: { width: 0, height: 1 },
-    textShadowRadius: 2,
-  },
-  gradeList: {
-    maxHeight: 300,
-  },
-  gradeOption: {
-    paddingVertical: 16,
-    paddingHorizontal: 8,
-    borderBottomWidth: 1,
-    borderBottomColor: 'rgba(255, 255, 255, 0.2)',
-    alignItems: 'center',
-  },
-  gradeOptionText: {
-    fontSize: 16,
-    color: '#FFFFFF',
-    fontWeight: '500',
-    textShadowColor: 'rgba(0, 0, 0, 0.3)',
-    textShadowOffset: { width: 0, height: 1 },
-    textShadowRadius: 2,
-  },
 
-  modalCloseButton: {
-    marginTop: 16,
-    paddingVertical: 12,
-    paddingHorizontal: 24,
-    borderRadius: 8,
-    alignItems: 'center',
-    backgroundColor: 'rgba(10, 126, 164, 0.8)',
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.3)',
-  },
-  modalCloseButtonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: '600',
-    textShadowColor: 'rgba(0, 0, 0, 0.3)',
-    textShadowOffset: { width: 0, height: 1 },
-    textShadowRadius: 2,
-  },
 });

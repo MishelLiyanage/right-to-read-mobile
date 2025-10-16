@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "52",
+        "words": [
+            "52"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.66990089416504,
+                    24.34998893737793
+                ],
+                [
+                    60.87990188598633,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">52</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "52"
+            }
+        ]
+    },
     "2": {
         "text": "Fruits Talk",
         "words": [
@@ -29,7 +59,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Fruits Talk</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -99,8 +129,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Do you like apples?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -110,21 +140,21 @@
                 "value": "Do"
             },
             {
-                "time": 74,
+                "time": 136,
                 "type": "word",
                 "start": 30,
                 "end": 33,
                 "value": "you"
             },
             {
-                "time": 314,
+                "time": 330,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "like"
             },
             {
-                "time": 638,
+                "time": 619,
                 "type": "word",
                 "start": 39,
                 "end": 45,
@@ -350,7 +380,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a mango an apple</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -412,7 +442,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a guava</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -449,7 +479,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">grapes</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -490,7 +520,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a rambutan</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -538,7 +568,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a pineapple</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -586,7 +616,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">an orange</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -656,7 +686,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a banana a watermelon</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -718,7 +748,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a papaya</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
