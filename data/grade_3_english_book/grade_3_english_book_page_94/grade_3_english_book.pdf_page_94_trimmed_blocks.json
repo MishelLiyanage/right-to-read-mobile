@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "85",
+        "words": [
+            "85"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    549.7080078125,
+                    24.34998893737793
+                ],
+                [
+                    581.657958984375,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">85</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "85"
+            }
+        ]
+    },
     "2": {
         "text": "Listen and sing.",
         "words": [
@@ -39,9 +69,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Listen and sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,21 +80,21 @@
                 "value": "Listen"
             },
             {
-                "time": 443,
+                "time": 377,
                 "type": "word",
                 "start": 46,
                 "end": 49,
                 "value": "and"
             },
             {
-                "time": 709,
+                "time": 559,
                 "type": "word",
                 "start": 50,
                 "end": 54,
                 "value": "sing"
             },
             {
-                "time": 1211,
+                "time": 1076,
                 "type": "word",
                 "start": 55,
                 "end": 76,
@@ -823,7 +852,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Clothes we wear 6</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

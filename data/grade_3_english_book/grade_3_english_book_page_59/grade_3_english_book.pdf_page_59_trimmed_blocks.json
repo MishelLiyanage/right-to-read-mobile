@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 452,
+                "time": 401,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 718,
+                "time": 555,
                 "type": "word",
                 "start": 38,
                 "end": 44,
@@ -128,9 +127,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Come early.<break time=\"500ms\"/> Sweep the classroom.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -140,35 +138,35 @@
                 "value": "Come"
             },
             {
-                "time": 318,
+                "time": 227,
                 "type": "word",
                 "start": 32,
                 "end": 37,
                 "value": "early"
             },
             {
-                "time": 844,
+                "time": 750,
                 "type": "word",
                 "start": 38,
                 "end": 59,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1731,
+                "time": 1637,
                 "type": "word",
                 "start": 60,
                 "end": 65,
                 "value": "Sweep"
             },
             {
-                "time": 2165,
+                "time": 2014,
                 "type": "word",
                 "start": 66,
                 "end": 69,
                 "value": "the"
             },
             {
-                "time": 2268,
+                "time": 2119,
                 "type": "word",
                 "start": 70,
                 "end": 79,
@@ -217,7 +215,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Speak kind words.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -272,7 +270,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Share books.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -331,7 +329,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Protect the environment.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -386,7 +384,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Study well.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -434,7 +432,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Play games.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -482,7 +480,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing songs.<break time=\"400ms\"/></prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -537,7 +535,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Obey teachers.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -596,7 +594,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Love your school.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -662,7 +660,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Clean the garden.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "108",
+        "words": [
+            "108"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    25.1914005279541,
+                    24.34998893737793
+                ],
+                [
+                    66.35140228271484,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">108</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "108"
+            }
+        ]
+    },
     "2": {
         "text": "Let's play a game.",
         "words": [
@@ -50,9 +80,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a game.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -62,21 +91,21 @@
                 "value": "Let&apos;s"
             },
             {
-                "time": 329,
+                "time": 276,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "play"
             },
             {
-                "time": 639,
+                "time": 590,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 688,
+                "time": 649,
                 "type": "word",
                 "start": 45,
                 "end": 49,
@@ -626,9 +655,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Is it in a circle? No Is it in a square? Yes Is it in a blue square? No Your number is 18! Yes!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -797,6 +825,294 @@
                 "start": 118,
                 "end": 121,
                 "value": "Yes"
+            }
+        ]
+    },
+    "6": {
+        "text": "13",
+        "words": [
+            "13"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    259.1650085449219,
+                    313.9530029296875
+                ],
+                [
+                    279.70501708984375,
+                    337.77301025390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">13</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "13"
+            }
+        ]
+    },
+    "7": {
+        "text": "19",
+        "words": [
+            "19"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    447.61199951171875,
+                    467.4209899902344
+                ],
+                [
+                    468.2919921875,
+                    491.2409973144531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">19</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "19"
+            }
+        ]
+    },
+    "8": {
+        "text": "14",
+        "words": [
+            "14"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    420.61199951171875,
+                    321.1529846191406
+                ],
+                [
+                    440.5119934082031,
+                    344.9729919433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "14"
+            }
+        ]
+    },
+    "9": {
+        "text": "18",
+        "words": [
+            "18"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    280.2120056152344,
+                    564.8189697265625
+                ],
+                [
+                    300.8320007324219,
+                    588.6389770507812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">18</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "18"
+            }
+        ]
+    },
+    "10": {
+        "text": "12",
+        "words": [
+            "12"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    321.61199951171875,
+                    438.1529846191406
+                ],
+                [
+                    342.0920104980469,
+                    461.9729919433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">12</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "12"
+            }
+        ]
+    },
+    "11": {
+        "text": "17",
+        "words": [
+            "17"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    100.21199798583984,
+                    310.3529968261719
+                ],
+                [
+                    119.21199798583984,
+                    334.1730041503906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">17</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "17"
+            }
+        ]
+    },
+    "12": {
+        "text": "20",
+        "words": [
+            "20"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    431.4119873046875,
+                    624.343017578125
+                ],
+                [
+                    455.1919860839844,
+                    648.1629638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">20</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "20"
+            }
+        ]
+    },
+    "13": {
+        "text": "19 12",
+        "words": [
+            "19",
+            "12"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    145.2919921875,
+                    428.4830017089844
+                ],
+                [
+                    165.97198486328125,
+                    452.3030090332031
+                ]
+            ],
+            [
+                [
+                    147.5659942626953,
+                    428.48699951171875
+                ],
+                [
+                    168.04598999023438,
+                    452.3070068359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">19 12</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "19"
+            },
+            {
+                "time": 514,
+                "type": "word",
+                "start": 30,
+                "end": 32,
+                "value": "12"
+            }
+        ]
+    },
+    "14": {
+        "text": "15",
+        "words": [
+            "15"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    132.28599548339844,
+                    582.0469970703125
+                ],
+                [
+                    152.82598876953125,
+                    605.866943359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">15</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "15"
             }
         ]
     }

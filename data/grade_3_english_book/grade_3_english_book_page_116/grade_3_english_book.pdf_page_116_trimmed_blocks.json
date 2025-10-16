@@ -1,22 +1,11 @@
 {
     "1": {
-        "text": "107 Read aloud.",
+        "text": "Read aloud.",
         "words": [
-            "107",
             "Read",
             "aloud."
         ],
         "bounding_boxes": [
-            [
-                [
-                    546.8740234375,
-                    24.34998893737793
-                ],
-                [
-                    584.4640502929688,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.532100677490234,
@@ -38,29 +27,22 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">107 Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "107"
-            },
-            {
-                "time": 1032,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "end": 31,
                 "value": "Read"
             },
             {
-                "time": 1314,
+                "time": 266,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 32,
+                "end": 37,
                 "value": "aloud"
             }
         ]
@@ -106,7 +88,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">A rainy day</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -132,9 +114,9 @@
         ]
     },
     "3": {
-        "text": "It\u2019s a rainy day.",
+        "text": "It's a rainy day.",
         "words": [
-            "It\u2019s",
+            "It's",
             "a",
             "rainy",
             "day."
@@ -181,7 +163,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It\u2019s a rainy day.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">It&apos;s a rainy day.</prosody></speak>",
         "dialog": "false",
         "person_type": "narrator",
         "timing": [
@@ -189,28 +171,28 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 33,
-                "value": "It\u2019s"
+                "end": 36,
+                "value": "It&apos;s"
             },
             {
                 "time": 220,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
                 "time": 280,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 39,
+                "end": 44,
                 "value": "rainy"
             },
             {
                 "time": 655,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 45,
+                "end": 48,
                 "value": "day"
             }
         ]
@@ -266,9 +248,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">We cannot go out.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -278,21 +259,21 @@
                 "value": "We"
             },
             {
-                "time": 209,
+                "time": 159,
                 "type": "word",
                 "start": 30,
                 "end": 36,
                 "value": "cannot"
             },
             {
-                "time": 625,
+                "time": 605,
                 "type": "word",
                 "start": 37,
                 "end": 39,
                 "value": "go"
             },
             {
-                "time": 853,
+                "time": 894,
                 "type": "word",
                 "start": 40,
                 "end": 43,

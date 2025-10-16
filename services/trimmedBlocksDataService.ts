@@ -1,6 +1,6 @@
 // Import all your trimmed blocks data statically
 
-// Grade 3 English Book - All available pages (10-39, 41-138)
+// Grade 3 English Book - All available pages (10-138)
 import page10TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_10/grade_3_english_book.pdf_page_10_trimmed_blocks.json';
 import page100G3TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_100/grade_3_english_book.pdf_page_100_trimmed_blocks.json';
 import page101G3TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_101/grade_3_english_book.pdf_page_101_trimmed_blocks.json';
@@ -69,6 +69,7 @@ import page36TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_boo
 import page37TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37_trimmed_blocks.json';
 import page38TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38_trimmed_blocks.json';
 import page39TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39_trimmed_blocks.json';
+import page40TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_40/grade_3_english_book.pdf_page_40_trimmed_blocks.json';
 import page41TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_41/grade_3_english_book.pdf_page_41_trimmed_blocks.json';
 import page42TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_42/grade_3_english_book.pdf_page_42_trimmed_blocks.json';
 import page43TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_43/grade_3_english_book.pdf_page_43_trimmed_blocks.json';
@@ -186,7 +187,7 @@ export class TrimmedBlocksDataService {
   constructor() {
     // Map all your trimmed blocks data by page number
     
-    // Grade 3 English Book pages (10-39, 41-138)
+    // Grade 3 English Book pages (10-138)
     this.dataMap.set(10, page10TrimmedBlocks as any);
     this.dataMap.set(11, page11TrimmedBlocks as any);
     this.dataMap.set(12, page12TrimmedBlocks as any);
@@ -217,6 +218,7 @@ export class TrimmedBlocksDataService {
     this.dataMap.set(37, page37TrimmedBlocks as any);
     this.dataMap.set(38, page38TrimmedBlocks as any);
     this.dataMap.set(39, page39TrimmedBlocks as any);
+    this.dataMap.set(40, page40TrimmedBlocks as any);
     this.dataMap.set(41, page41TrimmedBlocks as any);
     this.dataMap.set(42, page42TrimmedBlocks as any);
     this.dataMap.set(43, page43TrimmedBlocks as any);

@@ -62,7 +62,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">123 Read the picture story.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -141,9 +141,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Float or Sink?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -153,14 +152,14 @@
                 "value": "Float"
             },
             {
-                "time": 432,
+                "time": 293,
                 "type": "word",
                 "start": 33,
                 "end": 35,
                 "value": "or"
             },
             {
-                "time": 644,
+                "time": 403,
                 "type": "word",
                 "start": 36,
                 "end": 40,
@@ -173,7 +172,7 @@
         "words": [
             "Take",
             "a",
-            "(1)\u2026\u2026\u2026.."
+            "(1)\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -208,9 +207,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Take a (1)\u2026\u2026\u2026..</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -220,14 +218,14 @@
                 "value": "Take"
             },
             {
-                "time": 318,
+                "time": 337,
                 "type": "word",
                 "start": 32,
                 "end": 33,
                 "value": "a"
             },
             {
-                "time": 886,
+                "time": 1053,
                 "type": "word",
                 "start": 35,
                 "end": 36,
@@ -236,10 +234,10 @@
         ]
     },
     "4": {
-        "text": "Coins \u2026\u2026...(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)",
+        "text": "Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)",
         "words": [
             "Coins",
-            "\u2026\u2026...(float",
+            "\u2026\u2026..(float",
             "/",
             "sink)",
             "Leaves",
@@ -329,7 +327,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Coins \u2026\u2026<break time=\"1000ms\"/>(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)</prosody></speak>",
         "dialog": "false",
         "person_type": "narrator",
         "timing": [
@@ -341,52 +339,45 @@
                 "value": "Coins"
             },
             {
-                "time": 715,
+                "time": 1095,
                 "type": "word",
-                "start": 39,
-                "end": 61,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2102,
-                "type": "word",
-                "start": 62,
-                "end": 67,
+                "start": 42,
+                "end": 47,
                 "value": "float"
             },
             {
-                "time": 2857,
+                "time": 1850,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 50,
+                "end": 54,
                 "value": "sink"
             },
             {
-                "time": 3711,
+                "time": 2705,
                 "type": "word",
-                "start": 76,
-                "end": 82,
+                "start": 56,
+                "end": 62,
                 "value": "Leaves"
             },
             {
-                "time": 4332,
+                "time": 3326,
                 "type": "word",
-                "start": 93,
-                "end": 94,
+                "start": 73,
+                "end": 74,
                 "value": "("
             },
             {
-                "time": 4919,
+                "time": 3912,
                 "type": "word",
-                "start": 94,
-                "end": 100,
+                "start": 74,
+                "end": 80,
                 "value": "float/"
             },
             {
-                "time": 5723,
+                "time": 4717,
                 "type": "word",
-                "start": 101,
-                "end": 105,
+                "start": 81,
+                "end": 85,
                 "value": "sink"
             }
         ]
@@ -442,9 +433,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">(5)\u2026\u2026\u2026..<break time=\"500ms\"/> what happens !</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -454,21 +444,21 @@
                 "value": "5"
             },
             {
-                "time": 650,
+                "time": 600,
                 "type": "word",
                 "start": 41,
                 "end": 62,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1537,
+                "time": 1487,
                 "type": "word",
                 "start": 63,
                 "end": 67,
                 "value": "what"
             },
             {
-                "time": 1795,
+                "time": 1643,
                 "type": "word",
                 "start": 68,
                 "end": 75,
@@ -484,7 +474,7 @@
             "water.",
             "Put",
             "(4)",
-            "\u2026\u2026\u2026\u2026.."
+            "\u2026\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -600,7 +590,7 @@
         "text": "Put (3)\u2026\u2026\u2026..",
         "words": [
             "Put",
-            "(3)\u2026\u2026\u2026.."
+            "(3)\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -772,9 +762,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">look leaves basin coins water</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -784,28 +773,28 @@
                 "value": "look"
             },
             {
-                "time": 323,
+                "time": 236,
                 "type": "word",
                 "start": 32,
                 "end": 38,
                 "value": "leaves"
             },
             {
-                "time": 706,
+                "time": 570,
                 "type": "word",
                 "start": 39,
                 "end": 44,
                 "value": "basin"
             },
             {
-                "time": 1212,
+                "time": 974,
                 "type": "word",
                 "start": 45,
                 "end": 50,
                 "value": "coins"
             },
             {
-                "time": 1634,
+                "time": 1459,
                 "type": "word",
                 "start": 51,
                 "end": 56,

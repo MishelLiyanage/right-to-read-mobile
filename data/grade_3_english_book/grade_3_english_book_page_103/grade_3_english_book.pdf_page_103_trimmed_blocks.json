@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "94",
+        "words": [
+            "94"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.428199768066406,
+                    24.34998893737793
+                ],
+                [
+                    61.118202209472656,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">94</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "94"
+            }
+        ]
+    },
     "2": {
         "text": "Listen and say.",
         "words": [
@@ -39,9 +69,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +80,14 @@
                 "value": "Listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -413,7 +442,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Playing is fun 7</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

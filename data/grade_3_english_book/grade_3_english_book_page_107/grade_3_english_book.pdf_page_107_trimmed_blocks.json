@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "98",
+        "words": [
+            "98"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.13520050048828,
+                    24.34998893737793
+                ],
+                [
+                    61.425201416015625,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">98</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "98"
+            }
+        ]
+    },
     "2": {
         "text": "Time",
         "words": [
@@ -18,7 +48,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Time</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -47,9 +77,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Look.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -156,7 +185,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Seven o&apos;clock Ten o&apos; clock Eight o&apos; clock</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -257,7 +286,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Four o&apos; clock</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -323,7 +352,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read the time.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,

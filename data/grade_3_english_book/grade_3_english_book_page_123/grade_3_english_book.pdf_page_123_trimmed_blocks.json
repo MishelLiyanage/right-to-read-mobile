@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "114",
+        "words": [
+            "114"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.23040008544922,
+                    24.34998893737793
+                ],
+                [
+                    61.280399322509766,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">114</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "114"
+            }
+        ]
+    },
     "2": {
         "text": "Read.",
         "words": [
@@ -18,7 +48,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,

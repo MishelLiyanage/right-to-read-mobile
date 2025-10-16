@@ -2,9 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export interface DeviceRegistrationData {
   schoolName: string;
-  grade: string;
-  className: string;
-  serialNumber?: string;
+  serialNumber: string;
   registrationDate: string;
 }
 
@@ -27,19 +25,15 @@ export class DeviceRegistrationService {
   }
 
   /**
-   * Register the device with user's school, grade, class and optional serial number
-   * @param grade - Student's grade (3-9)
-   * @param className - Student's class name
+   * Register the device with user's school name and serial number
    * @param schoolName - Student's school name
-   * @param serialNumber - Optional device serial number
+   * @param serialNumber - Device serial number
    */
-  static async registerDevice(grade: string, className: string, schoolName: string, serialNumber?: string): Promise<void> {
+  static async registerDevice(schoolName: string, serialNumber: string): Promise<void> {
     try {
       const registrationData: DeviceRegistrationData = {
         schoolName,
-        grade,
-        className,
-        serialNumber: serialNumber || undefined,
+        serialNumber,
         registrationDate: new Date().toISOString(),
       };
 
@@ -85,15 +79,13 @@ export class DeviceRegistrationService {
 
   /**
    * Get analytics data for tracking purposes
-   * @returns Promise<{schoolName: string, grade: string, className: string, serialNumber?: string} | null>
+   * @returns Promise<{schoolName: string, serialNumber: string} | null>
    */
-  static async getAnalyticsData(): Promise<{schoolName: string, grade: string, className: string, serialNumber?: string} | null> {
+  static async getAnalyticsData(): Promise<{schoolName: string, serialNumber: string} | null> {
     try {
       const data = await this.getRegistrationData();
       return data ? { 
         schoolName: data.schoolName, 
-        grade: data.grade, 
-        className: data.className,
         serialNumber: data.serialNumber 
       } : null;
     } catch (error) {

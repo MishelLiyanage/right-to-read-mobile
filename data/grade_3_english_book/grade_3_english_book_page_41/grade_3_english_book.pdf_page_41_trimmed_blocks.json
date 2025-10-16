@@ -50,9 +50,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -62,28 +61,28 @@
                 "value": "Listen"
             },
             {
-                "time": 722,
+                "time": 702,
                 "type": "word",
                 "start": 34,
                 "end": 55,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1122,
+                "time": 1102,
                 "type": "word",
                 "start": 56,
                 "end": 61,
                 "value": "point"
             },
             {
-                "time": 1483,
+                "time": 1461,
                 "type": "word",
                 "start": 62,
                 "end": 65,
                 "value": "and"
             },
             {
-                "time": 1696,
+                "time": 1635,
                 "type": "word",
                 "start": 66,
                 "end": 69,
@@ -142,8 +141,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I wash my face.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -153,21 +153,21 @@
                 "value": "I"
             },
             {
-                "time": 75,
+                "time": 123,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "wash"
             },
             {
-                "time": 431,
+                "time": 543,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "my"
             },
             {
-                "time": 593,
+                "time": 752,
                 "type": "word",
                 "start": 37,
                 "end": 41,
@@ -215,8 +215,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I eat rice.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -226,14 +227,14 @@
                 "value": "I"
             },
             {
-                "time": 175,
+                "time": 170,
                 "type": "word",
                 "start": 29,
                 "end": 32,
                 "value": "eat"
             },
             {
-                "time": 357,
+                "time": 423,
                 "type": "word",
                 "start": 33,
                 "end": 37,
@@ -281,8 +282,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I drink milk.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -292,14 +294,14 @@
                 "value": "I"
             },
             {
-                "time": 130,
+                "time": 128,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "drink"
             },
             {
-                "time": 534,
+                "time": 464,
                 "type": "word",
                 "start": 35,
                 "end": 39,
@@ -358,8 +360,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I go to school.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -369,21 +372,21 @@
                 "value": "I"
             },
             {
-                "time": 90,
+                "time": 130,
                 "type": "word",
                 "start": 29,
                 "end": 31,
                 "value": "go"
             },
             {
-                "time": 298,
+                "time": 431,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "to"
             },
             {
-                "time": 430,
+                "time": 592,
                 "type": "word",
                 "start": 35,
                 "end": 41,
@@ -453,8 +456,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I play with my friends.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -464,28 +468,28 @@
                 "value": "I"
             },
             {
-                "time": 128,
+                "time": 91,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "play"
             },
             {
-                "time": 421,
+                "time": 445,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "with"
             },
             {
-                "time": 656,
+                "time": 682,
                 "type": "word",
                 "start": 39,
                 "end": 41,
                 "value": "my"
             },
             {
-                "time": 885,
+                "time": 859,
                 "type": "word",
                 "start": 42,
                 "end": 49,
@@ -533,8 +537,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I watch television.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -544,14 +549,14 @@
                 "value": "I"
             },
             {
-                "time": 108,
+                "time": 116,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "watch"
             },
             {
-                "time": 481,
+                "time": 526,
                 "type": "word",
                 "start": 35,
                 "end": 45,
@@ -588,8 +593,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I sleep.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -599,7 +605,7 @@
                 "value": "I"
             },
             {
-                "time": 150,
+                "time": 195,
                 "type": "word",
                 "start": 29,
                 "end": 34,
@@ -658,8 +664,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I brush my teeth.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -669,21 +676,21 @@
                 "value": "I"
             },
             {
-                "time": 106,
+                "time": 164,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "brush"
             },
             {
-                "time": 480,
+                "time": 600,
                 "type": "word",
                 "start": 35,
                 "end": 37,
                 "value": "my"
             },
             {
-                "time": 660,
+                "time": 764,
                 "type": "word",
                 "start": 38,
                 "end": 43,

@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "122",
+        "words": [
+            "122"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    27.278799057006836,
+                    24.34998893737793
+                ],
+                [
+                    64.23880004882812,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">122</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "122"
+            }
+        ]
+    },
     "2": {
         "text": "a",
         "words": [
@@ -18,7 +48,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">a</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -48,7 +78,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">b</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -78,7 +108,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">c</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -108,7 +138,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">d</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -138,7 +168,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">e</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -168,7 +198,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">f</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -219,9 +249,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and match.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -231,14 +260,14 @@
                 "value": "Listen"
             },
             {
-                "time": 428,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 687,
+                "time": 562,
                 "type": "word",
                 "start": 38,
                 "end": 43,
@@ -265,7 +294,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Water</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -1,7 +1,7 @@
 import { TrimmedBlocksDataService } from '@/services/trimmedBlocksDataService';
 import { Book } from '@/types/book';
 
-// Static imports for Grade 3 English Book pages (pages 10-39, 41-137)
+// Static imports for Grade 3 English Book pages (pages 10-137)
 const grade3PageImages = {
   10: require('@/data/grade_3_english_book/grade_3_english_book_page_10/grade_3_english_book.pdf_page_10.png'),
   11: require('@/data/grade_3_english_book/grade_3_english_book_page_11/grade_3_english_book.pdf_page_11.png'),
@@ -33,6 +33,7 @@ const grade3PageImages = {
   37: require('@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37.png'),
   38: require('@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38.png'),
   39: require('@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39.png'),
+  40: require('@/data/grade_3_english_book/grade_3_english_book_page_40/grade_3_english_book.pdf_page_40.png'),
   41: require('@/data/grade_3_english_book/grade_3_english_book_page_41/grade_3_english_book.pdf_page_41.png'),
   42: require('@/data/grade_3_english_book/grade_3_english_book_page_42/grade_3_english_book.pdf_page_42.png'),
   43: require('@/data/grade_3_english_book/grade_3_english_book_page_43/grade_3_english_book.pdf_page_43.png'),

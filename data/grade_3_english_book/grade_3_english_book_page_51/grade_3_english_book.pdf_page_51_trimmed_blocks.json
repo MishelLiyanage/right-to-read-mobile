@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 428,
+                "time": 372,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 671,
+                "time": 535,
                 "type": "word",
                 "start": 38,
                 "end": 43,

@@ -177,8 +177,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I like tea.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -232,8 +233,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Me too.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -243,7 +245,7 @@
                 "value": "Me"
             },
             {
-                "time": 221,
+                "time": 198,
                 "type": "word",
                 "start": 30,
                 "end": 33,
@@ -302,8 +304,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Oh! Biscuits for me.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -313,21 +316,21 @@
                 "value": "Oh"
             },
             {
-                "time": 890,
+                "time": 867,
                 "type": "word",
                 "start": 31,
                 "end": 39,
                 "value": "Biscuits"
             },
             {
-                "time": 1402,
+                "time": 1365,
                 "type": "word",
                 "start": 40,
                 "end": 43,
                 "value": "for"
             },
             {
-                "time": 1579,
+                "time": 1516,
                 "type": "word",
                 "start": 44,
                 "end": 46,
@@ -354,7 +357,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">coffee</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -384,7 +387,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">milk</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -414,7 +417,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">tea</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -444,7 +447,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">juice</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -474,7 +477,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">water</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -525,9 +528,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -537,14 +539,14 @@
                 "value": "Listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -571,7 +573,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Drinks</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

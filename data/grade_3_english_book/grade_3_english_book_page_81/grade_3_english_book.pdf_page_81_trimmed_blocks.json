@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "72",
+        "words": [
+            "72"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    32.01020050048828,
+                    24.34998893737793
+                ],
+                [
+                    59.52020263671875,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">72</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "72"
+            }
+        ]
+    },
     "2": {
         "text": "listen and say.",
         "words": [
@@ -39,9 +69,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +80,14 @@
                 "value": "listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -118,8 +147,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Where do you live?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -129,21 +158,21 @@
                 "value": "Where"
             },
             {
-                "time": 196,
+                "time": 201,
                 "type": "word",
                 "start": 33,
                 "end": 35,
                 "value": "do"
             },
             {
-                "time": 383,
+                "time": 279,
                 "type": "word",
                 "start": 36,
                 "end": 39,
                 "value": "you"
             },
             {
-                "time": 608,
+                "time": 469,
                 "type": "word",
                 "start": 40,
                 "end": 44,
@@ -224,8 +253,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in a bee hive.</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -235,35 +265,35 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 147,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 371,
+                "time": 504,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 499,
+                "time": 722,
                 "type": "word",
                 "start": 37,
                 "end": 38,
                 "value": "a"
             },
             {
-                "time": 526,
+                "time": 792,
                 "type": "word",
                 "start": 39,
                 "end": 42,
                 "value": "bee"
             },
             {
-                "time": 708,
+                "time": 1074,
                 "type": "word",
                 "start": 43,
                 "end": 47,
@@ -290,7 +320,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">bee</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -363,8 +393,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in a nest.</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -374,28 +405,28 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 147,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 362,
+                "time": 416,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 513,
+                "time": 566,
                 "type": "word",
                 "start": 37,
                 "end": 38,
                 "value": "a"
             },
             {
-                "time": 554,
+                "time": 620,
                 "type": "word",
                 "start": 39,
                 "end": 43,
@@ -422,7 +453,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">bird</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -495,8 +526,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in a burrow.</prosody></speak>",
-        "dialog": "false",
+        "dialog": "true",
         "person_type": "narrator",
+        "voice_id": "Salli",
         "timing": [
             {
                 "time": 6,
@@ -506,28 +538,28 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 147,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 371,
+                "time": 416,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 486,
+                "time": 566,
                 "type": "word",
                 "start": 37,
                 "end": 38,
                 "value": "a"
             },
             {
-                "time": 542,
+                "time": 616,
                 "type": "word",
                 "start": 39,
                 "end": 45,
@@ -554,7 +586,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">rabbit</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

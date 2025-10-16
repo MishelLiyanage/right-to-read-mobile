@@ -134,9 +134,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Where do you live?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -146,21 +145,21 @@
                 "value": "Where"
             },
             {
-                "time": 196,
+                "time": 233,
                 "type": "word",
                 "start": 33,
                 "end": 35,
                 "value": "do"
             },
             {
-                "time": 383,
+                "time": 334,
                 "type": "word",
                 "start": 36,
                 "end": 39,
                 "value": "you"
             },
             {
-                "time": 608,
+                "time": 476,
                 "type": "word",
                 "start": 40,
                 "end": 44,
@@ -219,8 +218,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in <break time=\"1000ms\"/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -230,21 +230,21 @@
                 "value": "I"
             },
             {
-                "time": 135,
+                "time": 118,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 436,
+                "time": 417,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 994,
+                "time": 936,
                 "type": "word",
                 "start": 37,
                 "end": 59,
@@ -336,8 +336,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in <break time=\"1000ms\"/> I live in<break time=\"1000ms\"/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -347,49 +348,49 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 151,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 362,
+                "time": 420,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 889,
+                "time": 938,
                 "type": "word",
                 "start": 37,
                 "end": 59,
                 "value": "<break time=\"1000ms\"/>"
             },
             {
-                "time": 1982,
+                "time": 2032,
                 "type": "word",
                 "start": 60,
                 "end": 61,
                 "value": "I"
             },
             {
-                "time": 2111,
+                "time": 2177,
                 "type": "word",
                 "start": 62,
                 "end": 66,
                 "value": "live"
             },
             {
-                "time": 2412,
+                "time": 2446,
                 "type": "word",
                 "start": 67,
                 "end": 69,
                 "value": "in"
             },
             {
-                "time": 2940,
+                "time": 3061,
                 "type": "word",
                 "start": 69,
                 "end": 91,
@@ -448,8 +449,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in Matara.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -459,21 +461,21 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 125,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 371,
+                "time": 358,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 488,
+                "time": 472,
                 "type": "word",
                 "start": 37,
                 "end": 43,

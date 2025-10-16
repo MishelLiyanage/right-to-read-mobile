@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -107,7 +106,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">school f lag</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -151,7 +150,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Principal</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -181,7 +180,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">teachers</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -233,7 +232,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">lines of children</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -277,7 +276,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">prefect</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -450,7 +449,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Morning assembly is on Monday.<break time=\"500ms\"/> We hoist the school f lag.<break time=\"500ms\"/> We read news.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,

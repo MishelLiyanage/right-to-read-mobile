@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "86",
+        "words": [
+            "86"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    29.85689926147461,
+                    24.34998893737793
+                ],
+                [
+                    61.68689727783203,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">86</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "86"
+            }
+        ]
+    },
     "2": {
         "text": "Listen and read.",
         "words": [
@@ -39,9 +69,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and read.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +80,14 @@
                 "value": "Listen"
             },
             {
-                "time": 452,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 731,
+                "time": 602,
                 "type": "word",
                 "start": 38,
                 "end": 42,
@@ -288,8 +317,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have a raincoat.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -299,21 +328,21 @@
                 "value": "I"
             },
             {
-                "time": 231,
+                "time": 143,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 472,
+                "time": 391,
                 "type": "word",
                 "start": 34,
                 "end": 35,
                 "value": "a"
             },
             {
-                "time": 533,
+                "time": 450,
                 "type": "word",
                 "start": 36,
                 "end": 44,

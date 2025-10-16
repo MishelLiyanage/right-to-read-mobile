@@ -61,9 +61,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Say &apos;Hello&apos; to your friend.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -73,28 +72,28 @@
                 "value": "Say"
             },
             {
-                "time": 321,
+                "time": 258,
                 "type": "word",
                 "start": 31,
                 "end": 48,
                 "value": "&apos;Hello&apos;"
             },
             {
-                "time": 717,
+                "time": 601,
                 "type": "word",
                 "start": 49,
                 "end": 51,
                 "value": "to"
             },
             {
-                "time": 863,
+                "time": 723,
                 "type": "word",
                 "start": 52,
                 "end": 56,
                 "value": "your"
             },
             {
-                "time": 1045,
+                "time": 875,
                 "type": "word",
                 "start": 57,
                 "end": 63,
@@ -142,9 +141,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -154,14 +152,14 @@
                 "value": "Listen"
             },
             {
-                "time": 458,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 725,
+                "time": 595,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -188,8 +186,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Hello!</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -260,8 +258,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I&apos;m Nisal.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -271,7 +270,7 @@
                 "value": "I&apos;m"
             },
             {
-                "time": 171,
+                "time": 161,
                 "type": "word",
                 "start": 36,
                 "end": 41,
@@ -320,7 +319,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Ask and answer.</prosody></speak>",
         "dialog": "false",
-        "person_type": "null",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -374,8 +373,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I&apos;m Sahan.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -385,7 +385,7 @@
                 "value": "I&apos;m"
             },
             {
-                "time": 181,
+                "time": 164,
                 "type": "word",
                 "start": 36,
                 "end": 41,
@@ -490,7 +490,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Myself 1</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

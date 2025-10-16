@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "54",
+        "words": [
+            "54"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.098600387573242,
+                    24.34998893737793
+                ],
+                [
+                    61.44860076904297,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">54</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "54"
+            }
+        ]
+    },
     "2": {
         "text": "Listen to the story.",
         "words": [
@@ -50,9 +80,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen to the story.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -62,21 +91,21 @@
                 "value": "Listen"
             },
             {
-                "time": 375,
+                "time": 380,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "to"
             },
             {
-                "time": 519,
+                "time": 517,
                 "type": "word",
                 "start": 37,
                 "end": 40,
                 "value": "the"
             },
             {
-                "time": 646,
+                "time": 639,
                 "type": "word",
                 "start": 41,
                 "end": 46,
@@ -135,9 +164,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a soup.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -147,21 +175,21 @@
                 "value": "Let&apos;s"
             },
             {
-                "time": 342,
+                "time": 264,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "make"
             },
             {
-                "time": 644,
+                "time": 516,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 700,
+                "time": 574,
                 "type": "word",
                 "start": 45,
                 "end": 49,
@@ -232,8 +260,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a vegetable soup.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -243,28 +271,28 @@
                 "value": "Let&apos;s"
             },
             {
-                "time": 362,
+                "time": 332,
                 "type": "word",
                 "start": 38,
                 "end": 42,
                 "value": "make"
             },
             {
-                "time": 680,
+                "time": 580,
                 "type": "word",
                 "start": 43,
                 "end": 44,
                 "value": "a"
             },
             {
-                "time": 726,
+                "time": 633,
                 "type": "word",
                 "start": 45,
                 "end": 54,
                 "value": "vegetable"
             },
             {
-                "time": 1310,
+                "time": 1238,
                 "type": "word",
                 "start": 55,
                 "end": 59,
@@ -312,8 +340,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">We are hungry.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -323,14 +352,14 @@
                 "value": "We"
             },
             {
-                "time": 156,
+                "time": 234,
                 "type": "word",
                 "start": 30,
                 "end": 33,
                 "value": "are"
             },
             {
-                "time": 270,
+                "time": 415,
                 "type": "word",
                 "start": 34,
                 "end": 40,
@@ -378,8 +407,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have carrots.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -389,14 +419,14 @@
                 "value": "I"
             },
             {
-                "time": 147,
+                "time": 160,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 331,
+                "time": 316,
                 "type": "word",
                 "start": 34,
                 "end": 41,
@@ -444,8 +474,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have leeks.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -455,14 +486,14 @@
                 "value": "I"
             },
             {
-                "time": 110,
+                "time": 231,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 345,
+                "time": 486,
                 "type": "word",
                 "start": 34,
                 "end": 39,
@@ -510,8 +541,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have cabbages.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -521,14 +553,14 @@
                 "value": "I"
             },
             {
-                "time": 147,
+                "time": 160,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 318,
+                "time": 316,
                 "type": "word",
                 "start": 34,
                 "end": 42,
@@ -576,8 +608,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have potatoes.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -587,14 +620,14 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 169,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 286,
+                "time": 373,
                 "type": "word",
                 "start": 34,
                 "end": 42,
@@ -642,8 +675,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have pumpkins.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -653,14 +687,14 @@
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 182,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 286,
+                "time": 436,
                 "type": "word",
                 "start": 34,
                 "end": 42,
@@ -708,8 +742,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I have tomatoes.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -719,14 +754,14 @@
                 "value": "I"
             },
             {
-                "time": 133,
+                "time": 171,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "have"
             },
             {
-                "time": 359,
+                "time": 423,
                 "type": "word",
                 "start": 34,
                 "end": 42,
@@ -818,8 +853,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">The soup is ready.<break time=\"500ms\"/> It&apos;s very tasty.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,

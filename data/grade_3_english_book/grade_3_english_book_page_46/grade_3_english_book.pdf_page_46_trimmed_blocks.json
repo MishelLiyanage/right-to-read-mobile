@@ -39,9 +39,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and match.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +50,14 @@
                 "value": "Listen"
             },
             {
-                "time": 428,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 687,
+                "time": 562,
                 "type": "word",
                 "start": 38,
                 "end": 43,
@@ -85,7 +84,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Principal</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -126,7 +125,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Vice principal</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -163,7 +162,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">principal</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -204,7 +203,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">vice principal</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -252,7 +251,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">security guard</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -289,7 +288,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">librarian</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -319,7 +318,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">teacher</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

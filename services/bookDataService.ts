@@ -69,6 +69,7 @@ import page36BlocksData from '@/data/grade_3_english_book/grade_3_english_book_p
 import page37BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37_blocks.json';
 import page38BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38_blocks.json';
 import page39BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39_blocks.json';
+import page40BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_40/grade_3_english_book.pdf_page_40_blocks.json';
 import page41BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_41/grade_3_english_book.pdf_page_41_blocks.json';
 import page42BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_42/grade_3_english_book.pdf_page_42_blocks.json';
 import page43BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_43/grade_3_english_book.pdf_page_43_blocks.json';
@@ -175,7 +176,7 @@ export class BookDataService {
   constructor() {
     // Map all your blocks data by page number
     
-    // Grade 3 English Book pages (10-39, 41-138, missing 1-9 and 40)
+    // Grade 3 English Book pages (10-138, missing 1-9)
     this.dataMap.set(10, page10BlocksData as any);
     this.dataMap.set(11, page11BlocksData as any);
     this.dataMap.set(12, page12BlocksData as any);
@@ -206,6 +207,7 @@ export class BookDataService {
     this.dataMap.set(37, page37BlocksData as any);
     this.dataMap.set(38, page38BlocksData as any);
     this.dataMap.set(39, page39BlocksData as any);
+    this.dataMap.set(40, page40BlocksData as any);
     this.dataMap.set(41, page41BlocksData as any);
     this.dataMap.set(42, page42BlocksData as any);
     this.dataMap.set(43, page43BlocksData as any);

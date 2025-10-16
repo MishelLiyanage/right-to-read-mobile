@@ -1,4 +1,34 @@
 {
+    "1": {
+        "text": "82",
+        "words": [
+            "82"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.23040008544922,
+                    24.34998893737793
+                ],
+                [
+                    61.31040573120117,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">82</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "82"
+            }
+        ]
+    },
     "2": {
         "text": "Listen and repeat.",
         "words": [
@@ -39,9 +69,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "narrator",
         "timing": [
             {
                 "time": 6,
@@ -51,14 +80,14 @@
                 "value": "Listen"
             },
             {
-                "time": 452,
+                "time": 401,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "and"
             },
             {
-                "time": 718,
+                "time": 555,
                 "type": "word",
                 "start": 38,
                 "end": 44,
