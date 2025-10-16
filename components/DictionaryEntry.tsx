@@ -61,11 +61,28 @@ export default function DictionaryEntry({ entry, onSpeakWord }: DictionaryEntryP
             {meaning.definitions.slice(0, 2).map((def, index) => ( // Show max 2 definitions per part of speech
               <View key={index} style={styles.definitionItem}>
                 <Text style={styles.definitionText}>
-                  {index + 1}. {def.definition}
+                  {def.definition}
                 </Text>
+                
+                {/* Sinhala Translation */}
+                {def.sinhala_translation && (
+                  <View style={styles.translationContainer}>
+                    <Text style={styles.translationLabel}>Sinhala:</Text>
+                    <Text style={styles.translationText}>{def.sinhala_translation}</Text>
+                  </View>
+                )}
+                
+                {/* Tamil Translation */}
+                {def.tamil_translation && (
+                  <View style={styles.translationContainer}>
+                    <Text style={styles.translationLabel}>Tamil:</Text>
+                    <Text style={styles.translationText}>{def.tamil_translation}</Text>
+                  </View>
+                )}
+                
                 {def.example && (
                   <Text style={styles.exampleText}>
-                    Example: "{def.example}"
+                    Example: &ldquo;{def.example}&rdquo;
                   </Text>
                 )}
               </View>
@@ -205,5 +222,24 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     marginTop: 4,
     paddingLeft: 8,
+  },
+  translationContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginTop: 4,
+    marginLeft: 8,
+  },
+  translationLabel: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#b8b8b8ff',
+    marginRight: 6,
+    minWidth: 50,
+  },
+  translationText: {
+    fontSize: 12,
+    color: '#f8f8f8ff',
+    flex: 1,
+    lineHeight: 16,
   },
 });

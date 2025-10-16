@@ -6,15 +6,15 @@ import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-    ActivityIndicator,
-    Animated,
-    Dimensions,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    TouchableOpacity,
-    TouchableWithoutFeedback,
-    View,
+  ActivityIndicator,
+  Animated,
+  Dimensions,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
 } from 'react-native';
 
 interface WordPopupProps {
@@ -265,11 +265,36 @@ export default function WordPopup({
                           {meaning.definitions.slice(0, 2).map((def, defIndex) => (
                             <View key={defIndex} style={styles.definition}>
                               <ThemedText style={styles.definitionText}>
-                                {defIndex + 1}. {def.definition}
+                                {def.definition}
                               </ThemedText>
+                              
+                              {/* Sinhala Translation */}
+                              {def.sinhala_translation && (
+                                <View style={styles.translationContainer}>
+                                  <ThemedText style={styles.translationLabel}>
+                                    Sinhala:
+                                  </ThemedText>
+                                  <ThemedText style={styles.translationText}>
+                                    {def.sinhala_translation}
+                                  </ThemedText>
+                                </View>
+                              )}
+                              
+                              {/* Tamil Translation */}
+                              {def.tamil_translation && (
+                                <View style={styles.translationContainer}>
+                                  <ThemedText style={styles.translationLabel}>
+                                    Tamil:
+                                  </ThemedText>
+                                  <ThemedText style={styles.translationText}>
+                                    {def.tamil_translation}
+                                  </ThemedText>
+                                </View>
+                              )}
+                              
                               {def.example && (
                                 <ThemedText style={styles.example}>
-                                  "{def.example}"
+                                  Example: &ldquo;{def.example}&rdquo;
                                 </ThemedText>
                               )}
                             </View>
@@ -455,8 +480,27 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontStyle: 'italic',
     opacity: 0.8,
-    marginTop: 2,
+    marginTop: 4,
     marginLeft: 12,
+  },
+  translationContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginTop: 4,
+    marginLeft: 8,
+  },
+  translationLabel: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#b0b0b0ff',
+    marginRight: 6,
+    minWidth: 50,
+  },
+  translationText: {
+    fontSize: 12,
+    color: '#ecececff',
+    flex: 1,
+    lineHeight: 16,
   },
   arrow: {
     zIndex: -1,

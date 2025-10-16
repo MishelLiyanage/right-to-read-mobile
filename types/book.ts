@@ -67,6 +67,8 @@ export interface WordMeaning {
   definitions: {
     definition: string;
     example?: string;
+    sinhala_translation?: string;
+    tamil_translation?: string;
   }[];
 }
 
