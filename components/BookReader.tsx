@@ -443,7 +443,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       // Load definition
       setIsLoadingDefinition(true);
       
-      const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
+      const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber, book.title);
       if (definitions && definitions.length > 0) {
         setSelectedWordDefinition(definitions[0]);
       } else {
@@ -453,10 +453,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       console.error('Error loading word definition:', error);
       
       if (error instanceof Error) {
-        if (error.message.includes('404') || error.message.includes('not found')) {
-          setDefinitionError(`"${word}" not found in dictionary`);
-        } else if (error.message.includes('network')) {
-          setDefinitionError('Please check your internet connection');
+        if (error.message.includes('not found in the dictionary')) {
+          setDefinitionError(`"${word}" is not available in this book's dictionary`);
+        } else if (error.message.includes('Dictionary file not found')) {
+          setDefinitionError('Dictionary not available for this book');
         } else {
           setDefinitionError(`Unable to load definition for "${word}"`);
         }
@@ -532,7 +532,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       for (const word of limitedWords) {
         try {
-          const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber);
+          const definitions = await dictionaryService.current.lookupWord(word, currentPage?.pageNumber, book.title);
           
           // Only include words that are nouns
           if (containsNoun(definitions)) {
