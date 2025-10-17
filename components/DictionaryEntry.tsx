@@ -125,9 +125,9 @@ const styles = StyleSheet.create({
   container: {
     marginBottom: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
+    borderBottomColor: '#333333',
     paddingBottom: 16,
-    backgroundColor: '#ffffff', // Ensure white background
+    backgroundColor: 'transparent', // Transparent background to inherit from sidebar
   },
   headerContainer: {
     flexDirection: 'row',
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
   wordText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#000000', // Force black color for visibility
+    color: '#FFFFFF', // White text on dark background
   },
   speakerButton: {
     backgroundColor: '#3498db',
@@ -181,11 +181,11 @@ const styles = StyleSheet.create({
   loadingText: {
     marginLeft: 8,
     fontSize: 14,
-    color: '#000000', // Force black color for visibility
+    color: '#FFFFFF', // White text on dark background
   },
   noDefinitionText: {
     fontSize: 14,
-    color: '#666666',
+    color: '#CCCCCC',
     fontStyle: 'italic',
   },
   definitionContainer: {
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
   },
   phoneticText: {
     fontSize: 16,
-    color: '#555555', // Darker for better contrast
+    color: '#CCCCCC', // Light gray on dark background
     marginBottom: 8,
     fontStyle: 'italic',
   },
@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   partOfSpeechText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#8e44ad',
+    color: '#BB86FC', // Purple accent color for dark theme
     marginBottom: 4,
     fontStyle: 'italic',
   },
@@ -214,11 +214,11 @@ const styles = StyleSheet.create({
   definitionText: {
     fontSize: 15,
     lineHeight: 20,
-    color: '#000000', // Force black color for visibility
+    color: '#FFFFFF', // White text on dark background
   },
   exampleText: {
     fontSize: 13,
-    color: '#555555', // Darker for better contrast
+    color: '#CCCCCC', // Light gray on dark background
     fontStyle: 'italic',
     marginTop: 4,
     paddingLeft: 8,

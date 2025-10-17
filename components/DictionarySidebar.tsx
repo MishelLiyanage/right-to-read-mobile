@@ -4,14 +4,14 @@ import { ThemedView } from '@/components/ThemedView';
 import { DictionaryEntry as DictionaryEntryType } from '@/types/book';
 import React, { useEffect, useRef } from 'react';
 import {
-    Animated,
-    Dimensions,
-    FlatList,
-    Modal,
-    StyleSheet,
-    TouchableOpacity,
-    TouchableWithoutFeedback,
-    View
+  Animated,
+  Dimensions,
+  FlatList,
+  Modal,
+  StyleSheet,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View
 } from 'react-native';
 
 interface DictionarySidebarProps {
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
     top: 0,
     bottom: 0,
     width: SIDEBAR_WIDTH,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
     shadowColor: '#000',
     shadowOffset: {
       width: -2,
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   },
   sidebarContent: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
   },
   headerContainer: {
     flexDirection: 'row',
@@ -194,13 +194,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
-    backgroundColor: '#f8f9fa',
+    borderBottomColor: '#636161ff',
+    backgroundColor: '#000000ff',
   },
   headerTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#000000', // Force black for better visibility
+    color: '#FFFFFF', // White text on black background
   },
   closeButton: {
     padding: 8,
@@ -231,13 +231,13 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#333333', // Darker for better visibility
+    color: '#FFFFFF', // White text on black background
     textAlign: 'center',
     marginBottom: 8,
   },
   emptySubtext: {
     fontSize: 14,
-    color: '#666666', // Darker for better visibility
+    color: '#CCCCCC', // Light gray text on black background
     textAlign: 'center',
     lineHeight: 20,
   },
@@ -245,12 +245,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 12,
     borderTopWidth: 1,
-    borderTopColor: '#e0e0e0',
-    backgroundColor: '#f8f9fa',
+    borderTopColor: '#333333',
+    backgroundColor: '#000000',
   },
   footerText: {
     fontSize: 12,
-    color: '#555555', // Darker for better visibility
+    color: '#CCCCCC', // Light gray text on black background
     textAlign: 'center',
   },
 });
