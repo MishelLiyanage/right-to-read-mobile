@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "61 Listen, point and say.",
+    "0": {
+        "text": "Listen, point and say.",
         "words": [
-            "61",
             "Listen,",
             "point",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    554.14599609375,
-                    24.34998893737793
-                ],
-                [
-                    577.1859741210938,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.73099899291992,
@@ -60,55 +49,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">61 Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "61"
-            },
-            {
-                "time": 794,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1493,
+                "time": 702,
                 "type": "word",
-                "start": 37,
-                "end": 58,
+                "start": 34,
+                "end": 55,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1893,
+                "time": 1102,
                 "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 56,
+                "end": 61,
                 "value": "point"
             },
             {
-                "time": 2221,
+                "time": 1461,
                 "type": "word",
-                "start": 65,
-                "end": 68,
+                "start": 62,
+                "end": 65,
                 "value": "and"
             },
             {
-                "time": 2395,
+                "time": 1635,
                 "type": "word",
-                "start": 69,
-                "end": 72,
+                "start": 66,
+                "end": 69,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "breakfast",
         "words": [
             "breakfast"
@@ -138,7 +120,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "We eat bread.",
         "words": [
             "We",
@@ -179,8 +161,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">We eat bread.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -190,14 +172,14 @@
                 "value": "We"
             },
             {
-                "time": 212,
+                "time": 345,
                 "type": "word",
                 "start": 30,
                 "end": 33,
                 "value": "eat"
             },
             {
-                "time": 428,
+                "time": 629,
                 "type": "word",
                 "start": 34,
                 "end": 39,
@@ -205,7 +187,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "lunch",
         "words": [
             "lunch"
@@ -235,7 +217,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "We eat rice and curry.",
         "words": [
             "We",
@@ -338,6 +320,36 @@
             }
         ]
     },
+    "5": {
+        "text": "dinner",
+        "words": [
+            "dinner"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    315.2640075683594,
+                    542.385009765625
+                ],
+                [
+                    375.5440368652344,
+                    566.2049560546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">dinner</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "dinner"
+            }
+        ]
+    },
     "6": {
         "text": "We drink soup. We eat vegetables.",
         "words": [
@@ -412,8 +424,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">We drink soup.<break time=\"500ms\"/> We eat vegetables.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -423,76 +435,46 @@
                 "value": "We"
             },
             {
-                "time": 155,
+                "time": 164,
                 "type": "word",
                 "start": 30,
                 "end": 35,
                 "value": "drink"
             },
             {
-                "time": 499,
+                "time": 601,
                 "type": "word",
                 "start": 36,
                 "end": 40,
                 "value": "soup"
             },
             {
-                "time": 990,
+                "time": 1051,
                 "type": "word",
                 "start": 41,
                 "end": 62,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1877,
+                "time": 1937,
                 "type": "word",
                 "start": 63,
                 "end": 65,
                 "value": "We"
             },
             {
-                "time": 2083,
+                "time": 2276,
                 "type": "word",
                 "start": 66,
                 "end": 69,
                 "value": "eat"
             },
             {
-                "time": 2300,
+                "time": 2603,
                 "type": "word",
                 "start": 70,
                 "end": 80,
                 "value": "vegetables"
-            }
-        ]
-    },
-    "7": {
-        "text": "dinner",
-        "words": [
-            "dinner"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    315.2640075683594,
-                    542.385009765625
-                ],
-                [
-                    375.5440368652344,
-                    566.2049560546875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">dinner</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "dinner"
             }
         ]
     }

@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "20",
+        "words": [
+            "20"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    29.871599197387695,
+                    24.34998893737793
+                ],
+                [
+                    61.671600341796875,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">20</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "20"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "This is my family.",
         "words": [
             "This",

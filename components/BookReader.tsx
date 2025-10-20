@@ -6,12 +6,11 @@ import { ThemedText } from '@/components/ThemedText';
 import WordOverlay from '@/components/WordOverlay';
 import WordPopup from '@/components/WordPopup';
 import { useImageLayout } from '@/hooks/useImageLayout';
-import { BookDataService } from '@/services/bookDataService';
-import { PageSize } from '@/services/coordinateScaler';
 import { DictionaryService } from '@/services/dictionaryService';
 import { BlockHighlightData, highlightDataService } from '@/services/highlightDataService';
 import { ImagePreloadService } from '@/services/imagePreloadService';
 import { TextProcessor } from '@/services/textProcessor';
+import { TrimmedBlocksDataService } from '@/services/trimmedBlocksDataService';
 import { TTSService, TTSServiceCallbacks } from '@/services/ttsService';
 import { WordAudioService } from '@/services/wordAudioService';
 import { WordLayoutData, WordPosition, WordPositionService } from '@/services/wordPositionService';
@@ -27,8 +26,7 @@ interface BookReaderProps {
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
-// Original page dimensions based on coordinate analysis
-const ORIGINAL_PAGE_SIZE: PageSize = { width: 612, height: 774 };
+// No longer using hardcoded page size - now using dynamic sourceImageDimensions from useImageLayout
 
 // Audio speed control constants
 // const MIN_SPEED = 0.25;
@@ -119,17 +117,40 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           console.error('TTS Error:', error);
         },
         onBlockStart: async (blockIndex, text) => {
+          console.log(`[BookReader] onBlockStart called:`, {
+            blockIndex,
+            text: text.substring(0, 50) + '...',
+            currentPageNumber: currentPage?.pageNumber,
+            bookTitle: book.title,
+            totalBlocks: currentPage?.blocks?.length
+          });
+          
           setCurrentBlockIndex(blockIndex);
           
           // Load highlighting data for current block
           const blockId = currentPage?.blocks?.[blockIndex]?.id;
-          if (blockId) {
+          console.log(`[BookReader] Loading highlight data for:`, {
+            blockId,
+            pageNumber: currentPage?.pageNumber,
+            bookTitle: book.title,
+            blockExists: !!currentPage?.blocks?.[blockIndex]
+          });
+          
+          if (blockId !== null && blockId !== undefined) {
             try {
-              const highlightData = await highlightDataService.getBlockHighlightData(blockId, currentPage.pageNumber);
+              const highlightData = await highlightDataService.getBlockHighlightData(blockId, currentPage.pageNumber, book.title);
+              console.log(`[BookReader] Highlight data loaded:`, {
+                hasData: !!highlightData,
+                wordsCount: highlightData?.words?.length || 0,
+                blockId,
+                pageNumber: currentPage.pageNumber
+              });
               setCurrentBlockHighlightData(highlightData);
             } catch (error) {
-              console.error('Failed to load highlight data:', error);
+              console.error('[BookReader] Failed to load highlight data:', error);
             }
+          } else {
+            console.warn('[BookReader] No blockId found for blockIndex:', blockIndex);
           }
         },
         onBlockComplete: (blockIndex) => {
@@ -145,7 +166,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       if (currentPage?.blocks && ttsService.current) {
         try {
           await ttsService.current.initialize();
-          ttsService.current.loadContent(currentPage.blocks);
+          ttsService.current.loadContent(currentPage.blocks, book.title);
         } catch (error) {
           console.error('Failed to initialize TTS Service:', error);
         }
@@ -212,7 +233,8 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             // Use the new method that loads your actual coordinate data
             const layoutData = wordPositionService.current.calculateWordPositionsFromData(
               currentPage.pageNumber,
-              ORIGINAL_PAGE_SIZE,
+              book.title,
+              sourceImageDimensions,
               renderedImageSize,
               imageOffset
             );
@@ -244,7 +266,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             // Fallback to the old method if data files are not available
             const layoutData = wordPositionService.current.calculateWordPositions(
               currentPage.blocks!,
-              ORIGINAL_PAGE_SIZE,
+              sourceImageDimensions,
               renderedImageSize,
               imageOffset
             );
@@ -380,7 +402,17 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   // };
 
   const handleBlockPlay = async (blockId: number, blockText: string) => {
+    console.log(`[BookReader] handleBlockPlay called:`, {
+      blockId,
+      blockText: blockText.substring(0, 50) + '...',
+      bookTitle: book.title,
+      currentPage: currentPageIndex,
+      currentBlocks: currentPage?.blocks?.length || 0,
+      ttsServiceExists: !!ttsService.current
+    });
+    
     if (!ttsService.current) {
+      console.error('[BookReader] No TTS service available');
       Alert.alert('Error', 'No TTS service available');
       return;
     }
@@ -388,6 +420,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     try {
       // If the same block is currently playing, stop it
       if (currentlyPlayingBlockId === blockId) {
+        console.log(`[BookReader] Stopping currently playing block ${blockId}`);
         await ttsService.current.stop();
         setCurrentlyPlayingBlockId(null);
         return;
@@ -395,6 +428,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       // Stop any current playback (both full page and individual block)
       if (isPlaying || currentlyPlayingBlockId !== null) {
+        console.log(`[BookReader] Stopping previous playback`, {
+          isPlaying,
+          currentlyPlayingBlockId
+        });
         await ttsService.current.stop();
         setIsPlaying(false);
         setIsPaused(false);
@@ -402,6 +439,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       }
 
       // Start playing the specific block
+      console.log(`[BookReader] Starting playback for block ${blockId}`);
       setCurrentlyPlayingBlockId(blockId);
       
       await ttsService.current.playSpecificBlock(blockId);
@@ -630,12 +668,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               const renderedImageSize = getRenderedImageSize();
               const imageOffset = getImageOffset();
               
-              // Fallback to manual calculation if hook data not available yet
-              if (!renderedImageSize || !imageOffset) {
+              // Ensure sourceImageDimensions is available for accurate coordinate scaling
+              if (!renderedImageSize || !imageOffset || !sourceImageDimensions) {
                 console.log('[BookReader] Using fallback calculation - hook data not ready');
                 const availableWidth = screenWidth - SIDEBAR_WIDTH;
                 const availableHeight = screenHeight;
-                const aspectRatio = ORIGINAL_PAGE_SIZE.width / ORIGINAL_PAGE_SIZE.height;
+                // Use fallback dimensions if sourceImageDimensions not available yet
+                const fallbackPageSize = { width: 612, height: 774 }; // Default from Grade 3
+                const aspectRatio = fallbackPageSize.width / fallbackPageSize.height;
                 
                 // Use full height and calculate width proportionally
                 let fallbackImageSize = {
@@ -669,28 +709,65 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                         speechMarks={currentBlockHighlightData.speechMarks}
                         isPlaying={isPlaying && !isPaused}
                         currentTime={currentPlaybackPosition}
-                        originalPageSize={ORIGINAL_PAGE_SIZE}
+                        originalPageSize={fallbackPageSize}
                         renderedImageSize={fallbackImageSize}
                         imageOffset={fallbackOffset}
                         onWordHighlight={(wordIndex, word) => {}}
                       />
                     )}
                     {currentPage?.blocks && (() => {
-                      const bookDataService = BookDataService.getInstance();
-                      const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
+                      const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
+                      const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title);
                       const blocksWithBounds = currentPage.blocks.map(block => {
-                        const blockData = pageBlocksData?.[block.id.toString()];
+                        // Try to find matching block data by text content instead of ID
+                        let matchingBlockData = null;
+                        if (pageBlocksData) {
+                          // Look for a block with matching text content
+                          for (const [trimmedBlockId, trimmedBlock] of Object.entries(pageBlocksData)) {
+                            if (trimmedBlock.text && block.text && trimmedBlock.text.trim() === block.text.trim()) {
+                              matchingBlockData = trimmedBlock;
+                              console.log(`[BookReader] Matched block ${block.id} "${block.text.substring(0, 30)}" with trimmed block ${trimmedBlockId}`);
+                              break;
+                            }
+                          }
+                        }
+                        
+                        if (!matchingBlockData) {
+                          console.log(`[BookReader] No match found for block ${block.id} "${block.text.substring(0, 30)}"`);
+                        }
+                        
                         return {
                           id: block.id,
                           text: block.text,
-                          bounding_boxes: blockData?.bounding_boxes
+                          bounding_boxes: matchingBlockData?.bounding_boxes
                         };
-                      }).filter(block => block.bounding_boxes);
+                      }).filter(block => {
+                        // Include blocks that have bounding boxes OR have audio available
+                        if (block.bounding_boxes) {
+                          return true;
+                        }
+                        
+                        // Check if this block has audio available
+                        const { AudioResolver } = require('@/services/audioResolver');
+                        const hasAudio = AudioResolver.resolveAudio(currentPage.pageNumber, block.id.toString(), book.title);
+                        if (hasAudio) {
+                          console.log(`[BookReader] Block ${block.id} has audio but no bounding boxes - including anyway`);
+                          return true;
+                        }
+                        
+                        console.log(`[BookReader] Block ${block.id} has no bounding boxes and no audio - excluding`);
+                        return false;
+                      });
+
+                      console.log(`[BookReader] Blocks before/after filtering:`, {
+                        originalBlocks: currentPage.blocks.map(b => ({ id: b.id, text: b.text.substring(0, 20) })),
+                        filteredBlocks: blocksWithBounds.map(b => ({ id: b.id, text: b.text.substring(0, 20) }))
+                      });
 
                       return (
                         <BlockPlayButtonsOverlay
                           blocks={blocksWithBounds}
-                          originalPageSize={ORIGINAL_PAGE_SIZE}
+                          originalPageSize={fallbackPageSize}
                           renderedImageSize={fallbackImageSize}
                           imageOffset={fallbackOffset}
                           currentlyPlayingBlockId={currentlyPlayingBlockId}
@@ -726,7 +803,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                       speechMarks={currentBlockHighlightData.speechMarks}
                       isPlaying={isPlaying && !isPaused}
                       currentTime={currentPlaybackPosition}
-                      originalPageSize={ORIGINAL_PAGE_SIZE}
+                      originalPageSize={sourceImageDimensions}
                       renderedImageSize={renderedImageSize}
                       imageOffset={imageOffset}
                       onWordHighlight={(wordIndex, word) => {
@@ -737,24 +814,51 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
                   {/* Block Play Buttons Overlay */}
                   {currentPage?.blocks && (() => {
-                    // Load block data with bounding boxes from BookDataService
-                    const bookDataService = BookDataService.getInstance();
-                    const pageBlocksData = bookDataService.getBlocksForPage(currentPage.pageNumber);
+                    // Load block data with bounding boxes from TrimmedBlocksDataService
+                    const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
+                    const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title);
                     
-                    // Prepare blocks data with bounding boxes
+                    // Prepare blocks data with enhanced filtering
                     const blocksWithBounds = currentPage.blocks.map(block => {
-                      const blockData = pageBlocksData?.[block.id.toString()];
+                      // Try to find matching block data by text content instead of ID
+                      let matchingBlockData = null;
+                      if (pageBlocksData) {
+                        // Look for a block with matching text content
+                        for (const [trimmedBlockId, trimmedBlock] of Object.entries(pageBlocksData)) {
+                          if (trimmedBlock.text && block.text && trimmedBlock.text.trim() === block.text.trim()) {
+                            matchingBlockData = trimmedBlock;
+                            break;
+                          }
+                        }
+                      }
+                      
                       return {
                         id: block.id,
                         text: block.text,
-                        bounding_boxes: blockData?.bounding_boxes
+                        bounding_boxes: matchingBlockData?.bounding_boxes
                       };
-                    }).filter(block => block.bounding_boxes); // Only include blocks with bounding boxes
+                    }).filter(block => {
+                      // Include blocks that have bounding boxes OR have audio available
+                      if (block.bounding_boxes) {
+                        return true;
+                      }
+                      
+                      // Check if this block has audio available
+                      const { AudioResolver } = require('@/services/audioResolver');
+                      const hasAudio = AudioResolver.resolveAudio(currentPage.pageNumber, block.id.toString(), book.title);
+                      if (hasAudio) {
+                        console.log(`[BookReader] Block ${block.id} has audio but no bounding boxes - including anyway`);
+                        return true;
+                      }
+                      
+                      console.log(`[BookReader] Block ${block.id} has no bounding boxes and no audio - excluding`);
+                      return false;
+                    });
 
                     return (
                       <BlockPlayButtonsOverlay
                         blocks={blocksWithBounds}
-                        originalPageSize={ORIGINAL_PAGE_SIZE}
+                        originalPageSize={sourceImageDimensions}
                         renderedImageSize={renderedImageSize}
                         imageOffset={imageOffset}
                         currentlyPlayingBlockId={currentlyPlayingBlockId}

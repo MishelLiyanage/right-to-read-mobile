@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "32",
+        "words": [
+            "32"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.79439926147461,
+                    24.34998893737793
+                ],
+                [
+                    60.73440170288086,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">32</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "32"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen, point and say.",
         "words": [
             "Listen,",
@@ -51,7 +81,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -87,6 +117,90 @@
                 "start": 66,
                 "end": 69,
                 "value": "say"
+            }
+        ]
+    },
+    "2": {
+        "text": "I brush my teeth.",
+        "words": [
+            "I",
+            "brush",
+            "my",
+            "teeth."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    238.87100219726562,
+                    162.93197631835938
+                ],
+                [
+                    246.27099609375,
+                    186.75198364257812
+                ]
+            ],
+            [
+                [
+                    251.27099609375,
+                    162.93197631835938
+                ],
+                [
+                    304.3310241699219,
+                    186.75198364257812
+                ]
+            ],
+            [
+                [
+                    309.3310241699219,
+                    162.93197631835938
+                ],
+                [
+                    339.81103515625,
+                    186.75198364257812
+                ]
+            ],
+            [
+                [
+                    344.4110107421875,
+                    162.93197631835938
+                ],
+                [
+                    400.7710266113281,
+                    186.75198364257812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I brush my teeth.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 106,
+                "type": "word",
+                "start": 29,
+                "end": 34,
+                "value": "brush"
+            },
+            {
+                "time": 480,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "my"
+            },
+            {
+                "time": 660,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "teeth"
             }
         ]
     },
@@ -141,9 +255,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I wash my face.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -153,21 +266,21 @@
                 "value": "I"
             },
             {
-                "time": 123,
+                "time": 75,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "wash"
             },
             {
-                "time": 543,
+                "time": 431,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "my"
             },
             {
-                "time": 752,
+                "time": 593,
                 "type": "word",
                 "start": 37,
                 "end": 41,
@@ -215,9 +328,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I eat rice.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -227,14 +339,14 @@
                 "value": "I"
             },
             {
-                "time": 170,
+                "time": 175,
                 "type": "word",
                 "start": 29,
                 "end": 32,
                 "value": "eat"
             },
             {
-                "time": 423,
+                "time": 357,
                 "type": "word",
                 "start": 33,
                 "end": 37,
@@ -282,9 +394,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I drink milk.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -294,14 +405,14 @@
                 "value": "I"
             },
             {
-                "time": 128,
+                "time": 130,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "drink"
             },
             {
-                "time": 464,
+                "time": 534,
                 "type": "word",
                 "start": 35,
                 "end": 39,
@@ -360,9 +471,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I go to school.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -372,21 +482,21 @@
                 "value": "I"
             },
             {
-                "time": 130,
+                "time": 90,
                 "type": "word",
                 "start": 29,
                 "end": 31,
                 "value": "go"
             },
             {
-                "time": 431,
+                "time": 298,
                 "type": "word",
                 "start": 32,
                 "end": 34,
                 "value": "to"
             },
             {
-                "time": 592,
+                "time": 430,
                 "type": "word",
                 "start": 35,
                 "end": 41,
@@ -456,9 +566,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I play with my friends.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -468,28 +577,28 @@
                 "value": "I"
             },
             {
-                "time": 91,
+                "time": 128,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "play"
             },
             {
-                "time": 445,
+                "time": 421,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "with"
             },
             {
-                "time": 682,
+                "time": 656,
                 "type": "word",
                 "start": 39,
                 "end": 41,
                 "value": "my"
             },
             {
-                "time": 859,
+                "time": 885,
                 "type": "word",
                 "start": 42,
                 "end": 49,
@@ -537,9 +646,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I watch television.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -549,14 +657,14 @@
                 "value": "I"
             },
             {
-                "time": 116,
+                "time": 108,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "watch"
             },
             {
-                "time": 526,
+                "time": 481,
                 "type": "word",
                 "start": 35,
                 "end": 45,
@@ -593,9 +701,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I sleep.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -605,96 +712,11 @@
                 "value": "I"
             },
             {
-                "time": 195,
+                "time": 150,
                 "type": "word",
                 "start": 29,
                 "end": 34,
                 "value": "sleep"
-            }
-        ]
-    },
-    "10": {
-        "text": "I brush my teeth.",
-        "words": [
-            "I",
-            "brush",
-            "my",
-            "teeth."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    238.87100219726562,
-                    162.93197631835938
-                ],
-                [
-                    246.27099609375,
-                    186.75198364257812
-                ]
-            ],
-            [
-                [
-                    251.27099609375,
-                    162.93197631835938
-                ],
-                [
-                    304.3310241699219,
-                    186.75198364257812
-                ]
-            ],
-            [
-                [
-                    309.3310241699219,
-                    162.93197631835938
-                ],
-                [
-                    339.81103515625,
-                    186.75198364257812
-                ]
-            ],
-            [
-                [
-                    344.4110107421875,
-                    162.93197631835938
-                ],
-                [
-                    400.7710266113281,
-                    186.75198364257812
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I brush my teeth.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 164,
-                "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "brush"
-            },
-            {
-                "time": 600,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "my"
-            },
-            {
-                "time": 764,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "teeth"
             }
         ]
     }

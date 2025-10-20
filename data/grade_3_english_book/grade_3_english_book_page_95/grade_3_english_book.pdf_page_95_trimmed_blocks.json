@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "86",
         "words": [
             "86"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and read.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and read.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -92,6 +92,91 @@
                 "start": 38,
                 "end": 42,
                 "value": "read"
+            }
+        ]
+    },
+    "2": {
+        "text": "I have a hat.",
+        "words": [
+            "I",
+            "have",
+            "a",
+            "hat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    186.81700134277344,
+                    133.89527893066406
+                ],
+                [
+                    194.30776977539062,
+                    158.00743103027344
+                ]
+            ],
+            [
+                [
+                    199.3690948486328,
+                    133.89527893066406
+                ],
+                [
+                    246.11549377441406,
+                    158.00743103027344
+                ]
+            ],
+            [
+                [
+                    251.17681884765625,
+                    133.89527893066406
+                ],
+                [
+                    263.4859619140625,
+                    158.00743103027344
+                ]
+            ],
+            [
+                [
+                    273.608642578125,
+                    133.89527893066406
+                ],
+                [
+                    312.621337890625,
+                    158.00743103027344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I have a hat.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 132,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "have"
+            },
+            {
+                "time": 417,
+                "type": "word",
+                "start": 34,
+                "end": 35,
+                "value": "a"
+            },
+            {
+                "time": 484,
+                "type": "word",
+                "start": 36,
+                "end": 39,
+                "value": "hat"
             }
         ]
     },
@@ -347,91 +432,6 @@
                 "start": 36,
                 "end": 44,
                 "value": "raincoat"
-            }
-        ]
-    },
-    "6": {
-        "text": "I have a hat.",
-        "words": [
-            "I",
-            "have",
-            "a",
-            "hat."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    186.81700134277344,
-                    133.89527893066406
-                ],
-                [
-                    194.30776977539062,
-                    158.00743103027344
-                ]
-            ],
-            [
-                [
-                    199.3690948486328,
-                    133.89527893066406
-                ],
-                [
-                    246.11549377441406,
-                    158.00743103027344
-                ]
-            ],
-            [
-                [
-                    251.17681884765625,
-                    133.89527893066406
-                ],
-                [
-                    263.4859619140625,
-                    158.00743103027344
-                ]
-            ],
-            [
-                [
-                    273.608642578125,
-                    133.89527893066406
-                ],
-                [
-                    312.621337890625,
-                    158.00743103027344
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I have a hat.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 132,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "have"
-            },
-            {
-                "time": 417,
-                "type": "word",
-                "start": 34,
-                "end": 35,
-                "value": "a"
-            },
-            {
-                "time": 484,
-                "type": "word",
-                "start": 36,
-                "end": 39,
-                "value": "hat"
             }
         ]
     }

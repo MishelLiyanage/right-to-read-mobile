@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "120",
         "words": [
             "120"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Read aloud.",
         "words": [
             "Read",
@@ -59,7 +59,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -77,7 +77,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "We get water from:",
         "words": [
             "We",
@@ -129,7 +129,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">We get water from:</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -161,7 +161,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "rain",
         "words": [
             "rain"
@@ -191,55 +191,7 @@
             }
         ]
     },
-    "5": {
-        "text": "river well",
-        "words": [
-            "river",
-            "well"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    399.0469970703125,
-                    674.375732421875
-                ],
-                [
-                    438.8470153808594,
-                    698.1956787109375
-                ]
-            ],
-            [
-                [
-                    148.8470001220703,
-                    671.5142822265625
-                ],
-                [
-                    186.2869873046875,
-                    695.3342895507812
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">river well</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "river"
-            },
-            {
-                "time": 295,
-                "type": "word",
-                "start": 33,
-                "end": 37,
-                "value": "well"
-            }
-        ]
-    },
-    "6": {
+    "4": {
         "text": "tap",
         "words": [
             "tap"
@@ -266,6 +218,66 @@
                 "start": 27,
                 "end": 30,
                 "value": "tap"
+            }
+        ]
+    },
+    "5": {
+        "text": "well",
+        "words": [
+            "well"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    148.8470001220703,
+                    671.5142822265625
+                ],
+                [
+                    186.2869873046875,
+                    695.3342895507812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">well</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "well"
+            }
+        ]
+    },
+    "6": {
+        "text": "river",
+        "words": [
+            "river"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    399.0469970703125,
+                    674.375732421875
+                ],
+                [
+                    438.8470153808594,
+                    698.1956787109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">river</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "river"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Listen and match.",
         "words": [
             "Listen",
@@ -40,7 +40,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and match.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,24 +65,24 @@
             }
         ]
     },
-    "3": {
-        "text": "Principal",
+    "1": {
+        "text": "librarian",
         "words": [
-            "Principal"
+            "librarian"
         ],
         "bounding_boxes": [
             [
                 [
-                    145.1175994873047,
-                    210.23532104492188
+                    256.34197998046875,
+                    232.74600219726562
                 ],
                 [
-                    186.64198303222656,
-                    225.5948944091797
+                    333.08203125,
+                    256.5660095214844
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Principal</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">librarian</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -91,137 +91,11 @@
                 "type": "word",
                 "start": 27,
                 "end": 36,
-                "value": "Principal"
+                "value": "librarian"
             }
         ]
     },
-    "4": {
-        "text": "Vice principal",
-        "words": [
-            "Vice",
-            "principal"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    476.3854064941406,
-                    237.5844268798828
-                ],
-                [
-                    500.8099365234375,
-                    262.00897216796875
-                ]
-            ],
-            [
-                [
-                    491.80889892578125,
-                    208.0182647705078
-                ],
-                [
-                    530.3760375976562,
-                    246.58544921875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Vice principal</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Vice"
-            },
-            {
-                "time": 363,
-                "type": "word",
-                "start": 32,
-                "end": 41,
-                "value": "principal"
-            }
-        ]
-    },
-    "5": {
-        "text": "principal",
-        "words": [
-            "principal"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    254.9219970703125,
-                    362.70599365234375
-                ],
-                [
-                    335.7220153808594,
-                    386.5260009765625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">principal</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "principal"
-            }
-        ]
-    },
-    "6": {
-        "text": "vice principal",
-        "words": [
-            "vice",
-            "principal"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    230.90199279785156,
-                    318.4259948730469
-                ],
-                [
-                    267.7619934082031,
-                    342.2460021972656
-                ]
-            ],
-            [
-                [
-                    272.7619934082031,
-                    318.4259948730469
-                ],
-                [
-                    353.5620422363281,
-                    342.2460021972656
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">vice principal</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "vice"
-            },
-            {
-                "time": 363,
-                "type": "word",
-                "start": 32,
-                "end": 41,
-                "value": "principal"
-            }
-        ]
-    },
-    "7": {
+    "2": {
         "text": "security guard",
         "words": [
             "security",
@@ -269,24 +143,72 @@
             }
         ]
     },
-    "8": {
-        "text": "librarian",
+    "3": {
+        "text": "vice principal",
         "words": [
-            "librarian"
+            "vice",
+            "principal"
         ],
         "bounding_boxes": [
             [
                 [
-                    256.34197998046875,
-                    232.74600219726562
+                    230.90199279785156,
+                    318.4259948730469
                 ],
                 [
-                    333.08203125,
-                    256.5660095214844
+                    267.7619934082031,
+                    342.2460021972656
+                ]
+            ],
+            [
+                [
+                    272.7619934082031,
+                    318.4259948730469
+                ],
+                [
+                    353.5620422363281,
+                    342.2460021972656
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">librarian</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">vice principal</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "vice"
+            },
+            {
+                "time": 363,
+                "type": "word",
+                "start": 32,
+                "end": 41,
+                "value": "principal"
+            }
+        ]
+    },
+    "4": {
+        "text": "principal",
+        "words": [
+            "principal"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    254.9219970703125,
+                    362.70599365234375
+                ],
+                [
+                    335.7220153808594,
+                    386.5260009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">principal</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -295,11 +217,11 @@
                 "type": "word",
                 "start": 27,
                 "end": 36,
-                "value": "librarian"
+                "value": "principal"
             }
         ]
     },
-    "9": {
+    "5": {
         "text": "teacher",
         "words": [
             "teacher"

@@ -1,10 +1,10 @@
 {
-    "2": {
-        "text": "Brinjal says, \u201cI have minerals and vitamins. Look at my shiny skin!\u201d",
+    "0": {
+        "text": "Brinjal says, \"I have minerals and vitamins. Look at my shiny skin!\"",
         "words": [
             "Brinjal",
             "says,",
-            "\u201cI",
+            "\"I",
             "have",
             "minerals",
             "and",
@@ -13,7 +13,7 @@
             "at",
             "my",
             "shiny",
-            "skin!\u201d"
+            "skin!\""
         ],
         "bounding_boxes": [
             [
@@ -137,10 +137,10 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Brinjal says,<break time=\"300ms\"/> \u201cI have minerals and vitamins.<break time=\"500ms\"/> Look at my shiny skin!\u201d</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Brinjal says,<break time=\"300ms\"/> &quot;I have minerals and vitamins.<break time=\"500ms\"/> Look at my shiny skin!&quot;</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -150,99 +150,99 @@
                 "value": "Brinjal"
             },
             {
-                "time": 516,
+                "time": 387,
                 "type": "word",
                 "start": 35,
                 "end": 39,
                 "value": "says"
             },
             {
-                "time": 1201,
+                "time": 1005,
                 "type": "word",
                 "start": 40,
                 "end": 61,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1601,
+                "time": 1405,
                 "type": "word",
-                "start": 65,
-                "end": 66,
+                "start": 68,
+                "end": 69,
                 "value": "I"
             },
             {
-                "time": 1777,
+                "time": 1530,
                 "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 70,
+                "end": 74,
                 "value": "have"
             },
             {
-                "time": 1987,
+                "time": 1708,
                 "type": "word",
-                "start": 72,
-                "end": 80,
+                "start": 75,
+                "end": 83,
                 "value": "minerals"
             },
             {
-                "time": 2522,
+                "time": 2266,
                 "type": "word",
-                "start": 81,
-                "end": 84,
+                "start": 84,
+                "end": 87,
                 "value": "and"
             },
             {
-                "time": 2754,
+                "time": 2409,
                 "type": "word",
-                "start": 85,
-                "end": 93,
+                "start": 88,
+                "end": 96,
                 "value": "vitamins"
             },
             {
-                "time": 3525,
+                "time": 3270,
                 "type": "word",
-                "start": 94,
-                "end": 115,
+                "start": 97,
+                "end": 118,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 4412,
+                "time": 4157,
                 "type": "word",
-                "start": 116,
-                "end": 120,
+                "start": 119,
+                "end": 123,
                 "value": "Look"
             },
             {
-                "time": 4692,
-                "type": "word",
-                "start": 121,
-                "end": 123,
-                "value": "at"
-            },
-            {
-                "time": 4821,
+                "time": 4368,
                 "type": "word",
                 "start": 124,
                 "end": 126,
+                "value": "at"
+            },
+            {
+                "time": 4468,
+                "type": "word",
+                "start": 127,
+                "end": 129,
                 "value": "my"
             },
             {
-                "time": 4961,
+                "time": 4650,
                 "type": "word",
-                "start": 127,
-                "end": 132,
+                "start": 130,
+                "end": 135,
                 "value": "shiny"
             },
             {
-                "time": 5489,
+                "time": 5095,
                 "type": "word",
-                "start": 133,
-                "end": 137,
+                "start": 136,
+                "end": 140,
                 "value": "skin"
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "Everyone has good qualities. It is difficult to select the king.",
         "words": [
             "Everyone",
@@ -371,7 +371,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Everyone has good qualities.<break time=\"500ms\"/> It is difficult to select the king.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -459,7 +459,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "\" Here comes Rasini. We'll ask her.\"",
         "words": [
             "\"",
@@ -544,8 +544,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">&quot; Here comes Rasini.<break time=\"500ms\"/> We&apos;ll ask her.&quot;</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -555,42 +555,42 @@
                 "value": "Here"
             },
             {
-                "time": 211,
+                "time": 265,
                 "type": "word",
                 "start": 39,
                 "end": 44,
                 "value": "comes"
             },
             {
-                "time": 631,
+                "time": 676,
                 "type": "word",
                 "start": 45,
                 "end": 51,
                 "value": "Rasini"
             },
             {
-                "time": 1316,
+                "time": 1508,
                 "type": "word",
                 "start": 52,
                 "end": 73,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2203,
+                "time": 2395,
                 "type": "word",
                 "start": 74,
                 "end": 84,
                 "value": "We&apos;ll"
             },
             {
-                "time": 2466,
+                "time": 2676,
                 "type": "word",
                 "start": 85,
                 "end": 88,
                 "value": "ask"
             },
             {
-                "time": 2801,
+                "time": 2984,
                 "type": "word",
                 "start": 89,
                 "end": 92,
@@ -598,7 +598,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "\"Rasini, who is the vegetable king?\"",
         "words": [
             "\"Rasini,",
@@ -672,8 +672,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">&quot;Rasini,<break time=\"300ms\"/> who is the vegetable king?&quot;</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -683,42 +683,42 @@
                 "value": "Rasini"
             },
             {
-                "time": 992,
+                "time": 976,
                 "type": "word",
                 "start": 40,
                 "end": 61,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1393,
+                "time": 1370,
                 "type": "word",
                 "start": 62,
                 "end": 65,
                 "value": "who"
             },
             {
-                "time": 1589,
+                "time": 1526,
                 "type": "word",
                 "start": 66,
                 "end": 68,
                 "value": "is"
             },
             {
-                "time": 1755,
+                "time": 1663,
                 "type": "word",
                 "start": 69,
                 "end": 72,
                 "value": "the"
             },
             {
-                "time": 1855,
+                "time": 1763,
                 "type": "word",
                 "start": 73,
                 "end": 82,
                 "value": "vegetable"
             },
             {
-                "time": 2449,
+                "time": 2389,
                 "type": "word",
                 "start": 83,
                 "end": 87,
@@ -726,7 +726,7 @@
             }
         ]
     },
-    "6": {
+    "4": {
         "text": "\" My mother says you all are good. You keep us healthy. You all are kings and queens.\"",
         "words": [
             "\"",

@@ -1,22 +1,44 @@
 {
-    "1": {
-        "text": "94",
+    "0": {
+        "text": "Playing is fun",
         "words": [
-            "94"
+            "Playing",
+            "is",
+            "fun"
         ],
         "bounding_boxes": [
             [
                 [
-                    30.428199768066406,
-                    24.34998893737793
+                    306.56298828125,
+                    70.9010009765625
                 ],
                 [
-                    61.118202209472656,
-                    57.109989166259766
+                    444.1230163574219,
+                    118.54100036621094
+                ]
+            ],
+            [
+                [
+                    283.9629821777344,
+                    118.9010009765625
+                ],
+                [
+                    311.9230041503906,
+                    166.54100036621094
+                ]
+            ],
+            [
+                [
+                    321.9230041503906,
+                    118.9010009765625
+                ],
+                [
+                    387.2430419921875,
+                    166.54100036621094
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">94</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Playing is fun</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -24,12 +46,26 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "94"
+                "end": 34,
+                "value": "Playing"
+            },
+            {
+                "time": 451,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "is"
+            },
+            {
+                "time": 621,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "fun"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +106,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +131,121 @@
             }
         ]
     },
+    "2": {
+        "text": "We run.",
+        "words": [
+            "We",
+            "run."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    128.0699920654297,
+                    410.34100341796875
+                ],
+                [
+                    158.6099853515625,
+                    434.1610107421875
+                ]
+            ],
+            [
+                [
+                    163.6099853515625,
+                    410.34100341796875
+                ],
+                [
+                    201.6899871826172,
+                    434.1610107421875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">We run.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "We"
+            },
+            {
+                "time": 176,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "run"
+            }
+        ]
+    },
     "3": {
+        "text": "We fly kites.",
+        "words": [
+            "We",
+            "fly",
+            "kites."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    360.8599853515625,
+                    409.81201171875
+                ],
+                [
+                    391.3999938964844,
+                    433.63201904296875
+                ]
+            ],
+            [
+                [
+                    396.3999938964844,
+                    409.81201171875
+                ],
+                [
+                    419.4399719238281,
+                    433.63201904296875
+                ]
+            ],
+            [
+                [
+                    424.2399597167969,
+                    409.81201171875
+                ],
+                [
+                    473.9399719238281,
+                    433.63201904296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">We fly kites.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "We"
+            },
+            {
+                "time": 162,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "fly"
+            },
+            {
+                "time": 476,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "kites"
+            }
+        ]
+    },
+    "4": {
         "text": "We play hide and seek.",
         "words": [
             "We",
@@ -158,7 +308,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">We play hide and seek.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -194,115 +344,6 @@
                 "start": 44,
                 "end": 48,
                 "value": "seek"
-            }
-        ]
-    },
-    "4": {
-        "text": "We run. We fly kites.",
-        "words": [
-            "We",
-            "run.",
-            "We",
-            "fly",
-            "kites."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    128.0699920654297,
-                    410.34100341796875
-                ],
-                [
-                    158.6099853515625,
-                    434.1610107421875
-                ]
-            ],
-            [
-                [
-                    163.6099853515625,
-                    410.34100341796875
-                ],
-                [
-                    201.6899871826172,
-                    434.1610107421875
-                ]
-            ],
-            [
-                [
-                    360.8599853515625,
-                    409.81201171875
-                ],
-                [
-                    391.3999938964844,
-                    433.63201904296875
-                ]
-            ],
-            [
-                [
-                    396.3999938964844,
-                    409.81201171875
-                ],
-                [
-                    419.4399719238281,
-                    433.63201904296875
-                ]
-            ],
-            [
-                [
-                    424.2399597167969,
-                    409.81201171875
-                ],
-                [
-                    473.9399719238281,
-                    433.63201904296875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We run.<break time=\"500ms\"/> We fly kites.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 176,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "run"
-            },
-            {
-                "time": 654,
-                "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1540,
-                "type": "word",
-                "start": 56,
-                "end": 58,
-                "value": "We"
-            },
-            {
-                "time": 1696,
-                "type": "word",
-                "start": 59,
-                "end": 62,
-                "value": "fly"
-            },
-            {
-                "time": 2010,
-                "type": "word",
-                "start": 63,
-                "end": 68,
-                "value": "kites"
             }
         ]
     },
@@ -358,7 +399,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">We build play houses.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -387,90 +428,6 @@
                 "start": 41,
                 "end": 47,
                 "value": "houses"
-            }
-        ]
-    },
-    "6": {
-        "text": "Playing is fun 7",
-        "words": [
-            "Playing",
-            "is",
-            "fun",
-            "7"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    306.56298828125,
-                    70.9010009765625
-                ],
-                [
-                    444.1230163574219,
-                    118.54100036621094
-                ]
-            ],
-            [
-                [
-                    283.9629821777344,
-                    118.9010009765625
-                ],
-                [
-                    311.9230041503906,
-                    166.54100036621094
-                ]
-            ],
-            [
-                [
-                    321.9230041503906,
-                    118.9010009765625
-                ],
-                [
-                    387.2430419921875,
-                    166.54100036621094
-                ]
-            ],
-            [
-                [
-                    199.65499877929688,
-                    82.98857116699219
-                ],
-                [
-                    226.48133850097656,
-                    166.1801300048828
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Playing is fun 7</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Playing"
-            },
-            {
-                "time": 451,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "is"
-            },
-            {
-                "time": 621,
-                "type": "word",
-                "start": 38,
-                "end": 41,
-                "value": "fun"
-            },
-            {
-                "time": 932,
-                "type": "word",
-                "start": 42,
-                "end": 43,
-                "value": "7"
             }
         ]
     }

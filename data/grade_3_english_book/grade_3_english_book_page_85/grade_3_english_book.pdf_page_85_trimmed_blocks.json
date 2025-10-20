@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "76",
         "words": [
             "76"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,37 +95,7 @@
             }
         ]
     },
-    "4": {
-        "text": "neigh",
-        "words": [
-            "neigh"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    95.84549713134766,
-                    238.40298461914062
-                ],
-                [
-                    138.70950317382812,
-                    257.458984375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "neigh"
-            }
-        ]
-    },
-    "6": {
+    "2": {
         "text": "Who would like to go for a ride?",
         "words": [
             "Who",
@@ -282,7 +252,7 @@
             }
         ]
     },
-    "7": {
+    "3": {
         "text": "moo, moo",
         "words": [
             "moo,",
@@ -311,8 +281,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">moo,<break time=\"300ms\"/> moo</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -322,14 +293,14 @@
                 "value": "moo"
             },
             {
-                "time": 528,
+                "time": 568,
                 "type": "word",
                 "start": 31,
                 "end": 52,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 928,
+                "time": 961,
                 "type": "word",
                 "start": 53,
                 "end": 56,
@@ -337,172 +308,38 @@
             }
         ]
     },
-    "10": {
-        "text": "baa, baa",
+    "4": {
+        "text": "neigh",
         "words": [
-            "baa,",
-            "baa"
+            "neigh"
         ],
         "bounding_boxes": [
             [
                 [
-                    437.1510009765625,
-                    520.7650146484375
+                    95.84549713134766,
+                    238.40298461914062
                 ],
                 [
-                    470.63897705078125,
-                    539.8209838867188
-                ]
-            ],
-            [
-                [
-                    473.8389892578125,
-                    520.7650146484375
-                ],
-                [
-                    503.0229797363281,
-                    539.8209838867188
+                    138.70950317382812,
+                    257.458984375
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "baa"
-            },
-            {
-                "time": 595,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 985,
-                "type": "word",
-                "start": 53,
-                "end": 56,
-                "value": "baa"
-            }
-        ]
-    },
-    "13": {
-        "text": "quack, quack",
-        "words": [
-            "quack,",
-            "quack"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    290.39898681640625,
-                    559.9300537109375
-                ],
-                [
-                    341.1669616699219,
-                    578.9860229492188
-                ]
-            ],
-            [
-                [
-                    290.39898681640625,
-                    579.1300048828125
-                ],
-                [
-                    336.86297607421875,
-                    598.1859741210938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
                 "end": 32,
-                "value": "quack"
-            },
-            {
-                "time": 624,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1024,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "quack"
+                "value": "neigh"
             }
         ]
     },
-    "15": {
-        "text": "cluck, cluck",
-        "words": [
-            "cluck,",
-            "cluck"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    91.91069793701172,
-                    603.6600341796875
-                ],
-                [
-                    135.4307098388672,
-                    622.7160034179688
-                ]
-            ],
-            [
-                [
-                    91.91069793701172,
-                    622.8599853515625
-                ],
-                [
-                    131.126708984375,
-                    641.9159545898438
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">cluck,<break time=\"300ms\"/> cluck</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "cluck"
-            },
-            {
-                "time": 681,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1075,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "cluck"
-            }
-        ]
-    },
-    "16": {
+    "5": {
         "text": "woof, woof",
         "words": [
             "woof,",
@@ -531,8 +368,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -542,14 +380,14 @@
                 "value": "woof"
             },
             {
-                "time": 507,
+                "time": 648,
                 "type": "word",
                 "start": 32,
                 "end": 53,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 901,
+                "time": 1042,
                 "type": "word",
                 "start": 54,
                 "end": 58,
@@ -557,7 +395,7 @@
             }
         ]
     },
-    "17": {
+    "6": {
         "text": "mew, mew",
         "words": [
             "mew,",
@@ -586,8 +424,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">mew,<break time=\"300ms\"/> mew</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -597,18 +436,186 @@
                 "value": "mew"
             },
             {
-                "time": 660,
+                "time": 550,
                 "type": "word",
                 "start": 31,
                 "end": 52,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1060,
+                "time": 950,
                 "type": "word",
                 "start": 53,
                 "end": 56,
                 "value": "mew"
+            }
+        ]
+    },
+    "7": {
+        "text": "baa, baa",
+        "words": [
+            "baa,",
+            "baa"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    437.1510009765625,
+                    520.7650146484375
+                ],
+                [
+                    470.63897705078125,
+                    539.8209838867188
+                ]
+            ],
+            [
+                [
+                    473.8389892578125,
+                    520.7650146484375
+                ],
+                [
+                    503.0229797363281,
+                    539.8209838867188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "baa"
+            },
+            {
+                "time": 685,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1078,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "baa"
+            }
+        ]
+    },
+    "8": {
+        "text": "quack, quack",
+        "words": [
+            "quack,",
+            "quack"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    290.39898681640625,
+                    559.9300537109375
+                ],
+                [
+                    341.1669616699219,
+                    578.9860229492188
+                ]
+            ],
+            [
+                [
+                    290.39898681640625,
+                    579.1300048828125
+                ],
+                [
+                    336.86297607421875,
+                    598.1859741210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "quack"
+            },
+            {
+                "time": 761,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1154,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "quack"
+            }
+        ]
+    },
+    "9": {
+        "text": "cluck, cluck",
+        "words": [
+            "cluck,",
+            "cluck"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    91.91069793701172,
+                    603.6600341796875
+                ],
+                [
+                    135.4307098388672,
+                    622.7160034179688
+                ]
+            ],
+            [
+                [
+                    91.91069793701172,
+                    622.8599853515625
+                ],
+                [
+                    131.126708984375,
+                    641.9159545898438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cluck,<break time=\"300ms\"/> cluck</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "cluck"
+            },
+            {
+                "time": 654,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1054,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "cluck"
             }
         ]
     }

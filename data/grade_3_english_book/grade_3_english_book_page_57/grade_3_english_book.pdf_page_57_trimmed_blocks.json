@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Read aloud. At the canteen",
         "words": [
             "Read",
@@ -62,7 +62,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read aloud.<break time=\"500ms\"/> At the canteen</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -108,7 +108,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "Monday Tuesday Wednesday Thursday Friday",
         "words": [
             "Monday",
@@ -210,7 +210,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "* rice and curry",
         "words": [
             "*",
@@ -287,7 +287,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "* fruits and ice cream",
         "words": [
             "*",
@@ -382,7 +382,7 @@
             }
         ]
     },
-    "6": {
+    "4": {
         "text": "*green gram",
         "words": [
             "*green",
@@ -430,7 +430,7 @@
             }
         ]
     },
-    "7": {
+    "5": {
         "text": "* fruits and ice cream",
         "words": [
             "*",
@@ -525,7 +525,7 @@
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "* chickpea",
         "words": [
             "*",
@@ -566,7 +566,7 @@
             }
         ]
     },
-    "9": {
+    "7": {
         "text": "* fruits and ice cream",
         "words": [
             "*",
@@ -661,7 +661,7 @@
             }
         ]
     },
-    "10": {
+    "8": {
         "text": "* string hoppers",
         "words": [
             "*",
@@ -720,7 +720,7 @@
             }
         ]
     },
-    "11": {
+    "9": {
         "text": "* veggie pittu",
         "words": [
             "*",
@@ -779,7 +779,7 @@
             }
         ]
     },
-    "12": {
+    "10": {
         "text": "* milk rice",
         "words": [
             "*",
@@ -838,7 +838,7 @@
             }
         ]
     },
-    "13": {
+    "11": {
         "text": "* fruits and ice cream",
         "words": [
             "*",
@@ -933,7 +933,7 @@
             }
         ]
     },
-    "14": {
+    "12": {
         "text": "*veggie rotti",
         "words": [
             "*veggie",
@@ -981,7 +981,7 @@
             }
         ]
     },
-    "15": {
+    "13": {
         "text": "*fruits and ice cream",
         "words": [
             "*fruits",
@@ -1065,7 +1065,7 @@
             }
         ]
     },
-    "16": {
+    "14": {
         "text": "* hoppers",
         "words": [
             "*",
@@ -1106,60 +1106,60 @@
             }
         ]
     },
-    "17": {
-        "text": "I want an apple.",
+    "15": {
+        "text": "I want a mango.",
         "words": [
             "I",
             "want",
-            "an",
-            "apple."
+            "a",
+            "mango."
         ],
         "bounding_boxes": [
             [
                 [
-                    358.10198974609375,
-                    649.529052734375
+                    368.7760009765625,
+                    540.8270263671875
                 ],
                 [
-                    364.7619934082031,
-                    670.967041015625
+                    375.4360046386719,
+                    562.2650146484375
                 ]
             ],
             [
                 [
-                    369.0820007324219,
-                    649.529052734375
+                    379.7560119628906,
+                    540.8270263671875
                 ],
                 [
-                    412.7860107421875,
-                    670.967041015625
+                    423.46002197265625,
+                    562.2650146484375
                 ]
             ],
             [
                 [
-                    358.10198974609375,
-                    671.1290283203125
+                    427.60003662109375,
+                    540.8270263671875
                 ],
                 [
-                    380.385986328125,
-                    692.5670166015625
+                    438.5440368652344,
+                    562.2650146484375
                 ]
             ],
             [
                 [
-                    384.885986328125,
-                    671.1290283203125
+                    368.7760009765625,
+                    562.427001953125
                 ],
                 [
-                    437.9859924316406,
-                    692.5670166015625
+                    436.2400207519531,
+                    583.864990234375
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I want an apple.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">I want a mango.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -1169,29 +1169,29 @@
                 "value": "I"
             },
             {
-                "time": 113,
+                "time": 71,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "want"
             },
             {
-                "time": 450,
+                "time": 358,
                 "type": "word",
                 "start": 34,
-                "end": 36,
-                "value": "an"
+                "end": 35,
+                "value": "a"
             },
             {
-                "time": 620,
+                "time": 401,
                 "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "apple"
+                "start": 36,
+                "end": 41,
+                "value": "mango"
             }
         ]
     },
-    "18": {
+    "16": {
         "text": "I want an ice cream.",
         "words": [
             "I",
@@ -1294,60 +1294,60 @@
             }
         ]
     },
-    "19": {
-        "text": "I want a mango.",
+    "17": {
+        "text": "I want an apple.",
         "words": [
             "I",
             "want",
-            "a",
-            "mango."
+            "an",
+            "apple."
         ],
         "bounding_boxes": [
             [
                 [
-                    368.7760009765625,
-                    540.8270263671875
+                    358.10198974609375,
+                    649.529052734375
                 ],
                 [
-                    375.4360046386719,
-                    562.2650146484375
+                    364.7619934082031,
+                    670.967041015625
                 ]
             ],
             [
                 [
-                    379.7560119628906,
-                    540.8270263671875
+                    369.0820007324219,
+                    649.529052734375
                 ],
                 [
-                    423.46002197265625,
-                    562.2650146484375
+                    412.7860107421875,
+                    670.967041015625
                 ]
             ],
             [
                 [
-                    427.60003662109375,
-                    540.8270263671875
+                    358.10198974609375,
+                    671.1290283203125
                 ],
                 [
-                    438.5440368652344,
-                    562.2650146484375
+                    380.385986328125,
+                    692.5670166015625
                 ]
             ],
             [
                 [
-                    368.7760009765625,
-                    562.427001953125
+                    384.885986328125,
+                    671.1290283203125
                 ],
                 [
-                    436.2400207519531,
-                    583.864990234375
+                    437.9859924316406,
+                    692.5670166015625
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I want a mango.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">I want an apple.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -1357,25 +1357,25 @@
                 "value": "I"
             },
             {
-                "time": 71,
+                "time": 113,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "want"
             },
             {
-                "time": 358,
+                "time": 450,
                 "type": "word",
                 "start": 34,
-                "end": 35,
-                "value": "a"
+                "end": 36,
+                "value": "an"
             },
             {
-                "time": 401,
+                "time": 620,
                 "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "mango"
+                "start": 37,
+                "end": 42,
+                "value": "apple"
             }
         ]
     }

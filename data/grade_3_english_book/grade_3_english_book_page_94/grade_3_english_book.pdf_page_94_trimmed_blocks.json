@@ -1,22 +1,55 @@
 {
-    "1": {
-        "text": "85",
+    "0": {
+        "text": "Clothes we wear 6",
         "words": [
-            "85"
+            "Clothes",
+            "we",
+            "wear",
+            "6"
         ],
         "bounding_boxes": [
             [
                 [
-                    549.7080078125,
-                    24.34998893737793
+                    275.3420104980469,
+                    74.36199951171875
                 ],
                 [
-                    581.657958984375,
-                    57.109989166259766
+                    416.62200927734375,
+                    122.00199890136719
+                ]
+            ],
+            [
+                [
+                    426.2220153808594,
+                    74.36199951171875
+                ],
+                [
+                    481.50201416015625,
+                    122.00199890136719
+                ]
+            ],
+            [
+                [
+                    320.02203369140625,
+                    122.36199951171875
+                ],
+                [
+                    413.0220031738281,
+                    170.0019989013672
+                ]
+            ],
+            [
+                [
+                    193.60699462890625,
+                    86.45060729980469
+                ],
+                [
+                    224.65599060058594,
+                    169.6421661376953
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">85</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Clothes we wear 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -24,12 +57,33 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "85"
+                "end": 34,
+                "value": "Clothes"
+            },
+            {
+                "time": 379,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "we"
+            },
+            {
+                "time": 506,
+                "type": "word",
+                "start": 38,
+                "end": 42,
+                "value": "wear"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 43,
+                "end": 44,
+                "value": "6"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and sing.",
         "words": [
             "Listen",
@@ -70,7 +124,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Listen and sing.<break time=\"400ms\"/></prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -102,7 +156,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Rasini has a blue hat, blue hat, blue hat",
         "words": [
             "Rasini",
@@ -209,7 +263,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Rasini has a blue hat,<break time=\"300ms\"/> blue hat,<break time=\"300ms\"/> blue hat</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -290,7 +344,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Meena has a brown belt, brown belt, brown belt",
         "words": [
             "Meena",
@@ -397,7 +451,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Meena has a brown belt,<break time=\"300ms\"/> brown belt,<break time=\"300ms\"/> brown belt</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -478,7 +532,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Waruni has a yellow dress, yellow dress, yellow dress",
         "words": [
             "Waruni",
@@ -585,7 +639,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Waruni has a yellow dress,<break time=\"300ms\"/> yellow dress,<break time=\"300ms\"/> yellow dress</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -666,7 +720,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "Razik has a raincoat, raincoat, raincoat",
         "words": [
             "Razik",
@@ -740,7 +794,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Razik has a raincoat,<break time=\"300ms\"/> raincoat,<break time=\"300ms\"/> raincoat</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -797,90 +851,6 @@
                 "start": 101,
                 "end": 109,
                 "value": "raincoat"
-            }
-        ]
-    },
-    "7": {
-        "text": "Clothes we wear 6",
-        "words": [
-            "Clothes",
-            "we",
-            "wear",
-            "6"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    275.3420104980469,
-                    74.36199951171875
-                ],
-                [
-                    416.62200927734375,
-                    122.00199890136719
-                ]
-            ],
-            [
-                [
-                    426.2220153808594,
-                    74.36199951171875
-                ],
-                [
-                    481.50201416015625,
-                    122.00199890136719
-                ]
-            ],
-            [
-                [
-                    320.02203369140625,
-                    122.36199951171875
-                ],
-                [
-                    413.0220031738281,
-                    170.0019989013672
-                ]
-            ],
-            [
-                [
-                    193.60699462890625,
-                    86.45060729980469
-                ],
-                [
-                    224.65599060058594,
-                    169.6421661376953
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Clothes we wear 6</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Clothes"
-            },
-            {
-                "time": 379,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "we"
-            },
-            {
-                "time": 506,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "wear"
-            },
-            {
-                "time": 799,
-                "type": "word",
-                "start": 43,
-                "end": 44,
-                "value": "6"
             }
         ]
     }

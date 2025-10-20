@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "87 Look, read and match.",
+    "0": {
+        "text": "Look, read and match.",
         "words": [
-            "87",
             "Look,",
             "read",
             "and",
             "match."
         ],
         "bounding_boxes": [
-            [
-                [
-                    551.0479736328125,
-                    24.34998893737793
-                ],
-                [
-                    580.2979736328125,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -60,55 +49,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">87 Look,<break time=\"300ms\"/> read and match.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Look,<break time=\"300ms\"/> read and match.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "87"
-            },
-            {
-                "time": 647,
-                "type": "word",
-                "start": 30,
-                "end": 34,
+                "end": 31,
                 "value": "Look"
             },
             {
-                "time": 1210,
+                "time": 618,
                 "type": "word",
-                "start": 35,
-                "end": 56,
+                "start": 32,
+                "end": 53,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1611,
+                "time": 1020,
                 "type": "word",
-                "start": 57,
-                "end": 61,
+                "start": 54,
+                "end": 58,
                 "value": "read"
             },
             {
-                "time": 1843,
+                "time": 1251,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 59,
+                "end": 62,
                 "value": "and"
             },
             {
-                "time": 1969,
+                "time": 1377,
                 "type": "word",
-                "start": 66,
-                "end": 71,
+                "start": 63,
+                "end": 68,
                 "value": "match"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Sithum",
         "words": [
             "Sithum"
@@ -126,8 +108,9 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Sithum</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -138,7 +121,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "socks",
         "words": [
             "socks"
@@ -168,7 +151,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "tie",
         "words": [
             "tie"
@@ -198,7 +181,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "shirt",
         "words": [
             "shirt"
@@ -228,7 +211,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "shorts",
         "words": [
             "shorts"
@@ -258,7 +241,7 @@
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "shoes",
         "words": [
             "shoes"
@@ -285,6 +268,37 @@
                 "start": 27,
                 "end": 32,
                 "value": "shoes"
+            }
+        ]
+    },
+    "7": {
+        "text": "Nisha",
+        "words": [
+            "Nisha"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.65889739990234,
+                    514.2576904296875
+                ],
+                [
+                    112.70135498046875,
+                    532.315185546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Nisha</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Nisha"
             }
         ]
     },
@@ -412,36 +426,6 @@
                 "start": 27,
                 "end": 32,
                 "value": "jeans"
-            }
-        ]
-    },
-    "12": {
-        "text": "Nisha",
-        "words": [
-            "Nisha"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    71.65889739990234,
-                    514.2576904296875
-                ],
-                [
-                    112.70135498046875,
-                    532.315185546875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Nisha</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Nisha"
             }
         ]
     }

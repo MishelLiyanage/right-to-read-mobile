@@ -1,5 +1,35 @@
 {
-    "3": {
+    "0": {
+        "text": "16",
+        "words": [
+            "16"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    34.24409866333008,
+                    24.34998893737793
+                ],
+                [
+                    57.284095764160156,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">16</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "16"
+            }
+        ]
+    },
+    "1": {
         "text": "Do you have a pet?",
         "words": [
             "Do",
@@ -62,8 +92,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Do you have a pet?</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
@@ -73,28 +103,28 @@
                 "value": "Do"
             },
             {
-                "time": 125,
+                "time": 93,
                 "type": "word",
                 "start": 30,
                 "end": 33,
                 "value": "you"
             },
             {
-                "time": 265,
+                "time": 227,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "have"
             },
             {
-                "time": 558,
+                "time": 426,
                 "type": "word",
                 "start": 39,
                 "end": 40,
                 "value": "a"
             },
             {
-                "time": 612,
+                "time": 487,
                 "type": "word",
                 "start": 41,
                 "end": 44,

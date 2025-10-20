@@ -1,0 +1,405 @@
+{
+    "0": {
+        "text": "Speak.",
+        "words": [
+            "Speak."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.6505012512207,
+                    18.421781539916992
+                ],
+                [
+                    131.41249084472656,
+                    44.623783111572266
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Speak.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Speak"
+            }
+        ]
+    },
+    "1": {
+        "text": "What day is it today?",
+        "words": [
+            "What",
+            "day",
+            "is",
+            "it",
+            "today?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.36710357666016,
+                    77.67391967773438
+                ],
+                [
+                    136.40110778808594,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    140.7211151123047,
+                    77.67391967773438
+                ],
+                [
+                    171.68112182617188,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    176.00112915039062,
+                    77.67391967773438
+                ],
+                [
+                    188.5831298828125,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    193.0831298828125,
+                    77.67391967773438
+                ],
+                [
+                    204.31512451171875,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    118.29310607910156,
+                    99.27389526367188
+                ],
+                [
+                    175.1911163330078,
+                    120.71189880371094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">What day is it today?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "What"
+            },
+            {
+                "time": 203,
+                "type": "word",
+                "start": 32,
+                "end": 35,
+                "value": "day"
+            },
+            {
+                "time": 469,
+                "type": "word",
+                "start": 36,
+                "end": 38,
+                "value": "is"
+            },
+            {
+                "time": 631,
+                "type": "word",
+                "start": 39,
+                "end": 41,
+                "value": "it"
+            },
+            {
+                "time": 785,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "today"
+            }
+        ]
+    },
+    "2": {
+        "text": "Today is \u2026",
+        "words": [
+            "Today",
+            "is",
+            "\u2026"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    444.03289794921875,
+                    187.37472534179688
+                ],
+                [
+                    493.2268981933594,
+                    208.81272888183594
+                ]
+            ],
+            [
+                [
+                    497.5469055175781,
+                    187.37472534179688
+                ],
+                [
+                    510.12890625,
+                    208.81272888183594
+                ]
+            ],
+            [
+                [
+                    514.62890625,
+                    187.37472534179688
+                ],
+                [
+                    530.1989135742188,
+                    208.81272888183594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Today is \u2026</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Today"
+            },
+            {
+                "time": 442,
+                "type": "word",
+                "start": 33,
+                "end": 35,
+                "value": "is"
+            }
+        ]
+    },
+    "3": {
+        "text": "Weekdays",
+        "words": [
+            "Weekdays"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    145.59890747070312,
+                    525.5223999023438
+                ],
+                [
+                    236.39990234375,
+                    548.1513671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Weekdays</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "Weekdays"
+            }
+        ]
+    },
+    "4": {
+        "text": "Monday Tuesday Wednesday Thursday Friday",
+        "words": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    157.80490112304688,
+                    552.1044921875
+                ],
+                [
+                    225.71890258789062,
+                    573.54248046875
+                ]
+            ],
+            [
+                [
+                    154.45689392089844,
+                    575.7745361328125
+                ],
+                [
+                    223.43289184570312,
+                    597.2125244140625
+                ]
+            ],
+            [
+                [
+                    144.5388946533203,
+                    596.906494140625
+                ],
+                [
+                    243.66488647460938,
+                    618.344482421875
+                ]
+            ],
+            [
+                [
+                    154.99688720703125,
+                    622.8265380859375
+                ],
+                [
+                    232.12689208984375,
+                    644.2645263671875
+                ]
+            ],
+            [
+                [
+                    167.95689392089844,
+                    646.5685424804688
+                ],
+                [
+                    217.88888549804688,
+                    668.0065307617188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Monday Tuesday Wednesday Thursday Friday</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Monday"
+            },
+            {
+                "time": 436,
+                "type": "word",
+                "start": 34,
+                "end": 41,
+                "value": "Tuesday"
+            },
+            {
+                "time": 962,
+                "type": "word",
+                "start": 42,
+                "end": 51,
+                "value": "Wednesday"
+            },
+            {
+                "time": 1568,
+                "type": "word",
+                "start": 52,
+                "end": 60,
+                "value": "Thursday"
+            },
+            {
+                "time": 2175,
+                "type": "word",
+                "start": 61,
+                "end": 67,
+                "value": "Friday"
+            }
+        ]
+    },
+    "5": {
+        "text": "Weekend",
+        "words": [
+            "Weekend"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    381.6626892089844,
+                    541.8034057617188
+                ],
+                [
+                    465.4337158203125,
+                    564.432373046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Weekend</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "Weekend"
+            }
+        ]
+    },
+    "6": {
+        "text": "Saturday Sunday",
+        "words": [
+            "Saturday",
+            "Sunday"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    387.8591003417969,
+                    565.5264892578125
+                ],
+                [
+                    463.1351318359375,
+                    586.9644775390625
+                ]
+            ],
+            [
+                [
+                    389.6590881347656,
+                    592.364501953125
+                ],
+                [
+                    452.9111022949219,
+                    613.802490234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Saturday Sunday</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "Saturday"
+            },
+            {
+                "time": 533,
+                "type": "word",
+                "start": 36,
+                "end": 42,
+                "value": "Sunday"
+            }
+        ]
+    }
+}

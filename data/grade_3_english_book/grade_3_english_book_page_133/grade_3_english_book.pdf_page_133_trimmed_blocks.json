@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "124",
         "words": [
             "124"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and read.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and read.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "plane bicycle ship",
         "words": [
             "plane",
@@ -161,7 +161,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "jeep train lorry",
         "words": [
             "jeep",
@@ -227,7 +227,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "bus jet van",
         "words": [
             "bus",
@@ -293,15 +293,35 @@
             }
         ]
     },
-    "6": {
-        "text": "three wheeler boat car",
+    "5": {
+        "text": "car boat three wheeler",
         "words": [
-            "three",
-            "wheeler",
+            "car",
             "boat",
-            "car"
+            "three",
+            "wheeler"
         ],
         "bounding_boxes": [
+            [
+                [
+                    106.90299987792969,
+                    633.8340454101562
+                ],
+                [
+                    133.2010040283203,
+                    655.2720336914062
+                ]
+            ],
+            [
+                [
+                    291.6730041503906,
+                    641.426025390625
+                ],
+                [
+                    330.44500732421875,
+                    662.864013671875
+                ]
+            ],
             [
                 [
                     463.7869873046875,
@@ -321,29 +341,9 @@
                     519.5870361328125,
                     664.3040161132812
                 ]
-            ],
-            [
-                [
-                    291.6730041503906,
-                    641.426025390625
-                ],
-                [
-                    330.44500732421875,
-                    662.864013671875
-                ]
-            ],
-            [
-                [
-                    106.90299987792969,
-                    633.8340454101562
-                ],
-                [
-                    133.2010040283203,
-                    655.2720336914062
-                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">three wheeler boat car</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">car boat three wheeler</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -351,29 +351,29 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 32,
-                "value": "three"
+                "end": 30,
+                "value": "car"
             },
             {
-                "time": 262,
+                "time": 273,
                 "type": "word",
-                "start": 33,
-                "end": 40,
-                "value": "wheeler"
-            },
-            {
-                "time": 600,
-                "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 31,
+                "end": 35,
                 "value": "boat"
             },
             {
-                "time": 937,
+                "time": 521,
                 "type": "word",
-                "start": 46,
+                "start": 36,
+                "end": 41,
+                "value": "three"
+            },
+            {
+                "time": 806,
+                "type": "word",
+                "start": 42,
                 "end": 49,
-                "value": "car"
+                "value": "wheeler"
             }
         ]
     }

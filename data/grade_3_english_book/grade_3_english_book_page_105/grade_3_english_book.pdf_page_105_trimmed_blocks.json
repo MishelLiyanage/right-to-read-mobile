@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "96",
         "words": [
             "96"
@@ -29,40 +29,10 @@
             }
         ]
     },
-    "2": {
-        "text": "Play. Hide and seek We play hide and seek. Get ready boys. Get ready girls. Run and hide. 1, 2, 3, 4, 5, 6, 7 ,8 ,9 ,10. Here I come.",
+    "1": {
+        "text": "Play.",
         "words": [
-            "Play.",
-            "Hide",
-            "and",
-            "seek",
-            "We",
-            "play",
-            "hide",
-            "and",
-            "seek.",
-            "Get",
-            "ready",
-            "boys.",
-            "Get",
-            "ready",
-            "girls.",
-            "Run",
-            "and",
-            "hide.",
-            "1,",
-            "2,",
-            "3,",
-            "4,",
-            "5,",
-            "6,",
-            "7",
-            ",8",
-            ",9",
-            ",10.",
-            "Here",
-            "I",
-            "come."
+            "Play."
         ],
         "bounding_boxes": [
             [
@@ -74,7 +44,29 @@
                     106.17671203613281,
                     83.96602630615234
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Play.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Play"
+            }
+        ]
+    },
+    "2": {
+        "text": "Hide and seek",
+        "words": [
+            "Hide",
+            "and",
+            "seek"
+        ],
+        "bounding_boxes": [
             [
                 [
                     227.35670471191406,
@@ -104,7 +96,45 @@
                     360.5367126464844,
                     107.96602630615234
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hide and seek</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Hide"
+            },
+            {
+                "time": 317,
+                "type": "word",
+                "start": 32,
+                "end": 35,
+                "value": "and"
+            },
+            {
+                "time": 500,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "seek"
+            }
+        ]
+    },
+    "3": {
+        "text": "We play hide and seek.",
+        "words": [
+            "We",
+            "play",
+            "hide",
+            "and",
+            "seek."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -154,7 +184,57 @@
                     278.7567443847656,
                     150.50601196289062
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">We play hide and seek.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "We"
+            },
+            {
+                "time": 150,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "play"
+            },
+            {
+                "time": 412,
+                "type": "word",
+                "start": 35,
+                "end": 39,
+                "value": "hide"
+            },
+            {
+                "time": 714,
+                "type": "word",
+                "start": 40,
+                "end": 43,
+                "value": "and"
+            },
+            {
+                "time": 887,
+                "type": "word",
+                "start": 44,
+                "end": 48,
+                "value": "seek"
+            }
+        ]
+    },
+    "4": {
+        "text": "Get ready boys.",
+        "words": [
+            "Get",
+            "ready",
+            "boys."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -184,7 +264,44 @@
                     207.41671752929688,
                     178.50601196289062
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Get ready boys.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Get"
+            },
+            {
+                "time": 215,
+                "type": "word",
+                "start": 31,
+                "end": 36,
+                "value": "ready"
+            },
+            {
+                "time": 492,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "boys"
+            }
+        ]
+    },
+    "5": {
+        "text": "Get ready girls.",
+        "words": [
+            "Get",
+            "ready",
+            "girls."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -214,7 +331,44 @@
                     207.5567169189453,
                     206.50601196289062
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Get ready girls.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Get"
+            },
+            {
+                "time": 190,
+                "type": "word",
+                "start": 31,
+                "end": 36,
+                "value": "ready"
+            },
+            {
+                "time": 464,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "girls"
+            }
+        ]
+    },
+    "6": {
+        "text": "Run and hide.",
+        "words": [
+            "Run",
+            "and",
+            "hide."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -244,7 +398,51 @@
                     198.8367156982422,
                     234.50601196289062
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Run and hide.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Run"
+            },
+            {
+                "time": 281,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "and"
+            },
+            {
+                "time": 494,
+                "type": "word",
+                "start": 35,
+                "end": 39,
+                "value": "hide"
+            }
+        ]
+    },
+    "7": {
+        "text": "1, 2, 3, 4, 5, 6, 7 ,8 ,9 ,10.",
+        "words": [
+            "1,",
+            "2,",
+            "3,",
+            "4,",
+            "5,",
+            "6,",
+            "7",
+            ",8",
+            ",9",
+            ",10."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -344,7 +542,135 @@
                     277.5567321777344,
                     262.5060119628906
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">1,<break time=\"300ms\"/> 2,<break time=\"300ms\"/> 3,<break time=\"300ms\"/> 4,<break time=\"300ms\"/> 5,<break time=\"300ms\"/> 6,<break time=\"300ms\"/> 7 ,8 ,9 ,10.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "1"
+            },
+            {
+                "time": 707,
+                "type": "word",
+                "start": 29,
+                "end": 50,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1107,
+                "type": "word",
+                "start": 51,
+                "end": 52,
+                "value": "2"
+            },
+            {
+                "time": 1741,
+                "type": "word",
+                "start": 53,
+                "end": 74,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 2141,
+                "type": "word",
+                "start": 75,
+                "end": 76,
+                "value": "3"
+            },
+            {
+                "time": 2891,
+                "type": "word",
+                "start": 77,
+                "end": 98,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 3291,
+                "type": "word",
+                "start": 99,
+                "end": 100,
+                "value": "4"
+            },
+            {
+                "time": 4078,
+                "type": "word",
+                "start": 101,
+                "end": 122,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 4478,
+                "type": "word",
+                "start": 123,
+                "end": 124,
+                "value": "5"
+            },
+            {
+                "time": 5289,
+                "type": "word",
+                "start": 125,
+                "end": 146,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 5690,
+                "type": "word",
+                "start": 147,
+                "end": 148,
+                "value": "6"
+            },
+            {
+                "time": 6490,
+                "type": "word",
+                "start": 149,
+                "end": 170,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 6890,
+                "type": "word",
+                "start": 171,
+                "end": 172,
+                "value": "7"
+            },
+            {
+                "time": 7790,
+                "type": "word",
+                "start": 174,
+                "end": 175,
+                "value": "8"
+            },
+            {
+                "time": 8448,
+                "type": "word",
+                "start": 177,
+                "end": 178,
+                "value": "9"
+            },
+            {
+                "time": 9322,
+                "type": "word",
+                "start": 180,
+                "end": 182,
+                "value": "10"
+            }
+        ]
+    },
+    "8": {
+        "text": "Here I come.",
+        "words": [
+            "Here",
+            "I",
+            "come."
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.3567008972168,
@@ -376,309 +702,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Play.<break time=\"500ms\"/> Hide and seek We play hide and seek.<break time=\"500ms\"/> Get ready boys.<break time=\"500ms\"/> Get ready girls.<break time=\"500ms\"/> Run and hide.<break time=\"500ms\"/> 1,<break time=\"300ms\"/> 2,<break time=\"300ms\"/> 3,<break time=\"300ms\"/> 4,<break time=\"300ms\"/> 5,<break time=\"300ms\"/> 6,<break time=\"300ms\"/> 7 ,8 ,9 ,10.<break time=\"500ms\"/> Here I come.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
+        "ssml": "<speak><prosody rate=\"85%\">Here I come.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
                 "end": 31,
-                "value": "Play"
-            },
-            {
-                "time": 520,
-                "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1406,
-                "type": "word",
-                "start": 54,
-                "end": 58,
-                "value": "Hide"
-            },
-            {
-                "time": 1705,
-                "type": "word",
-                "start": 59,
-                "end": 62,
-                "value": "and"
-            },
-            {
-                "time": 1845,
-                "type": "word",
-                "start": 63,
-                "end": 67,
-                "value": "seek"
-            },
-            {
-                "time": 2169,
-                "type": "word",
-                "start": 68,
-                "end": 70,
-                "value": "We"
-            },
-            {
-                "time": 2306,
-                "type": "word",
-                "start": 71,
-                "end": 75,
-                "value": "play"
-            },
-            {
-                "time": 2610,
-                "type": "word",
-                "start": 76,
-                "end": 80,
-                "value": "hide"
-            },
-            {
-                "time": 2912,
-                "type": "word",
-                "start": 81,
-                "end": 84,
-                "value": "and"
-            },
-            {
-                "time": 3085,
-                "type": "word",
-                "start": 85,
-                "end": 89,
-                "value": "seek"
-            },
-            {
-                "time": 3604,
-                "type": "word",
-                "start": 90,
-                "end": 111,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4490,
-                "type": "word",
-                "start": 112,
-                "end": 115,
-                "value": "Get"
-            },
-            {
-                "time": 4724,
-                "type": "word",
-                "start": 116,
-                "end": 121,
-                "value": "ready"
-            },
-            {
-                "time": 5026,
-                "type": "word",
-                "start": 122,
-                "end": 126,
-                "value": "boys"
-            },
-            {
-                "time": 5572,
-                "type": "word",
-                "start": 127,
-                "end": 148,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6459,
-                "type": "word",
-                "start": 149,
-                "end": 152,
-                "value": "Get"
-            },
-            {
-                "time": 6691,
-                "type": "word",
-                "start": 153,
-                "end": 158,
-                "value": "ready"
-            },
-            {
-                "time": 7019,
-                "type": "word",
-                "start": 159,
-                "end": 164,
-                "value": "girls"
-            },
-            {
-                "time": 7637,
-                "type": "word",
-                "start": 165,
-                "end": 186,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 8523,
-                "type": "word",
-                "start": 187,
-                "end": 190,
-                "value": "Run"
-            },
-            {
-                "time": 8769,
-                "type": "word",
-                "start": 191,
-                "end": 194,
-                "value": "and"
-            },
-            {
-                "time": 8902,
-                "type": "word",
-                "start": 195,
-                "end": 199,
-                "value": "hide"
-            },
-            {
-                "time": 9415,
-                "type": "word",
-                "start": 200,
-                "end": 221,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10301,
-                "type": "word",
-                "start": 222,
-                "end": 223,
-                "value": "1"
-            },
-            {
-                "time": 11043,
-                "type": "word",
-                "start": 224,
-                "end": 245,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 11443,
-                "type": "word",
-                "start": 246,
-                "end": 247,
-                "value": "2"
-            },
-            {
-                "time": 12005,
-                "type": "word",
-                "start": 248,
-                "end": 269,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 12399,
-                "type": "word",
-                "start": 270,
-                "end": 271,
-                "value": "3"
-            },
-            {
-                "time": 12975,
-                "type": "word",
-                "start": 272,
-                "end": 293,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 13375,
-                "type": "word",
-                "start": 294,
-                "end": 295,
-                "value": "4"
-            },
-            {
-                "time": 14102,
-                "type": "word",
-                "start": 296,
-                "end": 317,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 14502,
-                "type": "word",
-                "start": 318,
-                "end": 319,
-                "value": "5"
-            },
-            {
-                "time": 15164,
-                "type": "word",
-                "start": 320,
-                "end": 341,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 15557,
-                "type": "word",
-                "start": 342,
-                "end": 343,
-                "value": "6"
-            },
-            {
-                "time": 16307,
-                "type": "word",
-                "start": 344,
-                "end": 365,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 16707,
-                "type": "word",
-                "start": 366,
-                "end": 367,
-                "value": "7"
-            },
-            {
-                "time": 17564,
-                "type": "word",
-                "start": 369,
-                "end": 370,
-                "value": "8"
-            },
-            {
-                "time": 18244,
-                "type": "word",
-                "start": 372,
-                "end": 373,
-                "value": "9"
-            },
-            {
-                "time": 18983,
-                "type": "word",
-                "start": 375,
-                "end": 377,
-                "value": "10"
-            },
-            {
-                "time": 19459,
-                "type": "word",
-                "start": 378,
-                "end": 399,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 20345,
-                "type": "word",
-                "start": 400,
-                "end": 404,
                 "value": "Here"
             },
             {
-                "time": 20555,
+                "time": 255,
                 "type": "word",
-                "start": 405,
-                "end": 406,
+                "start": 32,
+                "end": 33,
                 "value": "I"
             },
             {
-                "time": 20646,
+                "time": 341,
                 "type": "word",
-                "start": 407,
-                "end": 411,
+                "start": 34,
+                "end": 38,
                 "value": "come"
             }
         ]

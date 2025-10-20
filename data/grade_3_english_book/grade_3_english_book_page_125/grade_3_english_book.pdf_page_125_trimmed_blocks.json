@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "116",
         "words": [
             "116"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "I drink my morning tea.",
         "words": [
             "I",
@@ -157,9 +157,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I drink my morning tea.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -169,7 +168,7 @@
                 "value": "I"
             },
             {
-                "time": 145,
+                "time": 142,
                 "type": "word",
                 "start": 29,
                 "end": 34,
@@ -183,14 +182,14 @@
                 "value": "my"
             },
             {
-                "time": 682,
+                "time": 697,
                 "type": "word",
                 "start": 38,
                 "end": 45,
                 "value": "morning"
             },
             {
-                "time": 1174,
+                "time": 1153,
                 "type": "word",
                 "start": 46,
                 "end": 49,
@@ -198,7 +197,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "I run to the garden.",
         "words": [
             "I",
@@ -260,9 +259,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I run to the garden.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -272,28 +270,28 @@
                 "value": "I"
             },
             {
-                "time": 161,
+                "time": 123,
                 "type": "word",
                 "start": 29,
                 "end": 32,
                 "value": "run"
             },
             {
-                "time": 461,
+                "time": 351,
                 "type": "word",
                 "start": 33,
                 "end": 35,
                 "value": "to"
             },
             {
-                "time": 645,
+                "time": 520,
                 "type": "word",
                 "start": 36,
                 "end": 39,
                 "value": "the"
             },
             {
-                "time": 747,
+                "time": 656,
                 "type": "word",
                 "start": 40,
                 "end": 46,
@@ -301,7 +299,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I feel the wet grass.",
         "words": [
             "I",
@@ -363,9 +361,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I feel the wet grass.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -375,28 +372,28 @@
                 "value": "I"
             },
             {
-                "time": 163,
+                "time": 142,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "feel"
             },
             {
-                "time": 502,
+                "time": 427,
                 "type": "word",
                 "start": 34,
                 "end": 37,
                 "value": "the"
             },
             {
-                "time": 604,
+                "time": 527,
                 "type": "word",
                 "start": 38,
                 "end": 41,
                 "value": "wet"
             },
             {
-                "time": 906,
+                "time": 830,
                 "type": "word",
                 "start": 42,
                 "end": 47,
@@ -404,7 +401,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "I see the bright sun.",
         "words": [
             "I",
@@ -466,9 +463,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">I see the bright sun.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -478,28 +474,28 @@
                 "value": "I"
             },
             {
-                "time": 108,
+                "time": 139,
                 "type": "word",
                 "start": 29,
                 "end": 32,
                 "value": "see"
             },
             {
-                "time": 423,
+                "time": 378,
                 "type": "word",
                 "start": 33,
                 "end": 36,
                 "value": "the"
             },
             {
-                "time": 531,
+                "time": 511,
                 "type": "word",
                 "start": 37,
                 "end": 43,
                 "value": "bright"
             },
             {
-                "time": 919,
+                "time": 847,
                 "type": "word",
                 "start": 44,
                 "end": 47,
@@ -507,7 +503,7 @@
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "I hear bird singing.",
         "words": [
             "I",
@@ -558,9 +554,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">I hear bird singing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -570,28 +565,28 @@
                 "value": "I"
             },
             {
-                "time": 143,
+                "time": 171,
                 "type": "word",
                 "start": 41,
                 "end": 45,
                 "value": "hear"
             },
             {
-                "time": 453,
+                "time": 355,
                 "type": "word",
                 "start": 46,
                 "end": 50,
                 "value": "bird"
             },
             {
-                "time": 759,
+                "time": 712,
                 "type": "word",
                 "start": 51,
                 "end": 58,
                 "value": "singing"
             },
             {
-                "time": 1325,
+                "time": 1316,
                 "type": "word",
                 "start": 59,
                 "end": 80,

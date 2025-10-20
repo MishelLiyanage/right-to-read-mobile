@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "17 Listen and say.",
+    "0": {
+        "text": "Listen and say.",
         "words": [
-            "17",
             "Listen",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    555.4349975585938,
-                    24.34998893737793
-                ],
-                [
-                    575.89501953125,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -49,41 +38,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">17 Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "17"
-            },
-            {
-                "time": 709,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1021,
+                "time": 421,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1214,
+                "time": 595,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "This is my pet. It is a cat.",
         "words": [
             "This",
@@ -247,7 +229,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "This is my pet. It is a rabbit.",
         "words": [
             "This",
@@ -411,7 +393,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "This is my pet. It is a dog.",
         "words": [
             "This",
@@ -575,7 +557,7 @@
             }
         ]
     },
-    "7": {
+    "4": {
         "text": "This is my pet. It is a parrot.",
         "words": [
             "This",
@@ -739,7 +721,7 @@
             }
         ]
     },
-    "8": {
+    "5": {
         "text": "This is my pet. It is a f ish.",
         "words": [
             "This",
@@ -921,7 +903,7 @@
             }
         ]
     },
-    "10": {
+    "6": {
         "text": "This is my pet. It is a cow.",
         "words": [
             "This",

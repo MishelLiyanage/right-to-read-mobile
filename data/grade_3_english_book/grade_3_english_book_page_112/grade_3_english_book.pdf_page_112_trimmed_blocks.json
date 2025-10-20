@@ -1,8 +1,7 @@
 {
-    "1": {
-        "text": "103 Read and tell the number.",
+    "0": {
+        "text": "Read and tell the number.",
         "words": [
-            "103",
             "Read",
             "and",
             "tell",
@@ -10,16 +9,6 @@
             "number."
         ],
         "bounding_boxes": [
-            [
-                [
-                    545.6580200195312,
-                    24.34998893737793
-                ],
-                [
-                    585.6780395507812,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -71,55 +60,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">103 Read and tell the number.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Read and tell the number.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "103"
-            },
-            {
-                "time": 863,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "end": 31,
                 "value": "Read"
             },
             {
-                "time": 1126,
+                "time": 250,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 32,
+                "end": 35,
                 "value": "and"
             },
             {
-                "time": 1272,
+                "time": 414,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 36,
+                "end": 40,
                 "value": "tell"
             },
             {
-                "time": 1516,
+                "time": 688,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 41,
+                "end": 44,
                 "value": "the"
             },
             {
-                "time": 1625,
+                "time": 784,
                 "type": "word",
-                "start": 49,
-                "end": 55,
+                "start": 45,
+                "end": 51,
                 "value": "number"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Rasi : Where's Kasuni?",
         "words": [
             "Rasi",
@@ -197,7 +179,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Manu : She's sick.",
         "words": [
             "Manu",
@@ -275,7 +257,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Binu : Let's tell the teacher.",
         "words": [
             "Binu",
@@ -349,8 +331,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Binu : Let&apos;s tell the teacher.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -360,28 +342,28 @@
                 "value": "Binu"
             },
             {
-                "time": 752,
+                "time": 848,
                 "type": "word",
                 "start": 34,
                 "end": 44,
                 "value": "Let&apos;s"
             },
             {
-                "time": 1181,
+                "time": 1174,
                 "type": "word",
                 "start": 45,
                 "end": 49,
                 "value": "tell"
             },
             {
-                "time": 1518,
+                "time": 1417,
                 "type": "word",
                 "start": 50,
                 "end": 53,
                 "value": "the"
             },
             {
-                "time": 1639,
+                "time": 1563,
                 "type": "word",
                 "start": 54,
                 "end": 61,
@@ -389,7 +371,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Rasi : Teacher, our team has six girls.",
         "words": [
             "Rasi",
@@ -546,7 +528,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "Manu : Kasuni is sick.",
         "words": [
             "Manu",
@@ -642,7 +624,7 @@
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "Teacher : No problem. Let's play.",
         "words": [
             "Teacher",
@@ -763,7 +745,7 @@
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "7 \u2013 1 = 6 Seven minus one is six",
         "words": [
             "7",
@@ -881,7 +863,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">7 \u2013 1 = 6 Seven minus one is six</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -955,7 +937,7 @@
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "Subtraction - minus",
         "words": [
             "Subtraction",
@@ -996,7 +978,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Subtraction minus</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

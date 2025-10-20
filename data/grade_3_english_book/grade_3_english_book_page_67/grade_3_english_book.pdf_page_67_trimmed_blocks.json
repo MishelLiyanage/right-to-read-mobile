@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "58",
         "words": [
             "58"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Snacks",
         "words": [
             "Snacks"
@@ -125,7 +125,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "It is a sunny day. The little friends are on a picnic.",
         "words": [
             "It",
@@ -265,7 +265,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">It is a sunny day.<break time=\"500ms\"/> The little friends are on a picnic.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -360,7 +360,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I like biscuits.",
         "words": [
             "I",
@@ -427,7 +427,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "I like fruits.",
         "words": [
             "I",
@@ -494,74 +494,7 @@
             }
         ]
     },
-    "8": {
-        "text": "I like sandwiches.",
-        "words": [
-            "I",
-            "like",
-            "sandwiches."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    380.3590087890625,
-                    610.574951171875
-                ],
-                [
-                    387.7590026855469,
-                    634.3949584960938
-                ]
-            ],
-            [
-                [
-                    392.7590026855469,
-                    610.574951171875
-                ],
-                [
-                    424.0789794921875,
-                    634.3949584960938
-                ]
-            ],
-            [
-                [
-                    350.3590087890625,
-                    634.574951171875
-                ],
-                [
-                    467.33905029296875,
-                    658.3949584960938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I like sandwiches.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 123,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "like"
-            },
-            {
-                "time": 467,
-                "type": "word",
-                "start": 34,
-                "end": 44,
-                "value": "sandwiches"
-            }
-        ]
-    },
-    "10": {
+    "6": {
         "text": "I like cakes.",
         "words": [
             "I",
@@ -625,6 +558,73 @@
                 "start": 34,
                 "end": 39,
                 "value": "cakes"
+            }
+        ]
+    },
+    "7": {
+        "text": "I like sandwiches.",
+        "words": [
+            "I",
+            "like",
+            "sandwiches."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    380.3590087890625,
+                    610.574951171875
+                ],
+                [
+                    387.7590026855469,
+                    634.3949584960938
+                ]
+            ],
+            [
+                [
+                    392.7590026855469,
+                    610.574951171875
+                ],
+                [
+                    424.0789794921875,
+                    634.3949584960938
+                ]
+            ],
+            [
+                [
+                    350.3590087890625,
+                    634.574951171875
+                ],
+                [
+                    467.33905029296875,
+                    658.3949584960938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I like sandwiches.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 123,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "like"
+            },
+            {
+                "time": 467,
+                "type": "word",
+                "start": 34,
+                "end": 44,
+                "value": "sandwiches"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "78",
         "words": [
             "78"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Point and say.",
         "words": [
             "Point",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Point and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "tail",
         "words": [
             "tail"
@@ -125,7 +125,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "wings",
         "words": [
             "wings"
@@ -152,6 +152,36 @@
                 "start": 27,
                 "end": 32,
                 "value": "wings"
+            }
+        ]
+    },
+    "4": {
+        "text": "beak",
+        "words": [
+            "beak"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    219.70599365234375,
+                    238.83596801757812
+                ],
+                [
+                    261.5199890136719,
+                    260.27398681640625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">beak</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "beak"
             }
         ]
     },
@@ -186,36 +216,6 @@
         ]
     },
     "6": {
-        "text": "beak",
-        "words": [
-            "beak"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    219.70599365234375,
-                    238.83596801757812
-                ],
-                [
-                    261.5199890136719,
-                    260.27398681640625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">beak</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "beak"
-            }
-        ]
-    },
-    "7": {
         "text": "fins",
         "words": [
             "fins"
@@ -245,7 +245,7 @@
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "trunk",
         "words": [
             "trunk"

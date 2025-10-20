@@ -1,21 +1,34 @@
 const fs = require('fs');
 const path = require('path');
 
-// Read the current BookDataService to see the page structure
-const bookDataServicePath = path.join(__dirname, '..', 'services', 'bookDataService.ts');
-const bookDataContent = fs.readFileSync(bookDataServicePath, 'utf8');
+// Function to get page numbers from a book directory
+function getPageNumbers(bookName) {
+  const dataDir = path.join(__dirname, '..', 'data', bookName);
+  if (!fs.existsSync(dataDir)) {
+    return [];
+  }
+  
+  const pages = fs.readdirSync(dataDir)
+    .filter(item => {
+      const itemPath = path.join(dataDir, item);
+      return fs.statSync(itemPath).isDirectory() && item.includes('_page_');
+    })
+    .map(item => {
+      const match = item.match(/_page_(\d+)/);
+      return match ? parseInt(match[1]) : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => a - b);
+    
+  return pages;
+}
 
-// Extract page numbers from imports
-const pageImports = bookDataContent.match(/grade_3_english_book_page_(\d+)/g);
-const pageNumbers = pageImports ? 
-  [...new Set(pageImports.map(match => {
-    const pageMatch = match.match(/grade_3_english_book_page_(\d+)/);
-    return pageMatch ? pageMatch[1] : null;
-  }).filter(Boolean))]
-    .map(num => parseInt(num))
-    .sort((a, b) => a - b) : [];
+// Get page numbers for both books
+const grade3Pages = getPageNumbers('grade_3_english_book');
+const grade4Pages = getPageNumbers('grade_4_english_book');
 
-console.log('Found pages:', pageNumbers.length);
+console.log('Found Grade 3 pages:', grade3Pages.length);
+console.log('Found Grade 4 pages:', grade4Pages.length);
 
 // Generate the audio resolver content
 let content = `// Auto-generated AudioResolver service
@@ -23,77 +36,115 @@ let content = `// Auto-generated AudioResolver service
 
 `;
 
-// Add all audio imports
-pageNumbers.forEach(pageNum => {
-  const pageDir = path.join(__dirname, '..', 'data', 'grade_3_english_book', `grade_3_english_book_page_${pageNum}`);
-  
-  if (fs.existsSync(pageDir)) {
-    const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
+// Function to add audio imports for a book
+function addAudioImports(bookName, pages, prefix) {
+  pages.forEach(pageNum => {
+    const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
     
-    if (audioFiles.length > 0) {
-      content += `// Page ${pageNum} audio files\n`;
-      audioFiles.forEach(file => {
-        const blockMatch = file.match(/block_(\d+)_(\d+)_audio\.mp3/);
-        if (blockMatch) {
-          const blockId = blockMatch[2];
-          content += `const page${pageNum}_block${blockId} = require('../data/grade_3_english_book/grade_3_english_book_page_${pageNum}/${file}');\n`;
-        }
-      });
-      content += '\n';
+    if (fs.existsSync(pageDir)) {
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
+      
+      if (audioFiles.length > 0) {
+        content += `// ${bookName} Page ${pageNum} audio files\n`;
+        audioFiles.forEach(file => {
+          const blockMatch = file.match(/block_(\d+)_(\d+)_audio\.mp3/);
+          if (blockMatch) {
+            const blockId = blockMatch[2];
+            content += `const ${prefix}page${pageNum}_block${blockId} = require('../data/${bookName}/${bookName}_page_${pageNum}/${file}');\n`;
+          }
+        });
+        content += '\n';
+      }
     }
-  }
-});
+  });
+}
 
-// Create audio mappings object
-content += `// Audio mappings by page\nconst audioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+// Add audio imports for both books
+addAudioImports('grade_3_english_book', grade3Pages, 'g3_');
+addAudioImports('grade_4_english_book', grade4Pages, 'g4_');
 
-pageNumbers.forEach(pageNum => {
-  const pageDir = path.join(__dirname, '..', 'data', 'grade_3_english_book', `grade_3_english_book_page_${pageNum}`);
-  
-  if (fs.existsSync(pageDir)) {
-    const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
+// Create audio mappings objects for both books
+content += `// Audio mappings by book and page\n`;
+content += `const grade3AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+
+// Function to add audio mappings for a book
+function addAudioMappings(bookName, pages, prefix, isGrade4 = false) {
+  pages.forEach(pageNum => {
+    const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
     
-    if (audioFiles.length > 0) {
-      content += `  '${pageNum}': {\n`;
+    if (fs.existsSync(pageDir)) {
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
       
-      audioFiles.forEach(file => {
-        const blockMatch = file.match(/block_(\d+)_(\d+)_audio\.mp3/);
-        if (blockMatch) {
-          const blockId = blockMatch[2];
-          content += `    '${blockId}': page${pageNum}_block${blockId},\n`;
-        }
-      });
-      
-      content += `  },\n`;
+      if (audioFiles.length > 0) {
+        content += `  '${pageNum}': {\n`;
+        
+        audioFiles.forEach(file => {
+          const blockMatch = file.match(/block_(\d+)_(\d+)_audio\.mp3/);
+          if (blockMatch) {
+            const blockId = blockMatch[2];
+            content += `    '${blockId}': ${prefix}page${pageNum}_block${blockId},\n`;
+          }
+        });
+        
+        content += `  },\n`;
+      }
     }
-  }
-});
+  });
+}
 
+// Add Grade 3 mappings
+addAudioMappings('grade_3_english_book', grade3Pages, 'g3_');
 content += `};\n\n`;
 
-// Add the service class
+// Add Grade 4 mappings
+content += `const grade4AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addAudioMappings('grade_4_english_book', grade4Pages, 'g4_');
+content += `};\n\n`;
+
+// Add the book-aware service class
 content += `export class AudioResolver {
-  static resolveAudio(pageNumber: number, blockId: string): any | null {
+  static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string): any | null {
+    // Determine which audio mappings to use based on book title
+    let audioMappings;
+    if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
+      audioMappings = grade4AudioMappings;
+    } else {
+      // Default to Grade 3 for backward compatibility
+      audioMappings = grade3AudioMappings;
+    }
+    
     const pageAudio = audioMappings[pageNumber.toString()];
     if (!pageAudio) {
-      console.log(\`No audio mappings found for page \${pageNumber}\`);
+      console.log(\`No audio mappings found for page \${pageNumber} in \${bookTitle || 'Grade 3 book'}\`);
       return null;
     }
     
     const audio = pageAudio[blockId];
     if (!audio) {
-      console.log(\`No audio found for page \${pageNumber}, block \${blockId}\`);
+      console.log(\`No audio found for page \${pageNumber}, block \${blockId} in \${bookTitle || 'Grade 3 book'}\`);
       return null;
     }
     
     return audio;
   }
   
-  static hasAudioForPage(pageNumber: number): boolean {
+  static hasAudioForPage(pageNumber: number, bookTitle?: string): boolean {
+    let audioMappings;
+    if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
+      audioMappings = grade4AudioMappings;
+    } else {
+      audioMappings = grade3AudioMappings;
+    }
     return !!audioMappings[pageNumber.toString()];
   }
   
-  static getAvailableBlocksForPage(pageNumber: number): string[] {
+  static getAvailableBlocksForPage(pageNumber: number, bookTitle?: string): string[] {
+    let audioMappings;
+    if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
+      audioMappings = grade4AudioMappings;
+    } else {
+      audioMappings = grade3AudioMappings;
+    }
     const pageAudio = audioMappings[pageNumber.toString()];
     return pageAudio ? Object.keys(pageAudio) : [];
   }
@@ -104,5 +155,6 @@ content += `export class AudioResolver {
 const outputPath = path.join(__dirname, '..', 'services', 'AudioResolver.ts');
 fs.writeFileSync(outputPath, content);
 
-console.log(`Generated AudioResolver.ts with ${pageNumbers.length} pages`);
-console.log('Audio mappings created for pages:', pageNumbers.join(', '));
+console.log(`Generated AudioResolver.ts with ${grade3Pages.length} Grade 3 pages and ${grade4Pages.length} Grade 4 pages`);
+console.log('Grade 3 audio mappings created for pages:', grade3Pages.join(', '));
+console.log('Grade 4 audio mappings created for pages:', grade4Pages.join(', '));

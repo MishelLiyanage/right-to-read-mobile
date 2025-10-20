@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Listen and point.",
         "words": [
             "Listen",
@@ -40,7 +40,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +65,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "Good morning, children! Let's go to the computer lab.",
         "words": [
             "Good",
@@ -247,7 +247,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "This is a computer. A computer has many parts.",
         "words": [
             "This",
@@ -354,7 +354,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is a computer.<break time=\"500ms\"/> A computer has many parts.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -428,23 +428,12 @@
             }
         ]
     },
-    "5": {
-        "text": "CPU monitor",
+    "3": {
+        "text": "monitor",
         "words": [
-            "CPU",
             "monitor"
         ],
         "bounding_boxes": [
-            [
-                [
-                    480.72698974609375,
-                    318.1239929199219
-                ],
-                [
-                    521.6669921875,
-                    341.9440002441406
-                ]
-            ],
             [
                 [
                     188.26699829101562,
@@ -456,7 +445,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\"><emphasis level=\"moderate\">CPU</emphasis> monitor</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">monitor</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "monitor"
+            }
+        ]
+    },
+    "4": {
+        "text": "CPU",
+        "words": [
+            "CPU"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    480.72698974609375,
+                    318.1239929199219
+                ],
+                [
+                    521.6669921875,
+                    341.9440002441406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\"><emphasis level=\"moderate\">CPU</emphasis></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -466,21 +485,13 @@
                 "start": 54,
                 "end": 57,
                 "value": "CPU"
-            },
-            {
-                "time": 1103,
-                "type": "word",
-                "start": 69,
-                "end": 76,
-                "value": "monitor"
             }
         ]
     },
-    "6": {
-        "text": "keyboard mouse",
+    "5": {
+        "text": "keyboard",
         "words": [
-            "keyboard",
-            "mouse"
+            "keyboard"
         ],
         "bounding_boxes": [
             [
@@ -492,7 +503,27 @@
                     253.0869903564453,
                     660.823974609375
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">keyboard</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "keyboard"
+            }
+        ]
+    },
+    "6": {
+        "text": "mouse",
+        "words": [
+            "mouse"
+        ],
+        "bounding_boxes": [
             [
                 [
                     403.3269958496094,
@@ -504,7 +535,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">keyboard mouse</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">mouse</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -512,14 +543,7 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 35,
-                "value": "keyboard"
-            },
-            {
-                "time": 633,
-                "type": "word",
-                "start": 36,
-                "end": 41,
+                "end": 32,
                 "value": "mouse"
             }
         ]

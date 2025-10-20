@@ -1,35 +1,5 @@
 {
-    "1": {
-        "text": "72",
-        "words": [
-            "72"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    32.01020050048828,
-                    24.34998893737793
-                ],
-                [
-                    59.52020263671875,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">72</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "72"
-            }
-        ]
-    },
-    "2": {
+    "0": {
         "text": "listen and say.",
         "words": [
             "listen",
@@ -70,7 +40,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -92,6 +62,157 @@
                 "start": 38,
                 "end": 41,
                 "value": "say"
+            }
+        ]
+    },
+    "1": {
+        "text": "bee",
+        "words": [
+            "bee"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    137.67300415039062,
+                    101.29696655273438
+                ],
+                [
+                    169.02899169921875,
+                    122.73497009277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">bee</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "bee"
+            }
+        ]
+    },
+    "2": {
+        "text": "I live in a bee hive.",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "a",
+            "bee",
+            "hive."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    265.2929992675781,
+                    229.06100463867188
+                ],
+                [
+                    271.9530029296875,
+                    250.49900817871094
+                ]
+            ],
+            [
+                [
+                    276.4530029296875,
+                    229.06100463867188
+                ],
+                [
+                    304.6230163574219,
+                    250.49900817871094
+                ]
+            ],
+            [
+                [
+                    309.1230163574219,
+                    229.06100463867188
+                ],
+                [
+                    324.8550109863281,
+                    250.49900817871094
+                ]
+            ],
+            [
+                [
+                    329.3550109863281,
+                    229.06100463867188
+                ],
+                [
+                    340.29901123046875,
+                    250.49900817871094
+                ]
+            ],
+            [
+                [
+                    265.2929992675781,
+                    250.6610107421875
+                ],
+                [
+                    296.64898681640625,
+                    272.0990295410156
+                ]
+            ],
+            [
+                [
+                    301.14898681640625,
+                    250.6610107421875
+                ],
+                [
+                    341.9010009765625,
+                    272.0990295410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I live in a bee hive.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 156,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "live"
+            },
+            {
+                "time": 419,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "in"
+            },
+            {
+                "time": 520,
+                "type": "word",
+                "start": 37,
+                "end": 38,
+                "value": "a"
+            },
+            {
+                "time": 581,
+                "type": "word",
+                "start": 39,
+                "end": 42,
+                "value": "bee"
+            },
+            {
+                "time": 871,
+                "type": "word",
+                "start": 43,
+                "end": 47,
+                "value": "hive"
             }
         ]
     },
@@ -181,144 +302,23 @@
         ]
     },
     "4": {
-        "text": "I live in a bee hive.",
+        "text": "bird",
         "words": [
-            "I",
-            "live",
-            "in",
-            "a",
-            "bee",
-            "hive."
+            "bird"
         ],
         "bounding_boxes": [
             [
                 [
-                    265.2929992675781,
-                    229.06100463867188
+                    352.5880126953125,
+                    340.3110046386719
                 ],
                 [
-                    271.9530029296875,
-                    250.49900817871094
-                ]
-            ],
-            [
-                [
-                    276.4530029296875,
-                    229.06100463867188
-                ],
-                [
-                    304.6230163574219,
-                    250.49900817871094
-                ]
-            ],
-            [
-                [
-                    309.1230163574219,
-                    229.06100463867188
-                ],
-                [
-                    324.8550109863281,
-                    250.49900817871094
-                ]
-            ],
-            [
-                [
-                    329.3550109863281,
-                    229.06100463867188
-                ],
-                [
-                    340.29901123046875,
-                    250.49900817871094
-                ]
-            ],
-            [
-                [
-                    265.2929992675781,
-                    250.6610107421875
-                ],
-                [
-                    296.64898681640625,
-                    272.0990295410156
-                ]
-            ],
-            [
-                [
-                    301.14898681640625,
-                    250.6610107421875
-                ],
-                [
-                    341.9010009765625,
-                    272.0990295410156
+                    388.0880432128906,
+                    364.1310119628906
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in a bee hive.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 147,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "live"
-            },
-            {
-                "time": 504,
-                "type": "word",
-                "start": 34,
-                "end": 36,
-                "value": "in"
-            },
-            {
-                "time": 722,
-                "type": "word",
-                "start": 37,
-                "end": 38,
-                "value": "a"
-            },
-            {
-                "time": 792,
-                "type": "word",
-                "start": 39,
-                "end": 42,
-                "value": "bee"
-            },
-            {
-                "time": 1074,
-                "type": "word",
-                "start": 43,
-                "end": 47,
-                "value": "hive"
-            }
-        ]
-    },
-    "5": {
-        "text": "bee",
-        "words": [
-            "bee"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    137.67300415039062,
-                    101.29696655273438
-                ],
-                [
-                    169.02899169921875,
-                    122.73497009277344
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">bee</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">bird</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -326,12 +326,12 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "bee"
+                "end": 31,
+                "value": "bird"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "I live in a nest.",
         "words": [
             "I",
@@ -394,8 +394,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in a nest.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -405,28 +405,28 @@
                 "value": "I"
             },
             {
-                "time": 147,
+                "time": 125,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 416,
+                "time": 358,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 566,
+                "time": 472,
                 "type": "word",
                 "start": 37,
                 "end": 38,
                 "value": "a"
             },
             {
-                "time": 620,
+                "time": 512,
                 "type": "word",
                 "start": 39,
                 "end": 43,
@@ -434,24 +434,24 @@
             }
         ]
     },
-    "7": {
-        "text": "bird",
+    "6": {
+        "text": "rabbit",
         "words": [
-            "bird"
+            "rabbit"
         ],
         "bounding_boxes": [
             [
                 [
-                    352.5880126953125,
-                    340.3110046386719
+                    113.67900085449219,
+                    497.9169616699219
                 ],
                 [
-                    388.0880432128906,
-                    364.1310119628906
+                    168.9390106201172,
+                    521.7369384765625
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bird</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">rabbit</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -459,12 +459,12 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 31,
-                "value": "bird"
+                "end": 33,
+                "value": "rabbit"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "I live in a burrow.",
         "words": [
             "I",
@@ -527,8 +527,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I live in a burrow.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -538,62 +538,32 @@
                 "value": "I"
             },
             {
-                "time": 147,
+                "time": 125,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "live"
             },
             {
-                "time": 416,
+                "time": 358,
                 "type": "word",
                 "start": 34,
                 "end": 36,
                 "value": "in"
             },
             {
-                "time": 566,
+                "time": 464,
                 "type": "word",
                 "start": 37,
                 "end": 38,
                 "value": "a"
             },
             {
-                "time": 616,
+                "time": 535,
                 "type": "word",
                 "start": 39,
                 "end": 45,
                 "value": "burrow"
-            }
-        ]
-    },
-    "9": {
-        "text": "rabbit",
-        "words": [
-            "rabbit"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    113.67900085449219,
-                    497.9169616699219
-                ],
-                [
-                    168.9390106201172,
-                    521.7369384765625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">rabbit</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "rabbit"
             }
         ]
     }

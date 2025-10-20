@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "68",
         "words": [
             "68"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,217 @@
             }
         ]
     },
+    "2": {
+        "text": "bee monkey crow butterfly",
+        "words": [
+            "bee",
+            "monkey",
+            "crow",
+            "butterfly"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    138.38699340820312,
+                    149.32797241210938
+                ],
+                [
+                    169.74298095703125,
+                    170.76597595214844
+                ]
+            ],
+            [
+                [
+                    188.8409881591797,
+                    128.55599975585938
+                ],
+                [
+                    257.31298828125,
+                    149.99400329589844
+                ]
+            ],
+            [
+                [
+                    295.34698486328125,
+                    126.28799438476562
+                ],
+                [
+                    335.14495849609375,
+                    147.7259979248047
+                ]
+            ],
+            [
+                [
+                    360.614990234375,
+                    133.48800659179688
+                ],
+                [
+                    434.0010070800781,
+                    154.92601013183594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">bee monkey crow butterfly</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "bee"
+            },
+            {
+                "time": 171,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "monkey"
+            },
+            {
+                "time": 564,
+                "type": "word",
+                "start": 38,
+                "end": 42,
+                "value": "crow"
+            },
+            {
+                "time": 860,
+                "type": "word",
+                "start": 43,
+                "end": 52,
+                "value": "butterfly"
+            }
+        ]
+    },
     "3": {
+        "text": "parrot",
+        "words": [
+            "parrot"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    473.906982421875,
+                    258.76800537109375
+                ],
+                [
+                    524.3789672851562,
+                    280.2060241699219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">parrot</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "parrot"
+            }
+        ]
+    },
+    "4": {
+        "text": "mynah",
+        "words": [
+            "mynah"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    112.46699523925781,
+                    299.0880126953125
+                ],
+                [
+                    173.52297973632812,
+                    320.5260314941406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">mynah</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "mynah"
+            }
+        ]
+    },
+    "5": {
+        "text": "rat squirrel worm",
+        "words": [
+            "rat",
+            "squirrel",
+            "worm"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    424.9469909667969,
+                    301.8780212402344
+                ],
+                [
+                    448.3110046386719,
+                    323.3160400390625
+                ]
+            ],
+            [
+                [
+                    301.93499755859375,
+                    320.6880187988281
+                ],
+                [
+                    363.11700439453125,
+                    342.12603759765625
+                ]
+            ],
+            [
+                [
+                    223.27499389648438,
+                    331.63201904296875
+                ],
+                [
+                    272.5589904785156,
+                    353.0700378417969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">rat squirrel worm</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "rat"
+            },
+            {
+                "time": 274,
+                "type": "word",
+                "start": 31,
+                "end": 39,
+                "value": "squirrel"
+            },
+            {
+                "time": 718,
+                "type": "word",
+                "start": 40,
+                "end": 44,
+                "value": "worm"
+            }
+        ]
+    },
+    "6": {
         "text": "These are animals and birds in my garden.",
         "words": [
             "These",
@@ -191,8 +401,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">These are animals and birds in my garden.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -202,263 +412,53 @@
                 "value": "These"
             },
             {
-                "time": 324,
+                "time": 261,
                 "type": "word",
                 "start": 33,
                 "end": 36,
                 "value": "are"
             },
             {
-                "time": 470,
+                "time": 398,
                 "type": "word",
                 "start": 37,
                 "end": 44,
                 "value": "animals"
             },
             {
-                "time": 1030,
+                "time": 909,
                 "type": "word",
                 "start": 45,
                 "end": 48,
                 "value": "and"
             },
             {
-                "time": 1197,
+                "time": 1172,
                 "type": "word",
                 "start": 49,
                 "end": 54,
                 "value": "birds"
             },
             {
-                "time": 1599,
+                "time": 1627,
                 "type": "word",
                 "start": 55,
                 "end": 57,
                 "value": "in"
             },
             {
-                "time": 1709,
+                "time": 1799,
                 "type": "word",
                 "start": 58,
                 "end": 60,
                 "value": "my"
             },
             {
-                "time": 1889,
+                "time": 1969,
                 "type": "word",
                 "start": 61,
                 "end": 67,
                 "value": "garden"
-            }
-        ]
-    },
-    "5": {
-        "text": "bee monkey crow butterfly",
-        "words": [
-            "bee",
-            "monkey",
-            "crow",
-            "butterfly"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    138.38699340820312,
-                    149.32797241210938
-                ],
-                [
-                    169.74298095703125,
-                    170.76597595214844
-                ]
-            ],
-            [
-                [
-                    188.8409881591797,
-                    128.55599975585938
-                ],
-                [
-                    257.31298828125,
-                    149.99400329589844
-                ]
-            ],
-            [
-                [
-                    295.34698486328125,
-                    126.28799438476562
-                ],
-                [
-                    335.14495849609375,
-                    147.7259979248047
-                ]
-            ],
-            [
-                [
-                    360.614990234375,
-                    133.48800659179688
-                ],
-                [
-                    434.0010070800781,
-                    154.92601013183594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">bee monkey crow butterfly</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "bee"
-            },
-            {
-                "time": 171,
-                "type": "word",
-                "start": 31,
-                "end": 37,
-                "value": "monkey"
-            },
-            {
-                "time": 564,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "crow"
-            },
-            {
-                "time": 860,
-                "type": "word",
-                "start": 43,
-                "end": 52,
-                "value": "butterfly"
-            }
-        ]
-    },
-    "6": {
-        "text": "parrot",
-        "words": [
-            "parrot"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    473.906982421875,
-                    258.76800537109375
-                ],
-                [
-                    524.3789672851562,
-                    280.2060241699219
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">parrot</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "parrot"
-            }
-        ]
-    },
-    "7": {
-        "text": "rat squirrel worm",
-        "words": [
-            "rat",
-            "squirrel",
-            "worm"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    424.9469909667969,
-                    301.8780212402344
-                ],
-                [
-                    448.3110046386719,
-                    323.3160400390625
-                ]
-            ],
-            [
-                [
-                    301.93499755859375,
-                    320.6880187988281
-                ],
-                [
-                    363.11700439453125,
-                    342.12603759765625
-                ]
-            ],
-            [
-                [
-                    223.27499389648438,
-                    331.63201904296875
-                ],
-                [
-                    272.5589904785156,
-                    353.0700378417969
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">rat squirrel worm</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "rat"
-            },
-            {
-                "time": 274,
-                "type": "word",
-                "start": 31,
-                "end": 39,
-                "value": "squirrel"
-            },
-            {
-                "time": 718,
-                "type": "word",
-                "start": 40,
-                "end": 44,
-                "value": "worm"
-            }
-        ]
-    },
-    "8": {
-        "text": "mynah",
-        "words": [
-            "mynah"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    112.46699523925781,
-                    299.0880126953125
-                ],
-                [
-                    173.52297973632812,
-                    320.5260314941406
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">mynah</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "mynah"
             }
         ]
     }

@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "46",
+        "words": [
+            "46"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.149900436401367,
+                    24.34998893737793
+                ],
+                [
+                    61.37989807128906,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">46</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "46"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and say. How do you come to school?",
         "words": [
             "Listen",
@@ -106,7 +136,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.<break time=\"500ms\"/> How do you come to school?</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -180,7 +210,211 @@
             }
         ]
     },
+    "2": {
+        "text": "bus",
+        "words": [
+            "bus"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    130.58200073242188,
+                    278.00299072265625
+                ],
+                [
+                    164.4420166015625,
+                    301.822998046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">bus</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "bus"
+            }
+        ]
+    },
     "3": {
+        "text": "school van",
+        "words": [
+            "school",
+            "van"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    265.37701416015625,
+                    282.1451721191406
+                ],
+                [
+                    324.8570556640625,
+                    305.9651794433594
+                ]
+            ],
+            [
+                [
+                    329.65704345703125,
+                    282.1451721191406
+                ],
+                [
+                    364.5970458984375,
+                    305.9651794433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">school van</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "school"
+            },
+            {
+                "time": 413,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "van"
+            }
+        ]
+    },
+    "4": {
+        "text": "three wheeler",
+        "words": [
+            "three",
+            "wheeler"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    429.58099365234375,
+                    280.6080017089844
+                ],
+                [
+                    478.7610168457031,
+                    304.4280090332031
+                ]
+            ],
+            [
+                [
+                    483.5610046386719,
+                    280.6080017089844
+                ],
+                [
+                    558.1810913085938,
+                    304.4280090332031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">three wheeler</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "three"
+            },
+            {
+                "time": 247,
+                "type": "word",
+                "start": 33,
+                "end": 40,
+                "value": "wheeler"
+            }
+        ]
+    },
+    "5": {
+        "text": "car",
+        "words": [
+            "car"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    127.97100067138672,
+                    425.02099609375
+                ],
+                [
+                    157.1909942626953,
+                    448.84100341796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">car</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "car"
+            }
+        ]
+    },
+    "6": {
+        "text": "motor cycle",
+        "words": [
+            "motor",
+            "cycle"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    255.36700439453125,
+                    454.3940124511719
+                ],
+                [
+                    312.28704833984375,
+                    478.2140197753906
+                ]
+            ],
+            [
+                [
+                    317.0870361328125,
+                    454.3940124511719
+                ],
+                [
+                    364.12701416015625,
+                    478.2140197753906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">motor cycle</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "motor"
+            },
+            {
+                "time": 354,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "cycle"
+            }
+        ]
+    },
+    "7": {
         "text": "on foot",
         "words": [
             "on",
@@ -228,7 +462,7 @@
             }
         ]
     },
-    "4": {
+    "8": {
         "text": "I come to school on foot.",
         "words": [
             "I",
@@ -349,7 +583,7 @@
             }
         ]
     },
-    "6": {
+    "9": {
         "text": "I come to school by bicycle.",
         "words": [
             "I",
@@ -467,186 +701,6 @@
                 "start": 47,
                 "end": 54,
                 "value": "bicycle"
-            }
-        ]
-    },
-    "7": {
-        "text": "school van three wheeler bus",
-        "words": [
-            "school",
-            "van",
-            "three",
-            "wheeler",
-            "bus"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    265.37701416015625,
-                    282.1451721191406
-                ],
-                [
-                    324.8570556640625,
-                    305.9651794433594
-                ]
-            ],
-            [
-                [
-                    329.65704345703125,
-                    282.1451721191406
-                ],
-                [
-                    364.5970458984375,
-                    305.9651794433594
-                ]
-            ],
-            [
-                [
-                    429.58099365234375,
-                    280.6080017089844
-                ],
-                [
-                    478.7610168457031,
-                    304.4280090332031
-                ]
-            ],
-            [
-                [
-                    483.5610046386719,
-                    280.6080017089844
-                ],
-                [
-                    558.1810913085938,
-                    304.4280090332031
-                ]
-            ],
-            [
-                [
-                    130.58200073242188,
-                    278.00299072265625
-                ],
-                [
-                    164.4420166015625,
-                    301.822998046875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">school van three wheeler bus</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "school"
-            },
-            {
-                "time": 413,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "van"
-            },
-            {
-                "time": 703,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "three"
-            },
-            {
-                "time": 972,
-                "type": "word",
-                "start": 44,
-                "end": 51,
-                "value": "wheeler"
-            },
-            {
-                "time": 1373,
-                "type": "word",
-                "start": 52,
-                "end": 55,
-                "value": "bus"
-            }
-        ]
-    },
-    "8": {
-        "text": "car",
-        "words": [
-            "car"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    127.97100067138672,
-                    425.02099609375
-                ],
-                [
-                    157.1909942626953,
-                    448.84100341796875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">car</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "car"
-            }
-        ]
-    },
-    "9": {
-        "text": "motor cycle",
-        "words": [
-            "motor",
-            "cycle"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    255.36700439453125,
-                    454.3940124511719
-                ],
-                [
-                    312.28704833984375,
-                    478.2140197753906
-                ]
-            ],
-            [
-                [
-                    317.0870361328125,
-                    454.3940124511719
-                ],
-                [
-                    364.12701416015625,
-                    478.2140197753906
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">motor cycle</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "motor"
-            },
-            {
-                "time": 354,
-                "type": "word",
-                "start": 33,
-                "end": 38,
-                "value": "cycle"
             }
         ]
     }

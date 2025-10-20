@@ -1,8 +1,7 @@
 {
-    "1": {
-        "text": "77 They all come down the hills.",
+    "0": {
+        "text": "They all come down the hills.",
         "words": [
-            "77",
             "They",
             "all",
             "come",
@@ -11,16 +10,6 @@
             "hills."
         ],
         "bounding_boxes": [
-            [
-                [
-                    552.8280029296875,
-                    24.34998893737793
-                ],
-                [
-                    578.508056640625,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -82,149 +71,55 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">77 They all come down the hills.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">They all come down the hills.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "77"
-            },
-            {
-                "time": 921,
-                "type": "word",
-                "start": 30,
-                "end": 34,
-                "value": "They"
-            },
-            {
-                "time": 1119,
-                "type": "word",
-                "start": 35,
-                "end": 38,
-                "value": "all"
-            },
-            {
-                "time": 1302,
-                "type": "word",
-                "start": 39,
-                "end": 43,
-                "value": "come"
-            },
-            {
-                "time": 1598,
-                "type": "word",
-                "start": 44,
-                "end": 48,
-                "value": "down"
-            },
-            {
-                "time": 1876,
-                "type": "word",
-                "start": 49,
-                "end": 52,
-                "value": "the"
-            },
-            {
-                "time": 1935,
-                "type": "word",
-                "start": 53,
-                "end": 58,
-                "value": "hills"
-            }
-        ]
-    },
-    "3": {
-        "text": "neigh",
-        "words": [
-            "neigh"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    455.3590087890625,
-                    198.96597290039062
-                ],
-                [
-                    498.22296142578125,
-                    218.02197265625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "neigh"
-            }
-        ]
-    },
-    "5": {
-        "text": "woof, woof",
-        "words": [
-            "woof,",
-            "woof"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    397.0610046386719,
-                    507.4859924316406
-                ],
-                [
-                    438.6289978027344,
-                    526.5419921875
-                ]
-            ],
-            [
-                [
-                    441.6690368652344,
-                    507.4859924316406
-                ],
-                [
-                    478.93304443359375,
-                    526.5419921875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
                 "end": 31,
-                "value": "woof"
+                "value": "They"
             },
             {
-                "time": 590,
+                "time": 177,
                 "type": "word",
                 "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
+                "end": 35,
+                "value": "all"
             },
             {
-                "time": 990,
+                "time": 379,
                 "type": "word",
-                "start": 54,
-                "end": 58,
-                "value": "woof"
+                "start": 36,
+                "end": 40,
+                "value": "come"
+            },
+            {
+                "time": 651,
+                "type": "word",
+                "start": 41,
+                "end": 45,
+                "value": "down"
+            },
+            {
+                "time": 929,
+                "type": "word",
+                "start": 46,
+                "end": 49,
+                "value": "the"
+            },
+            {
+                "time": 988,
+                "type": "word",
+                "start": 50,
+                "end": 55,
+                "value": "hills"
             }
         ]
     },
-    "7": {
+    "1": {
         "text": "quack, quack",
         "words": [
             "quack,",
@@ -254,8 +149,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -265,14 +160,14 @@
                 "value": "quack"
             },
             {
-                "time": 645,
+                "time": 787,
                 "type": "word",
                 "start": 33,
                 "end": 54,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1045,
+                "time": 1181,
                 "type": "word",
                 "start": 55,
                 "end": 60,
@@ -280,7 +175,7 @@
             }
         ]
     },
-    "8": {
+    "2": {
         "text": "baa, baa",
         "words": [
             "baa,",
@@ -310,8 +205,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -321,14 +216,14 @@
                 "value": "baa"
             },
             {
-                "time": 529,
+                "time": 523,
                 "type": "word",
                 "start": 31,
                 "end": 52,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 930,
+                "time": 923,
                 "type": "word",
                 "start": 53,
                 "end": 56,
@@ -336,7 +231,38 @@
             }
         ]
     },
-    "10": {
+    "3": {
+        "text": "neigh",
+        "words": [
+            "neigh"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    455.3590087890625,
+                    198.96597290039062
+                ],
+                [
+                    498.22296142578125,
+                    218.02197265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "neigh"
+            }
+        ]
+    },
+    "4": {
         "text": "Oh! It's a tortoise.",
         "words": [
             "Oh!",
@@ -418,6 +344,62 @@
                 "start": 43,
                 "end": 51,
                 "value": "tortoise"
+            }
+        ]
+    },
+    "5": {
+        "text": "woof, woof",
+        "words": [
+            "woof,",
+            "woof"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    397.0610046386719,
+                    507.4859924316406
+                ],
+                [
+                    438.6289978027344,
+                    526.5419921875
+                ]
+            ],
+            [
+                [
+                    441.6690368652344,
+                    507.4859924316406
+                ],
+                [
+                    478.93304443359375,
+                    526.5419921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "woof"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 960,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "woof"
             }
         ]
     }

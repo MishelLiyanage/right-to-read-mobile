@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "115 Listen and say.",
+    "0": {
+        "text": "Listen and say.",
         "words": [
-            "115",
             "Listen",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.2789916992188,
-                    24.34998893737793
-                ],
-                [
-                    581.0589599609375,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.46480178833008,
@@ -49,470 +38,98 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">115 Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "115"
-            },
-            {
-                "time": 1163,
-                "type": "word",
-                "start": 31,
-                "end": 37,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1562,
+                "time": 421,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1744,
+                "time": 595,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
     },
-    "2": {
-        "text": "Big leaves,",
+    "1": {
+        "text": "one - leaf",
         "words": [
-            "Big",
-            "leaves,"
+            "one",
+            "-",
+            "leaf"
         ],
         "bounding_boxes": [
             [
                 [
-                    408.8039855957031,
-                    319.1829833984375
+                    186.47000122070312,
+                    200.40097045898438
                 ],
                 [
-                    435.49798583984375,
-                    340.6210021972656
+                    218.14999389648438,
+                    221.83897399902344
                 ]
             ],
             [
                 [
-                    439.99798583984375,
-                    319.1829833984375
+                    222.64999389648438,
+                    200.40097045898438
                 ],
                 [
-                    497.8680114746094,
-                    340.6210021972656
+                    230.47999572753906,
+                    221.83897399902344
+                ]
+            ],
+            [
+                [
+                    234.97999572753906,
+                    200.40097045898438
+                ],
+                [
+                    267.52398681640625,
+                    221.83897399902344
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Big leaves,</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">one leaf</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
                 "end": 30,
-                "value": "Big"
+                "value": "one"
             },
             {
-                "time": 240,
+                "time": 221,
                 "type": "word",
                 "start": 31,
-                "end": 37,
-                "value": "leaves"
+                "end": 35,
+                "value": "leaf"
             }
         ]
     },
-    "3": {
-        "text": "small leaves.",
-        "words": [
-            "small",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    398.5439758300781,
-                    349.1889953613281
-                ],
-                [
-                    444.947998046875,
-                    370.62701416015625
-                ]
-            ],
-            [
-                [
-                    449.447998046875,
-                    349.1889953613281
-                ],
-                [
-                    508.1280212402344,
-                    370.62701416015625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">small leaves.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "small"
-            },
-            {
-                "time": 380,
-                "type": "word",
-                "start": 33,
-                "end": 39,
-                "value": "leaves"
-            }
-        ]
-    },
-    "4": {
-        "text": "Round leaves,",
-        "words": [
-            "Round",
-            "leaves,"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    394.8719787597656,
-                    379.19500732421875
-                ],
-                [
-                    449.42999267578125,
-                    400.6330261230469
-                ]
-            ],
-            [
-                [
-                    453.92999267578125,
-                    379.19500732421875
-                ],
-                [
-                    511.8000183105469,
-                    400.6330261230469
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Round leaves,</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Round"
-            },
-            {
-                "time": 393,
-                "type": "word",
-                "start": 33,
-                "end": 39,
-                "value": "leaves"
-            }
-        ]
-    },
-    "5": {
-        "text": "wavy leaves.",
-        "words": [
-            "wavy",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    399.677978515625,
-                    409.2010192871094
-                ],
-                [
-                    443.9759826660156,
-                    430.6390380859375
-                ]
-            ],
-            [
-                [
-                    448.29595947265625,
-                    409.2010192871094
-                ],
-                [
-                    506.9759521484375,
-                    430.6390380859375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">wavy leaves.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "wavy"
-            },
-            {
-                "time": 379,
-                "type": "word",
-                "start": 32,
-                "end": 38,
-                "value": "leaves"
-            }
-        ]
-    },
-    "6": {
-        "text": "Green leaves,",
-        "words": [
-            "Green",
-            "leaves,"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    396.45599365234375,
-                    439.20703125
-                ],
-                [
-                    447.8280029296875,
-                    460.6450500488281
-                ]
-            ],
-            [
-                [
-                    452.3280029296875,
-                    439.20703125
-                ],
-                [
-                    510.1980285644531,
-                    460.6450500488281
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Green leaves,</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Green"
-            },
-            {
-                "time": 328,
-                "type": "word",
-                "start": 33,
-                "end": 39,
-                "value": "leaves"
-            }
-        ]
-    },
-    "7": {
-        "text": "brown leaves.",
-        "words": [
-            "brown",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    395.3580017089844,
-                    469.2130432128906
-                ],
-                [
-                    448.11602783203125,
-                    490.65106201171875
-                ]
-            ],
-            [
-                [
-                    452.61602783203125,
-                    469.2130432128906
-                ],
-                [
-                    511.2960510253906,
-                    490.65106201171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">brown leaves.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "brown"
-            },
-            {
-                "time": 354,
-                "type": "word",
-                "start": 33,
-                "end": 39,
-                "value": "leaves"
-            }
-        ]
-    },
-    "8": {
-        "text": "Give me",
-        "words": [
-            "Give",
-            "me"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    417.4440002441406,
-                    499.2190856933594
-                ],
-                [
-                    455.1540222167969,
-                    520.6571044921875
-                ]
-            ],
-            [
-                [
-                    459.6540222167969,
-                    499.2190856933594
-                ],
-                [
-                    488.3100280761719,
-                    520.6571044921875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Give me</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Give"
-            },
-            {
-                "time": 232,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "me"
-            }
-        ]
-    },
-    "9": {
-        "text": "a crown of leaves.",
-        "words": [
-            "a",
-            "crown",
-            "of",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    377.7359924316406,
-                    529.22509765625
-                ],
-                [
-                    388.67999267578125,
-                    550.6630859375
-                ]
-            ],
-            [
-                [
-                    393.17999267578125,
-                    529.22509765625
-                ],
-                [
-                    444.3180236816406,
-                    550.6630859375
-                ]
-            ],
-            [
-                [
-                    448.8180236816406,
-                    529.22509765625
-                ],
-                [
-                    465.93603515625,
-                    550.6630859375
-                ]
-            ],
-            [
-                [
-                    470.25604248046875,
-                    529.22509765625
-                ],
-                [
-                    528.93603515625,
-                    550.6630859375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">a crown of leaves.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 74,
-                "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "crown"
-            },
-            {
-                "time": 457,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "of"
-            },
-            {
-                "time": 591,
-                "type": "word",
-                "start": 38,
-                "end": 44,
-                "value": "leaves"
-            }
-        ]
-    },
-    "10": {
-        "text": "many - leaves one - leaf o",
+    "2": {
+        "text": "many - leaves",
         "words": [
             "many",
             "-",
-            "leaves",
-            "one",
-            "-",
-            "leaf",
-            "o"
+            "leaves"
         ],
         "bounding_boxes": [
             [
@@ -544,49 +161,9 @@
                     542.6859741210938,
                     221.80601501464844
                 ]
-            ],
-            [
-                [
-                    186.47000122070312,
-                    200.40097045898438
-                ],
-                [
-                    218.14999389648438,
-                    221.83897399902344
-                ]
-            ],
-            [
-                [
-                    222.64999389648438,
-                    200.40097045898438
-                ],
-                [
-                    230.47999572753906,
-                    221.83897399902344
-                ]
-            ],
-            [
-                [
-                    234.97999572753906,
-                    200.40097045898438
-                ],
-                [
-                    267.52398681640625,
-                    221.83897399902344
-                ]
-            ],
-            [
-                [
-                    186.47000122070312,
-                    200.40097045898438
-                ],
-                [
-                    196.60400390625,
-                    221.83897399902344
-                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">many leaves one leaf o</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">many leaves</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -598,42 +175,19 @@
                 "value": "many"
             },
             {
-                "time": 334,
+                "time": 320,
                 "type": "word",
                 "start": 32,
                 "end": 38,
                 "value": "leaves"
-            },
-            {
-                "time": 777,
-                "type": "word",
-                "start": 39,
-                "end": 42,
-                "value": "one"
-            },
-            {
-                "time": 1055,
-                "type": "word",
-                "start": 43,
-                "end": 47,
-                "value": "leaf"
-            },
-            {
-                "time": 1388,
-                "type": "word",
-                "start": 48,
-                "end": 49,
-                "value": "o"
             }
         ]
     },
-    "11": {
-        "text": "big leaf small leaves",
+    "3": {
+        "text": "big leaf",
         "words": [
             "big",
-            "leaf",
-            "small",
-            "leaves"
+            "leaf"
         ],
         "bounding_boxes": [
             [
@@ -655,7 +209,35 @@
                     151.63870239257812,
                     379.66802978515625
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">big leaf</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "big"
+            },
+            {
+                "time": 224,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "leaf"
+            }
+        ]
+    },
+    "4": {
+        "text": "small leaves",
+        "words": [
+            "small",
+            "leaves"
+        ],
+        "bounding_boxes": [
             [
                 [
                     212.35269165039062,
@@ -677,7 +259,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">big leaf small leaves</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">small leaves</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -685,38 +267,22 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "big"
-            },
-            {
-                "time": 241,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "leaf"
-            },
-            {
-                "time": 460,
-                "type": "word",
-                "start": 36,
-                "end": 41,
+                "end": 32,
                 "value": "small"
             },
             {
-                "time": 862,
+                "time": 380,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 33,
+                "end": 39,
                 "value": "leaves"
             }
         ]
     },
-    "12": {
-        "text": "green leaves brown leaves",
+    "5": {
+        "text": "green leaves",
         "words": [
             "green",
-            "leaves",
-            "brown",
             "leaves"
         ],
         "bounding_boxes": [
@@ -739,7 +305,35 @@
                     173.72250366210938,
                     534.301025390625
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">green leaves</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "green"
+            },
+            {
+                "time": 311,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            }
+        ]
+    },
+    "6": {
+        "text": "brown leaves",
+        "words": [
+            "brown",
+            "leaves"
+        ],
+        "bounding_boxes": [
             [
                 [
                     213.08799743652344,
@@ -761,7 +355,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">green leaves brown leaves</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">brown leaves</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -770,32 +364,66 @@
                 "type": "word",
                 "start": 27,
                 "end": 32,
-                "value": "green"
+                "value": "brown"
             },
             {
-                "time": 328,
+                "time": 354,
                 "type": "word",
                 "start": 33,
                 "end": 39,
                 "value": "leaves"
+            }
+        ]
+    },
+    "7": {
+        "text": "wavy leaves",
+        "words": [
+            "wavy",
+            "leaves"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    69.29409790039062,
+                    651.156005859375
+                ],
+                [
+                    113.59210205078125,
+                    672.593994140625
+                ]
+            ],
+            [
+                [
+                    117.912109375,
+                    651.156005859375
+                ],
+                [
+                    170.9401092529297,
+                    672.593994140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">wavy leaves</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "wavy"
             },
             {
-                "time": 850,
+                "time": 379,
                 "type": "word",
-                "start": 40,
-                "end": 45,
-                "value": "brown"
-            },
-            {
-                "time": 1222,
-                "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 32,
+                "end": 38,
                 "value": "leaves"
             }
         ]
     },
-    "13": {
+    "8": {
         "text": "A crown of leaves",
         "words": [
             "A",
@@ -879,35 +507,179 @@
             }
         ]
     },
-    "14": {
-        "text": "wavy leaves",
+    "9": {
+        "text": "Big leaves,",
         "words": [
-            "wavy",
-            "leaves"
+            "Big",
+            "leaves,"
         ],
         "bounding_boxes": [
             [
                 [
-                    69.29409790039062,
-                    651.156005859375
+                    408.8039855957031,
+                    319.1829833984375
                 ],
                 [
-                    113.59210205078125,
-                    672.593994140625
+                    435.49798583984375,
+                    340.6210021972656
                 ]
             ],
             [
                 [
-                    117.912109375,
-                    651.156005859375
+                    439.99798583984375,
+                    319.1829833984375
                 ],
                 [
-                    170.9401092529297,
-                    672.593994140625
+                    497.8680114746094,
+                    340.6210021972656
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">wavy leaves</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Big leaves,</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Big"
+            },
+            {
+                "time": 240,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "leaves"
+            }
+        ]
+    },
+    "10": {
+        "text": "small leaves.",
+        "words": [
+            "small",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    398.5439758300781,
+                    349.1889953613281
+                ],
+                [
+                    444.947998046875,
+                    370.62701416015625
+                ]
+            ],
+            [
+                [
+                    449.447998046875,
+                    349.1889953613281
+                ],
+                [
+                    508.1280212402344,
+                    370.62701416015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">small leaves.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "small"
+            },
+            {
+                "time": 380,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            }
+        ]
+    },
+    "11": {
+        "text": "Round leaves,",
+        "words": [
+            "Round",
+            "leaves,"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    394.8719787597656,
+                    379.19500732421875
+                ],
+                [
+                    449.42999267578125,
+                    400.6330261230469
+                ]
+            ],
+            [
+                [
+                    453.92999267578125,
+                    379.19500732421875
+                ],
+                [
+                    511.8000183105469,
+                    400.6330261230469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Round leaves,</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Round"
+            },
+            {
+                "time": 393,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            }
+        ]
+    },
+    "12": {
+        "text": "wavy leaves.",
+        "words": [
+            "wavy",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    399.677978515625,
+                    409.2010192871094
+                ],
+                [
+                    443.9759826660156,
+                    430.6390380859375
+                ]
+            ],
+            [
+                [
+                    448.29595947265625,
+                    409.2010192871094
+                ],
+                [
+                    506.9759521484375,
+                    430.6390380859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">wavy leaves.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -923,6 +695,234 @@
                 "type": "word",
                 "start": 32,
                 "end": 38,
+                "value": "leaves"
+            }
+        ]
+    },
+    "13": {
+        "text": "Green leaves,",
+        "words": [
+            "Green",
+            "leaves,"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    396.45599365234375,
+                    439.20703125
+                ],
+                [
+                    447.8280029296875,
+                    460.6450500488281
+                ]
+            ],
+            [
+                [
+                    452.3280029296875,
+                    439.20703125
+                ],
+                [
+                    510.1980285644531,
+                    460.6450500488281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Green leaves,</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Green"
+            },
+            {
+                "time": 328,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            }
+        ]
+    },
+    "14": {
+        "text": "brown leaves.",
+        "words": [
+            "brown",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    395.3580017089844,
+                    469.2130432128906
+                ],
+                [
+                    448.11602783203125,
+                    490.65106201171875
+                ]
+            ],
+            [
+                [
+                    452.61602783203125,
+                    469.2130432128906
+                ],
+                [
+                    511.2960510253906,
+                    490.65106201171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">brown leaves.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "brown"
+            },
+            {
+                "time": 354,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            }
+        ]
+    },
+    "15": {
+        "text": "Give me",
+        "words": [
+            "Give",
+            "me"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    417.4440002441406,
+                    499.2190856933594
+                ],
+                [
+                    455.1540222167969,
+                    520.6571044921875
+                ]
+            ],
+            [
+                [
+                    459.6540222167969,
+                    499.2190856933594
+                ],
+                [
+                    488.3100280761719,
+                    520.6571044921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Give me</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Give"
+            },
+            {
+                "time": 232,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "me"
+            }
+        ]
+    },
+    "16": {
+        "text": "a crown of leaves.",
+        "words": [
+            "a",
+            "crown",
+            "of",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    377.7359924316406,
+                    529.22509765625
+                ],
+                [
+                    388.67999267578125,
+                    550.6630859375
+                ]
+            ],
+            [
+                [
+                    393.17999267578125,
+                    529.22509765625
+                ],
+                [
+                    444.3180236816406,
+                    550.6630859375
+                ]
+            ],
+            [
+                [
+                    448.8180236816406,
+                    529.22509765625
+                ],
+                [
+                    465.93603515625,
+                    550.6630859375
+                ]
+            ],
+            [
+                [
+                    470.25604248046875,
+                    529.22509765625
+                ],
+                [
+                    528.93603515625,
+                    550.6630859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a crown of leaves.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 74,
+                "type": "word",
+                "start": 29,
+                "end": 34,
+                "value": "crown"
+            },
+            {
+                "time": 457,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "of"
+            },
+            {
+                "time": 591,
+                "type": "word",
+                "start": 38,
+                "end": 44,
                 "value": "leaves"
             }
         ]

@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +40,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +65,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "school f lag",
         "words": [
             "school",
@@ -131,7 +131,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "Principal",
         "words": [
             "Principal"
@@ -161,7 +161,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "teachers",
         "words": [
             "teachers"
@@ -191,7 +191,37 @@
             }
         ]
     },
-    "6": {
+    "4": {
+        "text": "prefect",
+        "words": [
+            "prefect"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    408.3179931640625,
+                    217.95297241210938
+                ],
+                [
+                    468.0419616699219,
+                    239.39097595214844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">prefect</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "prefect"
+            }
+        ]
+    },
+    "5": {
         "text": "lines of children",
         "words": [
             "lines",
@@ -257,37 +287,7 @@
             }
         ]
     },
-    "7": {
-        "text": "prefect",
-        "words": [
-            "prefect"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    408.3179931640625,
-                    217.95297241210938
-                ],
-                [
-                    468.0419616699219,
-                    239.39097595214844
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">prefect</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "prefect"
-            }
-        ]
-    },
-    "8": {
+    "6": {
         "text": "Morning assembly is on Monday. We hoist the school f lag. We read news.",
         "words": [
             "Morning",
@@ -449,7 +449,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Morning assembly is on Monday.<break time=\"500ms\"/> We hoist the school f lag.<break time=\"500ms\"/> We read news.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

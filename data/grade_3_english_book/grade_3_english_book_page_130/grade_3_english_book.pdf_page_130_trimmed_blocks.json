@@ -1,8 +1,7 @@
 {
-    "1": {
-        "text": "121 Read and find words to complete.",
+    "0": {
+        "text": "Read and find words to complete.",
         "words": [
-            "121",
             "Read",
             "and",
             "find",
@@ -11,16 +10,6 @@
             "complete."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.7039794921875,
-                    24.34998893737793
-                ],
-                [
-                    580.6139526367188,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     58.88520050048828,
@@ -82,62 +71,55 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">121 Read and find words to complete.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Read and find words to complete.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "121"
-            },
-            {
-                "time": 1258,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "end": 31,
                 "value": "Read"
             },
             {
-                "time": 1531,
+                "time": 262,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 32,
+                "end": 35,
                 "value": "and"
             },
             {
-                "time": 1682,
+                "time": 424,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 36,
+                "end": 40,
                 "value": "find"
             },
             {
-                "time": 2085,
+                "time": 832,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 41,
+                "end": 46,
                 "value": "words"
             },
             {
-                "time": 2465,
+                "time": 1212,
                 "type": "word",
-                "start": 51,
-                "end": 53,
+                "start": 47,
+                "end": 49,
                 "value": "to"
             },
             {
-                "time": 2598,
+                "time": 1338,
                 "type": "word",
-                "start": 54,
-                "end": 62,
+                "start": 50,
+                "end": 58,
                 "value": "complete"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Clean water has no colour. We drink clean water.",
         "words": [
             "Clean",
@@ -244,7 +226,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Clean water has no colour.<break time=\"500ms\"/> We drink clean water.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -318,6 +300,90 @@
             }
         ]
     },
+    "2": {
+        "text": "Soap water is ..............",
+        "words": [
+            "Soap",
+            "water",
+            "is",
+            ".............."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    77.15660095214844,
+                    216.29800415039062
+                ],
+                [
+                    123.41661071777344,
+                    240.11801147460938
+                ]
+            ],
+            [
+                [
+                    128.21661376953125,
+                    216.29800415039062
+                ],
+                [
+                    181.91659545898438,
+                    240.11801147460938
+                ]
+            ],
+            [
+                [
+                    186.7165985107422,
+                    216.29800415039062
+                ],
+                [
+                    200.6966094970703,
+                    240.11801147460938
+                ]
+            ],
+            [
+                [
+                    205.6966094970703,
+                    216.29800415039062
+                ],
+                [
+                    293.6166076660156,
+                    240.11801147460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Soap water is <break time=\"1000ms\"/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Soap"
+            },
+            {
+                "time": 339,
+                "type": "word",
+                "start": 32,
+                "end": 37,
+                "value": "water"
+            },
+            {
+                "time": 802,
+                "type": "word",
+                "start": 38,
+                "end": 40,
+                "value": "is"
+            },
+            {
+                "time": 1325,
+                "type": "word",
+                "start": 41,
+                "end": 63,
+                "value": "<break time=\"1000ms\"/>"
+            }
+        ]
+    },
     "3": {
         "text": "Muddy water is .............",
         "words": [
@@ -370,7 +436,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Muddy water is <break time=\"1000ms\"/></prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -403,90 +469,6 @@
         ]
     },
     "4": {
-        "text": "Soap water is ..............",
-        "words": [
-            "Soap",
-            "water",
-            "is",
-            ".............."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    77.15660095214844,
-                    216.29800415039062
-                ],
-                [
-                    123.41661071777344,
-                    240.11801147460938
-                ]
-            ],
-            [
-                [
-                    128.21661376953125,
-                    216.29800415039062
-                ],
-                [
-                    181.91659545898438,
-                    240.11801147460938
-                ]
-            ],
-            [
-                [
-                    186.7165985107422,
-                    216.29800415039062
-                ],
-                [
-                    200.6966094970703,
-                    240.11801147460938
-                ]
-            ],
-            [
-                [
-                    205.6966094970703,
-                    216.29800415039062
-                ],
-                [
-                    293.6166076660156,
-                    240.11801147460938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Soap water is <break time=\"1000ms\"/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Soap"
-            },
-            {
-                "time": 339,
-                "type": "word",
-                "start": 32,
-                "end": 37,
-                "value": "water"
-            },
-            {
-                "time": 802,
-                "type": "word",
-                "start": 38,
-                "end": 40,
-                "value": "is"
-            },
-            {
-                "time": 1325,
-                "type": "word",
-                "start": 41,
-                "end": 63,
-                "value": "<break time=\"1000ms\"/>"
-            }
-        ]
-    },
-    "5": {
         "text": "Dirty water is ...........",
         "words": [
             "Dirty",
@@ -538,7 +520,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Dirty water is <break time=\"1000ms\"/></prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -570,7 +552,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "white / black / brown",
         "words": [
             "white",

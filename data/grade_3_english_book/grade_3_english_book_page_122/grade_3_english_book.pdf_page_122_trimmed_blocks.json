@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "113 Listen, point and read.",
+    "0": {
+        "text": "Listen, point and read.",
         "words": [
-            "113",
             "Listen,",
             "point",
             "and",
             "read."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.4039916992188,
-                    24.34998893737793
-                ],
-                [
-                    580.9140014648438,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -60,55 +49,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">113 Listen,<break time=\"300ms\"/> point and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and read.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "113"
-            },
-            {
-                "time": 1168,
-                "type": "word",
-                "start": 31,
-                "end": 37,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1890,
+                "time": 702,
                 "type": "word",
-                "start": 38,
-                "end": 59,
+                "start": 34,
+                "end": 55,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 2290,
+                "time": 1102,
                 "type": "word",
-                "start": 60,
-                "end": 65,
+                "start": 56,
+                "end": 61,
                 "value": "point"
             },
             {
-                "time": 2621,
+                "time": 1476,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 62,
+                "end": 65,
                 "value": "and"
             },
             {
-                "time": 2813,
+                "time": 1671,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 66,
+                "end": 70,
                 "value": "read"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "This is a big tree",
         "words": [
             "This",
@@ -171,7 +153,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is a big tree</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -207,6 +189,72 @@
                 "start": 41,
                 "end": 45,
                 "value": "tree"
+            }
+        ]
+    },
+    "2": {
+        "text": "It has leaves.",
+        "words": [
+            "It",
+            "has",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529998779296875,
+                    193.44796752929688
+                ],
+                [
+                    74.52999877929688,
+                    217.26797485351562
+                ]
+            ],
+            [
+                [
+                    79.33000183105469,
+                    193.44796752929688
+                ],
+                [
+                    113.19000244140625,
+                    217.26797485351562
+                ]
+            ],
+            [
+                [
+                    118.19000244140625,
+                    193.44796752929688
+                ],
+                [
+                    183.38999938964844,
+                    217.26797485351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">It has leaves.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "It"
+            },
+            {
+                "time": 109,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "has"
+            },
+            {
+                "time": 382,
+                "type": "word",
+                "start": 34,
+                "end": 40,
+                "value": "leaves"
             }
         ]
     },
@@ -251,7 +299,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">It has branches.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -277,138 +325,6 @@
         ]
     },
     "4": {
-        "text": "It has roots.",
-        "words": [
-            "It",
-            "has",
-            "roots."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    429.19000244140625,
-                    506.0879821777344
-                ],
-                [
-                    444.19000244140625,
-                    529.907958984375
-                ]
-            ],
-            [
-                [
-                    448.989990234375,
-                    506.0879821777344
-                ],
-                [
-                    482.8500061035156,
-                    529.907958984375
-                ]
-            ],
-            [
-                [
-                    487.8500061035156,
-                    506.0879821777344
-                ],
-                [
-                    539.6500244140625,
-                    529.907958984375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">It has roots.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "It"
-            },
-            {
-                "time": 110,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "has"
-            },
-            {
-                "time": 377,
-                "type": "word",
-                "start": 34,
-                "end": 39,
-                "value": "roots"
-            }
-        ]
-    },
-    "5": {
-        "text": "It has leaves.",
-        "words": [
-            "It",
-            "has",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    59.529998779296875,
-                    193.44796752929688
-                ],
-                [
-                    74.52999877929688,
-                    217.26797485351562
-                ]
-            ],
-            [
-                [
-                    79.33000183105469,
-                    193.44796752929688
-                ],
-                [
-                    113.19000244140625,
-                    217.26797485351562
-                ]
-            ],
-            [
-                [
-                    118.19000244140625,
-                    193.44796752929688
-                ],
-                [
-                    183.38999938964844,
-                    217.26797485351562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">It has leaves.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "It"
-            },
-            {
-                "time": 109,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "has"
-            },
-            {
-                "time": 382,
-                "type": "word",
-                "start": 34,
-                "end": 40,
-                "value": "leaves"
-            }
-        ]
-    },
-    "6": {
         "text": "It has a trunk.",
         "words": [
             "It",
@@ -460,7 +376,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">It has a trunk.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -492,7 +408,73 @@
             }
         ]
     },
-    "7": {
+    "5": {
+        "text": "It has roots.",
+        "words": [
+            "It",
+            "has",
+            "roots."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    429.19000244140625,
+                    506.0879821777344
+                ],
+                [
+                    444.19000244140625,
+                    529.907958984375
+                ]
+            ],
+            [
+                [
+                    448.989990234375,
+                    506.0879821777344
+                ],
+                [
+                    482.8500061035156,
+                    529.907958984375
+                ]
+            ],
+            [
+                [
+                    487.8500061035156,
+                    506.0879821777344
+                ],
+                [
+                    539.6500244140625,
+                    529.907958984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">It has roots.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "It"
+            },
+            {
+                "time": 110,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "has"
+            },
+            {
+                "time": 377,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "roots"
+            }
+        ]
+    },
+    "6": {
         "text": "leaves branches roots",
         "words": [
             "leaves",
@@ -558,7 +540,7 @@
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "trunk flowers",
         "words": [
             "trunk",

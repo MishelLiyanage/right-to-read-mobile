@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "Listen and read aloud.",
         "words": [
             "Listen",
@@ -51,7 +51,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and read aloud.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -83,7 +83,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "The sky",
         "words": [
             "The",
@@ -131,28 +131,117 @@
             }
         ]
     },
-    "3": {
-        "text": "Hello! I am the moon. Hello! I am the sun. Hello! we are stars. We are in the sky.",
+    "2": {
+        "text": "Hello! I am the sun.",
         "words": [
             "Hello!",
             "I",
             "am",
             "the",
-            "moon.",
+            "sun."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    65.73701477050781,
+                    322.87799072265625
+                ],
+                [
+                    114.31902313232422,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    118.81902313232422,
+                    322.87799072265625
+                ],
+                [
+                    125.47901916503906,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    129.97901916503906,
+                    322.87799072265625
+                ],
+                [
+                    159.37301635742188,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    163.69302368164062,
+                    322.87799072265625
+                ],
+                [
+                    192.07901000976562,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    65.73701477050781,
+                    342.8759765625
+                ],
+                [
+                    102.25902557373047,
+                    364.3139953613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hello! I am the sun.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Hello"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 34,
+                "end": 35,
+                "value": "I"
+            },
+            {
+                "time": 1197,
+                "type": "word",
+                "start": 36,
+                "end": 38,
+                "value": "am"
+            },
+            {
+                "time": 1331,
+                "type": "word",
+                "start": 39,
+                "end": 42,
+                "value": "the"
+            },
+            {
+                "time": 1417,
+                "type": "word",
+                "start": 43,
+                "end": 46,
+                "value": "sun"
+            }
+        ]
+    },
+    "3": {
+        "text": "Hello! I am the moon.",
+        "words": [
             "Hello!",
             "I",
             "am",
             "the",
-            "sun.",
-            "Hello!",
-            "we",
-            "are",
-            "stars.",
-            "We",
-            "are",
-            "in",
-            "the",
-            "sky."
+            "moon."
         ],
         "bounding_boxes": [
             [
@@ -204,57 +293,64 @@
                     306.7750244140625,
                     362.5320129394531
                 ]
-            ],
-            [
-                [
-                    65.73701477050781,
-                    322.87799072265625
-                ],
-                [
-                    114.31902313232422,
-                    344.3160095214844
-                ]
-            ],
-            [
-                [
-                    118.81902313232422,
-                    322.87799072265625
-                ],
-                [
-                    125.47901916503906,
-                    344.3160095214844
-                ]
-            ],
-            [
-                [
-                    129.97901916503906,
-                    322.87799072265625
-                ],
-                [
-                    159.37301635742188,
-                    344.3160095214844
-                ]
-            ],
-            [
-                [
-                    163.69302368164062,
-                    322.87799072265625
-                ],
-                [
-                    192.07901000976562,
-                    344.3160095214844
-                ]
-            ],
-            [
-                [
-                    65.73701477050781,
-                    342.8759765625
-                ],
-                [
-                    102.25902557373047,
-                    364.3139953613281
-                ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hello! I am the moon.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Hello"
+            },
+            {
+                "time": 898,
+                "type": "word",
+                "start": 34,
+                "end": 35,
+                "value": "I"
+            },
+            {
+                "time": 1052,
+                "type": "word",
+                "start": 36,
+                "end": 38,
+                "value": "am"
+            },
+            {
+                "time": 1215,
+                "type": "word",
+                "start": 39,
+                "end": 42,
+                "value": "the"
+            },
+            {
+                "time": 1304,
+                "type": "word",
+                "start": 43,
+                "end": 47,
+                "value": "moon"
+            }
+        ]
+    },
+    "4": {
+        "text": "Hello! we are stars. We are in the sky.",
+        "words": [
+            "Hello!",
+            "we",
+            "are",
+            "stars.",
+            "We",
+            "are",
+            "in",
+            "the",
+            "sky."
+        ],
+        "bounding_boxes": [
             [
                 [
                     411.76904296875,
@@ -346,10 +442,10 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello! I am the moon.<break time=\"500ms\"/> Hello! I am the sun.<break time=\"500ms\"/> Hello! we are stars.<break time=\"500ms\"/> We are in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Hello! we are stars.<break time=\"500ms\"/> We are in the sky.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -359,155 +455,71 @@
                 "value": "Hello"
             },
             {
-                "time": 891,
+                "time": 996,
                 "type": "word",
                 "start": 34,
-                "end": 35,
-                "value": "I"
-            },
-            {
-                "time": 1014,
-                "type": "word",
-                "start": 36,
-                "end": 38,
-                "value": "am"
-            },
-            {
-                "time": 1194,
-                "type": "word",
-                "start": 39,
-                "end": 42,
-                "value": "the"
-            },
-            {
-                "time": 1296,
-                "type": "word",
-                "start": 43,
-                "end": 47,
-                "value": "moon"
-            },
-            {
-                "time": 1846,
-                "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2733,
-                "type": "word",
-                "start": 70,
-                "end": 75,
-                "value": "Hello"
-            },
-            {
-                "time": 3618,
-                "type": "word",
-                "start": 77,
-                "end": 78,
-                "value": "I"
-            },
-            {
-                "time": 3740,
-                "type": "word",
-                "start": 79,
-                "end": 81,
-                "value": "am"
-            },
-            {
-                "time": 3921,
-                "type": "word",
-                "start": 82,
-                "end": 85,
-                "value": "the"
-            },
-            {
-                "time": 4015,
-                "type": "word",
-                "start": 86,
-                "end": 89,
-                "value": "sun"
-            },
-            {
-                "time": 4561,
-                "type": "word",
-                "start": 90,
-                "end": 111,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5447,
-                "type": "word",
-                "start": 112,
-                "end": 117,
-                "value": "Hello"
-            },
-            {
-                "time": 6332,
-                "type": "word",
-                "start": 119,
-                "end": 121,
+                "end": 36,
                 "value": "we"
             },
             {
-                "time": 6499,
+                "time": 1138,
                 "type": "word",
-                "start": 122,
-                "end": 125,
+                "start": 37,
+                "end": 40,
                 "value": "are"
             },
             {
-                "time": 6621,
+                "time": 1345,
                 "type": "word",
-                "start": 126,
-                "end": 131,
+                "start": 41,
+                "end": 46,
                 "value": "stars"
             },
             {
-                "time": 7327,
+                "time": 2124,
                 "type": "word",
-                "start": 132,
-                "end": 153,
+                "start": 47,
+                "end": 68,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 8213,
+                "time": 3010,
                 "type": "word",
-                "start": 154,
-                "end": 156,
+                "start": 69,
+                "end": 71,
                 "value": "We"
             },
             {
-                "time": 8412,
+                "time": 3152,
                 "type": "word",
-                "start": 157,
-                "end": 160,
+                "start": 72,
+                "end": 75,
                 "value": "are"
             },
             {
-                "time": 8549,
+                "time": 3321,
                 "type": "word",
-                "start": 161,
-                "end": 163,
+                "start": 76,
+                "end": 78,
                 "value": "in"
             },
             {
-                "time": 8768,
+                "time": 3446,
                 "type": "word",
-                "start": 164,
-                "end": 167,
+                "start": 79,
+                "end": 82,
                 "value": "the"
             },
             {
-                "time": 8862,
+                "time": 3553,
                 "type": "word",
-                "start": 168,
-                "end": 171,
+                "start": 83,
+                "end": 86,
                 "value": "sky"
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "What we see:",
         "words": [
             "What",
@@ -548,7 +560,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">What we see:</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -573,7 +585,7 @@
             }
         ]
     },
-    "5": {
+    "6": {
         "text": "Day Night sun moon birds stars aeroplanes aeroplanes kites bats clouds clouds rainbow",
         "words": [
             "Day",

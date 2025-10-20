@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "109 Listen and do.",
+    "0": {
+        "text": "Listen and do.",
         "words": [
-            "109",
             "Listen",
             "and",
             "do."
         ],
         "bounding_boxes": [
-            [
-                [
-                    545.8629760742188,
-                    24.34998893737793
-                ],
-                [
-                    585.4929809570312,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -49,278 +38,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">109 Listen and do.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and do.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "109"
-            },
-            {
-                "time": 896,
-                "type": "word",
-                "start": 31,
-                "end": 37,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1295,
+                "time": 421,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1470,
+                "time": 606,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 38,
+                "end": 40,
                 "value": "do"
             }
         ]
     },
-    "2": {
-        "text": "I have 12-5",
-        "words": [
-            "I",
-            "have",
-            "12-5"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    145.57000732421875,
-                    330.6549987792969
-                ],
-                [
-                    152.97000122070312,
-                    354.4750061035156
-                ]
-            ],
-            [
-                [
-                    157.97000122070312,
-                    330.6549987792969
-                ],
-                [
-                    204.14999389648438,
-                    354.4750061035156
-                ]
-            ],
-            [
-                [
-                    145.57000732421875,
-                    354.6549987792969
-                ],
-                [
-                    186.79000854492188,
-                    378.4750061035156
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I have 12 5</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 171,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "have"
-            },
-            {
-                "time": 423,
-                "type": "word",
-                "start": 34,
-                "end": 36,
-                "value": "12"
-            },
-            {
-                "time": 845,
-                "type": "word",
-                "start": 37,
-                "end": 38,
-                "value": "5"
-            }
-        ]
-    },
-    "3": {
-        "text": "I have 18 minus 4",
-        "words": [
-            "I",
-            "have",
-            "18",
-            "minus",
-            "4"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    134.6959991455078,
-                    488.71099853515625
-                ],
-                [
-                    140.98599243164062,
-                    508.9580078125
-                ]
-            ],
-            [
-                [
-                    145.23599243164062,
-                    488.71099853515625
-                ],
-                [
-                    184.48899841308594,
-                    508.9580078125
-                ]
-            ],
-            [
-                [
-                    134.6959991455078,
-                    509.1109924316406
-                ],
-                [
-                    152.22300720214844,
-                    529.3579711914062
-                ]
-            ],
-            [
-                [
-                    156.47300720214844,
-                    509.1109924316406
-                ],
-                [
-                    207.20101928710938,
-                    529.3579711914062
-                ]
-            ],
-            [
-                [
-                    211.45101928710938,
-                    509.1109924316406
-                ],
-                [
-                    221.14102172851562,
-                    529.3579711914062
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I have 18 minus 4</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 120,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "have"
-            },
-            {
-                "time": 327,
-                "type": "word",
-                "start": 34,
-                "end": 36,
-                "value": "18"
-            },
-            {
-                "time": 794,
-                "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "minus"
-            },
-            {
-                "time": 1277,
-                "type": "word",
-                "start": 43,
-                "end": 44,
-                "value": "4"
-            }
-        ]
-    },
-    "4": {
-        "text": "7",
-        "words": [
-            "7"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    424.0409851074219,
-                    319.0149841308594
-                ],
-                [
-                    434.5409851074219,
-                    342.8349914550781
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">7</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "7"
-            }
-        ]
-    },
-    "5": {
-        "text": "14",
-        "words": [
-            "14"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    433.197021484375,
-                    520.3710327148438
-                ],
-                [
-                    449.11700439453125,
-                    539.427001953125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "14"
-            }
-        ]
-    },
-    "6": {
+    "1": {
         "text": "Let's play a number game.",
         "words": [
             "Let's",
@@ -383,7 +128,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a number game.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -422,7 +167,7 @@
             }
         ]
     },
-    "7": {
+    "2": {
         "text": "Take a number card.",
         "words": [
             "Take",
@@ -474,7 +219,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Take a number card.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -506,7 +251,7 @@
             }
         ]
     },
-    "8": {
+    "3": {
         "text": "One card has a sum.",
         "words": [
             "One",
@@ -569,7 +314,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">One card has a sum.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -608,7 +353,7 @@
             }
         ]
     },
-    "9": {
+    "4": {
         "text": "One has the answer.",
         "words": [
             "One",
@@ -660,7 +405,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">One has the answer.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -692,7 +437,7 @@
             }
         ]
     },
-    "10": {
+    "5": {
         "text": "Match the sum with the answer.",
         "words": [
             "Match",
@@ -766,7 +511,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Match the sum with the answer.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -812,7 +557,246 @@
             }
         ]
     },
-    "11": {
+    "6": {
+        "text": "I have 12-5",
+        "words": [
+            "I",
+            "have",
+            "12-5"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    145.57000732421875,
+                    330.6549987792969
+                ],
+                [
+                    152.97000122070312,
+                    354.4750061035156
+                ]
+            ],
+            [
+                [
+                    157.97000122070312,
+                    330.6549987792969
+                ],
+                [
+                    204.14999389648438,
+                    354.4750061035156
+                ]
+            ],
+            [
+                [
+                    145.57000732421875,
+                    354.6549987792969
+                ],
+                [
+                    186.79000854492188,
+                    378.4750061035156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I have 12 5</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 171,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "have"
+            },
+            {
+                "time": 423,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "12"
+            },
+            {
+                "time": 845,
+                "type": "word",
+                "start": 37,
+                "end": 38,
+                "value": "5"
+            }
+        ]
+    },
+    "7": {
+        "text": "7",
+        "words": [
+            "7"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    424.0409851074219,
+                    319.0149841308594
+                ],
+                [
+                    434.5409851074219,
+                    342.8349914550781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">7</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "7"
+            }
+        ]
+    },
+    "8": {
+        "text": "I have 18 minus 4",
+        "words": [
+            "I",
+            "have",
+            "18",
+            "minus",
+            "4"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    134.6959991455078,
+                    488.71099853515625
+                ],
+                [
+                    140.98599243164062,
+                    508.9580078125
+                ]
+            ],
+            [
+                [
+                    145.23599243164062,
+                    488.71099853515625
+                ],
+                [
+                    184.48899841308594,
+                    508.9580078125
+                ]
+            ],
+            [
+                [
+                    134.6959991455078,
+                    509.1109924316406
+                ],
+                [
+                    152.22300720214844,
+                    529.3579711914062
+                ]
+            ],
+            [
+                [
+                    156.47300720214844,
+                    509.1109924316406
+                ],
+                [
+                    207.20101928710938,
+                    529.3579711914062
+                ]
+            ],
+            [
+                [
+                    211.45101928710938,
+                    509.1109924316406
+                ],
+                [
+                    221.14102172851562,
+                    529.3579711914062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I have 18 minus 4</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 193,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "have"
+            },
+            {
+                "time": 432,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "18"
+            },
+            {
+                "time": 972,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "minus"
+            },
+            {
+                "time": 1539,
+                "type": "word",
+                "start": 43,
+                "end": 44,
+                "value": "4"
+            }
+        ]
+    },
+    "9": {
+        "text": "14",
+        "words": [
+            "14"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    433.197021484375,
+                    520.3710327148438
+                ],
+                [
+                    449.11700439453125,
+                    539.427001953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "14"
+            }
+        ]
+    },
+    "10": {
         "text": "Note to the teacher: Make number cards with sums and answers.",
         "words": [
             "Note",
@@ -941,7 +925,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Note to the teacher: Make number cards with sums and answers.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -1,22 +1,11 @@
 {
-    "1": {
-        "text": "63 Good Habits",
+    "0": {
+        "text": "Good Habits",
         "words": [
-            "63",
             "Good",
             "Habits"
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.322998046875,
-                    24.34998893737793
-                ],
-                [
-                    581.0130004882812,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     246.343994140625,
@@ -38,7 +27,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">63 Good Habits</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Good Habits</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -46,31 +35,21 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "63"
-            },
-            {
-                "time": 779,
-                "type": "word",
-                "start": 30,
-                "end": 34,
+                "end": 31,
                 "value": "Good"
             },
             {
-                "time": 1019,
+                "time": 216,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 32,
+                "end": 38,
                 "value": "Habits"
             }
         ]
     },
-    "2": {
-        "text": "Avoid fast food. Wash your hands before you eat.",
+    "1": {
+        "text": "Wash your hands before you eat.",
         "words": [
-            "Avoid",
-            "fast",
-            "food.",
             "Wash",
             "your",
             "hands",
@@ -79,36 +58,6 @@
             "eat."
         ],
         "bounding_boxes": [
-            [
-                [
-                    361.5979919433594,
-                    319.90899658203125
-                ],
-                [
-                    413.0780029296875,
-                    343.72900390625
-                ]
-            ],
-            [
-                [
-                    418.0780029296875,
-                    319.90899658203125
-                ],
-                [
-                    454.2980041503906,
-                    343.72900390625
-                ]
-            ],
-            [
-                [
-                    459.0979919433594,
-                    319.90899658203125
-                ],
-                [
-                    507.51800537109375,
-                    343.72900390625
-                ]
-            ],
             [
                 [
                     83.72709655761719,
@@ -170,9 +119,96 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Avoid fast food.<break time=\"500ms\"/> Wash your hands before you eat.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Wash your hands before you eat.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Wash"
+            },
+            {
+                "time": 345,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "your"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "hands"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 43,
+                "end": 49,
+                "value": "before"
+            },
+            {
+                "time": 1257,
+                "type": "word",
+                "start": 50,
+                "end": 53,
+                "value": "you"
+            },
+            {
+                "time": 1562,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "eat"
+            }
+        ]
+    },
+    "2": {
+        "text": "Avoid fast food.",
+        "words": [
+            "Avoid",
+            "fast",
+            "food."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    361.5979919433594,
+                    319.90899658203125
+                ],
+                [
+                    413.0780029296875,
+                    343.72900390625
+                ]
+            ],
+            [
+                [
+                    418.0780029296875,
+                    319.90899658203125
+                ],
+                [
+                    454.2980041503906,
+                    343.72900390625
+                ]
+            ],
+            [
+                [
+                    459.0979919433594,
+                    319.90899658203125
+                ],
+                [
+                    507.51800537109375,
+                    343.72900390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Avoid fast food.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -194,55 +230,6 @@
                 "start": 38,
                 "end": 42,
                 "value": "food"
-            },
-            {
-                "time": 1332,
-                "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2219,
-                "type": "word",
-                "start": 65,
-                "end": 69,
-                "value": "Wash"
-            },
-            {
-                "time": 2558,
-                "type": "word",
-                "start": 70,
-                "end": 74,
-                "value": "your"
-            },
-            {
-                "time": 2671,
-                "type": "word",
-                "start": 75,
-                "end": 80,
-                "value": "hands"
-            },
-            {
-                "time": 3107,
-                "type": "word",
-                "start": 81,
-                "end": 87,
-                "value": "before"
-            },
-            {
-                "time": 3470,
-                "type": "word",
-                "start": 88,
-                "end": 91,
-                "value": "you"
-            },
-            {
-                "time": 3775,
-                "type": "word",
-                "start": 92,
-                "end": 95,
-                "value": "eat"
             }
         ]
     },
@@ -309,7 +296,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Eat fresh fruits and vegetables.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -400,7 +387,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Drink plenty of water.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

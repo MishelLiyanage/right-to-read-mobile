@@ -1,5 +1,500 @@
 {
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.40449905395508,
+                    58.912994384765625
+                ],
+                [
+                    117.6244888305664,
+                    82.73299407958984
+                ]
+            ],
+            [
+                [
+                    122.6244888305664,
+                    58.912994384765625
+                ],
+                [
+                    159.54449462890625,
+                    82.73299407958984
+                ]
+            ],
+            [
+                [
+                    164.54449462890625,
+                    58.912994384765625
+                ],
+                [
+                    200.5644989013672,
+                    82.73299407958984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Listen"
+            },
+            {
+                "time": 421,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "and"
+            },
+            {
+                "time": 595,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "say"
+            }
+        ]
+    },
+    "1": {
+        "text": "Drinks",
+        "words": [
+            "Drinks"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    286.864501953125,
+                    93.49301147460938
+                ],
+                [
+                    345.0445251464844,
+                    117.3130111694336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Drinks</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Drinks"
+            }
+        ]
+    },
+    "2": {
+        "text": "coffee",
+        "words": [
+            "coffee"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    84.68779754638672,
+                    293.7409973144531
+                ],
+                [
+                    132.38380432128906,
+                    312.7969970703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">coffee</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "coffee"
+            }
+        ]
+    },
+    "3": {
+        "text": "milk",
+        "words": [
+            "milk"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    196.00799560546875,
+                    326.1409912109375
+                ],
+                [
+                    228.8719940185547,
+                    345.1969909667969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">milk</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "milk"
+            }
+        ]
+    },
     "4": {
+        "text": "tea",
+        "words": [
+            "tea"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    289.05499267578125,
+                    293.7409973144531
+                ],
+                [
+                    313.6949768066406,
+                    312.7969970703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">tea</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "tea"
+            }
+        ]
+    },
+    "5": {
+        "text": "juice",
+        "words": [
+            "juice"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    384.8999938964844,
+                    326.1409912109375
+                ],
+                [
+                    420.5799560546875,
+                    345.1969909667969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">juice</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "juice"
+            }
+        ]
+    },
+    "6": {
+        "text": "water",
+        "words": [
+            "water"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    471.77606201171875,
+                    293.7409973144531
+                ],
+                [
+                    514.736083984375,
+                    312.7969970703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">water</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "water"
+            }
+        ]
+    },
+    "7": {
+        "text": "Act out.",
+        "words": [
+            "Act",
+            "out."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    60.964508056640625,
+                    361.9729919433594
+                ],
+                [
+                    92.12451171875,
+                    385.7929992675781
+                ]
+            ],
+            [
+                [
+                    96.92451477050781,
+                    361.9729919433594
+                ],
+                [
+                    134.66452026367188,
+                    385.7929992675781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Act out.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Act"
+            },
+            {
+                "time": 298,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "out"
+            }
+        ]
+    },
+    "8": {
+        "text": "I like tea.",
+        "words": [
+            "I",
+            "like",
+            "tea."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    177.92799377441406,
+                    403.6570129394531
+                ],
+                [
+                    185.32798767089844,
+                    427.4770202636719
+                ]
+            ],
+            [
+                [
+                    190.12799072265625,
+                    403.6570129394531
+                ],
+                [
+                    221.64797973632812,
+                    427.4770202636719
+                ]
+            ],
+            [
+                [
+                    226.44798278808594,
+                    403.6570129394531
+                ],
+                [
+                    263.5279846191406,
+                    427.4770202636719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I like tea.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 103,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "like"
+            },
+            {
+                "time": 432,
+                "type": "word",
+                "start": 34,
+                "end": 37,
+                "value": "tea"
+            }
+        ]
+    },
+    "9": {
+        "text": "Me too.",
+        "words": [
+            "Me",
+            "too."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    369.23199462890625,
+                    414.5369873046875
+                ],
+                [
+                    397.7720031738281,
+                    438.35699462890625
+                ]
+            ],
+            [
+                [
+                    402.5719909667969,
+                    414.5369873046875
+                ],
+                [
+                    438.6720275878906,
+                    438.35699462890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Me too.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "Me"
+            },
+            {
+                "time": 198,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "too"
+            }
+        ]
+    },
+    "10": {
+        "text": "Oh! Biscuits for me.",
+        "words": [
+            "Oh!",
+            "Biscuits",
+            "for",
+            "me."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    224.63999938964844,
+                    660.0340576171875
+                ],
+                [
+                    259.32000732421875,
+                    683.85400390625
+                ]
+            ],
+            [
+                [
+                    224.63999938964844,
+                    684.0340576171875
+                ],
+                [
+                    295.8800354003906,
+                    707.85400390625
+                ]
+            ],
+            [
+                [
+                    300.8800354003906,
+                    684.0340576171875
+                ],
+                [
+                    326.300048828125,
+                    707.85400390625
+                ]
+            ],
+            [
+                [
+                    331.10003662109375,
+                    684.0340576171875
+                ],
+                [
+                    369.22003173828125,
+                    707.85400390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Oh! Biscuits for me.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "Oh"
+            },
+            {
+                "time": 813,
+                "type": "word",
+                "start": 31,
+                "end": 39,
+                "value": "Biscuits"
+            },
+            {
+                "time": 1365,
+                "type": "word",
+                "start": 40,
+                "end": 43,
+                "value": "for"
+            },
+            {
+                "time": 1523,
+                "type": "word",
+                "start": 44,
+                "end": 46,
+                "value": "me"
+            }
+        ]
+    },
+    "11": {
         "text": "Have a tea party with your friends.",
         "words": [
             "Have",
@@ -84,7 +579,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Have a tea party with your friends.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -134,501 +629,6 @@
                 "start": 54,
                 "end": 61,
                 "value": "friends"
-            }
-        ]
-    },
-    "5": {
-        "text": "I like tea.",
-        "words": [
-            "I",
-            "like",
-            "tea."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    177.92799377441406,
-                    403.6570129394531
-                ],
-                [
-                    185.32798767089844,
-                    427.4770202636719
-                ]
-            ],
-            [
-                [
-                    190.12799072265625,
-                    403.6570129394531
-                ],
-                [
-                    221.64797973632812,
-                    427.4770202636719
-                ]
-            ],
-            [
-                [
-                    226.44798278808594,
-                    403.6570129394531
-                ],
-                [
-                    263.5279846191406,
-                    427.4770202636719
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I like tea.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 103,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "like"
-            },
-            {
-                "time": 432,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "tea"
-            }
-        ]
-    },
-    "6": {
-        "text": "Me too.",
-        "words": [
-            "Me",
-            "too."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    369.23199462890625,
-                    414.5369873046875
-                ],
-                [
-                    397.7720031738281,
-                    438.35699462890625
-                ]
-            ],
-            [
-                [
-                    402.5719909667969,
-                    414.5369873046875
-                ],
-                [
-                    438.6720275878906,
-                    438.35699462890625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Me too.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "Me"
-            },
-            {
-                "time": 198,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "too"
-            }
-        ]
-    },
-    "8": {
-        "text": "Oh! Biscuits for me.",
-        "words": [
-            "Oh!",
-            "Biscuits",
-            "for",
-            "me."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    224.63999938964844,
-                    660.0340576171875
-                ],
-                [
-                    259.32000732421875,
-                    683.85400390625
-                ]
-            ],
-            [
-                [
-                    224.63999938964844,
-                    684.0340576171875
-                ],
-                [
-                    295.8800354003906,
-                    707.85400390625
-                ]
-            ],
-            [
-                [
-                    300.8800354003906,
-                    684.0340576171875
-                ],
-                [
-                    326.300048828125,
-                    707.85400390625
-                ]
-            ],
-            [
-                [
-                    331.10003662109375,
-                    684.0340576171875
-                ],
-                [
-                    369.22003173828125,
-                    707.85400390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh! Biscuits for me.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "Oh"
-            },
-            {
-                "time": 867,
-                "type": "word",
-                "start": 31,
-                "end": 39,
-                "value": "Biscuits"
-            },
-            {
-                "time": 1365,
-                "type": "word",
-                "start": 40,
-                "end": 43,
-                "value": "for"
-            },
-            {
-                "time": 1516,
-                "type": "word",
-                "start": 44,
-                "end": 46,
-                "value": "me"
-            }
-        ]
-    },
-    "9": {
-        "text": "coffee",
-        "words": [
-            "coffee"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    84.68779754638672,
-                    293.7409973144531
-                ],
-                [
-                    132.38380432128906,
-                    312.7969970703125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">coffee</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "coffee"
-            }
-        ]
-    },
-    "10": {
-        "text": "milk",
-        "words": [
-            "milk"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    196.00799560546875,
-                    326.1409912109375
-                ],
-                [
-                    228.8719940185547,
-                    345.1969909667969
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">milk</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "milk"
-            }
-        ]
-    },
-    "11": {
-        "text": "tea",
-        "words": [
-            "tea"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    289.05499267578125,
-                    293.7409973144531
-                ],
-                [
-                    313.6949768066406,
-                    312.7969970703125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">tea</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "tea"
-            }
-        ]
-    },
-    "12": {
-        "text": "juice",
-        "words": [
-            "juice"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    384.8999938964844,
-                    326.1409912109375
-                ],
-                [
-                    420.5799560546875,
-                    345.1969909667969
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">juice</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "juice"
-            }
-        ]
-    },
-    "13": {
-        "text": "water",
-        "words": [
-            "water"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    471.77606201171875,
-                    293.7409973144531
-                ],
-                [
-                    514.736083984375,
-                    312.7969970703125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">water</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "water"
-            }
-        ]
-    },
-    "14": {
-        "text": "Listen and say.",
-        "words": [
-            "Listen",
-            "and",
-            "say."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    62.40449905395508,
-                    58.912994384765625
-                ],
-                [
-                    117.6244888305664,
-                    82.73299407958984
-                ]
-            ],
-            [
-                [
-                    122.6244888305664,
-                    58.912994384765625
-                ],
-                [
-                    159.54449462890625,
-                    82.73299407958984
-                ]
-            ],
-            [
-                [
-                    164.54449462890625,
-                    58.912994384765625
-                ],
-                [
-                    200.5644989013672,
-                    82.73299407958984
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 421,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "and"
-            },
-            {
-                "time": 595,
-                "type": "word",
-                "start": 38,
-                "end": 41,
-                "value": "say"
-            }
-        ]
-    },
-    "15": {
-        "text": "Drinks",
-        "words": [
-            "Drinks"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    286.864501953125,
-                    93.49301147460938
-                ],
-                [
-                    345.0445251464844,
-                    117.3130111694336
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Drinks</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Drinks"
-            }
-        ]
-    },
-    "16": {
-        "text": "Act out.",
-        "words": [
-            "Act",
-            "out."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    60.964508056640625,
-                    361.9729919433594
-                ],
-                [
-                    92.12451171875,
-                    385.7929992675781
-                ]
-            ],
-            [
-                [
-                    96.92451477050781,
-                    361.9729919433594
-                ],
-                [
-                    134.66452026367188,
-                    385.7929992675781
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Act out.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "Act"
-            },
-            {
-                "time": 298,
-                "type": "word",
-                "start": 31,
-                "end": 34,
-                "value": "out"
             }
         ]
     }

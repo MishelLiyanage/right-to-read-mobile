@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "36",
+        "words": [
+            "36"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    30.420900344848633,
+                    24.34998893737793
+                ],
+                [
+                    61.11090087890625,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">36</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "36"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "off ice",
         "words": [
             "off",
@@ -113,67 +143,37 @@
             }
         ]
     },
+    "3": {
+        "text": "library",
+        "words": [
+            "library"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    480.02899169921875,
+                    102.13601684570312
+                ],
+                [
+                    538.009033203125,
+                    125.95601654052734
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">library</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "library"
+            }
+        ]
+    },
     "4": {
-        "text": "classroom",
-        "words": [
-            "classroom"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    106.19100189208984,
-                    284.843994140625
-                ],
-                [
-                    201.13101196289062,
-                    308.66400146484375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">classroom</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "classroom"
-            }
-        ]
-    },
-    "5": {
-        "text": "playground",
-        "words": [
-            "playground"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    382.9320068359375,
-                    583.1700439453125
-                ],
-                [
-                    489.2120361328125,
-                    606.989990234375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">playground</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "playground"
-            }
-        ]
-    },
-    "6": {
         "text": "dancing room",
         "words": [
             "dancing",
@@ -221,24 +221,24 @@
             }
         ]
     },
-    "7": {
-        "text": "library",
+    "5": {
+        "text": "classroom",
         "words": [
-            "library"
+            "classroom"
         ],
         "bounding_boxes": [
             [
                 [
-                    480.02899169921875,
-                    102.13601684570312
+                    106.19100189208984,
+                    284.843994140625
                 ],
                 [
-                    538.009033203125,
-                    125.95601654052734
+                    201.13101196289062,
+                    308.66400146484375
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">library</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">classroom</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -246,12 +246,12 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 34,
-                "value": "library"
+                "end": 36,
+                "value": "classroom"
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "music",
         "words": [
             "music"
@@ -281,7 +281,7 @@
             }
         ]
     },
-    "9": {
+    "7": {
         "text": "room herbal garden",
         "words": [
             "room",
@@ -344,6 +344,36 @@
                 "start": 39,
                 "end": 45,
                 "value": "garden"
+            }
+        ]
+    },
+    "8": {
+        "text": "playground",
+        "words": [
+            "playground"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    382.9320068359375,
+                    583.1700439453125
+                ],
+                [
+                    489.2120361328125,
+                    606.989990234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">playground</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 37,
+                "value": "playground"
             }
         ]
     }

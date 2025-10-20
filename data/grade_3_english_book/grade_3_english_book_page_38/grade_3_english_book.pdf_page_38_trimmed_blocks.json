@@ -1,12 +1,9 @@
 {
-    "2": {
-        "text": "My House Listen and say.",
+    "0": {
+        "text": "My House",
         "words": [
             "My",
-            "House",
-            "Listen",
-            "and",
-            "say."
+            "House"
         ],
         "bounding_boxes": [
             [
@@ -28,7 +25,36 @@
                     350.5260009765625,
                     75.9800033569336
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">My House</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "My"
+            },
+            {
+                "time": 209,
+                "type": "word",
+                "start": 30,
+                "end": 35,
+                "value": "House"
+            }
+        ]
+    },
+    "1": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.52598571777344,
@@ -60,133 +86,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My House Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "My"
-            },
-            {
-                "time": 179,
-                "type": "word",
-                "start": 30,
-                "end": 35,
-                "value": "House"
-            },
-            {
-                "time": 509,
-                "type": "word",
-                "start": 36,
-                "end": 42,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 909,
+                "time": 421,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1091,
+                "time": 595,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
     },
-    "5": {
-        "text": "That is my house.",
-        "words": [
-            "That",
-            "is",
-            "my",
-            "house."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    272.97100830078125,
-                    676.5155029296875
-                ],
-                [
-                    315.6310119628906,
-                    700.33544921875
-                ]
-            ],
-            [
-                [
-                    320.4309997558594,
-                    676.5155029296875
-                ],
-                [
-                    334.4110107421875,
-                    700.33544921875
-                ]
-            ],
-            [
-                [
-                    339.4110107421875,
-                    676.5155029296875
-                ],
-                [
-                    369.8910217285156,
-                    700.33544921875
-                ]
-            ],
-            [
-                [
-                    374.6910095214844,
-                    676.5155029296875
-                ],
-                [
-                    437.87103271484375,
-                    700.33544921875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">That is my house.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "That"
-            },
-            {
-                "time": 239,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "is"
-            },
-            {
-                "time": 414,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "my"
-            },
-            {
-                "time": 615,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "house"
-            }
-        ]
-    },
-    "6": {
+    "2": {
         "text": "That is the roof.",
         "words": [
             "That",
@@ -271,7 +198,7 @@
             }
         ]
     },
-    "7": {
+    "3": {
         "text": "That is the wall.",
         "words": [
             "That",
@@ -356,127 +283,7 @@
             }
         ]
     },
-    "8": {
-        "text": "roof",
-        "words": [
-            "roof"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    256.79400634765625,
-                    245.29598999023438
-                ],
-                [
-                    293.37396240234375,
-                    269.1159973144531
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">roof</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "roof"
-            }
-        ]
-    },
-    "9": {
-        "text": "wall",
-        "words": [
-            "wall"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    331.1390075683594,
-                    321.5740051269531
-                ],
-                [
-                    365.5730285644531,
-                    343.01202392578125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">wall</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "wall"
-            }
-        ]
-    },
-    "10": {
-        "text": "door",
-        "words": [
-            "door"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    379.1050109863281,
-                    454.3479919433594
-                ],
-                [
-                    420.48504638671875,
-                    478.1679992675781
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">door</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "door"
-            }
-        ]
-    },
-    "11": {
-        "text": "window",
-        "words": [
-            "window"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    159.84300231933594,
-                    401.593994140625
-                ],
-                [
-                    233.44302368164062,
-                    425.41400146484375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">window</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "window"
-            }
-        ]
-    },
-    "12": {
+    "4": {
         "text": "That is the window.",
         "words": [
             "That",
@@ -561,7 +368,7 @@
             }
         ]
     },
-    "13": {
+    "5": {
         "text": "That is the door.",
         "words": [
             "That",
@@ -643,6 +450,91 @@
                 "start": 39,
                 "end": 43,
                 "value": "door"
+            }
+        ]
+    },
+    "6": {
+        "text": "That is my house.",
+        "words": [
+            "That",
+            "is",
+            "my",
+            "house."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    272.97100830078125,
+                    676.5155029296875
+                ],
+                [
+                    315.6310119628906,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    320.4309997558594,
+                    676.5155029296875
+                ],
+                [
+                    334.4110107421875,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    339.4110107421875,
+                    676.5155029296875
+                ],
+                [
+                    369.8910217285156,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    374.6910095214844,
+                    676.5155029296875
+                ],
+                [
+                    437.87103271484375,
+                    700.33544921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">That is my house.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "That"
+            },
+            {
+                "time": 239,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 414,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "my"
+            },
+            {
+                "time": 615,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "house"
             }
         ]
     }

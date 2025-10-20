@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "40",
+        "words": [
+            "40"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    29.30030059814453,
+                    24.34998893737793
+                ],
+                [
+                    62.24030303955078,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">40</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "40"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and act.",
         "words": [
             "Listen",
@@ -40,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and act.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,202 +95,7 @@
             }
         ]
     },
-    "3": {
-        "text": "6) Let's share.",
-        "words": [
-            "6)",
-            "Let's",
-            "share."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    216.85499572753906,
-                    614.8500366210938
-                ],
-                [
-                    233.0550079345703,
-                    632.7150268554688
-                ]
-            ],
-            [
-                [
-                    236.8050079345703,
-                    614.8500366210938
-                ],
-                [
-                    268.905029296875,
-                    632.7150268554688
-                ]
-            ],
-            [
-                [
-                    272.655029296875,
-                    614.8500366210938
-                ],
-                [
-                    315.99005126953125,
-                    632.7150268554688
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">6) Let&apos;s share.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "6"
-            },
-            {
-                "time": 1057,
-                "type": "word",
-                "start": 30,
-                "end": 40,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 1414,
-                "type": "word",
-                "start": 41,
-                "end": 46,
-                "value": "share"
-            }
-        ]
-    },
-    "4": {
-        "text": "5) Yes, I have an eraser.",
-        "words": [
-            "5)",
-            "Yes,",
-            "I",
-            "have",
-            "an",
-            "eraser."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    56.15999984741211,
-                    444.3589782714844
-                ],
-                [
-                    70.06999969482422,
-                    459.84197998046875
-                ]
-            ],
-            [
-                [
-                    72.93000030517578,
-                    444.3589782714844
-                ],
-                [
-                    96.23900604248047,
-                    459.84197998046875
-                ]
-            ],
-            [
-                [
-                    98.83900451660156,
-                    444.3589782714844
-                ],
-                [
-                    103.64900207519531,
-                    459.84197998046875
-                ]
-            ],
-            [
-                [
-                    106.89900207519531,
-                    444.3589782714844
-                ],
-                [
-                    136.91600036621094,
-                    459.84197998046875
-                ]
-            ],
-            [
-                [
-                    140.16600036621094,
-                    444.3589782714844
-                ],
-                [
-                    156.260009765625,
-                    459.84197998046875
-                ]
-            ],
-            [
-                [
-                    56.15999984741211,
-                    462.3639831542969
-                ],
-                [
-                    96.7330093383789,
-                    477.84698486328125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">5) Yes,<break time=\"300ms\"/> I have an eraser.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "5"
-            },
-            {
-                "time": 835,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "Yes"
-            },
-            {
-                "time": 1623,
-                "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2023,
-                "type": "word",
-                "start": 56,
-                "end": 57,
-                "value": "I"
-            },
-            {
-                "time": 2248,
-                "type": "word",
-                "start": 58,
-                "end": 62,
-                "value": "have"
-            },
-            {
-                "time": 2484,
-                "type": "word",
-                "start": 63,
-                "end": 65,
-                "value": "an"
-            },
-            {
-                "time": 2604,
-                "type": "word",
-                "start": 66,
-                "end": 72,
-                "value": "eraser"
-            }
-        ]
-    },
-    "5": {
+    "2": {
         "text": "1) You look sad!",
         "words": [
             "1)",
@@ -345,7 +180,7 @@
             }
         ]
     },
-    "6": {
+    "3": {
         "text": "2) I don't have a ruler. 3) Don't worry. I have one.",
         "words": [
             "2)",
@@ -588,7 +423,7 @@
             }
         ]
     },
-    "7": {
+    "4": {
         "text": "4) I have colour pencils. She has an eraser.",
         "words": [
             "4)",
@@ -767,6 +602,201 @@
                 "start": 85,
                 "end": 91,
                 "value": "eraser"
+            }
+        ]
+    },
+    "5": {
+        "text": "5) Yes, I have an eraser.",
+        "words": [
+            "5)",
+            "Yes,",
+            "I",
+            "have",
+            "an",
+            "eraser."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    56.15999984741211,
+                    444.3589782714844
+                ],
+                [
+                    70.06999969482422,
+                    459.84197998046875
+                ]
+            ],
+            [
+                [
+                    72.93000030517578,
+                    444.3589782714844
+                ],
+                [
+                    96.23900604248047,
+                    459.84197998046875
+                ]
+            ],
+            [
+                [
+                    98.83900451660156,
+                    444.3589782714844
+                ],
+                [
+                    103.64900207519531,
+                    459.84197998046875
+                ]
+            ],
+            [
+                [
+                    106.89900207519531,
+                    444.3589782714844
+                ],
+                [
+                    136.91600036621094,
+                    459.84197998046875
+                ]
+            ],
+            [
+                [
+                    140.16600036621094,
+                    444.3589782714844
+                ],
+                [
+                    156.260009765625,
+                    459.84197998046875
+                ]
+            ],
+            [
+                [
+                    56.15999984741211,
+                    462.3639831542969
+                ],
+                [
+                    96.7330093383789,
+                    477.84698486328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">5) Yes,<break time=\"300ms\"/> I have an eraser.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "5"
+            },
+            {
+                "time": 835,
+                "type": "word",
+                "start": 30,
+                "end": 33,
+                "value": "Yes"
+            },
+            {
+                "time": 1623,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 2023,
+                "type": "word",
+                "start": 56,
+                "end": 57,
+                "value": "I"
+            },
+            {
+                "time": 2248,
+                "type": "word",
+                "start": 58,
+                "end": 62,
+                "value": "have"
+            },
+            {
+                "time": 2484,
+                "type": "word",
+                "start": 63,
+                "end": 65,
+                "value": "an"
+            },
+            {
+                "time": 2604,
+                "type": "word",
+                "start": 66,
+                "end": 72,
+                "value": "eraser"
+            }
+        ]
+    },
+    "6": {
+        "text": "6) Let's share.",
+        "words": [
+            "6)",
+            "Let's",
+            "share."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    216.85499572753906,
+                    614.8500366210938
+                ],
+                [
+                    233.0550079345703,
+                    632.7150268554688
+                ]
+            ],
+            [
+                [
+                    236.8050079345703,
+                    614.8500366210938
+                ],
+                [
+                    268.905029296875,
+                    632.7150268554688
+                ]
+            ],
+            [
+                [
+                    272.655029296875,
+                    614.8500366210938
+                ],
+                [
+                    315.99005126953125,
+                    632.7150268554688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">6) Let&apos;s share.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "6"
+            },
+            {
+                "time": 1057,
+                "type": "word",
+                "start": 30,
+                "end": 40,
+                "value": "Let&apos;s"
+            },
+            {
+                "time": 1414,
+                "type": "word",
+                "start": 41,
+                "end": 46,
+                "value": "share"
             }
         ]
     }

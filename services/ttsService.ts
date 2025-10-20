@@ -21,6 +21,7 @@ export class TTSService {
   private blocks: TextBlock[] = [];
   private callbacks: TTSServiceCallbacks = {};
   private isInitialized: boolean = false;
+  private bookTitle: string = '';
   // private playbackRate: number = 1.0; // Default speed (1.0 = normal speed)
 
   constructor(callbacks?: TTSServiceCallbacks) {
@@ -145,10 +146,10 @@ export class TTSService {
     }
   }
 
-  loadContent(blocks: TextBlock[]): void {
+  loadContent(blocks: TextBlock[], bookTitle?: string): void {
     this.blocks = blocks;
     this.currentBlockIndex = 0;
-
+    this.bookTitle = bookTitle || '';
   }
 
   async startReading(): Promise<void> {
@@ -209,6 +210,13 @@ export class TTSService {
   private async playBlock(block: TextBlock): Promise<void> {
     try {
       console.log(`[TTS] Starting playBlock with rate: 1.0, block:`, block.id);
+      console.log(`[TTS] Block details:`, {
+        id: block.id,
+        pageNumber: block.pageNumber,
+        blockId: block.blockId,
+        bookTitle: this.bookTitle,
+        text: block.text.substring(0, 50) + '...'
+      });
       
       // Cleanup previous sound
       if (this.currentSound) {
@@ -220,8 +228,15 @@ export class TTSService {
       console.log('[TTS] Creating new sound from block audio');
       
       // Resolve audio using AudioResolver for dynamic paths
-      const resolvedAudio = block.pageNumber && block.blockId ? 
-        AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString()) : null;
+      const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ? 
+        AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle) : null;
+        
+      console.log(`[TTS] AudioResolver result:`, {
+        hasResolvedAudio: !!resolvedAudio,
+        pageNumber: block.pageNumber,
+        blockId: block.blockId,
+        bookTitle: this.bookTitle
+      });
       
       if (!resolvedAudio) {
         console.warn('[TTS] No audio available for this block');
@@ -423,8 +438,8 @@ export class TTSService {
 
           if (wordMark) {
             // Resolve audio using AudioResolver for dynamic paths
-            const resolvedAudio = block.pageNumber && block.blockId ?
-              AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString()) : null;
+            const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ?
+              AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle) : null;
             
             if (resolvedAudio) {
               await this.playWordFromBlock(word, resolvedAudio, block.speechMarks, wordMark);
@@ -501,11 +516,16 @@ export class TTSService {
 
   // Play specific block by ID
   async playSpecificBlock(blockId: number): Promise<void> {
+    console.log(`[TTS] playSpecificBlock called with blockId: ${blockId}`);
+    console.log(`[TTS] Current blocks array:`, this.blocks.map(b => ({ id: b.id, blockId: b.blockId, text: b.text.substring(0, 30) + '...' })));
+    
     if (!this.isInitialized) {
+      console.log('[TTS] Service not initialized, initializing...');
       await this.initialize();
     }
 
     if (this.blocks.length === 0) {
+      console.error('[TTS] No content loaded');
       this.callbacks.onPlaybackError?.('No content loaded');
       return;
     }
@@ -513,7 +533,10 @@ export class TTSService {
     try {
       // Find the block by ID
       const blockIndex = this.blocks.findIndex(block => block.id === blockId);
+      console.log(`[TTS] Block search result: blockIndex=${blockIndex} for blockId=${blockId}`);
+      
       if (blockIndex === -1) {
+        console.error(`[TTS] Block with ID ${blockId} not found. Available blocks:`, this.blocks.map(b => b.id));
         throw new Error(`Block with ID ${blockId} not found`);
       }
 

@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "Her mother gives a present to Dinu. \"Happy birthday my daughter. This is your present.\"",
         "words": [
             "Her",
@@ -171,9 +171,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Her mother gives a present to Dinu.<break time=\"500ms\"/> &quot;Happy birthday my daughter.<break time=\"500ms\"/> This is your present.&quot;</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -296,8 +295,172 @@
             }
         ]
     },
+    "1": {
+        "text": "\"Happy birthday my daughter. This is your present.\"",
+        "words": [
+            "\"Happy",
+            "birthday",
+            "my",
+            "daughter.",
+            "This",
+            "is",
+            "your",
+            "present.\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    395.44964599609375,
+                    52.920013427734375
+                ],
+                [
+                    466.0296325683594,
+                    76.7400131225586
+                ]
+            ],
+            [
+                [
+                    470.8296203613281,
+                    52.920013427734375
+                ],
+                [
+                    549.7695922851562,
+                    76.7400131225586
+                ]
+            ],
+            [
+                [
+                    59.529598236083984,
+                    76.92001342773438
+                ],
+                [
+                    90.00959777832031,
+                    100.7400131225586
+                ]
+            ],
+            [
+                [
+                    94.80960083007812,
+                    76.92001342773438
+                ],
+                [
+                    187.109619140625,
+                    100.7400131225586
+                ]
+            ],
+            [
+                [
+                    190.50961303710938,
+                    76.92001342773438
+                ],
+                [
+                    227.4896240234375,
+                    100.7400131225586
+                ]
+            ],
+            [
+                [
+                    232.4896240234375,
+                    76.92001342773438
+                ],
+                [
+                    246.46963500976562,
+                    100.7400131225586
+                ]
+            ],
+            [
+                [
+                    251.26963806152344,
+                    76.92001342773438
+                ],
+                [
+                    292.0096740722656,
+                    100.7400131225586
+                ]
+            ],
+            [
+                [
+                    296.8096618652344,
+                    76.92001342773438
+                ],
+                [
+                    381.0096740722656,
+                    100.7400131225586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">&quot;Happy birthday my daughter.<break time=\"500ms\"/> This is your present.&quot;</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "Happy"
+            },
+            {
+                "time": 344,
+                "type": "word",
+                "start": 39,
+                "end": 47,
+                "value": "birthday"
+            },
+            {
+                "time": 855,
+                "type": "word",
+                "start": 48,
+                "end": 50,
+                "value": "my"
+            },
+            {
+                "time": 1048,
+                "type": "word",
+                "start": 51,
+                "end": 59,
+                "value": "daughter"
+            },
+            {
+                "time": 1591,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 2478,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "This"
+            },
+            {
+                "time": 2707,
+                "type": "word",
+                "start": 87,
+                "end": 89,
+                "value": "is"
+            },
+            {
+                "time": 2856,
+                "type": "word",
+                "start": 90,
+                "end": 94,
+                "value": "your"
+            },
+            {
+                "time": 3003,
+                "type": "word",
+                "start": 95,
+                "end": 102,
+                "value": "present"
+            }
+        ]
+    },
     "2": {
-        "text": "\"Wow! It's a beautiful blouse.Orange in colour. Thank you mother.\" 2. What does the mother give her?",
+        "text": "\"Wow! It's a beautiful blouse.Orange in colour. Thank you mother.\"",
         "words": [
             "\"Wow!",
             "It's",
@@ -308,14 +471,7 @@
             "colour.",
             "Thank",
             "you",
-            "mother.\"",
-            "2.",
-            "What",
-            "does",
-            "the",
-            "mother",
-            "give",
-            "her?"
+            "mother.\""
         ],
         "bounding_boxes": [
             [
@@ -417,79 +573,9 @@
                     181.52960205078125,
                     172.74002075195312
                 ]
-            ],
-            [
-                [
-                    60.529598236083984,
-                    200.50003051757812
-                ],
-                [
-                    78.78959655761719,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    96.52959442138672,
-                    200.50003051757812
-                ],
-                [
-                    148.7895965576172,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    153.589599609375,
-                    200.50003051757812
-                ],
-                [
-                    197.44960021972656,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    202.24960327148438,
-                    200.50003051757812
-                ],
-                [
-                    233.78961181640625,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    238.78961181640625,
-                    200.50003051757812
-                ],
-                [
-                    308.68963623046875,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    313.4896240234375,
-                    200.50003051757812
-                ],
-                [
-                    352.04962158203125,
-                    224.32003784179688
-                ]
-            ],
-            [
-                [
-                    357.04962158203125,
-                    200.50003051757812
-                ],
-                [
-                    397.94964599609375,
-                    224.32003784179688
-                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">&quot;Wow! It&apos;s a beautiful blouse.Orange in colour.<break time=\"500ms\"/> Thank you mother.&quot; 2.<break time=\"500ms\"/> What does the mother give her?</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">&quot;Wow! It&apos;s a beautiful blouse.Orange in colour.<break time=\"500ms\"/> Thank you mother.&quot;</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -570,66 +656,155 @@
                 "start": 116,
                 "end": 122,
                 "value": "mother"
-            },
-            {
-                "time": 5942,
-                "type": "word",
-                "start": 130,
-                "end": 131,
-                "value": "2"
-            },
-            {
-                "time": 6430,
-                "type": "word",
-                "start": 132,
-                "end": 153,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7317,
-                "type": "word",
-                "start": 154,
-                "end": 158,
-                "value": "What"
-            },
-            {
-                "time": 7569,
-                "type": "word",
-                "start": 159,
-                "end": 163,
-                "value": "does"
-            },
-            {
-                "time": 7881,
-                "type": "word",
-                "start": 164,
-                "end": 167,
-                "value": "the"
-            },
-            {
-                "time": 7981,
-                "type": "word",
-                "start": 168,
-                "end": 174,
-                "value": "mother"
-            },
-            {
-                "time": 8341,
-                "type": "word",
-                "start": 175,
-                "end": 179,
-                "value": "give"
-            },
-            {
-                "time": 8591,
-                "type": "word",
-                "start": 180,
-                "end": 183,
-                "value": "her"
             }
         ]
     },
     "3": {
+        "text": "2. What does the mother give her?",
+        "words": [
+            "2.",
+            "What",
+            "does",
+            "the",
+            "mother",
+            "give",
+            "her?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    60.529598236083984,
+                    200.50003051757812
+                ],
+                [
+                    78.78959655761719,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    96.52959442138672,
+                    200.50003051757812
+                ],
+                [
+                    148.7895965576172,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    153.589599609375,
+                    200.50003051757812
+                ],
+                [
+                    197.44960021972656,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    202.24960327148438,
+                    200.50003051757812
+                ],
+                [
+                    233.78961181640625,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    238.78961181640625,
+                    200.50003051757812
+                ],
+                [
+                    308.68963623046875,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    313.4896240234375,
+                    200.50003051757812
+                ],
+                [
+                    352.04962158203125,
+                    224.32003784179688
+                ]
+            ],
+            [
+                [
+                    357.04962158203125,
+                    200.50003051757812
+                ],
+                [
+                    397.94964599609375,
+                    224.32003784179688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">2.<break time=\"500ms\"/> What does the mother give her?</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "2"
+            },
+            {
+                "time": 476,
+                "type": "word",
+                "start": 29,
+                "end": 50,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 1363,
+                "type": "word",
+                "start": 51,
+                "end": 55,
+                "value": "What"
+            },
+            {
+                "time": 1542,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "does"
+            },
+            {
+                "time": 1733,
+                "type": "word",
+                "start": 61,
+                "end": 64,
+                "value": "the"
+            },
+            {
+                "time": 1844,
+                "type": "word",
+                "start": 65,
+                "end": 71,
+                "value": "mother"
+            },
+            {
+                "time": 2199,
+                "type": "word",
+                "start": 72,
+                "end": 76,
+                "value": "give"
+            },
+            {
+                "time": 2467,
+                "type": "word",
+                "start": 77,
+                "end": 80,
+                "value": "her"
+            }
+        ]
+    },
+    "4": {
         "text": "3. What colour is it?",
         "words": [
             "3.",
@@ -738,16 +913,15 @@
             }
         ]
     },
-    "4": {
-        "text": "\"Here's a present from your fa- ther. There is a birthday card too.\"",
+    "5": {
+        "text": "\"Here's a present from your father. There is a birthday card too.\"",
         "words": [
             "\"Here's",
             "a",
             "present",
             "from",
             "your",
-            "fa-",
-            "ther.",
+            "father.",
             "There",
             "is",
             "a",
@@ -887,7 +1061,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">&quot;Here&apos;s a present from your fa ther.<break time=\"500ms\"/> There is a birthday card too.&quot;</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">&quot;Here&apos;s a present from your father.<break time=\"500ms\"/> There is a birthday card too.&quot;</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -900,7 +1074,7 @@
                 "value": "Here&apos;s"
             },
             {
-                "time": 371,
+                "time": 366,
                 "type": "word",
                 "start": 45,
                 "end": 46,
@@ -914,85 +1088,78 @@
                 "value": "present"
             },
             {
-                "time": 952,
+                "time": 963,
                 "type": "word",
                 "start": 55,
                 "end": 59,
                 "value": "from"
             },
             {
-                "time": 1164,
+                "time": 1180,
                 "type": "word",
                 "start": 60,
                 "end": 64,
                 "value": "your"
             },
             {
-                "time": 1313,
+                "time": 1329,
                 "type": "word",
                 "start": 65,
-                "end": 67,
-                "value": "fa"
+                "end": 71,
+                "value": "father"
             },
             {
-                "time": 1618,
+                "time": 1970,
                 "type": "word",
-                "start": 68,
-                "end": 72,
-                "value": "ther"
-            },
-            {
-                "time": 2073,
-                "type": "word",
-                "start": 73,
-                "end": 94,
+                "start": 72,
+                "end": 93,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2960,
+                "time": 2856,
                 "type": "word",
-                "start": 95,
-                "end": 100,
+                "start": 94,
+                "end": 99,
                 "value": "There"
             },
             {
-                "time": 3147,
+                "time": 3044,
                 "type": "word",
-                "start": 101,
-                "end": 103,
+                "start": 100,
+                "end": 102,
                 "value": "is"
             },
             {
-                "time": 3294,
+                "time": 3191,
                 "type": "word",
-                "start": 104,
-                "end": 105,
+                "start": 103,
+                "end": 104,
                 "value": "a"
             },
             {
-                "time": 3355,
+                "time": 3252,
                 "type": "word",
-                "start": 106,
-                "end": 114,
+                "start": 105,
+                "end": 113,
                 "value": "birthday"
             },
             {
-                "time": 3879,
+                "time": 3776,
                 "type": "word",
-                "start": 115,
-                "end": 119,
+                "start": 114,
+                "end": 118,
                 "value": "card"
             },
             {
-                "time": 4214,
+                "time": 4110,
                 "type": "word",
-                "start": 120,
-                "end": 123,
+                "start": 119,
+                "end": 122,
                 "value": "too"
             }
         ]
     },
-    "5": {
+    "6": {
         "text": "It's a blue pair of shoes. Dinu is very happy.",
         "words": [
             "It's",
@@ -1110,7 +1277,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">It&apos;s a blue pair of shoes.<break time=\"500ms\"/> Dinu is very happy.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -1191,7 +1358,7 @@
             }
         ]
     },
-    "6": {
+    "7": {
         "text": "4. Who gives her a pair of shoes?",
         "words": [
             "4.",
@@ -1354,7 +1521,7 @@
             }
         ]
     },
-    "7": {
+    "8": {
         "text": "5. What colour is it?",
         "words": [
             "5.",

@@ -16,19 +16,20 @@ export interface BlockHighlightData {
 }
 
 class HighlightDataService {
-  private speechMarksCache: Map<number, SpeechMark[]> = new Map();
-  private blockDataCache: Map<number, any> = new Map();
+  private speechMarksCache: Map<string, SpeechMark[]> = new Map();
+  private blockDataCache: Map<string, any> = new Map();
 
-  async loadSpeechMarks(blockId: number, pageNumber: number): Promise<SpeechMark[]> {
-    const cacheKey = pageNumber * 1000 + blockId; // Create unique cache key combining page and block
+  async loadSpeechMarks(blockId: number, pageNumber: number, bookTitle: string): Promise<SpeechMark[]> {
+    const cacheKey = `${bookTitle}-${pageNumber}-${blockId}`; // Create unique cache key combining book, page and block
     if (this.speechMarksCache.has(cacheKey)) {
       return this.speechMarksCache.get(cacheKey)!;
     }
 
     try {
       // Try to load speech marks from the trimmed blocks data
-      const trimmedBlocksDataService = require('./trimmedBlocksDataService').TrimmedBlocksDataService.getInstance();
-      const trimmedData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber);
+      const { TrimmedBlocksDataService } = require('./trimmedBlocksDataService');
+      const trimmedBlocksDataService = TrimmedBlocksDataService.getInstance();
+      const trimmedData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle);
       
       if (trimmedData && trimmedData[blockId] && trimmedData[blockId].timing) {
         const speechMarksData: SpeechMark[] = trimmedData[blockId].timing.map((timing: any) => ({
@@ -54,16 +55,17 @@ class HighlightDataService {
     }
   }
 
-  async loadBlockData(pageNumber: number): Promise<any> {
-    const cacheKey = pageNumber;
+  async loadBlockData(pageNumber: number, bookTitle: string): Promise<any> {
+    const cacheKey = `${bookTitle}-${pageNumber}`;
     if (this.blockDataCache.has(cacheKey)) {
       return this.blockDataCache.get(cacheKey)!;
     }
 
     try {
-      // Load block data from the BookDataService
-      const bookDataService = require('./bookDataService').BookDataService.getInstance();
-      const blockData = bookDataService.getBlocksForPage(pageNumber) || {};
+      // Load block data from the TrimmedBlocksDataService
+      const { TrimmedBlocksDataService } = require('./trimmedBlocksDataService');
+      const trimmedBlocksDataService = TrimmedBlocksDataService.getInstance();
+      const blockData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle) || {};
       
 
       this.blockDataCache.set(cacheKey, blockData);
@@ -74,13 +76,13 @@ class HighlightDataService {
     }
   }
 
-  async getBlockHighlightData(blockId: number, pageNumber: number): Promise<BlockHighlightData | null> {
+  async getBlockHighlightData(blockId: number, pageNumber: number, bookTitle: string): Promise<BlockHighlightData | null> {
     try {
 
       
       const [speechMarks, allBlockData] = await Promise.all([
-        this.loadSpeechMarks(blockId, pageNumber),
-        this.loadBlockData(pageNumber)
+        this.loadSpeechMarks(blockId, pageNumber, bookTitle),
+        this.loadBlockData(pageNumber, bookTitle)
       ]);
 
 

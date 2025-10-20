@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "59 Listen and say.",
+    "0": {
+        "text": "Listen and say.",
         "words": [
-            "59",
             "Listen",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.4769897460938,
-                    24.34998893737793
-                ],
-                [
-                    580.89697265625,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.12099838256836,
@@ -49,91 +38,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">59 Listen and say.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "59"
-            },
-            {
-                "time": 731,
-                "type": "word",
-                "start": 30,
-                "end": 36,
-                "value": "Listen"
-            },
-            {
-                "time": 1107,
-                "type": "word",
-                "start": 37,
-                "end": 40,
-                "value": "and"
-            },
-            {
-                "time": 1289,
-                "type": "word",
-                "start": 41,
-                "end": 44,
-                "value": "say"
-            }
-        ]
-    },
-    "2": {
-        "text": "fish eggs coconuts vegetables",
-        "words": [
-            "fish",
-            "eggs",
-            "coconuts",
-            "vegetables"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    97.4166030883789,
-                    668.3387451171875
-                ],
-                [
-                    131.45660400390625,
-                    692.1587524414062
-                ]
-            ],
-            [
-                [
-                    216.2169952392578,
-                    669.058837890625
-                ],
-                [
-                    260.97698974609375,
-                    692.8787841796875
-                ]
-            ],
-            [
-                [
-                    304.1700134277344,
-                    667.078857421875
-                ],
-                [
-                    389.4100646972656,
-                    690.8988037109375
-                ]
-            ],
-            [
-                [
-                    433.16900634765625,
-                    669.71533203125
-                ],
-                [
-                    535.0490112304688,
-                    693.5352783203125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">fish eggs coconuts vegetables</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -141,161 +46,26 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 31,
-                "value": "fish"
+                "end": 33,
+                "value": "Listen"
             },
             {
-                "time": 342,
+                "time": 421,
                 "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "eggs"
+                "start": 34,
+                "end": 37,
+                "value": "and"
             },
             {
                 "time": 595,
                 "type": "word",
-                "start": 37,
-                "end": 45,
-                "value": "coconuts"
-            },
-            {
-                "time": 1349,
-                "type": "word",
-                "start": 46,
-                "end": 56,
-                "value": "vegetables"
+                "start": 38,
+                "end": 41,
+                "value": "say"
             }
         ]
     },
-    "3": {
-        "text": "Yes, please! We want some vegetables.",
-        "words": [
-            "Yes,",
-            "please!",
-            "We",
-            "want",
-            "some",
-            "vegetables."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    327.1910095214844,
-                    91.43698120117188
-                ],
-                [
-                    363.051025390625,
-                    115.2569808959961
-                ]
-            ],
-            [
-                [
-                    366.4510192871094,
-                    91.43698120117188
-                ],
-                [
-                    434.3310241699219,
-                    115.2569808959961
-                ]
-            ],
-            [
-                [
-                    438.73101806640625,
-                    91.43698120117188
-                ],
-                [
-                    469.2710266113281,
-                    115.2569808959961
-                ]
-            ],
-            [
-                [
-                    327.1910095214844,
-                    115.43698120117188
-                ],
-                [
-                    375.7510070800781,
-                    139.25698852539062
-                ]
-            ],
-            [
-                [
-                    380.5509948730469,
-                    115.43698120117188
-                ],
-                [
-                    432.7510070800781,
-                    139.25698852539062
-                ]
-            ],
-            [
-                [
-                    327.1910095214844,
-                    139.43698120117188
-                ],
-                [
-                    435.35101318359375,
-                    163.25698852539062
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> please! We want some vegetables.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "old woman",
-        "voice_id": "Kimberly",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "Yes"
-            },
-            {
-                "time": 672,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1069,
-                "type": "word",
-                "start": 53,
-                "end": 59,
-                "value": "please"
-            },
-            {
-                "time": 2211,
-                "type": "word",
-                "start": 61,
-                "end": 63,
-                "value": "We"
-            },
-            {
-                "time": 2351,
-                "type": "word",
-                "start": 64,
-                "end": 68,
-                "value": "want"
-            },
-            {
-                "time": 2680,
-                "type": "word",
-                "start": 69,
-                "end": 73,
-                "value": "some"
-            },
-            {
-                "time": 3038,
-                "type": "word",
-                "start": 74,
-                "end": 84,
-                "value": "vegetables"
-            }
-        ]
-    },
-    "4": {
+    "1": {
         "text": "Good evening, madam. Can I help you?",
         "words": [
             "Good",
@@ -445,6 +215,218 @@
                 "start": 101,
                 "end": 104,
                 "value": "you"
+            }
+        ]
+    },
+    "2": {
+        "text": "Yes, please! We want some vegetables.",
+        "words": [
+            "Yes,",
+            "please!",
+            "We",
+            "want",
+            "some",
+            "vegetables."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    327.1910095214844,
+                    91.43698120117188
+                ],
+                [
+                    363.051025390625,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    366.4510192871094,
+                    91.43698120117188
+                ],
+                [
+                    434.3310241699219,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    438.73101806640625,
+                    91.43698120117188
+                ],
+                [
+                    469.2710266113281,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    327.1910095214844,
+                    115.43698120117188
+                ],
+                [
+                    375.7510070800781,
+                    139.25698852539062
+                ]
+            ],
+            [
+                [
+                    380.5509948730469,
+                    115.43698120117188
+                ],
+                [
+                    432.7510070800781,
+                    139.25698852539062
+                ]
+            ],
+            [
+                [
+                    327.1910095214844,
+                    139.43698120117188
+                ],
+                [
+                    435.35101318359375,
+                    163.25698852539062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> please! We want some vegetables.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "old woman",
+        "voice_id": "Kimberly",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Yes"
+            },
+            {
+                "time": 672,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 1069,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "please"
+            },
+            {
+                "time": 2211,
+                "type": "word",
+                "start": 61,
+                "end": 63,
+                "value": "We"
+            },
+            {
+                "time": 2351,
+                "type": "word",
+                "start": 64,
+                "end": 68,
+                "value": "want"
+            },
+            {
+                "time": 2680,
+                "type": "word",
+                "start": 69,
+                "end": 73,
+                "value": "some"
+            },
+            {
+                "time": 3038,
+                "type": "word",
+                "start": 74,
+                "end": 84,
+                "value": "vegetables"
+            }
+        ]
+    },
+    "3": {
+        "text": "fish eggs coconuts vegetables",
+        "words": [
+            "fish",
+            "eggs",
+            "coconuts",
+            "vegetables"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.4166030883789,
+                    668.3387451171875
+                ],
+                [
+                    131.45660400390625,
+                    692.1587524414062
+                ]
+            ],
+            [
+                [
+                    216.2169952392578,
+                    669.058837890625
+                ],
+                [
+                    260.97698974609375,
+                    692.8787841796875
+                ]
+            ],
+            [
+                [
+                    304.1700134277344,
+                    667.078857421875
+                ],
+                [
+                    389.4100646972656,
+                    690.8988037109375
+                ]
+            ],
+            [
+                [
+                    433.16900634765625,
+                    669.71533203125
+                ],
+                [
+                    535.0490112304688,
+                    693.5352783203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">fish eggs coconuts vegetables</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "fish"
+            },
+            {
+                "time": 342,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "eggs"
+            },
+            {
+                "time": 595,
+                "type": "word",
+                "start": 37,
+                "end": 45,
+                "value": "coconuts"
+            },
+            {
+                "time": 1349,
+                "type": "word",
+                "start": 46,
+                "end": 56,
+                "value": "vegetables"
             }
         ]
     }

@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "38",
+        "words": [
+            "38"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    29.930099487304688,
+                    24.34998893737793
+                ],
+                [
+                    61.61009979248047,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">38</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "38"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +95,67 @@
             }
         ]
     },
+    "2": {
+        "text": "library",
+        "words": [
+            "library"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    109.28299713134766,
+                    99.32901000976562
+                ],
+                [
+                    167.26300048828125,
+                    123.14900970458984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">library</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "library"
+            }
+        ]
+    },
     "3": {
+        "text": "read",
+        "words": [
+            "read"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    124.99600219726562,
+                    277.9649963378906
+                ],
+                [
+                    162.75999450683594,
+                    299.40301513671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">read</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "read"
+            }
+        ]
+    },
+    "4": {
         "text": "music room",
         "words": [
             "music",
@@ -113,7 +203,7 @@
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "sing",
         "words": [
             "sing"
@@ -143,7 +233,37 @@
             }
         ]
     },
-    "5": {
+    "6": {
+        "text": "classroom",
+        "words": [
+            "classroom"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    94.79139709472656,
+                    330.656005859375
+                ],
+                [
+                    189.7313995361328,
+                    354.47601318359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">classroom</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 36,
+                "value": "classroom"
+            }
+        ]
+    },
+    "7": {
         "text": "dancing room",
         "words": [
             "dancing",
@@ -191,7 +311,7 @@
             }
         ]
     },
-    "6": {
+    "8": {
         "text": "dance",
         "words": [
             "dance"
@@ -221,67 +341,37 @@
             }
         ]
     },
-    "7": {
-        "text": "library",
-        "words": [
-            "library"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    109.28299713134766,
-                    99.32901000976562
-                ],
-                [
-                    167.26300048828125,
-                    123.14900970458984
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">library</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "library"
-            }
-        ]
-    },
-    "8": {
-        "text": "read",
-        "words": [
-            "read"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    124.99600219726562,
-                    277.9649963378906
-                ],
-                [
-                    162.75999450683594,
-                    299.40301513671875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">read</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "read"
-            }
-        ]
-    },
     "9": {
+        "text": "learn",
+        "words": [
+            "learn"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    119.39299774169922,
+                    534.239990234375
+                ],
+                [
+                    162.32298278808594,
+                    555.677978515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">learn</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "learn"
+            }
+        ]
+    },
+    "10": {
         "text": "playground",
         "words": [
             "playground"
@@ -311,7 +401,7 @@
             }
         ]
     },
-    "10": {
+    "11": {
         "text": "play",
         "words": [
             "play"
@@ -338,66 +428,6 @@
                 "start": 27,
                 "end": 31,
                 "value": "play"
-            }
-        ]
-    },
-    "11": {
-        "text": "classroom",
-        "words": [
-            "classroom"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    94.79139709472656,
-                    330.656005859375
-                ],
-                [
-                    189.7313995361328,
-                    354.47601318359375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">classroom</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "classroom"
-            }
-        ]
-    },
-    "12": {
-        "text": "learn",
-        "words": [
-            "learn"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    119.39299774169922,
-                    534.239990234375
-                ],
-                [
-                    162.32298278808594,
-                    555.677978515625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">learn</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "learn"
             }
         ]
     }
