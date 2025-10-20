@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "100",
         "words": [
             "100"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Read aloud.",
         "words": [
             "Read",
@@ -59,7 +59,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -77,7 +77,408 @@
             }
         ]
     },
+    "2": {
+        "text": "+ Plus Addition",
+        "words": [
+            "+",
+            "Plus",
+            "Addition"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    229.99000549316406,
+                    102.29469299316406
+                ],
+                [
+                    252.45022583007812,
+                    147.9496612548828
+                ]
+            ],
+            [
+                [
+                    301.19000244140625,
+                    108.69100952148438
+                ],
+                [
+                    339.7900085449219,
+                    132.51101684570312
+                ]
+            ],
+            [
+                [
+                    291.19000244140625,
+                    132.69100952148438
+                ],
+                [
+                    370.030029296875,
+                    156.51101684570312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">+ Plus Addition</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "+"
+            },
+            {
+                "time": 295,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "Plus"
+            },
+            {
+                "time": 644,
+                "type": "word",
+                "start": 34,
+                "end": 42,
+                "value": "Addition"
+            }
+        ]
+    },
     "3": {
+        "text": "Two plus eight!",
+        "words": [
+            "Two",
+            "plus",
+            "eight!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.82689666748047,
+                    177.64797973632812
+                ],
+                [
+                    129.78689575195312,
+                    201.46798706054688
+                ]
+            ],
+            [
+                [
+                    134.78689575195312,
+                    177.64797973632812
+                ],
+                [
+                    173.54690551757812,
+                    201.46798706054688
+                ]
+            ],
+            [
+                [
+                    178.54690551757812,
+                    177.64797973632812
+                ],
+                [
+                    233.20692443847656,
+                    201.46798706054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Two plus eight!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Two"
+            },
+            {
+                "time": 278,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "plus"
+            },
+            {
+                "time": 688,
+                "type": "word",
+                "start": 36,
+                "end": 41,
+                "value": "eight"
+            }
+        ]
+    },
+    "4": {
+        "text": "One plus nine!",
+        "words": [
+            "One",
+            "plus",
+            "nine!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    388.9909973144531,
+                    177.91299438476562
+                ],
+                [
+                    428.7309875488281,
+                    201.73300170898438
+                ]
+            ],
+            [
+                [
+                    433.7309875488281,
+                    177.91299438476562
+                ],
+                [
+                    472.4909973144531,
+                    201.73300170898438
+                ]
+            ],
+            [
+                [
+                    477.4909973144531,
+                    177.91299438476562
+                ],
+                [
+                    525.1910400390625,
+                    201.73300170898438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">One plus nine!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "One"
+            },
+            {
+                "time": 238,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "plus"
+            },
+            {
+                "time": 638,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "nine"
+            }
+        ]
+    },
+    "5": {
+        "text": "Three plus seven!",
+        "words": [
+            "Three",
+            "plus",
+            "seven!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.47059631347656,
+                    462.1929931640625
+                ],
+                [
+                    141.45059204101562,
+                    486.01300048828125
+                ]
+            ],
+            [
+                [
+                    146.45059204101562,
+                    462.1929931640625
+                ],
+                [
+                    185.21060180664062,
+                    486.01300048828125
+                ]
+            ],
+            [
+                [
+                    89.47059631347656,
+                    486.1929931640625
+                ],
+                [
+                    150.21060180664062,
+                    510.01300048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Three plus seven!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Three"
+            },
+            {
+                "time": 252,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "plus"
+            },
+            {
+                "time": 623,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "seven"
+            }
+        ]
+    },
+    "6": {
+        "text": "Five plus five!",
+        "words": [
+            "Five",
+            "plus",
+            "five!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    391.8710021972656,
+                    506.5929870605469
+                ],
+                [
+                    428.07098388671875,
+                    530.4129638671875
+                ]
+            ],
+            [
+                [
+                    433.07098388671875,
+                    506.5929870605469
+                ],
+                [
+                    471.83099365234375,
+                    530.4129638671875
+                ]
+            ],
+            [
+                [
+                    476.83099365234375,
+                    506.5929870605469
+                ],
+                [
+                    516.9710083007812,
+                    530.4129638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Five plus five!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Five"
+            },
+            {
+                "time": 383,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "plus"
+            },
+            {
+                "time": 795,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "five"
+            }
+        ]
+    },
+    "7": {
+        "text": "Four plus six!",
+        "words": [
+            "Four",
+            "plus",
+            "six!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    200.3509979248047,
+                    563.113037109375
+                ],
+                [
+                    240.31100463867188,
+                    586.9329833984375
+                ]
+            ],
+            [
+                [
+                    245.11099243164062,
+                    563.113037109375
+                ],
+                [
+                    283.8710021972656,
+                    586.9329833984375
+                ]
+            ],
+            [
+                [
+                    288.8710021972656,
+                    563.113037109375
+                ],
+                [
+                    319.3710021972656,
+                    586.9329833984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Four plus six!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Four"
+            },
+            {
+                "time": 314,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "plus"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 37,
+                "end": 40,
+                "value": "six"
+            }
+        ]
+    },
+    "8": {
         "text": "1+9 is ten 2+8 is ten 7+3 is ten 6+4 is ten",
         "words": [
             "1+9",
@@ -217,7 +618,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">1+9 is ten 2+8 is ten 7+3 is ten 6+4 is ten</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -305,7 +706,7 @@
             }
         ]
     },
-    "4": {
+    "9": {
         "text": "5+5 is ten",
         "words": [
             "5+5",
@@ -346,7 +747,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">5+5 is ten</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -368,407 +769,6 @@
                 "start": 34,
                 "end": 37,
                 "value": "ten"
-            }
-        ]
-    },
-    "5": {
-        "text": "One plus nine!",
-        "words": [
-            "One",
-            "plus",
-            "nine!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    388.9909973144531,
-                    177.91299438476562
-                ],
-                [
-                    428.7309875488281,
-                    201.73300170898438
-                ]
-            ],
-            [
-                [
-                    433.7309875488281,
-                    177.91299438476562
-                ],
-                [
-                    472.4909973144531,
-                    201.73300170898438
-                ]
-            ],
-            [
-                [
-                    477.4909973144531,
-                    177.91299438476562
-                ],
-                [
-                    525.1910400390625,
-                    201.73300170898438
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">One plus nine!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "One"
-            },
-            {
-                "time": 238,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "plus"
-            },
-            {
-                "time": 638,
-                "type": "word",
-                "start": 36,
-                "end": 40,
-                "value": "nine"
-            }
-        ]
-    },
-    "7": {
-        "text": "Two plus eight!",
-        "words": [
-            "Two",
-            "plus",
-            "eight!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    92.82689666748047,
-                    177.64797973632812
-                ],
-                [
-                    129.78689575195312,
-                    201.46798706054688
-                ]
-            ],
-            [
-                [
-                    134.78689575195312,
-                    177.64797973632812
-                ],
-                [
-                    173.54690551757812,
-                    201.46798706054688
-                ]
-            ],
-            [
-                [
-                    178.54690551757812,
-                    177.64797973632812
-                ],
-                [
-                    233.20692443847656,
-                    201.46798706054688
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Two plus eight!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "Two"
-            },
-            {
-                "time": 278,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "plus"
-            },
-            {
-                "time": 688,
-                "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "eight"
-            }
-        ]
-    },
-    "9": {
-        "text": "Three plus seven!",
-        "words": [
-            "Three",
-            "plus",
-            "seven!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    89.47059631347656,
-                    462.1929931640625
-                ],
-                [
-                    141.45059204101562,
-                    486.01300048828125
-                ]
-            ],
-            [
-                [
-                    146.45059204101562,
-                    462.1929931640625
-                ],
-                [
-                    185.21060180664062,
-                    486.01300048828125
-                ]
-            ],
-            [
-                [
-                    89.47059631347656,
-                    486.1929931640625
-                ],
-                [
-                    150.21060180664062,
-                    510.01300048828125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Three plus seven!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Three"
-            },
-            {
-                "time": 252,
-                "type": "word",
-                "start": 33,
-                "end": 37,
-                "value": "plus"
-            },
-            {
-                "time": 623,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "seven"
-            }
-        ]
-    },
-    "10": {
-        "text": "Five plus five!",
-        "words": [
-            "Five",
-            "plus",
-            "five!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    391.8710021972656,
-                    506.5929870605469
-                ],
-                [
-                    428.07098388671875,
-                    530.4129638671875
-                ]
-            ],
-            [
-                [
-                    433.07098388671875,
-                    506.5929870605469
-                ],
-                [
-                    471.83099365234375,
-                    530.4129638671875
-                ]
-            ],
-            [
-                [
-                    476.83099365234375,
-                    506.5929870605469
-                ],
-                [
-                    516.9710083007812,
-                    530.4129638671875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Five plus five!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Five"
-            },
-            {
-                "time": 383,
-                "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "plus"
-            },
-            {
-                "time": 795,
-                "type": "word",
-                "start": 37,
-                "end": 41,
-                "value": "five"
-            }
-        ]
-    },
-    "12": {
-        "text": "Four plus six!",
-        "words": [
-            "Four",
-            "plus",
-            "six!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    200.3509979248047,
-                    563.113037109375
-                ],
-                [
-                    240.31100463867188,
-                    586.9329833984375
-                ]
-            ],
-            [
-                [
-                    245.11099243164062,
-                    563.113037109375
-                ],
-                [
-                    283.8710021972656,
-                    586.9329833984375
-                ]
-            ],
-            [
-                [
-                    288.8710021972656,
-                    563.113037109375
-                ],
-                [
-                    319.3710021972656,
-                    586.9329833984375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Four plus six!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Four"
-            },
-            {
-                "time": 314,
-                "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "plus"
-            },
-            {
-                "time": 671,
-                "type": "word",
-                "start": 37,
-                "end": 40,
-                "value": "six"
-            }
-        ]
-    },
-    "13": {
-        "text": "+ Plus Addition",
-        "words": [
-            "+",
-            "Plus",
-            "Addition"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    229.99000549316406,
-                    102.29469299316406
-                ],
-                [
-                    252.45022583007812,
-                    147.9496612548828
-                ]
-            ],
-            [
-                [
-                    301.19000244140625,
-                    108.69100952148438
-                ],
-                [
-                    339.7900085449219,
-                    132.51101684570312
-                ]
-            ],
-            [
-                [
-                    291.19000244140625,
-                    132.69100952148438
-                ],
-                [
-                    370.030029296875,
-                    156.51101684570312
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">+ Plus Addition</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "+"
-            },
-            {
-                "time": 295,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "Plus"
-            },
-            {
-                "time": 644,
-                "type": "word",
-                "start": 34,
-                "end": 42,
-                "value": "Addition"
             }
         ]
     }

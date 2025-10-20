@@ -1,14 +1,10 @@
 {
-    "1": {
-        "text": "15 My pets Listen, point and say.",
+    "0": {
+        "text": "15 My pets",
         "words": [
             "15",
             "My",
-            "pets",
-            "Listen,",
-            "point",
-            "and",
-            "say."
+            "pets"
         ],
         "bounding_boxes": [
             [
@@ -40,7 +36,44 @@
                     340.31402587890625,
                     76.0310287475586
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">15 My pets</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "15"
+            },
+            {
+                "time": 509,
+                "type": "word",
+                "start": 30,
+                "end": 32,
+                "value": "My"
+            },
+            {
+                "time": 697,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "pets"
+            }
+        ]
+    },
+    "1": {
+        "text": "Listen, point and say.",
+        "words": [
+            "Listen,",
+            "point",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.014007568359375,
@@ -82,73 +115,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">15 My pets Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "15"
-            },
-            {
-                "time": 509,
-                "type": "word",
-                "start": 30,
-                "end": 32,
-                "value": "My"
-            },
-            {
-                "time": 693,
-                "type": "word",
-                "start": 33,
-                "end": 37,
-                "value": "pets"
-            },
-            {
-                "time": 1131,
-                "type": "word",
-                "start": 38,
-                "end": 44,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1844,
+                "time": 702,
                 "type": "word",
-                "start": 45,
-                "end": 66,
+                "start": 34,
+                "end": 55,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 2244,
+                "time": 1102,
                 "type": "word",
-                "start": 67,
-                "end": 72,
+                "start": 56,
+                "end": 61,
                 "value": "point"
             },
             {
-                "time": 2620,
+                "time": 1461,
                 "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 62,
+                "end": 65,
                 "value": "and"
             },
             {
-                "time": 2795,
+                "time": 1635,
                 "type": "word",
-                "start": 77,
-                "end": 80,
+                "start": 66,
+                "end": 69,
                 "value": "say"
             }
         ]
     },
     "2": {
-        "text": "cat dog",
+        "text": "cat",
         "words": [
-            "cat",
-            "dog"
+            "cat"
         ],
         "bounding_boxes": [
             [
@@ -160,7 +171,27 @@
                     208.22000122070312,
                     303.23101806640625
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cat</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "cat"
+            }
+        ]
+    },
+    "3": {
+        "text": "dog",
+        "words": [
+            "dog"
+        ],
+        "bounding_boxes": [
             [
                 [
                     390.6000061035156,
@@ -172,7 +203,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cat dog</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -181,22 +212,14 @@
                 "type": "word",
                 "start": 27,
                 "end": 30,
-                "value": "cat"
-            },
-            {
-                "time": 312,
-                "type": "word",
-                "start": 31,
-                "end": 34,
                 "value": "dog"
             }
         ]
     },
-    "3": {
-        "text": "cow fish",
+    "4": {
+        "text": "cow",
         "words": [
-            "cow",
-            "fish"
+            "cow"
         ],
         "bounding_boxes": [
             [
@@ -208,7 +231,27 @@
                     208.92001342773438,
                     496.27001953125
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">cow</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "cow"
+            }
+        ]
+    },
+    "5": {
+        "text": "fish",
+        "words": [
+            "fish"
+        ],
+        "bounding_boxes": [
             [
                 [
                     391.5350036621094,
@@ -220,7 +263,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cow fish</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">fish</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -228,23 +271,15 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "cow"
-            },
-            {
-                "time": 289,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "end": 31,
                 "value": "fish"
             }
         ]
     },
-    "4": {
-        "text": "parrot rabbit",
+    "6": {
+        "text": "parrot",
         "words": [
-            "parrot",
-            "rabbit"
+            "parrot"
         ],
         "bounding_boxes": [
             [
@@ -256,7 +291,27 @@
                     221.05599975585938,
                     712.5396728515625
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">parrot</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "parrot"
+            }
+        ]
+    },
+    "7": {
+        "text": "rabbit",
+        "words": [
+            "rabbit"
+        ],
+        "bounding_boxes": [
             [
                 [
                     372.6000061035156,
@@ -268,7 +323,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">parrot rabbit</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">rabbit</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -277,13 +332,6 @@
                 "type": "word",
                 "start": 27,
                 "end": 33,
-                "value": "parrot"
-            },
-            {
-                "time": 372,
-                "type": "word",
-                "start": 34,
-                "end": 40,
                 "value": "rabbit"
             }
         ]

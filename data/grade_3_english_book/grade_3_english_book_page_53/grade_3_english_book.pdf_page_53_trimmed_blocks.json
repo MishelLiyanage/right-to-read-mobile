@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Read aloud.",
         "words": [
             "Read",
@@ -29,7 +29,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -47,7 +47,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "The best eco-friend is Raveen.",
         "words": [
             "The",
@@ -110,7 +110,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">The best eco friend is Raveen.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -156,26 +156,15 @@
             }
         ]
     },
-    "4": {
-        "text": "\uf09f I clean the garden.",
+    "2": {
+        "text": "I clean the garden.",
         "words": [
-            "\uf09f",
             "I",
             "clean",
             "the",
             "garden."
         ],
         "bounding_boxes": [
-            [
-                [
-                    246.2969970703125,
-                    548.8909912109375
-                ],
-                [
-                    255.45700073242188,
-                    571.0909423828125
-                ]
-            ],
             [
                 [
                     282.2969970703125,
@@ -217,61 +206,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\uf09f I clean the garden.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate=\"85%\">I clean the garden.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 27,
+                "end": 28,
                 "value": "I"
             },
             {
-                "time": 92,
+                "time": 129,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 29,
+                "end": 34,
                 "value": "clean"
             },
             {
-                "time": 468,
+                "time": 491,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 35,
+                "end": 38,
                 "value": "the"
             },
             {
-                "time": 567,
+                "time": 581,
                 "type": "word",
-                "start": 43,
-                "end": 49,
+                "start": 39,
+                "end": 45,
                 "value": "garden"
             }
         ]
     },
-    "5": {
-        "text": "\uf09f I water the plants.",
+    "3": {
+        "text": "I water the plants.",
         "words": [
-            "\uf09f",
             "I",
             "water",
             "the",
             "plants."
         ],
         "bounding_boxes": [
-            [
-                [
-                    246.2969970703125,
-                    579.8909912109375
-                ],
-                [
-                    255.45700073242188,
-                    602.0909423828125
-                ]
-            ],
             [
                 [
                     282.2969970703125,
@@ -313,59 +290,47 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\uf09f I water the plants.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate=\"85%\">I water the plants.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 27,
+                "end": 28,
                 "value": "I"
             },
             {
-                "time": 78,
+                "time": 89,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 29,
+                "end": 34,
                 "value": "water"
             },
             {
-                "time": 451,
+                "time": 454,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 35,
+                "end": 38,
                 "value": "the"
             },
             {
-                "time": 567,
+                "time": 591,
                 "type": "word",
-                "start": 43,
-                "end": 49,
+                "start": 39,
+                "end": 45,
                 "value": "plants"
             }
         ]
     },
-    "6": {
-        "text": "\uf09f I weed.",
+    "4": {
+        "text": "I weed.",
         "words": [
-            "\uf09f",
             "I",
             "weed."
         ],
         "bounding_boxes": [
-            [
-                [
-                    246.2969970703125,
-                    610.8909912109375
-                ],
-                [
-                    255.45700073242188,
-                    633.0909423828125
-                ]
-            ],
             [
                 [
                     282.2969970703125,
@@ -387,46 +352,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\uf09f I weed.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate=\"85%\">I weed.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 27,
+                "end": 28,
                 "value": "I"
             },
             {
-                "time": 193,
+                "time": 105,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 29,
+                "end": 33,
                 "value": "weed"
             }
         ]
     },
-    "7": {
-        "text": "\uf09f I pick litter.",
+    "5": {
+        "text": "I pick litter.",
         "words": [
-            "\uf09f",
             "I",
             "pick",
             "litter."
         ],
         "bounding_boxes": [
-            [
-                [
-                    246.2969970703125,
-                    641.8909912109375
-                ],
-                [
-                    255.45700073242188,
-                    664.0909423828125
-                ]
-            ],
             [
                 [
                     282.2969970703125,
@@ -458,53 +411,41 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\uf09f I pick litter.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate=\"85%\">I pick litter.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 27,
+                "end": 28,
                 "value": "I"
             },
             {
-                "time": 110,
+                "time": 126,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 29,
+                "end": 33,
                 "value": "pick"
             },
             {
-                "time": 410,
+                "time": 465,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 34,
+                "end": 40,
                 "value": "litter"
             }
         ]
     },
-    "8": {
-        "text": "\uf09f I love nature.",
+    "6": {
+        "text": "I love nature.",
         "words": [
-            "\uf09f",
             "I",
             "love",
             "nature."
         ],
         "bounding_boxes": [
-            [
-                [
-                    246.2969970703125,
-                    672.8909912109375
-                ],
-                [
-                    255.45700073242188,
-                    695.0909423828125
-                ]
-            ],
             [
                 [
                     282.2969970703125,
@@ -536,30 +477,29 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\uf09f I love nature.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate=\"85%\">I love nature.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 27,
+                "end": 28,
                 "value": "I"
             },
             {
-                "time": 133,
+                "time": 101,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 29,
+                "end": 33,
                 "value": "love"
             },
             {
-                "time": 469,
+                "time": 404,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 34,
+                "end": 40,
                 "value": "nature"
             }
         ]

@@ -34,8 +34,8 @@ export class WordPositionService {
   /**
    * Get trimmed blocks data from the data service
    */
-  getTrimmedBlocksData(pageNumber: number): TrimmedBlockData | null {
-    return this.trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber);
+  getTrimmedBlocksData(pageNumber: number, bookTitle?: string): TrimmedBlockData | null {
+    return this.trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle);
   }
 
   /**
@@ -43,6 +43,7 @@ export class WordPositionService {
    */
   calculateWordPositionsFromData(
     pageNumber: number,
+    bookTitle: string,
     originalPageSize: PageSize,
     currentPageSize: PageSize,
     imageOffset: { x: number; y: number } = { x: 0, y: 0 }
@@ -54,7 +55,7 @@ export class WordPositionService {
     }
 
     try {
-      const trimmedData = this.getTrimmedBlocksData(pageNumber);
+      const trimmedData = this.getTrimmedBlocksData(pageNumber, bookTitle);
       if (!trimmedData) {
         console.warn(`No trimmed blocks data found for page ${pageNumber}`);
         return { words: [], totalWords: 0 };

@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Greet everyone.",
         "words": [
             "Greet",
@@ -29,7 +29,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Greet everyone.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -47,91 +47,7 @@
             }
         ]
     },
-    "3": {
-        "text": "Good evening Good night",
-        "words": [
-            "Good",
-            "evening",
-            "Good",
-            "night"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    99.87089538574219,
-                    321.77099609375
-                ],
-                [
-                    150.0509033203125,
-                    345.59100341796875
-                ]
-            ],
-            [
-                [
-                    155.0509033203125,
-                    321.77099609375
-                ],
-                [
-                    230.0509033203125,
-                    345.59100341796875
-                ]
-            ],
-            [
-                [
-                    363.9530029296875,
-                    319.635986328125
-                ],
-                [
-                    414.1330261230469,
-                    343.45599365234375
-                ]
-            ],
-            [
-                [
-                    419.1330261230469,
-                    319.635986328125
-                ],
-                [
-                    468.7730407714844,
-                    343.45599365234375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Good evening Good night</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Good"
-            },
-            {
-                "time": 161,
-                "type": "word",
-                "start": 32,
-                "end": 39,
-                "value": "evening"
-            },
-            {
-                "time": 632,
-                "type": "word",
-                "start": 40,
-                "end": 44,
-                "value": "Good"
-            },
-            {
-                "time": 897,
-                "type": "word",
-                "start": 45,
-                "end": 50,
-                "value": "night"
-            }
-        ]
-    },
-    "4": {
+    "1": {
         "text": "Good morning Good afternoon",
         "words": [
             "Good",
@@ -215,7 +131,91 @@
             }
         ]
     },
-    "5": {
+    "2": {
+        "text": "Good evening Good night",
+        "words": [
+            "Good",
+            "evening",
+            "Good",
+            "night"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    99.87089538574219,
+                    321.77099609375
+                ],
+                [
+                    150.0509033203125,
+                    345.59100341796875
+                ]
+            ],
+            [
+                [
+                    155.0509033203125,
+                    321.77099609375
+                ],
+                [
+                    230.0509033203125,
+                    345.59100341796875
+                ]
+            ],
+            [
+                [
+                    363.9530029296875,
+                    319.635986328125
+                ],
+                [
+                    414.1330261230469,
+                    343.45599365234375
+                ]
+            ],
+            [
+                [
+                    419.1330261230469,
+                    319.635986328125
+                ],
+                [
+                    468.7730407714844,
+                    343.45599365234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Good evening Good night</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Good"
+            },
+            {
+                "time": 161,
+                "type": "word",
+                "start": 32,
+                "end": 39,
+                "value": "evening"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 40,
+                "end": 44,
+                "value": "Good"
+            },
+            {
+                "time": 897,
+                "type": "word",
+                "start": 45,
+                "end": 50,
+                "value": "night"
+            }
+        ]
+    },
+    "3": {
         "text": "Sing the song.",
         "words": [
             "Sing",
@@ -256,7 +256,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing the song.<break time=\"400ms\"/></prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -288,7 +288,7 @@
             }
         ]
     },
-    "6": {
+    "4": {
         "text": "Good morning to you, and how do you do? I'm happy to see you. Good morning to you!",
         "words": [
             "Good",
@@ -493,9 +493,8 @@
             ]
         ],
         "ssml": "<speak><prosody rate=\"85%\">Good morning to you,<break time=\"300ms\"/> and how do you do? I&apos;m happy to see you.<break time=\"500ms\"/> Good morning to you!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "dialog": "false",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -505,133 +504,133 @@
                 "value": "Good"
             },
             {
-                "time": 281,
+                "time": 216,
                 "type": "word",
                 "start": 32,
                 "end": 39,
                 "value": "morning"
             },
             {
-                "time": 772,
+                "time": 591,
                 "type": "word",
                 "start": 40,
                 "end": 42,
                 "value": "to"
             },
             {
-                "time": 910,
+                "time": 722,
                 "type": "word",
                 "start": 43,
                 "end": 46,
                 "value": "you"
             },
             {
-                "time": 1398,
+                "time": 1331,
                 "type": "word",
                 "start": 47,
                 "end": 68,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1798,
+                "time": 1731,
                 "type": "word",
                 "start": 69,
                 "end": 72,
                 "value": "and"
             },
             {
-                "time": 1993,
+                "time": 1886,
                 "type": "word",
                 "start": 73,
                 "end": 76,
                 "value": "how"
             },
             {
-                "time": 2232,
+                "time": 2109,
                 "type": "word",
                 "start": 77,
                 "end": 79,
                 "value": "do"
             },
             {
-                "time": 2354,
+                "time": 2250,
                 "type": "word",
                 "start": 80,
                 "end": 83,
                 "value": "you"
             },
             {
-                "time": 2487,
+                "time": 2388,
                 "type": "word",
                 "start": 84,
                 "end": 86,
                 "value": "do"
             },
             {
-                "time": 3350,
+                "time": 3273,
                 "type": "word",
                 "start": 88,
                 "end": 96,
                 "value": "I&apos;m"
             },
             {
-                "time": 3574,
+                "time": 3435,
                 "type": "word",
                 "start": 97,
                 "end": 102,
                 "value": "happy"
             },
             {
-                "time": 4019,
+                "time": 3766,
                 "type": "word",
                 "start": 103,
                 "end": 105,
                 "value": "to"
             },
             {
-                "time": 4169,
+                "time": 3891,
                 "type": "word",
                 "start": 106,
                 "end": 109,
                 "value": "see"
             },
             {
-                "time": 4514,
+                "time": 4123,
                 "type": "word",
                 "start": 110,
                 "end": 113,
                 "value": "you"
             },
             {
-                "time": 4786,
+                "time": 4510,
                 "type": "word",
                 "start": 114,
                 "end": 135,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 5673,
+                "time": 5397,
                 "type": "word",
                 "start": 136,
                 "end": 140,
                 "value": "Good"
             },
             {
-                "time": 5948,
+                "time": 5607,
                 "type": "word",
                 "start": 141,
                 "end": 148,
                 "value": "morning"
             },
             {
-                "time": 6426,
+                "time": 6032,
                 "type": "word",
                 "start": 149,
                 "end": 151,
                 "value": "to"
             },
             {
-                "time": 6575,
+                "time": 6185,
                 "type": "word",
                 "start": 152,
                 "end": 155,

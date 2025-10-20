@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Sahan, this is my friend, Nizam.",
         "words": [
             "Sahan,",
@@ -134,56 +134,7 @@
             }
         ]
     },
-    "3": {
-        "text": "Hello! Sahan.",
-        "words": [
-            "Hello!",
-            "Sahan."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    332.86029052734375,
-                    424.07598876953125
-                ],
-                [
-                    386.84027099609375,
-                    447.89599609375
-                ]
-            ],
-            [
-                [
-                    327.12030029296875,
-                    448.07598876953125
-                ],
-                [
-                    393.6003112792969,
-                    471.89599609375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello! Sahan.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Hello"
-            },
-            {
-                "time": 996,
-                "type": "word",
-                "start": 34,
-                "end": 39,
-                "value": "Sahan"
-            }
-        ]
-    },
-    "4": {
+    "1": {
         "text": "Hello! Nizam.",
         "words": [
             "Hello!",
@@ -232,7 +183,56 @@
             }
         ]
     },
-    "5": {
+    "2": {
+        "text": "Hello! Sahan.",
+        "words": [
+            "Hello!",
+            "Sahan."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    332.86029052734375,
+                    424.07598876953125
+                ],
+                [
+                    386.84027099609375,
+                    447.89599609375
+                ]
+            ],
+            [
+                [
+                    327.12030029296875,
+                    448.07598876953125
+                ],
+                [
+                    393.6003112792969,
+                    471.89599609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Hello! Sahan.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Hello"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "Sahan"
+            }
+        ]
+    },
+    "3": {
         "text": "Make groups of three. Introduce your friend.",
         "words": [
             "Make",
@@ -317,7 +317,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Make groups of three.<break time=\"500ms\"/> Introduce your friend.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

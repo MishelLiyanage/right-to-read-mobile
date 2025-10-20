@@ -1,8 +1,7 @@
 {
-    "1": {
-        "text": "127 Study the picture. What can you see in the picture?",
+    "0": {
+        "text": "Study the picture. What can you see in the picture?",
         "words": [
-            "127",
             "Study",
             "the",
             "picture.",
@@ -15,16 +14,6 @@
             "picture?"
         ],
         "bounding_boxes": [
-            [
-                [
-                    548.0969848632812,
-                    24.34998893737793
-                ],
-                [
-                    583.2269897460938,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -126,92 +115,85 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">127 Study the picture.<break time=\"500ms\"/> What can you see in the picture?</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Study the picture.<break time=\"500ms\"/> What can you see in the picture?</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "127"
-            },
-            {
-                "time": 1295,
-                "type": "word",
-                "start": 31,
-                "end": 36,
+                "end": 32,
                 "value": "Study"
             },
             {
-                "time": 1703,
+                "time": 407,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 1805,
+                "time": 546,
                 "type": "word",
-                "start": 41,
-                "end": 48,
+                "start": 37,
+                "end": 44,
                 "value": "picture"
             },
             {
-                "time": 2482,
+                "time": 1236,
                 "type": "word",
-                "start": 49,
-                "end": 70,
+                "start": 45,
+                "end": 66,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 3372,
+                "time": 2126,
                 "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 67,
+                "end": 71,
                 "value": "What"
             },
             {
-                "time": 3575,
+                "time": 2329,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 72,
+                "end": 75,
                 "value": "can"
             },
             {
-                "time": 3755,
+                "time": 2508,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 76,
+                "end": 79,
                 "value": "you"
             },
             {
-                "time": 3868,
+                "time": 2622,
                 "type": "word",
-                "start": 84,
-                "end": 87,
+                "start": 80,
+                "end": 83,
                 "value": "see"
             },
             {
-                "time": 4133,
+                "time": 2886,
                 "type": "word",
-                "start": 88,
-                "end": 90,
+                "start": 84,
+                "end": 86,
                 "value": "in"
             },
             {
-                "time": 4249,
+                "time": 3003,
                 "type": "word",
-                "start": 91,
-                "end": 94,
+                "start": 87,
+                "end": 90,
                 "value": "the"
             },
             {
-                "time": 4322,
+                "time": 3075,
                 "type": "word",
-                "start": 95,
-                "end": 102,
+                "start": 91,
+                "end": 98,
                 "value": "picture"
             }
         ]

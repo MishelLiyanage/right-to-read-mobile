@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "82",
         "words": [
             "82"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and repeat.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,152 +95,37 @@
             }
         ]
     },
-    "3": {
-        "text": "The parrot can't swim. It can fly.",
+    "2": {
+        "text": "1",
         "words": [
-            "The",
-            "parrot",
-            "can't",
-            "swim.",
-            "It",
-            "can",
-            "fly."
+            "1"
         ],
         "bounding_boxes": [
             [
                 [
-                    308.24700927734375,
-                    662.0486450195312
+                    184.11355590820312,
+                    100.47592163085938
                 ],
                 [
-                    338.90728759765625,
-                    683.3162231445312
-                ]
-            ],
-            [
-                [
-                    343.37152099609375,
-                    662.0486450195312
-                ],
-                [
-                    393.4422302246094,
-                    683.3162231445312
-                ]
-            ],
-            [
-                [
-                    302.1578063964844,
-                    683.4769287109375
-                ],
-                [
-                    344.9072265625,
-                    704.7445068359375
-                ]
-            ],
-            [
-                [
-                    349.1929016113281,
-                    683.4769287109375
-                ],
-                [
-                    400.2279052734375,
-                    704.7445068359375
-                ]
-            ],
-            [
-                [
-                    450.04864501953125,
-                    671.8877563476562
-                ],
-                [
-                    463.4413146972656,
-                    693.1553344726562
-                ]
-            ],
-            [
-                [
-                    467.72698974609375,
-                    671.8877563476562
-                ],
-                [
-                    499.0837097167969,
-                    693.1553344726562
-                ]
-            ],
-            [
-                [
-                    503.5479431152344,
-                    671.8877563476562
-                ],
-                [
-                    528.2976684570312,
-                    693.1553344726562
+                    191.81089782714844,
+                    122.04660034179688
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The parrot can&apos;t swim.<break time=\"500ms\"/> It can fly.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">1</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "The"
-            },
-            {
-                "time": 110,
-                "type": "word",
-                "start": 31,
-                "end": 37,
-                "value": "parrot"
-            },
-            {
-                "time": 556,
-                "type": "word",
-                "start": 38,
-                "end": 48,
-                "value": "can&apos;t"
-            },
-            {
-                "time": 877,
-                "type": "word",
-                "start": 49,
-                "end": 53,
-                "value": "swim"
-            },
-            {
-                "time": 1390,
-                "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2277,
-                "type": "word",
-                "start": 76,
-                "end": 78,
-                "value": "It"
-            },
-            {
-                "time": 2398,
-                "type": "word",
-                "start": 79,
-                "end": 82,
-                "value": "can"
-            },
-            {
-                "time": 2626,
-                "type": "word",
-                "start": 83,
-                "end": 86,
-                "value": "fly"
+                "end": 28,
+                "value": "1"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "The rabbit can't fly. It can hop.",
         "words": [
             "The",
@@ -325,7 +210,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">The rabbit can&apos;t fly.<break time=\"500ms\"/> It can hop.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -385,7 +270,37 @@
             }
         ]
     },
-    "6": {
+    "4": {
+        "text": "2",
+        "words": [
+            "2"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    427.3290100097656,
+                    204.16390991210938
+                ],
+                [
+                    438.177734375,
+                    225.73458862304688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">2</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "2"
+            }
+        ]
+    },
+    "5": {
         "text": "The dog can't hop. It can run.",
         "words": [
             "The",
@@ -470,7 +385,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">The dog can&apos;t hop.<break time=\"500ms\"/> It can run.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -530,7 +445,37 @@
             }
         ]
     },
-    "8": {
+    "6": {
+        "text": "3",
+        "words": [
+            "3"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    174.69000244140625,
+                    348.1639404296875
+                ],
+                [
+                    185.5930633544922,
+                    369.734619140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">3</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "3"
+            }
+        ]
+    },
+    "7": {
         "text": "The fish can't run. It can swim.",
         "words": [
             "The",
@@ -615,7 +560,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">The fish can&apos;t run.<break time=\"500ms\"/> It can swim.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -672,6 +617,181 @@
                 "start": 80,
                 "end": 84,
                 "value": "swim"
+            }
+        ]
+    },
+    "8": {
+        "text": "4",
+        "words": [
+            "4"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    411.7138977050781,
+                    508.3049621582031
+                ],
+                [
+                    422.0373840332031,
+                    529.8756713867188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">4</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "4"
+            }
+        ]
+    },
+    "9": {
+        "text": "The parrot can't swim. It can fly.",
+        "words": [
+            "The",
+            "parrot",
+            "can't",
+            "swim.",
+            "It",
+            "can",
+            "fly."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    308.24700927734375,
+                    662.0486450195312
+                ],
+                [
+                    338.90728759765625,
+                    683.3162231445312
+                ]
+            ],
+            [
+                [
+                    343.37152099609375,
+                    662.0486450195312
+                ],
+                [
+                    393.4422302246094,
+                    683.3162231445312
+                ]
+            ],
+            [
+                [
+                    302.1578063964844,
+                    683.4769287109375
+                ],
+                [
+                    344.9072265625,
+                    704.7445068359375
+                ]
+            ],
+            [
+                [
+                    349.1929016113281,
+                    683.4769287109375
+                ],
+                [
+                    400.2279052734375,
+                    704.7445068359375
+                ]
+            ],
+            [
+                [
+                    450.04864501953125,
+                    671.8877563476562
+                ],
+                [
+                    463.4413146972656,
+                    693.1553344726562
+                ]
+            ],
+            [
+                [
+                    467.72698974609375,
+                    671.8877563476562
+                ],
+                [
+                    499.0837097167969,
+                    693.1553344726562
+                ]
+            ],
+            [
+                [
+                    503.5479431152344,
+                    671.8877563476562
+                ],
+                [
+                    528.2976684570312,
+                    693.1553344726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">The parrot can&apos;t swim.<break time=\"500ms\"/> It can fly.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "The"
+            },
+            {
+                "time": 110,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "parrot"
+            },
+            {
+                "time": 556,
+                "type": "word",
+                "start": 38,
+                "end": 48,
+                "value": "can&apos;t"
+            },
+            {
+                "time": 877,
+                "type": "word",
+                "start": 49,
+                "end": 53,
+                "value": "swim"
+            },
+            {
+                "time": 1390,
+                "type": "word",
+                "start": 54,
+                "end": 75,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 2277,
+                "type": "word",
+                "start": 76,
+                "end": 78,
+                "value": "It"
+            },
+            {
+                "time": 2398,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "can"
+            },
+            {
+                "time": 2626,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "fly"
             }
         ]
     }

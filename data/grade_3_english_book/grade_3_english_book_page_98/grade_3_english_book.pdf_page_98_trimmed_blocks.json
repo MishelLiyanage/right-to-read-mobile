@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "89 Listen and say.",
+    "0": {
+        "text": "Listen and say.",
         "words": [
-            "89",
             "Listen",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.0380249023438,
-                    24.34998893737793
-                ],
-                [
-                    581.3280029296875,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -49,41 +38,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">89 Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "89"
-            },
-            {
-                "time": 621,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1020,
+                "time": 421,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1202,
+                "time": 595,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
     },
-    "4": {
+    "1": {
         "text": "It's cold. I wear a",
         "words": [
             "It's",
@@ -193,7 +175,7 @@
             }
         ]
     },
-    "5": {
+    "2": {
         "text": "sweater",
         "words": [
             "sweater"
@@ -223,7 +205,7 @@
             }
         ]
     },
-    "8": {
+    "3": {
         "text": "It's sunny. I wear",
         "words": [
             "It's",
@@ -315,7 +297,7 @@
             }
         ]
     },
-    "9": {
+    "4": {
         "text": "hat",
         "words": [
             "hat"
@@ -345,7 +327,7 @@
             }
         ]
     },
-    "11": {
+    "5": {
         "text": "It's r aining. I wear",
         "words": [
             "It's",
@@ -455,7 +437,7 @@
             }
         ]
     },
-    "12": {
+    "6": {
         "text": "raincoat",
         "words": [
             "raincoat"
@@ -485,7 +467,7 @@
             }
         ]
     },
-    "14": {
+    "7": {
         "text": "I work in the garden. I wear",
         "words": [
             "I",
@@ -631,7 +613,7 @@
             }
         ]
     },
-    "15": {
+    "8": {
         "text": "gloves",
         "words": [
             "gloves"

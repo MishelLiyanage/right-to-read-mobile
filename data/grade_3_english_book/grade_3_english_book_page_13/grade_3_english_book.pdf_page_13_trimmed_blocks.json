@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Walk on the floor. Say numbers one to five.",
         "words": [
             "Walk",
@@ -106,7 +106,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Walk on the floor.<break time=\"500ms\"/> Say numbers one to five.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -180,7 +180,37 @@
             }
         ]
     },
-    "3": {
+    "1": {
+        "text": "two",
+        "words": [
+            "two"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    253.28541564941406,
+                    195.19699096679688
+                ],
+                [
+                    292.56646728515625,
+                    219.01699829101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">two</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "two"
+            }
+        ]
+    },
+    "2": {
         "text": "one",
         "words": [
             "one"
@@ -188,12 +218,12 @@
         "bounding_boxes": [
             [
                 [
-                    259.5231628417969,
-                    671.600341796875
+                    333.0,
+                    283.59100341796875
                 ],
                 [
-                    298.29754638671875,
-                    695.4203491210938
+                    371.77435302734375,
+                    307.4110107421875
                 ]
             ]
         ],
@@ -210,24 +240,24 @@
             }
         ]
     },
-    "4": {
-        "text": "two",
+    "3": {
+        "text": "five",
         "words": [
-            "two"
+            "five"
         ],
         "bounding_boxes": [
             [
                 [
-                    358.6860046386719,
-                    602.4720458984375
+                    251.4367218017578,
+                    358.0780029296875
                 ],
                 [
-                    397.96710205078125,
-                    626.2919921875
+                    288.73504638671875,
+                    381.89801025390625
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">two</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">five</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -235,8 +265,38 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "two"
+                "end": 31,
+                "value": "five"
+            }
+        ]
+    },
+    "4": {
+        "text": "four",
+        "words": [
+            "four"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    345.9700012207031,
+                    444.92498779296875
+                ],
+                [
+                    387.8507385253906,
+                    468.7449951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">four</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "four"
             }
         ]
     },
@@ -271,96 +331,6 @@
         ]
     },
     "6": {
-        "text": "four",
-        "words": [
-            "four"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    345.9700012207031,
-                    444.92498779296875
-                ],
-                [
-                    387.8507385253906,
-                    468.7449951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">four</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "four"
-            }
-        ]
-    },
-    "7": {
-        "text": "five",
-        "words": [
-            "five"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    251.4367218017578,
-                    358.0780029296875
-                ],
-                [
-                    288.73504638671875,
-                    381.89801025390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">five</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "five"
-            }
-        ]
-    },
-    "8": {
-        "text": "one",
-        "words": [
-            "one"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    333.0,
-                    283.59100341796875
-                ],
-                [
-                    371.77435302734375,
-                    307.4110107421875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">one</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "one"
-            }
-        ]
-    },
-    "9": {
         "text": "two",
         "words": [
             "two"
@@ -368,12 +338,12 @@
         "bounding_boxes": [
             [
                 [
-                    253.28541564941406,
-                    195.19699096679688
+                    358.6860046386719,
+                    602.4720458984375
                 ],
                 [
-                    292.56646728515625,
-                    219.01699829101562
+                    397.96710205078125,
+                    626.2919921875
                 ]
             ]
         ],
@@ -387,6 +357,36 @@
                 "start": 27,
                 "end": 30,
                 "value": "two"
+            }
+        ]
+    },
+    "7": {
+        "text": "one",
+        "words": [
+            "one"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    259.5231628417969,
+                    671.600341796875
+                ],
+                [
+                    298.29754638671875,
+                    695.4203491210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">one</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "one"
             }
         ]
     }

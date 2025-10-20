@@ -1,23 +1,12 @@
 {
-    "1": {
-        "text": "95 Listen and play.",
+    "0": {
+        "text": "Listen and play.",
         "words": [
-            "95",
             "Listen",
             "and",
             "play."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.4769897460938,
-                    24.34998893737793
-                ],
-                [
-                    580.89697265625,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -49,41 +38,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">95 Listen and play.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen and play.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "95"
-            },
-            {
-                "time": 791,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1154,
+                "time": 421,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 1347,
+                "time": 587,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 38,
+                "end": 42,
                 "value": "play"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Throw the ball. Kick the ball. Let the ball roll. Bounce the ball. Pass the ball. Catch the ball and stop.",
         "words": [
             "Throw",
@@ -322,7 +304,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Throw the ball.<break time=\"500ms\"/> Kick the ball.<break time=\"500ms\"/> Let the ball roll.<break time=\"500ms\"/> Bounce the ball.<break time=\"500ms\"/> Pass the ball.<break time=\"500ms\"/> Catch the ball and stop.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +40,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +65,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "red",
         "words": [
             "red"
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "orange",
         "words": [
             "orange"
@@ -125,7 +125,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "yellow",
         "words": [
             "yellow"
@@ -155,7 +155,7 @@
             }
         ]
     },
-    "6": {
+    "4": {
         "text": "green",
         "words": [
             "green"
@@ -185,7 +185,7 @@
             }
         ]
     },
-    "7": {
+    "5": {
         "text": "blue",
         "words": [
             "blue"
@@ -215,7 +215,7 @@
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "white",
         "words": [
             "white"
@@ -245,7 +245,7 @@
             }
         ]
     },
-    "9": {
+    "7": {
         "text": "black",
         "words": [
             "black"
@@ -275,7 +275,7 @@
             }
         ]
     },
-    "10": {
+    "8": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -316,7 +316,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -341,7 +341,7 @@
             }
         ]
     },
-    "11": {
+    "9": {
         "text": "This is a red apple.",
         "words": [
             "This",
@@ -404,7 +404,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is a red apple.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -443,7 +443,7 @@
             }
         ]
     },
-    "12": {
+    "10": {
         "text": "This is an orange butterfly.",
         "words": [
             "This",
@@ -506,7 +506,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is an orange butterfly.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -545,313 +545,7 @@
             }
         ]
     },
-    "13": {
-        "text": "This is a black cat.",
-        "words": [
-            "This",
-            "is",
-            "a",
-            "black",
-            "cat."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    246.43299865722656,
-                    545.655029296875
-                ],
-                [
-                    283.41302490234375,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    288.41302490234375,
-                    545.655029296875
-                ],
-                [
-                    302.3930358886719,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    307.3930358886719,
-                    545.655029296875
-                ],
-                [
-                    319.55303955078125,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    324.55303955078125,
-                    545.655029296875
-                ],
-                [
-                    374.93304443359375,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    290.7330017089844,
-                    569.655029296875
-                ],
-                [
-                    327.03302001953125,
-                    593.4749755859375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">This is a black cat.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "This"
-            },
-            {
-                "time": 223,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "is"
-            },
-            {
-                "time": 377,
-                "type": "word",
-                "start": 35,
-                "end": 36,
-                "value": "a"
-            },
-            {
-                "time": 442,
-                "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "black"
-            },
-            {
-                "time": 806,
-                "type": "word",
-                "start": 43,
-                "end": 46,
-                "value": "cat"
-            }
-        ]
-    },
-    "14": {
-        "text": "This is a blue fish.",
-        "words": [
-            "This",
-            "is",
-            "a",
-            "blue",
-            "fish."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    467.1709899902344,
-                    335.3179931640625
-                ],
-                [
-                    504.1510009765625,
-                    359.13800048828125
-                ]
-            ],
-            [
-                [
-                    509.1510009765625,
-                    335.3179931640625
-                ],
-                [
-                    523.1309814453125,
-                    359.13800048828125
-                ]
-            ],
-            [
-                [
-                    528.1309814453125,
-                    335.3179931640625
-                ],
-                [
-                    540.2909545898438,
-                    359.13800048828125
-                ]
-            ],
-            [
-                [
-                    458.8710021972656,
-                    359.3179931640625
-                ],
-                [
-                    499.8710021972656,
-                    383.13800048828125
-                ]
-            ],
-            [
-                [
-                    504.8710021972656,
-                    359.3179931640625
-                ],
-                [
-                    545.1909790039062,
-                    383.13800048828125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">This is a blue fish.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "This"
-            },
-            {
-                "time": 212,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "is"
-            },
-            {
-                "time": 351,
-                "type": "word",
-                "start": 35,
-                "end": 36,
-                "value": "a"
-            },
-            {
-                "time": 386,
-                "type": "word",
-                "start": 37,
-                "end": 41,
-                "value": "blue"
-            },
-            {
-                "time": 643,
-                "type": "word",
-                "start": 42,
-                "end": 46,
-                "value": "fish"
-            }
-        ]
-    },
-    "15": {
-        "text": "This is a green leaf.",
-        "words": [
-            "This",
-            "is",
-            "a",
-            "green",
-            "leaf."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    92.93690490722656,
-                    545.655029296875
-                ],
-                [
-                    129.91690063476562,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    134.91690063476562,
-                    545.655029296875
-                ],
-                [
-                    148.89691162109375,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    153.89691162109375,
-                    545.655029296875
-                ],
-                [
-                    166.05691528320312,
-                    569.4749755859375
-                ]
-            ],
-            [
-                [
-                    77.79690551757812,
-                    569.655029296875
-                ],
-                [
-                    131.5369110107422,
-                    593.4749755859375
-                ]
-            ],
-            [
-                [
-                    136.5369110107422,
-                    569.655029296875
-                ],
-                [
-                    177.7769012451172,
-                    593.4749755859375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">This is a green leaf.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "This"
-            },
-            {
-                "time": 229,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "is"
-            },
-            {
-                "time": 377,
-                "type": "word",
-                "start": 35,
-                "end": 36,
-                "value": "a"
-            },
-            {
-                "time": 425,
-                "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "green"
-            },
-            {
-                "time": 781,
-                "type": "word",
-                "start": 43,
-                "end": 47,
-                "value": "leaf"
-            }
-        ]
-    },
-    "16": {
+    "11": {
         "text": "This is a yellow bird.",
         "words": [
             "This",
@@ -914,7 +608,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is a yellow bird.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -953,7 +647,313 @@
             }
         ]
     },
-    "17": {
+    "12": {
+        "text": "This is a blue fish.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "blue",
+            "fish."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    467.1709899902344,
+                    335.3179931640625
+                ],
+                [
+                    504.1510009765625,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    509.1510009765625,
+                    335.3179931640625
+                ],
+                [
+                    523.1309814453125,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    528.1309814453125,
+                    335.3179931640625
+                ],
+                [
+                    540.2909545898438,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    458.8710021972656,
+                    359.3179931640625
+                ],
+                [
+                    499.8710021972656,
+                    383.13800048828125
+                ]
+            ],
+            [
+                [
+                    504.8710021972656,
+                    359.3179931640625
+                ],
+                [
+                    545.1909790039062,
+                    383.13800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">This is a blue fish.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "This"
+            },
+            {
+                "time": 212,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 351,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "a"
+            },
+            {
+                "time": 386,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "blue"
+            },
+            {
+                "time": 643,
+                "type": "word",
+                "start": 42,
+                "end": 46,
+                "value": "fish"
+            }
+        ]
+    },
+    "13": {
+        "text": "This is a green leaf.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "green",
+            "leaf."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.93690490722656,
+                    545.655029296875
+                ],
+                [
+                    129.91690063476562,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    134.91690063476562,
+                    545.655029296875
+                ],
+                [
+                    148.89691162109375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    153.89691162109375,
+                    545.655029296875
+                ],
+                [
+                    166.05691528320312,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    77.79690551757812,
+                    569.655029296875
+                ],
+                [
+                    131.5369110107422,
+                    593.4749755859375
+                ]
+            ],
+            [
+                [
+                    136.5369110107422,
+                    569.655029296875
+                ],
+                [
+                    177.7769012451172,
+                    593.4749755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">This is a green leaf.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "This"
+            },
+            {
+                "time": 229,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 377,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "a"
+            },
+            {
+                "time": 425,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "green"
+            },
+            {
+                "time": 781,
+                "type": "word",
+                "start": 43,
+                "end": 47,
+                "value": "leaf"
+            }
+        ]
+    },
+    "14": {
+        "text": "This is a black cat.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "black",
+            "cat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    246.43299865722656,
+                    545.655029296875
+                ],
+                [
+                    283.41302490234375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    288.41302490234375,
+                    545.655029296875
+                ],
+                [
+                    302.3930358886719,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    307.3930358886719,
+                    545.655029296875
+                ],
+                [
+                    319.55303955078125,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    324.55303955078125,
+                    545.655029296875
+                ],
+                [
+                    374.93304443359375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    290.7330017089844,
+                    569.655029296875
+                ],
+                [
+                    327.03302001953125,
+                    593.4749755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">This is a black cat.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "This"
+            },
+            {
+                "time": 223,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "is"
+            },
+            {
+                "time": 377,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "a"
+            },
+            {
+                "time": 442,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "black"
+            },
+            {
+                "time": 806,
+                "type": "word",
+                "start": 43,
+                "end": 46,
+                "value": "cat"
+            }
+        ]
+    },
+    "15": {
         "text": "This is a white dog.",
         "words": [
             "This",
@@ -1016,7 +1016,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">This is a white dog.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

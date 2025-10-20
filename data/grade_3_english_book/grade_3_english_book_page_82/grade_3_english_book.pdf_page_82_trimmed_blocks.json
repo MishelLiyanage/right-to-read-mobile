@@ -1,4 +1,34 @@
 {
+    "0": {
+        "text": "lion",
+        "words": [
+            "lion"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    144.4429931640625,
+                    52.211029052734375
+                ],
+                [
+                    178.08299255371094,
+                    76.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">lion</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "lion"
+            }
+        ]
+    },
     "1": {
         "text": "I live in a den.",
         "words": [
@@ -103,23 +133,23 @@
         ]
     },
     "2": {
-        "text": "lion",
+        "text": "dog",
         "words": [
-            "lion"
+            "dog"
         ],
         "bounding_boxes": [
             [
                 [
-                    144.4429931640625,
-                    52.211029052734375
+                    459.6619873046875,
+                    119.57601928710938
                 ],
                 [
-                    178.08299255371094,
-                    76.0310287475586
+                    495.24200439453125,
+                    143.39602661132812
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">lion</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -127,8 +157,8 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 31,
-                "value": "lion"
+                "end": 30,
+                "value": "dog"
             }
         ]
     },
@@ -236,23 +266,23 @@
         ]
     },
     "4": {
-        "text": "dog",
+        "text": "hen",
         "words": [
-            "dog"
+            "hen"
         ],
         "bounding_boxes": [
             [
                 [
-                    459.6619873046875,
-                    119.57601928710938
+                    148.2209930419922,
+                    334.635009765625
                 ],
                 [
-                    495.24200439453125,
-                    143.39602661132812
+                    181.1069793701172,
+                    356.0730285644531
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dog</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">hen</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -261,144 +291,11 @@
                 "type": "word",
                 "start": 27,
                 "end": 30,
-                "value": "dog"
+                "value": "hen"
             }
         ]
     },
     "5": {
-        "text": "We live in a pond.",
-        "words": [
-            "We",
-            "live",
-            "in",
-            "a",
-            "pond."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    149.73399353027344,
-                    617.6810302734375
-                ],
-                [
-                    180.27398681640625,
-                    641.5009765625
-                ]
-            ],
-            [
-                [
-                    185.27398681640625,
-                    617.6810302734375
-                ],
-                [
-                    216.573974609375,
-                    641.5009765625
-                ]
-            ],
-            [
-                [
-                    221.573974609375,
-                    617.6810302734375
-                ],
-                [
-                    239.05398559570312,
-                    641.5009765625
-                ]
-            ],
-            [
-                [
-                    244.05398559570312,
-                    617.6810302734375
-                ],
-                [
-                    256.2139892578125,
-                    641.5009765625
-                ]
-            ],
-            [
-                [
-                    149.73399353027344,
-                    641.6810302734375
-                ],
-                [
-                    204.19400024414062,
-                    665.5009765625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We live in a pond.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 158,
-                "type": "word",
-                "start": 30,
-                "end": 34,
-                "value": "live"
-            },
-            {
-                "time": 461,
-                "type": "word",
-                "start": 35,
-                "end": 37,
-                "value": "in"
-            },
-            {
-                "time": 563,
-                "type": "word",
-                "start": 38,
-                "end": 39,
-                "value": "a"
-            },
-            {
-                "time": 611,
-                "type": "word",
-                "start": 40,
-                "end": 44,
-                "value": "pond"
-            }
-        ]
-    },
-    "6": {
-        "text": "fish",
-        "words": [
-            "fish"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    401.35400390625,
-                    522.1009521484375
-                ],
-                [
-                    435.3940124511719,
-                    545.9209594726562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">fish</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "fish"
-            }
-        ]
-    },
-    "7": {
         "text": "I live in a coop.",
         "words": [
             "I",
@@ -501,24 +398,24 @@
             }
         ]
     },
-    "8": {
-        "text": "hen",
+    "6": {
+        "text": "fish",
         "words": [
-            "hen"
+            "fish"
         ],
         "bounding_boxes": [
             [
                 [
-                    148.2209930419922,
-                    334.635009765625
+                    401.35400390625,
+                    522.1009521484375
                 ],
                 [
-                    181.1069793701172,
-                    356.0730285644531
+                    435.3940124511719,
+                    545.9209594726562
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hen</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">fish</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -526,8 +423,111 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "hen"
+                "end": 31,
+                "value": "fish"
+            }
+        ]
+    },
+    "7": {
+        "text": "We live in a pond.",
+        "words": [
+            "We",
+            "live",
+            "in",
+            "a",
+            "pond."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    149.73399353027344,
+                    617.6810302734375
+                ],
+                [
+                    180.27398681640625,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    185.27398681640625,
+                    617.6810302734375
+                ],
+                [
+                    216.573974609375,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    221.573974609375,
+                    617.6810302734375
+                ],
+                [
+                    239.05398559570312,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    244.05398559570312,
+                    617.6810302734375
+                ],
+                [
+                    256.2139892578125,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    149.73399353027344,
+                    641.6810302734375
+                ],
+                [
+                    204.19400024414062,
+                    665.5009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">We live in a pond.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "We"
+            },
+            {
+                "time": 158,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "live"
+            },
+            {
+                "time": 461,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "in"
+            },
+            {
+                "time": 563,
+                "type": "word",
+                "start": 38,
+                "end": 39,
+                "value": "a"
+            },
+            {
+                "time": 611,
+                "type": "word",
+                "start": 40,
+                "end": 44,
+                "value": "pond"
             }
         ]
     }

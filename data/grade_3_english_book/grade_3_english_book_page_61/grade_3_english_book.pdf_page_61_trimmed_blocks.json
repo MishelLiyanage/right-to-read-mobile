@@ -1,39 +1,8 @@
 {
-    "1": {
-        "text": "52",
+    "0": {
+        "text": "Fruits",
         "words": [
-            "52"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.66990089416504,
-                    24.34998893737793
-                ],
-                [
-                    60.87990188598633,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">52</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "52"
-            }
-        ]
-    },
-    "2": {
-        "text": "Fruits Talk",
-        "words": [
-            "Fruits",
-            "Talk"
+            "Fruits"
         ],
         "bounding_boxes": [
             [
@@ -45,7 +14,27 @@
                     332.6080322265625,
                     75.4339828491211
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Fruits</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Fruits"
+            }
+        ]
+    },
+    "1": {
+        "text": "Talk",
+        "words": [
+            "Talk"
+        ],
+        "bounding_boxes": [
             [
                 [
                     62.36799621582031,
@@ -57,7 +46,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Fruits Talk</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Talk</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -65,19 +54,12 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 33,
-                "value": "Fruits"
-            },
-            {
-                "time": 520,
-                "type": "word",
-                "start": 34,
-                "end": 38,
+                "end": 31,
                 "value": "Talk"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Do you like apples?",
         "words": [
             "Do",
@@ -162,7 +144,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "Yes, I like.",
         "words": [
             "Yes,",
@@ -236,7 +218,7 @@
             }
         ]
     },
-    "7": {
+    "4": {
         "text": "No, I like babanas.",
         "words": [
             "No,",
@@ -328,35 +310,13 @@
             }
         ]
     },
-    "8": {
-        "text": "a mango an apple",
+    "5": {
+        "text": "an apple",
         "words": [
-            "a",
-            "mango",
             "an",
             "apple"
         ],
         "bounding_boxes": [
-            [
-                [
-                    236.14199829101562,
-                    452.2749938964844
-                ],
-                [
-                    247.08599853515625,
-                    473.7130126953125
-                ]
-            ],
-            [
-                [
-                    251.58599853515625,
-                    452.2749938964844
-                ],
-                [
-                    313.39801025390625,
-                    473.7130126953125
-                ]
-            ],
             [
                 [
                     95.45449829101562,
@@ -378,7 +338,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">a mango an apple</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">an apple</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -386,61 +346,47 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 88,
-                "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "mango"
-            },
-            {
-                "time": 616,
-                "type": "word",
-                "start": 35,
-                "end": 37,
+                "end": 29,
                 "value": "an"
             },
             {
-                "time": 753,
+                "time": 179,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 30,
+                "end": 35,
                 "value": "apple"
             }
         ]
     },
-    "9": {
-        "text": "a guava",
+    "6": {
+        "text": "a mango",
         "words": [
             "a",
-            "guava"
+            "mango"
         ],
         "bounding_boxes": [
             [
                 [
-                    85.79810333251953,
-                    600.5950317382812
+                    236.14199829101562,
+                    452.2749938964844
                 ],
                 [
-                    96.74210357666016,
-                    622.0330200195312
+                    247.08599853515625,
+                    473.7130126953125
                 ]
             ],
             [
                 [
-                    101.24210357666016,
-                    600.5950317382812
+                    251.58599853515625,
+                    452.2749938964844
                 ],
                 [
-                    154.48611450195312,
-                    622.0330200195312
+                    313.39801025390625,
+                    473.7130126953125
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">a guava</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">a mango</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -452,93 +398,15 @@
                 "value": "a"
             },
             {
-                "time": 95,
+                "time": 69,
                 "type": "word",
                 "start": 29,
                 "end": 34,
-                "value": "guava"
+                "value": "mango"
             }
         ]
     },
-    "10": {
-        "text": "grapes",
-        "words": [
-            "grapes"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    104.12100219726562,
-                    637.3070068359375
-                ],
-                [
-                    161.0189971923828,
-                    658.7449951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">grapes</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "grapes"
-            }
-        ]
-    },
-    "11": {
-        "text": "a rambutan",
-        "words": [
-            "a",
-            "rambutan"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    57.4015007019043,
-                    492.12200927734375
-                ],
-                [
-                    68.34550476074219,
-                    513.5599975585938
-                ]
-            ],
-            [
-                [
-                    72.84550476074219,
-                    492.12200927734375
-                ],
-                [
-                    159.0474853515625,
-                    513.5599975585938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">a rambutan</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 90,
-                "type": "word",
-                "start": 29,
-                "end": 37,
-                "value": "rambutan"
-            }
-        ]
-    },
-    "12": {
+    "7": {
         "text": "a pineapple",
         "words": [
             "a",
@@ -586,7 +454,181 @@
             }
         ]
     },
-    "13": {
+    "8": {
+        "text": "a papaya",
+        "words": [
+            "a",
+            "papaya"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    335.25799560546875,
+                    467.2559814453125
+                ],
+                [
+                    346.2019958496094,
+                    488.6940002441406
+                ]
+            ],
+            [
+                [
+                    350.7019958496094,
+                    467.2559814453125
+                ],
+                [
+                    414.4040222167969,
+                    488.6940002441406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a papaya</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 78,
+                "type": "word",
+                "start": 29,
+                "end": 35,
+                "value": "papaya"
+            }
+        ]
+    },
+    "9": {
+        "text": "a rambutan",
+        "words": [
+            "a",
+            "rambutan"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    57.4015007019043,
+                    492.12200927734375
+                ],
+                [
+                    68.34550476074219,
+                    513.5599975585938
+                ]
+            ],
+            [
+                [
+                    72.84550476074219,
+                    492.12200927734375
+                ],
+                [
+                    159.0474853515625,
+                    513.5599975585938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a rambutan</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 90,
+                "type": "word",
+                "start": 29,
+                "end": 37,
+                "value": "rambutan"
+            }
+        ]
+    },
+    "10": {
+        "text": "a guava",
+        "words": [
+            "a",
+            "guava"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    85.79810333251953,
+                    600.5950317382812
+                ],
+                [
+                    96.74210357666016,
+                    622.0330200195312
+                ]
+            ],
+            [
+                [
+                    101.24210357666016,
+                    600.5950317382812
+                ],
+                [
+                    154.48611450195312,
+                    622.0330200195312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a guava</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 95,
+                "type": "word",
+                "start": 29,
+                "end": 34,
+                "value": "guava"
+            }
+        ]
+    },
+    "11": {
+        "text": "grapes",
+        "words": [
+            "grapes"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    104.12100219726562,
+                    637.3070068359375
+                ],
+                [
+                    161.0189971923828,
+                    658.7449951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">grapes</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "grapes"
+            }
+        ]
+    },
+    "12": {
         "text": "an orange",
         "words": [
             "an",
@@ -634,35 +676,13 @@
             }
         ]
     },
-    "14": {
-        "text": "a banana a watermelon",
+    "13": {
+        "text": "a watermelon",
         "words": [
-            "a",
-            "banana",
             "a",
             "watermelon"
         ],
         "bounding_boxes": [
-            [
-                [
-                    267.29998779296875,
-                    694.5043334960938
-                ],
-                [
-                    278.2439880371094,
-                    715.9423217773438
-                ]
-            ],
-            [
-                [
-                    282.7439880371094,
-                    694.5043334960938
-                ],
-                [
-                    349.1999816894531,
-                    715.9423217773438
-                ]
-            ],
             [
                 [
                     152.70399475097656,
@@ -684,7 +704,55 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">a banana a watermelon</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">a watermelon</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 113,
+                "type": "word",
+                "start": 29,
+                "end": 39,
+                "value": "watermelon"
+            }
+        ]
+    },
+    "14": {
+        "text": "a banana",
+        "words": [
+            "a",
+            "banana"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    267.29998779296875,
+                    694.5043334960938
+                ],
+                [
+                    278.2439880371094,
+                    715.9423217773438
+                ]
+            ],
+            [
+                [
+                    282.7439880371094,
+                    694.5043334960938
+                ],
+                [
+                    349.1999816894531,
+                    715.9423217773438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a banana</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -701,68 +769,6 @@
                 "start": 29,
                 "end": 35,
                 "value": "banana"
-            },
-            {
-                "time": 515,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "a"
-            },
-            {
-                "time": 564,
-                "type": "word",
-                "start": 38,
-                "end": 48,
-                "value": "watermelon"
-            }
-        ]
-    },
-    "15": {
-        "text": "a papaya",
-        "words": [
-            "a",
-            "papaya"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    335.25799560546875,
-                    467.2559814453125
-                ],
-                [
-                    346.2019958496094,
-                    488.6940002441406
-                ]
-            ],
-            [
-                [
-                    350.7019958496094,
-                    467.2559814453125
-                ],
-                [
-                    414.4040222167969,
-                    488.6940002441406
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">a papaya</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 78,
-                "type": "word",
-                "start": 29,
-                "end": 35,
-                "value": "papaya"
             }
         ]
     }

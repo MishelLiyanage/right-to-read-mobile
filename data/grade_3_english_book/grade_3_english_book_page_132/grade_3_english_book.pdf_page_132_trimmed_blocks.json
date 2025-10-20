@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "123 Read the picture story.",
+    "0": {
+        "text": "Read the picture story.",
         "words": [
-            "123",
             "Read",
             "the",
             "picture",
             "story."
         ],
         "bounding_boxes": [
-            [
-                [
-                    546.8809814453125,
-                    24.34998893737793
-                ],
-                [
-                    584.4409790039062,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -60,48 +49,41 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">123 Read the picture story.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Read the picture story.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "123"
-            },
-            {
-                "time": 1286,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "end": 31,
                 "value": "Read"
             },
             {
-                "time": 1557,
+                "time": 246,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 32,
+                "end": 35,
                 "value": "the"
             },
             {
-                "time": 1641,
+                "time": 338,
                 "type": "word",
-                "start": 40,
-                "end": 47,
+                "start": 36,
+                "end": 43,
                 "value": "picture"
             },
             {
-                "time": 2076,
+                "time": 788,
                 "type": "word",
-                "start": 48,
-                "end": 53,
+                "start": 44,
+                "end": 49,
                 "value": "story"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Float or Sink?",
         "words": [
             "Float",
@@ -142,7 +124,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Float or Sink?</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -167,12 +149,12 @@
             }
         ]
     },
-    "3": {
-        "text": "Take a (1)\u2026\u2026\u2026..",
+    "2": {
+        "text": "Take a (1)\u2026\u2026\u2026.",
         "words": [
             "Take",
             "a",
-            "(1)\u2026\u2026\u2026."
+            "(1)\u2026\u2026\u2026.."
         ],
         "bounding_boxes": [
             [
@@ -206,9 +188,9 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Take a (1)\u2026\u2026\u2026..</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Take a (1)\u2026\u2026\u2026.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -233,7 +215,325 @@
             }
         ]
     },
+    "3": {
+        "text": "Put some (2)\u2026\u2026\u2026",
+        "words": [
+            "Put",
+            "some",
+            "(2)\u2026\u2026\u2026"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    277.0270080566406
+                ],
+                [
+                    91.72709655761719,
+                    300.8470153808594
+                ]
+            ],
+            [
+                [
+                    101.527099609375,
+                    277.0270080566406
+                ],
+                [
+                    153.7270965576172,
+                    300.8470153808594
+                ]
+            ],
+            [
+                [
+                    158.7270965576172,
+                    277.0270080566406
+                ],
+                [
+                    241.3271026611328,
+                    300.8470153808594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Put some (2)\u2026\u2026\u2026</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Put"
+            },
+            {
+                "time": 168,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "some"
+            },
+            {
+                "time": 949,
+                "type": "word",
+                "start": 37,
+                "end": 38,
+                "value": "2"
+            }
+        ]
+    },
     "4": {
+        "text": "Put (3)\u2026\u2026\u2026.",
+        "words": [
+            "Put",
+            "(3)\u2026\u2026\u2026.."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527000427246094,
+                    381.9859924316406
+                ],
+                [
+                    91.72699737548828,
+                    405.8059997558594
+                ]
+            ],
+            [
+                [
+                    101.5270004272461,
+                    381.9859924316406
+                ],
+                [
+                    196.74700927734375,
+                    405.8059997558594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Put (3)\u2026\u2026\u2026.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "Put"
+            },
+            {
+                "time": 666,
+                "type": "word",
+                "start": 32,
+                "end": 33,
+                "value": "3"
+            }
+        ]
+    },
+    "5": {
+        "text": "into the water. Put (4) \u2026\u2026\u2026\u2026..",
+        "words": [
+            "into",
+            "the",
+            "water.",
+            "Put",
+            "(4)",
+            "\u2026\u2026\u2026\u2026."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    365.8670959472656,
+                    493.6940002441406
+                ],
+                [
+                    401.80712890625,
+                    517.5139770507812
+                ]
+            ],
+            [
+                [
+                    406.60711669921875,
+                    493.6940002441406
+                ],
+                [
+                    438.1471252441406,
+                    517.5139770507812
+                ]
+            ],
+            [
+                [
+                    442.9471130371094,
+                    493.6940002441406
+                ],
+                [
+                    502.12713623046875,
+                    517.5139770507812
+                ]
+            ],
+            [
+                [
+                    59.527099609375,
+                    484.10101318359375
+                ],
+                [
+                    91.72709655761719,
+                    507.9210205078125
+                ]
+            ],
+            [
+                [
+                    96.527099609375,
+                    484.10101318359375
+                ],
+                [
+                    126.64710235595703,
+                    507.9210205078125
+                ]
+            ],
+            [
+                [
+                    131.6470947265625,
+                    484.10101318359375
+                ],
+                [
+                    213.4071044921875,
+                    507.9210205078125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">into the water.<break time=\"500ms\"/> Put (4) \u2026\u2026\u2026\u2026..</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "into"
+            },
+            {
+                "time": 306,
+                "type": "word",
+                "start": 32,
+                "end": 35,
+                "value": "the"
+            },
+            {
+                "time": 406,
+                "type": "word",
+                "start": 36,
+                "end": 41,
+                "value": "water"
+            },
+            {
+                "time": 1024,
+                "type": "word",
+                "start": 42,
+                "end": 63,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 64,
+                "end": 67,
+                "value": "Put"
+            },
+            {
+                "time": 2564,
+                "type": "word",
+                "start": 69,
+                "end": 70,
+                "value": "4"
+            }
+        ]
+    },
+    "6": {
+        "text": "(5)\u2026\u2026\u2026.. what happens !",
+        "words": [
+            "(5)\u2026\u2026\u2026..",
+            "what",
+            "happens",
+            "!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    568.5340576171875
+                ],
+                [
+                    154.74710083007812,
+                    592.35400390625
+                ]
+            ],
+            [
+                [
+                    163.54710388183594,
+                    568.5340576171875
+                ],
+                [
+                    212.20712280273438,
+                    592.35400390625
+                ]
+            ],
+            [
+                [
+                    217.0071258544922,
+                    568.5340576171875
+                ],
+                [
+                    299.12713623046875,
+                    592.35400390625
+                ]
+            ],
+            [
+                [
+                    304.12713623046875,
+                    568.5340576171875
+                ],
+                [
+                    310.4071350097656,
+                    592.35400390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">(5)\u2026\u2026\u2026..<break time=\"500ms\"/> what happens !</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "5"
+            },
+            {
+                "time": 600,
+                "type": "word",
+                "start": 41,
+                "end": 62,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 1487,
+                "type": "word",
+                "start": 63,
+                "end": 67,
+                "value": "what"
+            },
+            {
+                "time": 1643,
+                "type": "word",
+                "start": 68,
+                "end": 75,
+                "value": "happens"
+            }
+        ]
+    },
+    "7": {
         "text": "Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)",
         "words": [
             "Coins",
@@ -329,7 +629,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -379,426 +679,6 @@
                 "start": 81,
                 "end": 85,
                 "value": "sink"
-            }
-        ]
-    },
-    "5": {
-        "text": "(5)\u2026\u2026\u2026.. what happens !",
-        "words": [
-            "(5)\u2026\u2026\u2026..",
-            "what",
-            "happens",
-            "!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    59.527099609375,
-                    568.5340576171875
-                ],
-                [
-                    154.74710083007812,
-                    592.35400390625
-                ]
-            ],
-            [
-                [
-                    163.54710388183594,
-                    568.5340576171875
-                ],
-                [
-                    212.20712280273438,
-                    592.35400390625
-                ]
-            ],
-            [
-                [
-                    217.0071258544922,
-                    568.5340576171875
-                ],
-                [
-                    299.12713623046875,
-                    592.35400390625
-                ]
-            ],
-            [
-                [
-                    304.12713623046875,
-                    568.5340576171875
-                ],
-                [
-                    310.4071350097656,
-                    592.35400390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">(5)\u2026\u2026\u2026..<break time=\"500ms\"/> what happens !</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 29,
-                "value": "5"
-            },
-            {
-                "time": 600,
-                "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1487,
-                "type": "word",
-                "start": 63,
-                "end": 67,
-                "value": "what"
-            },
-            {
-                "time": 1643,
-                "type": "word",
-                "start": 68,
-                "end": 75,
-                "value": "happens"
-            }
-        ]
-    },
-    "6": {
-        "text": "into the water. Put (4) \u2026\u2026\u2026\u2026..",
-        "words": [
-            "into",
-            "the",
-            "water.",
-            "Put",
-            "(4)",
-            "\u2026\u2026\u2026\u2026."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    365.8670959472656,
-                    493.6940002441406
-                ],
-                [
-                    401.80712890625,
-                    517.5139770507812
-                ]
-            ],
-            [
-                [
-                    406.60711669921875,
-                    493.6940002441406
-                ],
-                [
-                    438.1471252441406,
-                    517.5139770507812
-                ]
-            ],
-            [
-                [
-                    442.9471130371094,
-                    493.6940002441406
-                ],
-                [
-                    502.12713623046875,
-                    517.5139770507812
-                ]
-            ],
-            [
-                [
-                    59.527099609375,
-                    484.10101318359375
-                ],
-                [
-                    91.72709655761719,
-                    507.9210205078125
-                ]
-            ],
-            [
-                [
-                    96.527099609375,
-                    484.10101318359375
-                ],
-                [
-                    126.64710235595703,
-                    507.9210205078125
-                ]
-            ],
-            [
-                [
-                    131.6470947265625,
-                    484.10101318359375
-                ],
-                [
-                    213.4071044921875,
-                    507.9210205078125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">into the water.<break time=\"500ms\"/> Put (4) \u2026\u2026\u2026\u2026..</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "into"
-            },
-            {
-                "time": 306,
-                "type": "word",
-                "start": 32,
-                "end": 35,
-                "value": "the"
-            },
-            {
-                "time": 406,
-                "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "water"
-            },
-            {
-                "time": 1024,
-                "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1911,
-                "type": "word",
-                "start": 64,
-                "end": 67,
-                "value": "Put"
-            },
-            {
-                "time": 2564,
-                "type": "word",
-                "start": 69,
-                "end": 70,
-                "value": "4"
-            }
-        ]
-    },
-    "7": {
-        "text": "Put (3)\u2026\u2026\u2026..",
-        "words": [
-            "Put",
-            "(3)\u2026\u2026\u2026."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    59.527000427246094,
-                    381.9859924316406
-                ],
-                [
-                    91.72699737548828,
-                    405.8059997558594
-                ]
-            ],
-            [
-                [
-                    101.5270004272461,
-                    381.9859924316406
-                ],
-                [
-                    196.74700927734375,
-                    405.8059997558594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Put (3)\u2026\u2026\u2026..</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "Put"
-            },
-            {
-                "time": 666,
-                "type": "word",
-                "start": 32,
-                "end": 33,
-                "value": "3"
-            }
-        ]
-    },
-    "8": {
-        "text": "Put some (2)\u2026\u2026\u2026",
-        "words": [
-            "Put",
-            "some",
-            "(2)\u2026\u2026\u2026"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    59.527099609375,
-                    277.0270080566406
-                ],
-                [
-                    91.72709655761719,
-                    300.8470153808594
-                ]
-            ],
-            [
-                [
-                    101.527099609375,
-                    277.0270080566406
-                ],
-                [
-                    153.7270965576172,
-                    300.8470153808594
-                ]
-            ],
-            [
-                [
-                    158.7270965576172,
-                    277.0270080566406
-                ],
-                [
-                    241.3271026611328,
-                    300.8470153808594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Put some (2)\u2026\u2026\u2026</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "Put"
-            },
-            {
-                "time": 168,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "some"
-            },
-            {
-                "time": 949,
-                "type": "word",
-                "start": 37,
-                "end": 38,
-                "value": "2"
-            }
-        ]
-    },
-    "9": {
-        "text": "look leaves basin coins water",
-        "words": [
-            "look",
-            "leaves",
-            "basin",
-            "coins",
-            "water"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    449.68707275390625,
-                    194.08700561523438
-                ],
-                [
-                    487.9070739746094,
-                    217.90701293945312
-                ]
-            ],
-            [
-                [
-                    436.7470703125,
-                    222.08700561523438
-                ],
-                [
-                    495.66705322265625,
-                    245.90701293945312
-                ]
-            ],
-            [
-                [
-                    440.7670593261719,
-                    250.08700561523438
-                ],
-                [
-                    491.6670837402344,
-                    273.9070129394531
-                ]
-            ],
-            [
-                [
-                    442.1270446777344,
-                    278.0870056152344
-                ],
-                [
-                    490.32708740234375,
-                    301.9070129394531
-                ]
-            ],
-            [
-                [
-                    441.8670349121094,
-                    306.0870056152344
-                ],
-                [
-                    495.5670166015625,
-                    329.9070129394531
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">look leaves basin coins water</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "look"
-            },
-            {
-                "time": 236,
-                "type": "word",
-                "start": 32,
-                "end": 38,
-                "value": "leaves"
-            },
-            {
-                "time": 570,
-                "type": "word",
-                "start": 39,
-                "end": 44,
-                "value": "basin"
-            },
-            {
-                "time": 974,
-                "type": "word",
-                "start": 45,
-                "end": 50,
-                "value": "coins"
-            },
-            {
-                "time": 1459,
-                "type": "word",
-                "start": 51,
-                "end": 56,
-                "value": "water"
             }
         ]
     }

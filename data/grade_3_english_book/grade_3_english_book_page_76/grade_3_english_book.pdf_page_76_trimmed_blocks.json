@@ -1,22 +1,44 @@
 {
-    "1": {
-        "text": "67",
+    "0": {
+        "text": "Animal friends 5",
         "words": [
-            "67"
+            "Animal",
+            "friends",
+            "5"
         ],
         "bounding_boxes": [
             [
                 [
-                    551.5390014648438,
-                    24.34998893737793
+                    264.3349914550781,
+                    96.23602294921875
                 ],
                 [
-                    579.7990112304688,
-                    57.109989166259766
+                    401.2149963378906,
+                    143.8760223388672
+                ]
+            ],
+            [
+                [
+                    411.2149963378906,
+                    96.23602294921875
+                ],
+                [
+                    540.0950317382812,
+                    143.8760223388672
+                ]
+            ],
+            [
+                [
+                    196.31300354003906,
+                    84.32359313964844
+                ],
+                [
+                    224.82839965820312,
+                    167.51515197753906
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">67</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Animal friends 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -24,12 +46,26 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "67"
+                "end": 33,
+                "value": "Animal"
+            },
+            {
+                "time": 436,
+                "type": "word",
+                "start": 34,
+                "end": 41,
+                "value": "friends"
+            },
+            {
+                "time": 882,
+                "type": "word",
+                "start": 42,
+                "end": 43,
+                "value": "5"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +106,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -92,6 +128,73 @@
                 "start": 38,
                 "end": 41,
                 "value": "say"
+            }
+        ]
+    },
+    "2": {
+        "text": "I'm a monkey.",
+        "words": [
+            "I'm",
+            "a",
+            "monkey."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    116.996826171875,
+                    430.1481628417969
+                ],
+                [
+                    137.9198455810547,
+                    445.0514831542969
+                ]
+            ],
+            [
+                [
+                    141.08424377441406,
+                    430.1481628417969
+                ],
+                [
+                    148.78005981445312,
+                    445.0514831542969
+                ]
+            ],
+            [
+                [
+                    107.655517578125,
+                    445.16412353515625
+                ],
+                [
+                    158.76690673828125,
+                    460.06744384765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a monkey.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "I&apos;m"
+            },
+            {
+                "time": 183,
+                "type": "word",
+                "start": 36,
+                "end": 37,
+                "value": "a"
+            },
+            {
+                "time": 223,
+                "type": "word",
+                "start": 38,
+                "end": 44,
+                "value": "monkey"
             }
         ]
     },
@@ -136,8 +239,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I&apos;m an owl.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -147,14 +250,14 @@
                 "value": "I&apos;m"
             },
             {
-                "time": 253,
+                "time": 206,
                 "type": "word",
                 "start": 36,
                 "end": 38,
                 "value": "an"
             },
             {
-                "time": 386,
+                "time": 300,
                 "type": "word",
                 "start": 39,
                 "end": 42,
@@ -163,6 +266,140 @@
         ]
     },
     "4": {
+        "text": "I'm a cow.",
+        "words": [
+            "I'm",
+            "a",
+            "cow."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    249.4712677001953,
+                    393.40911865234375
+                ],
+                [
+                    270.394287109375,
+                    408.31243896484375
+                ]
+            ],
+            [
+                [
+                    273.5586853027344,
+                    393.40911865234375
+                ],
+                [
+                    281.2545166015625,
+                    408.31243896484375
+                ]
+            ],
+            [
+                [
+                    252.12936401367188,
+                    408.4250793457031
+                ],
+                [
+                    279.21661376953125,
+                    423.3283996582031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a cow.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "I&apos;m"
+            },
+            {
+                "time": 220,
+                "type": "word",
+                "start": 36,
+                "end": 37,
+                "value": "a"
+            },
+            {
+                "time": 263,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "cow"
+            }
+        ]
+    },
+    "5": {
+        "text": "I'm a bear.",
+        "words": [
+            "I'm",
+            "a",
+            "bear."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    481.5863342285156,
+                    379.60693359375
+                ],
+                [
+                    502.50933837890625,
+                    394.51025390625
+                ]
+            ],
+            [
+                [
+                    505.6737365722656,
+                    379.60693359375
+                ],
+                [
+                    513.3695678710938,
+                    394.51025390625
+                ]
+            ],
+            [
+                [
+                    482.6622314453125,
+                    394.6228942871094
+                ],
+                [
+                    512.939208984375,
+                    409.5262145996094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a bear.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "I&apos;m"
+            },
+            {
+                "time": 212,
+                "type": "word",
+                "start": 36,
+                "end": 37,
+                "value": "a"
+            },
+            {
+                "time": 255,
+                "type": "word",
+                "start": 38,
+                "end": 42,
+                "value": "bear"
+            }
+        ]
+    },
+    "6": {
         "text": "I'm a dog.",
         "words": [
             "I'm",
@@ -203,8 +440,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I&apos;m a dog.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
@@ -214,14 +451,14 @@
                 "value": "I&apos;m"
             },
             {
-                "time": 252,
+                "time": 160,
                 "type": "word",
                 "start": 36,
                 "end": 37,
                 "value": "a"
             },
             {
-                "time": 305,
+                "time": 210,
                 "type": "word",
                 "start": 38,
                 "end": 41,
@@ -229,7 +466,7 @@
             }
         ]
     },
-    "5": {
+    "7": {
         "text": "I'm a rabbit.",
         "words": [
             "I'm",
@@ -296,208 +533,7 @@
             }
         ]
     },
-    "6": {
-        "text": "I'm a cow.",
-        "words": [
-            "I'm",
-            "a",
-            "cow."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    249.4712677001953,
-                    393.40911865234375
-                ],
-                [
-                    270.394287109375,
-                    408.31243896484375
-                ]
-            ],
-            [
-                [
-                    273.5586853027344,
-                    393.40911865234375
-                ],
-                [
-                    281.2545166015625,
-                    408.31243896484375
-                ]
-            ],
-            [
-                [
-                    252.12936401367188,
-                    408.4250793457031
-                ],
-                [
-                    279.21661376953125,
-                    423.3283996582031
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a cow.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 241,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "a"
-            },
-            {
-                "time": 291,
-                "type": "word",
-                "start": 38,
-                "end": 41,
-                "value": "cow"
-            }
-        ]
-    },
-    "7": {
-        "text": "I'm a monkey.",
-        "words": [
-            "I'm",
-            "a",
-            "monkey."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    116.996826171875,
-                    430.1481628417969
-                ],
-                [
-                    137.9198455810547,
-                    445.0514831542969
-                ]
-            ],
-            [
-                [
-                    141.08424377441406,
-                    430.1481628417969
-                ],
-                [
-                    148.78005981445312,
-                    445.0514831542969
-                ]
-            ],
-            [
-                [
-                    107.655517578125,
-                    445.16412353515625
-                ],
-                [
-                    158.76690673828125,
-                    460.06744384765625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a monkey.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 230,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "a"
-            },
-            {
-                "time": 289,
-                "type": "word",
-                "start": 38,
-                "end": 44,
-                "value": "monkey"
-            }
-        ]
-    },
     "8": {
-        "text": "I'm a bear.",
-        "words": [
-            "I'm",
-            "a",
-            "bear."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    481.5863342285156,
-                    379.60693359375
-                ],
-                [
-                    502.50933837890625,
-                    394.51025390625
-                ]
-            ],
-            [
-                [
-                    505.6737365722656,
-                    379.60693359375
-                ],
-                [
-                    513.3695678710938,
-                    394.51025390625
-                ]
-            ],
-            [
-                [
-                    482.6622314453125,
-                    394.6228942871094
-                ],
-                [
-                    512.939208984375,
-                    409.5262145996094
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a bear.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 263,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "a"
-            },
-            {
-                "time": 312,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "bear"
-            }
-        ]
-    },
-    "9": {
         "text": "I'm a cat. Meet my friends.",
         "words": [
             "I'm",
@@ -571,8 +607,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I&apos;m a cat.<break time=\"500ms\"/> Meet my friends.</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
@@ -582,112 +618,46 @@
                 "value": "I&apos;m"
             },
             {
-                "time": 271,
+                "time": 241,
                 "type": "word",
                 "start": 36,
                 "end": 37,
                 "value": "a"
             },
             {
-                "time": 318,
+                "time": 292,
                 "type": "word",
                 "start": 38,
                 "end": 41,
                 "value": "cat"
             },
             {
-                "time": 884,
+                "time": 847,
                 "type": "word",
                 "start": 42,
                 "end": 63,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 1771,
+                "time": 1733,
                 "type": "word",
                 "start": 64,
                 "end": 68,
                 "value": "Meet"
             },
             {
-                "time": 2074,
+                "time": 1988,
                 "type": "word",
                 "start": 69,
                 "end": 71,
                 "value": "my"
             },
             {
-                "time": 2266,
+                "time": 2176,
                 "type": "word",
                 "start": 72,
                 "end": 79,
                 "value": "friends"
-            }
-        ]
-    },
-    "10": {
-        "text": "Animal friends 5",
-        "words": [
-            "Animal",
-            "friends",
-            "5"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    264.3349914550781,
-                    96.23602294921875
-                ],
-                [
-                    401.2149963378906,
-                    143.8760223388672
-                ]
-            ],
-            [
-                [
-                    411.2149963378906,
-                    96.23602294921875
-                ],
-                [
-                    540.0950317382812,
-                    143.8760223388672
-                ]
-            ],
-            [
-                [
-                    196.31300354003906,
-                    84.32359313964844
-                ],
-                [
-                    224.82839965820312,
-                    167.51515197753906
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Animal friends 5</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Animal"
-            },
-            {
-                "time": 436,
-                "type": "word",
-                "start": 34,
-                "end": 41,
-                "value": "friends"
-            },
-            {
-                "time": 882,
-                "type": "word",
-                "start": 42,
-                "end": 43,
-                "value": "5"
             }
         ]
     }

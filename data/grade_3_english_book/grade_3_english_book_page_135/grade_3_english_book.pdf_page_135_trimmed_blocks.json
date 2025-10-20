@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "126",
         "words": [
             "126"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and repeat.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "I take care of you. Do you take care of me?",
         "words": [
             "I",
@@ -224,8 +224,8 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">I take care of you.<break time=\"500ms\"/> Do you take care of me?</prosody></speak>",
         "dialog": "true",
-        "person_type": "narrator",
-        "voice_id": "Salli",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
@@ -235,77 +235,77 @@
                 "value": "I"
             },
             {
-                "time": 143,
+                "time": 163,
                 "type": "word",
                 "start": 29,
                 "end": 33,
                 "value": "take"
             },
             {
-                "time": 480,
+                "time": 456,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "care"
             },
             {
-                "time": 722,
+                "time": 821,
                 "type": "word",
                 "start": 39,
                 "end": 41,
                 "value": "of"
             },
             {
-                "time": 847,
+                "time": 929,
                 "type": "word",
                 "start": 42,
                 "end": 45,
                 "value": "you"
             },
             {
-                "time": 1202,
+                "time": 1218,
                 "type": "word",
                 "start": 46,
                 "end": 67,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2089,
+                "time": 2105,
                 "type": "word",
                 "start": 68,
                 "end": 70,
                 "value": "Do"
             },
             {
-                "time": 2194,
+                "time": 2299,
                 "type": "word",
                 "start": 71,
                 "end": 74,
                 "value": "you"
             },
             {
-                "time": 2394,
+                "time": 2492,
                 "type": "word",
                 "start": 75,
                 "end": 79,
                 "value": "take"
             },
             {
-                "time": 2707,
+                "time": 2786,
                 "type": "word",
                 "start": 80,
                 "end": 84,
                 "value": "care"
             },
             {
-                "time": 2949,
+                "time": 3143,
                 "type": "word",
                 "start": 85,
                 "end": 87,
                 "value": "of"
             },
             {
-                "time": 3067,
+                "time": 3288,
                 "type": "word",
                 "start": 88,
                 "end": 90,
@@ -313,7 +313,7 @@
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "Save water, plant a tree, make a better home, for you and me!",
         "words": [
             "Save",
@@ -464,7 +464,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Save water,<break time=\"300ms\"/> plant a tree,<break time=\"300ms\"/> make a better home,<break time=\"300ms\"/> for you and me!</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

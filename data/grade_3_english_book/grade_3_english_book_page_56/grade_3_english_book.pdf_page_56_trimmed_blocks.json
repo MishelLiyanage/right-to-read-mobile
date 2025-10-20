@@ -1,5 +1,5 @@
 {
-    "2": {
+    "0": {
         "text": "Role play.",
         "words": [
             "Role",
@@ -29,7 +29,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Role play.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -47,7 +47,7 @@
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "At the book shop",
         "words": [
             "At",
@@ -99,7 +99,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">At the book shop</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -131,8 +131,8 @@
             }
         ]
     },
-    "4": {
-        "text": "Senuri : How much is a pen? Shop keeper : Ten rupees. Senuri : Give me a pen, please. I want an exercise book too. Shop keeper : It is 20 rupees. Senuri : Here's the money. Shop keeper : Thank you. Come again.",
+    "2": {
+        "text": "Senuri : How much is a pen?",
         "words": [
             "Senuri",
             ":",
@@ -140,44 +140,7 @@
             "much",
             "is",
             "a",
-            "pen?",
-            "Shop",
-            "keeper",
-            ":",
-            "Ten",
-            "rupees.",
-            "Senuri",
-            ":",
-            "Give",
-            "me",
-            "a",
-            "pen,",
-            "please.",
-            "I",
-            "want",
-            "an",
-            "exercise",
-            "book",
-            "too.",
-            "Shop",
-            "keeper",
-            ":",
-            "It",
-            "is",
-            "20",
-            "rupees.",
-            "Senuri",
-            ":",
-            "Here's",
-            "the",
-            "money.",
-            "Shop",
-            "keeper",
-            ":",
-            "Thank",
-            "you.",
-            "Come",
-            "again."
+            "pen?"
         ],
         "bounding_boxes": [
             [
@@ -249,7 +212,67 @@
                     409.19842529296875,
                     524.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Senuri : How much is a pen?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Senuri"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 36,
+                "end": 39,
+                "value": "How"
+            },
+            {
+                "time": 1053,
+                "type": "word",
+                "start": 40,
+                "end": 44,
+                "value": "much"
+            },
+            {
+                "time": 1444,
+                "type": "word",
+                "start": 45,
+                "end": 47,
+                "value": "is"
+            },
+            {
+                "time": 1583,
+                "type": "word",
+                "start": 48,
+                "end": 49,
+                "value": "a"
+            },
+            {
+                "time": 1627,
+                "type": "word",
+                "start": 50,
+                "end": 53,
+                "value": "pen"
+            }
+        ]
+    },
+    "3": {
+        "text": "Shop keeper : Ten rupees.",
+        "words": [
+            "Shop",
+            "keeper",
+            ":",
+            "Ten",
+            "rupees."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.59840393066406,
@@ -299,7 +322,55 @@
                     324.7384033203125,
                     554.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Shop keeper : Ten rupees.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Shop"
+            },
+            {
+                "time": 333,
+                "type": "word",
+                "start": 32,
+                "end": 38,
+                "value": "keeper"
+            },
+            {
+                "time": 1173,
+                "type": "word",
+                "start": 41,
+                "end": 44,
+                "value": "Ten"
+            },
+            {
+                "time": 1412,
+                "type": "word",
+                "start": 45,
+                "end": 51,
+                "value": "rupees"
+            }
+        ]
+    },
+    "4": {
+        "text": "Senuri : Give me a pen, please.",
+        "words": [
+            "Senuri",
+            ":",
+            "Give",
+            "me",
+            "a",
+            "pen,",
+            "please."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.59840393066406,
@@ -369,7 +440,75 @@
                     431.638427734375,
                     584.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Senuri : Give me a pen,<break time=\"300ms\"/> please.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Senuri"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "Give"
+            },
+            {
+                "time": 1145,
+                "type": "word",
+                "start": 41,
+                "end": 43,
+                "value": "me"
+            },
+            {
+                "time": 1358,
+                "type": "word",
+                "start": 44,
+                "end": 45,
+                "value": "a"
+            },
+            {
+                "time": 1426,
+                "type": "word",
+                "start": 46,
+                "end": 49,
+                "value": "pen"
+            },
+            {
+                "time": 2010,
+                "type": "word",
+                "start": 50,
+                "end": 71,
+                "value": "<break time=\"300ms\"/>"
+            },
+            {
+                "time": 2403,
+                "type": "word",
+                "start": 72,
+                "end": 78,
+                "value": "please"
+            }
+        ]
+    },
+    "5": {
+        "text": "I want an exercise book too.",
+        "words": [
+            "I",
+            "want",
+            "an",
+            "exercise",
+            "book",
+            "too."
+        ],
+        "bounding_boxes": [
             [
                 [
                     222.59840393066406,
@@ -429,7 +568,69 @@
                     483.4984436035156,
                     614.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">I want an exercise book too.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "I"
+            },
+            {
+                "time": 173,
+                "type": "word",
+                "start": 29,
+                "end": 33,
+                "value": "want"
+            },
+            {
+                "time": 477,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "an"
+            },
+            {
+                "time": 648,
+                "type": "word",
+                "start": 37,
+                "end": 45,
+                "value": "exercise"
+            },
+            {
+                "time": 1430,
+                "type": "word",
+                "start": 46,
+                "end": 50,
+                "value": "book"
+            },
+            {
+                "time": 1668,
+                "type": "word",
+                "start": 51,
+                "end": 54,
+                "value": "too"
+            }
+        ]
+    },
+    "6": {
+        "text": "Shop keeper : It is 20 rupees.",
+        "words": [
+            "Shop",
+            "keeper",
+            ":",
+            "It",
+            "is",
+            "20",
+            "rupees."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.59840393066406,
@@ -499,7 +700,67 @@
                     354.5584411621094,
                     644.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Shop keeper : It is 20 rupees.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Shop"
+            },
+            {
+                "time": 333,
+                "type": "word",
+                "start": 32,
+                "end": 38,
+                "value": "keeper"
+            },
+            {
+                "time": 1173,
+                "type": "word",
+                "start": 41,
+                "end": 43,
+                "value": "It"
+            },
+            {
+                "time": 1303,
+                "type": "word",
+                "start": 44,
+                "end": 46,
+                "value": "is"
+            },
+            {
+                "time": 1509,
+                "type": "word",
+                "start": 47,
+                "end": 49,
+                "value": "20"
+            },
+            {
+                "time": 1902,
+                "type": "word",
+                "start": 50,
+                "end": 56,
+                "value": "rupees"
+            }
+        ]
+    },
+    "7": {
+        "text": "Senuri : Here's the money.",
+        "words": [
+            "Senuri",
+            ":",
+            "Here's",
+            "the",
+            "money."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.59840393066406,
@@ -549,7 +810,55 @@
                     386.3384094238281,
                     674.1749877929688
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Senuri : Here&apos;s the money.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 33,
+                "value": "Senuri"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 36,
+                "end": 47,
+                "value": "Here&apos;s"
+            },
+            {
+                "time": 1276,
+                "type": "word",
+                "start": 48,
+                "end": 51,
+                "value": "the"
+            },
+            {
+                "time": 1380,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "money"
+            }
+        ]
+    },
+    "8": {
+        "text": "Shop keeper : Thank you. Come again.",
+        "words": [
+            "Shop",
+            "keeper",
+            ":",
+            "Thank",
+            "you.",
+            "Come",
+            "again."
+        ],
+        "bounding_boxes": [
             [
                 [
                     59.59840393066406,
@@ -621,324 +930,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri : How much is a pen? Shop keeper : Ten rupees.<break time=\"500ms\"/> Senuri : Give me a pen,<break time=\"300ms\"/> please.<break time=\"500ms\"/> I want an exercise book too.<break time=\"500ms\"/> Shop keeper : It is 20 rupees.<break time=\"500ms\"/> Senuri : Here&apos;s the money.<break time=\"500ms\"/> Shop keeper : Thank you.<break time=\"500ms\"/> Come again.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Shop keeper : Thank you.<break time=\"500ms\"/> Come again.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 33,
-                "value": "Senuri"
-            },
-            {
-                "time": 892,
-                "type": "word",
-                "start": 36,
-                "end": 39,
-                "value": "How"
-            },
-            {
-                "time": 1053,
-                "type": "word",
-                "start": 40,
-                "end": 44,
-                "value": "much"
-            },
-            {
-                "time": 1444,
-                "type": "word",
-                "start": 45,
-                "end": 47,
-                "value": "is"
-            },
-            {
-                "time": 1583,
-                "type": "word",
-                "start": 48,
-                "end": 49,
-                "value": "a"
-            },
-            {
-                "time": 1627,
-                "type": "word",
-                "start": 50,
-                "end": 53,
-                "value": "pen"
-            },
-            {
-                "time": 2510,
-                "type": "word",
-                "start": 55,
-                "end": 59,
+                "end": 31,
                 "value": "Shop"
             },
             {
-                "time": 2876,
+                "time": 333,
                 "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 32,
+                "end": 38,
                 "value": "keeper"
             },
             {
-                "time": 3641,
+                "time": 1180,
                 "type": "word",
-                "start": 69,
-                "end": 72,
-                "value": "Ten"
-            },
-            {
-                "time": 3868,
-                "type": "word",
-                "start": 73,
-                "end": 79,
-                "value": "rupees"
-            },
-            {
-                "time": 4548,
-                "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5435,
-                "type": "word",
-                "start": 102,
-                "end": 108,
-                "value": "Senuri"
-            },
-            {
-                "time": 6321,
-                "type": "word",
-                "start": 111,
-                "end": 115,
-                "value": "Give"
-            },
-            {
-                "time": 6574,
-                "type": "word",
-                "start": 116,
-                "end": 118,
-                "value": "me"
-            },
-            {
-                "time": 6787,
-                "type": "word",
-                "start": 119,
-                "end": 120,
-                "value": "a"
-            },
-            {
-                "time": 6855,
-                "type": "word",
-                "start": 121,
-                "end": 124,
-                "value": "pen"
-            },
-            {
-                "time": 7439,
-                "type": "word",
-                "start": 125,
-                "end": 146,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 7832,
-                "type": "word",
-                "start": 147,
-                "end": 153,
-                "value": "please"
-            },
-            {
-                "time": 8536,
-                "type": "word",
-                "start": 154,
-                "end": 175,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9422,
-                "type": "word",
-                "start": 176,
-                "end": 177,
-                "value": "I"
-            },
-            {
-                "time": 9590,
-                "type": "word",
-                "start": 178,
-                "end": 182,
-                "value": "want"
-            },
-            {
-                "time": 9893,
-                "type": "word",
-                "start": 183,
-                "end": 185,
-                "value": "an"
-            },
-            {
-                "time": 10064,
-                "type": "word",
-                "start": 186,
-                "end": 194,
-                "value": "exercise"
-            },
-            {
-                "time": 10846,
-                "type": "word",
-                "start": 195,
-                "end": 199,
-                "value": "book"
-            },
-            {
-                "time": 11084,
-                "type": "word",
-                "start": 200,
-                "end": 203,
-                "value": "too"
-            },
-            {
-                "time": 11519,
-                "type": "word",
-                "start": 204,
-                "end": 225,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12406,
-                "type": "word",
-                "start": 226,
-                "end": 230,
-                "value": "Shop"
-            },
-            {
-                "time": 12771,
-                "type": "word",
-                "start": 231,
-                "end": 237,
-                "value": "keeper"
-            },
-            {
-                "time": 13543,
-                "type": "word",
-                "start": 240,
-                "end": 242,
-                "value": "It"
-            },
-            {
-                "time": 13690,
-                "type": "word",
-                "start": 243,
-                "end": 245,
-                "value": "is"
-            },
-            {
-                "time": 13918,
-                "type": "word",
-                "start": 246,
-                "end": 248,
-                "value": "20"
-            },
-            {
-                "time": 14308,
-                "type": "word",
-                "start": 249,
-                "end": 255,
-                "value": "rupees"
-            },
-            {
-                "time": 14959,
-                "type": "word",
-                "start": 256,
-                "end": 277,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 15846,
-                "type": "word",
-                "start": 278,
-                "end": 284,
-                "value": "Senuri"
-            },
-            {
-                "time": 16732,
-                "type": "word",
-                "start": 287,
-                "end": 298,
-                "value": "Here&apos;s"
-            },
-            {
-                "time": 17116,
-                "type": "word",
-                "start": 299,
-                "end": 302,
-                "value": "the"
-            },
-            {
-                "time": 17219,
-                "type": "word",
-                "start": 303,
-                "end": 308,
-                "value": "money"
-            },
-            {
-                "time": 17663,
-                "type": "word",
-                "start": 309,
-                "end": 330,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18550,
-                "type": "word",
-                "start": 331,
-                "end": 335,
-                "value": "Shop"
-            },
-            {
-                "time": 18915,
-                "type": "word",
-                "start": 336,
-                "end": 342,
-                "value": "keeper"
-            },
-            {
-                "time": 19680,
-                "type": "word",
-                "start": 345,
-                "end": 350,
+                "start": 41,
+                "end": 46,
                 "value": "Thank"
             },
             {
-                "time": 20040,
+                "time": 1612,
                 "type": "word",
-                "start": 351,
-                "end": 354,
+                "start": 47,
+                "end": 50,
                 "value": "you"
             },
             {
-                "time": 20419,
+                "time": 1876,
                 "type": "word",
-                "start": 355,
-                "end": 376,
+                "start": 51,
+                "end": 72,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 21306,
+                "time": 2763,
                 "type": "word",
-                "start": 377,
-                "end": 381,
+                "start": 73,
+                "end": 77,
                 "value": "Come"
             },
             {
-                "time": 21550,
+                "time": 3043,
                 "type": "word",
-                "start": 382,
-                "end": 387,
+                "start": 78,
+                "end": 83,
                 "value": "again"
             }
         ]

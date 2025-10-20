@@ -1,8 +1,7 @@
 {
-    "1": {
-        "text": "69 Listen to the poem and recite.",
+    "0": {
+        "text": "Listen to the poem and recite.",
         "words": [
-            "69",
             "Listen",
             "to",
             "the",
@@ -11,16 +10,6 @@
             "recite."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.5280151367188,
-                    24.34998893737793
-                ],
-                [
-                    580.8280029296875,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     60.108699798583984,
@@ -82,62 +71,55 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">69 Listen to the poem and recite.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen to the poem and recite.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "69"
-            },
-            {
-                "time": 790,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1129,
+                "time": 380,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 34,
+                "end": 36,
                 "value": "to"
             },
             {
-                "time": 1253,
+                "time": 529,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             },
             {
-                "time": 1374,
+                "time": 634,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 41,
+                "end": 45,
                 "value": "poem"
             },
             {
-                "time": 1813,
+                "time": 1089,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 46,
+                "end": 49,
                 "value": "and"
             },
             {
-                "time": 1973,
+                "time": 1254,
                 "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 50,
+                "end": 56,
                 "value": "recite"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "There was a wise old owl by Leanne Guenther",
         "words": [
             "There",
@@ -244,7 +226,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">There was a wise old owl by Leanne Guenther</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -311,7 +293,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "There was a wise, old owl, who lived up in a tree.",
         "words": [
             "There",
@@ -451,7 +433,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">There was a wise,<break time=\"300ms\"/> old owl,<break time=\"300ms\"/> who lived up in a tree.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -553,7 +535,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "He sat upon a branch, so all the world he'd see.",
         "words": [
             "He",
@@ -682,7 +664,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">He sat upon a branch,<break time=\"300ms\"/> so all the world he&apos;d see.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -770,7 +752,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "He looked at a snake, he looked at a bee.",
         "words": [
             "He",
@@ -888,7 +870,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">He looked at a snake,<break time=\"300ms\"/> he looked at a bee.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -969,7 +951,7 @@
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "He looked at a mouse, but he winked at me!",
         "words": [
             "He",
@@ -1087,7 +1069,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">He looked at a mouse,<break time=\"300ms\"/> but he winked at me!</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

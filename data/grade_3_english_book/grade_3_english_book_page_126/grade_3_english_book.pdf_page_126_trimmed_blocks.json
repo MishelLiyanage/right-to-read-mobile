@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "Recite.",
         "words": [
             "Recite."
@@ -18,7 +18,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Recite.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -29,11 +29,57 @@
             }
         ]
     },
-    "2": {
-        "text": "The Sun The sun is in the sky. The sun is in the sky. The sun is bright. It gives us light. The sun is in the sky.",
+    "1": {
+        "text": "The Sun",
         "words": [
             "The",
-            "Sun",
+            "Sun"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    90.4375,
+                    119.08999633789062
+                ],
+                [
+                    124.77749633789062,
+                    142.91000366210938
+                ]
+            ],
+            [
+                [
+                    129.37750244140625,
+                    119.08999633789062
+                ],
+                [
+                    165.25750732421875,
+                    142.91000366210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">The Sun</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "The"
+            },
+            {
+                "time": 96,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "Sun"
+            }
+        ]
+    },
+    "2": {
+        "text": "The sun is in the sky. The sun is in the sky. The sun is bright. It gives us light. The sun is in the sky.",
+        "words": [
             "The",
             "sun",
             "is",
@@ -62,26 +108,6 @@
             "sky."
         ],
         "bounding_boxes": [
-            [
-                [
-                    90.4375,
-                    119.08999633789062
-                ],
-                [
-                    124.77749633789062,
-                    142.91000366210938
-                ]
-            ],
-            [
-                [
-                    129.37750244140625,
-                    119.08999633789062
-                ],
-                [
-                    165.25750732421875,
-                    142.91000366210938
-                ]
-            ],
             [
                 [
                     90.4375,
@@ -343,9 +369,9 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The Sun The sun is in the sky.<break time=\"500ms\"/> The sun is in the sky.<break time=\"500ms\"/> The sun is bright.<break time=\"500ms\"/> It gives us light.<break time=\"500ms\"/> The sun is in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">The sun is in the sky.<break time=\"500ms\"/> The sun is in the sky.<break time=\"500ms\"/> The sun is bright.<break time=\"500ms\"/> It gives us light.<break time=\"500ms\"/> The sun is in the sky.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -355,220 +381,206 @@
                 "value": "The"
             },
             {
-                "time": 128,
+                "time": 122,
                 "type": "word",
                 "start": 31,
                 "end": 34,
-                "value": "Sun"
+                "value": "sun"
             },
             {
-                "time": 424,
+                "time": 447,
                 "type": "word",
                 "start": 35,
-                "end": 38,
-                "value": "The"
-            },
-            {
-                "time": 508,
-                "type": "word",
-                "start": 39,
-                "end": 42,
-                "value": "sun"
-            },
-            {
-                "time": 859,
-                "type": "word",
-                "start": 43,
-                "end": 45,
+                "end": 37,
                 "value": "is"
             },
             {
-                "time": 1037,
+                "time": 630,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 38,
+                "end": 40,
                 "value": "in"
             },
             {
-                "time": 1155,
+                "time": 750,
+                "type": "word",
+                "start": 41,
+                "end": 44,
+                "value": "the"
+            },
+            {
+                "time": 855,
+                "type": "word",
+                "start": 45,
+                "end": 48,
+                "value": "sky"
+            },
+            {
+                "time": 1473,
                 "type": "word",
                 "start": 49,
-                "end": 52,
-                "value": "the"
-            },
-            {
-                "time": 1238,
-                "type": "word",
-                "start": 53,
-                "end": 56,
-                "value": "sky"
-            },
-            {
-                "time": 1857,
-                "type": "word",
-                "start": 57,
-                "end": 78,
+                "end": 70,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 2743,
+                "time": 2359,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 71,
+                "end": 74,
                 "value": "The"
             },
             {
-                "time": 2859,
+                "time": 2475,
                 "type": "word",
-                "start": 83,
-                "end": 86,
+                "start": 75,
+                "end": 78,
                 "value": "sun"
             },
             {
-                "time": 3184,
+                "time": 2800,
                 "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 79,
+                "end": 81,
                 "value": "is"
             },
             {
-                "time": 3367,
+                "time": 2983,
                 "type": "word",
-                "start": 90,
-                "end": 92,
+                "start": 82,
+                "end": 84,
                 "value": "in"
             },
             {
-                "time": 3487,
+                "time": 3103,
                 "type": "word",
-                "start": 93,
-                "end": 96,
+                "start": 85,
+                "end": 88,
                 "value": "the"
             },
             {
-                "time": 3592,
+                "time": 3208,
                 "type": "word",
-                "start": 97,
-                "end": 100,
+                "start": 89,
+                "end": 92,
                 "value": "sky"
             },
             {
-                "time": 4210,
+                "time": 3826,
                 "type": "word",
-                "start": 101,
-                "end": 122,
+                "start": 93,
+                "end": 114,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 5096,
+                "time": 4712,
                 "type": "word",
-                "start": 123,
-                "end": 126,
+                "start": 115,
+                "end": 118,
                 "value": "The"
             },
             {
-                "time": 5186,
+                "time": 4802,
                 "type": "word",
-                "start": 127,
-                "end": 130,
+                "start": 119,
+                "end": 122,
                 "value": "sun"
             },
             {
-                "time": 5527,
+                "time": 5143,
                 "type": "word",
-                "start": 131,
-                "end": 133,
+                "start": 123,
+                "end": 125,
                 "value": "is"
             },
             {
-                "time": 5710,
+                "time": 5326,
                 "type": "word",
-                "start": 134,
-                "end": 140,
+                "start": 126,
+                "end": 132,
                 "value": "bright"
             },
             {
-                "time": 6279,
+                "time": 5895,
                 "type": "word",
-                "start": 141,
-                "end": 162,
+                "start": 133,
+                "end": 154,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 7165,
+                "time": 6781,
                 "type": "word",
-                "start": 163,
-                "end": 165,
+                "start": 155,
+                "end": 157,
                 "value": "It"
             },
             {
-                "time": 7337,
+                "time": 6953,
                 "type": "word",
-                "start": 166,
-                "end": 171,
+                "start": 158,
+                "end": 163,
                 "value": "gives"
             },
             {
-                "time": 7600,
+                "time": 7216,
                 "type": "word",
-                "start": 172,
-                "end": 174,
+                "start": 164,
+                "end": 166,
                 "value": "us"
             },
             {
-                "time": 7802,
+                "time": 7418,
                 "type": "word",
-                "start": 175,
-                "end": 180,
+                "start": 167,
+                "end": 172,
                 "value": "light"
             },
             {
-                "time": 8318,
+                "time": 7934,
                 "type": "word",
-                "start": 181,
-                "end": 202,
+                "start": 173,
+                "end": 194,
                 "value": "<break time=\"500ms\"/>"
             },
             {
-                "time": 9205,
+                "time": 8821,
                 "type": "word",
-                "start": 203,
-                "end": 206,
+                "start": 195,
+                "end": 198,
                 "value": "The"
             },
             {
-                "time": 9321,
+                "time": 8937,
                 "type": "word",
-                "start": 207,
-                "end": 210,
+                "start": 199,
+                "end": 202,
                 "value": "sun"
             },
             {
-                "time": 9646,
+                "time": 9262,
                 "type": "word",
-                "start": 211,
-                "end": 213,
+                "start": 203,
+                "end": 205,
                 "value": "is"
             },
             {
-                "time": 9828,
+                "time": 9444,
                 "type": "word",
-                "start": 214,
-                "end": 216,
+                "start": 206,
+                "end": 208,
                 "value": "in"
             },
             {
-                "time": 9949,
+                "time": 9565,
                 "type": "word",
-                "start": 217,
-                "end": 220,
+                "start": 209,
+                "end": 212,
                 "value": "the"
             },
             {
-                "time": 10053,
+                "time": 9669,
                 "type": "word",
-                "start": 221,
-                "end": 224,
+                "start": 213,
+                "end": 216,
                 "value": "sky"
             }
         ]

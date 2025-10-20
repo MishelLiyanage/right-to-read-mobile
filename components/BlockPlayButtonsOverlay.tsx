@@ -48,14 +48,34 @@ export default function BlockPlayButtonsOverlay({
 
     console.log('[BlockPlayButtons] Rendering buttons for blocks:', {
       totalBlocks: blocks.length,
-      blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length
+      blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length,
+      blockIds: blocks.map(b => b.id),
+      blockTexts: blocks.map(b => b.text.substring(0, 20) + '...')
     });
 
     return blocks.map((block) => {
-      // Skip blocks without bounding boxes
+      // Handle blocks without bounding boxes by providing a default position
       if (!block.bounding_boxes || !block.bounding_boxes.length) {
-        console.warn(`[BlockPlayButtons] Block ${block.id} has no bounding boxes`);
-        return null;
+        console.warn(`[BlockPlayButtons] Block ${block.id} has no bounding boxes - using default position`);
+        
+        // Position the button at a default location (top-right corner)
+        const defaultPosition = {
+          left: renderedImageSize.width - 50, // 50px from right edge
+          top: 50 + (block.id * 40), // Stack buttons vertically
+          width: 35,
+          height: 35,
+        };
+        
+        return (
+          <BlockPlayButton
+            key={`block-play-${block.id}`}
+            blockId={block.id}
+            blockText={block.text}
+            position={defaultPosition}
+            isPlaying={currentlyPlayingBlockId === block.id}
+            onPlay={onBlockPlay}
+          />
+        );
       }
 
       // Calculate overall block bounds from original coordinates

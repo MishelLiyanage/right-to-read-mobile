@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "53 Let's make a salad.",
+    "0": {
+        "text": "Let's make a salad.",
         "words": [
-            "53",
             "Let's",
             "make",
             "a",
             "salad."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.27197265625,
-                    24.34998893737793
-                ],
-                [
-                    581.0819702148438,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     215.5659942626953,
@@ -60,48 +49,438 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">53 Let&apos;s make a salad.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a salad.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "53"
-            },
-            {
-                "time": 767,
-                "type": "word",
-                "start": 30,
-                "end": 40,
+                "end": 37,
                 "value": "Let&apos;s"
             },
             {
-                "time": 1192,
+                "time": 264,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 38,
+                "end": 42,
                 "value": "make"
             },
             {
-                "time": 1450,
+                "time": 519,
                 "type": "word",
-                "start": 46,
-                "end": 47,
+                "start": 43,
+                "end": 44,
                 "value": "a"
             },
             {
-                "time": 1510,
+                "time": 576,
                 "type": "word",
-                "start": 48,
-                "end": 53,
+                "start": 45,
+                "end": 50,
                 "value": "salad"
             }
         ]
     },
+    "1": {
+        "text": "You need\u2026",
+        "words": [
+            "You",
+            "need\u2026"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    191.57400512695312,
+                    84.62197875976562
+                ],
+                [
+                    222.08399963378906,
+                    106.05998229980469
+                ]
+            ],
+            [
+                [
+                    226.58399963378906,
+                    84.62197875976562
+                ],
+                [
+                    284.8500061035156,
+                    106.05998229980469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">You need\u2026</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 30,
+                "value": "You"
+            },
+            {
+                "time": 130,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "need"
+            }
+        ]
+    },
     "2": {
+        "text": "some fruits",
+        "words": [
+            "some",
+            "fruits"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    205.07400512695312,
+                    127.82199096679688
+                ],
+                [
+                    252.0540008544922,
+                    149.25999450683594
+                ]
+            ],
+            [
+                [
+                    256.55401611328125,
+                    127.82199096679688
+                ],
+                [
+                    300.2400207519531,
+                    149.25999450683594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">some fruits</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "some"
+            },
+            {
+                "time": 266,
+                "type": "word",
+                "start": 32,
+                "end": 38,
+                "value": "fruits"
+            }
+        ]
+    },
+    "3": {
+        "text": "a chopping board",
+        "words": [
+            "a",
+            "chopping",
+            "board"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    368.3699951171875,
+                    105.62802124023438
+                ],
+                [
+                    379.3139953613281,
+                    127.06602478027344
+                ]
+            ],
+            [
+                [
+                    383.8139953613281,
+                    105.62802124023438
+                ],
+                [
+                    463.1759948730469,
+                    127.06602478027344
+                ]
+            ],
+            [
+                [
+                    372.8699951171875,
+                    127.22799682617188
+                ],
+                [
+                    421.5060119628906,
+                    148.66600036621094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a chopping board</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 75,
+                "type": "word",
+                "start": 29,
+                "end": 37,
+                "value": "chopping"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "board"
+            }
+        ]
+    },
+    "4": {
+        "text": "a salad plate",
+        "words": [
+            "a",
+            "salad",
+            "plate"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    224.24403381347656,
+                    242.33798217773438
+                ],
+                [
+                    235.1880340576172,
+                    263.7760009765625
+                ]
+            ],
+            [
+                [
+                    239.6880340576172,
+                    242.33798217773438
+                ],
+                [
+                    285.1200256347656,
+                    263.7760009765625
+                ]
+            ],
+            [
+                [
+                    289.6200256347656,
+                    242.33798217773438
+                ],
+                [
+                    332.6040344238281,
+                    263.7760009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a salad plate</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 92,
+                "type": "word",
+                "start": 29,
+                "end": 34,
+                "value": "salad"
+            },
+            {
+                "time": 628,
+                "type": "word",
+                "start": 35,
+                "end": 40,
+                "value": "plate"
+            }
+        ]
+    },
+    "5": {
+        "text": "a knife",
+        "words": [
+            "a",
+            "knife"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    423.09002685546875,
+                    242.42800903320312
+                ],
+                [
+                    434.0340270996094,
+                    263.86602783203125
+                ]
+            ],
+            [
+                [
+                    438.5340270996094,
+                    242.42800903320312
+                ],
+                [
+                    480.9060363769531,
+                    263.86602783203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">a knife</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "a"
+            },
+            {
+                "time": 67,
+                "type": "word",
+                "start": 29,
+                "end": 34,
+                "value": "knife"
+            }
+        ]
+    },
+    "6": {
+        "text": "Steps:",
+        "words": [
+            "Steps:"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    68.16960144042969,
+                    338.2829895019531
+                ],
+                [
+                    124.72959899902344,
+                    362.1029968261719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Steps:</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "Steps"
+            }
+        ]
+    },
+    "7": {
+        "text": "1. Wash the fruits.",
+        "words": [
+            "1.",
+            "Wash",
+            "the",
+            "fruits."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    68.16960144042969,
+                    382.8509826660156
+                ],
+                [
+                    81.47160339355469,
+                    404.28900146484375
+                ]
+            ],
+            [
+                [
+                    84.53160095214844,
+                    382.8509826660156
+                ],
+                [
+                    132.2855987548828,
+                    404.28900146484375
+                ]
+            ],
+            [
+                [
+                    68.16960144042969,
+                    404.45098876953125
+                ],
+                [
+                    96.55561065673828,
+                    425.8890075683594
+                ]
+            ],
+            [
+                [
+                    101.05561065673828,
+                    404.45098876953125
+                ],
+                [
+                    150.39361572265625,
+                    425.8890075683594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">1.<break time=\"500ms\"/> Wash the fruits.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "1"
+            },
+            {
+                "time": 573,
+                "type": "word",
+                "start": 29,
+                "end": 50,
+                "value": "<break time=\"500ms\"/>"
+            },
+            {
+                "time": 1460,
+                "type": "word",
+                "start": 51,
+                "end": 55,
+                "value": "Wash"
+            },
+            {
+                "time": 1810,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "the"
+            },
+            {
+                "time": 1938,
+                "type": "word",
+                "start": 60,
+                "end": 66,
+                "value": "fruits"
+            }
+        ]
+    },
+    "8": {
         "text": "2. Peel and cut the fruits.",
         "words": [
             "2.",
@@ -175,7 +554,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">2.<break time=\"500ms\"/> Peel and cut the fruits.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -228,7 +607,7 @@
             }
         ]
     },
-    "3": {
+    "9": {
         "text": "3. Arrange the fruits.",
         "words": [
             "3.",
@@ -280,7 +659,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">3.<break time=\"500ms\"/> Arrange the fruits.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -316,391 +695,6 @@
                 "start": 63,
                 "end": 69,
                 "value": "fruits"
-            }
-        ]
-    },
-    "4": {
-        "text": "1. Wash the fruits.",
-        "words": [
-            "1.",
-            "Wash",
-            "the",
-            "fruits."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    68.16960144042969,
-                    382.8509826660156
-                ],
-                [
-                    81.47160339355469,
-                    404.28900146484375
-                ]
-            ],
-            [
-                [
-                    84.53160095214844,
-                    382.8509826660156
-                ],
-                [
-                    132.2855987548828,
-                    404.28900146484375
-                ]
-            ],
-            [
-                [
-                    68.16960144042969,
-                    404.45098876953125
-                ],
-                [
-                    96.55561065673828,
-                    425.8890075683594
-                ]
-            ],
-            [
-                [
-                    101.05561065673828,
-                    404.45098876953125
-                ],
-                [
-                    150.39361572265625,
-                    425.8890075683594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">1.<break time=\"500ms\"/> Wash the fruits.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "1"
-            },
-            {
-                "time": 573,
-                "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1460,
-                "type": "word",
-                "start": 51,
-                "end": 55,
-                "value": "Wash"
-            },
-            {
-                "time": 1810,
-                "type": "word",
-                "start": 56,
-                "end": 59,
-                "value": "the"
-            },
-            {
-                "time": 1938,
-                "type": "word",
-                "start": 60,
-                "end": 66,
-                "value": "fruits"
-            }
-        ]
-    },
-    "5": {
-        "text": "Steps:",
-        "words": [
-            "Steps:"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    68.16960144042969,
-                    338.2829895019531
-                ],
-                [
-                    124.72959899902344,
-                    362.1029968261719
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Steps:</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Steps"
-            }
-        ]
-    },
-    "6": {
-        "text": "a chopping board",
-        "words": [
-            "a",
-            "chopping",
-            "board"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    368.3699951171875,
-                    105.62802124023438
-                ],
-                [
-                    379.3139953613281,
-                    127.06602478027344
-                ]
-            ],
-            [
-                [
-                    383.8139953613281,
-                    105.62802124023438
-                ],
-                [
-                    463.1759948730469,
-                    127.06602478027344
-                ]
-            ],
-            [
-                [
-                    372.8699951171875,
-                    127.22799682617188
-                ],
-                [
-                    421.5060119628906,
-                    148.66600036621094
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">a chopping board</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 75,
-                "type": "word",
-                "start": 29,
-                "end": 37,
-                "value": "chopping"
-            },
-            {
-                "time": 596,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "board"
-            }
-        ]
-    },
-    "7": {
-        "text": "You need\u2026",
-        "words": [
-            "You",
-            "need\u2026"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    191.57400512695312,
-                    84.62197875976562
-                ],
-                [
-                    222.08399963378906,
-                    106.05998229980469
-                ]
-            ],
-            [
-                [
-                    226.58399963378906,
-                    84.62197875976562
-                ],
-                [
-                    284.8500061035156,
-                    106.05998229980469
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">You need\u2026</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "You"
-            },
-            {
-                "time": 130,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "need"
-            }
-        ]
-    },
-    "8": {
-        "text": "some fruits",
-        "words": [
-            "some",
-            "fruits"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    205.07400512695312,
-                    127.82199096679688
-                ],
-                [
-                    252.0540008544922,
-                    149.25999450683594
-                ]
-            ],
-            [
-                [
-                    256.55401611328125,
-                    127.82199096679688
-                ],
-                [
-                    300.2400207519531,
-                    149.25999450683594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">some fruits</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "some"
-            },
-            {
-                "time": 266,
-                "type": "word",
-                "start": 32,
-                "end": 38,
-                "value": "fruits"
-            }
-        ]
-    },
-    "9": {
-        "text": "a knife a salad plate",
-        "words": [
-            "a",
-            "knife",
-            "a",
-            "salad",
-            "plate"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    423.09002685546875,
-                    242.42800903320312
-                ],
-                [
-                    434.0340270996094,
-                    263.86602783203125
-                ]
-            ],
-            [
-                [
-                    438.5340270996094,
-                    242.42800903320312
-                ],
-                [
-                    480.9060363769531,
-                    263.86602783203125
-                ]
-            ],
-            [
-                [
-                    224.24403381347656,
-                    242.33798217773438
-                ],
-                [
-                    235.1880340576172,
-                    263.7760009765625
-                ]
-            ],
-            [
-                [
-                    239.6880340576172,
-                    242.33798217773438
-                ],
-                [
-                    285.1200256347656,
-                    263.7760009765625
-                ]
-            ],
-            [
-                [
-                    289.6200256347656,
-                    242.33798217773438
-                ],
-                [
-                    332.6040344238281,
-                    263.7760009765625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">a knife a salad plate</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "a"
-            },
-            {
-                "time": 67,
-                "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "knife"
-            },
-            {
-                "time": 438,
-                "type": "word",
-                "start": 35,
-                "end": 36,
-                "value": "a"
-            },
-            {
-                "time": 506,
-                "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "salad"
-            },
-            {
-                "time": 998,
-                "type": "word",
-                "start": 43,
-                "end": 48,
-                "value": "plate"
             }
         ]
     }

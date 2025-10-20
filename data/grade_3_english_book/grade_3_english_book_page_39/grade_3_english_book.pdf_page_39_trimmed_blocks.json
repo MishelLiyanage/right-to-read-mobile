@@ -1,5 +1,35 @@
 {
-    "2": {
+    "0": {
+        "text": "30",
+        "words": [
+            "30"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    29.571300506591797,
+                    24.34998893737793
+                ],
+                [
+                    61.9713020324707,
+                    57.109989166259766
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">30</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "30"
+            }
+        ]
+    },
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -40,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -65,7 +95,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "brush wash",
         "words": [
             "brush",
@@ -113,7 +143,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "eat drink",
         "words": [
             "eat",
@@ -161,7 +191,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "go",
         "words": [
             "go"

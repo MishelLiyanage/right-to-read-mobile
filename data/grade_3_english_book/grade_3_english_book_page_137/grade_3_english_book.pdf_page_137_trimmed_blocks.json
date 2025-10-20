@@ -1,22 +1,66 @@
 {
-    "1": {
-        "text": "128",
+    "0": {
+        "text": "Every student has already been",
         "words": [
-            "128"
+            "Every",
+            "student",
+            "has",
+            "already",
+            "been"
         ],
         "bounding_boxes": [
             [
                 [
-                    26.414499282836914,
-                    24.34998893737793
+                    130.44424438476562,
+                    396.4724426269531
                 ],
                 [
-                    65.114501953125,
-                    57.109989166259766
+                    173.2329864501953,
+                    460.4100036621094
+                ]
+            ],
+            [
+                [
+                    130.44424438476562,
+                    310.96368408203125
+                ],
+                [
+                    173.2329864501953,
+                    390.21630859375
+                ]
+            ],
+            [
+                [
+                    130.44424438476562,
+                    268.5471496582031
+                ],
+                [
+                    173.2329864501953,
+                    304.7075500488281
+                ]
+            ],
+            [
+                [
+                    130.44424438476562,
+                    182.11244201660156
+                ],
+                [
+                    173.2329864501953,
+                    262.291015625
+                ]
+            ],
+            [
+                [
+                    130.44424438476562,
+                    125.80726623535156
+                ],
+                [
+                    173.2329864501953,
+                    175.8563232421875
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">128</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Every student has already been</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -24,12 +68,273 @@
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 30,
-                "value": "128"
+                "end": 32,
+                "value": "Every"
+            },
+            {
+                "time": 265,
+                "type": "word",
+                "start": 33,
+                "end": 40,
+                "value": "student"
+            },
+            {
+                "time": 752,
+                "type": "word",
+                "start": 41,
+                "end": 44,
+                "value": "has"
+            },
+            {
+                "time": 1024,
+                "type": "word",
+                "start": 45,
+                "end": 52,
+                "value": "already"
+            },
+            {
+                "time": 1500,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "been"
+            }
+        ]
+    },
+    "1": {
+        "text": "Insured free of charge I d f f h",
+        "words": [
+            "Insured",
+            "free",
+            "of",
+            "charge",
+            "I",
+            "d",
+            "f",
+            "f",
+            "h"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    153.9210662841797,
+                    349.2646484375
+                ],
+                [
+                    211.23263549804688,
+                    460.4100036621094
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    285.68115234375
+                ],
+                [
+                    211.23263549804688,
+                    340.8851623535156
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    249.3812713623047
+                ],
+                [
+                    211.23263549804688,
+                    277.3016662597656
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    144.2021026611328
+                ],
+                [
+                    211.23263549804688,
+                    241.0018310546875
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    447.3715515136719
+                ],
+                [
+                    211.23263549804688,
+                    460.4100036621094
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    349.2646484375
+                ],
+                [
+                    211.23263549804688,
+                    367.9006042480469
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    329.72369384765625
+                ],
+                [
+                    211.23263549804688,
+                    340.8851623535156
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    249.3812713623047
+                ],
+                [
+                    211.23263549804688,
+                    260.542724609375
+                ]
+            ],
+            [
+                [
+                    153.9210662841797,
+                    207.48391723632812
+                ],
+                [
+                    211.23263549804688,
+                    226.119873046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Insured free of charge I d f f h</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "Insured"
+            },
+            {
+                "time": 551,
+                "type": "word",
+                "start": 35,
+                "end": 39,
+                "value": "free"
+            },
+            {
+                "time": 856,
+                "type": "word",
+                "start": 40,
+                "end": 42,
+                "value": "of"
+            },
+            {
+                "time": 992,
+                "type": "word",
+                "start": 43,
+                "end": 49,
+                "value": "charge"
+            },
+            {
+                "time": 1458,
+                "type": "word",
+                "start": 50,
+                "end": 51,
+                "value": "I"
+            },
+            {
+                "time": 1605,
+                "type": "word",
+                "start": 52,
+                "end": 53,
+                "value": "d"
+            },
+            {
+                "time": 1849,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "f"
+            },
+            {
+                "time": 2080,
+                "type": "word",
+                "start": 56,
+                "end": 57,
+                "value": "f"
+            },
+            {
+                "time": 2278,
+                "type": "word",
+                "start": 58,
+                "end": 59,
+                "value": "h"
             }
         ]
     },
     "2": {
+        "text": "Benefits provided :",
+        "words": [
+            "Benefits",
+            "provided",
+            ":"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    215.85939025878906,
+                    645.0023803710938
+                ],
+                [
+                    235.0830535888672,
+                    695.755615234375
+                ]
+            ],
+            [
+                [
+                    215.85939025878906,
+                    585.0830078125
+                ],
+                [
+                    235.0830535888672,
+                    641.3182373046875
+                ]
+            ],
+            [
+                [
+                    215.85939025878906,
+                    576.491455078125
+                ],
+                [
+                    235.0830535888672,
+                    581.3988037109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Benefits provided :</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 35,
+                "value": "Benefits"
+            },
+            {
+                "time": 592,
+                "type": "word",
+                "start": 36,
+                "end": 44,
+                "value": "provided"
+            }
+        ]
+    },
+    "3": {
         "text": "For hospitalization - Rs.200,000 annually",
         "words": [
             "For",
@@ -92,7 +397,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">For hospitalization Rs.200,000 annually</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -124,7 +429,7 @@
             }
         ]
     },
-    "3": {
+    "4": {
         "text": "Accident coverage for a student - Rs. 100,000",
         "words": [
             "Accident",
@@ -220,7 +525,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Accident coverage for a student Rs.<break time=\"500ms\"/> 100,000</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -280,7 +585,7 @@
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "For demise of a parent due to an accident - Rs. 75,000",
         "words": [
             "For",
@@ -420,7 +725,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">For demise of a parent due to an accident Rs.<break time=\"500ms\"/> 75,000</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -508,7 +813,7 @@
             }
         ]
     },
-    "5": {
+    "6": {
         "text": "Coverage for OPD treatments - critical illnesses - Rs.10,000",
         "words": [
             "Coverage",
@@ -615,7 +920,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Coverage for <emphasis level=\"moderate\">OPD</emphasis> treatments critical illnesses Rs.10,000</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -665,65 +970,6 @@
                 "start": 112,
                 "end": 121,
                 "value": "Rs.10,000"
-            }
-        ]
-    },
-    "6": {
-        "text": "Benefits provided :",
-        "words": [
-            "Benefits",
-            "provided",
-            ":"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    215.85939025878906,
-                    645.0023803710938
-                ],
-                [
-                    235.0830535888672,
-                    695.755615234375
-                ]
-            ],
-            [
-                [
-                    215.85939025878906,
-                    585.0830078125
-                ],
-                [
-                    235.0830535888672,
-                    641.3182373046875
-                ]
-            ],
-            [
-                [
-                    215.85939025878906,
-                    576.491455078125
-                ],
-                [
-                    235.0830535888672,
-                    581.3988037109375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Benefits provided :</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "Benefits"
-            },
-            {
-                "time": 592,
-                "type": "word",
-                "start": 36,
-                "end": 44,
-                "value": "provided"
             }
         ]
     },
@@ -845,7 +1091,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">(Ministry of Education) Call 0113641555 for further details and conditions</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -920,282 +1166,6 @@
         ]
     },
     "8": {
-        "text": "Every student has already been",
-        "words": [
-            "Every",
-            "student",
-            "has",
-            "already",
-            "been"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    130.44424438476562,
-                    396.4724426269531
-                ],
-                [
-                    173.2329864501953,
-                    460.4100036621094
-                ]
-            ],
-            [
-                [
-                    130.44424438476562,
-                    310.96368408203125
-                ],
-                [
-                    173.2329864501953,
-                    390.21630859375
-                ]
-            ],
-            [
-                [
-                    130.44424438476562,
-                    268.5471496582031
-                ],
-                [
-                    173.2329864501953,
-                    304.7075500488281
-                ]
-            ],
-            [
-                [
-                    130.44424438476562,
-                    182.11244201660156
-                ],
-                [
-                    173.2329864501953,
-                    262.291015625
-                ]
-            ],
-            [
-                [
-                    130.44424438476562,
-                    125.80726623535156
-                ],
-                [
-                    173.2329864501953,
-                    175.8563232421875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Every student has already been</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Every"
-            },
-            {
-                "time": 265,
-                "type": "word",
-                "start": 33,
-                "end": 40,
-                "value": "student"
-            },
-            {
-                "time": 752,
-                "type": "word",
-                "start": 41,
-                "end": 44,
-                "value": "has"
-            },
-            {
-                "time": 1024,
-                "type": "word",
-                "start": 45,
-                "end": 52,
-                "value": "already"
-            },
-            {
-                "time": 1500,
-                "type": "word",
-                "start": 53,
-                "end": 57,
-                "value": "been"
-            }
-        ]
-    },
-    "9": {
-        "text": "Insured free of charge I d f f h",
-        "words": [
-            "Insured",
-            "free",
-            "of",
-            "charge",
-            "I",
-            "d",
-            "f",
-            "f",
-            "h"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    153.9210662841797,
-                    349.2646484375
-                ],
-                [
-                    211.23263549804688,
-                    460.4100036621094
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    285.68115234375
-                ],
-                [
-                    211.23263549804688,
-                    340.8851623535156
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    249.3812713623047
-                ],
-                [
-                    211.23263549804688,
-                    277.3016662597656
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    144.2021026611328
-                ],
-                [
-                    211.23263549804688,
-                    241.0018310546875
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    447.3715515136719
-                ],
-                [
-                    211.23263549804688,
-                    460.4100036621094
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    349.2646484375
-                ],
-                [
-                    211.23263549804688,
-                    367.9006042480469
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    329.72369384765625
-                ],
-                [
-                    211.23263549804688,
-                    340.8851623535156
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    249.3812713623047
-                ],
-                [
-                    211.23263549804688,
-                    260.542724609375
-                ]
-            ],
-            [
-                [
-                    153.9210662841797,
-                    207.48391723632812
-                ],
-                [
-                    211.23263549804688,
-                    226.119873046875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Insured free of charge I d f f h</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Insured"
-            },
-            {
-                "time": 551,
-                "type": "word",
-                "start": 35,
-                "end": 39,
-                "value": "free"
-            },
-            {
-                "time": 856,
-                "type": "word",
-                "start": 40,
-                "end": 42,
-                "value": "of"
-            },
-            {
-                "time": 992,
-                "type": "word",
-                "start": 43,
-                "end": 49,
-                "value": "charge"
-            },
-            {
-                "time": 1458,
-                "type": "word",
-                "start": 50,
-                "end": 51,
-                "value": "I"
-            },
-            {
-                "time": 1605,
-                "type": "word",
-                "start": 52,
-                "end": 53,
-                "value": "d"
-            },
-            {
-                "time": 1849,
-                "type": "word",
-                "start": 54,
-                "end": 55,
-                "value": "f"
-            },
-            {
-                "time": 2080,
-                "type": "word",
-                "start": 56,
-                "end": 57,
-                "value": "f"
-            },
-            {
-                "time": 2278,
-                "type": "word",
-                "start": 58,
-                "end": 59,
-                "value": "h"
-            }
-        ]
-    },
-    "10": {
         "text": "These benefits are applicable to Suraksha Insurance Scheme 2017/2018. However, it is subject to variation.",
         "words": [
             "These",
@@ -1368,7 +1338,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">These benefits are applicable to Suraksha Insurance Scheme 2017/2018.<break time=\"500ms\"/> However,<break time=\"300ms\"/> it is subject to variation.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,

@@ -1,57 +1,8 @@
 {
-    "2": {
-        "text": "sleep watch",
+    "0": {
+        "text": "write",
         "words": [
-            "sleep",
-            "watch"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    374.8190002441406,
-                    546.550048828125
-                ],
-                [
-                    423.65899658203125,
-                    570.3699951171875
-                ]
-            ],
-            [
-                [
-                    157.21897888183594,
-                    546.550048828125
-                ],
-                [
-                    215.8389892578125,
-                    570.3699951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">sleep watch</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "sleep"
-            },
-            {
-                "time": 395,
-                "type": "word",
-                "start": 33,
-                "end": 38,
-                "value": "watch"
-            }
-        ]
-    },
-    "3": {
-        "text": "write play",
-        "words": [
-            "write",
-            "play"
+            "write"
         ],
         "bounding_boxes": [
             [
@@ -63,7 +14,27 @@
                     198.88800048828125,
                     348.25201416015625
                 ]
-            ],
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">write</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "write"
+            }
+        ]
+    },
+    "1": {
+        "text": "play",
+        "words": [
+            "play"
+        ],
+        "bounding_boxes": [
             [
                 [
                     395.2460021972656,
@@ -75,7 +46,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">write play</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">play</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "play"
+            }
+        ]
+    },
+    "2": {
+        "text": "watch",
+        "words": [
+            "watch"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    157.21897888183594,
+                    546.550048828125
+                ],
+                [
+                    215.8389892578125,
+                    570.3699951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">watch</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -84,14 +85,37 @@
                 "type": "word",
                 "start": 27,
                 "end": 32,
-                "value": "write"
-            },
+                "value": "watch"
+            }
+        ]
+    },
+    "3": {
+        "text": "sleep",
+        "words": [
+            "sleep"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    374.8190002441406,
+                    546.550048828125
+                ],
+                [
+                    423.65899658203125,
+                    570.3699951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">sleep</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
             {
-                "time": 264,
+                "time": 6,
                 "type": "word",
-                "start": 33,
-                "end": 37,
-                "value": "play"
+                "start": 27,
+                "end": 32,
+                "value": "sleep"
             }
         ]
     }

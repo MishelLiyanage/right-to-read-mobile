@@ -23,28 +23,34 @@ export default function BlockPlayButton({
   onPlay
 }: BlockPlayButtonProps) {
   const handlePress = () => {
+    console.log(`[BlockPlayButton] Button pressed for block ${blockId}:`, {
+      blockId,
+      blockText: blockText.substring(0, 30) + '...'
+    });
     onPlay(blockId, blockText);
   };
 
   // Get screen dimensions
   const screenWidth = Dimensions.get('window').width;
+  const buttonWidth = 35; // Button width from styles
   
-  // Position the play button, ensuring it stays within screen bounds
-  let buttonLeft = position.left + position.width + 10; // 10px to the right of the block
+  // Position the play button OUTSIDE the text block to avoid interfering with word clicks
+  // Try to position to the right of the block first
+  let buttonLeft = position.left + position.width + 5; // 5px gap from the right edge of text
   
-  // If button would be off-screen, position it to the left of the block instead
-  if (buttonLeft + 40 > screenWidth) { // 40 is button width
-    buttonLeft = position.left - 50; // 50px to the left of the block (40px button + 10px margin)
+  // If button would be off-screen, position it to the left of the block
+  if (buttonLeft + buttonWidth > screenWidth - 10) { // 10px margin from screen edge
+    buttonLeft = Math.max(10, position.left - buttonWidth - 5); // 5px gap from the left edge of text
   }
   
-  // If still off-screen (block too far left), position it overlapping the block on the right side
-  if (buttonLeft < 0) {
-    buttonLeft = position.left + position.width - 20; // Overlapping on the right edge
+  // If still off-screen (very wide block), position at screen edge
+  if (buttonLeft < 10) {
+    buttonLeft = 10;
   }
   
   const buttonPosition = {
     left: buttonLeft,
-    top: position.top + (position.height / 2) - 20, // Vertically centered
+    top: position.top + (position.height / 2) - 17.5, // Vertically centered (35px button height / 2)
   };
 
   // Debug logging to help troubleshoot positioning

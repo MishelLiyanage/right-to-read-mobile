@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "60",
         "words": [
             "60"
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -70,7 +70,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -95,12 +95,41 @@
             }
         ]
     },
+    "2": {
+        "text": "bread",
+        "words": [
+            "bread"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    155.25454711914062,
+                    125.6396255493164
+                ],
+                [
+                    195.7554931640625,
+                    143.46543884277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">bread</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "bread"
+            }
+        ]
+    },
     "3": {
-        "text": "string hoppers bread",
+        "text": "string hoppers",
         "words": [
             "string",
-            "hoppers",
-            "bread"
+            "hoppers"
         ],
         "bounding_boxes": [
             [
@@ -122,19 +151,9 @@
                     444.3487243652344,
                     148.8654022216797
                 ]
-            ],
-            [
-                [
-                    155.25454711914062,
-                    125.6396255493164
-                ],
-                [
-                    195.7554931640625,
-                    143.46543884277344
-                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">string hoppers bread</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">string hoppers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "timing": [
@@ -146,22 +165,45 @@
                 "value": "string"
             },
             {
-                "time": 397,
+                "time": 398,
                 "type": "word",
                 "start": 34,
                 "end": 41,
                 "value": "hoppers"
-            },
-            {
-                "time": 890,
-                "type": "word",
-                "start": 42,
-                "end": 47,
-                "value": "bread"
             }
         ]
     },
     "4": {
+        "text": "noodles",
+        "words": [
+            "noodles"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    471.8399963378906,
+                    225.5444793701172
+                ],
+                [
+                    525.4567260742188,
+                    243.13125610351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">noodles</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 34,
+                "value": "noodles"
+            }
+        ]
+    },
+    "5": {
         "text": "potato curry",
         "words": [
             "potato",
@@ -209,67 +251,7 @@
             }
         ]
     },
-    "5": {
-        "text": "noodles",
-        "words": [
-            "noodles"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    471.8399963378906,
-                    225.5444793701172
-                ],
-                [
-                    525.4567260742188,
-                    243.13125610351562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">noodles</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "noodles"
-            }
-        ]
-    },
     "6": {
-        "text": "pittu",
-        "words": [
-            "pittu"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    185.98699951171875,
-                    461.5095520019531
-                ],
-                [
-                    219.82667541503906,
-                    479.4060974121094
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">pittu</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "pittu"
-            }
-        ]
-    },
-    "7": {
         "text": "fried rice",
         "words": [
             "fried",
@@ -317,7 +299,67 @@
             }
         ]
     },
+    "7": {
+        "text": "roti",
+        "words": [
+            "roti"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    485.7699890136719,
+                    453.41912841796875
+                ],
+                [
+                    508.1905212402344,
+                    471.2567138671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">roti</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "roti"
+            }
+        ]
+    },
     "8": {
+        "text": "pittu",
+        "words": [
+            "pittu"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    185.98699951171875,
+                    461.5095520019531
+                ],
+                [
+                    219.82667541503906,
+                    479.4060974121094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">pittu</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 32,
+                "value": "pittu"
+            }
+        ]
+    },
+    "9": {
         "text": "fish curry",
         "words": [
             "fish",
@@ -362,36 +404,6 @@
                 "start": 32,
                 "end": 37,
                 "value": "curry"
-            }
-        ]
-    },
-    "9": {
-        "text": "roti",
-        "words": [
-            "roti"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    485.7699890136719,
-                    453.41912841796875
-                ],
-                [
-                    508.1905212402344,
-                    471.2567138671875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">roti</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "roti"
             }
         ]
     },

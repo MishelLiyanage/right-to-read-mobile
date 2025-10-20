@@ -1,24 +1,13 @@
 {
-    "1": {
-        "text": "99 Listen, point and repeat.",
+    "0": {
+        "text": "Listen, point and repeat.",
         "words": [
-            "99",
             "Listen,",
             "point",
             "and",
             "repeat."
         ],
         "bounding_boxes": [
-            [
-                [
-                    550.8070068359375,
-                    24.34998893737793
-                ],
-                [
-                    580.5670166015625,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -60,55 +49,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">99 Listen,<break time=\"300ms\"/> point and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and repeat.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
                 "start": 27,
-                "end": 29,
-                "value": "99"
-            },
-            {
-                "time": 762,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "end": 33,
                 "value": "Listen"
             },
             {
-                "time": 1484,
+                "time": 702,
                 "type": "word",
-                "start": 37,
-                "end": 58,
+                "start": 34,
+                "end": 55,
                 "value": "<break time=\"300ms\"/>"
             },
             {
-                "time": 1884,
+                "time": 1102,
                 "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 56,
+                "end": 61,
                 "value": "point"
             },
             {
-                "time": 2260,
+                "time": 1462,
                 "type": "word",
-                "start": 65,
-                "end": 68,
+                "start": 62,
+                "end": 65,
                 "value": "and"
             },
             {
-                "time": 2423,
+                "time": 1641,
                 "type": "word",
-                "start": 69,
-                "end": 75,
+                "start": 66,
+                "end": 72,
                 "value": "repeat"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Shapes",
         "words": [
             "Shapes"
@@ -138,7 +120,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "rectangle square triangle",
         "words": [
             "rectangle",
@@ -204,7 +186,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "oval circle",
         "words": [
             "oval",
@@ -252,7 +234,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Read aloud the pattern.",
         "words": [
             "Read",
@@ -304,7 +286,7 @@
         ],
         "ssml": "<speak><prosody rate=\"85%\">Read aloud the pattern.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
         "timing": [
             {
                 "time": 6,
@@ -333,6 +315,126 @@
                 "start": 42,
                 "end": 49,
                 "value": "pattern"
+            }
+        ]
+    },
+    "5": {
+        "text": "1.",
+        "words": [
+            "1."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    64.33979797363281,
+                    461.6300048828125
+                ],
+                [
+                    79.11979675292969,
+                    485.45001220703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">1.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "1"
+            }
+        ]
+    },
+    "6": {
+        "text": "2.",
+        "words": [
+            "2."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.15979766845703,
+                    528.5899658203125
+                ],
+                [
+                    79.4197998046875,
+                    552.4099731445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">2.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "2"
+            }
+        ]
+    },
+    "7": {
+        "text": "3.",
+        "words": [
+            "3."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.05979919433594,
+                    584.75
+                ],
+                [
+                    79.97979736328125,
+                    608.5699462890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">3.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "3"
+            }
+        ]
+    },
+    "8": {
+        "text": "4.",
+        "words": [
+            "4."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.1797981262207,
+                    637.31005859375
+                ],
+                [
+                    79.85980224609375,
+                    661.1300048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">4.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 28,
+                "value": "4"
             }
         ]
     }
