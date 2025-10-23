@@ -50,7 +50,7 @@ import page17TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_boo
 import page18TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_18/grade_3_english_book.pdf_page_18_trimmed_blocks.json';
 import page19TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_19/grade_3_english_book.pdf_page_19_trimmed_blocks.json';
 import page20TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_20/grade_3_english_book.pdf_page_20_trimmed_blocks.json';
-// import page21TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_21/grade_3_english_book.pdf_page_21_trimmed_blocks.json';
+import page21TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_21/grade_3_english_book.pdf_page_21_trimmed_blocks.json';
 import page22TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_22/grade_3_english_book.pdf_page_22_trimmed_blocks.json';
 import page23TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_23/grade_3_english_book.pdf_page_23_trimmed_blocks.json';
 import page24TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_24/grade_3_english_book.pdf_page_24_trimmed_blocks.json';
@@ -66,7 +66,7 @@ import page33TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_boo
 import page34TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_34/grade_3_english_book.pdf_page_34_trimmed_blocks.json';
 import page35TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_35/grade_3_english_book.pdf_page_35_trimmed_blocks.json';
 import page36TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_36/grade_3_english_book.pdf_page_36_trimmed_blocks.json';
-// import page37TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37_trimmed_blocks.json';
+import page37TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_37/grade_3_english_book.pdf_page_37_trimmed_blocks.json';
 import page38TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38_trimmed_blocks.json';
 import page39TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39_trimmed_blocks.json';
 import page40TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_40/grade_3_english_book.pdf_page_40_trimmed_blocks.json';
@@ -286,7 +286,7 @@ export class TrimmedBlocksDataService {
     this.grade3DataMap.set(18, page18TrimmedBlocks as any);
     this.grade3DataMap.set(19, page19TrimmedBlocks as any);
     this.grade3DataMap.set(20, page20TrimmedBlocks as any);
-    // this.grade3DataMap.set(21, page21TrimmedBlocks as any);
+    this.grade3DataMap.set(21, page21TrimmedBlocks as any);
     this.grade3DataMap.set(22, page22TrimmedBlocks as any);
     this.grade3DataMap.set(23, page23TrimmedBlocks as any);
     this.grade3DataMap.set(24, page24TrimmedBlocks as any);
@@ -302,7 +302,7 @@ export class TrimmedBlocksDataService {
     this.grade3DataMap.set(34, page34TrimmedBlocks as any);
     this.grade3DataMap.set(35, page35TrimmedBlocks as any);
     this.grade3DataMap.set(36, page36TrimmedBlocks as any);
-    // this.grade3DataMap.set(37, page37TrimmedBlocks as any);
+    this.grade3DataMap.set(37, page37TrimmedBlocks as any);
     this.grade3DataMap.set(38, page38TrimmedBlocks as any);
     this.grade3DataMap.set(39, page39TrimmedBlocks as any);
     this.grade3DataMap.set(40, page40TrimmedBlocks as any);
