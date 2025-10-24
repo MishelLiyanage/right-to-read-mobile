@@ -48,6 +48,140 @@
         ]
     },
     "1": {
+        "text": "Oh! How wonderful!",
+        "words": [
+            "Oh!",
+            "How",
+            "wonderful!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    83.34700012207031,
+                    124.7958984375
+                ],
+                [
+                    117.43899536132812,
+                    146.61190795898438
+                ]
+            ],
+            [
+                [
+                    123.1449966430664,
+                    124.7958984375
+                ],
+                [
+                    164.34698486328125,
+                    146.61190795898438
+                ]
+            ],
+            [
+                [
+                    83.34700012207031,
+                    146.3958740234375
+                ],
+                [
+                    183.22900390625,
+                    168.21188354492188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Oh! How wonderful!</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 29,
+                "value": "Oh"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "How"
+            },
+            {
+                "time": 1105,
+                "type": "word",
+                "start": 35,
+                "end": 44,
+                "value": "wonderful"
+            }
+        ]
+    },
+    "2": {
+        "text": "Then what happens?",
+        "words": [
+            "Then",
+            "what",
+            "happens?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    83.34700012207031,
+                    178.00390625
+                ],
+                [
+                    127.55499267578125,
+                    199.81991577148438
+                ]
+            ],
+            [
+                [
+                    133.260986328125,
+                    178.00390625
+                ],
+                [
+                    180.47500610351562,
+                    199.81991577148438
+                ]
+            ],
+            [
+                [
+                    83.34700012207031,
+                    199.6038818359375
+                ],
+                [
+                    177.2349853515625,
+                    221.41989135742188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate=\"85%\">Then what happens?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 27,
+                "end": 31,
+                "value": "Then"
+            },
+            {
+                "time": 194,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "what"
+            },
+            {
+                "time": 411,
+                "type": "word",
+                "start": 37,
+                "end": 44,
+                "value": "happens"
+            }
+        ]
+    },
+    "3": {
         "text": "The cocoon breaks. A beautiful butterfly comes out.",
         "words": [
             "The",
@@ -208,140 +342,6 @@
                 "start": 95,
                 "end": 98,
                 "value": "out"
-            }
-        ]
-    },
-    "2": {
-        "text": "Oh! How wonderful!",
-        "words": [
-            "Oh!",
-            "How",
-            "wonderful!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    83.34700012207031,
-                    124.7958984375
-                ],
-                [
-                    117.43899536132812,
-                    146.61190795898438
-                ]
-            ],
-            [
-                [
-                    123.1449966430664,
-                    124.7958984375
-                ],
-                [
-                    164.34698486328125,
-                    146.61190795898438
-                ]
-            ],
-            [
-                [
-                    83.34700012207031,
-                    146.3958740234375
-                ],
-                [
-                    183.22900390625,
-                    168.21188354492188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh! How wonderful!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "Oh"
-            },
-            {
-                "time": 890,
-                "type": "word",
-                "start": 31,
-                "end": 34,
-                "value": "How"
-            },
-            {
-                "time": 1105,
-                "type": "word",
-                "start": 35,
-                "end": 44,
-                "value": "wonderful"
-            }
-        ]
-    },
-    "3": {
-        "text": "Then what happens?",
-        "words": [
-            "Then",
-            "what",
-            "happens?"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    83.34700012207031,
-                    178.00390625
-                ],
-                [
-                    127.55499267578125,
-                    199.81991577148438
-                ]
-            ],
-            [
-                [
-                    133.260986328125,
-                    178.00390625
-                ],
-                [
-                    180.47500610351562,
-                    199.81991577148438
-                ]
-            ],
-            [
-                [
-                    83.34700012207031,
-                    199.6038818359375
-                ],
-                [
-                    177.2349853515625,
-                    221.41989135742188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Then what happens?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Then"
-            },
-            {
-                "time": 194,
-                "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "what"
-            },
-            {
-                "time": 411,
-                "type": "word",
-                "start": 37,
-                "end": 44,
-                "value": "happens"
             }
         ]
     },
