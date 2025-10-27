@@ -370,19 +370,64 @@ export const getAllBooks = (): Book[] => {
       hasData: true,
       tableOfContents: [
         {
+          id: 'my-family-and-friends',
+          title: 'My family and friends',
+          pageNumber: 1,
+          navigationPageNumber: 10
+        },
+        {
+          id: 'our-beautiful-garden',
+          title: 'Our beautiful garden',
+          pageNumber: 11,
+          navigationPageNumber: 20
+        },
+        {
+          id: 'places-around-me',
+          title: 'Places around me',
+          pageNumber: 23,
+          navigationPageNumber: 32
+        },
+        {
+          id: 'joy-of-work',
+          title: 'Joy of work',
+          pageNumber: 34,
+          navigationPageNumber: 43
+        },
+        {
+          id: 'our-festivals',
+          title: 'Our festivals',
+          pageNumber: 42,
+          navigationPageNumber: 51
+        },
+        {
+          id: 'lets-go-shopping',
+          title: 'Let\'s go shopping',
+          pageNumber: 53,
+          navigationPageNumber: 62
+        },
+        {
+          id: 'my-calendar',
+          title: 'My calendar',
+          pageNumber: 67,
+          navigationPageNumber: 76
+        },
+        {
+          id: 'playing-games',
+          title: 'Playing games',
+          pageNumber: 79,
+          navigationPageNumber: 88
+        },
+        {
           id: 'good-practices',
           title: 'Good practices',
-          pageNumber: 98
+          pageNumber: 89,
+          navigationPageNumber: 98
         },
         {
-          id: 'environment',
-          title: 'Environment',
-          pageNumber: 100
-        },
-        {
-          id: 'activities',
-          title: 'Activities',
-          pageNumber: 105
+          id: 'happy-days',
+          title: 'Happy days',
+          pageNumber: 102,
+          navigationPageNumber: 111
         }
       ],
       pages: generateGrade4Pages()

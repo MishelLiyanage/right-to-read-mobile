@@ -98,8 +98,7 @@ export class DictionaryService {
           dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');
           break;
         case 'grade_4_english_book':
-          // For now, fallback to grade 3 if grade 4 dictionary doesn't exist
-          dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');
+          dictionary = require('@/data/grade_4_english_book/grade_4_english_book_dictionary.json');
           break;
         default:
           dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');

@@ -4,17 +4,17 @@ import { SchoolValidationService } from '@/services/schoolValidationService';
 import { BlurView } from 'expo-blur';
 import React, { useEffect, useState } from 'react';
 import {
-  ActivityIndicator,
-  Alert,
-  Dimensions,
-  ImageBackground,
-  KeyboardAvoidingView,
-  Platform,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+    ActivityIndicator,
+    Alert,
+    Dimensions,
+    ImageBackground,
+    KeyboardAvoidingView,
+    Platform,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View,
 } from 'react-native';
 
 interface DeviceRegistrationProps {
@@ -22,7 +22,6 @@ interface DeviceRegistrationProps {
 }
 
 export default function DeviceRegistration({ onRegistrationComplete }: DeviceRegistrationProps) {
-  const [schoolName, setSchoolName] = useState<string>('');
   const [serialNumber, setSerialNumber] = useState<string>('');
   const [isRegistering, setIsRegistering] = useState(false);
 
@@ -36,10 +35,6 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
   }, []);
 
   const validateForm = (): boolean => {
-    if (!schoolName.trim()) {
-      Alert.alert('Validation Error', 'Please enter your school name.');
-      return false;
-    }
     if (!serialNumber.trim()) {
       Alert.alert('Validation Error', 'Please enter the device serial number.');
       return false;
@@ -54,16 +49,15 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
     setIsRegistering(true);
     try {
-      // Validate school name and serial number combination
-      const isValidSchool = await SchoolValidationService.validateSchool(
-        schoolName.trim(), 
+      // Validate serial number and get school name
+      const schoolName = await SchoolValidationService.getSchoolNameForSerial(
         serialNumber.trim()
       );
 
-      if (!isValidSchool) {
+      if (!schoolName) {
         Alert.alert(
-          'Invalid Credentials',
-          'Either the school name or the serial number is invalid. Please check your details and try again.',
+          'Invalid Serial Number',
+          'The serial number you entered is not valid. Please check your device serial number and try again.',
           [{ text: 'OK' }]
         );
         setIsRegistering(false);
@@ -72,7 +66,7 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
       // If validation passes, register the device
       await DeviceRegistrationService.registerDevice(
-        schoolName.trim(), 
+        schoolName, 
         serialNumber.trim()
       );
       
@@ -122,31 +116,12 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
               <View style={styles.header}>
                 <Text style={styles.title}>DEVICE REGISTRATION</Text>
                 <Text style={styles.subtitle}>
-                  Please provide some information to help us customize your experience.
+                  Please enter your device serial number to register and authenticate your device.
                 </Text>
               </View>
 
               {/* Form */}
               <View style={styles.form}>
-                {/* School Name Input */}
-                <View style={styles.inputGroup}>
-                  <Text style={styles.label}>School Name</Text>
-                  <View style={styles.glassInput}>
-                    <TextInput
-                      style={styles.textInput}
-                      placeholder="Enter your school name"
-                      placeholderTextColor="#a0aec0"
-                      value={schoolName}
-                      onChangeText={setSchoolName}
-                      maxLength={100}
-                      autoCapitalize="words"
-                      editable={!isRegistering}
-                    />
-                  </View>
-                </View>
-
-
-
                 {/* Serial Number Input */}
                 <View style={styles.inputGroup}>
                   <Text style={styles.label}>Device Serial Number</Text>
@@ -168,10 +143,10 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
                 <TouchableOpacity
                   style={[
                     styles.registerButton,
-                    (!schoolName.trim() || !serialNumber.trim() || isRegistering) && styles.disabledButton
+                    (!serialNumber.trim() || isRegistering) && styles.disabledButton
                   ]}
                   onPress={handleRegistration}
-                  disabled={!schoolName.trim() || !serialNumber.trim() || isRegistering}
+                  disabled={!serialNumber.trim() || isRegistering}
                 >
                   {isRegistering ? (
                     <ActivityIndicator color="white" />
