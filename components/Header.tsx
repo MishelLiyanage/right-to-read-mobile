@@ -1,3 +1,4 @@
+import { useDeviceRegistration } from '@/hooks/useDeviceRegistration';
 import { Image } from 'expo-image';
 import React, { useState } from 'react';
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -6,6 +7,7 @@ import PullBooksDialog from './PullBooksDialog';
 export default function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showPullBooksDialog, setShowPullBooksDialog] = useState(false);
+  const { registrationData } = useDeviceRegistration();
 
   const handleMenuPress = () => {
     setShowDropdown(!showDropdown);
@@ -42,44 +44,52 @@ export default function Header() {
         contentFit="contain"
       />
       
-      <View style={styles.menuContainer}>
-        <TouchableOpacity style={styles.menuButton} onPress={handleMenuPress}>
-          <Text style={styles.moreIcon}>⋮</Text>
-        </TouchableOpacity>
-        
-        {showDropdown && (
-          <Modal
-            transparent={true}
-            visible={showDropdown}
-            onRequestClose={() => setShowDropdown(false)}
-          >
-            <TouchableOpacity 
-              style={styles.modalOverlay} 
-              onPress={() => setShowDropdown(false)}
-            >
-              <View style={styles.dropdown}>
-                <TouchableOpacity 
-                  style={styles.dropdownItem} 
-                  onPress={() => handleMenuItemPress('Pull Books')}
-                >
-                  <Text style={styles.dropdownText}>Pull Books</Text>
-                </TouchableOpacity>
-                <TouchableOpacity 
-                  style={styles.dropdownItem} 
-                  onPress={() => handleMenuItemPress('Profile')}
-                >
-                  <Text style={styles.dropdownText}>Profile</Text>
-                </TouchableOpacity>
-                <TouchableOpacity 
-                  style={styles.dropdownItem} 
-                  onPress={() => handleMenuItemPress('Logout')}
-                >
-                  <Text style={styles.dropdownText}>Logout</Text>
-                </TouchableOpacity>
-              </View>
-            </TouchableOpacity>
-          </Modal>
+      <View style={styles.rightSection}>
+        {registrationData?.schoolName && (
+          <Text style={styles.schoolName} numberOfLines={1} ellipsizeMode="tail">
+            {registrationData.schoolName}
+          </Text>
         )}
+        
+        <View style={styles.menuContainer}>
+          <TouchableOpacity style={styles.menuButton} onPress={handleMenuPress}>
+            <Text style={styles.moreIcon}>⋮</Text>
+          </TouchableOpacity>
+          
+          {showDropdown && (
+            <Modal
+              transparent={true}
+              visible={showDropdown}
+              onRequestClose={() => setShowDropdown(false)}
+            >
+              <TouchableOpacity 
+                style={styles.modalOverlay} 
+                onPress={() => setShowDropdown(false)}
+              >
+                <View style={styles.dropdown}>
+                  <TouchableOpacity 
+                    style={styles.dropdownItem} 
+                    onPress={() => handleMenuItemPress('Pull Books')}
+                  >
+                    <Text style={styles.dropdownText}>Pull Books</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity 
+                    style={styles.dropdownItem} 
+                    onPress={() => handleMenuItemPress('Profile')}
+                  >
+                    <Text style={styles.dropdownText}>Profile</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity 
+                    style={styles.dropdownItem} 
+                    onPress={() => handleMenuItemPress('Logout')}
+                  >
+                    <Text style={styles.dropdownText}>Logout</Text>
+                  </TouchableOpacity>
+                </View>
+              </TouchableOpacity>
+            </Modal>
+          )}
+        </View>
       </View>
       
       {/* Pull Books Dialog */}
@@ -105,6 +115,19 @@ const styles = StyleSheet.create({
     width: 80,
     height: 80,
     marginLeft: 20,
+  },
+  rightSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  schoolName: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#6B7280',
+    textAlign: 'right',
+    maxWidth: 180,
+    flexShrink: 1,
   },
   menuContainer: {
     position: 'relative',

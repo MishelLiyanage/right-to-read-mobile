@@ -106,4 +106,35 @@ export class SchoolValidationService {
       return null;
     }
   }
+
+  /**
+   * Get school name for a given serial number
+   */
+  static async getSchoolNameForSerial(serialNumber: string): Promise<string | null> {
+    try {
+      const validSchools = await this.getValidSchools();
+      const school = validSchools.find(
+        s => s.serialNumber.toLowerCase().trim() === serialNumber.toLowerCase().trim()
+      );
+      return school ? school.schoolName : null;
+    } catch (error) {
+      console.error('Error getting school name for serial:', error);
+      return null;
+    }
+  }
+
+  /**
+   * Validate serial number only
+   * @param serialNumber - The serial number to validate
+   * @returns Promise<boolean> - true if valid serial number, false otherwise
+   */
+  static async validateSerialNumber(serialNumber: string): Promise<boolean> {
+    try {
+      const schoolName = await this.getSchoolNameForSerial(serialNumber);
+      return schoolName !== null;
+    } catch (error) {
+      console.error('Error validating serial number:', error);
+      return false;
+    }
+  }
 }
