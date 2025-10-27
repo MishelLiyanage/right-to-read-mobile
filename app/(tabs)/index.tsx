@@ -35,7 +35,7 @@ export default function BooksScreen() {
     // Add book to recent books when clicked
     try {
       await addRecentBook(book);
-
+      console.log(`[BooksScreen] Book "${book.title}" opened by user`);
     } catch (error) {
       console.error('Failed to add book to recent:', error);
     }

@@ -22,18 +22,18 @@ export class CoordinateScaler {
     
     // Validate scaling factors for unreasonable values
     if (this.scaleX <= 0 || this.scaleY <= 0 || !isFinite(this.scaleX) || !isFinite(this.scaleY)) {
-      console.error('[CoordinateScaler] Invalid scaling factors detected, using fallback');
+      // console.error('[CoordinateScaler] Invalid scaling factors detected, using fallback');
       this.scaleX = 1;
       this.scaleY = 1;
     }
     
     // Log scaling factors for debugging
-    console.log('[CoordinateScaler] Scaling factors:', {
-      scaleX: this.scaleX,
-      scaleY: this.scaleY,
-      originalSize: originalPageSize,
-      currentSize: currentPageSize
-    });
+    // console.log('[CoordinateScaler] Scaling factors:', {
+    //   scaleX: this.scaleX,
+    //   scaleY: this.scaleY,
+    //   originalSize: originalPageSize,
+    //   currentSize: currentPageSize
+    // });
   }
 
   scaleCoordinates(boundingBox: number[][]): BoundingBox {
@@ -76,7 +76,7 @@ export class CoordinateScaler {
         adjustedScaleX *= productionCompensation.x;
         adjustedScaleY *= productionCompensation.y;
         
-        console.log('[CoordinateScaler] Applied production compensation:', productionCompensation);
+        // console.log('[CoordinateScaler] Applied production compensation:', productionCompensation);
       }
     }
     

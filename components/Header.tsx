@@ -2,11 +2,13 @@ import { useDeviceRegistration } from '@/hooks/useDeviceRegistration';
 import { Image } from 'expo-image';
 import React, { useState } from 'react';
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import AnalyticsSyncDialog from './AnalyticsSyncDialog';
 import PullBooksDialog from './PullBooksDialog';
 
 export default function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showPullBooksDialog, setShowPullBooksDialog] = useState(false);
+  const [showAnalyticsSyncDialog, setShowAnalyticsSyncDialog] = useState(false);
   const { registrationData } = useDeviceRegistration();
 
   const handleMenuPress = () => {
@@ -21,6 +23,9 @@ export default function Header() {
       case 'Pull Books':
         setShowPullBooksDialog(true);
         break;
+      case 'Sync Analytics':
+        setShowAnalyticsSyncDialog(true);
+        break;
       case 'Profile':
         // Handle profile navigation
         break;
@@ -34,6 +39,11 @@ export default function Header() {
     // Refresh the books list or trigger a re-render
 
     // TODO: Add logic to refresh the books data
+  };
+
+  const handleAnalyticsSyncComplete = () => {
+    // Analytics sync completed successfully
+    console.log('[Header] Analytics sync completed successfully');
   };
 
   return (
@@ -75,6 +85,12 @@ export default function Header() {
                   </TouchableOpacity>
                   <TouchableOpacity 
                     style={styles.dropdownItem} 
+                    onPress={() => handleMenuItemPress('Sync Analytics')}
+                  >
+                    <Text style={styles.dropdownText}>Sync Analytics</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity 
+                    style={styles.dropdownItem} 
                     onPress={() => handleMenuItemPress('Profile')}
                   >
                     <Text style={styles.dropdownText}>Profile</Text>
@@ -97,6 +113,13 @@ export default function Header() {
         visible={showPullBooksDialog}
         onClose={() => setShowPullBooksDialog(false)}
         onSuccess={handlePullBooksSuccess}
+      />
+      
+      {/* Analytics Sync Dialog */}
+      <AnalyticsSyncDialog
+        visible={showAnalyticsSyncDialog}
+        onClose={() => setShowAnalyticsSyncDialog(false)}
+        onSyncComplete={handleAnalyticsSyncComplete}
       />
     </View>
   );

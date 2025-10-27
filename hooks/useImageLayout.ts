@@ -16,7 +16,7 @@ export function useImageLayout() {
     const dimensions = { width, height };
     setSourceImageDimensions(dimensions);
     
-    console.log('[ImageLayout] Image loaded:', dimensions);
+    // console.log('[ImageLayout] Image loaded:', dimensions);
   }, []);
 
   const onImageLayout = useCallback((event: LayoutChangeEvent) => {
@@ -24,7 +24,7 @@ export function useImageLayout() {
     const dimensions = { width, height };
     setContainerDimensions(dimensions);
     
-    console.log('[ImageLayout] Container layout:', dimensions);
+    // console.log('[ImageLayout] Container layout:', dimensions);
   }, []);
 
   // Calculate the actual rendered image size with contentFit="contain"
@@ -55,14 +55,14 @@ export function useImageLayout() {
       height: Math.round(renderedHeight) 
     };
     
-    console.log('[ImageLayout] Calculated rendered size:', {
-      sourceAspectRatio,
-      containerAspectRatio,
-      sourceImageDimensions,
-      containerDimensions,
-      rawResult: { width: renderedWidth, height: renderedHeight },
-      roundedResult: result
-    });
+    // console.log('[ImageLayout] Calculated rendered size:', {
+    //   sourceAspectRatio,
+    //   containerAspectRatio,
+    //   sourceImageDimensions,
+    //   containerDimensions,
+    //   rawResult: { width: renderedWidth, height: renderedHeight },
+    //   roundedResult: result
+    // });
 
     return result;
   }, [sourceImageDimensions, containerDimensions]);
@@ -83,15 +83,15 @@ export function useImageLayout() {
     const offsetY = Math.round((containerDimensions.height - renderedSize.height) / 2);
 
     const result = { x: offsetX, y: offsetY };
-    console.log('[ImageLayout] Calculated image offset:', {
-      containerDimensions,
-      renderedSize,
-      rawOffset: { 
-        x: (containerDimensions.width - renderedSize.width) / 2, 
-        y: (containerDimensions.height - renderedSize.height) / 2 
-      },
-      roundedOffset: result
-    });
+    // console.log('[ImageLayout] Calculated image offset:', {
+    //   containerDimensions,
+    //   renderedSize,
+    //   rawOffset: { 
+    //     x: (containerDimensions.width - renderedSize.width) / 2, 
+    //     y: (containerDimensions.height - renderedSize.height) / 2 
+    //   },
+    //   roundedOffset: result
+    // });
 
     return result;
   }, [sourceImageDimensions, containerDimensions, getRenderedImageSize]);

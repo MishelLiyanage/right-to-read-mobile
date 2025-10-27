@@ -5,6 +5,7 @@ import TextHighlighter from '@/components/TextHighlighter';
 import { ThemedText } from '@/components/ThemedText';
 import WordOverlay from '@/components/WordOverlay';
 import WordPopup from '@/components/WordPopup';
+import { useAnalyticsTracking } from '@/hooks/useAnalyticsTracking';
 import { useImageLayout } from '@/hooks/useImageLayout';
 import { DictionaryService } from '@/services/dictionaryService';
 import { BlockHighlightData, highlightDataService } from '@/services/highlightDataService';
@@ -61,6 +62,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [currentlyPlayingBlockId, setCurrentlyPlayingBlockId] = useState<number | null>(null); // Individual block playback
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
+  
+  // Analytics tracking
+  const { startPageTracking, endPageTracking } = useAnalyticsTracking(book.id, book.title);
   const pageTransition = useRef(new Animated.Value(1)).current;
 
   const ttsService = useRef<TTSService | null>(null);
@@ -72,6 +76,21 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const totalPages = book.pages?.length || 0;
 
 
+
+  // Analytics tracking for page changes
+  useEffect(() => {
+    const currentPageNumber = currentPageIndex + 1; // Convert to 1-based page numbers
+    
+    // console.log(`[BookReader] Page changed to ${currentPageNumber} in book "${book.title}"`);
+    
+    // Start tracking the new page
+    startPageTracking(currentPageNumber);
+    
+    // Cleanup function to end tracking when page changes or component unmounts
+    return () => {
+      endPageTracking(currentPageNumber);
+    };
+  }, [currentPageIndex, book.title, startPageTracking, endPageTracking]);
 
   useEffect(() => {
     // Cleanup previous TTS service
@@ -117,34 +136,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           console.error('TTS Error:', error);
         },
         onBlockStart: async (blockIndex, text) => {
-          console.log(`[BookReader] onBlockStart called:`, {
-            blockIndex,
-            text: text.substring(0, 50) + '...',
-            currentPageNumber: currentPage?.pageNumber,
-            bookTitle: book.title,
-            totalBlocks: currentPage?.blocks?.length
-          });
-          
           setCurrentBlockIndex(blockIndex);
           
           // Load highlighting data for current block
           const blockId = currentPage?.blocks?.[blockIndex]?.id;
-          console.log(`[BookReader] Loading highlight data for:`, {
-            blockId,
-            pageNumber: currentPage?.pageNumber,
-            bookTitle: book.title,
-            blockExists: !!currentPage?.blocks?.[blockIndex]
-          });
           
-          if (blockId !== null && blockId !== undefined) {
+          if (blockId !== null && blockId !== undefined && currentPage) {
             try {
               const highlightData = await highlightDataService.getBlockHighlightData(blockId, currentPage.pageNumber, book.title);
-              console.log(`[BookReader] Highlight data loaded:`, {
-                hasData: !!highlightData,
-                wordsCount: highlightData?.words?.length || 0,
-                blockId,
-                pageNumber: currentPage.pageNumber
-              });
               setCurrentBlockHighlightData(highlightData);
             } catch (error) {
               console.error('[BookReader] Failed to load highlight data:', error);
@@ -188,25 +187,12 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   // Calculate word positions when image layout is ready
   useEffect(() => {
     const calculateWordLayout = async () => {
-      console.log('[BookReader] Starting word layout calculation:', {
-        hasCurrentPage: !!currentPage,
-        hasBlocks: !!currentPage?.blocks,
-        blockCount: currentPage?.blocks?.length || 0,
-        hasContainerDimensions: !!containerDimensions,
-        hasSourceImageDimensions: !!sourceImageDimensions,
-        isDictionarySidebarVisible,
-        isTOCSidebarVisible,
-        isWordPopupVisible
-      });
-
       // Skip calculation if other overlays are visible or in debug mode
       if (isDictionarySidebarVisible || isTOCSidebarVisible || isWordPopupVisible) {
-        console.log('[BookReader] Skipping word layout - overlay visible');
         return;
       }
 
       if (!currentPage?.blocks || !containerDimensions || !sourceImageDimensions) {
-        console.log('[BookReader] Missing required data for word layout');
         setWordLayoutData(null);
         return;
       }
@@ -215,15 +201,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
         const renderedImageSize = getRenderedImageSize();
         const imageOffset = getImageOffset();
         
-        console.log('[BookReader] Image layout data:', {
-          renderedImageSize,
-          imageOffset,
-          containerDimensions,
-          sourceImageDimensions
-        });
-        
         if (!renderedImageSize || !imageOffset) {
-          console.log('[BookReader] Missing image layout data');
           return;
         }
 
@@ -238,16 +216,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               renderedImageSize,
               imageOffset
             );
-
-            console.log('[BookReader] Word layout calculated:', {
-              pageNumber: currentPage.pageNumber,
-              totalWords: layoutData.totalWords,
-              wordsWithPositions: layoutData.words.length,
-              firstFewWords: layoutData.words.slice(0, 3).map(w => ({
-                word: w.word,
-                position: w.position
-              }))
-            });
 
             setWordLayoutData(layoutData);
             
@@ -402,14 +370,14 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   // };
 
   const handleBlockPlay = async (blockId: number, blockText: string) => {
-    console.log(`[BookReader] handleBlockPlay called:`, {
-      blockId,
-      blockText: blockText.substring(0, 50) + '...',
-      bookTitle: book.title,
-      currentPage: currentPageIndex,
-      currentBlocks: currentPage?.blocks?.length || 0,
-      ttsServiceExists: !!ttsService.current
-    });
+    // console.log(`[BookReader] handleBlockPlay called:`, {
+    //   blockId,
+    //   blockText: blockText.substring(0, 50) + '...',
+    //   bookTitle: book.title,
+    //   currentPage: currentPageIndex,
+    //   currentBlocks: currentPage?.blocks?.length || 0,
+    //   ttsServiceExists: !!ttsService.current
+    // });
     
     if (!ttsService.current) {
       console.error('[BookReader] No TTS service available');
@@ -420,7 +388,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
     try {
       // If the same block is currently playing, stop it
       if (currentlyPlayingBlockId === blockId) {
-        console.log(`[BookReader] Stopping currently playing block ${blockId}`);
+        // console.log(`[BookReader] Stopping currently playing block ${blockId}`);
         await ttsService.current.stop();
         setCurrentlyPlayingBlockId(null);
         return;
@@ -428,10 +396,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
       // Stop any current playback (both full page and individual block)
       if (isPlaying || currentlyPlayingBlockId !== null) {
-        console.log(`[BookReader] Stopping previous playback`, {
-          isPlaying,
-          currentlyPlayingBlockId
-        });
+        // console.log(`[BookReader] Stopping previous playback`, {
+        //   isPlaying,
+        //   currentlyPlayingBlockId
+        // });
         await ttsService.current.stop();
         setIsPlaying(false);
         setIsPaused(false);
@@ -439,7 +407,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       }
 
       // Start playing the specific block
-      console.log(`[BookReader] Starting playback for block ${blockId}`);
+      // console.log(`[BookReader] Starting playback for block ${blockId}`);
       setCurrentlyPlayingBlockId(blockId);
       
       await ttsService.current.playSpecificBlock(blockId);
@@ -670,7 +638,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
               
               // Ensure sourceImageDimensions is available for accurate coordinate scaling
               if (!renderedImageSize || !imageOffset || !sourceImageDimensions) {
-                console.log('[BookReader] Using fallback calculation - hook data not ready');
                 const availableWidth = screenWidth - SIDEBAR_WIDTH;
                 const availableHeight = screenHeight;
                 // Use fallback dimensions if sourceImageDimensions not available yet
@@ -726,14 +693,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                           for (const [trimmedBlockId, trimmedBlock] of Object.entries(pageBlocksData)) {
                             if (trimmedBlock.text && block.text && trimmedBlock.text.trim() === block.text.trim()) {
                               matchingBlockData = trimmedBlock;
-                              console.log(`[BookReader] Matched block ${block.id} "${block.text.substring(0, 30)}" with trimmed block ${trimmedBlockId}`);
                               break;
                             }
                           }
-                        }
-                        
-                        if (!matchingBlockData) {
-                          console.log(`[BookReader] No match found for block ${block.id} "${block.text.substring(0, 30)}"`);
                         }
                         
                         return {
@@ -751,17 +713,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                         const { AudioResolver } = require('@/services/audioResolver');
                         const hasAudio = AudioResolver.resolveAudio(currentPage.pageNumber, block.id.toString(), book.title);
                         if (hasAudio) {
-                          console.log(`[BookReader] Block ${block.id} has audio but no bounding boxes - including anyway`);
                           return true;
                         }
                         
-                        console.log(`[BookReader] Block ${block.id} has no bounding boxes and no audio - excluding`);
                         return false;
-                      });
-
-                      console.log(`[BookReader] Blocks before/after filtering:`, {
-                        originalBlocks: currentPage.blocks.map(b => ({ id: b.id, text: b.text.substring(0, 20) })),
-                        filteredBlocks: blocksWithBounds.map(b => ({ id: b.id, text: b.text.substring(0, 20) }))
                       });
 
                       return (
@@ -778,16 +733,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                   </>
                 );
               }
-              
-              // Debug logging to verify consistent calculations
-              console.log('[BookReader] Using Hook-Based Calculations:', {
-                renderedImageSize,
-                imageOffset,
-                sourceImageDimensions,
-                containerDimensions,
-                screenWidth,
-                screenHeight
-              });
               
               return (
                 <>
@@ -847,11 +792,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                       const { AudioResolver } = require('@/services/audioResolver');
                       const hasAudio = AudioResolver.resolveAudio(currentPage.pageNumber, block.id.toString(), book.title);
                       if (hasAudio) {
-                        console.log(`[BookReader] Block ${block.id} has audio but no bounding boxes - including anyway`);
                         return true;
                       }
                       
-                      console.log(`[BookReader] Block ${block.id} has no bounding boxes and no audio - excluding`);
                       return false;
                     });
 

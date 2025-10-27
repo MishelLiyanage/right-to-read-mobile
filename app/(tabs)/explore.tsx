@@ -17,7 +17,7 @@ export default function RecentScreen() {
     // Add book to recent books when clicked (moves it to top)
     try {
       await addRecentBook(book);
-
+      console.log(`[RecentScreen] Book "${book.title}" opened by user`);
     } catch (error) {
       console.error('Failed to update book in recent:', error);
     }

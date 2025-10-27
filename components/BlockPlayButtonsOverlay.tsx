@@ -27,13 +27,13 @@ export default function BlockPlayButtonsOverlay({
   const coordinateScaler = React.useMemo(() => {
     if (originalPageSize && renderedImageSize) {
       // Log detailed environment info for debugging
-      console.log('[BlockPlayButtons] Environment Info:', {
-        screenData: Dimensions.get('screen'),
-        windowData: Dimensions.get('window'),
-        originalPageSize,
-        renderedImageSize,
-        imageOffset
-      });
+      // console.log('[BlockPlayButtons] Environment Info:', {
+      //   screenData: Dimensions.get('screen'),
+      //   windowData: Dimensions.get('window'),
+      //   originalPageSize,
+      //   renderedImageSize,
+      //   imageOffset
+      // });
       
       return new CoordinateScaler(originalPageSize, renderedImageSize);
     }
@@ -42,16 +42,16 @@ export default function BlockPlayButtonsOverlay({
 
   const renderBlockPlayButtons = () => {
     if (!coordinateScaler) {
-      console.log('[BlockPlayButtons] No coordinate scaler available');
+      // console.log('[BlockPlayButtons] No coordinate scaler available');
       return null;
     }
 
-    console.log('[BlockPlayButtons] Rendering buttons for blocks:', {
-      totalBlocks: blocks.length,
-      blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length,
-      blockIds: blocks.map(b => b.id),
-      blockTexts: blocks.map(b => b.text.substring(0, 20) + '...')
-    });
+    // console.log('[BlockPlayButtons] Rendering buttons for blocks:', {
+    //   totalBlocks: blocks.length,
+    //   blocksWithBounds: blocks.filter(b => b.bounding_boxes && b.bounding_boxes.length > 0).length,
+    //   blockIds: blocks.map(b => b.id),
+    //   blockTexts: blocks.map(b => b.text.substring(0, 20) + '...')
+    // });
 
     return blocks.map((block) => {
       // Handle blocks without bounding boxes by providing a default position
@@ -121,14 +121,14 @@ export default function BlockPlayButtonsOverlay({
       
       // Debug logging for production troubleshooting
       if (__DEV__) {
-        console.log(`[BlockPlayButtons] Block ${block.id} Position:`, {
-          originalBounds: { minX, minY, maxX, maxY },
-          scaledBounds: { scaledTopLeft, scaledBottomRight },
-          imageOffset,
-          finalPosition: position,
-          renderedImageSize,
-          originalPageSize
-        });
+        // console.log(`[BlockPlayButtons] Block ${block.id} Position:`, {
+        //   originalBounds: { minX, minY, maxX, maxY },
+        //   scaledBounds: { scaledTopLeft, scaledBottomRight },
+        //   imageOffset,
+        //   finalPosition: position,
+        //   renderedImageSize,
+        //   originalPageSize
+        // });
       }
 
       return (

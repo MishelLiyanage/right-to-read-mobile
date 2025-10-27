@@ -3,10 +3,11 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, View } from 'react-native';
+import { ActivityIndicator, AppState, AppStateStatus, View } from 'react-native';
 
 import DeviceRegistration from '@/components/DeviceRegistration';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { AnalyticsService } from '@/services/analyticsService';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
 
 export default function RootLayout() {
@@ -19,7 +20,51 @@ export default function RootLayout() {
 
   useEffect(() => {
     checkRegistrationStatus();
+    initializeAnalytics();
+    setupAppStateListener();
   }, []);
+
+  const initializeAnalytics = async () => {
+    try {
+      const analyticsService = AnalyticsService.getInstance();
+      await analyticsService.initialize();
+      console.log('[RootLayout] Analytics service initialized');
+    } catch (error) {
+      console.error('[RootLayout] Failed to initialize analytics service:', error);
+    }
+  };
+
+  const setupAppStateListener = () => {
+    const analyticsService = AnalyticsService.getInstance();
+    let currentAppState = AppState.currentState;
+
+    const handleAppStateChange = (nextAppState: AppStateStatus) => {
+      console.log(`[RootLayout] App state changed: ${currentAppState} -> ${nextAppState}`);
+      
+      if (currentAppState.match(/inactive|background/) && nextAppState === 'active') {
+        // App came to foreground
+        console.log('[RootLayout] App came to foreground - resuming analytics');
+        analyticsService.resumeAllSessions().catch(error => {
+          console.error('[RootLayout] Error resuming analytics sessions:', error);
+        });
+      } else if (currentAppState === 'active' && nextAppState.match(/inactive|background/)) {
+        // App went to background
+        console.log('[RootLayout] App went to background - pausing analytics');
+        analyticsService.pauseAllSessions().catch(error => {
+          console.error('[RootLayout] Error pausing analytics sessions:', error);
+        });
+      }
+      
+      currentAppState = nextAppState;
+    };
+
+    const subscription = AppState.addEventListener('change', handleAppStateChange);
+
+    // Cleanup function
+    return () => {
+      subscription?.remove();
+    };
+  };
 
   const checkRegistrationStatus = async () => {
     try {
