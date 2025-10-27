@@ -1,4 +1,4 @@
-import { AnalyticsApiService } from '@/services/analyticsApiService';
+import { syncAnalytics } from '@/services/analyticsApiService';
 import { AnalyticsService } from '@/services/analyticsService';
 import React, { useEffect, useState } from 'react';
 import {
@@ -79,7 +79,7 @@ export default function AnalyticsSyncDialog({
       console.log('[AnalyticsSyncDialog] Starting sync with server...');
       
       // Sync with server
-      const syncResult = await AnalyticsApiService.syncAnalytics(schoolAnalytics);
+      const syncResult = await syncAnalytics(schoolAnalytics);
       
       if (syncResult.success) {
         // Mark data as synced locally

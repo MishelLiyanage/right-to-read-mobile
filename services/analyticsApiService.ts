@@ -7,14 +7,13 @@ export interface SyncResponse {
   recordsProcessed?: number;
 }
 
-export class AnalyticsApiService {
-  private static readonly BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://your-api-server.com/api';
-  private static readonly SYNC_ENDPOINT = '/analytics/sync';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://your-api-server.com/api';
+const SYNC_ENDPOINT = '/analytics/sync';
 
-  /**
-   * Sync analytics data with the server
-   */
-  static async syncAnalytics(schoolAnalytics: SchoolAnalytics): Promise<SyncResponse> {
+/**
+ * Sync analytics data with the server
+ */
+export async function syncAnalytics(schoolAnalytics: SchoolAnalytics): Promise<SyncResponse> {
     try {
       console.log('[AnalyticsApiService] Starting sync process:', {
         schoolName: schoolAnalytics.schoolName,
@@ -46,7 +45,7 @@ export class AnalyticsApiService {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
 
-      const response = await fetch(`${this.BASE_URL}${this.SYNC_ENDPOINT}`, {
+      const response = await fetch(`${BASE_URL}${SYNC_ENDPOINT}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -90,58 +89,57 @@ export class AnalyticsApiService {
     }
   }
 
-  /**
-   * Test connection to the analytics server
-   */
-  static async testConnection(): Promise<boolean> {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+/**
+ * Test connection to the analytics server
+ */
+export async function testConnection(): Promise<boolean> {
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
 
-      const response = await fetch(`${this.BASE_URL}/health`, {
-        method: 'GET',
-        signal: controller.signal,
-      });
+    const response = await fetch(`${BASE_URL}/health`, {
+      method: 'GET',
+      signal: controller.signal,
+    });
 
-      clearTimeout(timeoutId);
-      
-      return response.ok;
-    } catch (error) {
-      console.error('[AnalyticsApiService] Connection test failed:', error);
-      return false;
-    }
+    clearTimeout(timeoutId);
+    
+    return response.ok;
+  } catch (error) {
+    console.error('[AnalyticsApiService] Connection test failed:', error);
+    return false;
   }
+}
 
-  /**
-   * Get sync status from server for a specific school
-   */
-  static async getSyncStatus(serialNumber: string): Promise<{
-    lastSyncTime?: number;
-    totalRecords: number;
-    schoolName?: string;
-  } | null> {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
+/**
+ * Get sync status from server for a specific school
+ */
+export async function getSyncStatus(serialNumber: string): Promise<{
+  lastSyncTime?: number;
+  totalRecords: number;
+  schoolName?: string;
+} | null> {
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
 
-      const response = await fetch(`${this.BASE_URL}/analytics/status/${serialNumber}`, {
-        method: 'GET',
-        headers: {
-          'X-School-Serial': serialNumber,
-        },
-        signal: controller.signal,
-      });
+    const response = await fetch(`${BASE_URL}/analytics/status/${serialNumber}`, {
+      method: 'GET',
+      headers: {
+        'X-School-Serial': serialNumber,
+      },
+      signal: controller.signal,
+    });
 
-      clearTimeout(timeoutId);
+    clearTimeout(timeoutId);
 
-      if (!response.ok) {
-        return null;
-      }
-
-      return await response.json();
-    } catch (error) {
-      console.error('[AnalyticsApiService] Failed to get sync status:', error);
+    if (!response.ok) {
       return null;
     }
+
+    return await response.json();
+  } catch (error) {
+    console.error('[AnalyticsApiService] Failed to get sync status:', error);
+    return null;
   }
 }

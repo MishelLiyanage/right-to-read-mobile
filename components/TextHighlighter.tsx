@@ -44,15 +44,6 @@ export default function TextHighlighter({
   // Initialize coordinate scaler when dimensions are available
   useEffect(() => {
     if (originalPageSize && renderedImageSize) {
-      // Log environment details for debugging coordinate shifts
-      console.log('[TextHighlighter] Environment Info:', {
-        screenData: Dimensions.get('screen'),
-        windowData: Dimensions.get('window'),
-        originalPageSize,
-        renderedImageSize,
-        imageOffset
-      });
-      
       const scaler = new CoordinateScaler(originalPageSize, renderedImageSize);
       setCoordinateScaler(scaler);
     }
@@ -84,22 +75,8 @@ export default function TextHighlighter({
 
   const renderWordHighlights = () => {
     if (!blockData.bounding_boxes || !speechMarks.length || !coordinateScaler) {
-      console.log('[TextHighlighter] Missing required data:', {
-        hasBoundingBoxes: !!blockData.bounding_boxes,
-        speechMarksLength: speechMarks.length,
-        hasCoordinateScaler: !!coordinateScaler
-      });
       return null;
     }
-
-    console.log('[TextHighlighter] Rendering highlights:', {
-      blockId: blockData.id,
-      speechMarksCount: speechMarks.length,
-      boundingBoxesCount: blockData.bounding_boxes.length,
-      currentWordIndex,
-      isPlaying,
-      currentTime
-    });
 
     return speechMarks.map((speechMark, index) => {
       const isCurrentWord = index === currentWordIndex;
@@ -108,7 +85,6 @@ export default function TextHighlighter({
       // Get bounding box for this word
       const boundingBox = blockData.bounding_boxes[index];
       if (!boundingBox || !boundingBox[0]) {
-        console.warn(`[TextHighlighter] No bounding box for word ${index}:`, speechMark.value);
         return null;
       }
 
@@ -125,17 +101,6 @@ export default function TextHighlighter({
       if (width <= 0 || height <= 0) {
         console.warn(`[TextHighlighter] Invalid dimensions for word "${speechMark.value}":`, { width, height, left, top });
         return null;
-      }
-
-      if (__DEV__ && index < 5) {
-        console.log(`[TextHighlighter] Rendering highlight for "${speechMark.value}":`, {
-          index,
-          isCurrentWord,
-          isPassedWord,
-          position: { left, top, width, height },
-          originalBox: boundingBox,
-          scaledBox
-        });
       }
 
       return (
