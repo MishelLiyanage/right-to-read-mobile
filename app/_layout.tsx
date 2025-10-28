@@ -7,8 +7,8 @@ import { ActivityIndicator, AppState, AppStateStatus, View } from 'react-native'
 
 import DeviceRegistration from '@/components/DeviceRegistration';
 import { useColorScheme } from '@/hooks/useColorScheme';
-import { AnalyticsService } from '@/services/analyticsService';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
+import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -26,16 +26,16 @@ export default function RootLayout() {
 
   const initializeAnalytics = async () => {
     try {
-      const analyticsService = AnalyticsService.getInstance();
+      const analyticsService = FirebaseAnalyticsService.getInstance();
       await analyticsService.initialize();
-      console.log('[RootLayout] Analytics service initialized');
+      console.log('[RootLayout] Firebase Analytics service initialized');
     } catch (error) {
-      console.error('[RootLayout] Failed to initialize analytics service:', error);
+      console.error('[RootLayout] Failed to initialize Firebase analytics service:', error);
     }
   };
 
   const setupAppStateListener = () => {
-    const analyticsService = AnalyticsService.getInstance();
+    const analyticsService = FirebaseAnalyticsService.getInstance();
     let currentAppState = AppState.currentState;
 
     const handleAppStateChange = (nextAppState: AppStateStatus) => {
@@ -44,13 +44,13 @@ export default function RootLayout() {
       if (currentAppState.match(/inactive|background/) && nextAppState === 'active') {
         // App came to foreground
         console.log('[RootLayout] App came to foreground - resuming analytics');
-        analyticsService.resumeAllSessions().catch(error => {
+        analyticsService.resumeAllSessions().catch((error: any) => {
           console.error('[RootLayout] Error resuming analytics sessions:', error);
         });
       } else if (currentAppState === 'active' && nextAppState.match(/inactive|background/)) {
         // App went to background
         console.log('[RootLayout] App went to background - pausing analytics');
-        analyticsService.pauseAllSessions().catch(error => {
+        analyticsService.pauseAllSessions().catch((error: any) => {
           console.error('[RootLayout] Error pausing analytics sessions:', error);
         });
       }

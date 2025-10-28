@@ -2,8 +2,8 @@ import { DeviceRegistrationData, DeviceRegistrationService } from '@/services/de
 import { useEffect, useState } from 'react';
 
 interface AnalyticsData {
-  grade: string;
-  className: string;
+  schoolName: string;
+  serialNumber: string;
 }
 
 export function useDeviceRegistration() {
@@ -97,8 +97,8 @@ export function useAnalytics() {
     if (analyticsData) {
       const fullEventData = {
         ...eventData,
-        userGrade: analyticsData.grade,
-        userClass: analyticsData.className,
+        schoolName: analyticsData.schoolName,
+        serialNumber: analyticsData.serialNumber,
         timestamp: new Date().toISOString(),
       };
       

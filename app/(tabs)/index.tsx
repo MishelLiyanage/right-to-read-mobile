@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner';
 import BookReader from '@/components/BookReader';
 import BooksSection from '@/components/BooksSection';
+import FirebaseDebugPanel from '@/components/FirebaseDebugPanel';
 import Header from '@/components/Header';
 import SearchBar from '@/components/SearchBar';
 import { ThemedText } from '@/components/ThemedText';
@@ -184,10 +185,10 @@ export default function BooksScreen() {
                   Current Registration:
                 </ThemedText>
                 <ThemedText style={styles.debugText}>
-                  Grade: {analyticsData.grade}
+                  School: {analyticsData.schoolName}
                 </ThemedText>
                 <ThemedText style={styles.debugText}>
-                  Class: {analyticsData.className}
+                  Serial: {analyticsData.serialNumber}
                 </ThemedText>
               </View>
             )}
@@ -200,6 +201,9 @@ export default function BooksScreen() {
                 Clear Registration (Test)
               </ThemedText>
             </TouchableOpacity>
+
+            {/* Firebase Debug Panel */}
+            <FirebaseDebugPanel />
           </View>
         )}
       </ScrollView>

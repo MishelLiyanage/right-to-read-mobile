@@ -1,38 +1,31 @@
-import { syncAnalytics } from '@/services/analyticsApiService';
-import { AnalyticsService } from '@/services/analyticsService';
+import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
+import { FirebaseAnalyticsSummary } from '@/types/firebase';
 import React, { useEffect, useState } from 'react';
 import {
     ActivityIndicator,
-    Alert,
     Modal,
     StyleSheet,
     Text,
     TouchableOpacity,
-    View,
+    View
 } from 'react-native';
 
 interface AnalyticsSyncDialogProps {
   visible: boolean;
   onClose: () => void;
-  onSyncComplete?: () => void;
-}
-
-interface AnalyticsSummary {
-  pendingCount: number;
-  lastSyncTime?: number;
-  totalBooks: number;
-  totalActiveTime: number;
+  onRefreshComplete?: () => void;
 }
 
 export default function AnalyticsSyncDialog({
   visible,
   onClose,
-  onSyncComplete,
+  onRefreshComplete,
 }: AnalyticsSyncDialogProps) {
   const [isLoading, setIsLoading] = useState(false);
-  const [isSyncing, setIsSyncing] = useState(false);
-  const [analyticsSummary, setAnalyticsSummary] = useState<AnalyticsSummary | null>(null);
-  const [syncError, setSyncError] = useState<string | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [analyticsSummary, setAnalyticsSummary] = useState<FirebaseAnalyticsSummary | null>(null);
+  const [connectionStatus, setConnectionStatus] = useState<string>('checking');
+  const [error, setError] = useState<string | null>(null);
 
   // Load analytics summary when dialog opens
   useEffect(() => {
@@ -43,82 +36,34 @@ export default function AnalyticsSyncDialog({
 
   const loadAnalyticsSummary = async () => {
     setIsLoading(true);
-    setSyncError(null);
+    setError(null);
     
     try {
-      const analyticsService = AnalyticsService.getInstance();
+      const analyticsService = FirebaseAnalyticsService.getInstance();
+      
+      // Check connection status
+      const isConnected = analyticsService.isConnected();
+      setConnectionStatus(isConnected ? 'connected' : 'offline');
+      
+      // Load summary
       const summary = await analyticsService.getAnalyticsSummary();
       setAnalyticsSummary(summary);
+      
+      console.log('[AnalyticsSyncDialog] Analytics summary loaded:', summary);
     } catch (error) {
       console.error('[AnalyticsSyncDialog] Error loading analytics summary:', error);
-      setSyncError('Failed to load analytics data');
+      setError('Failed to load analytics data');
+      setConnectionStatus('error');
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleSync = async () => {
-    if (!analyticsSummary || analyticsSummary.pendingCount === 0) {
-      Alert.alert('No Data', 'No pending analytics data to sync.');
-      return;
-    }
-
-    setIsSyncing(true);
-    setSyncError(null);
-
-    try {
-      const analyticsService = AnalyticsService.getInstance();
-      
-      // Prepare data for sync
-      const schoolAnalytics = await analyticsService.prepareSyncData();
-      
-      if (!schoolAnalytics) {
-        throw new Error('Failed to prepare sync data. Please ensure device is registered.');
-      }
-
-      console.log('[AnalyticsSyncDialog] Starting sync with server...');
-      
-      // Sync with server
-      const syncResult = await syncAnalytics(schoolAnalytics);
-      
-      if (syncResult.success) {
-        // Mark data as synced locally
-        await analyticsService.markDataAsSynced();
-        
-        console.log('[AnalyticsSyncDialog] Sync completed successfully');
-        
-        Alert.alert(
-          'Sync Successful',
-          `Successfully synced ${syncResult.recordsProcessed || 'all'} analytics records.`,
-          [
-            {
-              text: 'OK',
-              onPress: () => {
-                onSyncComplete?.();
-                onClose();
-              },
-            },
-          ]
-        );
-
-        // Refresh summary
-        await loadAnalyticsSummary();
-      } else {
-        throw new Error(syncResult.message || 'Sync failed');
-      }
-    } catch (error) {
-      console.error('[AnalyticsSyncDialog] Sync failed:', error);
-      const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
-      setSyncError(errorMessage);
-      
-      Alert.alert(
-        'Sync Failed',
-        errorMessage,
-        [{ text: 'OK' }]
-      );
-    } finally {
-      setIsSyncing(false);
-    }
+  const handleRefresh = async () => {
+    setIsRefreshing(true);
+    await loadAnalyticsSummary();
+    onRefreshComplete?.();
+    setIsRefreshing(false);
   };
 
   const formatTime = (milliseconds: number): string => {
@@ -165,11 +110,11 @@ export default function AnalyticsSyncDialog({
       <View style={styles.overlay}>
         <View style={styles.dialog}>
           <View style={styles.header}>
-            <Text style={styles.title}>Analytics Sync</Text>
+            <Text style={styles.title}>Firebase Analytics</Text>
             <TouchableOpacity
               style={styles.closeButton}
               onPress={onClose}
-              disabled={isSyncing}
+              disabled={isRefreshing}
             >
               <Text style={styles.closeButtonText}>×</Text>
             </TouchableOpacity>
@@ -182,13 +127,35 @@ export default function AnalyticsSyncDialog({
             </View>
           ) : (
             <View style={styles.content}>
+              {/* Connection Status */}
+              <View style={styles.statusContainer}>
+                <View style={styles.summaryRow}>
+                  <Text style={styles.summaryLabel}>Firebase Status:</Text>
+                  <View style={styles.statusIndicator}>
+                    <View 
+                      style={[
+                        styles.statusDot, 
+                        connectionStatus === 'connected' && styles.statusConnected,
+                        connectionStatus === 'offline' && styles.statusOffline,
+                        connectionStatus === 'error' && styles.statusError,
+                      ]} 
+                    />
+                    <Text style={[
+                      styles.statusText,
+                      connectionStatus === 'connected' && styles.statusTextConnected,
+                      connectionStatus === 'offline' && styles.statusTextOffline,
+                    ]}>
+                      {connectionStatus === 'connected' && 'Online - Auto Sync'}
+                      {connectionStatus === 'offline' && 'Offline - Will Sync Later'}
+                      {connectionStatus === 'error' && 'Connection Error'}
+                      {connectionStatus === 'checking' && 'Checking...'}
+                    </Text>
+                  </View>
+                </View>
+              </View>
+
               {analyticsSummary && (
                 <View style={styles.summaryContainer}>
-                  <View style={styles.summaryRow}>
-                    <Text style={styles.summaryLabel}>Pending Records:</Text>
-                    <Text style={styles.summaryValue}>{analyticsSummary.pendingCount}</Text>
-                  </View>
-                  
                   <View style={styles.summaryRow}>
                     <Text style={styles.summaryLabel}>Total Books:</Text>
                     <Text style={styles.summaryValue}>{analyticsSummary.totalBooks}</Text>
@@ -200,19 +167,36 @@ export default function AnalyticsSyncDialog({
                       {formatTime(analyticsSummary.totalActiveTime)}
                     </Text>
                   </View>
+
+                  <View style={styles.summaryRow}>
+                    <Text style={styles.summaryLabel}>Total Sessions:</Text>
+                    <Text style={styles.summaryValue}>{analyticsSummary.totalSessions}</Text>
+                  </View>
                   
                   <View style={styles.summaryRow}>
-                    <Text style={styles.summaryLabel}>Last Sync:</Text>
+                    <Text style={styles.summaryLabel}>Last Updated:</Text>
                     <Text style={styles.summaryValue}>
-                      {formatLastSyncTime(analyticsSummary.lastSyncTime)}
+                      {formatLastSyncTime(analyticsSummary.lastUpdated.toMillis())}
                     </Text>
                   </View>
+
+                  {analyticsSummary.mostAccessedBooks.length > 0 && (
+                    <View style={styles.booksContainer}>
+                      <Text style={styles.booksTitle}>Most Read Books:</Text>
+                      {analyticsSummary.mostAccessedBooks.slice(0, 3).map((book, index) => (
+                        <View key={book.bookId} style={styles.bookRow}>
+                          <Text style={styles.bookTitle}>{index + 1}. {book.bookTitle}</Text>
+                          <Text style={styles.bookTime}>{formatTime(book.totalTime)}</Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
                 </View>
               )}
 
-              {syncError && (
+              {error && (
                 <View style={styles.errorContainer}>
-                  <Text style={styles.errorText}>{syncError}</Text>
+                  <Text style={styles.errorText}>{error}</Text>
                 </View>
               )}
 
@@ -220,32 +204,26 @@ export default function AnalyticsSyncDialog({
                 <TouchableOpacity
                   style={styles.cancelButton}
                   onPress={onClose}
-                  disabled={isSyncing}
+                  disabled={isRefreshing}
                 >
-                  <Text style={styles.cancelButtonText}>Cancel</Text>
+                  <Text style={styles.cancelButtonText}>Close</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                   style={[
                     styles.syncButton,
-                    (isSyncing || !analyticsSummary || analyticsSummary.pendingCount === 0) &&
-                      styles.syncButtonDisabled,
+                    isRefreshing && styles.syncButtonDisabled,
                   ]}
-                  onPress={handleSync}
-                  disabled={isSyncing || !analyticsSummary || analyticsSummary.pendingCount === 0}
+                  onPress={handleRefresh}
+                  disabled={isRefreshing}
                 >
-                  {isSyncing ? (
+                  {isRefreshing ? (
                     <View style={styles.syncButtonContent}>
                       <ActivityIndicator size="small" color="#fff" />
-                      <Text style={styles.syncButtonText}>Syncing...</Text>
+                      <Text style={styles.syncButtonText}>Refreshing...</Text>
                     </View>
                   ) : (
-                    <Text style={styles.syncButtonText}>
-                      Sync Analytics
-                      {analyticsSummary && analyticsSummary.pendingCount > 0
-                        ? ` (${analyticsSummary.pendingCount})`
-                        : ''}
-                    </Text>
+                    <Text style={styles.syncButtonText}>Refresh Data</Text>
                   )}
                 </TouchableOpacity>
               </View>
@@ -372,5 +350,70 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#fff',
     fontWeight: '600',
+  },
+  statusContainer: {
+    marginBottom: 16,
+    backgroundColor: '#f8f9fa',
+    borderRadius: 8,
+    padding: 12,
+  },
+  statusIndicator: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  statusDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: '#ccc',
+  },
+  statusConnected: {
+    backgroundColor: '#4caf50',
+  },
+  statusOffline: {
+    backgroundColor: '#ff9800',
+  },
+  statusError: {
+    backgroundColor: '#f44336',
+  },
+  statusText: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#666',
+  },
+  statusTextConnected: {
+    color: '#4caf50',
+  },
+  statusTextOffline: {
+    color: '#ff9800',
+  },
+  booksContainer: {
+    marginTop: 16,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: '#f0f0f0',
+  },
+  booksTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 8,
+  },
+  bookRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 4,
+  },
+  bookTitle: {
+    fontSize: 14,
+    color: '#666',
+    flex: 1,
+  },
+  bookTime: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#333',
   },
 });

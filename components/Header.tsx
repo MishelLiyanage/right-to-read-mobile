@@ -119,7 +119,7 @@ export default function Header() {
       <AnalyticsSyncDialog
         visible={showAnalyticsSyncDialog}
         onClose={() => setShowAnalyticsSyncDialog(false)}
-        onSyncComplete={handleAnalyticsSyncComplete}
+        onRefreshComplete={handleAnalyticsSyncComplete}
       />
     </View>
   );

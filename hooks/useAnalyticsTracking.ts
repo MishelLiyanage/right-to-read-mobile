@@ -1,4 +1,4 @@
-import { AnalyticsService } from '@/services/analyticsService';
+import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
 import { useCallback, useEffect, useRef } from 'react';
 import { AppState, AppStateStatus } from 'react-native';
 
@@ -12,7 +12,7 @@ export function useAnalyticsTracking(
   bookId: number,
   bookTitle: string
 ): UseAnalyticsTrackingReturn {
-  const analyticsService = useRef(AnalyticsService.getInstance());
+  const analyticsService = useRef(FirebaseAnalyticsService.getInstance());
   const currentPageRef = useRef<number | null>(null);
   const isTrackingRef = useRef<boolean>(false);
   const appStateRef = useRef<AppStateStatus>(AppState.currentState);
@@ -23,7 +23,7 @@ export function useAnalyticsTracking(
       
       // End previous page tracking if exists
       if (currentPageRef.current !== null) {
-        await analyticsService.current.endPageSession(bookId, bookTitle, currentPageRef.current);
+        await analyticsService.current.endPageSession(bookId, currentPageRef.current);
       }
 
       // Start new page tracking
@@ -41,7 +41,7 @@ export function useAnalyticsTracking(
       if (currentPageRef.current === pageNumber && isTrackingRef.current) {
         console.log(`[useAnalyticsTracking] Ending tracking for book ${bookId}, page ${pageNumber}`);
         
-        await analyticsService.current.endPageSession(bookId, bookTitle, pageNumber);
+        await analyticsService.current.endPageSession(bookId, pageNumber);
         currentPageRef.current = null;
         isTrackingRef.current = false;
       }
@@ -81,7 +81,7 @@ export function useAnalyticsTracking(
       if (currentPageRef.current !== null && isTrackingRef.current) {
         console.log('[useAnalyticsTracking] Component unmounting - ending current page tracking');
         // End current session on unmount
-        analyticsService.current.endPageSession(bookId, bookTitle, currentPageRef.current);
+        analyticsService.current.endPageSession(bookId, currentPageRef.current);
       }
     };
   }, [bookId, bookTitle]);
