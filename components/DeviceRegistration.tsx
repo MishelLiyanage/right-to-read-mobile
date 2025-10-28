@@ -4,17 +4,17 @@ import { SchoolValidationService } from '@/services/schoolValidationService';
 import { BlurView } from 'expo-blur';
 import React, { useEffect, useState } from 'react';
 import {
-    ActivityIndicator,
-    Alert,
-    Dimensions,
-    ImageBackground,
-    KeyboardAvoidingView,
-    Platform,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  Alert,
+  Dimensions,
+  ImageBackground,
+  KeyboardAvoidingView,
+  Platform,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 
 interface DeviceRegistrationProps {
@@ -49,15 +49,29 @@ export default function DeviceRegistration({ onRegistrationComplete }: DeviceReg
 
     setIsRegistering(true);
     try {
+      console.log('🔍 [DeviceRegistration] Testing serial number:', serialNumber.trim());
+      
+      // Debug: Get all schools first
+      const allSchools = await SchoolValidationService.getValidSchools();
+      console.log('📚 [DeviceRegistration] Total schools loaded:', allSchools.length);
+      console.log('📚 [DeviceRegistration] First few schools:', allSchools.slice(0, 3));
+      
+      // Debug: Find the specific school
+      const targetSchool = allSchools.find(s => s.serialNumber === serialNumber.trim());
+      console.log('🎯 [DeviceRegistration] Target school found:', targetSchool);
+      
       // Validate serial number and get school name
       const schoolName = await SchoolValidationService.getSchoolNameForSerial(
         serialNumber.trim()
       );
+      
+      console.log('✅ [DeviceRegistration] School name result:', schoolName);
 
       if (!schoolName) {
+        console.log('❌ [DeviceRegistration] Validation failed for serial:', serialNumber.trim());
         Alert.alert(
           'Invalid Serial Number',
-          'The serial number you entered is not valid. Please check your device serial number and try again.',
+          `The serial number '${serialNumber.trim()}' is not valid. Please check your device serial number and try again.`,
           [{ text: 'OK' }]
         );
         setIsRegistering(false);
