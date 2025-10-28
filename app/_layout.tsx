@@ -8,7 +8,7 @@ import { ActivityIndicator, AppState, AppStateStatus, View } from 'react-native'
 import DeviceRegistration from '@/components/DeviceRegistration';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
-import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
+import HybridFirebaseAnalyticsService from '@/services/hybridFirebaseAnalyticsService';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -26,7 +26,7 @@ export default function RootLayout() {
 
   const initializeAnalytics = async () => {
     try {
-      const analyticsService = FirebaseAnalyticsService.getInstance();
+      const analyticsService = HybridFirebaseAnalyticsService.getInstance();
       await analyticsService.initialize();
       console.log('[RootLayout] Firebase Analytics service initialized');
     } catch (error) {
@@ -35,7 +35,7 @@ export default function RootLayout() {
   };
 
   const setupAppStateListener = () => {
-    const analyticsService = FirebaseAnalyticsService.getInstance();
+    const analyticsService = HybridFirebaseAnalyticsService.getInstance();
     let currentAppState = AppState.currentState;
 
     const handleAppStateChange = (nextAppState: AppStateStatus) => {

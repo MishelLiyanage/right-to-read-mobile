@@ -1,5 +1,5 @@
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
-import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
+import HybridFirebaseAnalyticsService from '@/services/hybridFirebaseAnalyticsService';
 import React, { useState } from 'react';
 import { Alert, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { ThemedText } from './ThemedText';
@@ -12,7 +12,7 @@ export default function FirebaseDebugPanel() {
   const handleTestConnection = async () => {
     setIsLoading(true);
     try {
-      const analyticsService = FirebaseAnalyticsService.getInstance();
+      const analyticsService = HybridFirebaseAnalyticsService.getInstance();
       const result = await analyticsService.testFirebaseConnection();
       
       const message = result 
@@ -49,7 +49,7 @@ export default function FirebaseDebugPanel() {
   const handleTestSession = async () => {
     setIsLoading(true);
     try {
-      const analyticsService = FirebaseAnalyticsService.getInstance();
+      const analyticsService = HybridFirebaseAnalyticsService.getInstance();
       
       // Start a test session
       const sessionId = await analyticsService.startPageSession(999, 'Test Book', 1);
@@ -120,7 +120,7 @@ export default function FirebaseDebugPanel() {
 
       <View style={styles.instructions}>
         <ThemedText style={styles.instructionText}>
-          Instructions:
+          Hybrid Analytics Structure:
         </ThemedText>
         <ThemedText style={styles.instructionText}>
           1. First test registration
@@ -132,7 +132,19 @@ export default function FirebaseDebugPanel() {
           3. Finally test a session
         </ThemedText>
         <ThemedText style={styles.instructionText}>
-          4. Check Firebase Console for data
+          4. Check Firebase Console for:
+        </ThemedText>
+        <ThemedText style={styles.instructionText}>
+          • sessions/ - Raw session data
+        </ThemedText>
+        <ThemedText style={styles.instructionText}>
+          • page_analytics/ - Page statistics
+        </ThemedText>
+        <ThemedText style={styles.instructionText}>
+          • book_analytics/ - Book progress
+        </ThemedText>
+        <ThemedText style={styles.instructionText}>
+          • daily_summaries/ - Daily activity
         </ThemedText>
       </View>
     </ThemedView>

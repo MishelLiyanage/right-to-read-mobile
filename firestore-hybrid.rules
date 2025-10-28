@@ -1,0 +1,106 @@
+/**
+ * Firestore Security Rules for Hybrid Analytics Structure
+ * Updated for Option 4 implementation
+ * 
+ * Collections:
+ * - schools/{serialNumber} - School registration info
+ * - sessions/{serialNumber}_{timestamp}_{sessionId} - Raw session data
+ * - page_analytics/{serialNumber}_{bookId}_page_{pageNumber} - Page statistics
+ * - book_analytics/{serialNumber}_{bookId} - Book progress
+ * - daily_summaries/{serialNumber}_{YYYY-MM-DD} - Daily activity
+ */
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isValidSchoolSerial(serial) {
+      return serial is string && serial.size() > 0 && serial.size() <= 50;
+    }
+    
+    function isValidBookId(bookId) {
+      return bookId is number && bookId >= 1 && bookId <= 1000;
+    }
+    
+    function isValidPageNumber(pageNumber) {
+      return pageNumber is number && pageNumber >= 1 && pageNumber <= 1000;
+    }
+    
+    function isValidTimestamp(timestamp) {
+      return timestamp is timestamp;
+    }
+    
+    function getSchoolSerialFromDocId(docId) {
+      return docId.split('_')[0];
+    }
+
+    // Schools collection - Basic school info
+    match /schools/{serialNumber} {
+      allow read, write: if isValidSchoolSerial(serialNumber);
+    }
+    
+    // Sessions collection - Raw session data
+    match /sessions/{sessionDocId} {
+      allow read, write: if isValidSchoolSerial(getSchoolSerialFromDocId(sessionDocId));
+      
+      // Validate session data structure
+      allow write: if request.resource.data.keys().hasAll(['sessionId', 'schoolSerial', 'bookId', 'pageNumber', 'startTime']) &&
+                      request.resource.data.schoolSerial == getSchoolSerialFromDocId(sessionDocId) &&
+                      isValidBookId(request.resource.data.bookId) &&
+                      isValidPageNumber(request.resource.data.pageNumber) &&
+                      isValidTimestamp(request.resource.data.startTime);
+    }
+    
+    // Page Analytics collection
+    match /page_analytics/{pageAnalyticsDocId} {
+      allow read, write: if isValidSchoolSerial(getSchoolSerialFromDocId(pageAnalyticsDocId));
+      
+      // Validate page analytics structure
+      allow write: if request.resource.data.keys().hasAll(['schoolSerial', 'bookId', 'pageNumber']) &&
+                      request.resource.data.schoolSerial == getSchoolSerialFromDocId(pageAnalyticsDocId) &&
+                      isValidBookId(request.resource.data.bookId) &&
+                      isValidPageNumber(request.resource.data.pageNumber);
+    }
+    
+    // Book Analytics collection
+    match /book_analytics/{bookAnalyticsDocId} {
+      allow read, write: if isValidSchoolSerial(getSchoolSerialFromDocId(bookAnalyticsDocId));
+      
+      // Validate book analytics structure
+      allow write: if request.resource.data.keys().hasAll(['schoolSerial', 'bookId', 'bookTitle']) &&
+                      request.resource.data.schoolSerial == getSchoolSerialFromDocId(bookAnalyticsDocId) &&
+                      isValidBookId(request.resource.data.bookId);
+    }
+    
+    // Daily Summaries collection
+    match /daily_summaries/{dailySummaryDocId} {
+      allow read, write: if isValidSchoolSerial(getSchoolSerialFromDocId(dailySummaryDocId));
+      
+      // Validate daily summary structure
+      allow write: if request.resource.data.keys().hasAll(['date', 'schoolSerial']) &&
+                      request.resource.data.schoolSerial == getSchoolSerialFromDocId(dailySummaryDocId);
+    }
+    
+    // Allow access to any test documents for debugging
+    match /test/{document=**} {
+      allow read, write: if true;
+    }
+    
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+/**
+ * Instructions for Firebase Console:
+ * 
+ * 1. Go to Firebase Console → Firestore Database → Rules
+ * 2. Replace the existing rules with the content above
+ * 3. Click "Publish"
+ * 
+ * These rules support the new hybrid structure and are less restrictive
+ * while still maintaining security based on school serial numbers.
+ */

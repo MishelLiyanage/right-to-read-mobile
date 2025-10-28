@@ -122,79 +122,93 @@ export class FirebaseConfig {
 }
 
 /**
- * Firebase Collections Structure
+ * Firebase Collections Structure - Hybrid Approach
  */
 export const FIREBASE_COLLECTIONS = {
   SCHOOLS: 'schools',
-  BOOKS: 'books', 
-  PAGES: 'pages',
   SESSIONS: 'sessions',
-  ANALYTICS_SUMMARY: 'analytics_summary',
+  PAGE_ANALYTICS: 'page_analytics',
+  BOOK_ANALYTICS: 'book_analytics', 
+  DAILY_SUMMARIES: 'daily_summaries',
 } as const;
 
 /**
- * Firestore document paths helper
+ * Firestore document paths helper - Hybrid Approach
  */
 export class FirebasePaths {
+  /**
+   * School info document path
+   */
   static school(serialNumber: string) {
     return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}`;
   }
 
   /**
-   * Get path to school info document
+   * Individual session document path
    */
-  static schoolInfo(serialNumber: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/info/school_info`;
-  }
-
-  static schoolBook(serialNumber: string, bookId: number) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/${FIREBASE_COLLECTIONS.BOOKS}/${bookId}`;
+  static session(serialNumber: string, timestamp: number, sessionId: string) {
+    return `${FIREBASE_COLLECTIONS.SESSIONS}/${serialNumber}_${timestamp}_${sessionId}`;
   }
 
   /**
-   * Get path to book analytics document
+   * Page analytics document path
    */
-  static bookAnalytics(serialNumber: string, bookId: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/analytics/books/${bookId}`;
+  static pageAnalytics(serialNumber: string, bookId: number, pageNumber: number) {
+    return `${FIREBASE_COLLECTIONS.PAGE_ANALYTICS}/${serialNumber}_${bookId}_page_${pageNumber}`;
   }
 
   /**
-   * Get path to book analytics collection
+   * Book analytics document path
    */
-  static bookAnalyticsCollection(serialNumber: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/analytics/books`;
+  static bookAnalytics(serialNumber: string, bookId: number) {
+    return `${FIREBASE_COLLECTIONS.BOOK_ANALYTICS}/${serialNumber}_${bookId}`;
   }
 
   /**
-   * Get path to page analytics document
+   * Daily summary document path
    */
-  static pageAnalytics(serialNumber: string, pageId: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/analytics/pages/${pageId}`;
+  static dailySummary(serialNumber: string, date: string) {
+    return `${FIREBASE_COLLECTIONS.DAILY_SUMMARIES}/${serialNumber}_${date}`;
   }
 
   /**
-   * Get path to page analytics collection
+   * Collection queries helpers
    */
-  static pageAnalyticsCollection(serialNumber: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/analytics/pages`;
+  static sessionsCollection() {
+    return FIREBASE_COLLECTIONS.SESSIONS;
   }
 
-  static schoolPage(serialNumber: string, bookId: number, pageNumber: number) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/${FIREBASE_COLLECTIONS.PAGES}/${bookId}_${pageNumber}`;
+  static pageAnalyticsCollection() {
+    return FIREBASE_COLLECTIONS.PAGE_ANALYTICS;
+  }
+
+  static bookAnalyticsCollection() {
+    return FIREBASE_COLLECTIONS.BOOK_ANALYTICS;
+  }
+
+  static dailySummariesCollection() {
+    return FIREBASE_COLLECTIONS.DAILY_SUMMARIES;
   }
 
   /**
-   * Get path to page session document
+   * Legacy method for backward compatibility (deprecated - use session() instead)
    */
   static pageSession(serialNumber: string, bookId: number, pageNumber: number, sessionId: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/books/${bookId}/pages/${pageNumber}/sessions/${sessionId}`;
+    return `schools/${serialNumber}/books/${bookId}/pages/${pageNumber}/sessions/${sessionId}`;
   }
 
-  static sessionPath(serialNumber: string, sessionId: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/${FIREBASE_COLLECTIONS.SESSIONS}/${sessionId}`;
+  /**
+   * Query filters for collections
+   */
+  static getSchoolSessionsQuery(serialNumber: string) {
+    return { field: '__name__', operator: '>=', value: `${FIREBASE_COLLECTIONS.SESSIONS}/${serialNumber}_` };
   }
 
-  static analyticsSummary(serialNumber: string) {
-    return `${FIREBASE_COLLECTIONS.SCHOOLS}/${serialNumber}/${FIREBASE_COLLECTIONS.ANALYTICS_SUMMARY}/current`;
+  static getSchoolPageAnalyticsQuery(serialNumber: string) {
+    return { field: '__name__', operator: '>=', value: `${FIREBASE_COLLECTIONS.PAGE_ANALYTICS}/${serialNumber}_` };
+  }
+
+  static getSchoolBookAnalyticsQuery(serialNumber: string) {
+    return { field: '__name__', operator: '>=', value: `${FIREBASE_COLLECTIONS.BOOK_ANALYTICS}/${serialNumber}_` };
   }
 }

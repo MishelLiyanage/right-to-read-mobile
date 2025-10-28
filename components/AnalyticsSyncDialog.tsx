@@ -1,4 +1,4 @@
-import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
+import HybridFirebaseAnalyticsService from '@/services/hybridFirebaseAnalyticsService';
 import { FirebaseAnalyticsSummary } from '@/types/firebase';
 import React, { useEffect, useState } from 'react';
 import {
@@ -39,7 +39,7 @@ export default function AnalyticsSyncDialog({
     setError(null);
     
     try {
-      const analyticsService = FirebaseAnalyticsService.getInstance();
+      const analyticsService = HybridFirebaseAnalyticsService.getInstance();
       
       // Check connection status
       const isConnected = analyticsService.isConnected();

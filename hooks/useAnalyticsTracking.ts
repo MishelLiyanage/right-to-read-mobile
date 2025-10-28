@@ -1,4 +1,4 @@
-import FirebaseAnalyticsService from '@/services/firebaseAnalyticsServiceProduction';
+import HybridFirebaseAnalyticsService from '@/services/hybridFirebaseAnalyticsService';
 import { useCallback, useEffect, useRef } from 'react';
 import { AppState, AppStateStatus } from 'react-native';
 
@@ -12,7 +12,7 @@ export function useAnalyticsTracking(
   bookId: number,
   bookTitle: string
 ): UseAnalyticsTrackingReturn {
-  const analyticsService = useRef(FirebaseAnalyticsService.getInstance());
+  const analyticsService = useRef(HybridFirebaseAnalyticsService.getInstance());
   const currentPageRef = useRef<number | null>(null);
   const isTrackingRef = useRef<boolean>(false);
   const appStateRef = useRef<AppStateStatus>(AppState.currentState);
@@ -88,7 +88,7 @@ export function useAnalyticsTracking(
 
   // Initialize analytics service on mount
   useEffect(() => {
-    analyticsService.current.initialize().catch(error => {
+    analyticsService.current.initialize().catch((error: any) => {
       console.error('[useAnalyticsTracking] Failed to initialize analytics service:', error);
     });
   }, []);
