@@ -1,5 +1,20 @@
 import type { SchoolAnalytics, SyncPayload } from '@/types/analytics';
 
+/**
+ * Analytics API Service
+ * 
+ * Handles communication with the backend analytics API.
+ * 
+ * Configuration:
+ * - Set EXPO_PUBLIC_API_URL in .env file to enable backend sync
+ * - If not configured, analytics will be stored locally only
+ * 
+ * Backend Endpoints Required:
+ * - POST /analytics/sync - Receive and store analytics
+ * - GET /analytics/status/:serialNumber - Get sync status
+ * - GET /health - Health check
+ */
+
 export interface SyncResponse {
   success: boolean;
   message: string;
@@ -7,14 +22,27 @@ export interface SyncResponse {
   recordsProcessed?: number;
 }
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://your-api-server.com/api';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || '';
 const SYNC_ENDPOINT = '/analytics/sync';
+
+/**
+ * Check if backend is configured
+ */
+function isBackendConfigured(): boolean {
+  return !!BASE_URL && BASE_URL !== 'http://13.203.27.244:8000/api';
+}
 
 /**
  * Sync analytics data with the server
  */
 export async function syncAnalytics(schoolAnalytics: SchoolAnalytics): Promise<SyncResponse> {
     try {
+      // Check if backend is configured
+      if (!isBackendConfigured()) {
+        console.warn('[AnalyticsApiService] Backend URL not configured. Skipping sync.');
+        throw new Error('Backend not configured. Please set EXPO_PUBLIC_API_URL in your .env file.');
+      }
+
       console.log('[AnalyticsApiService] Starting sync process:', {
         schoolName: schoolAnalytics.schoolName,
         serialNumber: schoolAnalytics.serialNumber,
@@ -94,6 +122,11 @@ export async function syncAnalytics(schoolAnalytics: SchoolAnalytics): Promise<S
  */
 export async function testConnection(): Promise<boolean> {
   try {
+    if (!isBackendConfigured()) {
+      console.warn('[AnalyticsApiService] Backend URL not configured.');
+      return false;
+    }
+
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
 
@@ -120,6 +153,11 @@ export async function getSyncStatus(serialNumber: string): Promise<{
   schoolName?: string;
 } | null> {
   try {
+    if (!isBackendConfigured()) {
+      console.warn('[AnalyticsApiService] Backend URL not configured.');
+      return null;
+    }
+
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
 

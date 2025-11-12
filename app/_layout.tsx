@@ -7,8 +7,9 @@ import { ActivityIndicator, AppState, AppStateStatus, View } from 'react-native'
 
 import DeviceRegistration from '@/components/DeviceRegistration';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { AnalyticsService } from '@/services/analyticsService';
+import AutoSyncService from '@/services/autoSyncService';
 import { DeviceRegistrationService } from '@/services/deviceRegistrationService';
-import HybridFirebaseAnalyticsService from '@/services/hybridFirebaseAnalyticsService';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -22,20 +23,37 @@ export default function RootLayout() {
     checkRegistrationStatus();
     initializeAnalytics();
     setupAppStateListener();
+    setupAutoSync();
   }, []);
 
   const initializeAnalytics = async () => {
     try {
-      const analyticsService = HybridFirebaseAnalyticsService.getInstance();
+      const analyticsService = AnalyticsService.getInstance();
       await analyticsService.initialize();
-      console.log('[RootLayout] Firebase Analytics service initialized');
+      console.log('[RootLayout] Analytics service initialized');
     } catch (error) {
-      console.error('[RootLayout] Failed to initialize Firebase analytics service:', error);
+      console.error('[RootLayout] Failed to initialize analytics service:', error);
     }
   };
 
+  const setupAutoSync = () => {
+    try {
+      const autoSync = AutoSyncService.getInstance();
+      autoSync.startMonitoring();
+      console.log('[RootLayout] Auto-sync service started');
+    } catch (error) {
+      console.error('[RootLayout] Failed to start auto-sync service:', error);
+    }
+
+    // Cleanup function
+    return () => {
+      const autoSync = AutoSyncService.getInstance();
+      autoSync.stopMonitoring();
+    };
+  };
+
   const setupAppStateListener = () => {
-    const analyticsService = HybridFirebaseAnalyticsService.getInstance();
+    const analyticsService = AnalyticsService.getInstance();
     let currentAppState = AppState.currentState;
 
     const handleAppStateChange = (nextAppState: AppStateStatus) => {

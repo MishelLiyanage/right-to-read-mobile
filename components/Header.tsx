@@ -2,7 +2,7 @@ import { useDeviceRegistration } from '@/hooks/useDeviceRegistration';
 import { Image } from 'expo-image';
 import React, { useState } from 'react';
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import AnalyticsSyncDialog from './AnalyticsSyncDialog';
+import { AnalyticsSyncButton } from './AnalyticsSyncButton';
 import PullBooksDialog from './PullBooksDialog';
 
 export default function Header() {
@@ -115,12 +115,28 @@ export default function Header() {
         onSuccess={handlePullBooksSuccess}
       />
       
-      {/* Analytics Sync Dialog */}
-      <AnalyticsSyncDialog
+      {/* Analytics Sync Modal */}
+      <Modal
+        transparent={true}
         visible={showAnalyticsSyncDialog}
-        onClose={() => setShowAnalyticsSyncDialog(false)}
-        onRefreshComplete={handleAnalyticsSyncComplete}
-      />
+        onRequestClose={() => setShowAnalyticsSyncDialog(false)}
+      >
+        <TouchableOpacity 
+          style={styles.modalOverlay} 
+          onPress={() => setShowAnalyticsSyncDialog(false)}
+          activeOpacity={1}
+        >
+          <View style={styles.analyticsModalContent} onStartShouldSetResponder={() => true}>
+            <AnalyticsSyncButton variant="card" showDetails={true} />
+            <TouchableOpacity 
+              style={styles.closeButton}
+              onPress={() => setShowAnalyticsSyncDialog(false)}
+            >
+              <Text style={styles.closeButtonText}>Close</Text>
+            </TouchableOpacity>
+          </View>
+        </TouchableOpacity>
+      </Modal>
     </View>
   );
 }
@@ -208,5 +224,32 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#333',
     fontWeight: '500',
+  },
+  analyticsModalContent: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    padding: 16,
+    minWidth: 300,
+    maxWidth: 400,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 10,
+  },
+  closeButton: {
+    marginTop: 12,
+    backgroundColor: '#F3F4F6',
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  closeButtonText: {
+    fontSize: 16,
+    color: '#374151',
+    fontWeight: '600',
   },
 });

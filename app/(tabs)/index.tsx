@@ -1,7 +1,7 @@
+import { AnalyticsSyncButton } from '@/components/AnalyticsSyncButton';
 import Banner from '@/components/Banner';
 import BookReader from '@/components/BookReader';
 import BooksSection from '@/components/BooksSection';
-import FirebaseDebugPanel from '@/components/FirebaseDebugPanel';
 import Header from '@/components/Header';
 import SearchBar from '@/components/SearchBar';
 import { ThemedText } from '@/components/ThemedText';
@@ -202,8 +202,10 @@ export default function BooksScreen() {
               </ThemedText>
             </TouchableOpacity>
 
-            {/* Firebase Debug Panel */}
-            <FirebaseDebugPanel />
+            {/* Analytics Sync Component */}
+            <View style={styles.analyticsSyncContainer}>
+              <AnalyticsSyncButton variant="card" showDetails={true} />
+            </View>
           </View>
         )}
       </ScrollView>
@@ -317,5 +319,8 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 14,
     fontWeight: '600',
+  },
+  analyticsSyncContainer: {
+    marginTop: 16,
   },
 });
