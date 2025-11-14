@@ -29,7 +29,7 @@ const SYNC_ENDPOINT = '/analytics/sync';
  * Check if backend is configured
  */
 function isBackendConfigured(): boolean {
-  return !!BASE_URL && BASE_URL !== 'http://13.203.27.244:8000/api';
+  return !!BASE_URL && BASE_URL.trim() !== '';
 }
 
 /**
@@ -68,10 +68,11 @@ export async function syncAnalytics(schoolAnalytics: SchoolAnalytics): Promise<S
       console.log('[AnalyticsApiService] Sending sync payload:', {
         size: JSON.stringify(syncPayload).length,
         timestamp: new Date(syncPayload.syncTimestamp).toISOString(),
+        url: `${BASE_URL}${SYNC_ENDPOINT}`,
       });
 
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
+      const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
 
       const response = await fetch(`${BASE_URL}${SYNC_ENDPOINT}`, {
         method: 'POST',
