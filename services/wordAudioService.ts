@@ -13,44 +13,72 @@ export class WordAudioService {
 
   async speakWord(word: string): Promise<void> {
     if (this.isSpeaking) {
-
       await this.stop();
     }
 
-    return new Promise((resolve, reject) => {
-      try {
-        this.isSpeaking = true;
-        
-        Speech.speak(word, {
-          language: 'en-US',
-          pitch: 1.0,
-          rate: 0.75, // Slightly slower for better clarity
-          voice: undefined, // Use default system voice
-          onStart: () => {
-
-          },
-          onDone: () => {
-
-            this.isSpeaking = false;
-            resolve();
-          },
-          onStopped: () => {
-
-            this.isSpeaking = false;
-            resolve();
-          },
-          onError: (error) => {
-            console.error(`Error speaking word "${word}":`, error);
-            this.isSpeaking = false;
-            reject(new Error(`Failed to speak word: ${error}`));
-          }
-        });
-      } catch (error) {
-        this.isSpeaking = false;
-        console.error(`Error initiating speech for word "${word}":`, error);
-        reject(new Error(`Failed to initiate speech: ${error}`));
+    try {
+      this.isSpeaking = true;
+      
+      // Filter out non-alphabetic characters for spelling
+      const letters = word.split('').filter(char => /[a-zA-Z]/.test(char));
+      
+      // Spell out each letter
+      for (let i = 0; i < letters.length; i++) {
+        await this.speakSingleLetter(letters[i]);
+        // Add a small pause between letters (200ms)
+        await this.delay(200);
       }
+      
+      // Add a longer pause before speaking the full word (500ms)
+      await this.delay(500);
+      
+      // Speak the full word
+      await this.speakFullWord(word);
+      
+      this.isSpeaking = false;
+    } catch (error) {
+      this.isSpeaking = false;
+      console.error(`Error in spell-then-speak for word "${word}":`, error);
+      throw new Error(`Failed to speak word: ${error}`);
+    }
+  }
+
+  private async speakSingleLetter(letter: string): Promise<void> {
+    return new Promise((resolve, reject) => {
+      Speech.speak(letter, {
+        language: 'en-US',
+        pitch: 0.9, // Slightly lower pitch for letters
+        rate: 0.6, // Slower rate for individual letters
+        voice: undefined,
+        onDone: () => resolve(),
+        onStopped: () => resolve(),
+        onError: (error) => {
+          console.error(`Error speaking letter "${letter}":`, error);
+          reject(error);
+        }
+      });
     });
+  }
+
+  private async speakFullWord(word: string): Promise<void> {
+    return new Promise((resolve, reject) => {
+      Speech.speak(word, {
+        language: 'en-US',
+        pitch: 0.85, // Lower pitch for full word
+        rate: 0.75,
+        voice: undefined,
+        onDone: () => resolve(),
+        onStopped: () => resolve(),
+        onError: (error) => {
+          console.error(`Error speaking word "${word}":`, error);
+          reject(error);
+        }
+      });
+    });
+  }
+
+  private delay(ms: number): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 
   async stop(): Promise<void> {
