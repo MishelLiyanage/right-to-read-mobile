@@ -532,7 +532,6 @@ export class TrimmedBlocksDataService {
     
     const data = dataMap.get(pageNumber);
     if (data) {
-      console.log(`Found trimmed blocks data for page ${pageNumber} in ${bookTitle || 'Grade 3 book'}:`, Object.keys(data).length, 'blocks');
       return data;
     } else {
       console.warn(`No trimmed blocks data found for page ${pageNumber} in ${bookTitle || 'Grade 3 book'}`);

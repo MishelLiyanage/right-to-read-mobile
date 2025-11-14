@@ -23,10 +23,10 @@ export default function BlockPlayButton({
   onPlay
 }: BlockPlayButtonProps) {
   const handlePress = () => {
-    console.log(`[BlockPlayButton] Button pressed for block ${blockId}:`, {
-      blockId,
-      blockText: blockText.substring(0, 30) + '...'
-    });
+    // console.log(`[BlockPlayButton] Button pressed for block ${blockId}:`, {
+    //   blockId,
+    //   blockText: blockText.substring(0, 30) + '...'
+    // });
     onPlay(blockId, blockText);
   };
 
@@ -55,12 +55,12 @@ export default function BlockPlayButton({
 
   // Debug logging to help troubleshoot positioning
   if (__DEV__) {
-    console.log(`[BlockPlayButton] Rendering button for block ${blockId}:`, {
-      position,
-      buttonPosition,
-      isPlaying,
-      screenWidth
-    });
+    // console.log(`[BlockPlayButton] Rendering button for block ${blockId}:`, {
+    //   position,
+    //   buttonPosition,
+    //   isPlaying,
+    //   screenWidth
+    // });
   }
 
   return (

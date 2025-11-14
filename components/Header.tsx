@@ -2,11 +2,13 @@ import { useDeviceRegistration } from '@/hooks/useDeviceRegistration';
 import { Image } from 'expo-image';
 import React, { useState } from 'react';
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { AnalyticsSyncButton } from './AnalyticsSyncButton';
 import PullBooksDialog from './PullBooksDialog';
 
 export default function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showPullBooksDialog, setShowPullBooksDialog] = useState(false);
+  const [showAnalyticsSyncDialog, setShowAnalyticsSyncDialog] = useState(false);
   const { registrationData } = useDeviceRegistration();
 
   const handleMenuPress = () => {
@@ -21,6 +23,9 @@ export default function Header() {
       case 'Pull Books':
         setShowPullBooksDialog(true);
         break;
+      case 'Sync Analytics':
+        setShowAnalyticsSyncDialog(true);
+        break;
       case 'Profile':
         // Handle profile navigation
         break;
@@ -34,6 +39,11 @@ export default function Header() {
     // Refresh the books list or trigger a re-render
 
     // TODO: Add logic to refresh the books data
+  };
+
+  const handleAnalyticsSyncComplete = () => {
+    // Analytics sync completed successfully
+    console.log('[Header] Analytics sync completed successfully');
   };
 
   return (
@@ -75,6 +85,12 @@ export default function Header() {
                   </TouchableOpacity>
                   <TouchableOpacity 
                     style={styles.dropdownItem} 
+                    onPress={() => handleMenuItemPress('Sync Analytics')}
+                  >
+                    <Text style={styles.dropdownText}>Sync Analytics</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity 
+                    style={styles.dropdownItem} 
                     onPress={() => handleMenuItemPress('Profile')}
                   >
                     <Text style={styles.dropdownText}>Profile</Text>
@@ -98,6 +114,29 @@ export default function Header() {
         onClose={() => setShowPullBooksDialog(false)}
         onSuccess={handlePullBooksSuccess}
       />
+      
+      {/* Analytics Sync Modal */}
+      <Modal
+        transparent={true}
+        visible={showAnalyticsSyncDialog}
+        onRequestClose={() => setShowAnalyticsSyncDialog(false)}
+      >
+        <TouchableOpacity 
+          style={styles.modalOverlay} 
+          onPress={() => setShowAnalyticsSyncDialog(false)}
+          activeOpacity={1}
+        >
+          <View style={styles.analyticsModalContent} onStartShouldSetResponder={() => true}>
+            <AnalyticsSyncButton variant="card" showDetails={true} />
+            <TouchableOpacity 
+              style={styles.closeButton}
+              onPress={() => setShowAnalyticsSyncDialog(false)}
+            >
+              <Text style={styles.closeButtonText}>Close</Text>
+            </TouchableOpacity>
+          </View>
+        </TouchableOpacity>
+      </Modal>
     </View>
   );
 }
@@ -185,5 +224,32 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#333',
     fontWeight: '500',
+  },
+  analyticsModalContent: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    padding: 16,
+    minWidth: 300,
+    maxWidth: 400,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 10,
+  },
+  closeButton: {
+    marginTop: 12,
+    backgroundColor: '#F3F4F6',
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  closeButtonText: {
+    fontSize: 16,
+    color: '#374151',
+    fontWeight: '600',
   },
 });

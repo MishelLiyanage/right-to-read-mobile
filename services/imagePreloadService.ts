@@ -64,7 +64,6 @@ export class ImagePreloadService {
         try {
           const imageUrl = await this.googleImageService.searchImage(word);
           imageCache[word] = imageUrl;
-          console.log(`Preloaded image for "${word}": ${imageUrl ? 'success' : 'no image found'}`);
         } catch (error) {
           if (error instanceof Error && error.message.includes('429')) {
             console.warn('Rate limit hit during preloading. Disabling further preloading.');
@@ -151,7 +150,7 @@ export class ImagePreloadService {
    */
   resetRateLimit(): void {
     this.isRateLimited = false;
-    console.log('Rate limit state reset. Image preloading re-enabled.');
+    console.warn('Rate limit state reset. Image preloading re-enabled.');
   }
 
   /**

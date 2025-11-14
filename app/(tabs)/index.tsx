@@ -1,3 +1,4 @@
+import { AnalyticsSyncButton } from '@/components/AnalyticsSyncButton';
 import Banner from '@/components/Banner';
 import BookReader from '@/components/BookReader';
 import BooksSection from '@/components/BooksSection';
@@ -35,7 +36,7 @@ export default function BooksScreen() {
     // Add book to recent books when clicked
     try {
       await addRecentBook(book);
-
+      console.log(`[BooksScreen] Book "${book.title}" opened by user`);
     } catch (error) {
       console.error('Failed to add book to recent:', error);
     }
@@ -184,10 +185,10 @@ export default function BooksScreen() {
                   Current Registration:
                 </ThemedText>
                 <ThemedText style={styles.debugText}>
-                  Grade: {analyticsData.grade}
+                  School: {analyticsData.schoolName}
                 </ThemedText>
                 <ThemedText style={styles.debugText}>
-                  Class: {analyticsData.className}
+                  Serial: {analyticsData.serialNumber}
                 </ThemedText>
               </View>
             )}
@@ -200,6 +201,11 @@ export default function BooksScreen() {
                 Clear Registration (Test)
               </ThemedText>
             </TouchableOpacity>
+
+            {/* Analytics Sync Component */}
+            <View style={styles.analyticsSyncContainer}>
+              <AnalyticsSyncButton variant="card" showDetails={true} />
+            </View>
           </View>
         )}
       </ScrollView>
@@ -313,5 +319,8 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 14,
     fontWeight: '600',
+  },
+  analyticsSyncContainer: {
+    marginTop: 16,
   },
 });
