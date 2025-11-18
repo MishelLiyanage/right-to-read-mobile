@@ -219,7 +219,7 @@ const g3_page36_block2 = require('../data/grade_3_english_book/grade_3_english_b
 const g3_page36_block3 = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_3_audio.mp3');
 const g3_page36_block4 = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_4_audio.mp3');
 
-// grade_3_english_book Page 35 audio files
+// grade_3_english_book Page 37 audio files
 const g3_page37_block0 = require('../data/grade_3_english_book/grade_3_english_book_page_37/block_37_0_audio.mp3');
 const g3_page37_block1 = require('../data/grade_3_english_book/grade_3_english_book_page_37/block_37_1_audio.mp3');
 const g3_page37_block2 = require('../data/grade_3_english_book/grade_3_english_book_page_37/block_37_2_audio.mp3');
@@ -1527,6 +1527,13 @@ const g4_page44_block4 = require('../data/grade_4_english_book/grade_4_english_b
 const g4_page44_block5 = require('../data/grade_4_english_book/grade_4_english_book_page_44/block_44_5_audio.mp3');
 const g4_page44_block6 = require('../data/grade_4_english_book/grade_4_english_book_page_44/block_44_6_audio.mp3');
 
+// grade_4_english_book Page 45 audio files
+const g4_page45_block0 = require('../data/grade_4_english_book/grade_4_english_book_page_45/block_45_0_audio.mp3');
+const g4_page45_block1 = require('../data/grade_4_english_book/grade_4_english_book_page_45/block_45_1_audio.mp3');
+const g4_page45_block2 = require('../data/grade_4_english_book/grade_4_english_book_page_45/block_45_2_audio.mp3');
+const g4_page45_block3 = require('../data/grade_4_english_book/grade_4_english_book_page_45/block_45_3_audio.mp3');
+const g4_page45_block4 = require('../data/grade_4_english_book/grade_4_english_book_page_45/block_45_4_audio.mp3');
+
 // grade_4_english_book Page 46 audio files
 const g4_page46_block0 = require('../data/grade_4_english_book/grade_4_english_book_page_46/block_46_0_audio.mp3');
 const g4_page46_block10 = require('../data/grade_4_english_book/grade_4_english_book_page_46/block_46_10_audio.mp3');
@@ -2335,6 +2342,241 @@ const g4_page119_block6 = require('../data/grade_4_english_book/grade_4_english_
 const g4_page119_block7 = require('../data/grade_4_english_book/grade_4_english_book_page_119/block_119_7_audio.mp3');
 const g4_page119_block8 = require('../data/grade_4_english_book/grade_4_english_book_page_119/block_119_8_audio.mp3');
 const g4_page119_block9 = require('../data/grade_4_english_book/grade_4_english_book_page_119/block_119_9_audio.mp3');
+
+// Slow audio files for Grade 3 English Book
+// grade_3_english_book Page 10 SLOW audio files
+const g3_page10_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_0_slow_audio.mp3');
+const g3_page10_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_1_slow_audio.mp3');
+const g3_page10_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_2_slow_audio.mp3');
+const g3_page10_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_3_slow_audio.mp3');
+const g3_page10_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_4_slow_audio.mp3');
+const g3_page10_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_5_slow_audio.mp3');
+const g3_page10_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_6_slow_audio.mp3');
+const g3_page10_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_10/block_10_7_slow_audio.mp3');
+
+// grade_3_english_book Page 11 SLOW audio files
+const g3_page11_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_0_slow_audio.mp3');
+const g3_page11_block10_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_10_slow_audio.mp3');
+const g3_page11_block11_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_11_slow_audio.mp3');
+const g3_page11_block12_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_12_slow_audio.mp3');
+const g3_page11_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_1_slow_audio.mp3');
+const g3_page11_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_2_slow_audio.mp3');
+const g3_page11_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_3_slow_audio.mp3');
+const g3_page11_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_4_slow_audio.mp3');
+const g3_page11_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_5_slow_audio.mp3');
+const g3_page11_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_6_slow_audio.mp3');
+const g3_page11_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_7_slow_audio.mp3');
+const g3_page11_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_8_slow_audio.mp3');
+const g3_page11_block9_slow = require('../data/grade_3_english_book/grade_3_english_book_page_11/block_11_9_slow_audio.mp3');
+
+// grade_3_english_book Page 12 SLOW audio files
+const g3_page12_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_0_slow_audio.mp3');
+const g3_page12_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_1_slow_audio.mp3');
+const g3_page12_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_2_slow_audio.mp3');
+const g3_page12_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_3_slow_audio.mp3');
+const g3_page12_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_4_slow_audio.mp3');
+const g3_page12_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_5_slow_audio.mp3');
+const g3_page12_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_12/block_12_6_slow_audio.mp3');
+
+// grade_3_english_book Page 13 SLOW audio files
+const g3_page13_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_0_slow_audio.mp3');
+const g3_page13_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_1_slow_audio.mp3');
+const g3_page13_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_2_slow_audio.mp3');
+const g3_page13_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_3_slow_audio.mp3');
+const g3_page13_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_4_slow_audio.mp3');
+const g3_page13_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_5_slow_audio.mp3');
+const g3_page13_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_6_slow_audio.mp3');
+const g3_page13_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_7_slow_audio.mp3');
+const g3_page13_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_13/block_13_8_slow_audio.mp3');
+
+// grade_3_english_book Page 14 SLOW audio files
+const g3_page14_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_0_slow_audio.mp3');
+const g3_page14_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_1_slow_audio.mp3');
+const g3_page14_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_2_slow_audio.mp3');
+const g3_page14_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_3_slow_audio.mp3');
+const g3_page14_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_4_slow_audio.mp3');
+const g3_page14_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_5_slow_audio.mp3');
+const g3_page14_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_14/block_14_6_slow_audio.mp3');
+
+// grade_3_english_book Page 15 SLOW audio files
+const g3_page15_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_0_slow_audio.mp3');
+const g3_page15_block10_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_10_slow_audio.mp3');
+const g3_page15_block11_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_11_slow_audio.mp3');
+const g3_page15_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_1_slow_audio.mp3');
+const g3_page15_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_2_slow_audio.mp3');
+const g3_page15_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_3_slow_audio.mp3');
+const g3_page15_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_4_slow_audio.mp3');
+const g3_page15_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_5_slow_audio.mp3');
+const g3_page15_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_6_slow_audio.mp3');
+const g3_page15_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_7_slow_audio.mp3');
+const g3_page15_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_8_slow_audio.mp3');
+const g3_page15_block9_slow = require('../data/grade_3_english_book/grade_3_english_book_page_15/block_15_9_slow_audio.mp3');
+
+// grade_3_english_book Page 16 SLOW audio files
+const g3_page16_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_0_slow_audio.mp3');
+const g3_page16_block10_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_10_slow_audio.mp3');
+const g3_page16_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_1_slow_audio.mp3');
+const g3_page16_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_2_slow_audio.mp3');
+const g3_page16_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_3_slow_audio.mp3');
+const g3_page16_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_4_slow_audio.mp3');
+const g3_page16_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_5_slow_audio.mp3');
+const g3_page16_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_6_slow_audio.mp3');
+const g3_page16_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_7_slow_audio.mp3');
+const g3_page16_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_8_slow_audio.mp3');
+const g3_page16_block9_slow = require('../data/grade_3_english_book/grade_3_english_book_page_16/block_16_9_slow_audio.mp3');
+
+// grade_3_english_book Page 17 SLOW audio files
+const g3_page17_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_0_slow_audio.mp3');
+const g3_page17_block10_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_10_slow_audio.mp3');
+const g3_page17_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_1_slow_audio.mp3');
+const g3_page17_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_2_slow_audio.mp3');
+const g3_page17_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_3_slow_audio.mp3');
+const g3_page17_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_4_slow_audio.mp3');
+const g3_page17_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_5_slow_audio.mp3');
+const g3_page17_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_6_slow_audio.mp3');
+const g3_page17_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_7_slow_audio.mp3');
+const g3_page17_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_8_slow_audio.mp3');
+const g3_page17_block9_slow = require('../data/grade_3_english_book/grade_3_english_book_page_17/block_17_9_slow_audio.mp3');
+
+// grade_3_english_book Page 18 SLOW audio files
+const g3_page18_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_18/block_18_0_slow_audio.mp3');
+const g3_page18_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_18/block_18_1_slow_audio.mp3');
+const g3_page18_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_18/block_18_2_slow_audio.mp3');
+const g3_page18_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_18/block_18_3_slow_audio.mp3');
+
+// grade_3_english_book Page 19 SLOW audio files
+const g3_page19_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_0_slow_audio.mp3');
+const g3_page19_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_1_slow_audio.mp3');
+const g3_page19_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_2_slow_audio.mp3');
+const g3_page19_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_3_slow_audio.mp3');
+const g3_page19_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_4_slow_audio.mp3');
+const g3_page19_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_19/block_19_5_slow_audio.mp3');
+
+// grade_3_english_book Page 20 SLOW audio files
+const g3_page20_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_20/block_20_0_slow_audio.mp3');
+const g3_page20_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_20/block_20_1_slow_audio.mp3');
+const g3_page20_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_20/block_20_2_slow_audio.mp3');
+const g3_page20_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_20/block_20_3_slow_audio.mp3');
+const g3_page20_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_20/block_20_4_slow_audio.mp3');
+
+// grade_3_english_book Page 22 SLOW audio files
+const g3_page22_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_22/block_22_0_slow_audio.mp3');
+const g3_page22_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_22/block_22_1_slow_audio.mp3');
+const g3_page22_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_22/block_22_2_slow_audio.mp3');
+const g3_page22_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_22/block_22_3_slow_audio.mp3');
+const g3_page22_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_22/block_22_4_slow_audio.mp3');
+
+// grade_3_english_book Page 23 SLOW audio files
+const g3_page23_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_23/block_23_0_slow_audio.mp3');
+const g3_page23_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_23/block_23_1_slow_audio.mp3');
+const g3_page23_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_23/block_23_2_slow_audio.mp3');
+const g3_page23_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_23/block_23_3_slow_audio.mp3');
+const g3_page23_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_23/block_23_4_slow_audio.mp3');
+
+// grade_3_english_book Page 24 SLOW audio files
+const g3_page24_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_24/block_24_0_slow_audio.mp3');
+const g3_page24_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_24/block_24_1_slow_audio.mp3');
+const g3_page24_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_24/block_24_2_slow_audio.mp3');
+const g3_page24_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_24/block_24_3_slow_audio.mp3');
+
+// grade_3_english_book Page 25 SLOW audio files
+const g3_page25_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_25/block_25_0_slow_audio.mp3');
+const g3_page25_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_25/block_25_1_slow_audio.mp3');
+
+// grade_3_english_book Page 26 SLOW audio files
+const g3_page26_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_0_slow_audio.mp3');
+const g3_page26_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_1_slow_audio.mp3');
+const g3_page26_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_2_slow_audio.mp3');
+const g3_page26_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_3_slow_audio.mp3');
+const g3_page26_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_4_slow_audio.mp3');
+const g3_page26_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_5_slow_audio.mp3');
+const g3_page26_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_26/block_26_6_slow_audio.mp3');
+
+// grade_3_english_book Page 27 SLOW audio files
+const g3_page27_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_27/block_27_0_slow_audio.mp3');
+const g3_page27_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_27/block_27_1_slow_audio.mp3');
+const g3_page27_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_27/block_27_2_slow_audio.mp3');
+const g3_page27_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_27/block_27_3_slow_audio.mp3');
+
+// grade_3_english_book Page 28 SLOW audio files
+const g3_page28_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_28/block_28_0_slow_audio.mp3');
+const g3_page28_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_28/block_28_1_slow_audio.mp3');
+const g3_page28_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_28/block_28_2_slow_audio.mp3');
+const g3_page28_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_28/block_28_3_slow_audio.mp3');
+
+// grade_3_english_book Page 29 SLOW audio files
+const g3_page29_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_29/block_29_0_slow_audio.mp3');
+const g3_page29_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_29/block_29_1_slow_audio.mp3');
+const g3_page29_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_29/block_29_2_slow_audio.mp3');
+
+// grade_3_english_book Page 30 SLOW audio files
+const g3_page30_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_30/block_30_0_slow_audio.mp3');
+const g3_page30_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_30/block_30_1_slow_audio.mp3');
+const g3_page30_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_30/block_30_2_slow_audio.mp3');
+const g3_page30_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_30/block_30_3_slow_audio.mp3');
+
+// grade_3_english_book Page 31 SLOW audio files
+const g3_page31_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_31/block_31_0_slow_audio.mp3');
+const g3_page31_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_31/block_31_1_slow_audio.mp3');
+const g3_page31_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_31/block_31_2_slow_audio.mp3');
+const g3_page31_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_31/block_31_3_slow_audio.mp3');
+const g3_page31_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_31/block_31_4_slow_audio.mp3');
+
+// grade_3_english_book Page 32 SLOW audio files
+const g3_page32_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_32/block_32_0_slow_audio.mp3');
+const g3_page32_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_32/block_32_1_slow_audio.mp3');
+const g3_page32_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_32/block_32_2_slow_audio.mp3');
+const g3_page32_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_32/block_32_3_slow_audio.mp3');
+
+// grade_3_english_book Page 33 SLOW audio files
+const g3_page33_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_33/block_33_0_slow_audio.mp3');
+const g3_page33_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_33/block_33_1_slow_audio.mp3');
+const g3_page33_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_33/block_33_2_slow_audio.mp3');
+
+// grade_3_english_book Page 34 SLOW audio files
+const g3_page34_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_34/block_34_0_slow_audio.mp3');
+const g3_page34_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_34/block_34_1_slow_audio.mp3');
+const g3_page34_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_34/block_34_2_slow_audio.mp3');
+const g3_page34_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_34/block_34_3_slow_audio.mp3');
+
+// grade_3_english_book Page 35 SLOW audio files
+const g3_page35_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_0_slow_audio.mp3');
+const g3_page35_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_1_slow_audio.mp3');
+const g3_page35_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_2_slow_audio.mp3');
+const g3_page35_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_3_slow_audio.mp3');
+const g3_page35_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_4_slow_audio.mp3');
+const g3_page35_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_5_slow_audio.mp3');
+const g3_page35_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_35/block_35_6_slow_audio.mp3');
+
+// grade_3_english_book Page 36 SLOW audio files
+const g3_page36_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_0_slow_audio.mp3');
+const g3_page36_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_1_slow_audio.mp3');
+const g3_page36_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_2_slow_audio.mp3');
+const g3_page36_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_3_slow_audio.mp3');
+const g3_page36_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_36/block_36_4_slow_audio.mp3');
+
+// grade_3_english_book Page 38 SLOW audio files
+const g3_page38_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_0_slow_audio.mp3');
+const g3_page38_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_1_slow_audio.mp3');
+const g3_page38_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_2_slow_audio.mp3');
+const g3_page38_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_3_slow_audio.mp3');
+const g3_page38_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_4_slow_audio.mp3');
+const g3_page38_block5_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_5_slow_audio.mp3');
+const g3_page38_block6_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_6_slow_audio.mp3');
+const g3_page38_block7_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_7_slow_audio.mp3');
+const g3_page38_block8_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_8_slow_audio.mp3');
+const g3_page38_block9_slow = require('../data/grade_3_english_book/grade_3_english_book_page_38/block_38_9_slow_audio.mp3');
+
+// grade_3_english_book Page 39 SLOW audio files
+const g3_page39_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_39/block_39_0_slow_audio.mp3');
+const g3_page39_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_39/block_39_1_slow_audio.mp3');
+const g3_page39_block2_slow = require('../data/grade_3_english_book/grade_3_english_book_page_39/block_39_2_slow_audio.mp3');
+const g3_page39_block3_slow = require('../data/grade_3_english_book/grade_3_english_book_page_39/block_39_3_slow_audio.mp3');
+const g3_page39_block4_slow = require('../data/grade_3_english_book/grade_3_english_book_page_39/block_39_4_slow_audio.mp3');
+
+// grade_3_english_book Page 40 SLOW audio files
+const g3_page40_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_40/block_40_0_slow_audio.mp3');
+const g3_page40_block1_slow = require('../data/grade_3_english_book/grade_3_english_book_page_40/block_40_1_slow_audio.mp3');
 
 // Audio mappings by book and page
 const grade3AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {
@@ -3867,6 +4109,13 @@ const grade4AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } 
     '5': g4_page44_block5,
     '6': g4_page44_block6,
   },
+  '45': {
+    '0': g4_page45_block0,
+    '1': g4_page45_block1,
+    '2': g4_page45_block2,
+    '3': g4_page45_block3,
+    '4': g4_page45_block4,
+  },
   '46': {
     '0': g4_page46_block0,
     '10': g4_page46_block10,
@@ -4678,8 +4927,255 @@ const grade4AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } 
   },
 };
 
+const grade3SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {
+  '10': {
+    '0': g3_page10_block0_slow,
+    '1': g3_page10_block1_slow,
+    '2': g3_page10_block2_slow,
+    '3': g3_page10_block3_slow,
+    '4': g3_page10_block4_slow,
+    '5': g3_page10_block5_slow,
+    '6': g3_page10_block6_slow,
+    '7': g3_page10_block7_slow,
+  },
+  '11': {
+    '0': g3_page11_block0_slow,
+    '10': g3_page11_block10_slow,
+    '11': g3_page11_block11_slow,
+    '12': g3_page11_block12_slow,
+    '1': g3_page11_block1_slow,
+    '2': g3_page11_block2_slow,
+    '3': g3_page11_block3_slow,
+    '4': g3_page11_block4_slow,
+    '5': g3_page11_block5_slow,
+    '6': g3_page11_block6_slow,
+    '7': g3_page11_block7_slow,
+    '8': g3_page11_block8_slow,
+    '9': g3_page11_block9_slow,
+  },
+  '12': {
+    '0': g3_page12_block0_slow,
+    '1': g3_page12_block1_slow,
+    '2': g3_page12_block2_slow,
+    '3': g3_page12_block3_slow,
+    '4': g3_page12_block4_slow,
+    '5': g3_page12_block5_slow,
+    '6': g3_page12_block6_slow,
+  },
+  '13': {
+    '0': g3_page13_block0_slow,
+    '1': g3_page13_block1_slow,
+    '2': g3_page13_block2_slow,
+    '3': g3_page13_block3_slow,
+    '4': g3_page13_block4_slow,
+    '5': g3_page13_block5_slow,
+    '6': g3_page13_block6_slow,
+    '7': g3_page13_block7_slow,
+    '8': g3_page13_block8_slow,
+  },
+  '14': {
+    '0': g3_page14_block0_slow,
+    '1': g3_page14_block1_slow,
+    '2': g3_page14_block2_slow,
+    '3': g3_page14_block3_slow,
+    '4': g3_page14_block4_slow,
+    '5': g3_page14_block5_slow,
+    '6': g3_page14_block6_slow,
+  },
+  '15': {
+    '0': g3_page15_block0_slow,
+    '10': g3_page15_block10_slow,
+    '11': g3_page15_block11_slow,
+    '1': g3_page15_block1_slow,
+    '2': g3_page15_block2_slow,
+    '3': g3_page15_block3_slow,
+    '4': g3_page15_block4_slow,
+    '5': g3_page15_block5_slow,
+    '6': g3_page15_block6_slow,
+    '7': g3_page15_block7_slow,
+    '8': g3_page15_block8_slow,
+    '9': g3_page15_block9_slow,
+  },
+  '16': {
+    '0': g3_page16_block0_slow,
+    '10': g3_page16_block10_slow,
+    '1': g3_page16_block1_slow,
+    '2': g3_page16_block2_slow,
+    '3': g3_page16_block3_slow,
+    '4': g3_page16_block4_slow,
+    '5': g3_page16_block5_slow,
+    '6': g3_page16_block6_slow,
+    '7': g3_page16_block7_slow,
+    '8': g3_page16_block8_slow,
+    '9': g3_page16_block9_slow,
+  },
+  '17': {
+    '0': g3_page17_block0_slow,
+    '10': g3_page17_block10_slow,
+    '1': g3_page17_block1_slow,
+    '2': g3_page17_block2_slow,
+    '3': g3_page17_block3_slow,
+    '4': g3_page17_block4_slow,
+    '5': g3_page17_block5_slow,
+    '6': g3_page17_block6_slow,
+    '7': g3_page17_block7_slow,
+    '8': g3_page17_block8_slow,
+    '9': g3_page17_block9_slow,
+  },
+  '18': {
+    '0': g3_page18_block0_slow,
+    '1': g3_page18_block1_slow,
+    '2': g3_page18_block2_slow,
+    '3': g3_page18_block3_slow,
+  },
+  '19': {
+    '0': g3_page19_block0_slow,
+    '1': g3_page19_block1_slow,
+    '2': g3_page19_block2_slow,
+    '3': g3_page19_block3_slow,
+    '4': g3_page19_block4_slow,
+    '5': g3_page19_block5_slow,
+  },
+  '20': {
+    '0': g3_page20_block0_slow,
+    '1': g3_page20_block1_slow,
+    '2': g3_page20_block2_slow,
+    '3': g3_page20_block3_slow,
+    '4': g3_page20_block4_slow,
+  },
+  '22': {
+    '0': g3_page22_block0_slow,
+    '1': g3_page22_block1_slow,
+    '2': g3_page22_block2_slow,
+    '3': g3_page22_block3_slow,
+    '4': g3_page22_block4_slow,
+  },
+  '23': {
+    '0': g3_page23_block0_slow,
+    '1': g3_page23_block1_slow,
+    '2': g3_page23_block2_slow,
+    '3': g3_page23_block3_slow,
+    '4': g3_page23_block4_slow,
+  },
+  '24': {
+    '0': g3_page24_block0_slow,
+    '1': g3_page24_block1_slow,
+    '2': g3_page24_block2_slow,
+    '3': g3_page24_block3_slow,
+  },
+  '25': {
+    '0': g3_page25_block0_slow,
+    '1': g3_page25_block1_slow,
+  },
+  '26': {
+    '0': g3_page26_block0_slow,
+    '1': g3_page26_block1_slow,
+    '2': g3_page26_block2_slow,
+    '3': g3_page26_block3_slow,
+    '4': g3_page26_block4_slow,
+    '5': g3_page26_block5_slow,
+    '6': g3_page26_block6_slow,
+  },
+  '27': {
+    '0': g3_page27_block0_slow,
+    '1': g3_page27_block1_slow,
+    '2': g3_page27_block2_slow,
+    '3': g3_page27_block3_slow,
+  },
+  '28': {
+    '0': g3_page28_block0_slow,
+    '1': g3_page28_block1_slow,
+    '2': g3_page28_block2_slow,
+    '3': g3_page28_block3_slow,
+  },
+  '29': {
+    '0': g3_page29_block0_slow,
+    '1': g3_page29_block1_slow,
+    '2': g3_page29_block2_slow,
+  },
+  '30': {
+    '0': g3_page30_block0_slow,
+    '1': g3_page30_block1_slow,
+    '2': g3_page30_block2_slow,
+    '3': g3_page30_block3_slow,
+  },
+  '31': {
+    '0': g3_page31_block0_slow,
+    '1': g3_page31_block1_slow,
+    '2': g3_page31_block2_slow,
+    '3': g3_page31_block3_slow,
+    '4': g3_page31_block4_slow,
+  },
+  '32': {
+    '0': g3_page32_block0_slow,
+    '1': g3_page32_block1_slow,
+    '2': g3_page32_block2_slow,
+    '3': g3_page32_block3_slow,
+  },
+  '33': {
+    '0': g3_page33_block0_slow,
+    '1': g3_page33_block1_slow,
+    '2': g3_page33_block2_slow,
+  },
+  '34': {
+    '0': g3_page34_block0_slow,
+    '1': g3_page34_block1_slow,
+    '2': g3_page34_block2_slow,
+    '3': g3_page34_block3_slow,
+  },
+  '35': {
+    '0': g3_page35_block0_slow,
+    '1': g3_page35_block1_slow,
+    '2': g3_page35_block2_slow,
+    '3': g3_page35_block3_slow,
+    '4': g3_page35_block4_slow,
+    '5': g3_page35_block5_slow,
+    '6': g3_page35_block6_slow,
+  },
+  '36': {
+    '0': g3_page36_block0_slow,
+    '1': g3_page36_block1_slow,
+    '2': g3_page36_block2_slow,
+    '3': g3_page36_block3_slow,
+    '4': g3_page36_block4_slow,
+  },
+  '38': {
+    '0': g3_page38_block0_slow,
+    '1': g3_page38_block1_slow,
+    '2': g3_page38_block2_slow,
+    '3': g3_page38_block3_slow,
+    '4': g3_page38_block4_slow,
+    '5': g3_page38_block5_slow,
+    '6': g3_page38_block6_slow,
+    '7': g3_page38_block7_slow,
+    '8': g3_page38_block8_slow,
+    '9': g3_page38_block9_slow,
+  },
+  '39': {
+    '0': g3_page39_block0_slow,
+    '1': g3_page39_block1_slow,
+    '2': g3_page39_block2_slow,
+    '3': g3_page39_block3_slow,
+    '4': g3_page39_block4_slow,
+  },
+  '40': {
+    '0': g3_page40_block0_slow,
+    '1': g3_page40_block1_slow,
+  },
+};
+
 export class AudioResolver {
-  static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string): any | null {
+  static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
+    // If slow mode is enabled and it's Grade 3, try slow audio first
+    if (isSlowMode && (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3'))) {
+      const slowPageAudio = grade3SlowAudioMappings[pageNumber.toString()];
+      if (slowPageAudio && slowPageAudio[blockId]) {
+        return slowPageAudio[blockId];
+      }
+      // Fall back to normal audio if slow audio not available
+      console.log(`No slow audio found for page ${pageNumber}, block ${blockId}, using normal audio`);
+    }
+    
     // Determine which audio mappings to use based on book title
     let audioMappings;
     if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {

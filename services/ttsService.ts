@@ -22,6 +22,7 @@ export class TTSService {
   private callbacks: TTSServiceCallbacks = {};
   private isInitialized: boolean = false;
   private bookTitle: string = '';
+  private isSlowMode: boolean = false;
   // private playbackRate: number = 1.0; // Default speed (1.0 = normal speed)
 
   constructor(callbacks?: TTSServiceCallbacks) {
@@ -146,10 +147,11 @@ export class TTSService {
     }
   }
 
-  loadContent(blocks: TextBlock[], bookTitle?: string): void {
+  loadContent(blocks: TextBlock[], bookTitle?: string, isSlowMode?: boolean): void {
     this.blocks = blocks;
     this.currentBlockIndex = 0;
     this.bookTitle = bookTitle || '';
+    this.isSlowMode = isSlowMode || false;
   }
 
   async startReading(): Promise<void> {
@@ -229,7 +231,7 @@ export class TTSService {
       
       // Resolve audio using AudioResolver for dynamic paths
       const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ? 
-        AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle) : null;
+        AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle, this.isSlowMode) : null;
         
       console.log(`[TTS] AudioResolver result:`, {
         hasResolvedAudio: !!resolvedAudio,
@@ -439,7 +441,7 @@ export class TTSService {
           if (wordMark) {
             // Resolve audio using AudioResolver for dynamic paths
             const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ?
-              AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle) : null;
+              AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle, this.isSlowMode) : null;
             
             if (resolvedAudio) {
               await this.playWordFromBlock(word, resolvedAudio, block.speechMarks, wordMark);

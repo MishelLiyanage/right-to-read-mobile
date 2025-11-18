@@ -1,0 +1,857 @@
+{
+    "0": {
+        "text": "My House Listen and say.",
+        "words": [
+            "My",
+            "House",
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    258.64599609375,
+                    52.160003662109375
+                ],
+                [
+                    286.1260070800781,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    290.9259948730469,
+                    52.160003662109375
+                ],
+                [
+                    350.5260009765625,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    59.52598571777344,
+                    76.16000366210938
+                ],
+                [
+                    114.74597930908203,
+                    99.9800033569336
+                ]
+            ],
+            [
+                [
+                    119.74597930908203,
+                    76.16000366210938
+                ],
+                [
+                    156.66598510742188,
+                    99.9800033569336
+                ]
+            ],
+            [
+                [
+                    161.66598510742188,
+                    76.16000366210938
+                ],
+                [
+                    197.6859893798828,
+                    99.9800033569336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>My <break time='200ms'/> House <break time='200ms'/> Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "My"
+            },
+            {
+                "time": 670,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 963,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "House"
+            },
+            {
+                "time": 1610,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1904,
+                "type": "word",
+                "start": 81,
+                "end": 87,
+                "value": "Listen"
+            },
+            {
+                "time": 2633,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2927,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "and"
+            },
+            {
+                "time": 3560,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3860,
+                "type": "word",
+                "start": 136,
+                "end": 139,
+                "value": "say"
+            },
+            {
+                "time": 4360,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "That is my house.",
+        "words": [
+            "That",
+            "is",
+            "my",
+            "house."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    272.97100830078125,
+                    676.5155029296875
+                ],
+                [
+                    315.6310119628906,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    320.4309997558594,
+                    676.5155029296875
+                ],
+                [
+                    334.4110107421875,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    339.4110107421875,
+                    676.5155029296875
+                ],
+                [
+                    369.8910217285156,
+                    700.33544921875
+                ]
+            ],
+            [
+                [
+                    374.6910095214844,
+                    676.5155029296875
+                ],
+                [
+                    437.87103271484375,
+                    700.33544921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>That <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> house. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "That"
+            },
+            {
+                "time": 781,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1075,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1591,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1893,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "my"
+            },
+            {
+                "time": 2528,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2821,
+                "type": "word",
+                "start": 105,
+                "end": 110,
+                "value": "house"
+            },
+            {
+                "time": 3439,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "That is the roof.",
+        "words": [
+            "That",
+            "is",
+            "the",
+            "roof."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    312.41400146484375,
+                    105.48501586914062
+                ],
+                [
+                    355.0740051269531,
+                    129.30502319335938
+                ]
+            ],
+            [
+                [
+                    359.8739929199219,
+                    105.48501586914062
+                ],
+                [
+                    373.85400390625,
+                    129.30502319335938
+                ]
+            ],
+            [
+                [
+                    378.65399169921875,
+                    105.48501586914062
+                ],
+                [
+                    410.1940002441406,
+                    129.30502319335938
+                ]
+            ],
+            [
+                [
+                    415.1940002441406,
+                    105.48501586914062
+                ],
+                [
+                    456.85400390625,
+                    129.30502319335938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>That <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> roof. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "That"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 970,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1485,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1786,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2316,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2618,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "roof"
+            },
+            {
+                "time": 3099,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "That is the wall.",
+        "words": [
+            "That",
+            "is",
+            "the",
+            "wall."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    374.0539855957031,
+                    144.86697387695312
+                ],
+                [
+                    416.7139892578125,
+                    168.68698120117188
+                ]
+            ],
+            [
+                [
+                    421.31396484375,
+                    144.86697387695312
+                ],
+                [
+                    435.4939880371094,
+                    168.68698120117188
+                ]
+            ],
+            [
+                [
+                    440.2939758300781,
+                    144.86697387695312
+                ],
+                [
+                    471.833984375,
+                    168.68698120117188
+                ]
+            ],
+            [
+                [
+                    476.63397216796875,
+                    144.86697387695312
+                ],
+                [
+                    521.1740112304688,
+                    168.68698120117188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>That <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> wall. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "That"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 970,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1485,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1786,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2191,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2493,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "wall"
+            },
+            {
+                "time": 3032,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "roof",
+        "words": [
+            "roof"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    256.79400634765625,
+                    245.29598999023438
+                ],
+                [
+                    293.37396240234375,
+                    269.1159973144531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>roof <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "roof"
+            },
+            {
+                "time": 680,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "wall",
+        "words": [
+            "wall"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    331.1390075683594,
+                    321.5740051269531
+                ],
+                [
+                    365.5730285644531,
+                    343.01202392578125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>wall <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "wall"
+            },
+            {
+                "time": 789,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "door",
+        "words": [
+            "door"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    379.1050109863281,
+                    454.3479919433594
+                ],
+                [
+                    420.48504638671875,
+                    478.1679992675781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>door <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "door"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "window",
+        "words": [
+            "window"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    159.84300231933594,
+                    401.593994140625
+                ],
+                [
+                    233.44302368164062,
+                    425.41400146484375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>window <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "window"
+            },
+            {
+                "time": 810,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "That is the window.",
+        "words": [
+            "That",
+            "is",
+            "the",
+            "window."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    173.50799560546875,
+                    605.8480224609375
+                ],
+                [
+                    209.7689971923828,
+                    626.094970703125
+                ]
+            ],
+            [
+                [
+                    213.6790008544922,
+                    605.8480224609375
+                ],
+                [
+                    225.73199462890625,
+                    626.094970703125
+                ]
+            ],
+            [
+                [
+                    229.81199645996094,
+                    605.8480224609375
+                ],
+                [
+                    256.6210021972656,
+                    626.094970703125
+                ]
+            ],
+            [
+                [
+                    260.70098876953125,
+                    605.8480224609375
+                ],
+                [
+                    327.4090270996094,
+                    626.094970703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>That <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> window. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "That"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 970,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1485,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1786,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2191,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2493,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "window"
+            },
+            {
+                "time": 3120,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "That is the door.",
+        "words": [
+            "That",
+            "is",
+            "the",
+            "door."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    347.7860107421875,
+                    548.31396484375
+                ],
+                [
+                    390.4460144042969,
+                    572.1339721679688
+                ]
+            ],
+            [
+                [
+                    395.2460021972656,
+                    548.31396484375
+                ],
+                [
+                    409.22601318359375,
+                    572.1339721679688
+                ]
+            ],
+            [
+                [
+                    414.0260009765625,
+                    548.31396484375
+                ],
+                [
+                    445.5660095214844,
+                    572.1339721679688
+                ]
+            ],
+            [
+                [
+                    450.5660095214844,
+                    548.31396484375
+                ],
+                [
+                    497.4260559082031,
+                    572.1339721679688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>That <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> door. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "That"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 970,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1485,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1786,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2191,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2491,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "door"
+            },
+            {
+                "time": 2941,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

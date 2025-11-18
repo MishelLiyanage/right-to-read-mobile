@@ -1,0 +1,418 @@
+{
+    "0": {
+        "text": "Read",
+        "words": [
+            "Read"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    94.34760284423828,
+                    56.701019287109375
+                ],
+                [
+                    142.0076141357422,
+                    80.5210189819336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 693,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I'm father.",
+        "words": [
+            "I'm",
+            "father."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    173.01199340820312,
+                    211.66598510742188
+                ],
+                [
+                    206.07199096679688,
+                    235.48599243164062
+                ]
+            ],
+            [
+                [
+                    211.07199096679688,
+                    211.66598510742188
+                ],
+                [
+                    274.3120422363281,
+                    235.48599243164062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> father. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 603,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 901,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "father"
+            },
+            {
+                "time": 1595,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "I'm mother.",
+        "words": [
+            "I'm",
+            "mother."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    378.0610046386719,
+                    211.66598510742188
+                ],
+                [
+                    411.1210021972656,
+                    235.48599243164062
+                ]
+            ],
+            [
+                [
+                    416.1210021972656,
+                    211.66598510742188
+                ],
+                [
+                    491.50103759765625,
+                    235.48599243164062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> mother. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 570,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 863,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "mother"
+            },
+            {
+                "time": 1383,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "I'm sister.",
+        "words": [
+            "I'm",
+            "sister."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    115.98999786376953,
+                    433.82598876953125
+                ],
+                [
+                    149.0500030517578,
+                    457.64599609375
+                ]
+            ],
+            [
+                [
+                    154.0500030517578,
+                    433.82598876953125
+                ],
+                [
+                    207.85000610351562,
+                    457.64599609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> sister. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 936,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "sister"
+            },
+            {
+                "time": 1592,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I'm brother.",
+        "words": [
+            "I'm",
+            "brother."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    349.74700927734375,
+                    433.82598876953125
+                ],
+                [
+                    382.8070068359375,
+                    457.64599609375
+                ]
+            ],
+            [
+                [
+                    387.8070068359375,
+                    433.82598876953125
+                ],
+                [
+                    461.1470642089844,
+                    457.64599609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> brother. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 61,
+                "value": "brother"
+            },
+            {
+                "time": 1432,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "I'm grandmother.",
+        "words": [
+            "I'm",
+            "grandmother."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    162.45799255371094,
+                    645.0150146484375
+                ],
+                [
+                    195.5179901123047,
+                    668.8349609375
+                ]
+            ],
+            [
+                [
+                    114.11799621582031,
+                    675.0150146484375
+                ],
+                [
+                    244.8780059814453,
+                    698.8349609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> grandmother. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "old woman",
+        "voice_id": "Kimberly",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 893,
+                "type": "word",
+                "start": 54,
+                "end": 65,
+                "value": "grandmother"
+            },
+            {
+                "time": 1812,
+                "type": "word",
+                "start": 67,
+                "end": 88,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "I'm grandfather.",
+        "words": [
+            "I'm",
+            "grandfather."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    400.0580139160156,
+                    645.0150146484375
+                ],
+                [
+                    433.1180114746094,
+                    668.8349609375
+                ]
+            ],
+            [
+                [
+                    357.77801513671875,
+                    675.0150146484375
+                ],
+                [
+                    476.3980712890625,
+                    698.8349609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> grandfather. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "old man",
+        "voice_id": "Matthew",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 463,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 757,
+                "type": "word",
+                "start": 54,
+                "end": 65,
+                "value": "grandfather"
+            },
+            {
+                "time": 1587,
+                "type": "word",
+                "start": 67,
+                "end": 88,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

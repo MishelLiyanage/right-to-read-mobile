@@ -1,0 +1,603 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    51.704010009765625
+                ],
+                [
+                    114.74959564208984,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    119.74959564208984,
+                    51.704010009765625
+                ],
+                [
+                    156.6696014404297,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    161.6696014404297,
+                    51.704010009765625
+                ],
+                [
+                    197.68960571289062,
+                    75.52400970458984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Where do you live?",
+        "words": [
+            "Where",
+            "do",
+            "you",
+            "live?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    91.70401000976562
+                ],
+                [
+                    121.10960388183594,
+                    115.52400970458984
+                ]
+            ],
+            [
+                [
+                    126.10960388183594,
+                    91.70401000976562
+                ],
+                [
+                    149.52960205078125,
+                    115.52400970458984
+                ]
+            ],
+            [
+                [
+                    154.32960510253906,
+                    91.70401000976562
+                ],
+                [
+                    188.36959838867188,
+                    115.52400970458984
+                ]
+            ],
+            [
+                [
+                    193.36959838867188,
+                    91.70401000976562
+                ],
+                [
+                    234.92958068847656,
+                    115.52400970458984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Where <break time='200ms'/> do <break time='200ms'/> you <break time='200ms'/> live? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Where"
+            },
+            {
+                "time": 591,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 56,
+                "end": 58,
+                "value": "do"
+            },
+            {
+                "time": 1509,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1809,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "you"
+            },
+            {
+                "time": 2413,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2707,
+                "type": "word",
+                "start": 107,
+                "end": 111,
+                "value": "live"
+            },
+            {
+                "time": 3253,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "I live in ...........",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "..........."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    278.82000732421875,
+                    667.087646484375
+                ],
+                [
+                    285.4800109863281,
+                    688.525634765625
+                ]
+            ],
+            [
+                [
+                    289.9800109863281,
+                    667.087646484375
+                ],
+                [
+                    318.1500244140625,
+                    688.525634765625
+                ]
+            ],
+            [
+                [
+                    322.6500244140625,
+                    667.087646484375
+                ],
+                [
+                    338.38201904296875,
+                    688.525634765625
+                ]
+            ],
+            [
+                [
+                    342.88201904296875,
+                    667.087646484375
+                ],
+                [
+                    405.0541076660156,
+                    688.525634765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 557,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 857,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1599,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1892,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2562,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2762,
+                "type": "word",
+                "start": 104,
+                "end": 125,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "I live in ........ I live in.......",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "........",
+            "I",
+            "live",
+            "in......."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    415.4580078125,
+                    451.4295959472656
+                ],
+                [
+                    422.1180114746094,
+                    472.86761474609375
+                ]
+            ],
+            [
+                [
+                    426.6180114746094,
+                    451.4295959472656
+                ],
+                [
+                    454.78802490234375,
+                    472.86761474609375
+                ]
+            ],
+            [
+                [
+                    459.28802490234375,
+                    451.4295959472656
+                ],
+                [
+                    475.02001953125,
+                    472.86761474609375
+                ]
+            ],
+            [
+                [
+                    479.52001953125,
+                    451.4295959472656
+                ],
+                [
+                    524.7360229492188,
+                    472.86761474609375
+                ]
+            ],
+            [
+                [
+                    92.39730072021484,
+                    432.2720031738281
+                ],
+                [
+                    99.79730224609375,
+                    456.0920104980469
+                ]
+            ],
+            [
+                [
+                    104.79730224609375,
+                    432.2720031738281
+                ],
+                [
+                    136.09730529785156,
+                    456.0920104980469
+                ]
+            ],
+            [
+                [
+                    141.09730529785156,
+                    432.2720031738281
+                ],
+                [
+                    202.5373077392578,
+                    456.0920104980469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> <break time='200ms'/> I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 557,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 857,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1599,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1899,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2467,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2667,
+                "type": "word",
+                "start": 104,
+                "end": 125,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2967,
+                "type": "word",
+                "start": 126,
+                "end": 127,
+                "value": "I"
+            },
+            {
+                "time": 3555,
+                "type": "word",
+                "start": 128,
+                "end": 149,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3855,
+                "type": "word",
+                "start": 150,
+                "end": 154,
+                "value": "live"
+            },
+            {
+                "time": 4597,
+                "type": "word",
+                "start": 155,
+                "end": 176,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4890,
+                "type": "word",
+                "start": 177,
+                "end": 179,
+                "value": "in"
+            },
+            {
+                "time": 5560,
+                "type": "word",
+                "start": 180,
+                "end": 201,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I live in Matara.",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "Matara."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    195.6320037841797,
+                    587.5130615234375
+                ],
+                [
+                    202.29200744628906,
+                    608.9510498046875
+                ]
+            ],
+            [
+                [
+                    206.79200744628906,
+                    587.5130615234375
+                ],
+                [
+                    234.96200561523438,
+                    608.9510498046875
+                ]
+            ],
+            [
+                [
+                    239.46200561523438,
+                    587.5130615234375
+                ],
+                [
+                    255.19400024414062,
+                    608.9510498046875
+                ]
+            ],
+            [
+                [
+                    259.6940002441406,
+                    587.5130615234375
+                ],
+                [
+                    325.80804443359375,
+                    608.9510498046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> Matara. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 644,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 944,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1656,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1949,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2465,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2765,
+                "type": "word",
+                "start": 104,
+                "end": 110,
+                "value": "Matara"
+            },
+            {
+                "time": 3648,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

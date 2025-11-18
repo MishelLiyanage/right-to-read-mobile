@@ -19,8 +19,8 @@ class HighlightDataService {
   private speechMarksCache: Map<string, SpeechMark[]> = new Map();
   private blockDataCache: Map<string, any> = new Map();
 
-  async loadSpeechMarks(blockId: number, pageNumber: number, bookTitle: string): Promise<SpeechMark[]> {
-    const cacheKey = `${bookTitle}-${pageNumber}-${blockId}`; // Create unique cache key combining book, page and block
+  async loadSpeechMarks(blockId: number, pageNumber: number, bookTitle: string, isSlowMode?: boolean): Promise<SpeechMark[]> {
+    const cacheKey = `${bookTitle}-${pageNumber}-${blockId}${isSlowMode ? '-slow' : ''}`; // Create unique cache key combining book, page, block and mode
     if (this.speechMarksCache.has(cacheKey)) {
       return this.speechMarksCache.get(cacheKey)!;
     }
@@ -29,7 +29,7 @@ class HighlightDataService {
       // Try to load speech marks from the trimmed blocks data
       const { TrimmedBlocksDataService } = require('./trimmedBlocksDataService');
       const trimmedBlocksDataService = TrimmedBlocksDataService.getInstance();
-      const trimmedData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle);
+      const trimmedData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle, isSlowMode);
       
       if (trimmedData && trimmedData[blockId] && trimmedData[blockId].timing) {
         const speechMarksData: SpeechMark[] = trimmedData[blockId].timing.map((timing: any) => ({
@@ -55,8 +55,8 @@ class HighlightDataService {
     }
   }
 
-  async loadBlockData(pageNumber: number, bookTitle: string): Promise<any> {
-    const cacheKey = `${bookTitle}-${pageNumber}`;
+  async loadBlockData(pageNumber: number, bookTitle: string, isSlowMode?: boolean): Promise<any> {
+    const cacheKey = `${bookTitle}-${pageNumber}${isSlowMode ? '-slow' : ''}`;
     if (this.blockDataCache.has(cacheKey)) {
       return this.blockDataCache.get(cacheKey)!;
     }
@@ -65,7 +65,7 @@ class HighlightDataService {
       // Load block data from the TrimmedBlocksDataService
       const { TrimmedBlocksDataService } = require('./trimmedBlocksDataService');
       const trimmedBlocksDataService = TrimmedBlocksDataService.getInstance();
-      const blockData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle) || {};
+      const blockData = trimmedBlocksDataService.getTrimmedBlocksForPage(pageNumber, bookTitle, isSlowMode) || {};
       
 
       this.blockDataCache.set(cacheKey, blockData);
@@ -76,13 +76,13 @@ class HighlightDataService {
     }
   }
 
-  async getBlockHighlightData(blockId: number, pageNumber: number, bookTitle: string): Promise<BlockHighlightData | null> {
+  async getBlockHighlightData(blockId: number, pageNumber: number, bookTitle: string, isSlowMode?: boolean): Promise<BlockHighlightData | null> {
     try {
 
       
       const [speechMarks, allBlockData] = await Promise.all([
-        this.loadSpeechMarks(blockId, pageNumber, bookTitle),
-        this.loadBlockData(pageNumber, bookTitle)
+        this.loadSpeechMarks(blockId, pageNumber, bookTitle, isSlowMode),
+        this.loadBlockData(pageNumber, bookTitle, isSlowMode)
       ]);
 
 
