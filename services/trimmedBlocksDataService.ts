@@ -130,6 +130,37 @@ import page97TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_boo
 import page98TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_98/grade_3_english_book.pdf_page_98_trimmed_blocks.json';
 import page99TrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_99/grade_3_english_book.pdf_page_99_trimmed_blocks.json';
 
+// Grade 3 English Book - Slow Reading versions
+import page10SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_10/grade_3_english_book.pdf_page_10_trimmed_blocks_slow.json';
+import page11SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_11/grade_3_english_book.pdf_page_11_trimmed_blocks_slow.json';
+import page12SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_12/grade_3_english_book.pdf_page_12_trimmed_blocks_slow.json';
+import page13SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_13/grade_3_english_book.pdf_page_13_trimmed_blocks_slow.json';
+import page14SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_14/grade_3_english_book.pdf_page_14_trimmed_blocks_slow.json';
+import page15SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_15/grade_3_english_book.pdf_page_15_trimmed_blocks_slow.json';
+import page16SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_16/grade_3_english_book.pdf_page_16_trimmed_blocks_slow.json';
+import page17SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_17/grade_3_english_book.pdf_page_17_trimmed_blocks_slow.json';
+import page18SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_18/grade_3_english_book.pdf_page_18_trimmed_blocks_slow.json';
+import page19SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_19/grade_3_english_book.pdf_page_19_trimmed_blocks_slow.json';
+import page20SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_20/grade_3_english_book.pdf_page_20_trimmed_blocks_slow.json';
+import page22SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_22/grade_3_english_book.pdf_page_22_trimmed_blocks_slow.json';
+import page23SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_23/grade_3_english_book.pdf_page_23_trimmed_blocks_slow.json';
+import page24SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_24/grade_3_english_book.pdf_page_24_trimmed_blocks_slow.json';
+import page25SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_25/grade_3_english_book.pdf_page_25_trimmed_blocks_slow.json';
+import page26SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_26/grade_3_english_book.pdf_page_26_trimmed_blocks_slow.json';
+import page27SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_27/grade_3_english_book.pdf_page_27_trimmed_blocks_slow.json';
+import page28SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_28/grade_3_english_book.pdf_page_28_trimmed_blocks_slow.json';
+import page29SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_29/grade_3_english_book.pdf_page_29_trimmed_blocks_slow.json';
+import page30SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_30/grade_3_english_book.pdf_page_30_trimmed_blocks_slow.json';
+import page31SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_31/grade_3_english_book.pdf_page_31_trimmed_blocks_slow.json';
+import page32SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_32/grade_3_english_book.pdf_page_32_trimmed_blocks_slow.json';
+import page33SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_33/grade_3_english_book.pdf_page_33_trimmed_blocks_slow.json';
+import page34SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_34/grade_3_english_book.pdf_page_34_trimmed_blocks_slow.json';
+import page35SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_35/grade_3_english_book.pdf_page_35_trimmed_blocks_slow.json';
+import page36SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_36/grade_3_english_book.pdf_page_36_trimmed_blocks_slow.json';
+import page38SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_38/grade_3_english_book.pdf_page_38_trimmed_blocks_slow.json';
+import page39SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_39/grade_3_english_book.pdf_page_39_trimmed_blocks_slow.json';
+import page40SlowTrimmedBlocks from '@/data/grade_3_english_book/grade_3_english_book_page_40/grade_3_english_book.pdf_page_40_trimmed_blocks_slow.json';
+
 // Grade 4 English Book (pages 10-119)
 import page10G4TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_10/grade_4_english_book.pdf_page_10_trimmed_blocks.json';
 import page100G4TrimmedBlocks from '@/data/grade_4_english_book/grade_4_english_book_page_100/grade_4_english_book.pdf_page_100_trimmed_blocks.json';
@@ -265,6 +296,7 @@ export class TrimmedBlocksDataService {
   private static instance: TrimmedBlocksDataService;
   private grade3DataMap: Map<number, TrimmedBlockData> = new Map();
   private grade4DataMap: Map<number, TrimmedBlockData> = new Map();
+  private grade3SlowDataMap: Map<number, TrimmedBlockData> = new Map();
 
   static getInstance(): TrimmedBlocksDataService {
     if (!TrimmedBlocksDataService.instance) {
@@ -516,10 +548,51 @@ export class TrimmedBlocksDataService {
     this.grade4DataMap.set(118, page118G4TrimmedBlocks as any);
     this.grade4DataMap.set(119, page119G4TrimmedBlocks as any);
 
-    console.log('TrimmedBlocksDataService initialized with Grade 3 pages:', Array.from(this.grade3DataMap.keys()).length, 'and Grade 4 pages:', Array.from(this.grade4DataMap.keys()).length);
+    // Grade 3 Slow Reading versions (only pages with slow files)
+    this.grade3SlowDataMap.set(10, page10SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(11, page11SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(12, page12SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(13, page13SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(14, page14SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(15, page15SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(16, page16SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(17, page17SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(18, page18SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(19, page19SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(20, page20SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(22, page22SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(23, page23SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(24, page24SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(25, page25SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(26, page26SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(27, page27SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(28, page28SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(29, page29SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(30, page30SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(31, page31SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(32, page32SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(33, page33SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(34, page34SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(35, page35SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(36, page36SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(38, page38SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(39, page39SlowTrimmedBlocks as any);
+    this.grade3SlowDataMap.set(40, page40SlowTrimmedBlocks as any);
+
+    console.log('TrimmedBlocksDataService initialized with Grade 3 pages:', Array.from(this.grade3DataMap.keys()).length, 'Grade 4 pages:', Array.from(this.grade4DataMap.keys()).length, 'and Grade 3 Slow pages:', Array.from(this.grade3SlowDataMap.keys()).length);
   }
 
-  getTrimmedBlocksForPage(pageNumber: number, bookTitle?: string): TrimmedBlockData | null {
+  getTrimmedBlocksForPage(pageNumber: number, bookTitle?: string, isSlowMode?: boolean): TrimmedBlockData | null {
+    // If slow mode is enabled, try to get slow version first (only for Grade 3)
+    if (isSlowMode && (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3'))) {
+      const slowData = this.grade3SlowDataMap.get(pageNumber);
+      if (slowData) {
+        return slowData;
+      }
+      // If no slow data available, fall back to normal version
+      console.warn(`Slow trimmed blocks not available for page ${pageNumber}, using normal version`);
+    }
+    
     // Determine which data map to use based on book title
     let dataMap: Map<number, TrimmedBlockData>;
     

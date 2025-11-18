@@ -42,7 +42,7 @@ function addAudioImports(bookName, pages, prefix) {
     const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
     
     if (fs.existsSync(pageDir)) {
-      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('_audio.mp3') && !file.includes('_slow_'));
       
       if (audioFiles.length > 0) {
         content += `// ${bookName} Page ${pageNum} audio files\n`;
@@ -59,9 +59,36 @@ function addAudioImports(bookName, pages, prefix) {
   });
 }
 
+// Function to add SLOW audio imports for a book
+function addSlowAudioImports(bookName, pages, prefix) {
+  pages.forEach(pageNum => {
+    const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
+    
+    if (fs.existsSync(pageDir)) {
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('_slow_audio.mp3'));
+      
+      if (audioFiles.length > 0) {
+        content += `// ${bookName} Page ${pageNum} SLOW audio files\n`;
+        audioFiles.forEach(file => {
+          const blockMatch = file.match(/block_(\d+)_(\d+)_slow_audio\.mp3/);
+          if (blockMatch) {
+            const blockId = blockMatch[2];
+            content += `const ${prefix}page${pageNum}_block${blockId}_slow = require('../data/${bookName}/${bookName}_page_${pageNum}/${file}');\n`;
+          }
+        });
+        content += '\n';
+      }
+    }
+  });
+}
+
 // Add audio imports for both books
 addAudioImports('grade_3_english_book', grade3Pages, 'g3_');
 addAudioImports('grade_4_english_book', grade4Pages, 'g4_');
+
+// Add SLOW audio imports
+content += `// Slow audio files for Grade 3 English Book\n`;
+addSlowAudioImports('grade_3_english_book', grade3Pages, 'g3_');
 
 // Create audio mappings objects for both books
 content += `// Audio mappings by book and page\n`;
@@ -73,7 +100,7 @@ function addAudioMappings(bookName, pages, prefix, isGrade4 = false) {
     const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
     
     if (fs.existsSync(pageDir)) {
-      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('.mp3'));
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('_audio.mp3') && !file.includes('_slow_'));
       
       if (audioFiles.length > 0) {
         content += `  '${pageNum}': {\n`;
@@ -92,6 +119,31 @@ function addAudioMappings(bookName, pages, prefix, isGrade4 = false) {
   });
 }
 
+// Function to add SLOW audio mappings for a book
+function addSlowAudioMappings(bookName, pages, prefix) {
+  pages.forEach(pageNum => {
+    const pageDir = path.join(__dirname, '..', 'data', bookName, `${bookName}_page_${pageNum}`);
+    
+    if (fs.existsSync(pageDir)) {
+      const audioFiles = fs.readdirSync(pageDir).filter(file => file.endsWith('_slow_audio.mp3'));
+      
+      if (audioFiles.length > 0) {
+        content += `  '${pageNum}': {\n`;
+        
+        audioFiles.forEach(file => {
+          const blockMatch = file.match(/block_(\d+)_(\d+)_slow_audio\.mp3/);
+          if (blockMatch) {
+            const blockId = blockMatch[2];
+            content += `    '${blockId}': ${prefix}page${pageNum}_block${blockId}_slow,\n`;
+          }
+        });
+        
+        content += `  },\n`;
+      }
+    }
+  });
+}
+
 // Add Grade 3 mappings
 addAudioMappings('grade_3_english_book', grade3Pages, 'g3_');
 content += `};\n\n`;
@@ -101,9 +153,24 @@ content += `const grade4AudioMappings: { [pageNumber: string]: { [blockId: strin
 addAudioMappings('grade_4_english_book', grade4Pages, 'g4_');
 content += `};\n\n`;
 
+// Add Grade 3 SLOW mappings
+content += `const grade3SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addSlowAudioMappings('grade_3_english_book', grade3Pages, 'g3_');
+content += `};\n\n`;
+
 // Add the book-aware service class
 content += `export class AudioResolver {
-  static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string): any | null {
+  static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
+    // If slow mode is enabled and it's Grade 3, try slow audio first
+    if (isSlowMode && (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3'))) {
+      const slowPageAudio = grade3SlowAudioMappings[pageNumber.toString()];
+      if (slowPageAudio && slowPageAudio[blockId]) {
+        return slowPageAudio[blockId];
+      }
+      // Fall back to normal audio if slow audio not available
+      console.log(\`No slow audio found for page \${pageNumber}, block \${blockId}, using normal audio\`);
+    }
+    
     // Determine which audio mappings to use based on book title
     let audioMappings;
     if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {

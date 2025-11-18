@@ -1,0 +1,379 @@
+{
+    "0": {
+        "text": "15 My pets Listen, point and say.",
+        "words": [
+            "15",
+            "My",
+            "pets",
+            "Listen,",
+            "point",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    554.094970703125,
+                    24.34998893737793
+                ],
+                [
+                    577.2549438476562,
+                    57.109989166259766
+                ]
+            ],
+            [
+                [
+                    267.8340148925781,
+                    52.211029052734375
+                ],
+                [
+                    295.31402587890625,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    297.6340026855469,
+                    52.211029052734375
+                ],
+                [
+                    340.31402587890625,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    59.014007568359375,
+                    82.21102905273438
+                ],
+                [
+                    119.61399841308594,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    123.61399841308594,
+                    82.21102905273438
+                ],
+                [
+                    172.01400756835938,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    176.8140106201172,
+                    82.21102905273438
+                ],
+                [
+                    213.73402404785156,
+                    106.0310287475586
+                ]
+            ],
+            [
+                [
+                    218.73402404785156,
+                    82.21102905273438
+                ],
+                [
+                    254.7540283203125,
+                    106.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>15 <break time='200ms'/> My <break time='200ms'/> pets <break time='200ms'/> Listen, <break time='200ms'/> point <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "15"
+            },
+            {
+                "time": 973,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1273,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "My"
+            },
+            {
+                "time": 1936,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2230,
+                "type": "word",
+                "start": 78,
+                "end": 82,
+                "value": "pets"
+            },
+            {
+                "time": 2918,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3212,
+                "type": "word",
+                "start": 105,
+                "end": 111,
+                "value": "Listen"
+            },
+            {
+                "time": 4041,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4334,
+                "type": "word",
+                "start": 135,
+                "end": 140,
+                "value": "point"
+            },
+            {
+                "time": 4980,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5280,
+                "type": "word",
+                "start": 163,
+                "end": 166,
+                "value": "and"
+            },
+            {
+                "time": 5883,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6183,
+                "type": "word",
+                "start": 189,
+                "end": 192,
+                "value": "say"
+            },
+            {
+                "time": 6684,
+                "type": "word",
+                "start": 194,
+                "end": 215,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "cat dog",
+        "words": [
+            "cat",
+            "dog"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    178.1999969482422,
+                    279.4110107421875
+                ],
+                [
+                    208.22000122070312,
+                    303.23101806640625
+                ]
+            ],
+            [
+                [
+                    390.6000061035156,
+                    274.44000244140625
+                ],
+                [
+                    426.1800231933594,
+                    298.260009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>cat <break time='200ms'/> dog <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "cat"
+            },
+            {
+                "time": 701,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1001,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "dog"
+            },
+            {
+                "time": 1662,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "cow fish",
+        "words": [
+            "cow",
+            "fish"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    171.0,
+                    472.45001220703125
+                ],
+                [
+                    208.92001342773438,
+                    496.27001953125
+                ]
+            ],
+            [
+                [
+                    391.5350036621094,
+                    470.6499938964844
+                ],
+                [
+                    425.57501220703125,
+                    494.4700012207031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>cow <break time='200ms'/> fish <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "cow"
+            },
+            {
+                "time": 702,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 992,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "fish"
+            },
+            {
+                "time": 1744,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "parrot rabbit",
+        "words": [
+            "parrot",
+            "rabbit"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    164.9759979248047,
+                    688.7197265625
+                ],
+                [
+                    221.05599975585938,
+                    712.5396728515625
+                ]
+            ],
+            [
+                [
+                    372.6000061035156,
+                    683.6883544921875
+                ],
+                [
+                    427.86004638671875,
+                    707.5083618164062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>parrot <break time='200ms'/> rabbit <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "parrot"
+            },
+            {
+                "time": 656,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 950,
+                "type": "word",
+                "start": 57,
+                "end": 63,
+                "value": "rabbit"
+            },
+            {
+                "time": 1762,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

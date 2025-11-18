@@ -1,0 +1,842 @@
+{
+    "0": {
+        "text": "Greet everyone.",
+        "words": [
+            "Greet",
+            "everyone."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.12099838256836,
+                    50.628997802734375
+                ],
+                [
+                    112.65089416503906,
+                    76.83099365234375
+                ]
+            ],
+            [
+                [
+                    117.45089721679688,
+                    52.550994873046875
+                ],
+                [
+                    209.17086791992188,
+                    76.3709945678711
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Greet <break time='200ms'/> everyone. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Greet"
+            },
+            {
+                "time": 675,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 976,
+                "type": "word",
+                "start": 56,
+                "end": 64,
+                "value": "everyone"
+            },
+            {
+                "time": 1723,
+                "type": "word",
+                "start": 66,
+                "end": 87,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Good evening Good night",
+        "words": [
+            "Good",
+            "evening",
+            "Good",
+            "night"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    99.87089538574219,
+                    321.77099609375
+                ],
+                [
+                    150.0509033203125,
+                    345.59100341796875
+                ]
+            ],
+            [
+                [
+                    155.0509033203125,
+                    321.77099609375
+                ],
+                [
+                    230.0509033203125,
+                    345.59100341796875
+                ]
+            ],
+            [
+                [
+                    363.9530029296875,
+                    319.635986328125
+                ],
+                [
+                    414.1330261230469,
+                    343.45599365234375
+                ]
+            ],
+            [
+                [
+                    419.1330261230469,
+                    319.635986328125
+                ],
+                [
+                    468.7730407714844,
+                    343.45599365234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Good <break time='200ms'/> evening <break time='200ms'/> Good <break time='200ms'/> night <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Good"
+            },
+            {
+                "time": 617,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 917,
+                "type": "word",
+                "start": 55,
+                "end": 62,
+                "value": "evening"
+            },
+            {
+                "time": 1638,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1931,
+                "type": "word",
+                "start": 85,
+                "end": 89,
+                "value": "Good"
+            },
+            {
+                "time": 2542,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2842,
+                "type": "word",
+                "start": 112,
+                "end": 117,
+                "value": "night"
+            },
+            {
+                "time": 3575,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Good morning Good afternoon",
+        "words": [
+            "Good",
+            "morning",
+            "Good",
+            "afternoon"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    108.8270034790039,
+                    91.03402709960938
+                ],
+                [
+                    159.0070037841797,
+                    114.8540267944336
+                ]
+            ],
+            [
+                [
+                    164.0070037841797,
+                    91.03402709960938
+                ],
+                [
+                    244.70701599121094,
+                    114.8540267944336
+                ]
+            ],
+            [
+                [
+                    337.1440124511719,
+                    91.73098754882812
+                ],
+                [
+                    387.32403564453125,
+                    115.55098724365234
+                ]
+            ],
+            [
+                [
+                    392.32403564453125,
+                    91.73098754882812
+                ],
+                [
+                    485.60406494140625,
+                    115.55098724365234
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Good <break time='200ms'/> morning <break time='200ms'/> Good <break time='200ms'/> afternoon <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Good"
+            },
+            {
+                "time": 617,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 917,
+                "type": "word",
+                "start": 55,
+                "end": 62,
+                "value": "morning"
+            },
+            {
+                "time": 1680,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1973,
+                "type": "word",
+                "start": 85,
+                "end": 89,
+                "value": "Good"
+            },
+            {
+                "time": 2584,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2884,
+                "type": "word",
+                "start": 112,
+                "end": 121,
+                "value": "afternoon"
+            },
+            {
+                "time": 3990,
+                "type": "word",
+                "start": 122,
+                "end": 143,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Sing the song.",
+        "words": [
+            "Sing",
+            "the",
+            "song."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.12099838256836,
+                    551.31298828125
+                ],
+                [
+                    99.44099426269531,
+                    575.1329956054688
+                ]
+            ],
+            [
+                [
+                    104.24099731445312,
+                    551.31298828125
+                ],
+                [
+                    135.78099060058594,
+                    575.1329956054688
+                ]
+            ],
+            [
+                [
+                    140.78099060058594,
+                    551.31298828125
+                ],
+                [
+                    192.18099975585938,
+                    575.1329956054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sing <break time='200ms'/> the <break time='200ms'/> song. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Sing"
+            },
+            {
+                "time": 662,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 962,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "the"
+            },
+            {
+                "time": 1437,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1728,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "song"
+            },
+            {
+                "time": 2341,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Good morning to you, and how do you do? I'm happy to see you. Good morning to you!",
+        "words": [
+            "Good",
+            "morning",
+            "to",
+            "you,",
+            "and",
+            "how",
+            "do",
+            "you",
+            "do?",
+            "I'm",
+            "happy",
+            "to",
+            "see",
+            "you.",
+            "Good",
+            "morning",
+            "to",
+            "you!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    280.7770080566406,
+                    603.322998046875
+                ],
+                [
+                    330.95703125,
+                    627.1429443359375
+                ]
+            ],
+            [
+                [
+                    335.95703125,
+                    603.322998046875
+                ],
+                [
+                    416.6570739746094,
+                    627.1429443359375
+                ]
+            ],
+            [
+                [
+                    421.4570617675781,
+                    603.322998046875
+                ],
+                [
+                    440.01708984375,
+                    627.1429443359375
+                ]
+            ],
+            [
+                [
+                    444.81707763671875,
+                    603.322998046875
+                ],
+                [
+                    484.2370910644531,
+                    627.1429443359375
+                ]
+            ],
+            [
+                [
+                    280.7770080566406,
+                    630.322998046875
+                ],
+                [
+                    317.697021484375,
+                    654.1429443359375
+                ]
+            ],
+            [
+                [
+                    322.697021484375,
+                    630.322998046875
+                ],
+                [
+                    362.8570251464844,
+                    654.1429443359375
+                ]
+            ],
+            [
+                [
+                    367.6570129394531,
+                    630.322998046875
+                ],
+                [
+                    391.0770263671875,
+                    654.1429443359375
+                ]
+            ],
+            [
+                [
+                    395.87701416015625,
+                    630.322998046875
+                ],
+                [
+                    429.9170227050781,
+                    654.1429443359375
+                ]
+            ],
+            [
+                [
+                    434.9170227050781,
+                    630.322998046875
+                ],
+                [
+                    468.5970458984375,
+                    654.1429443359375
+                ]
+            ],
+            [
+                [
+                    280.7770080566406,
+                    657.322998046875
+                ],
+                [
+                    312.35699462890625,
+                    681.1429443359375
+                ]
+            ],
+            [
+                [
+                    317.156982421875,
+                    657.322998046875
+                ],
+                [
+                    376.5169982910156,
+                    681.1429443359375
+                ]
+            ],
+            [
+                [
+                    381.1169738769531,
+                    657.322998046875
+                ],
+                [
+                    399.677001953125,
+                    681.1429443359375
+                ]
+            ],
+            [
+                [
+                    404.47698974609375,
+                    657.322998046875
+                ],
+                [
+                    436.4570007324219,
+                    681.1429443359375
+                ]
+            ],
+            [
+                [
+                    441.2569885253906,
+                    657.322998046875
+                ],
+                [
+                    481.5769958496094,
+                    681.1429443359375
+                ]
+            ],
+            [
+                [
+                    280.7770080566406,
+                    684.322998046875
+                ],
+                [
+                    330.95703125,
+                    708.1429443359375
+                ]
+            ],
+            [
+                [
+                    335.95703125,
+                    684.322998046875
+                ],
+                [
+                    416.6570739746094,
+                    708.1429443359375
+                ]
+            ],
+            [
+                [
+                    421.4570617675781,
+                    684.322998046875
+                ],
+                [
+                    440.01708984375,
+                    708.1429443359375
+                ]
+            ],
+            [
+                [
+                    444.81707763671875,
+                    684.322998046875
+                ],
+                [
+                    485.1370849609375,
+                    708.1429443359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Good <break time='200ms'/> morning <break time='200ms'/> to <break time='200ms'/> you, <break time='200ms'/> and <break time='200ms'/> how <break time='200ms'/> do <break time='200ms'/> you <break time='200ms'/> do? <break time='200ms'/> I'm <break time='200ms'/> happy <break time='200ms'/> to <break time='200ms'/> see <break time='200ms'/> you. <break time='200ms'/> Good <break time='200ms'/> morning <break time='200ms'/> to <break time='200ms'/> you! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Good"
+            },
+            {
+                "time": 617,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 917,
+                "type": "word",
+                "start": 55,
+                "end": 62,
+                "value": "morning"
+            },
+            {
+                "time": 1686,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1986,
+                "type": "word",
+                "start": 85,
+                "end": 87,
+                "value": "to"
+            },
+            {
+                "time": 2633,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2933,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "you"
+            },
+            {
+                "time": 3538,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3831,
+                "type": "word",
+                "start": 137,
+                "end": 140,
+                "value": "and"
+            },
+            {
+                "time": 4464,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4765,
+                "type": "word",
+                "start": 163,
+                "end": 166,
+                "value": "how"
+            },
+            {
+                "time": 5330,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5630,
+                "type": "word",
+                "start": 189,
+                "end": 191,
+                "value": "do"
+            },
+            {
+                "time": 6209,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6509,
+                "type": "word",
+                "start": 214,
+                "end": 217,
+                "value": "you"
+            },
+            {
+                "time": 7113,
+                "type": "word",
+                "start": 218,
+                "end": 239,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7411,
+                "type": "word",
+                "start": 240,
+                "end": 242,
+                "value": "do"
+            },
+            {
+                "time": 7785,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8372,
+                "type": "word",
+                "start": 266,
+                "end": 269,
+                "value": "I'm"
+            },
+            {
+                "time": 8935,
+                "type": "word",
+                "start": 270,
+                "end": 291,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9235,
+                "type": "word",
+                "start": 292,
+                "end": 297,
+                "value": "happy"
+            },
+            {
+                "time": 9999,
+                "type": "word",
+                "start": 298,
+                "end": 319,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10292,
+                "type": "word",
+                "start": 320,
+                "end": 322,
+                "value": "to"
+            },
+            {
+                "time": 10944,
+                "type": "word",
+                "start": 323,
+                "end": 344,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11244,
+                "type": "word",
+                "start": 345,
+                "end": 348,
+                "value": "see"
+            },
+            {
+                "time": 11916,
+                "type": "word",
+                "start": 349,
+                "end": 370,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12216,
+                "type": "word",
+                "start": 371,
+                "end": 374,
+                "value": "you"
+            },
+            {
+                "time": 12850,
+                "type": "word",
+                "start": 376,
+                "end": 397,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13436,
+                "type": "word",
+                "start": 398,
+                "end": 402,
+                "value": "Good"
+            },
+            {
+                "time": 14047,
+                "type": "word",
+                "start": 403,
+                "end": 424,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14347,
+                "type": "word",
+                "start": 425,
+                "end": 432,
+                "value": "morning"
+            },
+            {
+                "time": 15116,
+                "type": "word",
+                "start": 433,
+                "end": 454,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15409,
+                "type": "word",
+                "start": 455,
+                "end": 457,
+                "value": "to"
+            },
+            {
+                "time": 16061,
+                "type": "word",
+                "start": 458,
+                "end": 479,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16361,
+                "type": "word",
+                "start": 480,
+                "end": 483,
+                "value": "you"
+            },
+            {
+                "time": 16995,
+                "type": "word",
+                "start": 485,
+                "end": 506,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

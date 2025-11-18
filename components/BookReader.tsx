@@ -48,6 +48,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const [isTOCSidebarVisible, setIsTOCSidebarVisible] = useState(false);
   const [isDictionarySidebarVisible, setIsDictionarySidebarVisible] = useState(false);
   const [dictionaryEntries, setDictionaryEntries] = useState<DictionaryEntry[]>([]);
+  const [isSlowMode, setIsSlowMode] = useState(false);
   
   // Word selection states
   const [wordLayoutData, setWordLayoutData] = useState<WordLayoutData | null>(null);
@@ -143,7 +144,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           
           if (blockId !== null && blockId !== undefined && currentPage) {
             try {
-              const highlightData = await highlightDataService.getBlockHighlightData(blockId, currentPage.pageNumber, book.title);
+              const highlightData = await highlightDataService.getBlockHighlightData(blockId, currentPage.pageNumber, book.title, isSlowMode);
               setCurrentBlockHighlightData(highlightData);
             } catch (error) {
               console.error('[BookReader] Failed to load highlight data:', error);
@@ -165,7 +166,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       if (currentPage?.blocks && ttsService.current) {
         try {
           await ttsService.current.initialize();
-          ttsService.current.loadContent(currentPage.blocks, book.title);
+          ttsService.current.loadContent(currentPage.blocks, book.title, isSlowMode);
         } catch (error) {
           console.error('Failed to initialize TTS Service:', error);
         }
@@ -182,7 +183,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       // Clear word position cache
       wordPositionService.current.clearCache();
     };
-  }, [currentPageIndex]);
+  }, [currentPageIndex, isSlowMode]);
 
   // Calculate word positions when image layout is ready
   useEffect(() => {
@@ -684,7 +685,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                     )}
                     {currentPage?.blocks && (() => {
                       const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
-                      const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title);
+                      const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, isSlowMode);
                       const blocksWithBounds = currentPage.blocks.map(block => {
                         // Try to find matching block data by text content instead of ID
                         let matchingBlockData = null;
@@ -761,7 +762,7 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                   {currentPage?.blocks && (() => {
                     // Load block data with bounding boxes from TrimmedBlocksDataService
                     const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
-                    const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title);
+                    const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, isSlowMode);
                     
                     // Prepare blocks data with enhanced filtering
                     const blocksWithBounds = currentPage.blocks.map(block => {
@@ -890,27 +891,18 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
             <ThemedText style={styles.sidebarButtonText}>⏹</ThemedText>
           </TouchableOpacity>
 
-          {/* 6. Audio Speed Changer */}
-          {/* <View style={styles.speedControlSection}>
-            <ThemedText style={styles.speedLabel}>{playbackSpeed}x</ThemedText>
-            {[0.5, 0.75, 1.0, 1.25, 1.5].map((speed) => (
-              <TouchableOpacity 
-                key={speed}
-                onPress={() => handleSpeedChange(speed)}
-                style={[
-                  styles.speedButton,
-                  { backgroundColor: playbackSpeed === speed ? '#FF6B6B' : '#ddd' }
-                ]}
-              >
-                <ThemedText style={[
-                  styles.speedButtonText,
-                  { color: playbackSpeed === speed ? 'white' : 'black' }
-                ]}>
-                  {speed}x
-                </ThemedText>
-              </TouchableOpacity>
-            ))}
-          </View> */}
+          {/* 6. Slow Mode Toggle Button */}
+          <TouchableOpacity 
+            style={[
+              styles.sidebarButton, 
+              isSlowMode ? styles.slowModeActive : styles.slowModeInactive
+            ]} 
+            onPress={() => setIsSlowMode(!isSlowMode)}
+          >
+            <ThemedText style={styles.sidebarButtonText}>
+              {isSlowMode ? '🐢' : '🐰'}
+            </ThemedText>
+          </TouchableOpacity>
 
           {/* 7. Next Arrow Button */}
           <TouchableOpacity 
@@ -1142,6 +1134,12 @@ const styles = StyleSheet.create({
   },
   stopButton: {
     backgroundColor: '#F44336',
+  },
+  slowModeActive: {
+    backgroundColor: '#FF9800', // Orange for slow mode (turtle)
+  },
+  slowModeInactive: {
+    backgroundColor: '#4CAF50', // Green for normal mode (rabbit)
   },
   // magnifierButton: {
   //   backgroundColor: '#9C27B0',
