@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello game</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello game</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 332,
+                "time": 519,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "game"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and do.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and do.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 606,
+                "time": 722,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "do"
             }
         ]
@@ -196,64 +198,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Stand in a circle.<break time=\"500ms\"/> Take a ball.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Stand in a circle. Take a ball.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Stand"
             },
             {
-                "time": 466,
+                "time": 661,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "in"
             },
             {
-                "time": 604,
+                "time": 722,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 659,
+                "time": 875,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "circle"
             },
             {
-                "time": 1307,
+                "time": 2067,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2194,
-                "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 47,
+                "end": 51,
                 "value": "Take"
             },
             {
-                "time": 2464,
+                "time": 2357,
                 "type": "word",
-                "start": 72,
-                "end": 73,
+                "start": 52,
+                "end": 53,
                 "value": "a"
             },
             {
-                "time": 2541,
+                "time": 2449,
                 "type": "word",
-                "start": 74,
-                "end": 78,
+                "start": 54,
+                "end": 58,
                 "value": "ball"
             }
         ]
@@ -330,50 +326,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Throw the ball to a friend.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Throw the ball to a friend.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Throw"
             },
             {
-                "time": 306,
+                "time": 416,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "the"
             },
             {
-                "time": 424,
+                "time": 646,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "ball"
             },
             {
-                "time": 742,
+                "time": 952,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "to"
             },
             {
-                "time": 944,
+                "time": 1181,
                 "type": "word",
-                "start": 45,
-                "end": 46,
+                "start": 46,
+                "end": 47,
                 "value": "a"
             },
             {
-                "time": 1010,
+                "time": 1257,
                 "type": "word",
-                "start": 47,
-                "end": 53,
+                "start": 48,
+                "end": 54,
                 "value": "friend"
             }
         ]
@@ -417,29 +414,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Tell your name.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Tell your name.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Tell"
             },
             {
-                "time": 235,
+                "time": 351,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "your"
             },
             {
-                "time": 415,
+                "time": 580,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "name"
             }
         ]
@@ -483,24 +481,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello! I&apos;m ..</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! I'm ..</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 898,
+                "time": 1316,
                 "type": "word",
-                "start": 34,
-                "end": 42,
-                "value": "I&apos;m"
+                "start": 35,
+                "end": 38,
+                "value": "I'm"
             }
         ]
     },
@@ -554,36 +552,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Ask your friend&apos;s name.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ask your friend's name.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Ask"
             },
             {
-                "time": 351,
+                "time": 505,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "your"
             },
             {
-                "time": 465,
+                "time": 658,
                 "type": "word",
-                "start": 36,
-                "end": 49,
-                "value": "friend&apos;s"
+                "start": 37,
+                "end": 45,
+                "value": "friend's"
             },
             {
-                "time": 999,
+                "time": 1102,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 46,
+                "end": 50,
                 "value": "name"
             }
         ]
@@ -627,30 +626,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What&apos;s your name?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What's your name?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 38,
-                "value": "What&apos;s"
+                "start": 28,
+                "end": 34,
+                "value": "What's"
             },
             {
-                "time": 246,
+                "time": 354,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 35,
+                "end": 39,
                 "value": "your"
             },
             {
-                "time": 400,
+                "time": 583,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 40,
+                "end": 44,
                 "value": "name"
             }
         ]
@@ -694,29 +693,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Tell your name.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Tell your name.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Tell"
             },
             {
-                "time": 235,
+                "time": 351,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "your"
             },
             {
-                "time": 415,
+                "time": 580,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "name"
             }
         ]
@@ -760,31 +760,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello! I&apos;m <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! I'm ....</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 898,
+                "time": 1316,
                 "type": "word",
-                "start": 34,
-                "end": 42,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1604,
-                "type": "word",
-                "start": 43,
-                "end": 65,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 35,
+                "end": 38,
+                "value": "I'm"
             }
         ]
     },
@@ -860,57 +853,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Make a badge.<break time=\"500ms\"/> Write your name.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Make a badge. Write your name.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Make"
             },
             {
-                "time": 290,
+                "time": 416,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 367,
+                "time": 508,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "badge"
             },
             {
-                "time": 941,
+                "time": 1786,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1827,
-                "type": "word",
-                "start": 62,
-                "end": 67,
+                "start": 42,
+                "end": 47,
                 "value": "Write"
             },
             {
-                "time": 2138,
+                "time": 2015,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 48,
+                "end": 52,
                 "value": "your"
             },
             {
-                "time": 2302,
+                "time": 2168,
                 "type": "word",
-                "start": 73,
-                "end": 77,
+                "start": 53,
+                "end": 57,
                 "value": "name"
             }
         ]
@@ -932,15 +919,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Dasuni</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='dasuni'>Dasuni</phoneme></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Dasuni"
             }
         ]

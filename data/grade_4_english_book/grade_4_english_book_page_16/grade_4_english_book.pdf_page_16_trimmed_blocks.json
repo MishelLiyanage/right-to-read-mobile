@@ -1,10 +1,14 @@
 {
     "0": {
-        "text": "Point and say.",
+        "text": "Point and say. This is....... These are........",
         "words": [
             "Point",
             "and",
-            "say."
+            "say.",
+            "This",
+            "is.......",
+            "These",
+            "are........"
         ],
         "bounding_boxes": [
             [
@@ -36,32 +40,101 @@
                     266.5762939453125,
                     76.37188720703125
                 ]
+            ],
+            [
+                [
+                    391.08538818359375,
+                    60.72012710571289
+                ],
+                [
+                    424.36737060546875,
+                    82.15812683105469
+                ]
+            ],
+            [
+                [
+                    428.86737060546875,
+                    60.72012710571289
+                ],
+                [
+                    481.013427734375,
+                    82.15812683105469
+                ]
+            ],
+            [
+                [
+                    391.08538818359375,
+                    78.72012329101562
+                ],
+                [
+                    440.3873596191406,
+                    100.15812683105469
+                ]
+            ],
+            [
+                [
+                    444.8873596191406,
+                    78.72012329101562
+                ],
+                [
+                    516.9234008789062,
+                    100.15812683105469
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Point and say. This is....... These are........</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Point"
             },
             {
                 "time": 357,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
                 "time": 531,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "say"
+            },
+            {
+                "time": 1413,
+                "type": "word",
+                "start": 43,
+                "end": 47,
+                "value": "This"
+            },
+            {
+                "time": 1721,
+                "type": "word",
+                "start": 48,
+                "end": 50,
+                "value": "is"
+            },
+            {
+                "time": 2508,
+                "type": "word",
+                "start": 58,
+                "end": 63,
+                "value": "These"
+            },
+            {
+                "time": 2789,
+                "type": "word",
+                "start": 64,
+                "end": 67,
+                "value": "are"
             }
         ]
     },
@@ -115,7 +188,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my head.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my head.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -123,29 +196,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 242,
+                "time": 246,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 406,
+                "time": 416,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 609,
+                "time": 632,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "head"
             }
         ]
@@ -200,7 +273,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">These are my ears.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>These are my ears.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -208,29 +281,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "These"
             },
             {
-                "time": 334,
+                "time": 344,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 430,
+                "time": 441,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "my"
             },
             {
-                "time": 647,
+                "time": 675,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "ears"
             }
         ]
@@ -274,30 +347,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is ..........</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 295,
+                "time": 312,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
-            },
-            {
-                "time": 960,
-                "type": "word",
-                "start": 35,
-                "end": 57,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -329,30 +396,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">These are<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>These are...........</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "These"
             },
             {
-                "time": 326,
+                "time": 287,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
-            },
-            {
-                "time": 905,
-                "type": "word",
-                "start": 36,
-                "end": 58,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     }

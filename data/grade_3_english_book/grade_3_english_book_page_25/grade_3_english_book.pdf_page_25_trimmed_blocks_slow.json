@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "16",
-        "words": [
-            "16"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    34.24409866333008,
-                    24.34998893737793
-                ],
-                [
-                    57.284095764160156,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>16 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "16"
-            },
-            {
-                "time": 1022,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Do you have a pet?",
         "words": [
             "Do",
@@ -101,73 +63,73 @@
         "ssml": "<speak><prosody rate='slow'>Do <break time='200ms'/> you <break time='200ms'/> have <break time='200ms'/> a <break time='200ms'/> pet? <break time='200ms'/></prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 30,
                 "value": "Do"
             },
             {
-                "time": 623,
+                "time": 676,
                 "type": "word",
                 "start": 31,
                 "end": 52,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 923,
+                "time": 982,
                 "type": "word",
                 "start": 53,
                 "end": 56,
                 "value": "you"
             },
             {
-                "time": 1527,
+                "time": 1436,
                 "type": "word",
                 "start": 57,
                 "end": 78,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1822,
+                "time": 1692,
                 "type": "word",
                 "start": 79,
                 "end": 83,
                 "value": "have"
             },
             {
-                "time": 2401,
+                "time": 2348,
                 "type": "word",
                 "start": 84,
                 "end": 105,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 2695,
+                "time": 2623,
                 "type": "word",
                 "start": 106,
                 "end": 107,
                 "value": "a"
             },
             {
-                "time": 3394,
+                "time": 3030,
                 "type": "word",
                 "start": 108,
                 "end": 129,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 3694,
+                "time": 3255,
                 "type": "word",
                 "start": 130,
                 "end": 133,
                 "value": "pet"
             },
             {
-                "time": 4082,
+                "time": 3864,
                 "type": "word",
                 "start": 135,
                 "end": 156,

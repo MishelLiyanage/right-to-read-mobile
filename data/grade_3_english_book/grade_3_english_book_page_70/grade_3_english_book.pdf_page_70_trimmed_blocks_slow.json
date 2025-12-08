@@ -1,0 +1,618 @@
+{
+    "0": {
+        "text": "Listen, point and say.",
+        "words": [
+            "Listen,",
+            "point",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.73099899291992,
+                    51.714996337890625
+                ],
+                [
+                    120.33099365234375,
+                    75.53499603271484
+                ]
+            ],
+            [
+                [
+                    124.33099365234375,
+                    51.714996337890625
+                ],
+                [
+                    172.7310028076172,
+                    75.53499603271484
+                ]
+            ],
+            [
+                [
+                    177.531005859375,
+                    51.714996337890625
+                ],
+                [
+                    214.45101928710938,
+                    75.53499603271484
+                ]
+            ],
+            [
+                [
+                    219.45101928710938,
+                    51.714996337890625
+                ],
+                [
+                    255.4710235595703,
+                    75.53499603271484
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen, <break time='200ms'/> point <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 58,
+                "end": 63,
+                "value": "point"
+            },
+            {
+                "time": 1643,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1956,
+                "type": "word",
+                "start": 86,
+                "end": 89,
+                "value": "and"
+            },
+            {
+                "time": 2396,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2715,
+                "type": "word",
+                "start": 112,
+                "end": 115,
+                "value": "say"
+            },
+            {
+                "time": 3279,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "breakfast",
+        "words": [
+            "breakfast"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    302.0140075683594,
+                    108.58499145507812
+                ],
+                [
+                    390.79400634765625,
+                    132.40499877929688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>breakfast <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "breakfast"
+            },
+            {
+                "time": 1031,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "We eat bread.",
+        "words": [
+            "We",
+            "eat",
+            "bread."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    317.5039978027344,
+                    163.14602661132812
+                ],
+                [
+                    348.04400634765625,
+                    186.96603393554688
+                ]
+            ],
+            [
+                [
+                    353.04400634765625,
+                    163.14602661132812
+                ],
+                [
+                    384.04400634765625,
+                    186.96603393554688
+                ]
+            ],
+            [
+                [
+                    388.843994140625,
+                    163.14602661132812
+                ],
+                [
+                    449.2440185546875,
+                    186.96603393554688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> eat <break time='200ms'/> bread. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 551,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 826,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "eat"
+            },
+            {
+                "time": 1586,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1842,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "bread"
+            },
+            {
+                "time": 2589,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "lunch",
+        "words": [
+            "lunch"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    317.77398681640625,
+                    322.9639892578125
+                ],
+                [
+                    370.8340148925781,
+                    346.78399658203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>lunch <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "lunch"
+            },
+            {
+                "time": 708,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "We eat rice and curry.",
+        "words": [
+            "We",
+            "eat",
+            "rice",
+            "and",
+            "curry."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    317.5039978027344,
+                    382.8630065917969
+                ],
+                [
+                    348.04400634765625,
+                    406.6830139160156
+                ]
+            ],
+            [
+                [
+                    353.04400634765625,
+                    382.8630065917969
+                ],
+                [
+                    384.04400634765625,
+                    406.6830139160156
+                ]
+            ],
+            [
+                [
+                    388.843994140625,
+                    382.8630065917969
+                ],
+                [
+                    422.1239929199219,
+                    406.6830139160156
+                ]
+            ],
+            [
+                [
+                    427.1239929199219,
+                    382.8630065917969
+                ],
+                [
+                    464.04400634765625,
+                    406.6830139160156
+                ]
+            ],
+            [
+                [
+                    469.04400634765625,
+                    382.8630065917969
+                ],
+                [
+                    520.964111328125,
+                    406.6830139160156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> eat <break time='200ms'/> rice <break time='200ms'/> and <break time='200ms'/> curry. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 551,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 826,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "eat"
+            },
+            {
+                "time": 1680,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2030,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "rice"
+            },
+            {
+                "time": 2609,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2852,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "and"
+            },
+            {
+                "time": 3752,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3964,
+                "type": "word",
+                "start": 132,
+                "end": 137,
+                "value": "curry"
+            },
+            {
+                "time": 5053,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "dinner",
+        "words": [
+            "dinner"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    315.2640075683594,
+                    542.385009765625
+                ],
+                [
+                    375.5440368652344,
+                    566.2049560546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>dinner <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "dinner"
+            },
+            {
+                "time": 746,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "We drink soup. We eat vegetables.",
+        "words": [
+            "We",
+            "drink",
+            "soup.",
+            "We",
+            "eat",
+            "vegetables."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    317.57000732421875,
+                    599.654052734375
+                ],
+                [
+                    348.1100158691406,
+                    623.4739990234375
+                ]
+            ],
+            [
+                [
+                    353.1100158691406,
+                    599.654052734375
+                ],
+                [
+                    400.2500305175781,
+                    623.4739990234375
+                ]
+            ],
+            [
+                [
+                    405.0500183105469,
+                    599.654052734375
+                ],
+                [
+                    456.4500427246094,
+                    623.4739990234375
+                ]
+            ],
+            [
+                [
+                    459.85003662109375,
+                    599.654052734375
+                ],
+                [
+                    490.3900451660156,
+                    623.4739990234375
+                ]
+            ],
+            [
+                [
+                    495.3900451660156,
+                    599.654052734375
+                ],
+                [
+                    526.3900146484375,
+                    623.4739990234375
+                ]
+            ],
+            [
+                [
+                    317.57000732421875,
+                    629.654052734375
+                ],
+                [
+                    425.7300109863281,
+                    653.4739990234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> drink <break time='200ms'/> soup. <break time='200ms'/> We <break time='200ms'/> eat <break time='200ms'/> vegetables. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 520,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 764,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "drink"
+            },
+            {
+                "time": 1787,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2094,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "soup"
+            },
+            {
+                "time": 2764,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3469,
+                "type": "word",
+                "start": 109,
+                "end": 111,
+                "value": "We"
+            },
+            {
+                "time": 3895,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4170,
+                "type": "word",
+                "start": 134,
+                "end": 137,
+                "value": "eat"
+            },
+            {
+                "time": 4808,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5064,
+                "type": "word",
+                "start": 160,
+                "end": 170,
+                "value": "vegetables"
+            },
+            {
+                "time": 6376,
+                "type": "word",
+                "start": 172,
+                "end": 193,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

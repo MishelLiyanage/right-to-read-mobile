@@ -1,0 +1,265 @@
+{
+    "0": {
+        "text": "Study the picture. What can you see in the picture?",
+        "words": [
+            "Study",
+            "the",
+            "picture.",
+            "What",
+            "can",
+            "you",
+            "see",
+            "in",
+            "the",
+            "picture?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    52.267974853515625
+                ],
+                [
+                    112.44709777832031,
+                    76.08797454833984
+                ]
+            ],
+            [
+                [
+                    117.04710388183594,
+                    52.267974853515625
+                ],
+                [
+                    148.58709716796875,
+                    76.08797454833984
+                ]
+            ],
+            [
+                [
+                    153.58709716796875,
+                    52.267974853515625
+                ],
+                [
+                    225.00711059570312,
+                    76.08797454833984
+                ]
+            ],
+            [
+                [
+                    59.527099609375,
+                    76.26797485351562
+                ],
+                [
+                    111.78710174560547,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    116.58710479736328,
+                    76.26797485351562
+                ],
+                [
+                    151.7071075439453,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    156.50711059570312,
+                    76.26797485351562
+                ],
+                [
+                    190.54710388183594,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    195.54710388183594,
+                    76.26797485351562
+                ],
+                [
+                    227.3271026611328,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    232.3271026611328,
+                    76.26797485351562
+                ],
+                [
+                    249.80711364746094,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    254.60711669921875,
+                    76.26797485351562
+                ],
+                [
+                    286.1471252441406,
+                    100.08797454833984
+                ]
+            ],
+            [
+                [
+                    291.1471252441406,
+                    76.26797485351562
+                ],
+                [
+                    366.5471496582031,
+                    100.08797454833984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Study <break time='200ms'/> the <break time='200ms'/> picture. <break time='200ms'/> What <break time='200ms'/> can <break time='200ms'/> you <break time='200ms'/> see <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> picture? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Study"
+            },
+            {
+                "time": 771,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1096,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "the"
+            },
+            {
+                "time": 1427,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1684,
+                "type": "word",
+                "start": 82,
+                "end": 89,
+                "value": "picture"
+            },
+            {
+                "time": 2443,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3210,
+                "type": "word",
+                "start": 113,
+                "end": 117,
+                "value": "What"
+            },
+            {
+                "time": 3560,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3835,
+                "type": "word",
+                "start": 140,
+                "end": 143,
+                "value": "can"
+            },
+            {
+                "time": 4523,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4829,
+                "type": "word",
+                "start": 166,
+                "end": 169,
+                "value": "you"
+            },
+            {
+                "time": 5213,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5507,
+                "type": "word",
+                "start": 192,
+                "end": 195,
+                "value": "see"
+            },
+            {
+                "time": 6151,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6445,
+                "type": "word",
+                "start": 218,
+                "end": 220,
+                "value": "in"
+            },
+            {
+                "time": 6752,
+                "type": "word",
+                "start": 221,
+                "end": 242,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7015,
+                "type": "word",
+                "start": 243,
+                "end": 246,
+                "value": "the"
+            },
+            {
+                "time": 7453,
+                "type": "word",
+                "start": 247,
+                "end": 268,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7709,
+                "type": "word",
+                "start": 269,
+                "end": 276,
+                "value": "picture"
+            },
+            {
+                "time": 8389,
+                "type": "word",
+                "start": 278,
+                "end": 299,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

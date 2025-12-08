@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "32",
-        "words": [
-            "32"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.79439926147461,
-                    24.34998893737793
-                ],
-                [
-                    60.73440170288086,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">32</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "32"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen, point and say.",
         "words": [
             "Listen,",
@@ -79,48 +49,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 833,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1216,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1445,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "I brush my teeth.",
         "words": [
             "I",
@@ -170,41 +134,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I brush my teeth.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I brush my teeth.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 106,
+                "time": 263,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "brush"
             },
             {
-                "time": 480,
+                "time": 646,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 660,
+                "time": 875,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 39,
+                "end": 44,
                 "value": "teeth"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "I wash my face.",
         "words": [
             "I",
@@ -254,41 +219,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I wash my face.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I wash my face.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 75,
+                "time": 263,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "wash"
             },
             {
-                "time": 431,
+                "time": 646,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "my"
             },
             {
-                "time": 593,
+                "time": 875,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "face"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "I eat rice.",
         "words": [
             "I",
@@ -327,34 +293,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I eat rice.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I eat rice.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 175,
+                "time": 337,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "eat"
             },
             {
-                "time": 357,
+                "time": 567,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "rice"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I drink milk.",
         "words": [
             "I",
@@ -393,34 +360,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I drink milk.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I drink milk.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 130,
+                "time": 325,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "drink"
             },
             {
-                "time": 534,
+                "time": 646,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "milk"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "I go to school.",
         "words": [
             "I",
@@ -470,41 +438,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I go to school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I go to school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 90,
+                "time": 325,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "go"
             },
             {
-                "time": 298,
+                "time": 508,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 430,
+                "time": 646,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 36,
+                "end": 42,
                 "value": "school"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "I play with my friends.",
         "words": [
             "I",
@@ -565,48 +534,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I play with my friends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I play with my friends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 128,
+                "time": 325,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "play"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "with"
             },
             {
-                "time": 656,
+                "time": 799,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "my"
             },
             {
-                "time": 885,
+                "time": 1074,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 43,
+                "end": 50,
                 "value": "friends"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "I watch television.",
         "words": [
             "I",
@@ -645,34 +615,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I watch television.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I watch television.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 108,
+                "time": 263,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "watch"
             },
             {
-                "time": 481,
+                "time": 646,
                 "type": "word",
-                "start": 35,
-                "end": 45,
+                "start": 36,
+                "end": 46,
                 "value": "television"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "I sleep.",
         "words": [
             "I",
@@ -700,22 +671,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I sleep.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I sleep.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 150,
+                "time": 325,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "sleep"
             }
         ]

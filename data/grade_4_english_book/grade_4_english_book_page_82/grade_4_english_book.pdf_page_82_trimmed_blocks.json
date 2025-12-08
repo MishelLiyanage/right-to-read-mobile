@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Take a demy paper.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Take a demy paper.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Take"
             },
             {
-                "time": 269,
+                "time": 273,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 313,
+                "time": 318,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "demy"
             },
             {
-                "time": 654,
+                "time": 658,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "paper"
             }
         ]
@@ -177,64 +178,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Write the months of the year on it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Write the months of the year on it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Write"
             },
             {
-                "time": 331,
+                "time": 348,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "the"
             },
             {
-                "time": 409,
+                "time": 430,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "months"
             },
             {
-                "time": 814,
+                "time": 862,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "of"
             },
             {
-                "time": 901,
+                "time": 949,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "the"
             },
             {
-                "time": 997,
+                "time": 1044,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 52,
+                "end": 56,
                 "value": "year"
             },
             {
-                "time": 1361,
+                "time": 1408,
                 "type": "word",
-                "start": 56,
-                "end": 58,
+                "start": 57,
+                "end": 59,
                 "value": "on"
             },
             {
-                "time": 1462,
+                "time": 1509,
                 "type": "word",
-                "start": 59,
-                "end": 61,
+                "start": 60,
+                "end": 62,
                 "value": "it"
             }
         ]
@@ -322,58 +324,431 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Paste your balloons against the correct month.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Paste your balloons against the correct month.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Paste"
             },
             {
                 "time": 393,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "your"
             },
             {
-                "time": 514,
+                "time": 524,
                 "type": "word",
-                "start": 38,
-                "end": 46,
+                "start": 39,
+                "end": 47,
                 "value": "balloons"
             },
             {
-                "time": 1050,
+                "time": 1066,
                 "type": "word",
-                "start": 47,
-                "end": 54,
+                "start": 48,
+                "end": 55,
                 "value": "against"
             },
             {
-                "time": 1456,
+                "time": 1473,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 56,
+                "end": 59,
                 "value": "the"
             },
             {
-                "time": 1545,
+                "time": 1562,
                 "type": "word",
-                "start": 59,
-                "end": 66,
+                "start": 60,
+                "end": 67,
                 "value": "correct"
             },
             {
-                "time": 2045,
+                "time": 2076,
                 "type": "word",
-                "start": 67,
-                "end": 72,
+                "start": 68,
+                "end": 73,
                 "value": "month"
+            }
+        ]
+    },
+    "3": {
+        "text": "January",
+        "words": [
+            "January"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    111.38800048828125,
+                    223.91720581054688
+                ],
+                [
+                    183.85401916503906,
+                    246.54620361328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>January</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "January"
+            }
+        ]
+    },
+    "4": {
+        "text": "February",
+        "words": [
+            "February"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    108.74700164794922,
+                    291.5572204589844
+                ],
+                [
+                    186.49502563476562,
+                    314.18621826171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>February</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "February"
+            }
+        ]
+    },
+    "5": {
+        "text": "March",
+        "words": [
+            "March"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    119.67200469970703,
+                    357.7912292480469
+                ],
+                [
+                    175.3610076904297,
+                    380.42022705078125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>March</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "March"
+            }
+        ]
+    },
+    "6": {
+        "text": "April",
+        "words": [
+            "April"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    127.53800201416016,
+                    425.2032165527344
+                ],
+                [
+                    167.47601318359375,
+                    447.83221435546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>April</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "April"
+            }
+        ]
+    },
+    "7": {
+        "text": "May",
+        "words": [
+            "May"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    128.8679962158203,
+                    453.8172302246094
+                ],
+                [
+                    166.33599853515625,
+                    476.44622802734375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>May</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "May"
+            }
+        ]
+    },
+    "8": {
+        "text": "June",
+        "words": [
+            "June"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.78999328613281,
+                    482.4312438964844
+                ],
+                [
+                    169.22398376464844,
+                    505.06024169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>June</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "June"
+            }
+        ]
+    },
+    "9": {
+        "text": "July",
+        "words": [
+            "July"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    130.04598999023438,
+                    511.0451965332031
+                ],
+                [
+                    165.1580047607422,
+                    533.6741943359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>July</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "July"
+            }
+        ]
+    },
+    "10": {
+        "text": "August",
+        "words": [
+            "August"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    115.6629867553711,
+                    539.6592407226562
+                ],
+                [
+                    179.55999755859375,
+                    562.2882080078125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>August</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "August"
+            }
+        ]
+    },
+    "11": {
+        "text": "September",
+        "words": [
+            "September"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    98.48698425292969,
+                    568.2732543945312
+                ],
+                [
+                    196.73599243164062,
+                    590.9022216796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>September</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "September"
+            }
+        ]
+    },
+    "12": {
+        "text": "October",
+        "words": [
+            "October"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    112.07198333740234,
+                    596.8872680664062
+                ],
+                [
+                    183.15098571777344,
+                    619.5162353515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>October</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "October"
+            }
+        ]
+    },
+    "13": {
+        "text": "November",
+        "words": [
+            "November"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    100.69098663330078,
+                    625.5012817382812
+                ],
+                [
+                    194.531982421875,
+                    648.1302490234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>November</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "November"
+            }
+        ]
+    },
+    "14": {
+        "text": "December",
+        "words": [
+            "December"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    100.99498748779297,
+                    654.115234375
+                ],
+                [
+                    194.22799682617188,
+                    676.7442016601562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>December</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "December"
             }
         ]
     }

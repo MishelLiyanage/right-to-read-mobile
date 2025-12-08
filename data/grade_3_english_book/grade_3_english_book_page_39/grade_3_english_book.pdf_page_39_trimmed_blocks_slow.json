@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "30",
-        "words": [
-            "30"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.571300506591797,
-                    24.34998893737793
-                ],
-                [
-                    61.9713020324707,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>30 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "30"
-            },
-            {
-                "time": 768,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -79,45 +41,45 @@
         "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 684,
+                "time": 740,
                 "type": "word",
                 "start": 35,
                 "end": 56,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 977,
+                "time": 1033,
                 "type": "word",
                 "start": 57,
                 "end": 60,
                 "value": "and"
             },
             {
-                "time": 1611,
+                "time": 1604,
                 "type": "word",
                 "start": 61,
                 "end": 82,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1911,
+                "time": 1885,
                 "type": "word",
                 "start": 83,
                 "end": 86,
                 "value": "say"
             },
             {
-                "time": 2411,
+                "time": 2486,
                 "type": "word",
                 "start": 88,
                 "end": 109,
@@ -125,7 +87,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "brush wash",
         "words": [
             "brush",
@@ -156,31 +118,31 @@
         "ssml": "<speak><prosody rate='slow'>brush <break time='200ms'/> wash <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 33,
                 "value": "brush"
             },
             {
-                "time": 678,
+                "time": 732,
                 "type": "word",
                 "start": 34,
                 "end": 55,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 978,
+                "time": 1007,
                 "type": "word",
                 "start": 56,
                 "end": 60,
                 "value": "wash"
             },
             {
-                "time": 1722,
+                "time": 1714,
                 "type": "word",
                 "start": 61,
                 "end": 82,
@@ -188,7 +150,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "eat drink",
         "words": [
             "eat",
@@ -219,31 +181,31 @@
         "ssml": "<speak><prosody rate='slow'>eat <break time='200ms'/> drink <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
                 "start": 28,
                 "end": 31,
                 "value": "eat"
             },
             {
-                "time": 523,
+                "time": 534,
                 "type": "word",
                 "start": 32,
                 "end": 53,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 824,
+                "time": 809,
                 "type": "word",
                 "start": 54,
                 "end": 59,
                 "value": "drink"
             },
             {
-                "time": 1566,
+                "time": 1525,
                 "type": "word",
                 "start": 60,
                 "end": 81,
@@ -251,7 +213,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "go",
         "words": [
             "go"
@@ -271,17 +233,17 @@
         "ssml": "<speak><prosody rate='slow'>go <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 30,
                 "value": "go"
             },
             {
-                "time": 721,
+                "time": 696,
                 "type": "word",
                 "start": 31,
                 "end": 52,

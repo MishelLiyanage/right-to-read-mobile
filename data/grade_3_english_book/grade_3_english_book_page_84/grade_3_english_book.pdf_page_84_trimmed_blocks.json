@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -159,72 +160,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a giraffe.<break time=\"500ms\"/> I have a long neck.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm a giraffe. I have a long neck.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 228,
+                "time": 354,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 259,
+                "time": 476,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 34,
+                "end": 41,
                 "value": "giraffe"
             },
             {
-                "time": 910,
+                "time": 1743,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1797,
-                "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 43,
+                "end": 44,
                 "value": "I"
             },
             {
-                "time": 1952,
+                "time": 1896,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 45,
+                "end": 49,
                 "value": "have"
             },
             {
-                "time": 2180,
+                "time": 2202,
                 "type": "word",
-                "start": 75,
-                "end": 76,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2229,
+                "time": 2278,
                 "type": "word",
-                "start": 77,
-                "end": 81,
+                "start": 52,
+                "end": 56,
                 "value": "long"
             },
             {
-                "time": 2588,
+                "time": 2737,
                 "type": "word",
-                "start": 82,
-                "end": 86,
+                "start": 57,
+                "end": 61,
                 "value": "neck"
             }
         ]
@@ -301,58 +295,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a zebra.<break time=\"500ms\"/> I have stripes.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm a zebra. I have stripes.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 241,
+                "time": 336,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 280,
+                "time": 428,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 34,
+                "end": 39,
                 "value": "zebra"
             },
             {
-                "time": 990,
+                "time": 1679,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1877,
-                "type": "word",
-                "start": 66,
-                "end": 67,
+                "start": 41,
+                "end": 42,
                 "value": "I"
             },
             {
-                "time": 2052,
+                "time": 1771,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 43,
+                "end": 47,
                 "value": "have"
             },
             {
-                "time": 2269,
+                "time": 1985,
                 "type": "word",
-                "start": 73,
-                "end": 80,
+                "start": 48,
+                "end": 55,
                 "value": "stripes"
             }
         ]
@@ -484,100 +471,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m an elephant.<break time=\"500ms\"/> I have a trunk.<break time=\"500ms\"/> I have big ears.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm an elephant. I have a trunk. I have big ears.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 252,
+                "time": 354,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 32,
+                "end": 34,
                 "value": "an"
             },
             {
-                "time": 373,
+                "time": 583,
                 "type": "word",
-                "start": 39,
-                "end": 47,
+                "start": 35,
+                "end": 43,
                 "value": "elephant"
             },
             {
-                "time": 998,
+                "time": 1832,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1884,
-                "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 45,
+                "end": 46,
                 "value": "I"
             },
             {
-                "time": 2018,
+                "time": 1970,
                 "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 47,
+                "end": 51,
                 "value": "have"
             },
             {
-                "time": 2252,
+                "time": 2275,
                 "type": "word",
-                "start": 77,
-                "end": 78,
+                "start": 52,
+                "end": 53,
                 "value": "a"
             },
             {
-                "time": 2291,
+                "time": 2352,
                 "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 54,
+                "end": 59,
                 "value": "trunk"
             },
             {
-                "time": 2883,
+                "time": 3512,
                 "type": "word",
-                "start": 85,
-                "end": 106,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3769,
-                "type": "word",
-                "start": 107,
-                "end": 108,
+                "start": 61,
+                "end": 62,
                 "value": "I"
             },
             {
-                "time": 3903,
+                "time": 3665,
                 "type": "word",
-                "start": 109,
-                "end": 113,
+                "start": 63,
+                "end": 67,
                 "value": "have"
             },
             {
-                "time": 4148,
+                "time": 3970,
                 "type": "word",
-                "start": 114,
-                "end": 117,
+                "start": 68,
+                "end": 71,
                 "value": "big"
             },
             {
-                "time": 4601,
+                "time": 4276,
                 "type": "word",
-                "start": 118,
-                "end": 122,
+                "start": 72,
+                "end": 76,
                 "value": "ears"
             }
         ]
@@ -676,72 +649,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a snake.<break time=\"500ms\"/> I have a long body.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm a snake. I have a long body.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 221,
+                "time": 275,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 263,
+                "time": 428,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 34,
+                "end": 39,
                 "value": "snake"
             },
             {
-                "time": 1070,
+                "time": 1740,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1957,
-                "type": "word",
-                "start": 66,
-                "end": 67,
+                "start": 41,
+                "end": 42,
                 "value": "I"
             },
             {
-                "time": 2132,
+                "time": 1878,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 43,
+                "end": 47,
                 "value": "have"
             },
             {
-                "time": 2414,
+                "time": 2138,
                 "type": "word",
-                "start": 73,
-                "end": 74,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
-                "time": 2476,
+                "time": 2275,
                 "type": "word",
-                "start": 75,
-                "end": 79,
+                "start": 50,
+                "end": 54,
                 "value": "long"
             },
             {
-                "time": 2837,
+                "time": 2612,
                 "type": "word",
-                "start": 80,
-                "end": 84,
+                "start": 55,
+                "end": 59,
                 "value": "body"
             }
         ]
@@ -818,58 +784,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a lion.<break time=\"500ms\"/> I have mane.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm a lion. I have mane.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 227,
+                "time": 277,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 290,
+                "time": 430,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "lion"
             },
             {
-                "time": 997,
+                "time": 1682,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1883,
-                "type": "word",
-                "start": 65,
-                "end": 66,
+                "start": 40,
+                "end": 41,
                 "value": "I"
             },
             {
-                "time": 2098,
+                "time": 1774,
                 "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 42,
+                "end": 46,
                 "value": "have"
             },
             {
-                "time": 2309,
+                "time": 2079,
                 "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 47,
+                "end": 51,
                 "value": "mane"
             }
         ]
@@ -1001,100 +960,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m a camel.<break time=\"500ms\"/> I have a hump.<break time=\"500ms\"/> Please meet my friends!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm a camel. I have a hump. Please meet my friends!</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 193,
+                "time": 354,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 258,
+                "time": 522,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 34,
+                "end": 39,
                 "value": "camel"
             },
             {
-                "time": 845,
+                "time": 1605,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1732,
-                "type": "word",
-                "start": 66,
-                "end": 67,
+                "start": 41,
+                "end": 42,
                 "value": "I"
             },
             {
-                "time": 1874,
+                "time": 1758,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 43,
+                "end": 47,
                 "value": "have"
             },
             {
-                "time": 2077,
+                "time": 2064,
                 "type": "word",
-                "start": 73,
-                "end": 74,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
-                "time": 2162,
+                "time": 2232,
                 "type": "word",
-                "start": 75,
-                "end": 79,
+                "start": 50,
+                "end": 54,
                 "value": "hump"
             },
             {
-                "time": 2565,
+                "time": 3161,
                 "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3451,
-                "type": "word",
-                "start": 102,
-                "end": 108,
+                "start": 56,
+                "end": 62,
                 "value": "Please"
             },
             {
-                "time": 3793,
+                "time": 3635,
                 "type": "word",
-                "start": 109,
-                "end": 113,
+                "start": 63,
+                "end": 67,
                 "value": "meet"
             },
             {
-                "time": 4092,
+                "time": 3865,
                 "type": "word",
-                "start": 114,
-                "end": 116,
+                "start": 68,
+                "end": 70,
                 "value": "my"
             },
             {
-                "time": 4337,
+                "time": 4109,
                 "type": "word",
-                "start": 117,
-                "end": 124,
+                "start": 71,
+                "end": 78,
                 "value": "friends"
             }
         ]

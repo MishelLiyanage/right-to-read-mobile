@@ -27,10 +27,26 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 439,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "6"
+            }
+        ]
     },
     "1": {
         "text": "Read aloud and act out.",
@@ -93,10 +109,47 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud and act out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud and act out.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 259,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "aloud"
+            },
+            {
+                "time": 685,
+                "type": "word",
+                "start": 39,
+                "end": 42,
+                "value": "and"
+            },
+            {
+                "time": 838,
+                "type": "word",
+                "start": 43,
+                "end": 46,
+                "value": "act"
+            },
+            {
+                "time": 1150,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "out"
+            }
+        ]
     },
     "2": {
         "text": "Teacher : Good morning, children!",
@@ -159,11 +212,40 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : Good morning,<break time=\"300ms\"/> children!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teacher : Good morning, children!</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Teacher"
+            },
+            {
+                "time": 806,
+                "type": "word",
+                "start": 38,
+                "end": 42,
+                "value": "Good"
+            },
+            {
+                "time": 1022,
+                "type": "word",
+                "start": 43,
+                "end": 50,
+                "value": "morning"
+            },
+            {
+                "time": 1871,
+                "type": "word",
+                "start": 52,
+                "end": 60,
+                "value": "children"
+            }
+        ]
     },
     "3": {
         "text": "Pupils : Good morning, teacher!",
@@ -226,11 +308,40 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Pupils : Good morning,<break time=\"300ms\"/> teacher!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Pupils : Good morning, teacher!</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Pupils"
+            },
+            {
+                "time": 983,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "Good"
+            },
+            {
+                "time": 1205,
+                "type": "word",
+                "start": 42,
+                "end": 49,
+                "value": "morning"
+            },
+            {
+                "time": 2020,
+                "type": "word",
+                "start": 51,
+                "end": 58,
+                "value": "teacher"
+            }
+        ]
     },
     "4": {
         "text": "Teacher : Did you enjoy the holidays?",
@@ -315,11 +426,54 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : Did you enjoy the holidays?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teacher : Did you enjoy the holidays?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Teacher"
+            },
+            {
+                "time": 806,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "Did"
+            },
+            {
+                "time": 971,
+                "type": "word",
+                "start": 42,
+                "end": 45,
+                "value": "you"
+            },
+            {
+                "time": 1106,
+                "type": "word",
+                "start": 46,
+                "end": 51,
+                "value": "enjoy"
+            },
+            {
+                "time": 1511,
+                "type": "word",
+                "start": 52,
+                "end": 55,
+                "value": "the"
+            },
+            {
+                "time": 1626,
+                "type": "word",
+                "start": 56,
+                "end": 64,
+                "value": "holidays"
+            }
+        ]
     },
     "5": {
         "text": "Pupils : Yes, teacher.",
@@ -371,11 +525,33 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Pupils : Yes,<break time=\"300ms\"/> teacher.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Pupils : Yes, teacher.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Pupils"
+            },
+            {
+                "time": 926,
+                "type": "word",
+                "start": 37,
+                "end": 40,
+                "value": "Yes"
+            },
+            {
+                "time": 1749,
+                "type": "word",
+                "start": 42,
+                "end": 49,
+                "value": "teacher"
+            }
+        ]
     },
     "6": {
         "text": "Teacher : What did you do?",
@@ -449,11 +625,47 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : What did you do?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teacher : What did you do?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Teacher"
+            },
+            {
+                "time": 849,
+                "type": "word",
+                "start": 38,
+                "end": 42,
+                "value": "What"
+            },
+            {
+                "time": 1046,
+                "type": "word",
+                "start": 43,
+                "end": 46,
+                "value": "did"
+            },
+            {
+                "time": 1212,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "you"
+            },
+            {
+                "time": 1344,
+                "type": "word",
+                "start": 51,
+                "end": 53,
+                "value": "do"
+            }
+        ]
     },
     "7": {
         "text": "I played with my friends. I went on a picnic with my friends.",
@@ -604,11 +816,103 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I played with my friends.<break time=\"500ms\"/> I went on a picnic with my friends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I played with my friends. I went on a picnic with my friends.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 151,
+                "type": "word",
+                "start": 30,
+                "end": 36,
+                "value": "played"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "with"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 42,
+                "end": 44,
+                "value": "my"
+            },
+            {
+                "time": 1014,
+                "type": "word",
+                "start": 45,
+                "end": 52,
+                "value": "friends"
+            },
+            {
+                "time": 2108,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "I"
+            },
+            {
+                "time": 2281,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "went"
+            },
+            {
+                "time": 2663,
+                "type": "word",
+                "start": 61,
+                "end": 63,
+                "value": "on"
+            },
+            {
+                "time": 2843,
+                "type": "word",
+                "start": 64,
+                "end": 65,
+                "value": "a"
+            },
+            {
+                "time": 2903,
+                "type": "word",
+                "start": 66,
+                "end": 72,
+                "value": "picnic"
+            },
+            {
+                "time": 3496,
+                "type": "word",
+                "start": 73,
+                "end": 77,
+                "value": "with"
+            },
+            {
+                "time": 3673,
+                "type": "word",
+                "start": 78,
+                "end": 80,
+                "value": "my"
+            },
+            {
+                "time": 3848,
+                "type": "word",
+                "start": 81,
+                "end": 88,
+                "value": "friends"
+            }
+        ]
     },
     "8": {
         "text": "Senuri",
@@ -627,10 +931,19 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 64,
+                "end": 70,
+                "value": "Senuri"
+            }
+        ]
     },
     "9": {
         "text": "I watched a drama.",
@@ -682,11 +995,40 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I watched a drama.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I watched a drama.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 96,
+                "type": "word",
+                "start": 30,
+                "end": 37,
+                "value": "watched"
+            },
+            {
+                "time": 574,
+                "type": "word",
+                "start": 38,
+                "end": 39,
+                "value": "a"
+            },
+            {
+                "time": 621,
+                "type": "word",
+                "start": 40,
+                "end": 45,
+                "value": "drama"
+            }
+        ]
     },
     "10": {
         "text": "Kumar",
@@ -705,10 +1047,19 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Kumar</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Kumar</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Kumar"
+            }
+        ]
     },
     "11": {
         "text": "I visited the zoo.",
@@ -760,11 +1111,40 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I visited the zoo.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I visited the zoo.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
-        "timing": []
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 204,
+                "type": "word",
+                "start": 30,
+                "end": 37,
+                "value": "visited"
+            },
+            {
+                "time": 682,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "the"
+            },
+            {
+                "time": 784,
+                "type": "word",
+                "start": 42,
+                "end": 45,
+                "value": "zoo"
+            }
+        ]
     },
     "12": {
         "text": "Nisal",
@@ -783,10 +1163,19 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Nisal</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nisal'>Nisal</phoneme></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Nisal"
+            }
+        ]
     },
     "13": {
         "text": "Sonia",
@@ -805,9 +1194,18 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sonia</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sonia</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": []
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Sonia"
+            }
+        ]
     }
 }

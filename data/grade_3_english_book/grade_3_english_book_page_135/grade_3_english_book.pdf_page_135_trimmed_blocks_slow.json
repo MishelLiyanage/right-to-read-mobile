@@ -1,0 +1,716 @@
+{
+    "0": {
+        "text": "Listen and repeat.",
+        "words": [
+            "Listen",
+            "and",
+            "repeat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    52.267974853515625
+                ],
+                [
+                    117.57918548583984,
+                    76.08797454833984
+                ]
+            ],
+            [
+                [
+                    122.57918548583984,
+                    52.267974853515625
+                ],
+                [
+                    159.4991912841797,
+                    76.08797454833984
+                ]
+            ],
+            [
+                [
+                    164.4991912841797,
+                    52.267974853515625
+                ],
+                [
+                    231.57919311523438,
+                    76.08797454833984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> repeat. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1573,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1823,
+                "type": "word",
+                "start": 83,
+                "end": 89,
+                "value": "repeat"
+            },
+            {
+                "time": 2600,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I take care of you. Do you take care of me?",
+        "words": [
+            "I",
+            "take",
+            "care",
+            "of",
+            "you.",
+            "Do",
+            "you",
+            "take",
+            "care",
+            "of",
+            "me?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    139.80999755859375,
+                    369.24798583984375
+                ],
+                [
+                    147.20999145507812,
+                    393.0679931640625
+                ]
+            ],
+            [
+                [
+                    152.00999450683594,
+                    369.24798583984375
+                ],
+                [
+                    193.00999450683594,
+                    393.0679931640625
+                ]
+            ],
+            [
+                [
+                    198.00999450683594,
+                    369.24798583984375
+                ],
+                [
+                    238.1699981689453,
+                    393.0679931640625
+                ]
+            ],
+            [
+                [
+                    242.97000122070312,
+                    369.24798583984375
+                ],
+                [
+                    262.19000244140625,
+                    393.0679931640625
+                ]
+            ],
+            [
+                [
+                    266.78997802734375,
+                    369.24798583984375
+                ],
+                [
+                    307.1099853515625,
+                    393.0679931640625
+                ]
+            ],
+            [
+                [
+                    139.80999755859375,
+                    393.24798583984375
+                ],
+                [
+                    165.46998596191406,
+                    417.0679931640625
+                ]
+            ],
+            [
+                [
+                    173.0299835205078,
+                    393.24798583984375
+                ],
+                [
+                    207.06997680664062,
+                    417.0679931640625
+                ]
+            ],
+            [
+                [
+                    214.62997436523438,
+                    393.24798583984375
+                ],
+                [
+                    255.62997436523438,
+                    417.0679931640625
+                ]
+            ],
+            [
+                [
+                    263.3899841308594,
+                    393.24798583984375
+                ],
+                [
+                    303.5500183105469,
+                    417.0679931640625
+                ]
+            ],
+            [
+                [
+                    311.3100280761719,
+                    393.24798583984375
+                ],
+                [
+                    330.33001708984375,
+                    417.0679931640625
+                ]
+            ],
+            [
+                [
+                    139.80999755859375,
+                    417.24798583984375
+                ],
+                [
+                    181.9099884033203,
+                    441.0679931640625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> take <break time='200ms'/> care <break time='200ms'/> of <break time='200ms'/> you. <break time='200ms'/> Do <break time='200ms'/> you <break time='200ms'/> take <break time='200ms'/> care <break time='200ms'/> of <break time='200ms'/> me? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 439,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 833,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "take"
+            },
+            {
+                "time": 1412,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1656,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "care"
+            },
+            {
+                "time": 2514,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2808,
+                "type": "word",
+                "start": 106,
+                "end": 108,
+                "value": "of"
+            },
+            {
+                "time": 3505,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3836,
+                "type": "word",
+                "start": 131,
+                "end": 134,
+                "value": "you"
+            },
+            {
+                "time": 4491,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5258,
+                "type": "word",
+                "start": 158,
+                "end": 160,
+                "value": "Do"
+            },
+            {
+                "time": 5640,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5946,
+                "type": "word",
+                "start": 183,
+                "end": 186,
+                "value": "you"
+            },
+            {
+                "time": 6829,
+                "type": "word",
+                "start": 187,
+                "end": 208,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7148,
+                "type": "word",
+                "start": 209,
+                "end": 213,
+                "value": "take"
+            },
+            {
+                "time": 7753,
+                "type": "word",
+                "start": 214,
+                "end": 235,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8085,
+                "type": "word",
+                "start": 236,
+                "end": 240,
+                "value": "care"
+            },
+            {
+                "time": 8945,
+                "type": "word",
+                "start": 241,
+                "end": 262,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9332,
+                "type": "word",
+                "start": 263,
+                "end": 265,
+                "value": "of"
+            },
+            {
+                "time": 9910,
+                "type": "word",
+                "start": 266,
+                "end": 287,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10229,
+                "type": "word",
+                "start": 288,
+                "end": 290,
+                "value": "me"
+            },
+            {
+                "time": 10822,
+                "type": "word",
+                "start": 292,
+                "end": 313,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Save water, plant a tree, make a better home, for you and me!",
+        "words": [
+            "Save",
+            "water,",
+            "plant",
+            "a",
+            "tree,",
+            "make",
+            "a",
+            "better",
+            "home,",
+            "for",
+            "you",
+            "and",
+            "me!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    530.2879638671875
+                ],
+                [
+                    106.61920166015625,
+                    554.1079711914062
+                ]
+            ],
+            [
+                [
+                    111.41920471191406,
+                    530.2879638671875
+                ],
+                [
+                    170.49923706054688,
+                    554.1079711914062
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    558.2879638671875
+                ],
+                [
+                    111.67920684814453,
+                    582.1079711914062
+                ]
+            ],
+            [
+                [
+                    116.27921295166016,
+                    558.2879638671875
+                ],
+                [
+                    128.439208984375,
+                    582.1079711914062
+                ]
+            ],
+            [
+                [
+                    133.439208984375,
+                    558.2879638671875
+                ],
+                [
+                    175.3992156982422,
+                    582.1079711914062
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    586.2879638671875
+                ],
+                [
+                    116.5592041015625,
+                    610.1079711914062
+                ]
+            ],
+            [
+                [
+                    121.5592041015625,
+                    586.2879638671875
+                ],
+                [
+                    133.71920776367188,
+                    610.1079711914062
+                ]
+            ],
+            [
+                [
+                    138.71920776367188,
+                    586.2879638671875
+                ],
+                [
+                    195.2592010498047,
+                    610.1079711914062
+                ]
+            ],
+            [
+                [
+                    200.0592041015625,
+                    586.2879638671875
+                ],
+                [
+                    261.1391906738281,
+                    610.1079711914062
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    614.2879638671875
+                ],
+                [
+                    87.7791976928711,
+                    638.1079711914062
+                ]
+            ],
+            [
+                [
+                    92.37920379638672,
+                    614.2879638671875
+                ],
+                [
+                    126.41920471191406,
+                    638.1079711914062
+                ]
+            ],
+            [
+                [
+                    131.41920471191406,
+                    614.2879638671875
+                ],
+                [
+                    168.33921813964844,
+                    638.1079711914062
+                ]
+            ],
+            [
+                [
+                    173.33921813964844,
+                    614.2879638671875
+                ],
+                [
+                    211.45921325683594,
+                    638.1079711914062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Save <break time='200ms'/> water, <break time='200ms'/> plant <break time='200ms'/> a <break time='200ms'/> tree, <break time='200ms'/> make <break time='200ms'/> a <break time='200ms'/> better <break time='200ms'/> home, <break time='200ms'/> for <break time='200ms'/> you <break time='200ms'/> and <break time='200ms'/> me! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Save"
+            },
+            {
+                "time": 813,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1107,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "water"
+            },
+            {
+                "time": 1673,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1905,
+                "type": "word",
+                "start": 84,
+                "end": 89,
+                "value": "plant"
+            },
+            {
+                "time": 2724,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3055,
+                "type": "word",
+                "start": 112,
+                "end": 113,
+                "value": "a"
+            },
+            {
+                "time": 3371,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3596,
+                "type": "word",
+                "start": 136,
+                "end": 140,
+                "value": "tree"
+            },
+            {
+                "time": 4326,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4613,
+                "type": "word",
+                "start": 164,
+                "end": 168,
+                "value": "make"
+            },
+            {
+                "time": 5159,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5447,
+                "type": "word",
+                "start": 191,
+                "end": 192,
+                "value": "a"
+            },
+            {
+                "time": 5863,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6082,
+                "type": "word",
+                "start": 215,
+                "end": 221,
+                "value": "better"
+            },
+            {
+                "time": 6787,
+                "type": "word",
+                "start": 222,
+                "end": 243,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7049,
+                "type": "word",
+                "start": 244,
+                "end": 248,
+                "value": "home"
+            },
+            {
+                "time": 7488,
+                "type": "word",
+                "start": 250,
+                "end": 271,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7776,
+                "type": "word",
+                "start": 272,
+                "end": 275,
+                "value": "for"
+            },
+            {
+                "time": 8329,
+                "type": "word",
+                "start": 276,
+                "end": 297,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8654,
+                "type": "word",
+                "start": 298,
+                "end": 301,
+                "value": "you"
+            },
+            {
+                "time": 9130,
+                "type": "word",
+                "start": 302,
+                "end": 323,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9424,
+                "type": "word",
+                "start": 324,
+                "end": 327,
+                "value": "and"
+            },
+            {
+                "time": 9926,
+                "type": "word",
+                "start": 328,
+                "end": 349,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10170,
+                "type": "word",
+                "start": 350,
+                "end": 352,
+                "value": "me"
+            },
+            {
+                "time": 10700,
+                "type": "word",
+                "start": 354,
+                "end": 375,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

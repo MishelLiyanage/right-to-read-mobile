@@ -23,12 +23,16 @@ function getPageNumbers(bookName) {
   return pages;
 }
 
-// Get page numbers for both books
+// Get page numbers for all books
 const grade3Pages = getPageNumbers('grade_3_english_book');
 const grade4Pages = getPageNumbers('grade_4_english_book');
+const grade5Pages = getPageNumbers('grade_5_english_book');
+const grade6Pages = getPageNumbers('grade_6_english_book');
 
 console.log('Found Grade 3 pages:', grade3Pages.length);
 console.log('Found Grade 4 pages:', grade4Pages.length);
+console.log('Found Grade 5 pages:', grade5Pages.length);
+console.log('Found Grade 6 pages:', grade6Pages.length);
 
 // Generate the audio resolver content
 let content = `// Auto-generated AudioResolver service
@@ -82,13 +86,17 @@ function addSlowAudioImports(bookName, pages, prefix) {
   });
 }
 
-// Add audio imports for both books
+// Add audio imports for all books
 addAudioImports('grade_3_english_book', grade3Pages, 'g3_');
 addAudioImports('grade_4_english_book', grade4Pages, 'g4_');
+addAudioImports('grade_5_english_book', grade5Pages, 'g5_');
+addAudioImports('grade_6_english_book', grade6Pages, 'g6_');
 
 // Add SLOW audio imports
-content += `// Slow audio files for Grade 3 English Book\n`;
+content += `// Slow audio files for all grades\n`;
 addSlowAudioImports('grade_3_english_book', grade3Pages, 'g3_');
+addSlowAudioImports('grade_5_english_book', grade5Pages, 'g5_');
+addSlowAudioImports('grade_6_english_book', grade6Pages, 'g6_');
 
 // Create audio mappings objects for both books
 content += `// Audio mappings by book and page\n`;
@@ -153,28 +161,64 @@ content += `const grade4AudioMappings: { [pageNumber: string]: { [blockId: strin
 addAudioMappings('grade_4_english_book', grade4Pages, 'g4_');
 content += `};\n\n`;
 
+// Add Grade 5 mappings
+content += `const grade5AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addAudioMappings('grade_5_english_book', grade5Pages, 'g5_');
+content += `};\n\n`;
+
+// Add Grade 6 mappings
+content += `const grade6AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addAudioMappings('grade_6_english_book', grade6Pages, 'g6_');
+content += `};\n\n`;
+
 // Add Grade 3 SLOW mappings
 content += `const grade3SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
 addSlowAudioMappings('grade_3_english_book', grade3Pages, 'g3_');
 content += `};\n\n`;
 
+// Add Grade 5 SLOW mappings
+content += `const grade5SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addSlowAudioMappings('grade_5_english_book', grade5Pages, 'g5_');
+content += `};\n\n`;
+
+// Add Grade 6 SLOW mappings
+content += `const grade6SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addSlowAudioMappings('grade_6_english_book', grade6Pages, 'g6_');
+content += `};\n\n`;
+
 // Add the book-aware service class
 content += `export class AudioResolver {
   static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
-    // If slow mode is enabled and it's Grade 3, try slow audio first
-    if (isSlowMode && (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3'))) {
-      const slowPageAudio = grade3SlowAudioMappings[pageNumber.toString()];
-      if (slowPageAudio && slowPageAudio[blockId]) {
-        return slowPageAudio[blockId];
+    // If slow mode is enabled, try slow audio first for supported grades
+    if (isSlowMode) {
+      let slowMappings = null;
+      
+      if (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3')) {
+        slowMappings = grade3SlowAudioMappings;
+      } else if (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5')) {
+        slowMappings = grade5SlowAudioMappings;
+      } else if (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6')) {
+        slowMappings = grade6SlowAudioMappings;
       }
-      // Fall back to normal audio if slow audio not available
-      console.log(\`No slow audio found for page \${pageNumber}, block \${blockId}, using normal audio\`);
+      
+      if (slowMappings) {
+        const slowPageAudio = slowMappings[pageNumber.toString()];
+        if (slowPageAudio && slowPageAudio[blockId]) {
+          return slowPageAudio[blockId];
+        }
+        // Fall back to normal audio if slow audio not available
+        console.log(\`No slow audio found for page \${pageNumber}, block \${blockId}, using normal audio\`);
+      }
     }
     
     // Determine which audio mappings to use based on book title
     let audioMappings;
     if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5'))) {
+      audioMappings = grade5AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6'))) {
+      audioMappings = grade6AudioMappings;
     } else {
       // Default to Grade 3 for backward compatibility
       audioMappings = grade3AudioMappings;
@@ -199,6 +243,10 @@ content += `export class AudioResolver {
     let audioMappings;
     if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5'))) {
+      audioMappings = grade5AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6'))) {
+      audioMappings = grade6AudioMappings;
     } else {
       audioMappings = grade3AudioMappings;
     }
@@ -209,6 +257,10 @@ content += `export class AudioResolver {
     let audioMappings;
     if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5'))) {
+      audioMappings = grade5AudioMappings;
+    } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6'))) {
+      audioMappings = grade6AudioMappings;
     } else {
       audioMappings = grade3AudioMappings;
     }
@@ -222,6 +274,8 @@ content += `export class AudioResolver {
 const outputPath = path.join(__dirname, '..', 'services', 'AudioResolver.ts');
 fs.writeFileSync(outputPath, content);
 
-console.log(`Generated AudioResolver.ts with ${grade3Pages.length} Grade 3 pages and ${grade4Pages.length} Grade 4 pages`);
+console.log(`Generated AudioResolver.ts with ${grade3Pages.length} Grade 3 pages, ${grade4Pages.length} Grade 4 pages, ${grade5Pages.length} Grade 5 pages, and ${grade6Pages.length} Grade 6 pages`);
 console.log('Grade 3 audio mappings created for pages:', grade3Pages.join(', '));
 console.log('Grade 4 audio mappings created for pages:', grade4Pages.join(', '));
+console.log('Grade 5 audio mappings created for pages:', grade5Pages.join(', '));
+console.log('Grade 6 audio mappings created for pages:', grade6Pages.join(', '));

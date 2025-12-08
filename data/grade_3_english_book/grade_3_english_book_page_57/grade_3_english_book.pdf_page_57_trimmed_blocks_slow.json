@@ -1,0 +1,1796 @@
+{
+    "0": {
+        "text": "Read aloud. At the canteen",
+        "words": [
+            "Read",
+            "aloud.",
+            "At",
+            "the",
+            "canteen"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.88130187988281,
+                    51.120025634765625
+                ],
+                [
+                    109.54130554199219,
+                    74.94002532958984
+                ]
+            ],
+            [
+                [
+                    114.54130554199219,
+                    51.120025634765625
+                ],
+                [
+                    173.90130615234375,
+                    74.94002532958984
+                ]
+            ],
+            [
+                [
+                    61.88130187988281,
+                    75.12002563476562
+                ],
+                [
+                    82.4813003540039,
+                    98.94002532958984
+                ]
+            ],
+            [
+                [
+                    87.08130645751953,
+                    75.12002563476562
+                ],
+                [
+                    118.62130737304688,
+                    98.94002532958984
+                ]
+            ],
+            [
+                [
+                    123.42131042480469,
+                    75.12002563476562
+                ],
+                [
+                    201.2213134765625,
+                    98.94002532958984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> aloud. <break time='200ms'/> At <break time='200ms'/> the <break time='200ms'/> canteen <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "aloud"
+            },
+            {
+                "time": 1641,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2421,
+                "type": "word",
+                "start": 84,
+                "end": 86,
+                "value": "At"
+            },
+            {
+                "time": 2819,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3050,
+                "type": "word",
+                "start": 109,
+                "end": 112,
+                "value": "the"
+            },
+            {
+                "time": 3648,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3911,
+                "type": "word",
+                "start": 135,
+                "end": 142,
+                "value": "canteen"
+            },
+            {
+                "time": 4715,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Monday Tuesday Wednesday Thursday Friday",
+        "words": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    81.66780090332031,
+                    99.79801940917969
+                ],
+                [
+                    130.71681213378906,
+                    115.28101348876953
+                ]
+            ],
+            [
+                [
+                    167.53280639648438,
+                    99.79801940917969
+                ],
+                [
+                    217.34881591796875,
+                    115.28101348876953
+                ]
+            ],
+            [
+                [
+                    257.4408264160156,
+                    99.79801940917969
+                ],
+                [
+                    329.0318298339844,
+                    115.28101348876953
+                ]
+            ],
+            [
+                [
+                    376.2608337402344,
+                    99.79801940917969
+                ],
+                [
+                    431.9658508300781,
+                    115.28101348876953
+                ]
+            ],
+            [
+                [
+                    486.09783935546875,
+                    99.79801940917969
+                ],
+                [
+                    522.1598510742188,
+                    115.28101348876953
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Monday <break time='200ms'/> Tuesday <break time='200ms'/> Wednesday <break time='200ms'/> Thursday <break time='200ms'/> Friday <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Monday"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 64,
+                "value": "Tuesday"
+            },
+            {
+                "time": 1867,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2135,
+                "type": "word",
+                "start": 87,
+                "end": 96,
+                "value": "Wednesday"
+            },
+            {
+                "time": 2960,
+                "type": "word",
+                "start": 97,
+                "end": 118,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3235,
+                "type": "word",
+                "start": 119,
+                "end": 127,
+                "value": "Thursday"
+            },
+            {
+                "time": 3968,
+                "type": "word",
+                "start": 128,
+                "end": 149,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4274,
+                "type": "word",
+                "start": 150,
+                "end": 156,
+                "value": "Friday"
+            },
+            {
+                "time": 5003,
+                "type": "word",
+                "start": 157,
+                "end": 178,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "* rice and curry",
+        "words": [
+            "*",
+            "rice",
+            "and",
+            "curry"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.3407974243164,
+                    121.26103210449219
+                ],
+                [
+                    72.45079803466797,
+                    136.74403381347656
+                ]
+            ],
+            [
+                [
+                    75.70079803466797,
+                    121.26103210449219
+                ],
+                [
+                    97.33280181884766,
+                    136.74403381347656
+                ]
+            ],
+            [
+                [
+                    100.58280181884766,
+                    121.26103210449219
+                ],
+                [
+                    124.58080291748047,
+                    136.74403381347656
+                ]
+            ],
+            [
+                [
+                    76.0907974243164,
+                    132.25901794433594
+                ],
+                [
+                    106.79680633544922,
+                    147.7420196533203
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>rice <break time='200ms'/> and <break time='200ms'/> curry <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "rice"
+            },
+            {
+                "time": 677,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 908,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "and"
+            },
+            {
+                "time": 1469,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1725,
+                "type": "word",
+                "start": 81,
+                "end": 86,
+                "value": "curry"
+            },
+            {
+                "time": 2443,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "* fruits and ice cream",
+        "words": [
+            "*",
+            "fruits",
+            "and",
+            "ice",
+            "cream"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.3407974243164,
+                    154.25498962402344
+                ],
+                [
+                    72.45079803466797,
+                    169.7379913330078
+                ]
+            ],
+            [
+                [
+                    75.70079803466797,
+                    154.25498962402344
+                ],
+                [
+                    107.2518081665039,
+                    169.7379913330078
+                ]
+            ],
+            [
+                [
+                    110.5018081665039,
+                    154.25498962402344
+                ],
+                [
+                    134.49981689453125,
+                    169.7379913330078
+                ]
+            ],
+            [
+                [
+                    72.8407974243164,
+                    165.2529754638672
+                ],
+                [
+                    90.1177978515625,
+                    180.73597717285156
+                ]
+            ],
+            [
+                [
+                    93.3677978515625,
+                    165.2529754638672
+                ],
+                [
+                    132.7967987060547,
+                    180.73597717285156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fruits <break time='200ms'/> and <break time='200ms'/> ice <break time='200ms'/> cream <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "fruits"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1594,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "ice"
+            },
+            {
+                "time": 2295,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "cream"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "*green gram",
+        "words": [
+            "*green",
+            "gram"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    153.88279724121094,
+                    121.24797058105469
+                ],
+                [
+                    194.92381286621094,
+                    136.73097229003906
+                ]
+            ],
+            [
+                [
+                    157.13279724121094,
+                    132.24595642089844
+                ],
+                [
+                    190.36080932617188,
+                    147.7289581298828
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>green <break time='200ms'/> gram <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "green"
+            },
+            {
+                "time": 688,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 919,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "gram"
+            },
+            {
+                "time": 1709,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "* fruits and ice cream",
+        "words": [
+            "*",
+            "fruits",
+            "and",
+            "ice",
+            "cream"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    153.88279724121094,
+                    154.24192810058594
+                ],
+                [
+                    159.9927978515625,
+                    169.7249298095703
+                ]
+            ],
+            [
+                [
+                    163.2427978515625,
+                    154.24192810058594
+                ],
+                [
+                    194.7937774658203,
+                    169.7249298095703
+                ]
+            ],
+            [
+                [
+                    198.0437774658203,
+                    154.24192810058594
+                ],
+                [
+                    222.0417938232422,
+                    169.7249298095703
+                ]
+            ],
+            [
+                [
+                    153.88279724121094,
+                    165.2399139404297
+                ],
+                [
+                    171.1597900390625,
+                    180.72291564941406
+                ]
+            ],
+            [
+                [
+                    174.4097900390625,
+                    165.2399139404297
+                ],
+                [
+                    213.8387908935547,
+                    180.72291564941406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fruits <break time='200ms'/> and <break time='200ms'/> ice <break time='200ms'/> cream <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "fruits"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1594,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "ice"
+            },
+            {
+                "time": 2295,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "cream"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "* chickpea",
+        "words": [
+            "*",
+            "chickpea"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    238.83779907226562,
+                    121.23490905761719
+                ],
+                [
+                    244.9477996826172,
+                    136.71791076660156
+                ]
+            ],
+            [
+                [
+                    248.1977996826172,
+                    121.23490905761719
+                ],
+                [
+                    303.2267761230469,
+                    136.71791076660156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>chickpea <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "chickpea"
+            },
+            {
+                "time": 913,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "* fruits and ice cream",
+        "words": [
+            "*",
+            "fruits",
+            "and",
+            "ice",
+            "cream"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    238.83779907226562,
+                    143.2308807373047
+                ],
+                [
+                    244.9477996826172,
+                    158.71388244628906
+                ]
+            ],
+            [
+                [
+                    248.1977996826172,
+                    143.2308807373047
+                ],
+                [
+                    279.7488098144531,
+                    158.71388244628906
+                ]
+            ],
+            [
+                [
+                    282.9988098144531,
+                    143.2308807373047
+                ],
+                [
+                    306.9967956542969,
+                    158.71388244628906
+                ]
+            ],
+            [
+                [
+                    245.33779907226562,
+                    154.22886657714844
+                ],
+                [
+                    262.6147766113281,
+                    169.7118682861328
+                ]
+            ],
+            [
+                [
+                    265.8647766113281,
+                    154.22886657714844
+                ],
+                [
+                    305.2937927246094,
+                    169.7118682861328
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fruits <break time='200ms'/> and <break time='200ms'/> ice <break time='200ms'/> cream <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "fruits"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1594,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "ice"
+            },
+            {
+                "time": 2295,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "cream"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "* string hoppers",
+        "words": [
+            "*",
+            "string",
+            "hoppers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    238.83779907226562,
+                    176.22483825683594
+                ],
+                [
+                    244.9477996826172,
+                    191.7078399658203
+                ]
+            ],
+            [
+                [
+                    248.1977996826172,
+                    176.22483825683594
+                ],
+                [
+                    282.6087951660156,
+                    191.7078399658203
+                ]
+            ],
+            [
+                [
+                    285.8587951660156,
+                    176.22483825683594
+                ],
+                [
+                    334.7518005371094,
+                    191.7078399658203
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>string <break time='200ms'/> hoppers <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "string"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 64,
+                "value": "hoppers"
+            },
+            {
+                "time": 1872,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "* veggie pittu",
+        "words": [
+            "*",
+            "veggie",
+            "pittu"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    355.47381591796875,
+                    121.22184753417969
+                ],
+                [
+                    361.58380126953125,
+                    136.70484924316406
+                ]
+            ],
+            [
+                [
+                    364.70379638671875,
+                    121.22184753417969
+                ],
+                [
+                    405.04278564453125,
+                    136.70484924316406
+                ]
+            ],
+            [
+                [
+                    408.29278564453125,
+                    121.22184753417969
+                ],
+                [
+                    437.56878662109375,
+                    136.70484924316406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>veggie <break time='200ms'/> pittu <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "veggie"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 62,
+                "value": "pittu"
+            },
+            {
+                "time": 1734,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "* milk rice",
+        "words": [
+            "*",
+            "milk",
+            "rice"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    355.47381591796875,
+                    143.2178192138672
+                ],
+                [
+                    361.58380126953125,
+                    158.70082092285156
+                ]
+            ],
+            [
+                [
+                    364.83380126953125,
+                    143.2178192138672
+                ],
+                [
+                    391.5357971191406,
+                    158.70082092285156
+                ]
+            ],
+            [
+                [
+                    394.6557922363281,
+                    143.2178192138672
+                ],
+                [
+                    416.2878112792969,
+                    158.70082092285156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>milk <break time='200ms'/> rice <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "milk"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "rice"
+            },
+            {
+                "time": 1580,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "* fruits and ice cream",
+        "words": [
+            "*",
+            "fruits",
+            "and",
+            "ice",
+            "cream"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    355.47381591796875,
+                    165.2137908935547
+                ],
+                [
+                    361.58380126953125,
+                    180.69679260253906
+                ]
+            ],
+            [
+                [
+                    364.83380126953125,
+                    165.2137908935547
+                ],
+                [
+                    396.38482666015625,
+                    180.69679260253906
+                ]
+            ],
+            [
+                [
+                    399.63482666015625,
+                    165.2137908935547
+                ],
+                [
+                    423.6328125,
+                    180.69679260253906
+                ]
+            ],
+            [
+                [
+                    361.97381591796875,
+                    176.21177673339844
+                ],
+                [
+                    379.2508239746094,
+                    191.6947784423828
+                ]
+            ],
+            [
+                [
+                    382.5008239746094,
+                    176.21177673339844
+                ],
+                [
+                    421.9298400878906,
+                    191.6947784423828
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fruits <break time='200ms'/> and <break time='200ms'/> ice <break time='200ms'/> cream <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "fruits"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1594,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "ice"
+            },
+            {
+                "time": 2295,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "cream"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "*veggie rotti",
+        "words": [
+            "*veggie",
+            "rotti"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    460.5918273925781,
+                    121.20878601074219
+                ],
+                [
+                    507.04083251953125,
+                    136.69178771972656
+                ]
+            ],
+            [
+                [
+                    510.29083251953125,
+                    121.20878601074219
+                ],
+                [
+                    534.8218383789062,
+                    136.69178771972656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>veggie <break time='200ms'/> rotti <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "veggie"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 62,
+                "value": "rotti"
+            },
+            {
+                "time": 1682,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "*fruits and ice cream",
+        "words": [
+            "*fruits",
+            "and",
+            "ice",
+            "cream"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    460.5918273925781,
+                    143.2047576904297
+                ],
+                [
+                    498.25286865234375,
+                    158.68775939941406
+                ]
+            ],
+            [
+                [
+                    501.50286865234375,
+                    143.2047576904297
+                ],
+                [
+                    525.5008544921875,
+                    158.68775939941406
+                ]
+            ],
+            [
+                [
+                    463.8418273925781,
+                    154.20274353027344
+                ],
+                [
+                    481.11883544921875,
+                    169.6857452392578
+                ]
+            ],
+            [
+                [
+                    484.36883544921875,
+                    154.20274353027344
+                ],
+                [
+                    523.7978515625,
+                    169.6857452392578
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fruits <break time='200ms'/> and <break time='200ms'/> ice <break time='200ms'/> cream <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "fruits"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1594,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "ice"
+            },
+            {
+                "time": 2295,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "cream"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "14": {
+        "text": "* hoppers",
+        "words": [
+            "*",
+            "hoppers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    460.5918273925781,
+                    176.19871520996094
+                ],
+                [
+                    466.70184326171875,
+                    191.6817169189453
+                ]
+            ],
+            [
+                [
+                    469.95184326171875,
+                    176.19871520996094
+                ],
+                [
+                    518.8447875976562,
+                    191.6817169189453
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>hoppers <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "hoppers"
+            },
+            {
+                "time": 913,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "15": {
+        "text": "I want a mango.",
+        "words": [
+            "I",
+            "want",
+            "a",
+            "mango."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    368.7760009765625,
+                    540.8270263671875
+                ],
+                [
+                    375.4360046386719,
+                    562.2650146484375
+                ]
+            ],
+            [
+                [
+                    379.7560119628906,
+                    540.8270263671875
+                ],
+                [
+                    423.46002197265625,
+                    562.2650146484375
+                ]
+            ],
+            [
+                [
+                    427.60003662109375,
+                    540.8270263671875
+                ],
+                [
+                    438.5440368652344,
+                    562.2650146484375
+                ]
+            ],
+            [
+                [
+                    368.7760009765625,
+                    562.427001953125
+                ],
+                [
+                    436.2400207519531,
+                    583.864990234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> want <break time='200ms'/> a <break time='200ms'/> mango. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 453,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 784,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "want"
+            },
+            {
+                "time": 1672,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2041,
+                "type": "word",
+                "start": 79,
+                "end": 80,
+                "value": "a"
+            },
+            {
+                "time": 2477,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2777,
+                "type": "word",
+                "start": 103,
+                "end": 108,
+                "value": "mango"
+            },
+            {
+                "time": 3631,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "16": {
+        "text": "I want an ice cream.",
+        "words": [
+            "I",
+            "want",
+            "an",
+            "ice",
+            "cream."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    165.6639862060547,
+                    643.7870483398438
+                ],
+                [
+                    172.32398986816406,
+                    665.2250366210938
+                ]
+            ],
+            [
+                [
+                    176.6439971923828,
+                    643.7870483398438
+                ],
+                [
+                    220.34799194335938,
+                    665.2250366210938
+                ]
+            ],
+            [
+                [
+                    224.48800659179688,
+                    643.7870483398438
+                ],
+                [
+                    246.95199584960938,
+                    665.2250366210938
+                ]
+            ],
+            [
+                [
+                    165.6639862060547,
+                    665.3870239257812
+                ],
+                [
+                    189.5859832763672,
+                    686.8250122070312
+                ]
+            ],
+            [
+                [
+                    194.0859832763672,
+                    665.3870239257812
+                ],
+                [
+                    254.33197021484375,
+                    686.8250122070312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> want <break time='200ms'/> an <break time='200ms'/> ice <break time='200ms'/> cream. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 431,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "want"
+            },
+            {
+                "time": 1761,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2080,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "an"
+            },
+            {
+                "time": 2685,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3016,
+                "type": "word",
+                "start": 104,
+                "end": 107,
+                "value": "ice"
+            },
+            {
+                "time": 3653,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3878,
+                "type": "word",
+                "start": 130,
+                "end": 135,
+                "value": "cream"
+            },
+            {
+                "time": 4762,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "17": {
+        "text": "I want an apple.",
+        "words": [
+            "I",
+            "want",
+            "an",
+            "apple."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    358.10198974609375,
+                    649.529052734375
+                ],
+                [
+                    364.7619934082031,
+                    670.967041015625
+                ]
+            ],
+            [
+                [
+                    369.0820007324219,
+                    649.529052734375
+                ],
+                [
+                    412.7860107421875,
+                    670.967041015625
+                ]
+            ],
+            [
+                [
+                    358.10198974609375,
+                    671.1290283203125
+                ],
+                [
+                    380.385986328125,
+                    692.5670166015625
+                ]
+            ],
+            [
+                [
+                    384.885986328125,
+                    671.1290283203125
+                ],
+                [
+                    437.9859924316406,
+                    692.5670166015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> want <break time='200ms'/> an <break time='200ms'/> apple. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 453,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 784,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "want"
+            },
+            {
+                "time": 1638,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1988,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "an"
+            },
+            {
+                "time": 2485,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2891,
+                "type": "word",
+                "start": 104,
+                "end": 109,
+                "value": "apple"
+            },
+            {
+                "time": 3515,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

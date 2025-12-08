@@ -1,0 +1,560 @@
+{
+    "0": {
+        "text": "Point and say. This is....... These are........",
+        "words": [
+            "Point",
+            "and",
+            "say.",
+            "This",
+            "is.......",
+            "These",
+            "are........"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    123.59829711914062,
+                    50.169891357421875
+                ],
+                [
+                    175.56228637695312,
+                    76.37188720703125
+                ]
+            ],
+            [
+                [
+                    180.84228515625,
+                    50.169891357421875
+                ],
+                [
+                    221.4542999267578,
+                    76.37188720703125
+                ]
+            ],
+            [
+                [
+                    226.9542999267578,
+                    50.169891357421875
+                ],
+                [
+                    266.5762939453125,
+                    76.37188720703125
+                ]
+            ],
+            [
+                [
+                    391.08538818359375,
+                    60.72012710571289
+                ],
+                [
+                    424.36737060546875,
+                    82.15812683105469
+                ]
+            ],
+            [
+                [
+                    428.86737060546875,
+                    60.72012710571289
+                ],
+                [
+                    481.013427734375,
+                    82.15812683105469
+                ]
+            ],
+            [
+                [
+                    391.08538818359375,
+                    78.72012329101562
+                ],
+                [
+                    440.3873596191406,
+                    100.15812683105469
+                ]
+            ],
+            [
+                [
+                    444.8873596191406,
+                    78.72012329101562
+                ],
+                [
+                    516.9234008789062,
+                    100.15812683105469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Point <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/> This <break time='200ms'/> is....... <break time='200ms'/> These <break time='200ms'/> are........ <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Point"
+            },
+            {
+                "time": 709,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1009,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "and"
+            },
+            {
+                "time": 1613,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1913,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "say"
+            },
+            {
+                "time": 2413,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3000,
+                "type": "word",
+                "start": 109,
+                "end": 113,
+                "value": "This"
+            },
+            {
+                "time": 3665,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3965,
+                "type": "word",
+                "start": 136,
+                "end": 138,
+                "value": "is"
+            },
+            {
+                "time": 4450,
+                "type": "word",
+                "start": 146,
+                "end": 167,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5037,
+                "type": "word",
+                "start": 168,
+                "end": 173,
+                "value": "These"
+            },
+            {
+                "time": 5737,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6031,
+                "type": "word",
+                "start": 196,
+                "end": 199,
+                "value": "are"
+            },
+            {
+                "time": 6595,
+                "type": "word",
+                "start": 208,
+                "end": 229,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "This is my head.",
+        "words": [
+            "This",
+            "is",
+            "my",
+            "head."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    219.88270568847656,
+                    135.63510131835938
+                ],
+                [
+                    253.16470336914062,
+                    157.07310485839844
+                ]
+            ],
+            [
+                [
+                    257.6647033691406,
+                    135.63510131835938
+                ],
+                [
+                    270.2467041015625,
+                    157.07310485839844
+                ]
+            ],
+            [
+                [
+                    274.7467041015625,
+                    135.63510131835938
+                ],
+                [
+                    302.1787414550781,
+                    157.07310485839844
+                ]
+            ],
+            [
+                [
+                    219.88270568847656,
+                    157.23507690429688
+                ],
+                [
+                    268.9687194824219,
+                    178.67308044433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> head. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 619,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 914,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1429,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1731,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "my"
+            },
+            {
+                "time": 2366,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2666,
+                "type": "word",
+                "start": 105,
+                "end": 109,
+                "value": "head"
+            },
+            {
+                "time": 3227,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "These are my ears.",
+        "words": [
+            "These",
+            "are",
+            "my",
+            "ears."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    426.9721984863281,
+                    163.76419067382812
+                ],
+                [
+                    476.2742004394531,
+                    185.2021942138672
+                ]
+            ],
+            [
+                [
+                    480.7742004394531,
+                    163.76419067382812
+                ],
+                [
+                    507.5942077636719,
+                    185.2021942138672
+                ]
+            ],
+            [
+                [
+                    426.9721984863281,
+                    185.36416625976562
+                ],
+                [
+                    454.40423583984375,
+                    206.8021697998047
+                ]
+            ],
+            [
+                [
+                    458.7242431640625,
+                    185.36416625976562
+                ],
+                [
+                    499.65625,
+                    206.8021697998047
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>These <break time='200ms'/> are <break time='200ms'/> my <break time='200ms'/> ears. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 10,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "These"
+            },
+            {
+                "time": 670,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 964,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "are"
+            },
+            {
+                "time": 1610,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1910,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "my"
+            },
+            {
+                "time": 2605,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2898,
+                "type": "word",
+                "start": 107,
+                "end": 111,
+                "value": "ears"
+            },
+            {
+                "time": 3500,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "This is ..........",
+        "words": [
+            "This",
+            "is",
+            ".........."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    590.0540771484375
+                ],
+                [
+                    100.20760345458984,
+                    616.256103515625
+                ]
+            ],
+            [
+                [
+                    105.70760345458984,
+                    590.0540771484375
+                ],
+                [
+                    121.08560943603516,
+                    616.256103515625
+                ]
+            ],
+            [
+                [
+                    126.58560943603516,
+                    590.0540771484375
+                ],
+                [
+                    195.6656494140625,
+                    616.256103515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> .......... <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 965,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1525,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1725,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "These are...........",
+        "words": [
+            "These",
+            "are..........."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    642.8540649414062
+                ],
+                [
+                    119.78759765625,
+                    669.0560913085938
+                ]
+            ],
+            [
+                [
+                    125.28759765625,
+                    642.8540649414062
+                ],
+                [
+                    234.05564880371094,
+                    669.0560913085938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>These <break time='200ms'/> are........... <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "These"
+            },
+            {
+                "time": 706,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1000,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "are"
+            },
+            {
+                "time": 1564,
+                "type": "word",
+                "start": 71,
+                "end": 92,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

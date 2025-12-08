@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Family Story Repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Family Story Repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Family"
             },
             {
-                "time": 466,
+                "time": 646,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "Story"
             },
             {
-                "time": 938,
+                "time": 1105,
                 "type": "word",
-                "start": 40,
-                "end": 46,
+                "start": 41,
+                "end": 47,
                 "value": "Repeat"
             }
         ]
@@ -269,163 +270,135 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My name is Sahan.<break time=\"500ms\"/> I have a happy family.<break time=\"500ms\"/> Meet my father.<break time=\"500ms\"/> He is Kalpa.<break time=\"500ms\"/> He is happy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My name is <phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>. I have a happy family. Meet my father. He is Kalpa. He is happy.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 176,
+                "time": 339,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "name"
             },
             {
-                "time": 446,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "is"
             },
             {
-                "time": 547,
+                "time": 736,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 74,
+                "end": 79,
                 "value": "Sahan"
             },
             {
-                "time": 1212,
+                "time": 2110,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2099,
-                "type": "word",
-                "start": 66,
-                "end": 67,
+                "start": 91,
+                "end": 92,
                 "value": "I"
             },
             {
-                "time": 2215,
+                "time": 2248,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 93,
+                "end": 97,
                 "value": "have"
             },
             {
-                "time": 2400,
+                "time": 2508,
                 "type": "word",
-                "start": 73,
-                "end": 74,
+                "start": 98,
+                "end": 99,
                 "value": "a"
             },
             {
-                "time": 2461,
+                "time": 2569,
                 "type": "word",
-                "start": 75,
-                "end": 80,
+                "start": 100,
+                "end": 105,
                 "value": "happy"
             },
             {
-                "time": 2910,
+                "time": 3104,
                 "type": "word",
-                "start": 81,
-                "end": 87,
+                "start": 106,
+                "end": 112,
                 "value": "family"
             },
             {
-                "time": 3613,
+                "time": 4279,
                 "type": "word",
-                "start": 88,
-                "end": 109,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4500,
-                "type": "word",
-                "start": 110,
-                "end": 114,
+                "start": 114,
+                "end": 118,
                 "value": "Meet"
             },
             {
-                "time": 4736,
+                "time": 4508,
                 "type": "word",
-                "start": 115,
-                "end": 117,
+                "start": 119,
+                "end": 121,
                 "value": "my"
             },
             {
-                "time": 4984,
+                "time": 4814,
                 "type": "word",
-                "start": 118,
-                "end": 124,
+                "start": 122,
+                "end": 128,
                 "value": "father"
             },
             {
-                "time": 5690,
+                "time": 6063,
                 "type": "word",
-                "start": 125,
-                "end": 146,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6576,
-                "type": "word",
-                "start": 147,
-                "end": 149,
+                "start": 130,
+                "end": 132,
                 "value": "He"
             },
             {
-                "time": 6799,
+                "time": 6277,
                 "type": "word",
-                "start": 150,
-                "end": 152,
+                "start": 133,
+                "end": 135,
                 "value": "is"
             },
             {
-                "time": 6959,
+                "time": 6445,
                 "type": "word",
-                "start": 153,
-                "end": 158,
+                "start": 136,
+                "end": 141,
                 "value": "Kalpa"
             },
             {
-                "time": 7663,
+                "time": 7755,
                 "type": "word",
-                "start": 159,
-                "end": 180,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 8550,
-                "type": "word",
-                "start": 181,
-                "end": 183,
+                "start": 143,
+                "end": 145,
                 "value": "He"
             },
             {
-                "time": 8812,
+                "time": 8015,
                 "type": "word",
-                "start": 184,
-                "end": 186,
+                "start": 146,
+                "end": 148,
                 "value": "is"
             },
             {
-                "time": 8924,
+                "time": 8199,
                 "type": "word",
-                "start": 187,
-                "end": 192,
+                "start": 149,
+                "end": 154,
                 "value": "happy"
             }
         ]
@@ -535,86 +508,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meet my mother.<break time=\"500ms\"/> She is Upuli.<break time=\"500ms\"/> She is happy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meet my mother. She is Upuli. She is happy.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Meet"
             },
             {
-                "time": 242,
+                "time": 354,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "my"
             },
             {
-                "time": 435,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 36,
+                "end": 42,
                 "value": "mother"
             },
             {
-                "time": 999,
+                "time": 1756,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1885,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 44,
+                "end": 47,
                 "value": "She"
             },
             {
-                "time": 2160,
+                "time": 1970,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "is"
             },
             {
-                "time": 2345,
+                "time": 2199,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 51,
+                "end": 56,
                 "value": "Upuli"
             },
             {
-                "time": 3047,
+                "time": 3574,
                 "type": "word",
-                "start": 77,
-                "end": 98,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3934,
-                "type": "word",
-                "start": 99,
-                "end": 102,
+                "start": 58,
+                "end": 61,
                 "value": "She"
             },
             {
-                "time": 4193,
+                "time": 3727,
                 "type": "word",
-                "start": 103,
-                "end": 105,
+                "start": 62,
+                "end": 64,
                 "value": "is"
             },
             {
-                "time": 4347,
+                "time": 3956,
                 "type": "word",
-                "start": 106,
-                "end": 111,
+                "start": 65,
+                "end": 70,
                 "value": "happy"
             }
         ]

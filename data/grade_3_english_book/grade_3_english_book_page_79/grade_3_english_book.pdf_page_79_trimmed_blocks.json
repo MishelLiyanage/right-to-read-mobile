@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "70",
-        "words": [
-            "70"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.787099838256836,
-                    24.34998893737793
-                ],
-                [
-                    60.757102966308594,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">70</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "70"
-            }
-        ]
-    },
-    "1": {
         "text": "Match.",
         "words": [
             "Match."
@@ -46,20 +16,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Match.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Match.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Match"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Let's make a bird bath.",
         "words": [
             "Let's",
@@ -120,48 +91,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a bird bath.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's make a bird bath.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 342,
+                "time": 473,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "make"
             },
             {
-                "time": 588,
+                "time": 733,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 653,
+                "time": 810,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "bird"
             },
             {
-                "time": 992,
+                "time": 1116,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 46,
+                "end": 50,
                 "value": "bath"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "1. Take a plate or a bowl.",
         "words": [
             "1.",
@@ -244,69 +216,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1.<break time=\"500ms\"/> Take a plate or a bowl.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1. Take a plate or a bowl.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 573,
+                "time": 1251,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1460,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Take"
             },
             {
-                "time": 1712,
+                "time": 1434,
                 "type": "word",
-                "start": 56,
-                "end": 57,
+                "start": 36,
+                "end": 37,
                 "value": "a"
             },
             {
-                "time": 1779,
+                "time": 1572,
                 "type": "word",
-                "start": 58,
-                "end": 63,
+                "start": 38,
+                "end": 43,
                 "value": "plate"
             },
             {
-                "time": 2114,
+                "time": 1939,
                 "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "or"
             },
             {
-                "time": 2269,
+                "time": 2168,
                 "type": "word",
-                "start": 67,
-                "end": 68,
+                "start": 47,
+                "end": 48,
                 "value": "a"
             },
             {
-                "time": 2300,
+                "time": 2245,
                 "type": "word",
-                "start": 69,
-                "end": 73,
+                "start": 49,
+                "end": 53,
                 "value": "bowl"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "2. Keep the bowl on a stand.",
         "words": [
             "2.",
@@ -389,69 +355,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2.<break time=\"500ms\"/> Keep the bowl on a stand.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2. Keep the bowl on a stand.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 476,
+                "time": 1238,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1363,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Keep"
             },
             {
-                "time": 1619,
+                "time": 1529,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 1724,
+                "time": 1682,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 40,
+                "end": 44,
                 "value": "bowl"
             },
             {
-                "time": 2042,
+                "time": 2064,
                 "type": "word",
-                "start": 65,
-                "end": 67,
+                "start": 45,
+                "end": 47,
                 "value": "on"
             },
             {
-                "time": 2217,
+                "time": 2186,
                 "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
-                "time": 2259,
+                "time": 2293,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 50,
+                "end": 55,
                 "value": "stand"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "3. Put water into the bowl.",
         "words": [
             "3.",
@@ -523,62 +483,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3.<break time=\"500ms\"/> Put water into the bowl.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3. Put water into the bowl.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             },
             {
-                "time": 613,
+                "time": 1238,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1499,
-                "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 31,
+                "end": 34,
                 "value": "Put"
             },
             {
-                "time": 1674,
+                "time": 1452,
                 "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 35,
+                "end": 40,
                 "value": "water"
             },
             {
-                "time": 2016,
+                "time": 1835,
                 "type": "word",
-                "start": 61,
-                "end": 65,
+                "start": 41,
+                "end": 45,
                 "value": "into"
             },
             {
-                "time": 2233,
+                "time": 2140,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "the"
             },
             {
-                "time": 2349,
+                "time": 2293,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 50,
+                "end": 54,
                 "value": "bowl"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "a b c",
         "words": [
             "a",
@@ -617,29 +571,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">a b c</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>a b c</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "a b c"
             },
             {
-                "time": 123,
+                "time": 337,
                 "type": "word",
-                "start": 29,
-                "end": 30,
+                "start": 30,
+                "end": 31,
                 "value": "b"
             },
             {
-                "time": 323,
+                "time": 643,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "c"
             }
         ]

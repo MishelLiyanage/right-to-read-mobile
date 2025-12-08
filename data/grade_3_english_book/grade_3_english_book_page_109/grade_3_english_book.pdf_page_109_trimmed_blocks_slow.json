@@ -1,0 +1,994 @@
+{
+    "0": {
+        "text": "Read aloud.",
+        "words": [
+            "Read",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    52.058990478515625
+                ],
+                [
+                    110.01670837402344,
+                    75.87899017333984
+                ]
+            ],
+            [
+                [
+                    115.01670837402344,
+                    52.058990478515625
+                ],
+                [
+                    174.376708984375,
+                    75.87899017333984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "aloud"
+            },
+            {
+                "time": 1641,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "+ Plus Addition",
+        "words": [
+            "+",
+            "Plus",
+            "Addition"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    229.99000549316406,
+                    102.29469299316406
+                ],
+                [
+                    252.45022583007812,
+                    147.9496612548828
+                ]
+            ],
+            [
+                [
+                    301.19000244140625,
+                    108.69100952148438
+                ],
+                [
+                    339.7900085449219,
+                    132.51101684570312
+                ]
+            ],
+            [
+                [
+                    291.19000244140625,
+                    132.69100952148438
+                ],
+                [
+                    370.030029296875,
+                    156.51101684570312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>+ <break time='200ms'/> Plus <break time='200ms'/> Addition <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "+"
+            },
+            {
+                "time": 688,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 919,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "Plus"
+            },
+            {
+                "time": 1603,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1859,
+                "type": "word",
+                "start": 79,
+                "end": 87,
+                "value": "Addition"
+            },
+            {
+                "time": 2661,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Two plus eight!",
+        "words": [
+            "Two",
+            "plus",
+            "eight!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.82689666748047,
+                    177.64797973632812
+                ],
+                [
+                    129.78689575195312,
+                    201.46798706054688
+                ]
+            ],
+            [
+                [
+                    134.78689575195312,
+                    177.64797973632812
+                ],
+                [
+                    173.54690551757812,
+                    201.46798706054688
+                ]
+            ],
+            [
+                [
+                    178.54690551757812,
+                    177.64797973632812
+                ],
+                [
+                    233.20692443847656,
+                    201.46798706054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Two <break time='200ms'/> plus <break time='200ms'/> eight! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Two"
+            },
+            {
+                "time": 548,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 823,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "plus"
+            },
+            {
+                "time": 1942,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2267,
+                "type": "word",
+                "start": 81,
+                "end": 86,
+                "value": "eight"
+            },
+            {
+                "time": 2907,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "One plus nine!",
+        "words": [
+            "One",
+            "plus",
+            "nine!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    388.9909973144531,
+                    177.91299438476562
+                ],
+                [
+                    428.7309875488281,
+                    201.73300170898438
+                ]
+            ],
+            [
+                [
+                    433.7309875488281,
+                    177.91299438476562
+                ],
+                [
+                    472.4909973144531,
+                    201.73300170898438
+                ]
+            ],
+            [
+                [
+                    477.4909973144531,
+                    177.91299438476562
+                ],
+                [
+                    525.1910400390625,
+                    201.73300170898438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>One <break time='200ms'/> plus <break time='200ms'/> nine! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "One"
+            },
+            {
+                "time": 578,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 835,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "plus"
+            },
+            {
+                "time": 1954,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2279,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "nine"
+            },
+            {
+                "time": 3010,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Three plus seven!",
+        "words": [
+            "Three",
+            "plus",
+            "seven!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.47059631347656,
+                    462.1929931640625
+                ],
+                [
+                    141.45059204101562,
+                    486.01300048828125
+                ]
+            ],
+            [
+                [
+                    146.45059204101562,
+                    462.1929931640625
+                ],
+                [
+                    185.21060180664062,
+                    486.01300048828125
+                ]
+            ],
+            [
+                [
+                    89.47059631347656,
+                    486.1929931640625
+                ],
+                [
+                    150.21060180664062,
+                    510.01300048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Three <break time='200ms'/> plus <break time='200ms'/> seven! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Three"
+            },
+            {
+                "time": 643,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "plus"
+            },
+            {
+                "time": 1948,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2273,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "seven"
+            },
+            {
+                "time": 3081,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Five plus five!",
+        "words": [
+            "Five",
+            "plus",
+            "five!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    391.8710021972656,
+                    506.5929870605469
+                ],
+                [
+                    428.07098388671875,
+                    530.4129638671875
+                ]
+            ],
+            [
+                [
+                    433.07098388671875,
+                    506.5929870605469
+                ],
+                [
+                    471.83099365234375,
+                    530.4129638671875
+                ]
+            ],
+            [
+                [
+                    476.83099365234375,
+                    506.5929870605469
+                ],
+                [
+                    516.9710083007812,
+                    530.4129638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Five <break time='200ms'/> plus <break time='200ms'/> five! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Five"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "plus"
+            },
+            {
+                "time": 2029,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2323,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "five"
+            },
+            {
+                "time": 3284,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Four plus six!",
+        "words": [
+            "Four",
+            "plus",
+            "six!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    200.3509979248047,
+                    563.113037109375
+                ],
+                [
+                    240.31100463867188,
+                    586.9329833984375
+                ]
+            ],
+            [
+                [
+                    245.11099243164062,
+                    563.113037109375
+                ],
+                [
+                    283.8710021972656,
+                    586.9329833984375
+                ]
+            ],
+            [
+                [
+                    288.8710021972656,
+                    563.113037109375
+                ],
+                [
+                    319.3710021972656,
+                    586.9329833984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Four <break time='200ms'/> plus <break time='200ms'/> six! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Four"
+            },
+            {
+                "time": 786,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1024,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "plus"
+            },
+            {
+                "time": 2091,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2441,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "six"
+            },
+            {
+                "time": 3310,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "1+9 is ten 2+8 is ten 7+3 is ten 6+4 is ten",
+        "words": [
+            "1+9",
+            "is",
+            "ten",
+            "2+8",
+            "is",
+            "ten",
+            "7+3",
+            "is",
+            "ten",
+            "6+4",
+            "is",
+            "ten"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.67669677734375,
+                    627.4580078125
+                ],
+                [
+                    98.15670013427734,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    102.95670318603516,
+                    627.4580078125
+                ],
+                [
+                    117.1366958618164,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    121.93669891357422,
+                    627.4580078125
+                ],
+                [
+                    153.17669677734375,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    191.64700317382812,
+                    627.4580078125
+                ],
+                [
+                    226.5469970703125,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    231.3470001220703,
+                    627.4580078125
+                ],
+                [
+                    245.52700805664062,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    250.32701110839844,
+                    627.4580078125
+                ],
+                [
+                    281.5670166015625,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    444.8280029296875,
+                    627.4580078125
+                ],
+                [
+                    478.1679992675781,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    482.9679870605469,
+                    627.4580078125
+                ],
+                [
+                    497.14801025390625,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    501.947998046875,
+                    627.4580078125
+                ],
+                [
+                    533.18798828125,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    318.23699951171875,
+                    627.4580078125
+                ],
+                [
+                    352.6769714355469,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    357.4769592285156,
+                    627.4580078125
+                ],
+                [
+                    371.656982421875,
+                    651.2779541015625
+                ]
+            ],
+            [
+                [
+                    376.45697021484375,
+                    627.4580078125
+                ],
+                [
+                    407.6969909667969,
+                    651.2779541015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>1+9 <break time='200ms'/> is <break time='200ms'/> ten <break time='200ms'/> 2+8 <break time='200ms'/> is <break time='200ms'/> ten <break time='200ms'/> 7+3 <break time='200ms'/> is <break time='200ms'/> ten <break time='200ms'/> 6+4 <break time='200ms'/> is <break time='200ms'/> ten <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "1+9"
+            },
+            {
+                "time": 1362,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1656,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "is"
+            },
+            {
+                "time": 2070,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2301,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "ten"
+            },
+            {
+                "time": 2801,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3089,
+                "type": "word",
+                "start": 105,
+                "end": 108,
+                "value": "2+8"
+            },
+            {
+                "time": 4333,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4645,
+                "type": "word",
+                "start": 131,
+                "end": 133,
+                "value": "is"
+            },
+            {
+                "time": 4959,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5228,
+                "type": "word",
+                "start": 156,
+                "end": 159,
+                "value": "ten"
+            },
+            {
+                "time": 5811,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6136,
+                "type": "word",
+                "start": 182,
+                "end": 185,
+                "value": "7+3"
+            },
+            {
+                "time": 7444,
+                "type": "word",
+                "start": 186,
+                "end": 207,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7712,
+                "type": "word",
+                "start": 208,
+                "end": 210,
+                "value": "is"
+            },
+            {
+                "time": 8068,
+                "type": "word",
+                "start": 211,
+                "end": 232,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8318,
+                "type": "word",
+                "start": 233,
+                "end": 236,
+                "value": "ten"
+            },
+            {
+                "time": 8972,
+                "type": "word",
+                "start": 237,
+                "end": 258,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9259,
+                "type": "word",
+                "start": 259,
+                "end": 262,
+                "value": "6+4"
+            },
+            {
+                "time": 10462,
+                "type": "word",
+                "start": 263,
+                "end": 284,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10718,
+                "type": "word",
+                "start": 285,
+                "end": 287,
+                "value": "is"
+            },
+            {
+                "time": 11163,
+                "type": "word",
+                "start": 288,
+                "end": 309,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11426,
+                "type": "word",
+                "start": 310,
+                "end": 313,
+                "value": "ten"
+            },
+            {
+                "time": 11973,
+                "type": "word",
+                "start": 314,
+                "end": 335,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "5+5 is ten",
+        "words": [
+            "5+5",
+            "is",
+            "ten"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    253.4199981689453,
+                    682.9813232421875
+                ],
+                [
+                    288.29998779296875,
+                    706.80126953125
+                ]
+            ],
+            [
+                [
+                    293.0999755859375,
+                    682.9813232421875
+                ],
+                [
+                    307.2799987792969,
+                    706.80126953125
+                ]
+            ],
+            [
+                [
+                    312.0799865722656,
+                    682.9813232421875
+                ],
+                [
+                    343.32000732421875,
+                    706.80126953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>5+5 <break time='200ms'/> is <break time='200ms'/> ten <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "5+5"
+            },
+            {
+                "time": 1638,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1913,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "is"
+            },
+            {
+                "time": 2218,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2525,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "ten"
+            },
+            {
+                "time": 3069,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

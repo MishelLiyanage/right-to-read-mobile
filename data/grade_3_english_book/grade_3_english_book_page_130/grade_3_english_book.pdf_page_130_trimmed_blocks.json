@@ -71,50 +71,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and find words to complete.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and find words to complete.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 262,
+                "time": 416,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 424,
+                "time": 646,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "find"
             },
             {
-                "time": 832,
+                "time": 1105,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "words"
             },
             {
-                "time": 1212,
+                "time": 1487,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "to"
             },
             {
-                "time": 1338,
+                "time": 1640,
                 "type": "word",
-                "start": 50,
-                "end": 58,
+                "start": 51,
+                "end": 59,
                 "value": "complete"
             }
         ]
@@ -224,78 +225,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Clean water has no colour.<break time=\"500ms\"/> We drink clean water.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Clean water has no colour. We drink clean water.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Clean"
             },
             {
-                "time": 297,
+                "time": 519,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "water"
             },
             {
-                "time": 643,
+                "time": 886,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "has"
             },
             {
-                "time": 888,
+                "time": 1192,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 44,
+                "end": 46,
                 "value": "no"
             },
             {
-                "time": 1102,
+                "time": 1376,
                 "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 47,
+                "end": 53,
                 "value": "colour"
             },
             {
-                "time": 1655,
+                "time": 2499,
                 "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2541,
-                "type": "word",
-                "start": 75,
-                "end": 77,
+                "start": 55,
+                "end": 57,
                 "value": "We"
             },
             {
-                "time": 2682,
+                "time": 2698,
                 "type": "word",
-                "start": 78,
-                "end": 83,
+                "start": 58,
+                "end": 63,
                 "value": "drink"
             },
             {
-                "time": 3068,
+                "time": 3019,
                 "type": "word",
-                "start": 84,
-                "end": 89,
+                "start": 64,
+                "end": 69,
                 "value": "clean"
             },
             {
-                "time": 3447,
+                "time": 3478,
                 "type": "word",
-                "start": 90,
-                "end": 95,
+                "start": 70,
+                "end": 75,
                 "value": "water"
             }
         ]
@@ -350,37 +345,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Soap water is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Soap water is</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Soap"
             },
             {
-                "time": 339,
+                "time": 505,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "water"
             },
             {
-                "time": 802,
+                "time": 979,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "is"
-            },
-            {
-                "time": 1325,
-                "type": "word",
-                "start": 41,
-                "end": 63,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -434,37 +423,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Muddy water is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Muddy water is</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Muddy"
             },
             {
-                "time": 328,
+                "time": 416,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "water"
             },
             {
-                "time": 787,
+                "time": 875,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "is"
-            },
-            {
-                "time": 1310,
-                "type": "word",
-                "start": 42,
-                "end": 64,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -518,37 +501,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Dirty water is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Dirty water is</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Dirty"
             },
             {
-                "time": 280,
+                "time": 569,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "water"
             },
             {
-                "time": 741,
+                "time": 982,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "is"
-            },
-            {
-                "time": 1265,
-                "type": "word",
-                "start": 42,
-                "end": 64,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -613,29 +590,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">white / black / brown</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>white, black, brown</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "white"
             },
             {
-                "time": 771,
+                "time": 632,
                 "type": "word",
                 "start": 35,
                 "end": 40,
                 "value": "black"
             },
             {
-                "time": 1478,
+                "time": 1331,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 42,
+                "end": 47,
                 "value": "brown"
             }
         ]

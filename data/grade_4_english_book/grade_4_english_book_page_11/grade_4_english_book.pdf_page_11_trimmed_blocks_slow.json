@@ -1,0 +1,510 @@
+{
+    "0": {
+        "text": "Practise with your friend.",
+        "words": [
+            "Practise",
+            "with",
+            "your",
+            "friend."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    126.26529693603516,
+                    45.804473876953125
+                ],
+                [
+                    207.269287109375,
+                    72.0064697265625
+                ]
+            ],
+            [
+                [
+                    212.54928588867188,
+                    45.804473876953125
+                ],
+                [
+                    258.17730712890625,
+                    72.0064697265625
+                ]
+            ],
+            [
+                [
+                    263.4573059082031,
+                    45.804473876953125
+                ],
+                [
+                    308.2713317871094,
+                    72.0064697265625
+                ]
+            ],
+            [
+                [
+                    313.3313293457031,
+                    45.804473876953125
+                ],
+                [
+                    381.3333435058594,
+                    72.0064697265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Practise <break time='200ms'/> with <break time='200ms'/> your <break time='200ms'/> friend. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Practise"
+            },
+            {
+                "time": 884,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1184,
+                "type": "word",
+                "start": 59,
+                "end": 63,
+                "value": "with"
+            },
+            {
+                "time": 1753,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2054,
+                "type": "word",
+                "start": 86,
+                "end": 90,
+                "value": "your"
+            },
+            {
+                "time": 2527,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2827,
+                "type": "word",
+                "start": 113,
+                "end": 119,
+                "value": "friend"
+            },
+            {
+                "time": 3399,
+                "type": "word",
+                "start": 121,
+                "end": 142,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Hello, how are you?",
+        "words": [
+            "Hello,",
+            "how",
+            "are",
+            "you?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    195.83309936523438,
+                    138.04788208007812
+                ],
+                [
+                    243.6051025390625,
+                    159.4858856201172
+                ]
+            ],
+            [
+                [
+                    195.83309936523438,
+                    159.64785766601562
+                ],
+                [
+                    231.9770965576172,
+                    181.0858612060547
+                ]
+            ],
+            [
+                [
+                    236.29710388183594,
+                    159.64785766601562
+                ],
+                [
+                    263.1170959472656,
+                    181.0858612060547
+                ]
+            ],
+            [
+                [
+                    267.4371032714844,
+                    159.64785766601562
+                ],
+                [
+                    307.30712890625,
+                    181.0858612060547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello, <break time='200ms'/> how <break time='200ms'/> are <break time='200ms'/> you? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 985,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "how"
+            },
+            {
+                "time": 1633,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1926,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "are"
+            },
+            {
+                "time": 2552,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2852,
+                "type": "word",
+                "start": 109,
+                "end": 112,
+                "value": "you"
+            },
+            {
+                "time": 3352,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "I'm fine. Thank you.",
+        "words": [
+            "I'm",
+            "fine.",
+            "Thank",
+            "you."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    296.3382873535156,
+                    215.77099609375
+                ],
+                [
+                    326.0923156738281,
+                    237.20899963378906
+                ]
+            ],
+            [
+                [
+                    330.5923156738281,
+                    215.77099609375
+                ],
+                [
+                    368.8963317871094,
+                    237.20899963378906
+                ]
+            ],
+            [
+                [
+                    296.3382873535156,
+                    237.37100219726562
+                ],
+                [
+                    349.04229736328125,
+                    258.80902099609375
+                ]
+            ],
+            [
+                [
+                    353.18231201171875,
+                    237.37100219726562
+                ],
+                [
+                    389.4703369140625,
+                    258.80902099609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> fine. <break time='200ms'/> Thank <break time='200ms'/> you. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "fine"
+            },
+            {
+                "time": 1471,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2058,
+                "type": "word",
+                "start": 82,
+                "end": 87,
+                "value": "Thank"
+            },
+            {
+                "time": 2648,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2948,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "you"
+            },
+            {
+                "time": 3554,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Hello, how are you?",
+        "words": [
+            "Hello,",
+            "how",
+            "are",
+            "you?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    195.83309936523438,
+                    459.72039794921875
+                ],
+                [
+                    243.6051025390625,
+                    481.1584167480469
+                ]
+            ],
+            [
+                [
+                    195.83309936523438,
+                    481.3204040527344
+                ],
+                [
+                    231.9770965576172,
+                    502.7584228515625
+                ]
+            ],
+            [
+                [
+                    236.29710388183594,
+                    481.3204040527344
+                ],
+                [
+                    263.1170959472656,
+                    502.7584228515625
+                ]
+            ],
+            [
+                [
+                    267.4371032714844,
+                    481.3204040527344
+                ],
+                [
+                    307.30712890625,
+                    502.7584228515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello, <break time='200ms'/> how <break time='200ms'/> are <break time='200ms'/> you? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 985,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "how"
+            },
+            {
+                "time": 1633,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1926,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "are"
+            },
+            {
+                "time": 2552,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2852,
+                "type": "word",
+                "start": 109,
+                "end": 112,
+                "value": "you"
+            },
+            {
+                "time": 3352,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I'm .............",
+        "words": [
+            "I'm",
+            "............."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    288.86700439453125,
+                    545.233154296875
+                ],
+                [
+                    318.62103271484375,
+                    566.671142578125
+                ]
+            ],
+            [
+                [
+                    323.12103271484375,
+                    545.233154296875
+                ],
+                [
+                    396.5971374511719,
+                    566.671142578125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> ............. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 735,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 935,
+                "type": "word",
+                "start": 68,
+                "end": 89,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

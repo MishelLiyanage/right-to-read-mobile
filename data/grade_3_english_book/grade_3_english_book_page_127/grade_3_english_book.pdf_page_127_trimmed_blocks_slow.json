@@ -1,0 +1,1118 @@
+{
+    "0": {
+        "text": "Listen and read aloud.",
+        "words": [
+            "Listen",
+            "and",
+            "read",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    52.594024658203125
+                ],
+                [
+                    117.57918548583984,
+                    76.41402435302734
+                ]
+            ],
+            [
+                [
+                    122.57918548583984,
+                    52.594024658203125
+                ],
+                [
+                    159.4991912841797,
+                    76.41402435302734
+                ]
+            ],
+            [
+                [
+                    164.4991912841797,
+                    52.594024658203125
+                ],
+                [
+                    206.45919799804688,
+                    76.41402435302734
+                ]
+            ],
+            [
+                [
+                    211.45919799804688,
+                    52.594024658203125
+                ],
+                [
+                    270.8191833496094,
+                    76.41402435302734
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> read <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "read"
+            },
+            {
+                "time": 2389,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2695,
+                "type": "word",
+                "start": 110,
+                "end": 115,
+                "value": "aloud"
+            },
+            {
+                "time": 3390,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "The sky",
+        "words": [
+            "The",
+            "sky"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    272.75921630859375,
+                    100.59402465820312
+                ],
+                [
+                    307.0992126464844,
+                    124.41402435302734
+                ]
+            ],
+            [
+                [
+                    312.0992126464844,
+                    100.59402465820312
+                ],
+                [
+                    342.2792053222656,
+                    124.41402435302734
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>The <break time='200ms'/> sky <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 537,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 812,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "sky"
+            },
+            {
+                "time": 1666,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Hello! I am the sun.",
+        "words": [
+            "Hello!",
+            "I",
+            "am",
+            "the",
+            "sun."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    65.73701477050781,
+                    322.87799072265625
+                ],
+                [
+                    114.31902313232422,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    118.81902313232422,
+                    322.87799072265625
+                ],
+                [
+                    125.47901916503906,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    129.97901916503906,
+                    322.87799072265625
+                ],
+                [
+                    159.37301635742188,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    163.69302368164062,
+                    322.87799072265625
+                ],
+                [
+                    192.07901000976562,
+                    344.3160095214844
+                ]
+            ],
+            [
+                [
+                    65.73701477050781,
+                    342.8759765625
+                ],
+                [
+                    102.25902557373047,
+                    364.3139953613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> I <break time='200ms'/> am <break time='200ms'/> the <break time='200ms'/> sun. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 871,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1651,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "I"
+            },
+            {
+                "time": 1914,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2239,
+                "type": "word",
+                "start": 81,
+                "end": 83,
+                "value": "am"
+            },
+            {
+                "time": 3038,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3425,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "the"
+            },
+            {
+                "time": 3977,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4240,
+                "type": "word",
+                "start": 132,
+                "end": 135,
+                "value": "sun"
+            },
+            {
+                "time": 5017,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Hello! I am the moon.",
+        "words": [
+            "Hello!",
+            "I",
+            "am",
+            "the",
+            "moon."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    251.06500244140625,
+                    321.09600830078125
+                ],
+                [
+                    299.6470031738281,
+                    342.5340270996094
+                ]
+            ],
+            [
+                [
+                    304.1470031738281,
+                    321.09600830078125
+                ],
+                [
+                    310.8070068359375,
+                    342.5340270996094
+                ]
+            ],
+            [
+                [
+                    315.3070068359375,
+                    321.09600830078125
+                ],
+                [
+                    344.7010192871094,
+                    342.5340270996094
+                ]
+            ],
+            [
+                [
+                    349.0210266113281,
+                    321.09600830078125
+                ],
+                [
+                    377.4070129394531,
+                    342.5340270996094
+                ]
+            ],
+            [
+                [
+                    251.06500244140625,
+                    341.093994140625
+                ],
+                [
+                    306.7750244140625,
+                    362.5320129394531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> I <break time='200ms'/> am <break time='200ms'/> the <break time='200ms'/> moon. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1579,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "I"
+            },
+            {
+                "time": 1810,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2104,
+                "type": "word",
+                "start": 81,
+                "end": 83,
+                "value": "am"
+            },
+            {
+                "time": 2971,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3259,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "the"
+            },
+            {
+                "time": 3846,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4190,
+                "type": "word",
+                "start": 132,
+                "end": 136,
+                "value": "moon"
+            },
+            {
+                "time": 5065,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Hello! we are stars. We are in the sky.",
+        "words": [
+            "Hello!",
+            "we",
+            "are",
+            "stars.",
+            "We",
+            "are",
+            "in",
+            "the",
+            "sky."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    411.76904296875,
+                    367.6799621582031
+                ],
+                [
+                    460.3510437011719,
+                    389.11798095703125
+                ]
+            ],
+            [
+                [
+                    464.6710510253906,
+                    367.6799621582031
+                ],
+                [
+                    489.54705810546875,
+                    389.11798095703125
+                ]
+            ],
+            [
+                [
+                    494.04705810546875,
+                    367.6799621582031
+                ],
+                [
+                    520.8670654296875,
+                    389.11798095703125
+                ]
+            ],
+            [
+                [
+                    411.76904296875,
+                    387.6779479980469
+                ],
+                [
+                    457.1650695800781,
+                    409.115966796875
+                ]
+            ],
+            [
+                [
+                    460.2250671386719,
+                    387.6779479980469
+                ],
+                [
+                    487.7110595703125,
+                    409.115966796875
+                ]
+            ],
+            [
+                [
+                    492.2110595703125,
+                    387.6779479980469
+                ],
+                [
+                    519.0310668945312,
+                    409.115966796875
+                ]
+            ],
+            [
+                [
+                    523.5310668945312,
+                    387.6779479980469
+                ],
+                [
+                    539.2631225585938,
+                    409.115966796875
+                ]
+            ],
+            [
+                [
+                    411.76904296875,
+                    407.6759338378906
+                ],
+                [
+                    440.155029296875,
+                    429.11395263671875
+                ]
+            ],
+            [
+                [
+                    444.655029296875,
+                    407.6759338378906
+                ],
+                [
+                    476.029052734375,
+                    429.11395263671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> we <break time='200ms'/> are <break time='200ms'/> stars. <break time='200ms'/> We <break time='200ms'/> are <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> sky. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 871,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1589,
+                "type": "word",
+                "start": 57,
+                "end": 59,
+                "value": "we"
+            },
+            {
+                "time": 2000,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2275,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "are"
+            },
+            {
+                "time": 3150,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3506,
+                "type": "word",
+                "start": 108,
+                "end": 113,
+                "value": "stars"
+            },
+            {
+                "time": 4436,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5154,
+                "type": "word",
+                "start": 137,
+                "end": 139,
+                "value": "We"
+            },
+            {
+                "time": 5511,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5823,
+                "type": "word",
+                "start": 162,
+                "end": 165,
+                "value": "are"
+            },
+            {
+                "time": 6723,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7105,
+                "type": "word",
+                "start": 188,
+                "end": 190,
+                "value": "in"
+            },
+            {
+                "time": 7592,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7835,
+                "type": "word",
+                "start": 213,
+                "end": 216,
+                "value": "the"
+            },
+            {
+                "time": 8480,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8805,
+                "type": "word",
+                "start": 239,
+                "end": 242,
+                "value": "sky"
+            },
+            {
+                "time": 9674,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "What we see:",
+        "words": [
+            "What",
+            "we",
+            "see:"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    439.2330017089844
+                ],
+                [
+                    114.61920166015625,
+                    463.0530090332031
+                ]
+            ],
+            [
+                [
+                    119.21920776367188,
+                    439.2330017089844
+                ],
+                [
+                    146.85919189453125,
+                    463.0530090332031
+                ]
+            ],
+            [
+                [
+                    151.65919494628906,
+                    439.2330017089844
+                ],
+                [
+                    190.01919555664062,
+                    463.0530090332031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>What <break time='200ms'/> we <break time='200ms'/> see: <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "What"
+            },
+            {
+                "time": 564,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 821,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "we"
+            },
+            {
+                "time": 1458,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1714,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "see"
+            },
+            {
+                "time": 2345,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Day Night sun moon birds stars aeroplanes aeroplanes kites bats clouds clouds rainbow",
+        "words": [
+            "Day",
+            "Night",
+            "sun",
+            "moon",
+            "birds",
+            "stars",
+            "aeroplanes",
+            "aeroplanes",
+            "kites",
+            "bats",
+            "clouds",
+            "clouds",
+            "rainbow"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    163.2729949951172,
+                    490.9839782714844
+                ],
+                [
+                    207.24099731445312,
+                    519.5679931640625
+                ]
+            ],
+            [
+                [
+                    398.3529968261719,
+                    490.9839782714844
+                ],
+                [
+                    461.281005859375,
+                    519.5679931640625
+                ]
+            ],
+            [
+                [
+                    169.70199584960938,
+                    523.4820556640625
+                ],
+                [
+                    200.57199096679688,
+                    544.9200439453125
+                ]
+            ],
+            [
+                [
+                    404.656005859375,
+                    523.4820556640625
+                ],
+                [
+                    454.7140197753906,
+                    544.9200439453125
+                ]
+            ],
+            [
+                [
+                    165.05801391601562,
+                    545.9820556640625
+                ],
+                [
+                    205.19801330566406,
+                    567.4200439453125
+                ]
+            ],
+            [
+                [
+                    409.80401611328125,
+                    545.9820556640625
+                ],
+                [
+                    449.54803466796875,
+                    567.4200439453125
+                ]
+            ],
+            [
+                [
+                    138.634033203125,
+                    568.4820556640625
+                ],
+                [
+                    231.6220245361328,
+                    589.9200439453125
+                ]
+            ],
+            [
+                [
+                    383.1820373535156,
+                    568.4820556640625
+                ],
+                [
+                    476.1700439453125,
+                    589.9200439453125
+                ]
+            ],
+            [
+                [
+                    165.58004760742188,
+                    590.9820556640625
+                ],
+                [
+                    204.6580352783203,
+                    612.4200439453125
+                ]
+            ],
+            [
+                [
+                    411.2080383300781,
+                    590.9820556640625
+                ],
+                [
+                    448.12603759765625,
+                    612.4200439453125
+                ]
+            ],
+            [
+                [
+                    157.9480438232422,
+                    613.4820556640625
+                ],
+                [
+                    212.29005432128906,
+                    634.9200439453125
+                ]
+            ],
+            [
+                [
+                    402.49603271484375,
+                    613.4820556640625
+                ],
+                [
+                    456.8380432128906,
+                    634.9200439453125
+                ]
+            ],
+            [
+                [
+                    151.1620330810547,
+                    635.9820556640625
+                ],
+                [
+                    219.2560272216797,
+                    657.4200439453125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Day <break time='200ms'/> Night <break time='200ms'/> sun <break time='200ms'/> moon <break time='200ms'/> birds <break time='200ms'/> stars <break time='200ms'/> aeroplanes <break time='200ms'/> aeroplanes <break time='200ms'/> kites <break time='200ms'/> bats <break time='200ms'/> clouds <break time='200ms'/> clouds <break time='200ms'/> rainbow <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Day"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "Night"
+            },
+            {
+                "time": 1523,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1817,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "sun"
+            },
+            {
+                "time": 2382,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2688,
+                "type": "word",
+                "start": 108,
+                "end": 112,
+                "value": "moon"
+            },
+            {
+                "time": 3214,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3421,
+                "type": "word",
+                "start": 135,
+                "end": 140,
+                "value": "birds"
+            },
+            {
+                "time": 4156,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4419,
+                "type": "word",
+                "start": 163,
+                "end": 168,
+                "value": "stars"
+            },
+            {
+                "time": 5135,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5379,
+                "type": "word",
+                "start": 191,
+                "end": 201,
+                "value": "aeroplanes"
+            },
+            {
+                "time": 6396,
+                "type": "word",
+                "start": 202,
+                "end": 223,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6664,
+                "type": "word",
+                "start": 224,
+                "end": 234,
+                "value": "aeroplanes"
+            },
+            {
+                "time": 7604,
+                "type": "word",
+                "start": 235,
+                "end": 256,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7842,
+                "type": "word",
+                "start": 257,
+                "end": 262,
+                "value": "kites"
+            },
+            {
+                "time": 8439,
+                "type": "word",
+                "start": 263,
+                "end": 284,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8702,
+                "type": "word",
+                "start": 285,
+                "end": 289,
+                "value": "bats"
+            },
+            {
+                "time": 9345,
+                "type": "word",
+                "start": 290,
+                "end": 311,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9576,
+                "type": "word",
+                "start": 312,
+                "end": 318,
+                "value": "clouds"
+            },
+            {
+                "time": 10295,
+                "type": "word",
+                "start": 319,
+                "end": 340,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10527,
+                "type": "word",
+                "start": 341,
+                "end": 347,
+                "value": "clouds"
+            },
+            {
+                "time": 11277,
+                "type": "word",
+                "start": 348,
+                "end": 369,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11540,
+                "type": "word",
+                "start": 370,
+                "end": 377,
+                "value": "rainbow"
+            },
+            {
+                "time": 12253,
+                "type": "word",
+                "start": 378,
+                "end": 399,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

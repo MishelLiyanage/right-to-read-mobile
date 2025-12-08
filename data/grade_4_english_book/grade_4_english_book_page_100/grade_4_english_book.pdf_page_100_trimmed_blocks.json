@@ -115,105 +115,108 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How are you? I&apos;m fine.<break time=\"500ms\"/> I&apos;m very well.<break time=\"500ms\"/> I&apos;m great.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How are you? I'm fine. I'm very well. I'm great.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 283,
+                "time": 289,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "are"
             },
             {
-                "time": 411,
+                "time": 417,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "you"
             },
             {
-                "time": 1229,
+                "time": 1250,
                 "type": "word",
-                "start": 40,
-                "end": 48,
-                "value": "I&apos;m"
+                "start": 41,
+                "end": 44,
+                "value": "I'm"
             },
             {
-                "time": 1415,
+                "time": 1436,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 45,
+                "end": 49,
                 "value": "fine"
             },
             {
-                "time": 2033,
+                "time": 2463,
                 "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
+                "start": 51,
+                "end": 54,
+                "value": "I'm"
             },
             {
-                "time": 2919,
+                "time": 2678,
                 "type": "word",
-                "start": 76,
-                "end": 84,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 3124,
-                "type": "word",
-                "start": 85,
-                "end": 89,
+                "start": 55,
+                "end": 59,
                 "value": "very"
             },
             {
-                "time": 3450,
+                "time": 3018,
                 "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 60,
+                "end": 64,
                 "value": "well"
             },
             {
-                "time": 3885,
+                "time": 3840,
                 "type": "word",
-                "start": 95,
-                "end": 116,
-                "value": "<break time=\"500ms\"/>"
+                "start": 66,
+                "end": 69,
+                "value": "I'm"
             },
             {
-                "time": 4772,
+                "time": 4074,
                 "type": "word",
-                "start": 117,
-                "end": 125,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 4989,
-                "type": "word",
-                "start": 126,
-                "end": 131,
+                "start": 70,
+                "end": 75,
                 "value": "great"
             }
         ]
     },
     "1": {
-        "text": "Sonia : How are you, Kumar?",
+        "text": "Sonia : How are you, Kumar? Kumar : I'm fine. Thank you. How about you? Sonia : I'm very well. Thank you.",
         "words": [
             "Sonia",
             ":",
             "How",
             "are",
             "you,",
-            "Kumar?"
+            "Kumar?",
+            "Kumar",
+            ":",
+            "I'm",
+            "fine.",
+            "Thank",
+            "you.",
+            "How",
+            "about",
+            "you?",
+            "Sonia",
+            ":",
+            "I'm",
+            "very",
+            "well.",
+            "Thank",
+            "you."
         ],
         "bounding_boxes": [
             [
@@ -275,71 +278,7 @@
                     334.01165771484375,
                     201.0477752685547
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Sonia : How are you,<break time=\"300ms\"/> Kumar?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Sonia"
-            },
-            {
-                "time": 878,
-                "type": "word",
-                "start": 35,
-                "end": 38,
-                "value": "How"
-            },
-            {
-                "time": 1183,
-                "type": "word",
-                "start": 39,
-                "end": 42,
-                "value": "are"
-            },
-            {
-                "time": 1418,
-                "type": "word",
-                "start": 43,
-                "end": 46,
-                "value": "you"
-            },
-            {
-                "time": 1938,
-                "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2339,
-                "type": "word",
-                "start": 69,
-                "end": 74,
-                "value": "Kumar"
-            }
-        ]
-    },
-    "2": {
-        "text": "Kumar : I'm fine. Thank you. How about you?",
-        "words": [
-            "Kumar",
-            ":",
-            "I'm",
-            "fine.",
-            "Thank",
-            "you.",
-            "How",
-            "about",
-            "you?"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     59.529598236083984,
@@ -429,97 +368,7 @@
                     291.1356506347656,
                     249.03578186035156
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Kumar : I&apos;m fine.<break time=\"500ms\"/> Thank you.<break time=\"500ms\"/> How about you?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Kumar"
-            },
-            {
-                "time": 941,
-                "type": "word",
-                "start": 35,
-                "end": 43,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1121,
-                "type": "word",
-                "start": 44,
-                "end": 48,
-                "value": "fine"
-            },
-            {
-                "time": 1763,
-                "type": "word",
-                "start": 49,
-                "end": 70,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2650,
-                "type": "word",
-                "start": 71,
-                "end": 76,
-                "value": "Thank"
-            },
-            {
-                "time": 3025,
-                "type": "word",
-                "start": 77,
-                "end": 80,
-                "value": "you"
-            },
-            {
-                "time": 3435,
-                "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4321,
-                "type": "word",
-                "start": 103,
-                "end": 106,
-                "value": "How"
-            },
-            {
-                "time": 4585,
-                "type": "word",
-                "start": 107,
-                "end": 112,
-                "value": "about"
-            },
-            {
-                "time": 4905,
-                "type": "word",
-                "start": 113,
-                "end": 116,
-                "value": "you"
-            }
-        ]
-    },
-    "3": {
-        "text": "Sonia : I'm very well. Thank you.",
-        "words": [
-            "Sonia",
-            ":",
-            "I'm",
-            "very",
-            "well.",
-            "Thank",
-            "you."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     59.529598236083984,
@@ -591,7 +440,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sonia : I&apos;m very well.<break time=\"500ms\"/> Thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sonia : How are you, Kumar? Kumar : I'm fine. Thank you. How about you? Sonia : I'm very well. Thank you.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -599,56 +448,140 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Sonia"
             },
             {
-                "time": 878,
+                "time": 918,
                 "type": "word",
-                "start": 35,
-                "end": 43,
-                "value": "I&apos;m"
+                "start": 36,
+                "end": 39,
+                "value": "How"
             },
             {
-                "time": 1084,
+                "time": 1242,
+                "type": "word",
+                "start": 40,
+                "end": 43,
+                "value": "are"
+            },
+            {
+                "time": 1487,
                 "type": "word",
                 "start": 44,
-                "end": 48,
-                "value": "very"
+                "end": 47,
+                "value": "you"
             },
             {
-                "time": 1431,
+                "time": 2122,
                 "type": "word",
                 "start": 49,
-                "end": 53,
-                "value": "well"
+                "end": 54,
+                "value": "Kumar"
             },
             {
-                "time": 1948,
+                "time": 3130,
                 "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
+                "start": 56,
+                "end": 61,
+                "value": "Kumar"
             },
             {
-                "time": 2835,
+                "time": 4128,
                 "type": "word",
-                "start": 76,
-                "end": 81,
+                "start": 64,
+                "end": 67,
+                "value": "I'm"
+            },
+            {
+                "time": 4350,
+                "type": "word",
+                "start": 68,
+                "end": 72,
+                "value": "fine"
+            },
+            {
+                "time": 5281,
+                "type": "word",
+                "start": 74,
+                "end": 79,
                 "value": "Thank"
             },
             {
-                "time": 3194,
+                "time": 5650,
                 "type": "word",
-                "start": 82,
-                "end": 85,
+                "start": 80,
+                "end": 83,
+                "value": "you"
+            },
+            {
+                "time": 6423,
+                "type": "word",
+                "start": 85,
+                "end": 88,
+                "value": "How"
+            },
+            {
+                "time": 6734,
+                "type": "word",
+                "start": 89,
+                "end": 94,
+                "value": "about"
+            },
+            {
+                "time": 7068,
+                "type": "word",
+                "start": 95,
+                "end": 98,
+                "value": "you"
+            },
+            {
+                "time": 7981,
+                "type": "word",
+                "start": 100,
+                "end": 105,
+                "value": "Sonia"
+            },
+            {
+                "time": 8893,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "I'm"
+            },
+            {
+                "time": 9107,
+                "type": "word",
+                "start": 112,
+                "end": 116,
+                "value": "very"
+            },
+            {
+                "time": 9464,
+                "type": "word",
+                "start": 117,
+                "end": 121,
+                "value": "well"
+            },
+            {
+                "time": 10382,
+                "type": "word",
+                "start": 123,
+                "end": 128,
+                "value": "Thank"
+            },
+            {
+                "time": 10751,
+                "type": "word",
+                "start": 129,
+                "end": 132,
                 "value": "you"
             }
         ]
     },
-    "4": {
-        "text": "Teacher : How are you all today?",
+    "2": {
+        "text": "Teacher : How are you all today? Children: We're fine. Thank you. How are you teacher? Teacher : I'm great. Thank you.",
         "words": [
             "Teacher",
             ":",
@@ -656,7 +589,22 @@
             "are",
             "you",
             "all",
-            "today?"
+            "today?",
+            "Children:",
+            "We're",
+            "fine.",
+            "Thank",
+            "you.",
+            "How",
+            "are",
+            "you",
+            "teacher?",
+            "Teacher",
+            ":",
+            "I'm",
+            "great.",
+            "Thank",
+            "you."
         ],
         "bounding_boxes": [
             [
@@ -728,71 +676,7 @@
                     344.523681640625,
                     526.8280029296875
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : How are you all today?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Teacher"
-            },
-            {
-                "time": 782,
-                "type": "word",
-                "start": 37,
-                "end": 40,
-                "value": "How"
-            },
-            {
-                "time": 1058,
-                "type": "word",
-                "start": 41,
-                "end": 44,
-                "value": "are"
-            },
-            {
-                "time": 1198,
-                "type": "word",
-                "start": 45,
-                "end": 48,
-                "value": "you"
-            },
-            {
-                "time": 1470,
-                "type": "word",
-                "start": 49,
-                "end": 52,
-                "value": "all"
-            },
-            {
-                "time": 1640,
-                "type": "word",
-                "start": 53,
-                "end": 58,
-                "value": "today"
-            }
-        ]
-    },
-    "5": {
-        "text": "Children: We're fine. Thank you. How are you teacher?",
-        "words": [
-            "Children:",
-            "We're",
-            "fine.",
-            "Thank",
-            "you.",
-            "How",
-            "are",
-            "you",
-            "teacher?"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     59.529598236083984,
@@ -882,103 +766,7 @@
                     336.8736267089844,
                     574.8160400390625
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Children: We&apos;re fine.<break time=\"500ms\"/> Thank you.<break time=\"500ms\"/> How are you teacher?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "Children"
-            },
-            {
-                "time": 1017,
-                "type": "word",
-                "start": 37,
-                "end": 47,
-                "value": "We&apos;re"
-            },
-            {
-                "time": 1156,
-                "type": "word",
-                "start": 48,
-                "end": 52,
-                "value": "fine"
-            },
-            {
-                "time": 1799,
-                "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2686,
-                "type": "word",
-                "start": 75,
-                "end": 80,
-                "value": "Thank"
-            },
-            {
-                "time": 3061,
-                "type": "word",
-                "start": 81,
-                "end": 84,
-                "value": "you"
-            },
-            {
-                "time": 3471,
-                "type": "word",
-                "start": 85,
-                "end": 106,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4357,
-                "type": "word",
-                "start": 107,
-                "end": 110,
-                "value": "How"
-            },
-            {
-                "time": 4675,
-                "type": "word",
-                "start": 111,
-                "end": 114,
-                "value": "are"
-            },
-            {
-                "time": 4827,
-                "type": "word",
-                "start": 115,
-                "end": 118,
-                "value": "you"
-            },
-            {
-                "time": 5004,
-                "type": "word",
-                "start": 119,
-                "end": 126,
-                "value": "teacher"
-            }
-        ]
-    },
-    "6": {
-        "text": "Teacher : I'm great. Thank you.",
-        "words": [
-            "Teacher",
-            ":",
-            "I'm",
-            "great.",
-            "Thank",
-            "you."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     59.529598236083984,
@@ -1040,7 +828,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : I&apos;m great.<break time=\"500ms\"/> Thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teacher : How are you all today? Children: We're fine. Thank you. How are you teacher? Teacher : I'm great. Thank you.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -1048,43 +836,141 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Teacher"
             },
             {
-                "time": 783,
+                "time": 805,
                 "type": "word",
-                "start": 37,
-                "end": 45,
-                "value": "I&apos;m"
+                "start": 38,
+                "end": 41,
+                "value": "How"
             },
             {
-                "time": 962,
+                "time": 1088,
+                "type": "word",
+                "start": 42,
+                "end": 45,
+                "value": "are"
+            },
+            {
+                "time": 1227,
                 "type": "word",
                 "start": 46,
-                "end": 51,
-                "value": "great"
+                "end": 49,
+                "value": "you"
             },
             {
-                "time": 1516,
+                "time": 1498,
                 "type": "word",
-                "start": 52,
-                "end": 73,
-                "value": "<break time=\"500ms\"/>"
+                "start": 50,
+                "end": 53,
+                "value": "all"
             },
             {
-                "time": 2403,
+                "time": 1676,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 54,
+                "end": 59,
+                "value": "today"
+            },
+            {
+                "time": 2625,
+                "type": "word",
+                "start": 61,
+                "end": 69,
+                "value": "Children"
+            },
+            {
+                "time": 3588,
+                "type": "word",
+                "start": 71,
+                "end": 76,
+                "value": "We're"
+            },
+            {
+                "time": 3753,
+                "type": "word",
+                "start": 77,
+                "end": 81,
+                "value": "fine"
+            },
+            {
+                "time": 4693,
+                "type": "word",
+                "start": 83,
+                "end": 88,
                 "value": "Thank"
             },
             {
-                "time": 2794,
+                "time": 5098,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 89,
+                "end": 92,
+                "value": "you"
+            },
+            {
+                "time": 5876,
+                "type": "word",
+                "start": 94,
+                "end": 97,
+                "value": "How"
+            },
+            {
+                "time": 6162,
+                "type": "word",
+                "start": 98,
+                "end": 101,
+                "value": "are"
+            },
+            {
+                "time": 6271,
+                "type": "word",
+                "start": 102,
+                "end": 105,
+                "value": "you"
+            },
+            {
+                "time": 6466,
+                "type": "word",
+                "start": 106,
+                "end": 113,
+                "value": "teacher"
+            },
+            {
+                "time": 7499,
+                "type": "word",
+                "start": 115,
+                "end": 122,
+                "value": "Teacher"
+            },
+            {
+                "time": 8299,
+                "type": "word",
+                "start": 125,
+                "end": 128,
+                "value": "I'm"
+            },
+            {
+                "time": 8478,
+                "type": "word",
+                "start": 129,
+                "end": 134,
+                "value": "great"
+            },
+            {
+                "time": 9434,
+                "type": "word",
+                "start": 136,
+                "end": 141,
+                "value": "Thank"
+            },
+            {
+                "time": 9839,
+                "type": "word",
+                "start": 142,
+                "end": 145,
                 "value": "you"
             }
         ]

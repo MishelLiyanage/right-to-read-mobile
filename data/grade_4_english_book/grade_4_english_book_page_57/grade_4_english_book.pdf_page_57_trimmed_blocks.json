@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -97,43 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1170,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1345,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -188,43 +183,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">milkrice watalappan cake,<break time=\"300ms\"/> laddu</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>milkrice watalappan cake, laddu</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "milkrice"
             },
             {
-                "time": 620,
+                "time": 642,
                 "type": "word",
-                "start": 36,
-                "end": 46,
+                "start": 37,
+                "end": 47,
                 "value": "watalappan"
             },
             {
-                "time": 1370,
+                "time": 1433,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "cake"
             },
             {
-                "time": 1938,
+                "time": 2108,
                 "type": "word",
-                "start": 52,
-                "end": 73,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2332,
-                "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 54,
+                "end": 59,
                 "value": "laddu"
             }
         ]
@@ -290,43 +279,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">These are some festive food.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>These are some festive food.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "These"
             },
             {
-                "time": 271,
+                "time": 288,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 378,
+                "time": 395,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "some"
             },
             {
-                "time": 647,
+                "time": 671,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 43,
+                "end": 50,
                 "value": "festive"
             },
             {
-                "time": 1147,
+                "time": 1191,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 51,
+                "end": 55,
                 "value": "food"
             }
         ]
@@ -392,48 +382,80 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sinhala and Tamil New Year</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sinhala and Tamil New Year</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Sinhala"
             },
             {
-                "time": 667,
+                "time": 684,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "and"
             },
             {
-                "time": 807,
+                "time": 823,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "Tamil"
             },
             {
-                "time": 1256,
+                "time": 1280,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "New"
             },
             {
-                "time": 1453,
+                "time": 1496,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "Year"
             }
         ]
     },
     "5": {
+        "text": "Ramazan",
+        "words": [
+            "Ramazan"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    431.9079895019531,
+                    242.95718383789062
+                ],
+                [
+                    513.7900390625,
+                    264.39520263671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Ramazan</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Ramazan"
+            }
+        ]
+    },
+    "6": {
         "text": "milk rice",
         "words": [
             "milk",
@@ -461,53 +483,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">milk rice</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>milk rice</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "milk"
             },
             {
-                "time": 327,
+                "time": 351,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "rice"
-            }
-        ]
-    },
-    "6": {
-        "text": "Ramazan",
-        "words": [
-            "Ramazan"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    431.9079895019531,
-                    242.95718383789062
-                ],
-                [
-                    513.7900390625,
-                    264.39520263671875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Ramazan</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Ramazan"
             }
         ]
     },
@@ -528,15 +521,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">watalappan</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>watalappan</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
+                "start": 28,
+                "end": 38,
                 "value": "watalappan"
             }
         ]
@@ -558,20 +552,52 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Christmas</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Christmas</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Christmas"
             }
         ]
     },
     "9": {
+        "text": "Deepavali",
+        "words": [
+            "Deepavali"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    425.3049011230469,
+                    484.9178771972656
+                ],
+                [
+                    509.3829040527344,
+                    506.35589599609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Deepavali</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Deepavali"
+            }
+        ]
+    },
+    "10": {
         "text": "Christmas cake",
         "words": [
             "Christmas",
@@ -599,53 +625,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Christmas cake</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Christmas cake</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Christmas"
             },
             {
-                "time": 607,
+                "time": 628,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "cake"
-            }
-        ]
-    },
-    "10": {
-        "text": "Deepavali",
-        "words": [
-            "Deepavali"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    425.3049011230469,
-                    484.9178771972656
-                ],
-                [
-                    509.3829040527344,
-                    506.35589599609375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Deepavali</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "Deepavali"
             }
         ]
     },
@@ -666,15 +663,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">laddu</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>laddu</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "laddu"
             }
         ]

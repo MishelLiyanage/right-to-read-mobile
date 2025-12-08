@@ -1,0 +1,969 @@
+{
+    "0": {
+        "text": "Listen and match.",
+        "words": [
+            "Listen",
+            "and",
+            "match."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.716033935546875,
+                    52.045013427734375
+                ],
+                [
+                    116.93602752685547,
+                    75.8650131225586
+                ]
+            ],
+            [
+                [
+                    121.93602752685547,
+                    52.045013427734375
+                ],
+                [
+                    158.8560333251953,
+                    75.8650131225586
+                ]
+            ],
+            [
+                [
+                    163.8560333251953,
+                    52.045013427734375
+                ],
+                [
+                    232.95603942871094,
+                    75.8650131225586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> match. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1573,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1823,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "match"
+            },
+            {
+                "time": 2554,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Water",
+        "words": [
+            "Water"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    275.3760070800781,
+                    95.04501342773438
+                ],
+                [
+                    331.9760437011719,
+                    118.8650131225586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Water <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Water"
+            },
+            {
+                "time": 772,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "We need water for drinking. We need water for washing. We need water for cooking. Plants and animals need water. Save water for tomorrow.",
+        "words": [
+            "We",
+            "need",
+            "water",
+            "for",
+            "drinking.",
+            "We",
+            "need",
+            "water",
+            "for",
+            "washing.",
+            "We",
+            "need",
+            "water",
+            "for",
+            "cooking.",
+            "Plants",
+            "and",
+            "animals",
+            "need",
+            "water.",
+            "Save",
+            "water",
+            "for",
+            "tomorrow."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.716033935546875,
+                    145.04501342773438
+                ],
+                [
+                    92.25602722167969,
+                    168.86502075195312
+                ]
+            ],
+            [
+                [
+                    97.25602722167969,
+                    145.04501342773438
+                ],
+                [
+                    144.69602966308594,
+                    168.86502075195312
+                ]
+            ],
+            [
+                [
+                    149.49603271484375,
+                    145.04501342773438
+                ],
+                [
+                    203.19601440429688,
+                    168.86502075195312
+                ]
+            ],
+            [
+                [
+                    207.9960174560547,
+                    145.04501342773438
+                ],
+                [
+                    233.416015625,
+                    168.86502075195312
+                ]
+            ],
+            [
+                [
+                    238.2160186767578,
+                    145.04501342773438
+                ],
+                [
+                    321.2760314941406,
+                    168.86502075195312
+                ]
+            ],
+            [
+                [
+                    61.716033935546875,
+                    171.04501342773438
+                ],
+                [
+                    92.25602722167969,
+                    194.86502075195312
+                ]
+            ],
+            [
+                [
+                    97.25602722167969,
+                    171.04501342773438
+                ],
+                [
+                    144.69602966308594,
+                    194.86502075195312
+                ]
+            ],
+            [
+                [
+                    149.49603271484375,
+                    171.04501342773438
+                ],
+                [
+                    203.19601440429688,
+                    194.86502075195312
+                ]
+            ],
+            [
+                [
+                    212.9960174560547,
+                    171.04501342773438
+                ],
+                [
+                    238.416015625,
+                    194.86502075195312
+                ]
+            ],
+            [
+                [
+                    243.01602172851562,
+                    171.04501342773438
+                ],
+                [
+                    329.0960388183594,
+                    194.86502075195312
+                ]
+            ],
+            [
+                [
+                    61.716033935546875,
+                    197.04501342773438
+                ],
+                [
+                    92.25602722167969,
+                    220.86502075195312
+                ]
+            ],
+            [
+                [
+                    97.25602722167969,
+                    197.04501342773438
+                ],
+                [
+                    144.69602966308594,
+                    220.86502075195312
+                ]
+            ],
+            [
+                [
+                    149.49603271484375,
+                    197.04501342773438
+                ],
+                [
+                    203.19601440429688,
+                    220.86502075195312
+                ]
+            ],
+            [
+                [
+                    207.9960174560547,
+                    197.04501342773438
+                ],
+                [
+                    233.416015625,
+                    220.86502075195312
+                ]
+            ],
+            [
+                [
+                    238.2160186767578,
+                    197.04501342773438
+                ],
+                [
+                    317.8160400390625,
+                    220.86502075195312
+                ]
+            ],
+            [
+                [
+                    61.716033935546875,
+                    223.04501342773438
+                ],
+                [
+                    120.07603454589844,
+                    246.86502075195312
+                ]
+            ],
+            [
+                [
+                    130.07603454589844,
+                    223.04501342773438
+                ],
+                [
+                    166.9960479736328,
+                    246.86502075195312
+                ]
+            ],
+            [
+                [
+                    171.9960479736328,
+                    223.04501342773438
+                ],
+                [
+                    248.2960662841797,
+                    246.86502075195312
+                ]
+            ],
+            [
+                [
+                    253.2960662841797,
+                    223.04501342773438
+                ],
+                [
+                    300.7360534667969,
+                    246.86502075195312
+                ]
+            ],
+            [
+                [
+                    305.5360412597656,
+                    223.04501342773438
+                ],
+                [
+                    364.716064453125,
+                    246.86502075195312
+                ]
+            ],
+            [
+                [
+                    61.716033935546875,
+                    249.04501342773438
+                ],
+                [
+                    105.97604370117188,
+                    272.8650207519531
+                ]
+            ],
+            [
+                [
+                    110.77604675292969,
+                    249.04501342773438
+                ],
+                [
+                    164.47604370117188,
+                    272.8650207519531
+                ]
+            ],
+            [
+                [
+                    169.0760498046875,
+                    249.04501342773438
+                ],
+                [
+                    194.696044921875,
+                    272.8650207519531
+                ]
+            ],
+            [
+                [
+                    199.29605102539062,
+                    249.04501342773438
+                ],
+                [
+                    295.0560607910156,
+                    272.8650207519531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> need <break time='200ms'/> water <break time='200ms'/> for <break time='200ms'/> drinking. <break time='200ms'/> We <break time='200ms'/> need <break time='200ms'/> water <break time='200ms'/> for <break time='200ms'/> washing. <break time='200ms'/> We <break time='200ms'/> need <break time='200ms'/> water <break time='200ms'/> for <break time='200ms'/> cooking. <break time='200ms'/> Plants <break time='200ms'/> and <break time='200ms'/> animals <break time='200ms'/> need <break time='200ms'/> water. <break time='200ms'/> Save <break time='200ms'/> water <break time='200ms'/> for <break time='200ms'/> tomorrow. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "need"
+            },
+            {
+                "time": 1469,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1725,
+                "type": "word",
+                "start": 80,
+                "end": 85,
+                "value": "water"
+            },
+            {
+                "time": 2381,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2656,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "for"
+            },
+            {
+                "time": 3187,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3475,
+                "type": "word",
+                "start": 134,
+                "end": 142,
+                "value": "drinking"
+            },
+            {
+                "time": 4228,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4996,
+                "type": "word",
+                "start": 166,
+                "end": 168,
+                "value": "We"
+            },
+            {
+                "time": 5409,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5641,
+                "type": "word",
+                "start": 191,
+                "end": 195,
+                "value": "need"
+            },
+            {
+                "time": 6278,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6534,
+                "type": "word",
+                "start": 218,
+                "end": 223,
+                "value": "water"
+            },
+            {
+                "time": 7190,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7465,
+                "type": "word",
+                "start": 246,
+                "end": 249,
+                "value": "for"
+            },
+            {
+                "time": 7978,
+                "type": "word",
+                "start": 250,
+                "end": 271,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8246,
+                "type": "word",
+                "start": 272,
+                "end": 279,
+                "value": "washing"
+            },
+            {
+                "time": 9021,
+                "type": "word",
+                "start": 281,
+                "end": 302,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9788,
+                "type": "word",
+                "start": 303,
+                "end": 305,
+                "value": "We"
+            },
+            {
+                "time": 10202,
+                "type": "word",
+                "start": 306,
+                "end": 327,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10433,
+                "type": "word",
+                "start": 328,
+                "end": 332,
+                "value": "need"
+            },
+            {
+                "time": 11070,
+                "type": "word",
+                "start": 333,
+                "end": 354,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11326,
+                "type": "word",
+                "start": 355,
+                "end": 360,
+                "value": "water"
+            },
+            {
+                "time": 11983,
+                "type": "word",
+                "start": 361,
+                "end": 382,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12258,
+                "type": "word",
+                "start": 383,
+                "end": 386,
+                "value": "for"
+            },
+            {
+                "time": 12770,
+                "type": "word",
+                "start": 387,
+                "end": 408,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13038,
+                "type": "word",
+                "start": 409,
+                "end": 416,
+                "value": "cooking"
+            },
+            {
+                "time": 13736,
+                "type": "word",
+                "start": 418,
+                "end": 439,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14454,
+                "type": "word",
+                "start": 440,
+                "end": 446,
+                "value": "Plants"
+            },
+            {
+                "time": 15113,
+                "type": "word",
+                "start": 447,
+                "end": 468,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15375,
+                "type": "word",
+                "start": 469,
+                "end": 472,
+                "value": "and"
+            },
+            {
+                "time": 15977,
+                "type": "word",
+                "start": 473,
+                "end": 494,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16290,
+                "type": "word",
+                "start": 495,
+                "end": 502,
+                "value": "animals"
+            },
+            {
+                "time": 16982,
+                "type": "word",
+                "start": 503,
+                "end": 524,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17264,
+                "type": "word",
+                "start": 525,
+                "end": 529,
+                "value": "need"
+            },
+            {
+                "time": 17781,
+                "type": "word",
+                "start": 530,
+                "end": 551,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18025,
+                "type": "word",
+                "start": 552,
+                "end": 557,
+                "value": "water"
+            },
+            {
+                "time": 18659,
+                "type": "word",
+                "start": 559,
+                "end": 580,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19439,
+                "type": "word",
+                "start": 581,
+                "end": 585,
+                "value": "Save"
+            },
+            {
+                "time": 20022,
+                "type": "word",
+                "start": 586,
+                "end": 607,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 20284,
+                "type": "word",
+                "start": 608,
+                "end": 613,
+                "value": "water"
+            },
+            {
+                "time": 20886,
+                "type": "word",
+                "start": 614,
+                "end": 635,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21198,
+                "type": "word",
+                "start": 636,
+                "end": 639,
+                "value": "for"
+            },
+            {
+                "time": 21729,
+                "type": "word",
+                "start": 640,
+                "end": 661,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21985,
+                "type": "word",
+                "start": 662,
+                "end": 670,
+                "value": "tomorrow"
+            },
+            {
+                "time": 22815,
+                "type": "word",
+                "start": 672,
+                "end": 693,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "e",
+        "words": [
+            "e"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    350.8960266113281,
+                    282.2850036621094
+                ],
+                [
+                    362.23602294921875,
+                    306.1050109863281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>e <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "e"
+            },
+            {
+                "time": 633,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "f",
+        "words": [
+            "f"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    477.2960205078125,
+                    329.80499267578125
+                ],
+                [
+                    485.156005859375,
+                    353.625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>f <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "f"
+            },
+            {
+                "time": 617,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "d",
+        "words": [
+            "d"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    302.9560241699219,
+                    424.8450012207031
+                ],
+                [
+                    315.11602783203125,
+                    448.6650085449219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>d <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "d"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "a",
+        "words": [
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    516.0759887695312,
+                    434.92498779296875
+                ],
+                [
+                    528.2359619140625,
+                    458.7449951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 710,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "c",
+        "words": [
+            "c"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    324.11602783203125,
+                    473.80499267578125
+                ],
+                [
+                    334.47601318359375,
+                    497.625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>c <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "c"
+            },
+            {
+                "time": 705,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "b",
+        "words": [
+            "b"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    488.71600341796875,
+                    517.0050048828125
+                ],
+                [
+                    500.8760070800781,
+                    540.824951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>b <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "b"
+            },
+            {
+                "time": 658,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "38",
-        "words": [
-            "38"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.930099487304688,
-                    24.34998893737793
-                ],
-                [
-                    61.61009979248047,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">38</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "38"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "library",
         "words": [
             "library"
@@ -112,20 +83,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">library</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>library</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "library"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "read",
         "words": [
             "read"
@@ -142,20 +114,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">read</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>read</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "read"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "music room",
         "words": [
             "music",
@@ -183,27 +156,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">music room</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>music room</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "music"
             },
             {
-                "time": 510,
+                "time": 657,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "room"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "sing",
         "words": [
             "sing"
@@ -220,20 +194,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">sing</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>sing</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 28,
+                "end": 32,
                 "value": "sing"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "classroom",
         "words": [
             "classroom"
@@ -250,16 +225,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">classroom</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>classroom</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "classroom"
+            }
+        ]
+    },
+    "6": {
+        "text": "learn",
+        "words": [
+            "learn"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    119.39299774169922,
+                    534.239990234375
+                ],
+                [
+                    162.32298278808594,
+                    555.677978515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>learn</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "learn"
             }
         ]
     },
@@ -291,22 +298,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dancing room</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>dancing room</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "dancing"
             },
             {
-                "time": 548,
+                "time": 722,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "room"
             }
         ]
@@ -328,50 +336,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dance</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>dance</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "dance"
             }
         ]
     },
     "9": {
-        "text": "learn",
-        "words": [
-            "learn"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    119.39299774169922,
-                    534.239990234375
-                ],
-                [
-                    162.32298278808594,
-                    555.677978515625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">learn</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "learn"
-            }
-        ]
-    },
-    "10": {
         "text": "playground",
         "words": [
             "playground"
@@ -388,20 +367,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">playground</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>playground</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 37,
+                "start": 28,
+                "end": 38,
                 "value": "playground"
             }
         ]
     },
-    "11": {
+    "10": {
         "text": "play",
         "words": [
             "play"
@@ -418,15 +398,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">play</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>play</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "play"
             }
         ]

@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Start here.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Start here.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Start"
             },
             {
                 "time": 421,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "here"
             }
         ]
@@ -75,22 +76,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(1) Name</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(1) Name</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "1"
             },
             {
-                "time": 841,
+                "time": 872,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "Name"
             }
         ]
@@ -167,50 +169,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(2) Name (3) Name (4) Name</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(2) Name (3) Name (4) Name</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "2"
             },
             {
-                "time": 760,
+                "time": 791,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "Name"
             },
             {
-                "time": 1485,
+                "time": 1528,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "3"
             },
             {
-                "time": 2220,
+                "time": 2276,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "Name"
             },
             {
-                "time": 2988,
+                "time": 3063,
                 "type": "word",
-                "start": 46,
-                "end": 47,
+                "start": 47,
+                "end": 48,
                 "value": "4"
             },
             {
-                "time": 3809,
+                "time": 3911,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "Name"
             }
         ]
@@ -331,78 +334,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(5) What&apos;s the shape of (6) What&apos;s the shape of</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(5) What's the shape of (6) What's the shape of</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "5"
             },
             {
-                "time": 882,
+                "time": 894,
                 "type": "word",
-                "start": 31,
-                "end": 42,
-                "value": "What&apos;s"
+                "start": 32,
+                "end": 38,
+                "value": "What's"
             },
             {
-                "time": 1123,
+                "time": 1135,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 39,
+                "end": 42,
                 "value": "the"
             },
             {
-                "time": 1225,
+                "time": 1238,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 43,
+                "end": 48,
                 "value": "shape"
             },
             {
-                "time": 1619,
+                "time": 1638,
                 "type": "word",
-                "start": 53,
-                "end": 55,
+                "start": 49,
+                "end": 51,
                 "value": "of"
             },
             {
-                "time": 2211,
+                "time": 2244,
                 "type": "word",
-                "start": 57,
-                "end": 58,
+                "start": 53,
+                "end": 54,
                 "value": "6"
             },
             {
-                "time": 3013,
+                "time": 3078,
                 "type": "word",
-                "start": 60,
-                "end": 71,
-                "value": "What&apos;s"
+                "start": 56,
+                "end": 62,
+                "value": "What's"
             },
             {
-                "time": 3270,
+                "time": 3334,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 63,
+                "end": 66,
                 "value": "the"
             },
             {
-                "time": 3367,
+                "time": 3431,
                 "type": "word",
-                "start": 76,
-                "end": 81,
+                "start": 67,
+                "end": 72,
                 "value": "shape"
             },
             {
-                "time": 3750,
+                "time": 3820,
                 "type": "word",
-                "start": 82,
-                "end": 84,
+                "start": 73,
+                "end": 75,
                 "value": "of"
             }
         ]
@@ -479,602 +483,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(7) How much is a ?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(7) How much is a ?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "7"
             },
             {
-                "time": 855,
+                "time": 869,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "How"
             },
             {
-                "time": 1017,
+                "time": 1037,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "much"
             },
             {
-                "time": 1312,
+                "time": 1339,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "is"
             },
             {
-                "time": 1532,
+                "time": 1572,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 44,
+                "end": 45,
                 "value": "a"
             }
         ]
     },
     "5": {
-        "text": "(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a",
-        "words": [
-            "(8)",
-            "How",
-            "much",
-            "is",
-            "a",
-            "?",
-            "(9)",
-            "How",
-            "much",
-            "is",
-            "a",
-            "?",
-            "(10)",
-            "How",
-            "much",
-            "is",
-            "a",
-            "?",
-            "(11)",
-            "How",
-            "much",
-            "is",
-            "a",
-            "?",
-            "(12)",
-            "How",
-            "much",
-            "is",
-            "a"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    70.43820190429688,
-                    31.38462257385254
-                ],
-                [
-                    92.02620697021484,
-                    48.058624267578125
-                ]
-            ],
-            [
-                [
-                    95.52620697021484,
-                    31.38462257385254
-                ],
-                [
-                    125.52821350097656,
-                    48.058624267578125
-                ]
-            ],
-            [
-                [
-                    60.30220031738281,
-                    48.184608459472656
-                ],
-                [
-                    99.54419708251953,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    103.04419708251953,
-                    48.184608459472656
-                ],
-                [
-                    112.8302001953125,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    116.3302001953125,
-                    48.184608459472656
-                ],
-                [
-                    124.84220123291016,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    128.34219360351562,
-                    48.184608459472656
-                ],
-                [
-                    135.52420043945312,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    172.07110595703125,
-                    30.99262237548828
-                ],
-                [
-                    191.99310302734375,
-                    49.878623962402344
-                ]
-            ],
-            [
-                [
-                    195.49310302734375,
-                    31.38462257385254
-                ],
-                [
-                    225.49510192871094,
-                    48.058624267578125
-                ]
-            ],
-            [
-                [
-                    161.10910034179688,
-                    48.184608459472656
-                ],
-                [
-                    200.3511199951172,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    203.8511199951172,
-                    48.184608459472656
-                ],
-                [
-                    213.63711547851562,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    217.13711547851562,
-                    48.184608459472656
-                ],
-                [
-                    225.64910888671875,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    229.14910888671875,
-                    48.184608459472656
-                ],
-                [
-                    236.33111572265625,
-                    64.85861206054688
-                ]
-            ],
-            [
-                [
-                    274.1387023925781,
-                    29.92179298400879
-                ],
-                [
-                    301.4527282714844,
-                    46.595794677734375
-                ]
-            ],
-            [
-                [
-                    304.9527282714844,
-                    29.92179298400879
-                ],
-                [
-                    334.9547119140625,
-                    46.595794677734375
-                ]
-            ],
-            [
-                [
-                    266.8727111816406,
-                    46.721778869628906
-                ],
-                [
-                    306.11474609375,
-                    63.395782470703125
-                ]
-            ],
-            [
-                [
-                    309.61474609375,
-                    46.721778869628906
-                ],
-                [
-                    319.4007568359375,
-                    63.395782470703125
-                ]
-            ],
-            [
-                [
-                    322.9007568359375,
-                    46.721778869628906
-                ],
-                [
-                    331.4127502441406,
-                    63.395782470703125
-                ]
-            ],
-            [
-                [
-                    334.9127502441406,
-                    46.721778869628906
-                ],
-                [
-                    342.0947570800781,
-                    63.395782470703125
-                ]
-            ],
-            [
-                [
-                    381.0353088378906,
-                    27.06461524963379
-                ],
-                [
-                    406.38934326171875,
-                    43.738616943359375
-                ]
-            ],
-            [
-                [
-                    409.88934326171875,
-                    27.06461524963379
-                ],
-                [
-                    439.8913269042969,
-                    43.738616943359375
-                ]
-            ],
-            [
-                [
-                    372.789306640625,
-                    43.864601135253906
-                ],
-                [
-                    412.0313415527344,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    415.5313415527344,
-                    43.864601135253906
-                ],
-                [
-                    425.31732177734375,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    428.81732177734375,
-                    43.864601135253906
-                ],
-                [
-                    437.3293151855469,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    440.8293151855469,
-                    43.864601135253906
-                ],
-                [
-                    448.0113220214844,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    468.0816955566406,
-                    27.06461524963379
-                ],
-                [
-                    495.5216979980469,
-                    43.738616943359375
-                ]
-            ],
-            [
-                [
-                    499.0216979980469,
-                    27.06461524963379
-                ],
-                [
-                    529.023681640625,
-                    43.738616943359375
-                ]
-            ],
-            [
-                [
-                    466.2196960449219,
-                    43.864601135253906
-                ],
-                [
-                    505.46173095703125,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    508.96173095703125,
-                    43.864601135253906
-                ],
-                [
-                    518.7477416992188,
-                    60.538604736328125
-                ]
-            ],
-            [
-                [
-                    522.2477416992188,
-                    43.864601135253906
-                ],
-                [
-                    530.759765625,
-                    60.538604736328125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 29,
-                "value": "8"
-            },
-            {
-                "time": 680,
-                "type": "word",
-                "start": 31,
-                "end": 34,
-                "value": "How"
-            },
-            {
-                "time": 842,
-                "type": "word",
-                "start": 35,
-                "end": 39,
-                "value": "much"
-            },
-            {
-                "time": 1097,
-                "type": "word",
-                "start": 40,
-                "end": 42,
-                "value": "is"
-            },
-            {
-                "time": 1331,
-                "type": "word",
-                "start": 43,
-                "end": 44,
-                "value": "a"
-            },
-            {
-                "time": 2201,
-                "type": "word",
-                "start": 48,
-                "end": 49,
-                "value": "9"
-            },
-            {
-                "time": 3031,
-                "type": "word",
-                "start": 51,
-                "end": 54,
-                "value": "How"
-            },
-            {
-                "time": 3201,
-                "type": "word",
-                "start": 55,
-                "end": 59,
-                "value": "much"
-            },
-            {
-                "time": 3518,
-                "type": "word",
-                "start": 60,
-                "end": 62,
-                "value": "is"
-            },
-            {
-                "time": 3755,
-                "type": "word",
-                "start": 63,
-                "end": 64,
-                "value": "a"
-            },
-            {
-                "time": 4626,
-                "type": "word",
-                "start": 68,
-                "end": 70,
-                "value": "10"
-            },
-            {
-                "time": 5313,
-                "type": "word",
-                "start": 72,
-                "end": 75,
-                "value": "How"
-            },
-            {
-                "time": 5475,
-                "type": "word",
-                "start": 76,
-                "end": 80,
-                "value": "much"
-            },
-            {
-                "time": 5730,
-                "type": "word",
-                "start": 81,
-                "end": 83,
-                "value": "is"
-            },
-            {
-                "time": 5963,
-                "type": "word",
-                "start": 84,
-                "end": 85,
-                "value": "a"
-            },
-            {
-                "time": 6834,
-                "type": "word",
-                "start": 89,
-                "end": 91,
-                "value": "11"
-            },
-            {
-                "time": 7669,
-                "type": "word",
-                "start": 93,
-                "end": 96,
-                "value": "How"
-            },
-            {
-                "time": 7831,
-                "type": "word",
-                "start": 97,
-                "end": 101,
-                "value": "much"
-            },
-            {
-                "time": 8126,
-                "type": "word",
-                "start": 102,
-                "end": 104,
-                "value": "is"
-            },
-            {
-                "time": 8346,
-                "type": "word",
-                "start": 105,
-                "end": 106,
-                "value": "a"
-            },
-            {
-                "time": 9217,
-                "type": "word",
-                "start": 110,
-                "end": 112,
-                "value": "12"
-            },
-            {
-                "time": 10047,
-                "type": "word",
-                "start": 114,
-                "end": 117,
-                "value": "How"
-            },
-            {
-                "time": 10209,
-                "type": "word",
-                "start": 118,
-                "end": 122,
-                "value": "much"
-            },
-            {
-                "time": 10464,
-                "type": "word",
-                "start": 123,
-                "end": 125,
-                "value": "is"
-            },
-            {
-                "time": 10698,
-                "type": "word",
-                "start": 126,
-                "end": 127,
-                "value": "a"
-            }
-        ]
-    },
-    "6": {
-        "text": "and a",
-        "words": [
-            "and",
-            "a"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    463.0286865234375,
-                    73.1443862915039
-                ],
-                [
-                    488.8726806640625,
-                    89.81838989257812
-                ]
-            ],
-            [
-                [
-                    492.3726806640625,
-                    73.1443862915039
-                ],
-                [
-                    500.8846740722656,
-                    89.81838989257812
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">and a</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "and"
-            },
-            {
-                "time": 220,
-                "type": "word",
-                "start": 31,
-                "end": 32,
-                "value": "a"
-            }
-        ]
-    },
-    "7": {
         "text": "(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a ?",
         "words": [
             "(8)",
@@ -1410,188 +861,189 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a ?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a ?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "8"
             },
             {
-                "time": 680,
+                "time": 706,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "How"
             },
             {
-                "time": 842,
+                "time": 874,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "much"
             },
             {
-                "time": 1097,
+                "time": 1143,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "is"
             },
             {
-                "time": 1331,
+                "time": 1383,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 44,
+                "end": 45,
                 "value": "a"
             },
             {
-                "time": 2201,
+                "time": 2269,
                 "type": "word",
-                "start": 48,
-                "end": 49,
+                "start": 49,
+                "end": 50,
                 "value": "9"
             },
             {
-                "time": 3031,
+                "time": 3129,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "How"
             },
             {
-                "time": 3201,
+                "time": 3306,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 56,
+                "end": 60,
                 "value": "much"
             },
             {
-                "time": 3518,
+                "time": 3639,
                 "type": "word",
-                "start": 60,
-                "end": 62,
+                "start": 61,
+                "end": 63,
                 "value": "is"
             },
             {
-                "time": 3755,
+                "time": 3883,
                 "type": "word",
-                "start": 63,
-                "end": 64,
+                "start": 64,
+                "end": 65,
                 "value": "a"
             },
             {
-                "time": 4626,
+                "time": 4768,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 69,
+                "end": 71,
                 "value": "10"
             },
             {
-                "time": 5313,
+                "time": 5485,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 73,
+                "end": 76,
                 "value": "How"
             },
             {
-                "time": 5475,
+                "time": 5652,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 77,
+                "end": 81,
                 "value": "much"
             },
             {
-                "time": 5730,
+                "time": 5922,
                 "type": "word",
-                "start": 81,
-                "end": 83,
+                "start": 82,
+                "end": 84,
                 "value": "is"
             },
             {
-                "time": 5963,
+                "time": 6162,
                 "type": "word",
-                "start": 84,
-                "end": 85,
+                "start": 85,
+                "end": 86,
                 "value": "a"
             },
             {
-                "time": 6834,
+                "time": 7048,
                 "type": "word",
-                "start": 89,
-                "end": 91,
+                "start": 90,
+                "end": 92,
                 "value": "11"
             },
             {
-                "time": 7669,
+                "time": 7902,
                 "type": "word",
-                "start": 93,
-                "end": 96,
+                "start": 94,
+                "end": 97,
                 "value": "How"
             },
             {
-                "time": 7831,
+                "time": 8070,
                 "type": "word",
-                "start": 97,
-                "end": 101,
+                "start": 98,
+                "end": 102,
                 "value": "much"
             },
             {
-                "time": 8126,
+                "time": 8372,
                 "type": "word",
-                "start": 102,
-                "end": 104,
+                "start": 103,
+                "end": 105,
                 "value": "is"
             },
             {
-                "time": 8346,
+                "time": 8605,
                 "type": "word",
-                "start": 105,
-                "end": 106,
+                "start": 106,
+                "end": 107,
                 "value": "a"
             },
             {
-                "time": 9217,
+                "time": 9491,
                 "type": "word",
-                "start": 110,
-                "end": 112,
+                "start": 111,
+                "end": 113,
                 "value": "12"
             },
             {
-                "time": 10047,
+                "time": 10333,
                 "type": "word",
-                "start": 114,
-                "end": 117,
+                "start": 115,
+                "end": 118,
                 "value": "How"
             },
             {
-                "time": 10209,
+                "time": 10500,
                 "type": "word",
-                "start": 118,
-                "end": 122,
+                "start": 119,
+                "end": 123,
                 "value": "much"
             },
             {
-                "time": 10464,
+                "time": 10770,
                 "type": "word",
-                "start": 123,
-                "end": 125,
+                "start": 124,
+                "end": 126,
                 "value": "is"
             },
             {
-                "time": 10698,
+                "time": 11010,
                 "type": "word",
-                "start": 126,
-                "end": 127,
+                "start": 127,
+                "end": 128,
                 "value": "a"
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "Start again. Put the dice two times.",
         "words": [
             "Start",
@@ -1674,65 +1126,615 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Start again.<break time=\"500ms\"/> Put the dice two times.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Start again. Put the dice two times.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Start"
             },
             {
-                "time": 398,
+                "time": 404,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "again"
             },
             {
-                "time": 946,
+                "time": 1347,
                 "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1833,
-                "type": "word",
-                "start": 61,
-                "end": 64,
+                "start": 41,
+                "end": 44,
                 "value": "Put"
             },
             {
-                "time": 1985,
+                "time": 1499,
                 "type": "word",
-                "start": 65,
-                "end": 68,
+                "start": 45,
+                "end": 48,
                 "value": "the"
             },
             {
-                "time": 2070,
+                "time": 1584,
                 "type": "word",
-                "start": 69,
-                "end": 73,
+                "start": 49,
+                "end": 53,
                 "value": "dice"
             },
             {
-                "time": 2461,
+                "time": 2002,
                 "type": "word",
-                "start": 74,
-                "end": 77,
+                "start": 54,
+                "end": 57,
                 "value": "two"
             },
             {
-                "time": 2644,
+                "time": 2198,
                 "type": "word",
-                "start": 78,
-                "end": 83,
+                "start": 58,
+                "end": 63,
                 "value": "times"
+            }
+        ]
+    },
+    "7": {
+        "text": "(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a",
+        "words": [
+            "(8)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(9)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(10)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(11)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(12)",
+            "How",
+            "much",
+            "is",
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    70.43820190429688,
+                    31.38462257385254
+                ],
+                [
+                    92.02620697021484,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    95.52620697021484,
+                    31.38462257385254
+                ],
+                [
+                    125.52821350097656,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    60.30220031738281,
+                    48.184608459472656
+                ],
+                [
+                    99.54419708251953,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    103.04419708251953,
+                    48.184608459472656
+                ],
+                [
+                    112.8302001953125,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    116.3302001953125,
+                    48.184608459472656
+                ],
+                [
+                    124.84220123291016,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    128.34219360351562,
+                    48.184608459472656
+                ],
+                [
+                    135.52420043945312,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    172.07110595703125,
+                    30.99262237548828
+                ],
+                [
+                    191.99310302734375,
+                    49.878623962402344
+                ]
+            ],
+            [
+                [
+                    195.49310302734375,
+                    31.38462257385254
+                ],
+                [
+                    225.49510192871094,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    161.10910034179688,
+                    48.184608459472656
+                ],
+                [
+                    200.3511199951172,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    203.8511199951172,
+                    48.184608459472656
+                ],
+                [
+                    213.63711547851562,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    217.13711547851562,
+                    48.184608459472656
+                ],
+                [
+                    225.64910888671875,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    229.14910888671875,
+                    48.184608459472656
+                ],
+                [
+                    236.33111572265625,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    274.1387023925781,
+                    29.92179298400879
+                ],
+                [
+                    301.4527282714844,
+                    46.595794677734375
+                ]
+            ],
+            [
+                [
+                    304.9527282714844,
+                    29.92179298400879
+                ],
+                [
+                    334.9547119140625,
+                    46.595794677734375
+                ]
+            ],
+            [
+                [
+                    266.8727111816406,
+                    46.721778869628906
+                ],
+                [
+                    306.11474609375,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    309.61474609375,
+                    46.721778869628906
+                ],
+                [
+                    319.4007568359375,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    322.9007568359375,
+                    46.721778869628906
+                ],
+                [
+                    331.4127502441406,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    334.9127502441406,
+                    46.721778869628906
+                ],
+                [
+                    342.0947570800781,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    381.0353088378906,
+                    27.06461524963379
+                ],
+                [
+                    406.38934326171875,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    409.88934326171875,
+                    27.06461524963379
+                ],
+                [
+                    439.8913269042969,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    372.789306640625,
+                    43.864601135253906
+                ],
+                [
+                    412.0313415527344,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    415.5313415527344,
+                    43.864601135253906
+                ],
+                [
+                    425.31732177734375,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    428.81732177734375,
+                    43.864601135253906
+                ],
+                [
+                    437.3293151855469,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    440.8293151855469,
+                    43.864601135253906
+                ],
+                [
+                    448.0113220214844,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    468.0816955566406,
+                    27.06461524963379
+                ],
+                [
+                    495.5216979980469,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    499.0216979980469,
+                    27.06461524963379
+                ],
+                [
+                    529.023681640625,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    466.2196960449219,
+                    43.864601135253906
+                ],
+                [
+                    505.46173095703125,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    508.96173095703125,
+                    43.864601135253906
+                ],
+                [
+                    518.7477416992188,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    522.2477416992188,
+                    43.864601135253906
+                ],
+                [
+                    530.759765625,
+                    60.538604736328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "8"
+            },
+            {
+                "time": 706,
+                "type": "word",
+                "start": 32,
+                "end": 35,
+                "value": "How"
+            },
+            {
+                "time": 874,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "much"
+            },
+            {
+                "time": 1143,
+                "type": "word",
+                "start": 41,
+                "end": 43,
+                "value": "is"
+            },
+            {
+                "time": 1383,
+                "type": "word",
+                "start": 44,
+                "end": 45,
+                "value": "a"
+            },
+            {
+                "time": 2269,
+                "type": "word",
+                "start": 49,
+                "end": 50,
+                "value": "9"
+            },
+            {
+                "time": 3129,
+                "type": "word",
+                "start": 52,
+                "end": 55,
+                "value": "How"
+            },
+            {
+                "time": 3306,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "much"
+            },
+            {
+                "time": 3639,
+                "type": "word",
+                "start": 61,
+                "end": 63,
+                "value": "is"
+            },
+            {
+                "time": 3883,
+                "type": "word",
+                "start": 64,
+                "end": 65,
+                "value": "a"
+            },
+            {
+                "time": 4768,
+                "type": "word",
+                "start": 69,
+                "end": 71,
+                "value": "10"
+            },
+            {
+                "time": 5485,
+                "type": "word",
+                "start": 73,
+                "end": 76,
+                "value": "How"
+            },
+            {
+                "time": 5652,
+                "type": "word",
+                "start": 77,
+                "end": 81,
+                "value": "much"
+            },
+            {
+                "time": 5922,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "is"
+            },
+            {
+                "time": 6162,
+                "type": "word",
+                "start": 85,
+                "end": 86,
+                "value": "a"
+            },
+            {
+                "time": 7048,
+                "type": "word",
+                "start": 90,
+                "end": 92,
+                "value": "11"
+            },
+            {
+                "time": 7902,
+                "type": "word",
+                "start": 94,
+                "end": 97,
+                "value": "How"
+            },
+            {
+                "time": 8070,
+                "type": "word",
+                "start": 98,
+                "end": 102,
+                "value": "much"
+            },
+            {
+                "time": 8372,
+                "type": "word",
+                "start": 103,
+                "end": 105,
+                "value": "is"
+            },
+            {
+                "time": 8605,
+                "type": "word",
+                "start": 106,
+                "end": 107,
+                "value": "a"
+            },
+            {
+                "time": 9491,
+                "type": "word",
+                "start": 111,
+                "end": 113,
+                "value": "12"
+            },
+            {
+                "time": 10333,
+                "type": "word",
+                "start": 115,
+                "end": 118,
+                "value": "How"
+            },
+            {
+                "time": 10500,
+                "type": "word",
+                "start": 119,
+                "end": 123,
+                "value": "much"
+            },
+            {
+                "time": 10770,
+                "type": "word",
+                "start": 124,
+                "end": 126,
+                "value": "is"
+            },
+            {
+                "time": 11010,
+                "type": "word",
+                "start": 127,
+                "end": 128,
+                "value": "a"
+            }
+        ]
+    },
+    "8": {
+        "text": "and a",
+        "words": [
+            "and",
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    463.0286865234375,
+                    73.1443862915039
+                ],
+                [
+                    488.8726806640625,
+                    89.81838989257812
+                ]
+            ],
+            [
+                [
+                    492.3726806640625,
+                    73.1443862915039
+                ],
+                [
+                    500.8846740722656,
+                    89.81838989257812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>and a</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "and"
+            },
+            {
+                "time": 220,
+                "type": "word",
+                "start": 32,
+                "end": 33,
+                "value": "a"
             }
         ]
     },
@@ -1819,57 +1821,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Write the answers in your exercise book.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Write the answers in your exercise book.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Write"
             },
             {
-                "time": 317,
+                "time": 326,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "the"
             },
             {
-                "time": 505,
+                "time": 519,
                 "type": "word",
-                "start": 37,
-                "end": 44,
+                "start": 38,
+                "end": 45,
                 "value": "answers"
             },
             {
-                "time": 1015,
+                "time": 1036,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "in"
             },
             {
-                "time": 1137,
+                "time": 1158,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 49,
+                "end": 53,
                 "value": "your"
             },
             {
-                "time": 1336,
+                "time": 1357,
                 "type": "word",
-                "start": 53,
-                "end": 61,
+                "start": 54,
+                "end": 62,
                 "value": "exercise"
             },
             {
-                "time": 2134,
+                "time": 2189,
                 "type": "word",
-                "start": 62,
-                "end": 66,
+                "start": 63,
+                "end": 67,
                 "value": "book"
             }
         ]

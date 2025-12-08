@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 397,
+                "time": 410,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "2"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -229,7 +231,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m Sandani.<break time=\"500ms\"/> I&apos;m your English teacher.<break time=\"500ms\"/> I live in Matara.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm <phoneme alphabet='ipa' ph='sand\u032a\u0259ni'>Sandani</phoneme>. I'm your English teacher. I live in <phoneme alphabet='ipa' ph='mat\u032aara'>Matara</phoneme>.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -237,85 +239,71 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 155,
+                "time": 184,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 72,
+                "end": 79,
                 "value": "Sandani"
             },
             {
-                "time": 1013,
+                "time": 1342,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
+                "start": 91,
+                "end": 94,
+                "value": "I'm"
             },
             {
-                "time": 1900,
+                "time": 1509,
                 "type": "word",
-                "start": 66,
-                "end": 74,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2061,
-                "type": "word",
-                "start": 75,
-                "end": 79,
+                "start": 95,
+                "end": 99,
                 "value": "your"
             },
             {
-                "time": 2265,
+                "time": 1720,
                 "type": "word",
-                "start": 80,
-                "end": 87,
+                "start": 100,
+                "end": 107,
                 "value": "English"
             },
             {
-                "time": 2731,
+                "time": 2217,
                 "type": "word",
-                "start": 88,
-                "end": 95,
+                "start": 108,
+                "end": 115,
                 "value": "teacher"
             },
             {
-                "time": 3320,
+                "time": 3206,
                 "type": "word",
-                "start": 96,
-                "end": 117,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4207,
-                "type": "word",
-                "start": 118,
-                "end": 119,
+                "start": 117,
+                "end": 118,
                 "value": "I"
             },
             {
-                "time": 4332,
+                "time": 3332,
                 "type": "word",
-                "start": 120,
-                "end": 124,
+                "start": 119,
+                "end": 123,
                 "value": "live"
             },
             {
-                "time": 4572,
+                "time": 3562,
                 "type": "word",
-                "start": 125,
-                "end": 127,
+                "start": 124,
+                "end": 126,
                 "value": "in"
             },
             {
-                "time": 4688,
+                "time": 3720,
                 "type": "word",
-                "start": 128,
-                "end": 134,
+                "start": 165,
+                "end": 171,
                 "value": "Matara"
             }
         ]
@@ -392,7 +380,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m Nisal.<break time=\"500ms\"/> I live in Galle.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm <phoneme alphabet='ipa' ph='nisal'>Nisal</phoneme>. I live in Galle.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -400,50 +388,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 161,
+                "time": 99,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 67,
+                "end": 72,
                 "value": "Nisal"
             },
             {
-                "time": 894,
+                "time": 1208,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1781,
-                "type": "word",
-                "start": 64,
-                "end": 65,
+                "start": 84,
+                "end": 85,
                 "value": "I"
             },
             {
-                "time": 1875,
+                "time": 1302,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 86,
+                "end": 90,
                 "value": "live"
             },
             {
-                "time": 2154,
+                "time": 1590,
                 "type": "word",
-                "start": 71,
-                "end": 73,
+                "start": 91,
+                "end": 93,
                 "value": "in"
             },
             {
-                "time": 2266,
+                "time": 1707,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 94,
+                "end": 99,
                 "value": "Galle"
             }
         ]
@@ -476,22 +457,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Introduce yourself.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Introduce yourself.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Introduce"
             },
             {
-                "time": 658,
+                "time": 679,
                 "type": "word",
-                "start": 37,
-                "end": 45,
+                "start": 38,
+                "end": 46,
                 "value": "yourself"
             }
         ]
@@ -612,99 +594,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">First,<break time=\"300ms\"/> introduce yourself.<break time=\"500ms\"/> Then,<break time=\"300ms\"/> ask the students to introduce themselves.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>First, introduce yourself. Then, ask the students to introduce themselves.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "First"
             },
             {
-                "time": 788,
+                "time": 887,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1181,
-                "type": "word",
-                "start": 55,
-                "end": 64,
+                "start": 35,
+                "end": 44,
                 "value": "introduce"
             },
             {
-                "time": 1851,
+                "time": 1589,
                 "type": "word",
-                "start": 65,
-                "end": 73,
+                "start": 45,
+                "end": 53,
                 "value": "yourself"
             },
             {
-                "time": 2530,
+                "time": 2676,
                 "type": "word",
-                "start": 74,
-                "end": 95,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3417,
-                "type": "word",
-                "start": 96,
-                "end": 100,
+                "start": 55,
+                "end": 59,
                 "value": "Then"
             },
             {
-                "time": 4065,
+                "time": 3441,
                 "type": "word",
-                "start": 101,
-                "end": 122,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4466,
-                "type": "word",
-                "start": 123,
-                "end": 126,
+                "start": 61,
+                "end": 64,
                 "value": "ask"
             },
             {
-                "time": 4807,
+                "time": 3795,
                 "type": "word",
-                "start": 127,
-                "end": 130,
+                "start": 65,
+                "end": 68,
                 "value": "the"
             },
             {
-                "time": 4900,
+                "time": 3887,
                 "type": "word",
-                "start": 131,
-                "end": 139,
+                "start": 69,
+                "end": 77,
                 "value": "students"
             },
             {
-                "time": 5475,
+                "time": 4482,
                 "type": "word",
-                "start": 140,
-                "end": 142,
+                "start": 78,
+                "end": 80,
                 "value": "to"
             },
             {
-                "time": 5644,
+                "time": 4651,
                 "type": "word",
-                "start": 143,
-                "end": 152,
+                "start": 81,
+                "end": 90,
                 "value": "introduce"
             },
             {
-                "time": 6309,
+                "time": 5331,
                 "type": "word",
-                "start": 153,
-                "end": 163,
+                "start": 91,
+                "end": 101,
                 "value": "themselves"
             }
         ]

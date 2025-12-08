@@ -456,365 +456,296 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Brush your teeth just open and wide.<break time=\"500ms\"/> Brush your teeth from side to side.<break time=\"500ms\"/> Brush your teeth you sleepyhead.<break time=\"500ms\"/> Brush your teeth before you go to bed.<break time=\"500ms\"/> Brush,<break time=\"300ms\"/> brush,<break time=\"300ms\"/> brush,<break time=\"300ms\"/> brush,<break time=\"300ms\"/> brush,<break time=\"300ms\"/> brush,<break time=\"300ms\"/> Brush your teeth before you go to bed.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Brush your teeth just open and wide. Brush your teeth from side to side. Brush your teeth you sleepyhead. Brush your teeth before you go to bed. Brush, brush, brush, brush, brush, brush, Brush your teeth before you go to bed.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Brush"
             },
             {
-                "time": 375,
+                "time": 387,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "your"
             },
             {
-                "time": 472,
+                "time": 485,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 39,
+                "end": 44,
                 "value": "teeth"
             },
             {
-                "time": 870,
+                "time": 887,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 45,
+                "end": 49,
                 "value": "just"
             },
             {
-                "time": 1216,
+                "time": 1240,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "open"
             },
             {
-                "time": 1591,
+                "time": 1615,
                 "type": "word",
-                "start": 54,
-                "end": 57,
+                "start": 55,
+                "end": 58,
                 "value": "and"
             },
             {
-                "time": 1776,
+                "time": 1800,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 59,
+                "end": 63,
                 "value": "wide"
             },
             {
-                "time": 2288,
+                "time": 2734,
                 "type": "word",
-                "start": 63,
-                "end": 84,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3175,
-                "type": "word",
-                "start": 85,
-                "end": 90,
+                "start": 65,
+                "end": 70,
                 "value": "Brush"
             },
             {
-                "time": 3537,
+                "time": 3109,
                 "type": "word",
-                "start": 91,
-                "end": 95,
+                "start": 71,
+                "end": 75,
                 "value": "your"
             },
             {
-                "time": 3657,
+                "time": 3228,
                 "type": "word",
-                "start": 96,
-                "end": 101,
+                "start": 76,
+                "end": 81,
                 "value": "teeth"
             },
             {
-                "time": 4069,
+                "time": 3647,
                 "type": "word",
-                "start": 102,
-                "end": 106,
+                "start": 82,
+                "end": 86,
                 "value": "from"
             },
             {
-                "time": 4303,
+                "time": 3882,
                 "type": "word",
-                "start": 107,
-                "end": 111,
+                "start": 87,
+                "end": 91,
                 "value": "side"
             },
             {
-                "time": 4713,
+                "time": 4312,
                 "type": "word",
-                "start": 112,
-                "end": 114,
+                "start": 92,
+                "end": 94,
                 "value": "to"
             },
             {
-                "time": 4823,
+                "time": 4422,
                 "type": "word",
-                "start": 115,
-                "end": 119,
+                "start": 95,
+                "end": 99,
                 "value": "side"
             },
             {
-                "time": 5391,
+                "time": 5400,
                 "type": "word",
-                "start": 120,
-                "end": 141,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6278,
-                "type": "word",
-                "start": 142,
-                "end": 147,
+                "start": 101,
+                "end": 106,
                 "value": "Brush"
             },
             {
-                "time": 6640,
+                "time": 5775,
                 "type": "word",
-                "start": 148,
-                "end": 152,
+                "start": 107,
+                "end": 111,
                 "value": "your"
             },
             {
-                "time": 6760,
+                "time": 5894,
                 "type": "word",
-                "start": 153,
-                "end": 158,
+                "start": 112,
+                "end": 117,
                 "value": "teeth"
             },
             {
-                "time": 7092,
+                "time": 6238,
                 "type": "word",
-                "start": 159,
-                "end": 162,
+                "start": 118,
+                "end": 121,
                 "value": "you"
             },
             {
-                "time": 7248,
+                "time": 6401,
                 "type": "word",
-                "start": 163,
-                "end": 173,
+                "start": 122,
+                "end": 132,
                 "value": "sleepyhead"
             },
             {
-                "time": 8199,
+                "time": 7759,
                 "type": "word",
-                "start": 174,
-                "end": 195,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9085,
-                "type": "word",
-                "start": 196,
-                "end": 201,
+                "start": 134,
+                "end": 139,
                 "value": "Brush"
             },
             {
-                "time": 9440,
+                "time": 8119,
                 "type": "word",
-                "start": 202,
-                "end": 206,
+                "start": 140,
+                "end": 144,
                 "value": "your"
+            },
+            {
+                "time": 8231,
+                "type": "word",
+                "start": 145,
+                "end": 150,
+                "value": "teeth"
+            },
+            {
+                "time": 8669,
+                "type": "word",
+                "start": 151,
+                "end": 157,
+                "value": "before"
+            },
+            {
+                "time": 9044,
+                "type": "word",
+                "start": 158,
+                "end": 161,
+                "value": "you"
+            },
+            {
+                "time": 9198,
+                "type": "word",
+                "start": 162,
+                "end": 164,
+                "value": "go"
+            },
+            {
+                "time": 9419,
+                "type": "word",
+                "start": 165,
+                "end": 167,
+                "value": "to"
             },
             {
                 "time": 9542,
                 "type": "word",
-                "start": 207,
-                "end": 212,
-                "value": "teeth"
-            },
-            {
-                "time": 9962,
-                "type": "word",
-                "start": 213,
-                "end": 219,
-                "value": "before"
-            },
-            {
-                "time": 10323,
-                "type": "word",
-                "start": 220,
-                "end": 223,
-                "value": "you"
-            },
-            {
-                "time": 10477,
-                "type": "word",
-                "start": 224,
-                "end": 226,
-                "value": "go"
-            },
-            {
-                "time": 10691,
-                "type": "word",
-                "start": 227,
-                "end": 229,
-                "value": "to"
-            },
-            {
-                "time": 10814,
-                "type": "word",
-                "start": 230,
-                "end": 233,
+                "start": 168,
+                "end": 171,
                 "value": "bed"
             },
             {
-                "time": 11313,
+                "time": 10435,
                 "type": "word",
-                "start": 234,
-                "end": 255,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12200,
-                "type": "word",
-                "start": 256,
-                "end": 261,
+                "start": 173,
+                "end": 178,
                 "value": "Brush"
             },
             {
-                "time": 12868,
+                "time": 11228,
                 "type": "word",
-                "start": 262,
-                "end": 283,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 13268,
-                "type": "word",
-                "start": 284,
-                "end": 289,
+                "start": 180,
+                "end": 185,
                 "value": "brush"
             },
             {
-                "time": 13936,
+                "time": 12019,
                 "type": "word",
-                "start": 290,
-                "end": 311,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 14338,
-                "type": "word",
-                "start": 312,
-                "end": 317,
+                "start": 187,
+                "end": 192,
                 "value": "brush"
             },
             {
-                "time": 14992,
+                "time": 12786,
                 "type": "word",
-                "start": 318,
-                "end": 339,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 15392,
-                "type": "word",
-                "start": 340,
-                "end": 345,
+                "start": 194,
+                "end": 199,
                 "value": "brush"
             },
             {
-                "time": 16060,
+                "time": 13574,
                 "type": "word",
-                "start": 346,
-                "end": 367,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 16460,
-                "type": "word",
-                "start": 368,
-                "end": 373,
+                "start": 201,
+                "end": 206,
                 "value": "brush"
             },
             {
-                "time": 17129,
+                "time": 14363,
                 "type": "word",
-                "start": 374,
-                "end": 395,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 17529,
-                "type": "word",
-                "start": 396,
-                "end": 401,
+                "start": 208,
+                "end": 213,
                 "value": "brush"
             },
             {
-                "time": 18197,
+                "time": 15152,
                 "type": "word",
-                "start": 402,
-                "end": 423,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 18597,
-                "type": "word",
-                "start": 424,
-                "end": 429,
+                "start": 215,
+                "end": 220,
                 "value": "Brush"
             },
             {
-                "time": 18877,
+                "time": 15445,
                 "type": "word",
-                "start": 430,
-                "end": 434,
+                "start": 221,
+                "end": 225,
                 "value": "your"
             },
             {
-                "time": 18979,
+                "time": 15558,
                 "type": "word",
-                "start": 435,
-                "end": 440,
+                "start": 226,
+                "end": 231,
                 "value": "teeth"
             },
             {
-                "time": 19393,
+                "time": 15999,
                 "type": "word",
-                "start": 441,
-                "end": 447,
+                "start": 232,
+                "end": 238,
                 "value": "before"
             },
             {
-                "time": 19758,
+                "time": 16377,
                 "type": "word",
-                "start": 448,
-                "end": 451,
+                "start": 239,
+                "end": 242,
                 "value": "you"
             },
             {
-                "time": 19923,
+                "time": 16555,
                 "type": "word",
-                "start": 452,
-                "end": 454,
+                "start": 243,
+                "end": 245,
                 "value": "go"
             },
             {
-                "time": 20127,
+                "time": 16774,
                 "type": "word",
-                "start": 455,
-                "end": 457,
+                "start": 246,
+                "end": 248,
                 "value": "to"
             },
             {
-                "time": 20216,
+                "time": 16862,
                 "type": "word",
-                "start": 458,
-                "end": 461,
+                "start": 249,
+                "end": 252,
                 "value": "bed"
             }
         ]

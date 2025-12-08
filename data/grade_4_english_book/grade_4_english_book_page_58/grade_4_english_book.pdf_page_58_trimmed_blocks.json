@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and find.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and find.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 227,
+                "time": 243,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 362,
+                "time": 378,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "find"
             }
         ]
@@ -251,106 +253,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sonia,<break time=\"300ms\"/> Rasini,<break time=\"300ms\"/> Kumar and Navaz visit each other for the new year.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sonia, <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>, Kumar and <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme> visit each other for the new year.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Sonia"
             },
             {
-                "time": 691,
+                "time": 796,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1085,
-                "type": "word",
-                "start": 55,
-                "end": 61,
+                "start": 74,
+                "end": 80,
                 "value": "Rasini"
             },
             {
-                "time": 2039,
+                "time": 1864,
                 "type": "word",
-                "start": 62,
-                "end": 83,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2439,
-                "type": "word",
-                "start": 84,
-                "end": 89,
+                "start": 92,
+                "end": 97,
                 "value": "Kumar"
             },
             {
-                "time": 2867,
+                "time": 2309,
                 "type": "word",
-                "start": 90,
-                "end": 93,
+                "start": 98,
+                "end": 101,
                 "value": "and"
             },
             {
-                "time": 2989,
+                "time": 2457,
                 "type": "word",
-                "start": 94,
-                "end": 99,
+                "start": 139,
+                "end": 144,
                 "value": "Navaz"
             },
             {
-                "time": 3528,
+                "time": 2952,
                 "type": "word",
-                "start": 100,
-                "end": 105,
+                "start": 155,
+                "end": 160,
                 "value": "visit"
             },
             {
-                "time": 3902,
+                "time": 3352,
                 "type": "word",
-                "start": 106,
-                "end": 110,
+                "start": 161,
+                "end": 165,
                 "value": "each"
             },
             {
-                "time": 4211,
+                "time": 3663,
                 "type": "word",
-                "start": 111,
-                "end": 116,
+                "start": 166,
+                "end": 171,
                 "value": "other"
             },
             {
-                "time": 4434,
+                "time": 3915,
                 "type": "word",
-                "start": 117,
-                "end": 120,
+                "start": 172,
+                "end": 175,
                 "value": "for"
             },
             {
-                "time": 4603,
+                "time": 4069,
                 "type": "word",
-                "start": 121,
-                "end": 124,
+                "start": 176,
+                "end": 179,
                 "value": "the"
             },
             {
-                "time": 4705,
+                "time": 4187,
                 "type": "word",
-                "start": 125,
-                "end": 128,
+                "start": 180,
+                "end": 183,
                 "value": "new"
             },
             {
-                "time": 4924,
+                "time": 4419,
                 "type": "word",
-                "start": 129,
-                "end": 133,
+                "start": 184,
+                "end": 188,
                 "value": "year"
             }
         ]
@@ -526,120 +515,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1) Sonia and her family visit Rasini for the new year.<break time=\"500ms\"/> She takes for them.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1) Sonia and her family visit <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> for the new year. She takes for them.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 726,
+                "time": 751,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 31,
+                "end": 36,
                 "value": "Sonia"
             },
             {
-                "time": 1189,
+                "time": 1213,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "and"
             },
             {
-                "time": 1327,
+                "time": 1351,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "her"
             },
             {
-                "time": 1461,
+                "time": 1486,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 45,
+                "end": 51,
                 "value": "family"
             },
             {
-                "time": 1966,
+                "time": 2017,
                 "type": "word",
-                "start": 51,
-                "end": 56,
+                "start": 52,
+                "end": 57,
                 "value": "visit"
             },
             {
-                "time": 2365,
+                "time": 2443,
                 "type": "word",
-                "start": 57,
-                "end": 63,
+                "start": 97,
+                "end": 103,
                 "value": "Rasini"
             },
             {
-                "time": 2989,
+                "time": 2966,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 114,
+                "end": 117,
                 "value": "for"
             },
             {
-                "time": 3155,
+                "time": 3116,
                 "type": "word",
-                "start": 68,
-                "end": 71,
+                "start": 118,
+                "end": 121,
                 "value": "the"
             },
             {
-                "time": 3273,
+                "time": 3234,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 122,
+                "end": 125,
                 "value": "new"
             },
             {
-                "time": 3499,
+                "time": 3466,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 126,
+                "end": 130,
                 "value": "year"
             },
             {
-                "time": 4003,
+                "time": 4372,
                 "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4890,
-                "type": "word",
-                "start": 103,
-                "end": 106,
+                "start": 132,
+                "end": 135,
                 "value": "She"
             },
             {
-                "time": 5097,
+                "time": 4593,
                 "type": "word",
-                "start": 107,
-                "end": 112,
+                "start": 136,
+                "end": 141,
                 "value": "takes"
             },
             {
-                "time": 5502,
+                "time": 5015,
                 "type": "word",
-                "start": 113,
-                "end": 116,
+                "start": 142,
+                "end": 145,
                 "value": "for"
             },
             {
-                "time": 5663,
+                "time": 5190,
                 "type": "word",
-                "start": 117,
-                "end": 121,
+                "start": 146,
+                "end": 150,
                 "value": "them"
             }
         ]
@@ -815,120 +798,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2) Rasini and her family visit Meena for the new year.<break time=\"500ms\"/> She takes for them.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2) <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> and her family visit Meena for the new year. She takes for them.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 668,
+                "time": 259,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 70,
+                "end": 76,
                 "value": "Rasini"
             },
             {
-                "time": 1314,
+                "time": 910,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 87,
+                "end": 90,
                 "value": "and"
             },
             {
-                "time": 1418,
+                "time": 1013,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 91,
+                "end": 94,
                 "value": "her"
             },
             {
-                "time": 1559,
+                "time": 1153,
                 "type": "word",
-                "start": 45,
-                "end": 51,
+                "start": 95,
+                "end": 101,
                 "value": "family"
             },
             {
-                "time": 2071,
+                "time": 1672,
                 "type": "word",
-                "start": 52,
-                "end": 57,
+                "start": 102,
+                "end": 107,
                 "value": "visit"
             },
             {
-                "time": 2465,
+                "time": 2072,
                 "type": "word",
-                "start": 58,
-                "end": 63,
+                "start": 108,
+                "end": 113,
                 "value": "Meena"
             },
             {
-                "time": 2778,
+                "time": 2398,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 114,
+                "end": 117,
                 "value": "for"
             },
             {
-                "time": 2945,
+                "time": 2572,
                 "type": "word",
-                "start": 68,
-                "end": 71,
+                "start": 118,
+                "end": 121,
                 "value": "the"
             },
             {
-                "time": 3063,
+                "time": 2690,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 122,
+                "end": 125,
                 "value": "new"
             },
             {
-                "time": 3288,
+                "time": 2922,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 126,
+                "end": 130,
                 "value": "year"
             },
             {
-                "time": 3793,
+                "time": 3828,
                 "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4680,
-                "type": "word",
-                "start": 103,
-                "end": 106,
+                "start": 132,
+                "end": 135,
                 "value": "She"
             },
             {
-                "time": 4887,
+                "time": 4049,
                 "type": "word",
-                "start": 107,
-                "end": 112,
+                "start": 136,
+                "end": 141,
                 "value": "takes"
             },
             {
-                "time": 5292,
+                "time": 4471,
                 "type": "word",
-                "start": 113,
-                "end": 116,
+                "start": 142,
+                "end": 145,
                 "value": "for"
             },
             {
-                "time": 5452,
+                "time": 4646,
                 "type": "word",
-                "start": 117,
-                "end": 121,
+                "start": 146,
+                "end": 150,
                 "value": "them"
             }
         ]
@@ -1104,120 +1081,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3) Kumar and his family visit Navaz for the new year.<break time=\"500ms\"/> He takes for them.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3) Kumar and his family visit <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme> for the new year. He takes for them.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             },
             {
-                "time": 739,
+                "time": 752,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 31,
+                "end": 36,
                 "value": "Kumar"
             },
             {
-                "time": 1185,
+                "time": 1211,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "and"
             },
             {
-                "time": 1300,
+                "time": 1325,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "his"
             },
             {
-                "time": 1500,
+                "time": 1539,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 45,
+                "end": 51,
                 "value": "family"
             },
             {
-                "time": 1949,
+                "time": 1988,
                 "type": "word",
-                "start": 51,
-                "end": 56,
+                "start": 52,
+                "end": 57,
                 "value": "visit"
             },
             {
-                "time": 2346,
+                "time": 2403,
                 "type": "word",
-                "start": 57,
-                "end": 62,
+                "start": 95,
+                "end": 100,
                 "value": "Navaz"
             },
             {
-                "time": 2889,
-                "type": "word",
-                "start": 63,
-                "end": 66,
-                "value": "for"
-            },
-            {
-                "time": 3030,
-                "type": "word",
-                "start": 67,
-                "end": 70,
-                "value": "the"
-            },
-            {
-                "time": 3154,
-                "type": "word",
-                "start": 71,
-                "end": 74,
-                "value": "new"
-            },
-            {
-                "time": 3372,
-                "type": "word",
-                "start": 75,
-                "end": 79,
-                "value": "year"
-            },
-            {
-                "time": 3876,
-                "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4763,
-                "type": "word",
-                "start": 102,
-                "end": 104,
-                "value": "He"
-            },
-            {
-                "time": 4914,
-                "type": "word",
-                "start": 105,
-                "end": 110,
-                "value": "takes"
-            },
-            {
-                "time": 5289,
+                "time": 2960,
                 "type": "word",
                 "start": 111,
                 "end": 114,
                 "value": "for"
             },
             {
-                "time": 5450,
+                "time": 3098,
                 "type": "word",
                 "start": 115,
-                "end": 119,
+                "end": 118,
+                "value": "the"
+            },
+            {
+                "time": 3216,
+                "type": "word",
+                "start": 119,
+                "end": 122,
+                "value": "new"
+            },
+            {
+                "time": 3448,
+                "type": "word",
+                "start": 123,
+                "end": 127,
+                "value": "year"
+            },
+            {
+                "time": 4354,
+                "type": "word",
+                "start": 129,
+                "end": 131,
+                "value": "He"
+            },
+            {
+                "time": 4515,
+                "type": "word",
+                "start": 132,
+                "end": 137,
+                "value": "takes"
+            },
+            {
+                "time": 4908,
+                "type": "word",
+                "start": 138,
+                "end": 141,
+                "value": "for"
+            },
+            {
+                "time": 5083,
+                "type": "word",
+                "start": 142,
+                "end": 146,
                 "value": "them"
             }
         ]
@@ -1393,120 +1364,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4) Navaz and his family visit Sonia for the new year.<break time=\"500ms\"/> He takes for them.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>4) <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme> and his family visit Sonia for the new year. He takes for them.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "4"
             },
             {
-                "time": 828,
+                "time": 284,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 68,
+                "end": 73,
                 "value": "Navaz"
             },
             {
-                "time": 1321,
+                "time": 792,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 84,
+                "end": 87,
                 "value": "and"
             },
             {
-                "time": 1446,
+                "time": 910,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 88,
+                "end": 91,
                 "value": "his"
             },
             {
-                "time": 1645,
+                "time": 1145,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 92,
+                "end": 98,
                 "value": "family"
             },
             {
-                "time": 2087,
+                "time": 1579,
                 "type": "word",
-                "start": 51,
-                "end": 56,
+                "start": 99,
+                "end": 104,
                 "value": "visit"
             },
             {
-                "time": 2516,
-                "type": "word",
-                "start": 57,
-                "end": 62,
-                "value": "Sonia"
-            },
-            {
-                "time": 2954,
-                "type": "word",
-                "start": 63,
-                "end": 66,
-                "value": "for"
-            },
-            {
-                "time": 3096,
-                "type": "word",
-                "start": 67,
-                "end": 70,
-                "value": "the"
-            },
-            {
-                "time": 3214,
-                "type": "word",
-                "start": 71,
-                "end": 74,
-                "value": "new"
-            },
-            {
-                "time": 3439,
-                "type": "word",
-                "start": 75,
-                "end": 79,
-                "value": "year"
-            },
-            {
-                "time": 3944,
-                "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4831,
-                "type": "word",
-                "start": 102,
-                "end": 104,
-                "value": "He"
-            },
-            {
-                "time": 4982,
+                "time": 2028,
                 "type": "word",
                 "start": 105,
                 "end": 110,
-                "value": "takes"
+                "value": "Sonia"
             },
             {
-                "time": 5357,
+                "time": 2479,
                 "type": "word",
                 "start": 111,
                 "end": 114,
                 "value": "for"
             },
             {
-                "time": 5518,
+                "time": 2621,
                 "type": "word",
                 "start": 115,
-                "end": 119,
+                "end": 118,
+                "value": "the"
+            },
+            {
+                "time": 2739,
+                "type": "word",
+                "start": 119,
+                "end": 122,
+                "value": "new"
+            },
+            {
+                "time": 2971,
+                "type": "word",
+                "start": 123,
+                "end": 127,
+                "value": "year"
+            },
+            {
+                "time": 3877,
+                "type": "word",
+                "start": 129,
+                "end": 131,
+                "value": "He"
+            },
+            {
+                "time": 4038,
+                "type": "word",
+                "start": 132,
+                "end": 137,
+                "value": "takes"
+            },
+            {
+                "time": 4430,
+                "type": "word",
+                "start": 138,
+                "end": 141,
+                "value": "for"
+            },
+            {
+                "time": 4605,
+                "type": "word",
+                "start": 142,
+                "end": 146,
                 "value": "them"
             }
         ]
@@ -1528,15 +1493,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Answer.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Answer.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Answer"
             }
         ]
@@ -1668,85 +1634,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What would you take to visit friends for the new year?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What would you take to visit friends for the new year?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "What"
             },
             {
                 "time": 189,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "would"
             },
             {
-                "time": 392,
+                "time": 411,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "you"
             },
             {
-                "time": 511,
+                "time": 530,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "take"
             },
             {
-                "time": 783,
+                "time": 812,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "to"
             },
             {
-                "time": 909,
+                "time": 939,
                 "type": "word",
-                "start": 50,
-                "end": 55,
+                "start": 51,
+                "end": 56,
                 "value": "visit"
             },
             {
-                "time": 1285,
+                "time": 1321,
                 "type": "word",
-                "start": 56,
-                "end": 63,
+                "start": 57,
+                "end": 64,
                 "value": "friends"
             },
             {
-                "time": 1720,
+                "time": 1764,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 65,
+                "end": 68,
                 "value": "for"
             },
             {
-                "time": 1855,
+                "time": 1905,
                 "type": "word",
-                "start": 68,
-                "end": 71,
+                "start": 69,
+                "end": 72,
                 "value": "the"
             },
             {
-                "time": 1979,
+                "time": 2029,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 73,
+                "end": 76,
                 "value": "new"
             },
             {
-                "time": 2197,
+                "time": 2253,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 77,
+                "end": 81,
                 "value": "year"
             }
         ]
@@ -1790,30 +1757,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I take <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I take</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 106,
+                "time": 117,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "take"
-            },
-            {
-                "time": 824,
-                "type": "word",
-                "start": 34,
-                "end": 56,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     }

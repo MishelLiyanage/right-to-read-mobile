@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Say"
             }
         ]
@@ -112,65 +113,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my sister.<break time=\"500ms\"/> She is eight.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my sister. She is eight.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 336,
+                "time": 430,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 516,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 702,
+                "time": 843,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "sister"
             },
             {
-                "time": 1309,
+                "time": 2049,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2195,
-                "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "She"
             },
             {
-                "time": 2496,
+                "time": 2278,
                 "type": "word",
-                "start": 71,
-                "end": 73,
+                "start": 51,
+                "end": 53,
                 "value": "is"
             },
             {
-                "time": 2663,
+                "time": 2584,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 54,
+                "end": 59,
                 "value": "eight"
             }
         ]
@@ -258,65 +252,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my brother.<break time=\"500ms\"/> He is ten.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my brother. He is ten.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 331,
+                "time": 430,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 527,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 742,
+                "time": 843,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "brother"
             },
             {
-                "time": 1290,
+                "time": 1958,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2176,
-                "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "He"
             },
             {
-                "time": 2318,
+                "time": 2188,
                 "type": "word",
-                "start": 71,
-                "end": 73,
+                "start": 51,
+                "end": 53,
                 "value": "is"
             },
             {
-                "time": 2537,
+                "time": 2417,
                 "type": "word",
-                "start": 74,
-                "end": 77,
+                "start": 54,
+                "end": 57,
                 "value": "ten"
             }
         ]
@@ -415,72 +402,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my baby brother.<break time=\"500ms\"/> He is two.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my baby brother. He is two.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 357,
+                "time": 430,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 490,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 672,
+                "time": 813,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "baby"
             },
             {
-                "time": 1089,
+                "time": 1241,
                 "type": "word",
-                "start": 43,
-                "end": 50,
+                "start": 44,
+                "end": 51,
                 "value": "brother"
             },
             {
-                "time": 1621,
+                "time": 2321,
                 "type": "word",
-                "start": 51,
-                "end": 72,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2508,
-                "type": "word",
-                "start": 73,
-                "end": 75,
+                "start": 53,
+                "end": 55,
                 "value": "He"
             },
             {
-                "time": 2758,
+                "time": 2535,
                 "type": "word",
-                "start": 76,
-                "end": 78,
+                "start": 56,
+                "end": 58,
                 "value": "is"
             },
             {
-                "time": 2935,
+                "time": 2780,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 59,
+                "end": 62,
                 "value": "two"
             }
         ]

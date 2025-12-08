@@ -1,0 +1,1014 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    61.980010986328125
+                ],
+                [
+                    117.57918548583984,
+                    85.80001068115234
+                ]
+            ],
+            [
+                [
+                    122.57918548583984,
+                    61.980010986328125
+                ],
+                [
+                    159.4991912841797,
+                    85.80001068115234
+                ]
+            ],
+            [
+                [
+                    164.4991912841797,
+                    61.980010986328125
+                ],
+                [
+                    200.51919555664062,
+                    85.80001068115234
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Dinu : I like that blue frock.",
+        "words": [
+            "Dinu",
+            ":",
+            "I",
+            "like",
+            "that",
+            "blue",
+            "frock."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    110.38003540039062
+                ],
+                [
+                    106.83919525146484,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    141.35919189453125,
+                    110.38003540039062
+                ],
+                [
+                    147.73919677734375,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    149.35919189453125,
+                    110.38003540039062
+                ],
+                [
+                    156.75918579101562,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    161.75918579101562,
+                    110.38003540039062
+                ],
+                [
+                    193.0791778564453,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    197.87918090820312,
+                    110.38003540039062
+                ],
+                [
+                    237.73919677734375,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    242.53919982910156,
+                    110.38003540039062
+                ],
+                [
+                    283.5392150878906,
+                    134.20004272460938
+                ]
+            ],
+            [
+                [
+                    288.5392150878906,
+                    110.38003540039062
+                ],
+                [
+                    341.1991882324219,
+                    134.20004272460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Dinu <break time='200ms'/> : <break time='200ms'/> I <break time='200ms'/> like <break time='200ms'/> that <break time='200ms'/> blue <break time='200ms'/> frock. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Dinu"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1094,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1438,
+                "type": "word",
+                "start": 79,
+                "end": 80,
+                "value": "I"
+            },
+            {
+                "time": 1969,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2288,
+                "type": "word",
+                "start": 103,
+                "end": 107,
+                "value": "like"
+            },
+            {
+                "time": 2957,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3244,
+                "type": "word",
+                "start": 130,
+                "end": 134,
+                "value": "that"
+            },
+            {
+                "time": 3967,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4217,
+                "type": "word",
+                "start": 157,
+                "end": 161,
+                "value": "blue"
+            },
+            {
+                "time": 5132,
+                "type": "word",
+                "start": 162,
+                "end": 183,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5376,
+                "type": "word",
+                "start": 184,
+                "end": 189,
+                "value": "frock"
+            },
+            {
+                "time": 6306,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Meena : I like these sandals.",
+        "words": [
+            "Meena",
+            ":",
+            "I",
+            "like",
+            "these",
+            "sandals."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    144.38003540039062
+                ],
+                [
+                    126.99919891357422,
+                    168.20004272460938
+                ]
+            ],
+            [
+                [
+                    141.3592071533203,
+                    144.38003540039062
+                ],
+                [
+                    147.7392120361328,
+                    168.20004272460938
+                ]
+            ],
+            [
+                [
+                    149.3592071533203,
+                    144.38003540039062
+                ],
+                [
+                    156.7592010498047,
+                    168.20004272460938
+                ]
+            ],
+            [
+                [
+                    161.7592010498047,
+                    144.38003540039062
+                ],
+                [
+                    193.07919311523438,
+                    168.20004272460938
+                ]
+            ],
+            [
+                [
+                    197.8791961669922,
+                    144.38003540039062
+                ],
+                [
+                    249.8592071533203,
+                    168.20004272460938
+                ]
+            ],
+            [
+                [
+                    254.8592071533203,
+                    144.38003540039062
+                ],
+                [
+                    333.3192138671875,
+                    168.20004272460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Meena <break time='200ms'/> : <break time='200ms'/> I <break time='200ms'/> like <break time='200ms'/> these <break time='200ms'/> sandals. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Meena"
+            },
+            {
+                "time": 735,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 935,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1210,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "I"
+            },
+            {
+                "time": 1892,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2255,
+                "type": "word",
+                "start": 104,
+                "end": 108,
+                "value": "like"
+            },
+            {
+                "time": 2948,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3229,
+                "type": "word",
+                "start": 131,
+                "end": 136,
+                "value": "these"
+            },
+            {
+                "time": 3931,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4206,
+                "type": "word",
+                "start": 159,
+                "end": 166,
+                "value": "sandals"
+            },
+            {
+                "time": 5273,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Razik : I don't like this shirt. It is small for me.",
+        "words": [
+            "Razik",
+            ":",
+            "I",
+            "don't",
+            "like",
+            "this",
+            "shirt.",
+            "It",
+            "is",
+            "small",
+            "for",
+            "me."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    178.38003540039062
+                ],
+                [
+                    111.59920501708984,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    141.3592071533203,
+                    178.38003540039062
+                ],
+                [
+                    147.7392120361328,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    149.3592071533203,
+                    178.38003540039062
+                ],
+                [
+                    156.7592010498047,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    161.7592010498047,
+                    178.38003540039062
+                ],
+                [
+                    210.2592010498047,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    215.0592041015625,
+                    178.38003540039062
+                ],
+                [
+                    246.3791961669922,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    251.17919921875,
+                    178.38003540039062
+                ],
+                [
+                    285.3592224121094,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    290.3592224121094,
+                    178.38003540039062
+                ],
+                [
+                    338.1192626953125,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    342.1192626953125,
+                    178.38003540039062
+                ],
+                [
+                    357.1192626953125,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    361.91925048828125,
+                    178.38003540039062
+                ],
+                [
+                    375.8992614746094,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    380.8992614746094,
+                    178.38003540039062
+                ],
+                [
+                    432.4592590332031,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    437.4592590332031,
+                    178.38003540039062
+                ],
+                [
+                    462.8792724609375,
+                    202.20004272460938
+                ]
+            ],
+            [
+                [
+                    467.67926025390625,
+                    178.38003540039062
+                ],
+                [
+                    505.79925537109375,
+                    202.20004272460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='razik'>Razik</phoneme> <break time='200ms'/> : <break time='200ms'/> I <break time='200ms'/> don't <break time='200ms'/> like <break time='200ms'/> this <break time='200ms'/> shirt. <break time='200ms'/> It <break time='200ms'/> is <break time='200ms'/> small <break time='200ms'/> for <break time='200ms'/> me. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Razik"
+            },
+            {
+                "time": 796,
+                "type": "word",
+                "start": 79,
+                "end": 100,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 103,
+                "end": 124,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1258,
+                "type": "word",
+                "start": 125,
+                "end": 126,
+                "value": "I"
+            },
+            {
+                "time": 1989,
+                "type": "word",
+                "start": 127,
+                "end": 148,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2308,
+                "type": "word",
+                "start": 149,
+                "end": 154,
+                "value": "don't"
+            },
+            {
+                "time": 2976,
+                "type": "word",
+                "start": 155,
+                "end": 176,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3264,
+                "type": "word",
+                "start": 177,
+                "end": 181,
+                "value": "like"
+            },
+            {
+                "time": 4223,
+                "type": "word",
+                "start": 182,
+                "end": 203,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4542,
+                "type": "word",
+                "start": 204,
+                "end": 208,
+                "value": "this"
+            },
+            {
+                "time": 5196,
+                "type": "word",
+                "start": 209,
+                "end": 230,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5515,
+                "type": "word",
+                "start": 231,
+                "end": 236,
+                "value": "shirt"
+            },
+            {
+                "time": 6277,
+                "type": "word",
+                "start": 238,
+                "end": 259,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6994,
+                "type": "word",
+                "start": 260,
+                "end": 262,
+                "value": "It"
+            },
+            {
+                "time": 7333,
+                "type": "word",
+                "start": 263,
+                "end": 284,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7658,
+                "type": "word",
+                "start": 285,
+                "end": 287,
+                "value": "is"
+            },
+            {
+                "time": 8569,
+                "type": "word",
+                "start": 288,
+                "end": 309,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8901,
+                "type": "word",
+                "start": 310,
+                "end": 315,
+                "value": "small"
+            },
+            {
+                "time": 9694,
+                "type": "word",
+                "start": 316,
+                "end": 337,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10075,
+                "type": "word",
+                "start": 338,
+                "end": 341,
+                "value": "for"
+            },
+            {
+                "time": 10809,
+                "type": "word",
+                "start": 342,
+                "end": 363,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11178,
+                "type": "word",
+                "start": 364,
+                "end": 366,
+                "value": "me"
+            },
+            {
+                "time": 11818,
+                "type": "word",
+                "start": 368,
+                "end": 389,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Tony : I like this frock. It is for my sister.",
+        "words": [
+            "Tony",
+            ":",
+            "I",
+            "like",
+            "this",
+            "frock.",
+            "It",
+            "is",
+            "for",
+            "my",
+            "sister."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    212.38003540039062
+                ],
+                [
+                    105.1991958618164,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    141.35919189453125,
+                    212.38003540039062
+                ],
+                [
+                    147.73919677734375,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    149.35919189453125,
+                    212.38003540039062
+                ],
+                [
+                    156.75918579101562,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    161.75918579101562,
+                    212.38003540039062
+                ],
+                [
+                    193.0791778564453,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    197.87918090820312,
+                    212.38003540039062
+                ],
+                [
+                    232.0592041015625,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    237.0592041015625,
+                    212.38003540039062
+                ],
+                [
+                    289.7192077636719,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    293.7192077636719,
+                    212.38003540039062
+                ],
+                [
+                    308.7192077636719,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    313.5191955566406,
+                    212.38003540039062
+                ],
+                [
+                    327.49920654296875,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    332.49920654296875,
+                    212.38003540039062
+                ],
+                [
+                    357.9192199707031,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    362.7192077636719,
+                    212.38003540039062
+                ],
+                [
+                    393.19921875,
+                    236.20004272460938
+                ]
+            ],
+            [
+                [
+                    397.99920654296875,
+                    212.38003540039062
+                ],
+                [
+                    451.79925537109375,
+                    236.20004272460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Tony <break time='200ms'/> : <break time='200ms'/> I <break time='200ms'/> like <break time='200ms'/> this <break time='200ms'/> frock. <break time='200ms'/> It <break time='200ms'/> is <break time='200ms'/> for <break time='200ms'/> my <break time='200ms'/> sister. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Tony"
+            },
+            {
+                "time": 753,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 953,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1247,
+                "type": "word",
+                "start": 79,
+                "end": 80,
+                "value": "I"
+            },
+            {
+                "time": 1655,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 103,
+                "end": 107,
+                "value": "like"
+            },
+            {
+                "time": 2618,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2943,
+                "type": "word",
+                "start": 130,
+                "end": 134,
+                "value": "this"
+            },
+            {
+                "time": 3534,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3790,
+                "type": "word",
+                "start": 157,
+                "end": 162,
+                "value": "frock"
+            },
+            {
+                "time": 4766,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5484,
+                "type": "word",
+                "start": 186,
+                "end": 188,
+                "value": "It"
+            },
+            {
+                "time": 5823,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6148,
+                "type": "word",
+                "start": 211,
+                "end": 213,
+                "value": "is"
+            },
+            {
+                "time": 7059,
+                "type": "word",
+                "start": 214,
+                "end": 235,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7390,
+                "type": "word",
+                "start": 236,
+                "end": 239,
+                "value": "for"
+            },
+            {
+                "time": 8076,
+                "type": "word",
+                "start": 240,
+                "end": 261,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8457,
+                "type": "word",
+                "start": 262,
+                "end": 264,
+                "value": "my"
+            },
+            {
+                "time": 9128,
+                "type": "word",
+                "start": 265,
+                "end": 286,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9509,
+                "type": "word",
+                "start": 287,
+                "end": 293,
+                "value": "sister"
+            },
+            {
+                "time": 10332,
+                "type": "word",
+                "start": 295,
+                "end": 316,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

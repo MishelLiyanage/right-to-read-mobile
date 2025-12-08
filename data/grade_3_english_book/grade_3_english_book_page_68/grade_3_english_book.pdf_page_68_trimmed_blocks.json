@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -148,72 +149,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Good evening,<break time=\"300ms\"/> madam.<break time=\"500ms\"/> Can I help you?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Good evening, madam. Can I help you?</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 62,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Good"
             },
             {
-                "time": 286,
+                "time": 444,
                 "type": "word",
-                "start": 32,
-                "end": 39,
+                "start": 33,
+                "end": 40,
                 "value": "evening"
             },
             {
-                "time": 958,
+                "time": 1246,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1351,
-                "type": "word",
-                "start": 62,
-                "end": 67,
+                "start": 42,
+                "end": 47,
                 "value": "madam"
             },
             {
-                "time": 1947,
+                "time": 2519,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2834,
-                "type": "word",
-                "start": 90,
-                "end": 93,
+                "start": 49,
+                "end": 52,
                 "value": "Can"
             },
             {
-                "time": 3011,
+                "time": 2809,
                 "type": "word",
-                "start": 94,
-                "end": 95,
+                "start": 53,
+                "end": 54,
                 "value": "I"
             },
             {
-                "time": 3102,
+                "time": 2901,
                 "type": "word",
-                "start": 96,
-                "end": 100,
+                "start": 55,
+                "end": 59,
                 "value": "help"
             },
             {
-                "time": 3402,
+                "time": 3207,
                 "type": "word",
-                "start": 101,
-                "end": 104,
+                "start": 60,
+                "end": 63,
                 "value": "you"
             }
         ]
@@ -290,58 +277,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> please! We want some vegetables.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Yes, please! We want some vegetables.</prosody></speak>",
         "dialog": "true",
         "person_type": "old woman",
         "voice_id": "Kimberly",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Yes"
             },
             {
-                "time": 672,
+                "time": 694,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1069,
-                "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 33,
+                "end": 39,
                 "value": "please"
             },
             {
-                "time": 2211,
+                "time": 2096,
                 "type": "word",
-                "start": 61,
-                "end": 63,
+                "start": 41,
+                "end": 43,
                 "value": "We"
             },
             {
-                "time": 2351,
+                "time": 2310,
                 "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 44,
+                "end": 48,
                 "value": "want"
             },
             {
-                "time": 2680,
+                "time": 2616,
                 "type": "word",
-                "start": 69,
-                "end": 73,
+                "start": 49,
+                "end": 53,
                 "value": "some"
             },
             {
-                "time": 3038,
+                "time": 3013,
                 "type": "word",
-                "start": 74,
-                "end": 84,
+                "start": 54,
+                "end": 64,
                 "value": "vegetables"
             }
         ]
@@ -396,36 +376,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">fish eggs coconuts vegetables</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>fish eggs coconuts vegetables</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "fish"
             },
             {
-                "time": 342,
+                "time": 508,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "eggs"
             },
             {
-                "time": 595,
+                "time": 875,
                 "type": "word",
-                "start": 37,
-                "end": 45,
+                "start": 38,
+                "end": 46,
                 "value": "coconuts"
             },
             {
-                "time": 1349,
+                "time": 1487,
                 "type": "word",
-                "start": 46,
-                "end": 56,
+                "start": 47,
+                "end": 57,
                 "value": "vegetables"
             }
         ]

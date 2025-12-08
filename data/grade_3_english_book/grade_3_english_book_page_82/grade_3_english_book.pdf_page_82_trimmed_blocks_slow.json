@@ -1,0 +1,706 @@
+{
+    "0": {
+        "text": "lion",
+        "words": [
+            "lion"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    144.4429931640625,
+                    52.211029052734375
+                ],
+                [
+                    178.08299255371094,
+                    76.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>lion <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "lion"
+            },
+            {
+                "time": 810,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I live in a den.",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "a",
+            "den."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    303.2439880371094,
+                    93.33401489257812
+                ],
+                [
+                    309.90399169921875,
+                    114.77201843261719
+                ]
+            ],
+            [
+                [
+                    314.40399169921875,
+                    93.33401489257812
+                ],
+                [
+                    342.5740051269531,
+                    114.77201843261719
+                ]
+            ],
+            [
+                [
+                    347.0740051269531,
+                    93.33401489257812
+                ],
+                [
+                    362.8059997558594,
+                    114.77201843261719
+                ]
+            ],
+            [
+                [
+                    367.3059997558594,
+                    93.33401489257812
+                ],
+                [
+                    378.25,
+                    114.77201843261719
+                ]
+            ],
+            [
+                [
+                    303.2439880371094,
+                    114.93399047851562
+                ],
+                [
+                    341.385986328125,
+                    136.3719940185547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> a <break time='200ms'/> den. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 436,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 736,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1817,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2105,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2773,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3061,
+                "type": "word",
+                "start": 104,
+                "end": 105,
+                "value": "a"
+            },
+            {
+                "time": 3621,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3983,
+                "type": "word",
+                "start": 128,
+                "end": 131,
+                "value": "den"
+            },
+            {
+                "time": 4929,
+                "type": "word",
+                "start": 133,
+                "end": 154,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "dog",
+        "words": [
+            "dog"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    459.6619873046875,
+                    119.57601928710938
+                ],
+                [
+                    495.24200439453125,
+                    143.39602661132812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>dog <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "dog"
+            },
+            {
+                "time": 811,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "I live in a kennel.",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "a",
+            "kennel."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    340.3699951171875,
+                    312.96099853515625
+                ],
+                [
+                    347.0299987792969,
+                    334.3990173339844
+                ]
+            ],
+            [
+                [
+                    351.5299987792969,
+                    312.96099853515625
+                ],
+                [
+                    379.70001220703125,
+                    334.3990173339844
+                ]
+            ],
+            [
+                [
+                    384.20001220703125,
+                    312.96099853515625
+                ],
+                [
+                    399.9320068359375,
+                    334.3990173339844
+                ]
+            ],
+            [
+                [
+                    404.4320068359375,
+                    312.96099853515625
+                ],
+                [
+                    415.3760070800781,
+                    334.3990173339844
+                ]
+            ],
+            [
+                [
+                    340.3699951171875,
+                    334.5610046386719
+                ],
+                [
+                    402.7039794921875,
+                    355.9990234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> a <break time='200ms'/> kennel. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 453,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 784,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1903,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2228,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2816,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3191,
+                "type": "word",
+                "start": 104,
+                "end": 105,
+                "value": "a"
+            },
+            {
+                "time": 3537,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3900,
+                "type": "word",
+                "start": 128,
+                "end": 134,
+                "value": "kennel"
+            },
+            {
+                "time": 4784,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "hen",
+        "words": [
+            "hen"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    148.2209930419922,
+                    334.635009765625
+                ],
+                [
+                    181.1069793701172,
+                    356.0730285644531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>hen <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "hen"
+            },
+            {
+                "time": 694,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "I live in a coop.",
+        "words": [
+            "I",
+            "live",
+            "in",
+            "a",
+            "coop."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    283.97698974609375,
+                    403.6650085449219
+                ],
+                [
+                    290.6369934082031,
+                    425.10302734375
+                ]
+            ],
+            [
+                [
+                    295.1369934082031,
+                    403.6650085449219
+                ],
+                [
+                    323.3070068359375,
+                    425.10302734375
+                ]
+            ],
+            [
+                [
+                    327.8070068359375,
+                    403.6650085449219
+                ],
+                [
+                    343.53900146484375,
+                    425.10302734375
+                ]
+            ],
+            [
+                [
+                    348.03900146484375,
+                    403.6650085449219
+                ],
+                [
+                    358.9830017089844,
+                    425.10302734375
+                ]
+            ],
+            [
+                [
+                    283.97698974609375,
+                    425.2650146484375
+                ],
+                [
+                    330.1650085449219,
+                    446.7030334472656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> a <break time='200ms'/> coop. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 496,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 790,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "live"
+            },
+            {
+                "time": 1559,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1809,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2392,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2717,
+                "type": "word",
+                "start": 104,
+                "end": 105,
+                "value": "a"
+            },
+            {
+                "time": 3092,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3361,
+                "type": "word",
+                "start": 128,
+                "end": 132,
+                "value": "coop"
+            },
+            {
+                "time": 3857,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "fish",
+        "words": [
+            "fish"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    401.35400390625,
+                    522.1009521484375
+                ],
+                [
+                    435.3940124511719,
+                    545.9209594726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fish <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "fish"
+            },
+            {
+                "time": 760,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "We live in a pond.",
+        "words": [
+            "We",
+            "live",
+            "in",
+            "a",
+            "pond."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    149.73399353027344,
+                    617.6810302734375
+                ],
+                [
+                    180.27398681640625,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    185.27398681640625,
+                    617.6810302734375
+                ],
+                [
+                    216.573974609375,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    221.573974609375,
+                    617.6810302734375
+                ],
+                [
+                    239.05398559570312,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    244.05398559570312,
+                    617.6810302734375
+                ],
+                [
+                    256.2139892578125,
+                    641.5009765625
+                ]
+            ],
+            [
+                [
+                    149.73399353027344,
+                    641.6810302734375
+                ],
+                [
+                    204.19400024414062,
+                    665.5009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> live <break time='200ms'/> in <break time='200ms'/> a <break time='200ms'/> pond. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 494,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 807,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "live"
+            },
+            {
+                "time": 1849,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2174,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "in"
+            },
+            {
+                "time": 2738,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3119,
+                "type": "word",
+                "start": 105,
+                "end": 106,
+                "value": "a"
+            },
+            {
+                "time": 3421,
+                "type": "word",
+                "start": 107,
+                "end": 128,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3877,
+                "type": "word",
+                "start": 129,
+                "end": 133,
+                "value": "pond"
+            },
+            {
+                "time": 4639,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

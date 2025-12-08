@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "78",
-        "words": [
-            "78"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    31.145999908447266,
-                    24.34998893737793
-                ],
-                [
-                    60.39600372314453,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">78</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "78"
-            }
-        ]
-    },
-    "1": {
         "text": "Point and say.",
         "words": [
             "Point",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Point"
             },
             {
-                "time": 357,
+                "time": 550,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 531,
+                "time": 733,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "tail",
         "words": [
             "tail"
@@ -112,20 +83,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">tail</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>tail</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "tail"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "wings",
         "words": [
             "wings"
@@ -142,20 +114,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">wings</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>wings</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "wings"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "beak",
         "words": [
             "beak"
@@ -172,20 +145,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">beak</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>beak</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "beak"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "horn",
         "words": [
             "horn"
@@ -202,20 +176,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">horn</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>horn</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "horn"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "fins",
         "words": [
             "fins"
@@ -232,20 +207,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">fins</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>fins</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "fins"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "trunk",
         "words": [
             "trunk"
@@ -262,15 +238,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">trunk</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>trunk</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "trunk"
             }
         ]

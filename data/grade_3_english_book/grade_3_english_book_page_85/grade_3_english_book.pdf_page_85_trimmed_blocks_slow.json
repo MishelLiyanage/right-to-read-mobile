@@ -1,0 +1,719 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.628700256347656,
+                    51.629974365234375
+                ],
+                [
+                    117.84868621826172,
+                    75.4499740600586
+                ]
+            ],
+            [
+                [
+                    122.84868621826172,
+                    51.629974365234375
+                ],
+                [
+                    159.76869201660156,
+                    75.4499740600586
+                ]
+            ],
+            [
+                [
+                    164.76869201660156,
+                    51.629974365234375
+                ],
+                [
+                    200.7886962890625,
+                    75.4499740600586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Who would like to go for a ride?",
+        "words": [
+            "Who",
+            "would",
+            "like",
+            "to",
+            "go",
+            "for",
+            "a",
+            "ride?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    405.83099365234375,
+                    129.18002319335938
+                ],
+                [
+                    440.9189758300781,
+                    148.23602294921875
+                ]
+            ],
+            [
+                [
+                    444.75897216796875,
+                    129.18002319335938
+                ],
+                [
+                    490.53497314453125,
+                    148.23602294921875
+                ]
+            ],
+            [
+                [
+                    494.53497314453125,
+                    129.18002319335938
+                ],
+                [
+                    519.5910034179688,
+                    148.23602294921875
+                ]
+            ],
+            [
+                [
+                    523.4310302734375,
+                    129.18002319335938
+                ],
+                [
+                    538.279052734375,
+                    148.23602294921875
+                ]
+            ],
+            [
+                [
+                    405.83099365234375,
+                    148.38003540039062
+                ],
+                [
+                    424.5669860839844,
+                    167.43603515625
+                ]
+            ],
+            [
+                [
+                    428.5669860839844,
+                    148.38003540039062
+                ],
+                [
+                    448.9029541015625,
+                    167.43603515625
+                ]
+            ],
+            [
+                [
+                    452.7429504394531,
+                    148.38003540039062
+                ],
+                [
+                    462.470947265625,
+                    167.43603515625
+                ]
+            ],
+            [
+                [
+                    466.470947265625,
+                    148.38003540039062
+                ],
+                [
+                    502.742919921875,
+                    167.43603515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Who <break time='200ms'/> would <break time='200ms'/> like <break time='200ms'/> to <break time='200ms'/> go <break time='200ms'/> for <break time='200ms'/> a <break time='200ms'/> ride? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Who"
+            },
+            {
+                "time": 547,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 772,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "would"
+            },
+            {
+                "time": 1846,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2202,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "like"
+            },
+            {
+                "time": 2729,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2966,
+                "type": "word",
+                "start": 109,
+                "end": 111,
+                "value": "to"
+            },
+            {
+                "time": 3725,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3950,
+                "type": "word",
+                "start": 134,
+                "end": 136,
+                "value": "go"
+            },
+            {
+                "time": 4853,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5190,
+                "type": "word",
+                "start": 159,
+                "end": 162,
+                "value": "for"
+            },
+            {
+                "time": 6012,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6299,
+                "type": "word",
+                "start": 185,
+                "end": 186,
+                "value": "a"
+            },
+            {
+                "time": 6909,
+                "type": "word",
+                "start": 187,
+                "end": 208,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7184,
+                "type": "word",
+                "start": 209,
+                "end": 213,
+                "value": "ride"
+            },
+            {
+                "time": 7992,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "moo, moo",
+        "words": [
+            "moo,",
+            "moo"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    235.46299743652344,
+                    141.42001342773438
+                ],
+                [
+                    274.1829833984375,
+                    160.47601318359375
+                ]
+            ],
+            [
+                [
+                    235.46299743652344,
+                    160.62002563476562
+                ],
+                [
+                    269.8789978027344,
+                    179.676025390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>moo, <break time='200ms'/> moo <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "moo"
+            },
+            {
+                "time": 564,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 821,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "moo"
+            },
+            {
+                "time": 1482,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "neigh",
+        "words": [
+            "neigh"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    95.84549713134766,
+                    238.40298461914062
+                ],
+                [
+                    138.70950317382812,
+                    257.458984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>neigh <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "neigh"
+            },
+            {
+                "time": 683,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "woof, woof",
+        "words": [
+            "woof,",
+            "woof"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    56.76409912109375,
+                    347.29498291015625
+                ],
+                [
+                    98.33210754394531,
+                    366.3509826660156
+                ]
+            ],
+            [
+                [
+                    56.76409912109375,
+                    366.4949951171875
+                ],
+                [
+                    94.02810668945312,
+                    385.5509948730469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>woof, <break time='200ms'/> woof <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "woof"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "woof"
+            },
+            {
+                "time": 1481,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "mew, mew",
+        "words": [
+            "mew,",
+            "mew"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    54.83919906616211,
+                    425.76300048828125
+                ],
+                [
+                    97.65519714355469,
+                    444.8190002441406
+                ]
+            ],
+            [
+                [
+                    54.83919906616211,
+                    444.9630126953125
+                ],
+                [
+                    93.35120391845703,
+                    464.0190124511719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>mew, <break time='200ms'/> mew <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "mew"
+            },
+            {
+                "time": 576,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "mew"
+            },
+            {
+                "time": 1601,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "baa, baa",
+        "words": [
+            "baa,",
+            "baa"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    437.1510009765625,
+                    520.7650146484375
+                ],
+                [
+                    470.63897705078125,
+                    539.8209838867188
+                ]
+            ],
+            [
+                [
+                    473.8389892578125,
+                    520.7650146484375
+                ],
+                [
+                    503.0229797363281,
+                    539.8209838867188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>baa, <break time='200ms'/> baa <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "baa"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 982,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "baa"
+            },
+            {
+                "time": 1580,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "quack, quack",
+        "words": [
+            "quack,",
+            "quack"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    290.39898681640625,
+                    559.9300537109375
+                ],
+                [
+                    341.1669616699219,
+                    578.9860229492188
+                ]
+            ],
+            [
+                [
+                    290.39898681640625,
+                    579.1300048828125
+                ],
+                [
+                    336.86297607421875,
+                    598.1859741210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>quack, <break time='200ms'/> quack <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "quack"
+            },
+            {
+                "time": 732,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1007,
+                "type": "word",
+                "start": 57,
+                "end": 62,
+                "value": "quack"
+            },
+            {
+                "time": 1702,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "cluck, cluck",
+        "words": [
+            "cluck,",
+            "cluck"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    91.91069793701172,
+                    603.6600341796875
+                ],
+                [
+                    135.4307098388672,
+                    622.7160034179688
+                ]
+            ],
+            [
+                [
+                    91.91069793701172,
+                    622.8599853515625
+                ],
+                [
+                    131.126708984375,
+                    641.9159545898438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>cluck, <break time='200ms'/> cluck <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "cluck"
+            },
+            {
+                "time": 715,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 928,
+                "type": "word",
+                "start": 57,
+                "end": 62,
+                "value": "cluck"
+            },
+            {
+                "time": 1608,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

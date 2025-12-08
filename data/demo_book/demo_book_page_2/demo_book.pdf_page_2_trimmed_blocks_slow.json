@@ -1,0 +1,967 @@
+{
+    "0": {
+        "text": "Listen and sing.",
+        "words": [
+            "Listen",
+            "and",
+            "sing."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    58.275699615478516,
+                    194.87600708007812
+                ],
+                [
+                    113.49568939208984,
+                    218.69601440429688
+                ]
+            ],
+            [
+                [
+                    118.49568939208984,
+                    194.87600708007812
+                ],
+                [
+                    155.4156951904297,
+                    218.69601440429688
+                ]
+            ],
+            [
+                [
+                    160.4156951904297,
+                    194.87600708007812
+                ],
+                [
+                    205.4357147216797,
+                    218.69601440429688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> sing. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "sing"
+            },
+            {
+                "time": 2461,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Rasini has a blue hat, blue hat, blue hat",
+        "words": [
+            "Rasini",
+            "has",
+            "a",
+            "blue",
+            "hat,",
+            "blue",
+            "hat,",
+            "blue",
+            "hat"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.59579849243164,
+                    238.11801147460938
+                ],
+                [
+                    111.3983154296875,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    116.05513763427734,
+                    238.11801147460938
+                ],
+                [
+                    147.59115600585938,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    152.24798583984375,
+                    238.11801147460938
+                ],
+                [
+                    163.57337951660156,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    168.23020935058594,
+                    238.11801147460938
+                ],
+                [
+                    206.41616821289062,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    211.072998046875,
+                    238.11801147460938
+                ],
+                [
+                    246.1295623779297,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    249.8550262451172,
+                    238.11801147460938
+                ],
+                [
+                    288.0409851074219,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    292.69781494140625,
+                    238.11801147460938
+                ],
+                [
+                    327.75439453125,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    331.4798583984375,
+                    238.11801147460938
+                ],
+                [
+                    369.66583251953125,
+                    258.3650207519531
+                ]
+            ],
+            [
+                [
+                    374.3226623535156,
+                    238.11801147460938
+                ],
+                [
+                    404.3684997558594,
+                    258.3650207519531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> blue <break time='200ms'/> hat, <break time='200ms'/> blue <break time='200ms'/> hat, <break time='200ms'/> blue <break time='200ms'/> hat <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 67,
+                "end": 73,
+                "value": "Rasini"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1154,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "has"
+            },
+            {
+                "time": 1937,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2262,
+                "type": "word",
+                "start": 132,
+                "end": 133,
+                "value": "a"
+            },
+            {
+                "time": 2611,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2855,
+                "type": "word",
+                "start": 156,
+                "end": 160,
+                "value": "blue"
+            },
+            {
+                "time": 3527,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3833,
+                "type": "word",
+                "start": 183,
+                "end": 186,
+                "value": "hat"
+            },
+            {
+                "time": 4385,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4616,
+                "type": "word",
+                "start": 210,
+                "end": 214,
+                "value": "blue"
+            },
+            {
+                "time": 5250,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5519,
+                "type": "word",
+                "start": 237,
+                "end": 240,
+                "value": "hat"
+            },
+            {
+                "time": 6116,
+                "type": "word",
+                "start": 242,
+                "end": 263,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6347,
+                "type": "word",
+                "start": 264,
+                "end": 268,
+                "value": "blue"
+            },
+            {
+                "time": 6873,
+                "type": "word",
+                "start": 269,
+                "end": 290,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7185,
+                "type": "word",
+                "start": 291,
+                "end": 294,
+                "value": "hat"
+            },
+            {
+                "time": 7733,
+                "type": "word",
+                "start": 295,
+                "end": 316,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Meena has a brown belt, brown belt, brown belt",
+        "words": [
+            "Meena",
+            "has",
+            "a",
+            "brown",
+            "belt,",
+            "brown",
+            "belt,",
+            "brown",
+            "belt"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.59579849243164,
+                    266.11700439453125
+                ],
+                [
+                    119.79923248291016,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    124.4560546875,
+                    266.11700439453125
+                ],
+                [
+                    155.9920654296875,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    160.64889526367188,
+                    266.11700439453125
+                ],
+                [
+                    171.9742889404297,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    176.63111877441406,
+                    266.11700439453125
+                ],
+                [
+                    231.22772216796875,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    235.88455200195312,
+                    266.11700439453125
+                ],
+                [
+                    274.4244384765625,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    278.14990234375,
+                    266.11700439453125
+                ],
+                [
+                    332.74652099609375,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    337.4033508300781,
+                    266.11700439453125
+                ],
+                [
+                    375.9432373046875,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    379.668701171875,
+                    266.11700439453125
+                ],
+                [
+                    434.26531982421875,
+                    286.364013671875
+                ]
+            ],
+            [
+                [
+                    438.9221496582031,
+                    266.11700439453125
+                ],
+                [
+                    472.4512939453125,
+                    286.364013671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Meena <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> brown <break time='200ms'/> belt, <break time='200ms'/> brown <break time='200ms'/> belt, <break time='200ms'/> brown <break time='200ms'/> belt <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Meena"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "has"
+            },
+            {
+                "time": 1778,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2096,
+                "type": "word",
+                "start": 82,
+                "end": 83,
+                "value": "a"
+            },
+            {
+                "time": 2377,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2690,
+                "type": "word",
+                "start": 106,
+                "end": 111,
+                "value": "brown"
+            },
+            {
+                "time": 3285,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3560,
+                "type": "word",
+                "start": 134,
+                "end": 138,
+                "value": "belt"
+            },
+            {
+                "time": 4084,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4365,
+                "type": "word",
+                "start": 162,
+                "end": 167,
+                "value": "brown"
+            },
+            {
+                "time": 4957,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5213,
+                "type": "word",
+                "start": 190,
+                "end": 194,
+                "value": "belt"
+            },
+            {
+                "time": 5743,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6000,
+                "type": "word",
+                "start": 218,
+                "end": 223,
+                "value": "brown"
+            },
+            {
+                "time": 6597,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6860,
+                "type": "word",
+                "start": 246,
+                "end": 250,
+                "value": "belt"
+            },
+            {
+                "time": 7408,
+                "type": "word",
+                "start": 251,
+                "end": 272,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Waruni has a yellow dress, yellow dress, yellow dress",
+        "words": [
+            "Waruni",
+            "has",
+            "a",
+            "yellow",
+            "dress,",
+            "yellow",
+            "dress,",
+            "yellow",
+            "dress"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.59579849243164,
+                    294.1159973144531
+                ],
+                [
+                    122.96586608886719,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    127.62268829345703,
+                    294.1159973144531
+                ],
+                [
+                    159.15870666503906,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    163.81553649902344,
+                    294.1159973144531
+                ],
+                [
+                    175.14093017578125,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    179.61148071289062,
+                    294.1159973144531
+                ],
+                [
+                    234.4502410888672,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    238.92079162597656,
+                    294.1159973144531
+                ],
+                [
+                    288.6370544433594,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    292.1762390136719,
+                    294.1159973144531
+                ],
+                [
+                    347.0150146484375,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    351.4855651855469,
+                    294.1159973144531
+                ],
+                [
+                    401.20184326171875,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    404.74102783203125,
+                    294.1159973144531
+                ],
+                [
+                    459.5798034667969,
+                    314.3630065917969
+                ]
+            ],
+            [
+                [
+                    464.05035400390625,
+                    294.1159973144531
+                ],
+                [
+                    508.7558898925781,
+                    314.3630065917969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> yellow <break time='200ms'/> dress, <break time='200ms'/> yellow <break time='200ms'/> dress, <break time='200ms'/> yellow <break time='200ms'/> dress <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 64,
+                "end": 70,
+                "value": "Waruni"
+            },
+            {
+                "time": 785,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1047,
+                "type": "word",
+                "start": 103,
+                "end": 106,
+                "value": "has"
+            },
+            {
+                "time": 1868,
+                "type": "word",
+                "start": 107,
+                "end": 128,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2124,
+                "type": "word",
+                "start": 129,
+                "end": 130,
+                "value": "a"
+            },
+            {
+                "time": 2624,
+                "type": "word",
+                "start": 131,
+                "end": 152,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2880,
+                "type": "word",
+                "start": 153,
+                "end": 159,
+                "value": "yellow"
+            },
+            {
+                "time": 3579,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3867,
+                "type": "word",
+                "start": 182,
+                "end": 187,
+                "value": "dress"
+            },
+            {
+                "time": 4507,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4751,
+                "type": "word",
+                "start": 211,
+                "end": 217,
+                "value": "yellow"
+            },
+            {
+                "time": 5450,
+                "type": "word",
+                "start": 218,
+                "end": 239,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5737,
+                "type": "word",
+                "start": 240,
+                "end": 245,
+                "value": "dress"
+            },
+            {
+                "time": 6302,
+                "type": "word",
+                "start": 247,
+                "end": 268,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6577,
+                "type": "word",
+                "start": 269,
+                "end": 275,
+                "value": "yellow"
+            },
+            {
+                "time": 7238,
+                "type": "word",
+                "start": 276,
+                "end": 297,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7488,
+                "type": "word",
+                "start": 298,
+                "end": 303,
+                "value": "dress"
+            },
+            {
+                "time": 8128,
+                "type": "word",
+                "start": 304,
+                "end": 325,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Razik has a raincoat, raincoat, raincoat",
+        "words": [
+            "Razik",
+            "has",
+            "a",
+            "raincoat,",
+            "raincoat,",
+            "raincoat"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.59579849243164,
+                    322.114990234375
+                ],
+                [
+                    105.45620727539062,
+                    342.36199951171875
+                ]
+            ],
+            [
+                [
+                    109.9267578125,
+                    322.114990234375
+                ],
+                [
+                    141.4627685546875,
+                    342.36199951171875
+                ]
+            ],
+            [
+                [
+                    146.11959838867188,
+                    322.114990234375
+                ],
+                [
+                    157.4449920654297,
+                    342.36199951171875
+                ]
+            ],
+            [
+                [
+                    162.10182189941406,
+                    322.114990234375
+                ],
+                [
+                    239.0325469970703,
+                    342.36199951171875
+                ]
+            ],
+            [
+                [
+                    242.7580108642578,
+                    322.114990234375
+                ],
+                [
+                    319.6888122558594,
+                    342.36199951171875
+                ]
+            ],
+            [
+                [
+                    323.4142761230469,
+                    322.114990234375
+                ],
+                [
+                    395.3343200683594,
+                    342.36199951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='razik'>Razik</phoneme> <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> raincoat, <break time='200ms'/> raincoat, <break time='200ms'/> raincoat <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Razik"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 79,
+                "end": 100,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1154,
+                "type": "word",
+                "start": 101,
+                "end": 104,
+                "value": "has"
+            },
+            {
+                "time": 1892,
+                "type": "word",
+                "start": 105,
+                "end": 126,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2248,
+                "type": "word",
+                "start": 127,
+                "end": 128,
+                "value": "a"
+            },
+            {
+                "time": 2579,
+                "type": "word",
+                "start": 129,
+                "end": 150,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2836,
+                "type": "word",
+                "start": 151,
+                "end": 159,
+                "value": "raincoat"
+            },
+            {
+                "time": 3736,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4011,
+                "type": "word",
+                "start": 183,
+                "end": 191,
+                "value": "raincoat"
+            },
+            {
+                "time": 4802,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5058,
+                "type": "word",
+                "start": 215,
+                "end": 223,
+                "value": "raincoat"
+            },
+            {
+                "time": 5896,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

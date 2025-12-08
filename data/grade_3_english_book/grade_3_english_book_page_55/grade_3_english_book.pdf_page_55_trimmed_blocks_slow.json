@@ -1,0 +1,881 @@
+{
+    "0": {
+        "text": "Listen and say. How do you come to school?",
+        "words": [
+            "Listen",
+            "and",
+            "say.",
+            "How",
+            "do",
+            "you",
+            "come",
+            "to",
+            "school?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.65140151977539,
+                    51.827972412109375
+                ],
+                [
+                    117.87139129638672,
+                    75.6479721069336
+                ]
+            ],
+            [
+                [
+                    122.87139129638672,
+                    51.827972412109375
+                ],
+                [
+                    159.79139709472656,
+                    75.6479721069336
+                ]
+            ],
+            [
+                [
+                    164.79139709472656,
+                    51.827972412109375
+                ],
+                [
+                    200.8114013671875,
+                    75.6479721069336
+                ]
+            ],
+            [
+                [
+                    62.65140151977539,
+                    75.82797241210938
+                ],
+                [
+                    105.51140594482422,
+                    99.6479721069336
+                ]
+            ],
+            [
+                [
+                    110.31140899658203,
+                    75.82797241210938
+                ],
+                [
+                    133.73141479492188,
+                    99.6479721069336
+                ]
+            ],
+            [
+                [
+                    138.5314178466797,
+                    75.82797241210938
+                ],
+                [
+                    172.5714111328125,
+                    99.6479721069336
+                ]
+            ],
+            [
+                [
+                    177.5714111328125,
+                    75.82797241210938
+                ],
+                [
+                    231.03140258789062,
+                    99.6479721069336
+                ]
+            ],
+            [
+                [
+                    235.83140563964844,
+                    75.82797241210938
+                ],
+                [
+                    254.3914031982422,
+                    99.6479721069336
+                ]
+            ],
+            [
+                [
+                    259.39141845703125,
+                    75.82797241210938
+                ],
+                [
+                    329.1314697265625,
+                    99.6479721069336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/> How <break time='200ms'/> do <break time='200ms'/> you <break time='200ms'/> come <break time='200ms'/> to <break time='200ms'/> school? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3253,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "How"
+            },
+            {
+                "time": 3630,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3887,
+                "type": "word",
+                "start": 136,
+                "end": 138,
+                "value": "do"
+            },
+            {
+                "time": 4574,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4880,
+                "type": "word",
+                "start": 161,
+                "end": 164,
+                "value": "you"
+            },
+            {
+                "time": 5240,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5508,
+                "type": "word",
+                "start": 187,
+                "end": 191,
+                "value": "come"
+            },
+            {
+                "time": 6107,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6400,
+                "type": "word",
+                "start": 214,
+                "end": 216,
+                "value": "to"
+            },
+            {
+                "time": 6840,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7127,
+                "type": "word",
+                "start": 239,
+                "end": 245,
+                "value": "school"
+            },
+            {
+                "time": 7782,
+                "type": "word",
+                "start": 247,
+                "end": 268,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "bus",
+        "words": [
+            "bus"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    130.58200073242188,
+                    278.00299072265625
+                ],
+                [
+                    164.4420166015625,
+                    301.822998046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bus <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "bus"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "school van three wheeler",
+        "words": [
+            "school",
+            "van",
+            "three",
+            "wheeler"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    265.37701416015625,
+                    282.1451721191406
+                ],
+                [
+                    324.8570556640625,
+                    305.9651794433594
+                ]
+            ],
+            [
+                [
+                    329.65704345703125,
+                    282.1451721191406
+                ],
+                [
+                    364.5970458984375,
+                    305.9651794433594
+                ]
+            ],
+            [
+                [
+                    429.58099365234375,
+                    280.6080017089844
+                ],
+                [
+                    478.7610168457031,
+                    304.4280090332031
+                ]
+            ],
+            [
+                [
+                    483.5610046386719,
+                    280.6080017089844
+                ],
+                [
+                    558.1810913085938,
+                    304.4280090332031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>school <break time='200ms'/> van <break time='200ms'/> three <break time='200ms'/> wheeler <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "school"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "van"
+            },
+            {
+                "time": 1739,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2032,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "three"
+            },
+            {
+                "time": 2611,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2855,
+                "type": "word",
+                "start": 111,
+                "end": 118,
+                "value": "wheeler"
+            },
+            {
+                "time": 3538,
+                "type": "word",
+                "start": 119,
+                "end": 140,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "car",
+        "words": [
+            "car"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    127.97100067138672,
+                    425.02099609375
+                ],
+                [
+                    157.1909942626953,
+                    448.84100341796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>car <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "car"
+            },
+            {
+                "time": 757,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "motor cycle",
+        "words": [
+            "motor",
+            "cycle"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    255.36700439453125,
+                    454.3940124511719
+                ],
+                [
+                    312.28704833984375,
+                    478.2140197753906
+                ]
+            ],
+            [
+                [
+                    317.0870361328125,
+                    454.3940124511719
+                ],
+                [
+                    364.12701416015625,
+                    478.2140197753906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>motor <break time='200ms'/> cycle <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "motor"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "cycle"
+            },
+            {
+                "time": 1803,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "on foot",
+        "words": [
+            "on",
+            "foot"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    452.447998046875,
+                    482.5679931640625
+                ],
+                [
+                    476.3080139160156,
+                    506.38800048828125
+                ]
+            ],
+            [
+                [
+                    481.3080139160156,
+                    482.5679931640625
+                ],
+                [
+                    518.7880249023438,
+                    506.38800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>on <break time='200ms'/> foot <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "on"
+            },
+            {
+                "time": 598,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 829,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "foot"
+            },
+            {
+                "time": 1545,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "I come to school on foot.",
+        "words": [
+            "I",
+            "come",
+            "to",
+            "school",
+            "on",
+            "foot."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    196.08200073242188,
+                    525.8900146484375
+                ],
+                [
+                    203.48199462890625,
+                    549.7099609375
+                ]
+            ],
+            [
+                [
+                    208.48199462890625,
+                    525.8900146484375
+                ],
+                [
+                    261.9419860839844,
+                    549.7099609375
+                ]
+            ],
+            [
+                [
+                    266.7419738769531,
+                    525.8900146484375
+                ],
+                [
+                    285.302001953125,
+                    549.7099609375
+                ]
+            ],
+            [
+                [
+                    290.302001953125,
+                    525.8900146484375
+                ],
+                [
+                    349.78204345703125,
+                    549.7099609375
+                ]
+            ],
+            [
+                [
+                    196.08200073242188,
+                    549.8900146484375
+                ],
+                [
+                    219.94200134277344,
+                    573.7099609375
+                ]
+            ],
+            [
+                [
+                    224.94200134277344,
+                    549.8900146484375
+                ],
+                [
+                    268.7019958496094,
+                    573.7099609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> come <break time='200ms'/> to <break time='200ms'/> school <break time='200ms'/> on <break time='200ms'/> foot. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 408,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 770,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "come"
+            },
+            {
+                "time": 1743,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2074,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "to"
+            },
+            {
+                "time": 2699,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3080,
+                "type": "word",
+                "start": 104,
+                "end": 110,
+                "value": "school"
+            },
+            {
+                "time": 3953,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4353,
+                "type": "word",
+                "start": 133,
+                "end": 135,
+                "value": "on"
+            },
+            {
+                "time": 4911,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5180,
+                "type": "word",
+                "start": 158,
+                "end": 162,
+                "value": "foot"
+            },
+            {
+                "time": 6018,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "I come to school by bicycle.",
+        "words": [
+            "I",
+            "come",
+            "to",
+            "school",
+            "by",
+            "bicycle."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    222.53700256347656,
+                    667.9852294921875
+                ],
+                [
+                    229.93699645996094,
+                    691.80517578125
+                ]
+            ],
+            [
+                [
+                    234.93699645996094,
+                    667.9852294921875
+                ],
+                [
+                    288.3970031738281,
+                    691.80517578125
+                ]
+            ],
+            [
+                [
+                    293.1969909667969,
+                    667.9852294921875
+                ],
+                [
+                    311.75701904296875,
+                    691.80517578125
+                ]
+            ],
+            [
+                [
+                    316.75701904296875,
+                    667.9852294921875
+                ],
+                [
+                    376.237060546875,
+                    691.80517578125
+                ]
+            ],
+            [
+                [
+                    222.53700256347656,
+                    691.9852294921875
+                ],
+                [
+                    244.77700805664062,
+                    715.80517578125
+                ]
+            ],
+            [
+                [
+                    249.57701110839844,
+                    691.9852294921875
+                ],
+                [
+                    319.9369812011719,
+                    715.80517578125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> come <break time='200ms'/> to <break time='200ms'/> school <break time='200ms'/> by <break time='200ms'/> bicycle. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 408,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 770,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "come"
+            },
+            {
+                "time": 1743,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2074,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "to"
+            },
+            {
+                "time": 2744,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3094,
+                "type": "word",
+                "start": 104,
+                "end": 110,
+                "value": "school"
+            },
+            {
+                "time": 3948,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4329,
+                "type": "word",
+                "start": 133,
+                "end": 135,
+                "value": "by"
+            },
+            {
+                "time": 4933,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5202,
+                "type": "word",
+                "start": 158,
+                "end": 165,
+                "value": "bicycle"
+            },
+            {
+                "time": 6193,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

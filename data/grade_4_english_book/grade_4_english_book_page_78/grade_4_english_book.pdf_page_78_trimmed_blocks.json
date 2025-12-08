@@ -27,25 +27,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Lesson"
-            },
-            {
-                "time": 397,
-                "type": "word",
-                "start": 34,
-                "end": 35,
-                "value": "2"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "1": {
         "text": "Listen and repeat.",
@@ -86,32 +72,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 401,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "and"
-            },
-            {
-                "time": 555,
-                "type": "word",
-                "start": 38,
-                "end": 44,
-                "value": "repeat"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "2": {
         "text": "This is how Senuri usually spends her week.",
@@ -207,67 +172,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is how Senuri usually spends her week.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is how <phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> usually spends her week.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "This"
-            },
-            {
-                "time": 226,
-                "type": "word",
-                "start": 32,
-                "end": 34,
-                "value": "is"
-            },
-            {
-                "time": 378,
-                "type": "word",
-                "start": 35,
-                "end": 38,
-                "value": "how"
-            },
-            {
-                "time": 545,
-                "type": "word",
-                "start": 39,
-                "end": 45,
-                "value": "Senuri"
-            },
-            {
-                "time": 1053,
-                "type": "word",
-                "start": 46,
-                "end": 53,
-                "value": "usually"
-            },
-            {
-                "time": 1591,
-                "type": "word",
-                "start": 54,
-                "end": 60,
-                "value": "spends"
-            },
-            {
-                "time": 2053,
-                "type": "word",
-                "start": 61,
-                "end": 64,
-                "value": "her"
-            },
-            {
-                "time": 2171,
-                "type": "word",
-                "start": 65,
-                "end": 69,
-                "value": "week"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "3": {
         "text": "Monday",
@@ -286,18 +195,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Monday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Monday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Monday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "4": {
         "text": "On Monday, Senuri plays chess.",
@@ -360,53 +262,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Monday,<break time=\"300ms\"/> Senuri plays chess.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Monday, <phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> plays chess.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 197,
-                "type": "word",
-                "start": 30,
-                "end": 36,
-                "value": "Monday"
-            },
-            {
-                "time": 988,
-                "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1388,
-                "type": "word",
-                "start": 59,
-                "end": 65,
-                "value": "Senuri"
-            },
-            {
-                "time": 1929,
-                "type": "word",
-                "start": 66,
-                "end": 71,
-                "value": "plays"
-            },
-            {
-                "time": 2375,
-                "type": "word",
-                "start": 72,
-                "end": 77,
-                "value": "chess"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "5": {
         "text": "Tuesday",
@@ -425,18 +285,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Tuesday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Tuesday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Tuesday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "6": {
         "text": "On Tuesday, she goes swimming.",
@@ -499,53 +352,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Tuesday,<break time=\"300ms\"/> she goes swimming.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Tuesday, she goes swimming.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 179,
-                "type": "word",
-                "start": 30,
-                "end": 37,
-                "value": "Tuesday"
-            },
-            {
-                "time": 1033,
-                "type": "word",
-                "start": 38,
-                "end": 59,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1426,
-                "type": "word",
-                "start": 60,
-                "end": 63,
-                "value": "she"
-            },
-            {
-                "time": 1606,
-                "type": "word",
-                "start": 64,
-                "end": 68,
-                "value": "goes"
-            },
-            {
-                "time": 1936,
-                "type": "word",
-                "start": 69,
-                "end": 77,
-                "value": "swimming"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "7": {
         "text": "Wednesday",
@@ -564,18 +375,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Wednesday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Wednesday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "Wednesday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "8": {
         "text": "On Wednesday, she plays with her sister.",
@@ -660,67 +464,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Wednesday,<break time=\"300ms\"/> she plays with her sister.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Wednesday, she plays with her sister.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 176,
-                "type": "word",
-                "start": 30,
-                "end": 39,
-                "value": "Wednesday"
-            },
-            {
-                "time": 1029,
-                "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1429,
-                "type": "word",
-                "start": 62,
-                "end": 65,
-                "value": "she"
-            },
-            {
-                "time": 1642,
-                "type": "word",
-                "start": 66,
-                "end": 71,
-                "value": "plays"
-            },
-            {
-                "time": 2034,
-                "type": "word",
-                "start": 72,
-                "end": 76,
-                "value": "with"
-            },
-            {
-                "time": 2215,
-                "type": "word",
-                "start": 77,
-                "end": 80,
-                "value": "her"
-            },
-            {
-                "time": 2340,
-                "type": "word",
-                "start": 81,
-                "end": 87,
-                "value": "sister"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "9": {
         "text": "Thursday",
@@ -739,18 +487,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Thursday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Thursday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "Thursday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "10": {
         "text": "On Thursday, she waters the plants in her garden.",
@@ -857,81 +598,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Thursday,<break time=\"300ms\"/> she waters the plants in her garden.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Thursday, she waters the plants in her garden.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 194,
-                "type": "word",
-                "start": 30,
-                "end": 38,
-                "value": "Thursday"
-            },
-            {
-                "time": 1057,
-                "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1457,
-                "type": "word",
-                "start": 61,
-                "end": 64,
-                "value": "she"
-            },
-            {
-                "time": 1602,
-                "type": "word",
-                "start": 65,
-                "end": 71,
-                "value": "waters"
-            },
-            {
-                "time": 2069,
-                "type": "word",
-                "start": 72,
-                "end": 75,
-                "value": "the"
-            },
-            {
-                "time": 2159,
-                "type": "word",
-                "start": 76,
-                "end": 82,
-                "value": "plants"
-            },
-            {
-                "time": 2702,
-                "type": "word",
-                "start": 83,
-                "end": 85,
-                "value": "in"
-            },
-            {
-                "time": 2812,
-                "type": "word",
-                "start": 86,
-                "end": 89,
-                "value": "her"
-            },
-            {
-                "time": 2945,
-                "type": "word",
-                "start": 90,
-                "end": 96,
-                "value": "garden"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "11": {
         "text": "Friday",
@@ -950,18 +621,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Friday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Friday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Friday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "12": {
         "text": "On Friday, she reads books.",
@@ -1024,53 +688,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Friday,<break time=\"300ms\"/> she reads books.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Friday, she reads books.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 207,
-                "type": "word",
-                "start": 30,
-                "end": 36,
-                "value": "Friday"
-            },
-            {
-                "time": 1050,
-                "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1450,
-                "type": "word",
-                "start": 59,
-                "end": 62,
-                "value": "she"
-            },
-            {
-                "time": 1675,
-                "type": "word",
-                "start": 63,
-                "end": 68,
-                "value": "reads"
-            },
-            {
-                "time": 2049,
-                "type": "word",
-                "start": 69,
-                "end": 74,
-                "value": "books"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "13": {
         "text": "Saturday",
@@ -1089,18 +711,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Saturday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Saturday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "Saturday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "14": {
         "text": "On Saturday, she does her homework.",
@@ -1174,60 +789,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Saturday,<break time=\"300ms\"/> she does her homework.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Saturday, she does her homework.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 214,
-                "type": "word",
-                "start": 30,
-                "end": 38,
-                "value": "Saturday"
-            },
-            {
-                "time": 1091,
-                "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1485,
-                "type": "word",
-                "start": 61,
-                "end": 64,
-                "value": "she"
-            },
-            {
-                "time": 1658,
-                "type": "word",
-                "start": 65,
-                "end": 69,
-                "value": "does"
-            },
-            {
-                "time": 1917,
-                "type": "word",
-                "start": 70,
-                "end": 73,
-                "value": "her"
-            },
-            {
-                "time": 2056,
-                "type": "word",
-                "start": 74,
-                "end": 82,
-                "value": "homework"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "15": {
         "text": "Sunday",
@@ -1246,18 +812,11 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sunday</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sunday</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Sunday"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     },
     "16": {
         "text": "On Sunday, she visits her grandmother.",
@@ -1331,59 +890,10 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On Sunday,<break time=\"300ms\"/> she visits her grandmother.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On Sunday, she visits her grandmother.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "On"
-            },
-            {
-                "time": 206,
-                "type": "word",
-                "start": 30,
-                "end": 36,
-                "value": "Sunday"
-            },
-            {
-                "time": 1002,
-                "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1402,
-                "type": "word",
-                "start": 59,
-                "end": 62,
-                "value": "she"
-            },
-            {
-                "time": 1591,
-                "type": "word",
-                "start": 63,
-                "end": 69,
-                "value": "visits"
-            },
-            {
-                "time": 2045,
-                "type": "word",
-                "start": 70,
-                "end": 73,
-                "value": "her"
-            },
-            {
-                "time": 2179,
-                "type": "word",
-                "start": 74,
-                "end": 85,
-                "value": "grandmother"
-            }
-        ]
+        "voice_id": "Joanna",
+        "timing": []
     }
 }

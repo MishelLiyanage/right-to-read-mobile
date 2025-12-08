@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "13",
-        "words": [
-            "13"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    554.219970703125,
-                    24.34998893737793
-                ],
-                [
-                    577.1099853515625,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>13 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "13"
-            },
-            {
-                "time": 897,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Sahan, this is my friend, Nizam.",
         "words": [
             "Sahan,",
@@ -109,93 +71,156 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>Sahan, <break time='200ms'/> this <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> friend, <break time='200ms'/> Nizam. <break time='200ms'/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>, <break time='200ms'/> this <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> friend, <break time='200ms'/> <phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme>. <break time='200ms'/></prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 28,
-                "end": 33,
+                "start": 63,
+                "end": 68,
                 "value": "Sahan"
             },
             {
-                "time": 822,
+                "time": 906,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1168,
+                "type": "word",
+                "start": 102,
+                "end": 106,
+                "value": "this"
+            },
+            {
+                "time": 2032,
+                "type": "word",
+                "start": 107,
+                "end": 128,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2301,
+                "type": "word",
+                "start": 129,
+                "end": 131,
+                "value": "is"
+            },
+            {
+                "time": 2997,
+                "type": "word",
+                "start": 132,
+                "end": 153,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3265,
+                "type": "word",
+                "start": 154,
+                "end": 156,
+                "value": "my"
+            },
+            {
+                "time": 4133,
+                "type": "word",
+                "start": 157,
+                "end": 178,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4452,
+                "type": "word",
+                "start": 179,
+                "end": 185,
+                "value": "friend"
+            },
+            {
+                "time": 5324,
+                "type": "word",
+                "start": 187,
+                "end": 208,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5661,
+                "type": "word",
+                "start": 244,
+                "end": 249,
+                "value": "Nizam"
+            },
+            {
+                "time": 6910,
+                "type": "word",
+                "start": 261,
+                "end": 282,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Hello! Nizam.",
+        "words": [
+            "Hello!",
+            "Nizam."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    425.2803039550781,
+                    90.99594116210938
+                ],
+                [
+                    479.2602844238281,
+                    114.8159408569336
+                ]
+            ],
+            [
+                [
+                    418.4602966308594,
+                    117.99594116210938
+                ],
+                [
+                    487.0802917480469,
+                    141.81594848632812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> <phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme>. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 871,
                 "type": "word",
                 "start": 35,
                 "end": 56,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1122,
+                "time": 1589,
                 "type": "word",
-                "start": 57,
-                "end": 61,
-                "value": "this"
-            },
-            {
-                "time": 1801,
-                "type": "word",
-                "start": 62,
-                "end": 83,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 2094,
-                "type": "word",
-                "start": 84,
-                "end": 86,
-                "value": "is"
-            },
-            {
-                "time": 2724,
-                "type": "word",
-                "start": 87,
-                "end": 108,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 3024,
-                "type": "word",
-                "start": 109,
-                "end": 111,
-                "value": "my"
-            },
-            {
-                "time": 3719,
-                "type": "word",
-                "start": 112,
-                "end": 133,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 4019,
-                "type": "word",
-                "start": 134,
-                "end": 140,
-                "value": "friend"
-            },
-            {
-                "time": 4725,
-                "type": "word",
-                "start": 142,
-                "end": 163,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 5027,
-                "type": "word",
-                "start": 164,
-                "end": 169,
+                "start": 92,
+                "end": 97,
                 "value": "Nizam"
             },
             {
-                "time": 5698,
+                "time": 2837,
                 "type": "word",
-                "start": 171,
-                "end": 192,
+                "start": 109,
+                "end": 130,
                 "value": "<break time='200ms'/>"
             }
         ]
@@ -228,105 +253,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> Sahan. <break time='200ms'/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> <phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>. <break time='200ms'/></prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
                 "start": 28,
                 "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 638,
+                "time": 871,
                 "type": "word",
                 "start": 35,
                 "end": 56,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1224,
+                "time": 1639,
                 "type": "word",
-                "start": 57,
-                "end": 62,
+                "start": 92,
+                "end": 97,
                 "value": "Sahan"
             },
             {
-                "time": 1912,
+                "time": 2872,
                 "type": "word",
-                "start": 64,
-                "end": 85,
+                "start": 109,
+                "end": 130,
                 "value": "<break time='200ms'/>"
             }
         ]
     },
     "3": {
-        "text": "Hello! Nizam.",
-        "words": [
-            "Hello!",
-            "Nizam."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    425.2803039550781,
-                    90.99594116210938
-                ],
-                [
-                    479.2602844238281,
-                    114.8159408569336
-                ]
-            ],
-            [
-                [
-                    418.4602966308594,
-                    117.99594116210938
-                ],
-                [
-                    487.0802917480469,
-                    141.81594848632812
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> Nizam. <break time='200ms'/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 33,
-                "value": "Hello"
-            },
-            {
-                "time": 638,
-                "type": "word",
-                "start": 35,
-                "end": 56,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 1224,
-                "type": "word",
-                "start": 57,
-                "end": 62,
-                "value": "Nizam"
-            },
-            {
-                "time": 2091,
-                "type": "word",
-                "start": 64,
-                "end": 85,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "4": {
         "text": "Make groups of three. Introduce your friend.",
         "words": [
             "Make",
@@ -412,101 +374,101 @@
         "ssml": "<speak><prosody rate='slow'>Make <break time='200ms'/> groups <break time='200ms'/> of <break time='200ms'/> three. <break time='200ms'/> Introduce <break time='200ms'/> your <break time='200ms'/> friend. <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 32,
                 "value": "Make"
             },
             {
-                "time": 538,
+                "time": 677,
                 "type": "word",
                 "start": 33,
                 "end": 54,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 838,
+                "time": 908,
                 "type": "word",
                 "start": 55,
                 "end": 61,
                 "value": "groups"
             },
             {
-                "time": 1545,
+                "time": 1614,
                 "type": "word",
                 "start": 62,
                 "end": 83,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1845,
+                "time": 1907,
                 "type": "word",
                 "start": 84,
                 "end": 86,
                 "value": "of"
             },
             {
-                "time": 2427,
+                "time": 2365,
                 "type": "word",
                 "start": 87,
                 "end": 108,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 2727,
+                "time": 2640,
                 "type": "word",
                 "start": 109,
                 "end": 114,
                 "value": "three"
             },
             {
-                "time": 3355,
+                "time": 3264,
                 "type": "word",
                 "start": 116,
                 "end": 137,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 3942,
+                "time": 4031,
                 "type": "word",
                 "start": 138,
                 "end": 147,
                 "value": "Introduce"
             },
             {
-                "time": 4932,
+                "time": 4845,
                 "type": "word",
                 "start": 148,
                 "end": 169,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 5232,
+                "time": 5170,
                 "type": "word",
                 "start": 170,
                 "end": 174,
                 "value": "your"
             },
             {
-                "time": 5706,
+                "time": 5538,
                 "type": "word",
                 "start": 175,
                 "end": 196,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 6006,
+                "time": 5800,
                 "type": "word",
                 "start": 197,
                 "end": 203,
                 "value": "friend"
             },
             {
-                "time": 6578,
+                "time": 6486,
                 "type": "word",
                 "start": 205,
                 "end": 226,

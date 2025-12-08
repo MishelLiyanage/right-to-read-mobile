@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 397,
+                "time": 452,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "3"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and enjoy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and enjoy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 404,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 543,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 39,
+                "end": 44,
                 "value": "enjoy"
             }
         ]
@@ -157,6 +159,753 @@
             "is",
             "working",
             "hard."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    121.15658569335938
+                ],
+                [
+                    116.93820190429688,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    122.18820190429688,
+                    121.15658569335938
+                ],
+                [
+                    136.86720275878906,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    142.11720275878906,
+                    121.15658569335938
+                ],
+                [
+                    154.8852081298828,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    160.1352081298828,
+                    121.15658569335938
+                ],
+                [
+                    280.9272155761719,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    285.96722412109375,
+                    121.15658569335938
+                ],
+                [
+                    324.7332458496094,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    329.9832458496094,
+                    121.15658569335938
+                ],
+                [
+                    355.98126220703125,
+                    146.16758728027344
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    146.14657592773438
+                ],
+                [
+                    102.82620239257812,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    106.39620208740234,
+                    146.14657592773438
+                ],
+                [
+                    153.1422119140625,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    158.1822052001953,
+                    146.14657592773438
+                ],
+                [
+                    189.4722137451172,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    194.7222137451172,
+                    146.14657592773438
+                ],
+                [
+                    243.9042205810547,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    249.1542205810547,
+                    146.14657592773438
+                ],
+                [
+                    323.4102478027344,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    327.6102600097656,
+                    146.14657592773438
+                ],
+                [
+                    358.333251953125,
+                    171.15757751464844
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    171.13656616210938
+                ],
+                [
+                    75.127197265625,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    80.377197265625,
+                    171.13656616210938
+                ],
+                [
+                    118.47119903564453,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    123.72119903564453,
+                    171.13656616210938
+                ],
+                [
+                    164.7552032470703,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    168.3251953125,
+                    171.13656616210938
+                ],
+                [
+                    204.38218688964844,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    209.63218688964844,
+                    171.13656616210938
+                ],
+                [
+                    330.4242248535156,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    335.4642333984375,
+                    171.13656616210938
+                ],
+                [
+                    350.1432189941406,
+                    196.14756774902344
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    196.12655639648438
+                ],
+                [
+                    134.158203125,
+                    221.13755798339844
+                ]
+            ],
+            [
+                [
+                    139.408203125,
+                    196.12655639648438
+                ],
+                [
+                    178.17420959472656,
+                    221.13755798339844
+                ]
+            ],
+            [
+                [
+                    183.42420959472656,
+                    196.12655639648438
+                ],
+                [
+                    270.7842102050781,
+                    221.13755798339844
+                ]
+            ],
+            [
+                [
+                    274.9842224121094,
+                    196.12655639648438
+                ],
+                [
+                    309.44525146484375,
+                    221.13755798339844
+                ]
+            ],
+            [
+                [
+                    314.2752685546875,
+                    196.12655639648438
+                ],
+                [
+                    347.3923034667969,
+                    221.13755798339844
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    221.11654663085938
+                ],
+                [
+                    96.2322006225586,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    101.27220153808594,
+                    221.11654663085938
+                ],
+                [
+                    115.95120239257812,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    121.20120239257812,
+                    221.11654663085938
+                ],
+                [
+                    215.97422790527344,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    221.22422790527344,
+                    221.11654663085938
+                ],
+                [
+                    265.4712219238281,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    270.7212219238281,
+                    221.11654663085938
+                ],
+                [
+                    297.4122009277344,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    302.2422180175781,
+                    221.11654663085938
+                ],
+                [
+                    335.3592529296875,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    340.6092529296875,
+                    221.11654663085938
+                ],
+                [
+                    388.82525634765625,
+                    246.12754821777344
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    246.10653686523438
+                ],
+                [
+                    137.7911834716797,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    141.36117553710938,
+                    246.10653686523438
+                ],
+                [
+                    177.4181671142578,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    182.6681671142578,
+                    246.10653686523438
+                ],
+                [
+                    303.460205078125,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    308.5002136230469,
+                    246.10653686523438
+                ],
+                [
+                    378.3042297363281,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    383.34423828125,
+                    246.10653686523438
+                ],
+                [
+                    497.290283203125,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    502.3302917480469,
+                    246.10653686523438
+                ],
+                [
+                    543.25927734375,
+                    271.1175231933594
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    271.0965270996094
+                ],
+                [
+                    95.47620391845703,
+                    296.1075134277344
+                ]
+            ],
+            [
+                [
+                    100.72620391845703,
+                    271.0965270996094
+                ],
+                [
+                    134.5991973876953,
+                    296.1075134277344
+                ]
+            ],
+            [
+                [
+                    139.63919067382812,
+                    271.0965270996094
+                ],
+                [
+                    154.31817626953125,
+                    296.1075134277344
+                ]
+            ],
+            [
+                [
+                    159.35816955566406,
+                    271.0965270996094
+                ],
+                [
+                    237.7931671142578,
+                    296.1075134277344
+                ]
+            ],
+            [
+                [
+                    243.0431671142578,
+                    271.0965270996094
+                ],
+                [
+                    295.0181579589844,
+                    296.1075134277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>There is a grasshopper and an ant. They are good friends. It's a fine day. The grasshopper is singing and dancing. But the ant is collecting food for the rainy season. The grasshopper cannot understand why the ant is working hard.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "There"
+            },
+            {
+                "time": 219,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "is"
+            },
+            {
+                "time": 357,
+                "type": "word",
+                "start": 37,
+                "end": 38,
+                "value": "a"
+            },
+            {
+                "time": 417,
+                "type": "word",
+                "start": 39,
+                "end": 50,
+                "value": "grasshopper"
+            },
+            {
+                "time": 1290,
+                "type": "word",
+                "start": 51,
+                "end": 54,
+                "value": "and"
+            },
+            {
+                "time": 1389,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "an"
+            },
+            {
+                "time": 1478,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "ant"
+            },
+            {
+                "time": 2369,
+                "type": "word",
+                "start": 63,
+                "end": 67,
+                "value": "They"
+            },
+            {
+                "time": 2527,
+                "type": "word",
+                "start": 68,
+                "end": 71,
+                "value": "are"
+            },
+            {
+                "time": 2628,
+                "type": "word",
+                "start": 72,
+                "end": 76,
+                "value": "good"
+            },
+            {
+                "time": 2906,
+                "type": "word",
+                "start": 77,
+                "end": 84,
+                "value": "friends"
+            },
+            {
+                "time": 3935,
+                "type": "word",
+                "start": 86,
+                "end": 90,
+                "value": "It's"
+            },
+            {
+                "time": 4134,
+                "type": "word",
+                "start": 91,
+                "end": 92,
+                "value": "a"
+            },
+            {
+                "time": 4198,
+                "type": "word",
+                "start": 93,
+                "end": 97,
+                "value": "fine"
+            },
+            {
+                "time": 4528,
+                "type": "word",
+                "start": 98,
+                "end": 101,
+                "value": "day"
+            },
+            {
+                "time": 5345,
+                "type": "word",
+                "start": 103,
+                "end": 106,
+                "value": "The"
+            },
+            {
+                "time": 5465,
+                "type": "word",
+                "start": 107,
+                "end": 118,
+                "value": "grasshopper"
+            },
+            {
+                "time": 6312,
+                "type": "word",
+                "start": 119,
+                "end": 121,
+                "value": "is"
+            },
+            {
+                "time": 6455,
+                "type": "word",
+                "start": 122,
+                "end": 129,
+                "value": "singing"
+            },
+            {
+                "time": 6878,
+                "type": "word",
+                "start": 130,
+                "end": 133,
+                "value": "and"
+            },
+            {
+                "time": 7010,
+                "type": "word",
+                "start": 134,
+                "end": 141,
+                "value": "dancing"
+            },
+            {
+                "time": 8070,
+                "type": "word",
+                "start": 143,
+                "end": 146,
+                "value": "But"
+            },
+            {
+                "time": 8230,
+                "type": "word",
+                "start": 147,
+                "end": 150,
+                "value": "the"
+            },
+            {
+                "time": 8466,
+                "type": "word",
+                "start": 151,
+                "end": 154,
+                "value": "ant"
+            },
+            {
+                "time": 8651,
+                "type": "word",
+                "start": 155,
+                "end": 157,
+                "value": "is"
+            },
+            {
+                "time": 8817,
+                "type": "word",
+                "start": 158,
+                "end": 168,
+                "value": "collecting"
+            },
+            {
+                "time": 9384,
+                "type": "word",
+                "start": 169,
+                "end": 173,
+                "value": "food"
+            },
+            {
+                "time": 9715,
+                "type": "word",
+                "start": 174,
+                "end": 177,
+                "value": "for"
+            },
+            {
+                "time": 9862,
+                "type": "word",
+                "start": 178,
+                "end": 181,
+                "value": "the"
+            },
+            {
+                "time": 9965,
+                "type": "word",
+                "start": 182,
+                "end": 187,
+                "value": "rainy"
+            },
+            {
+                "time": 10392,
+                "type": "word",
+                "start": 188,
+                "end": 194,
+                "value": "season"
+            },
+            {
+                "time": 11496,
+                "type": "word",
+                "start": 196,
+                "end": 199,
+                "value": "The"
+            },
+            {
+                "time": 11616,
+                "type": "word",
+                "start": 200,
+                "end": 211,
+                "value": "grasshopper"
+            },
+            {
+                "time": 12451,
+                "type": "word",
+                "start": 212,
+                "end": 218,
+                "value": "cannot"
+            },
+            {
+                "time": 12902,
+                "type": "word",
+                "start": 219,
+                "end": 229,
+                "value": "understand"
+            },
+            {
+                "time": 13572,
+                "type": "word",
+                "start": 230,
+                "end": 233,
+                "value": "why"
+            },
+            {
+                "time": 13767,
+                "type": "word",
+                "start": 234,
+                "end": 237,
+                "value": "the"
+            },
+            {
+                "time": 13963,
+                "type": "word",
+                "start": 238,
+                "end": 241,
+                "value": "ant"
+            },
+            {
+                "time": 14187,
+                "type": "word",
+                "start": 242,
+                "end": 244,
+                "value": "is"
+            },
+            {
+                "time": 14345,
+                "type": "word",
+                "start": 245,
+                "end": 252,
+                "value": "working"
+            },
+            {
+                "time": 14787,
+                "type": "word",
+                "start": 253,
+                "end": 257,
+                "value": "hard"
+            }
+        ]
+    },
+    "3": {
+        "text": "He asks, \"Hey, ant! Why don't you play with me?\" The ant says, \"I cannot. I am storing food for the rainy season.\" The grasshopper laughs at the ant and says, \"Why are you worrying now? There",
+        "words": [
+            "He",
+            "asks,",
+            "\"Hey,",
+            "ant!",
+            "Why",
+            "don't",
+            "you",
+            "play",
+            "with",
+            "me?\"",
+            "The",
+            "ant",
+            "says,",
+            "\"I",
+            "cannot.",
+            "I",
+            "am",
+            "storing",
+            "food",
+            "for",
+            "the",
+            "rainy",
+            "season.\"",
+            "The",
+            "grasshopper",
+            "laughs",
+            "at",
+            "the",
+            "ant",
+            "and",
+            "says,",
+            "\"Why",
+            "are",
+            "you",
+            "worrying",
+            "now?",
+            "There"
         ],
         "bounding_boxes": [
             [
@@ -530,56 +1279,390 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is a grasshopper and an ant. They are good friends. It's a fine day. The grasshopper is singing and dancing. But the ant is collecting food for the rainy season. The grasshopper cannot understand why the ant is working hard.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "voice_id": "Matthew",
-        "timing": []
+        "ssml": "<speak><prosody rate='slow'>He asks, \"Hey, ant! Why don't you play with me?\" The ant says, \"I cannot. I am storing food for the rainy season.\" The grasshopper laughs at the ant and says, \"Why are you worrying now? There</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "He"
+            },
+            {
+                "time": 295,
+                "type": "word",
+                "start": 31,
+                "end": 35,
+                "value": "asks"
+            },
+            {
+                "time": 1202,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "Hey"
+            },
+            {
+                "time": 1929,
+                "type": "word",
+                "start": 43,
+                "end": 46,
+                "value": "ant"
+            },
+            {
+                "time": 2852,
+                "type": "word",
+                "start": 48,
+                "end": 51,
+                "value": "Why"
+            },
+            {
+                "time": 2984,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "don't"
+            },
+            {
+                "time": 3247,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "you"
+            },
+            {
+                "time": 3379,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "play"
+            },
+            {
+                "time": 3655,
+                "type": "word",
+                "start": 67,
+                "end": 71,
+                "value": "with"
+            },
+            {
+                "time": 3839,
+                "type": "word",
+                "start": 72,
+                "end": 74,
+                "value": "me"
+            },
+            {
+                "time": 4684,
+                "type": "word",
+                "start": 77,
+                "end": 80,
+                "value": "The"
+            },
+            {
+                "time": 4837,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "ant"
+            },
+            {
+                "time": 5150,
+                "type": "word",
+                "start": 85,
+                "end": 89,
+                "value": "says"
+            },
+            {
+                "time": 5910,
+                "type": "word",
+                "start": 92,
+                "end": 93,
+                "value": "I"
+            },
+            {
+                "time": 6056,
+                "type": "word",
+                "start": 94,
+                "end": 100,
+                "value": "cannot"
+            },
+            {
+                "time": 7146,
+                "type": "word",
+                "start": 102,
+                "end": 103,
+                "value": "I"
+            },
+            {
+                "time": 7292,
+                "type": "word",
+                "start": 104,
+                "end": 106,
+                "value": "am"
+            },
+            {
+                "time": 7423,
+                "type": "word",
+                "start": 107,
+                "end": 114,
+                "value": "storing"
+            },
+            {
+                "time": 8119,
+                "type": "word",
+                "start": 115,
+                "end": 119,
+                "value": "food"
+            },
+            {
+                "time": 8421,
+                "type": "word",
+                "start": 120,
+                "end": 123,
+                "value": "for"
+            },
+            {
+                "time": 8603,
+                "type": "word",
+                "start": 124,
+                "end": 127,
+                "value": "the"
+            },
+            {
+                "time": 8756,
+                "type": "word",
+                "start": 128,
+                "end": 133,
+                "value": "rainy"
+            },
+            {
+                "time": 9181,
+                "type": "word",
+                "start": 134,
+                "end": 140,
+                "value": "season"
+            },
+            {
+                "time": 10235,
+                "type": "word",
+                "start": 143,
+                "end": 146,
+                "value": "The"
+            },
+            {
+                "time": 10333,
+                "type": "word",
+                "start": 147,
+                "end": 158,
+                "value": "grasshopper"
+            },
+            {
+                "time": 11238,
+                "type": "word",
+                "start": 159,
+                "end": 165,
+                "value": "laughs"
+            },
+            {
+                "time": 11748,
+                "type": "word",
+                "start": 166,
+                "end": 168,
+                "value": "at"
+            },
+            {
+                "time": 11846,
+                "type": "word",
+                "start": 169,
+                "end": 172,
+                "value": "the"
+            },
+            {
+                "time": 12032,
+                "type": "word",
+                "start": 173,
+                "end": 176,
+                "value": "ant"
+            },
+            {
+                "time": 12332,
+                "type": "word",
+                "start": 177,
+                "end": 180,
+                "value": "and"
+            },
+            {
+                "time": 12478,
+                "type": "word",
+                "start": 181,
+                "end": 185,
+                "value": "says"
+            },
+            {
+                "time": 13251,
+                "type": "word",
+                "start": 188,
+                "end": 191,
+                "value": "Why"
+            },
+            {
+                "time": 13524,
+                "type": "word",
+                "start": 192,
+                "end": 195,
+                "value": "are"
+            },
+            {
+                "time": 13637,
+                "type": "word",
+                "start": 196,
+                "end": 199,
+                "value": "you"
+            },
+            {
+                "time": 13827,
+                "type": "word",
+                "start": 200,
+                "end": 208,
+                "value": "worrying"
+            },
+            {
+                "time": 14269,
+                "type": "word",
+                "start": 209,
+                "end": 212,
+                "value": "now"
+            },
+            {
+                "time": 15191,
+                "type": "word",
+                "start": 214,
+                "end": 219,
+                "value": "There"
+            }
+        ]
     },
-    "3": {
-        "text": "He asks, “Hey, ant! Why don’t you play with me?” The ant says, “I cannot. I am storing food for the rainy season.” The grasshopper laughs at the ant and says, “Why are you worrying now? There is plenty of food!”",
+    "4": {
+        "text": "is plenty of food!\"",
         "words": [
-            "He",
-            "asks,",
-            "“Hey,",
-            "ant!”",
-            "Why",
-            "don’t",
-            "you",
-            "play",
-            "with",
-            "me?”",
-            "The",
-            "ant",
-            "says,",
-            "“I",
-            "cannot.",
-            "I",
-            "am",
-            "storing",
-            "food",
-            "for",
-            "the",
-            "rainy",
-            "season.”",
-            "The",
-            "grasshopper",
-            "laughs",
-            "at",
-            "the",
-            "ant",
-            "and",
-            "says,",
-            "“Why",
-            "are",
-            "you",
-            "worrying",
-            "now?",
-            "There",
             "is",
             "plenty",
             "of",
-            "food!”"
+            "food!\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    509.0267028808594
+                ],
+                [
+                    77.03820037841797,
+                    534.0377197265625
+                ]
+            ],
+            [
+                [
+                    82.28820037841797,
+                    509.0267028808594
+                ],
+                [
+                    144.4272003173828,
+                    534.0377197265625
+                ]
+            ],
+            [
+                [
+                    149.46719360351562,
+                    509.0267028808594
+                ],
+                [
+                    169.43820190429688,
+                    534.0377197265625
+                ]
+            ],
+            [
+                [
+                    174.4781951904297,
+                    509.0267028808594
+                ],
+                [
+                    234.3282012939453,
+                    534.0377197265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>is plenty of food!\"</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "is"
+            },
+            {
+                "time": 193,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "plenty"
+            },
+            {
+                "time": 652,
+                "type": "word",
+                "start": 38,
+                "end": 40,
+                "value": "of"
+            },
+            {
+                "time": 759,
+                "type": "word",
+                "start": 41,
+                "end": 45,
+                "value": "food"
+            }
+        ]
+    },
+    "5": {
+        "text": "The grasshopper continues to play, while the ant is working hard. The rain comes. The grasshopper does not have any food. But the ant gave some food to the grasshopper.",
+        "words": [
+            "The",
+            "grasshopper",
+            "continues",
+            "to",
+            "play,",
+            "while",
+            "the",
+            "ant",
+            "is",
+            "working",
+            "hard.",
+            "The",
+            "rain",
+            "comes.",
+            "The",
+            "grasshopper",
+            "does",
+            "not",
+            "have",
+            "any",
+            "food.",
+            "But",
+            "the",
+            "ant",
+            "gave",
+            "some",
+            "food",
+            "to",
+            "the",
+            "grasshopper."
         ],
         "bounding_boxes": [
             [
@@ -883,82 +1966,221 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\"><amazon:effect name=\"drc\"><voice name=\"Joey\">He asks, <break time=\"300ms\"/>“Hey, ant! Why don’t you play with me?”</voice><break time=\"600ms\"/><voice name=\"Joanna\">The ant says, “I cannot. I am storing food for the rainy season.”</voice><break time=\"600ms\"/><voice name=\"Joey\">The grasshopper laughs and says, “Why are you worrying now? There is plenty of food!”</voice></amazon:effect></prosody></speak>",
-        "dialog": "true",
-        "person_type": "male and female dialogue",
-        "voice_id": "Joey",
-        "timing": []
-    },
-    "4": {
-        "text": "The grasshopper continues to play, while the ant is working hard. The rain comes. The grasshopper does not have any food. But the ant gave some food to the grasshopper.",
-        "words": [
-            "The",
-            "grasshopper",
-            "continues",
-            "to",
-            "play,",
-            "while",
-            "the",
-            "ant",
-            "is",
-            "working",
-            "hard.",
-            "The",
-            "rain",
-            "comes.",
-            "The",
-            "grasshopper",
-            "does",
-            "not",
-            "have",
-            "any",
-            "food.",
-            "But",
-            "the",
-            "ant",
-            "gave",
-            "some",
-            "food",
-            "to",
-            "the",
-            "grasshopper."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    136.19970703125,
-                    65.64700317382812
-                ],
-                [
-                    196.9416961669922,
-                    91.8489990234375
-                ]
-            ],
-            [
-                [
-                    202.4416961669922,
-                    65.64700317382812
-                ],
-                [
-                    243.0537109375,
-                    91.8489990234375
-                ]
-            ],
-            [
-                [
-                    248.5537109375,
-                    65.64700317382812
-                ],
-                [
-                    309.4717102050781,
-                    91.8489990234375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">The grasshopper continues to play, while the ant is working hard. Then the rain comes. The grasshopper has no food. But the ant kindly shares its food with the grasshopper.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The grasshopper continues to play, while the ant is working hard. The rain comes. The grasshopper does not have any food. But the ant gave some food to the grasshopper.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
-        "voice_id": "Matthew",
-        "timing": []
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 126,
+                "type": "word",
+                "start": 32,
+                "end": 43,
+                "value": "grasshopper"
+            },
+            {
+                "time": 982,
+                "type": "word",
+                "start": 44,
+                "end": 53,
+                "value": "continues"
+            },
+            {
+                "time": 1653,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "to"
+            },
+            {
+                "time": 1788,
+                "type": "word",
+                "start": 57,
+                "end": 61,
+                "value": "play"
+            },
+            {
+                "time": 2570,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "while"
+            },
+            {
+                "time": 2786,
+                "type": "word",
+                "start": 69,
+                "end": 72,
+                "value": "the"
+            },
+            {
+                "time": 2990,
+                "type": "word",
+                "start": 73,
+                "end": 76,
+                "value": "ant"
+            },
+            {
+                "time": 3169,
+                "type": "word",
+                "start": 77,
+                "end": 79,
+                "value": "is"
+            },
+            {
+                "time": 3329,
+                "type": "word",
+                "start": 80,
+                "end": 87,
+                "value": "working"
+            },
+            {
+                "time": 3770,
+                "type": "word",
+                "start": 88,
+                "end": 92,
+                "value": "hard"
+            },
+            {
+                "time": 4642,
+                "type": "word",
+                "start": 94,
+                "end": 97,
+                "value": "The"
+            },
+            {
+                "time": 4767,
+                "type": "word",
+                "start": 98,
+                "end": 102,
+                "value": "rain"
+            },
+            {
+                "time": 5122,
+                "type": "word",
+                "start": 103,
+                "end": 108,
+                "value": "comes"
+            },
+            {
+                "time": 6126,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "The"
+            },
+            {
+                "time": 6245,
+                "type": "word",
+                "start": 114,
+                "end": 125,
+                "value": "grasshopper"
+            },
+            {
+                "time": 7076,
+                "type": "word",
+                "start": 126,
+                "end": 130,
+                "value": "does"
+            },
+            {
+                "time": 7336,
+                "type": "word",
+                "start": 131,
+                "end": 134,
+                "value": "not"
+            },
+            {
+                "time": 7582,
+                "type": "word",
+                "start": 135,
+                "end": 139,
+                "value": "have"
+            },
+            {
+                "time": 7798,
+                "type": "word",
+                "start": 140,
+                "end": 143,
+                "value": "any"
+            },
+            {
+                "time": 7998,
+                "type": "word",
+                "start": 144,
+                "end": 148,
+                "value": "food"
+            },
+            {
+                "time": 8927,
+                "type": "word",
+                "start": 150,
+                "end": 153,
+                "value": "But"
+            },
+            {
+                "time": 9087,
+                "type": "word",
+                "start": 154,
+                "end": 157,
+                "value": "the"
+            },
+            {
+                "time": 9323,
+                "type": "word",
+                "start": 158,
+                "end": 161,
+                "value": "ant"
+            },
+            {
+                "time": 9508,
+                "type": "word",
+                "start": 162,
+                "end": 166,
+                "value": "gave"
+            },
+            {
+                "time": 9787,
+                "type": "word",
+                "start": 167,
+                "end": 171,
+                "value": "some"
+            },
+            {
+                "time": 10074,
+                "type": "word",
+                "start": 172,
+                "end": 176,
+                "value": "food"
+            },
+            {
+                "time": 10428,
+                "type": "word",
+                "start": 177,
+                "end": 179,
+                "value": "to"
+            },
+            {
+                "time": 10565,
+                "type": "word",
+                "start": 180,
+                "end": 183,
+                "value": "the"
+            },
+            {
+                "time": 10694,
+                "type": "word",
+                "start": 184,
+                "end": 195,
+                "value": "grasshopper"
+            }
+        ]
     }
 }

@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -97,36 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read the good practices.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the good practices.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 221,
+                "time": 237,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 298,
+                "time": 321,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "good"
             },
             {
-                "time": 567,
+                "time": 597,
                 "type": "word",
-                "start": 41,
-                "end": 50,
+                "start": 42,
+                "end": 51,
                 "value": "practices"
             }
         ]
@@ -192,43 +194,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How many do you practise?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How many do you practise?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 185,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "many"
             },
             {
                 "time": 512,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "do"
             },
             {
                 "time": 642,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "you"
             },
             {
                 "time": 783,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 44,
+                "end": 52,
                 "value": "practise"
             }
         ]
@@ -294,54 +297,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We have a good sleep.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We have a good sleep.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 132,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "have"
             },
             {
                 "time": 343,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "a"
             },
             {
                 "time": 425,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "good"
             },
             {
                 "time": 666,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "sleep"
             }
         ]
     },
     "4": {
-        "text": "We take dinner together.",
+        "text": "We take dinner together. We eat healthy food. We wash our hands before meals.",
         "words": [
             "We",
             "take",
             "dinner",
-            "together."
+            "together.",
+            "We",
+            "eat",
+            "healthy",
+            "food.",
+            "We",
+            "wash",
+            "our",
+            "hands",
+            "before",
+            "meals."
         ],
         "bounding_boxes": [
             [
@@ -383,53 +397,47 @@
                     263.7204284667969,
                     212.44326782226562
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We take dinner together.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 145,
-                "type": "word",
-                "start": 30,
-                "end": 34,
-                "value": "take"
-            },
-            {
-                "time": 488,
-                "type": "word",
-                "start": 35,
-                "end": 41,
-                "value": "dinner"
-            },
-            {
-                "time": 764,
-                "type": "word",
-                "start": 42,
-                "end": 50,
-                "value": "together"
-            }
-        ]
-    },
-    "5": {
-        "text": "We wash our hands before meals.",
-        "words": [
-            "We",
-            "wash",
-            "our",
-            "hands",
-            "before",
-            "meals."
-        ],
-        "bounding_boxes": [
+            ],
+            [
+                [
+                    489.59637451171875,
+                    176.4912567138672
+                ],
+                [
+                    510.974365234375,
+                    193.16525268554688
+                ]
+            ],
+            [
+                [
+                    514.474365234375,
+                    176.4912567138672
+                ],
+                [
+                    536.1743774414062,
+                    193.16525268554688
+                ]
+            ],
+            [
+                [
+                    469.63238525390625,
+                    191.4852752685547
+                ],
+                [
+                    519.4583129882812,
+                    208.15927124023438
+                ]
+            ],
+            [
+                [
+                    522.8182983398438,
+                    191.4852752685547
+                ],
+                [
+                    556.7123413085938,
+                    208.15927124023438
+                ]
+            ],
             [
                 [
                     313.3083801269531,
@@ -491,146 +499,123 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We wash our hands before meals.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We take dinner together. We eat healthy food. We wash our hands before meals.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 136,
+                "time": 145,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
+                "value": "take"
+            },
+            {
+                "time": 493,
+                "type": "word",
+                "start": 36,
+                "end": 42,
+                "value": "dinner"
+            },
+            {
+                "time": 769,
+                "type": "word",
+                "start": 43,
+                "end": 51,
+                "value": "together"
+            },
+            {
+                "time": 1920,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "We"
+            },
+            {
+                "time": 2111,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "eat"
+            },
+            {
+                "time": 2291,
+                "type": "word",
+                "start": 60,
+                "end": 67,
+                "value": "healthy"
+            },
+            {
+                "time": 2697,
+                "type": "word",
+                "start": 68,
+                "end": 72,
+                "value": "food"
+            },
+            {
+                "time": 3586,
+                "type": "word",
+                "start": 74,
+                "end": 76,
+                "value": "We"
+            },
+            {
+                "time": 3715,
+                "type": "word",
+                "start": 77,
+                "end": 81,
                 "value": "wash"
             },
             {
-                "time": 451,
+                "time": 4040,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 82,
+                "end": 85,
                 "value": "our"
             },
             {
-                "time": 621,
+                "time": 4217,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 86,
+                "end": 91,
                 "value": "hands"
             },
             {
-                "time": 1132,
+                "time": 4761,
                 "type": "word",
-                "start": 45,
-                "end": 51,
+                "start": 92,
+                "end": 98,
                 "value": "before"
             },
             {
-                "time": 1527,
+                "time": 5169,
                 "type": "word",
-                "start": 52,
-                "end": 57,
+                "start": 99,
+                "end": 104,
                 "value": "meals"
             }
         ]
     },
-    "6": {
-        "text": "We eat healthy food.",
-        "words": [
-            "We",
-            "eat",
-            "healthy",
-            "food."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    489.59637451171875,
-                    176.4912567138672
-                ],
-                [
-                    510.974365234375,
-                    193.16525268554688
-                ]
-            ],
-            [
-                [
-                    514.474365234375,
-                    176.4912567138672
-                ],
-                [
-                    536.1743774414062,
-                    193.16525268554688
-                ]
-            ],
-            [
-                [
-                    469.63238525390625,
-                    191.4852752685547
-                ],
-                [
-                    519.4583129882812,
-                    208.15927124023438
-                ]
-            ],
-            [
-                [
-                    522.8182983398438,
-                    191.4852752685547
-                ],
-                [
-                    556.7123413085938,
-                    208.15927124023438
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We eat healthy food.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 190,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "eat"
-            },
-            {
-                "time": 364,
-                "type": "word",
-                "start": 34,
-                "end": 41,
-                "value": "healthy"
-            },
-            {
-                "time": 758,
-                "type": "word",
-                "start": 42,
-                "end": 46,
-                "value": "food"
-            }
-        ]
-    },
-    "7": {
-        "text": "We brush our teeth everyday.",
+    "5": {
+        "text": "We brush our teeth everyday. We get up early.",
         "words": [
             "We",
             "brush",
             "our",
             "teeth",
-            "everyday."
+            "everyday.",
+            "We",
+            "get",
+            "up",
+            "early."
         ],
         "bounding_boxes": [
             [
@@ -682,58 +667,7 @@
                     154.60440063476562,
                     441.46923828125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We brush our teeth everyday.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 156,
-                "type": "word",
-                "start": 30,
-                "end": 35,
-                "value": "brush"
-            },
-            {
-                "time": 561,
-                "type": "word",
-                "start": 36,
-                "end": 39,
-                "value": "our"
-            },
-            {
-                "time": 688,
-                "type": "word",
-                "start": 40,
-                "end": 45,
-                "value": "teeth"
-            },
-            {
-                "time": 1066,
-                "type": "word",
-                "start": 46,
-                "end": 54,
-                "value": "everyday"
-            }
-        ]
-    },
-    "8": {
-        "text": "We get up early.",
-        "words": [
-            "We",
-            "get",
-            "up",
-            "early."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     193.91639709472656,
@@ -775,47 +709,88 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We get up early.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We brush our teeth everyday. We get up early.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 135,
+                "time": 167,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 36,
+                "value": "brush"
+            },
+            {
+                "time": 585,
+                "type": "word",
+                "start": 37,
+                "end": 40,
+                "value": "our"
+            },
+            {
+                "time": 713,
+                "type": "word",
+                "start": 41,
+                "end": 46,
+                "value": "teeth"
+            },
+            {
+                "time": 1096,
+                "type": "word",
+                "start": 47,
+                "end": 55,
+                "value": "everyday"
+            },
+            {
+                "time": 2207,
+                "type": "word",
+                "start": 57,
+                "end": 59,
+                "value": "We"
+            },
+            {
+                "time": 2336,
+                "type": "word",
+                "start": 60,
+                "end": 63,
                 "value": "get"
             },
             {
-                "time": 324,
+                "time": 2525,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 64,
+                "end": 66,
                 "value": "up"
             },
             {
-                "time": 499,
+                "time": 2700,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 67,
+                "end": 72,
                 "value": "early"
             }
         ]
     },
-    "9": {
-        "text": "We drink boiled water.",
+    "6": {
+        "text": "We drink boiled water. We are kind to animals.",
         "words": [
             "We",
             "drink",
             "boiled",
-            "water."
+            "water.",
+            "We",
+            "are",
+            "kind",
+            "to",
+            "animals."
         ],
         "bounding_boxes": [
             [
@@ -857,52 +832,7 @@
                     414.7943115234375,
                     439.3272705078125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">We drink boiled water.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "We"
-            },
-            {
-                "time": 147,
-                "type": "word",
-                "start": 30,
-                "end": 35,
-                "value": "drink"
-            },
-            {
-                "time": 540,
-                "type": "word",
-                "start": 36,
-                "end": 42,
-                "value": "boiled"
-            },
-            {
-                "time": 899,
-                "type": "word",
-                "start": 43,
-                "end": 48,
-                "value": "water"
-            }
-        ]
-    },
-    "10": {
-        "text": "We are kind to animals.",
-        "words": [
-            "We",
-            "are",
-            "kind",
-            "to",
-            "animals."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     470.4583740234375,
@@ -954,48 +884,77 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We are kind to animals.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We drink boiled water. We are kind to animals.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 191,
+                "time": 152,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 36,
+                "value": "drink"
+            },
+            {
+                "time": 571,
+                "type": "word",
+                "start": 37,
+                "end": 43,
+                "value": "boiled"
+            },
+            {
+                "time": 937,
+                "type": "word",
+                "start": 44,
+                "end": 49,
+                "value": "water"
+            },
+            {
+                "time": 1913,
+                "type": "word",
+                "start": 51,
+                "end": 53,
+                "value": "We"
+            },
+            {
+                "time": 2118,
+                "type": "word",
+                "start": 54,
+                "end": 57,
                 "value": "are"
             },
             {
-                "time": 306,
+                "time": 2234,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 58,
+                "end": 62,
                 "value": "kind"
             },
             {
-                "time": 700,
+                "time": 2633,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 63,
+                "end": 65,
                 "value": "to"
             },
             {
-                "time": 757,
+                "time": 2689,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 66,
+                "end": 73,
                 "value": "animals"
             }
         ]
     },
-    "11": {
+    "7": {
         "text": "Ask each student to select a good practice and make a poster. Then, ask them to stand in a circle and hold their posters up. Next, ask the students who have the same posters to step forward and read them aloud.",
         "words": [
             "Ask",
@@ -1452,323 +1411,296 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Ask each student to select a good practice and make a poster.<break time=\"500ms\"/> Then,<break time=\"300ms\"/> ask them to stand in a circle and hold their posters up.<break time=\"500ms\"/> Next,<break time=\"300ms\"/> ask the students who have the same posters to step forward and read them aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ask each student to select a good practice and make a poster. Then, ask them to stand in a circle and hold their posters up. Next, ask the students who have the same posters to step forward and read them aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Ask"
             },
             {
-                "time": 400,
+                "time": 424,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "each"
             },
             {
-                "time": 629,
+                "time": 678,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 37,
+                "end": 44,
                 "value": "student"
             },
             {
-                "time": 1082,
+                "time": 1144,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "to"
             },
             {
-                "time": 1197,
+                "time": 1259,
                 "type": "word",
-                "start": 47,
-                "end": 53,
+                "start": 48,
+                "end": 54,
                 "value": "select"
             },
             {
-                "time": 1750,
+                "time": 1826,
                 "type": "word",
-                "start": 54,
-                "end": 55,
+                "start": 55,
+                "end": 56,
                 "value": "a"
             },
             {
-                "time": 1806,
+                "time": 1882,
                 "type": "word",
-                "start": 56,
-                "end": 60,
+                "start": 57,
+                "end": 61,
                 "value": "good"
             },
             {
-                "time": 2082,
+                "time": 2164,
                 "type": "word",
-                "start": 61,
-                "end": 69,
+                "start": 62,
+                "end": 70,
                 "value": "practice"
             },
             {
-                "time": 2718,
+                "time": 2827,
                 "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 71,
+                "end": 74,
                 "value": "and"
             },
             {
-                "time": 2867,
+                "time": 2976,
                 "type": "word",
-                "start": 74,
-                "end": 78,
+                "start": 75,
+                "end": 79,
                 "value": "make"
             },
             {
-                "time": 3095,
+                "time": 3204,
                 "type": "word",
-                "start": 79,
-                "end": 80,
+                "start": 80,
+                "end": 81,
                 "value": "a"
             },
             {
-                "time": 3152,
+                "time": 3261,
                 "type": "word",
-                "start": 81,
-                "end": 87,
+                "start": 82,
+                "end": 88,
                 "value": "poster"
             },
             {
-                "time": 3933,
+                "time": 4451,
                 "type": "word",
-                "start": 88,
-                "end": 109,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4819,
-                "type": "word",
-                "start": 110,
-                "end": 114,
+                "start": 90,
+                "end": 94,
                 "value": "Then"
             },
             {
-                "time": 5467,
+                "time": 5215,
                 "type": "word",
-                "start": 115,
-                "end": 136,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5868,
-                "type": "word",
-                "start": 137,
-                "end": 140,
+                "start": 96,
+                "end": 99,
                 "value": "ask"
             },
             {
-                "time": 6204,
+                "time": 5563,
                 "type": "word",
-                "start": 141,
-                "end": 145,
+                "start": 100,
+                "end": 104,
                 "value": "them"
             },
             {
-                "time": 6416,
+                "time": 5775,
                 "type": "word",
-                "start": 146,
-                "end": 148,
+                "start": 105,
+                "end": 107,
                 "value": "to"
             },
             {
-                "time": 6527,
+                "time": 5887,
                 "type": "word",
-                "start": 149,
-                "end": 154,
+                "start": 108,
+                "end": 113,
                 "value": "stand"
             },
             {
-                "time": 6959,
+                "time": 6338,
                 "type": "word",
-                "start": 155,
-                "end": 157,
+                "start": 114,
+                "end": 116,
                 "value": "in"
             },
             {
-                "time": 7086,
+                "time": 6466,
                 "type": "word",
-                "start": 158,
-                "end": 159,
+                "start": 117,
+                "end": 118,
                 "value": "a"
             },
             {
-                "time": 7152,
+                "time": 6531,
                 "type": "word",
-                "start": 160,
-                "end": 166,
+                "start": 119,
+                "end": 125,
                 "value": "circle"
             },
             {
-                "time": 7675,
+                "time": 7073,
                 "type": "word",
-                "start": 167,
-                "end": 170,
+                "start": 126,
+                "end": 129,
                 "value": "and"
             },
             {
-                "time": 7758,
+                "time": 7156,
                 "type": "word",
-                "start": 171,
-                "end": 175,
+                "start": 130,
+                "end": 134,
                 "value": "hold"
             },
             {
-                "time": 8097,
+                "time": 7517,
                 "type": "word",
-                "start": 176,
-                "end": 181,
+                "start": 135,
+                "end": 140,
                 "value": "their"
             },
             {
-                "time": 8244,
+                "time": 7671,
                 "type": "word",
-                "start": 182,
-                "end": 189,
+                "start": 141,
+                "end": 148,
                 "value": "posters"
             },
             {
-                "time": 8912,
+                "time": 8353,
                 "type": "word",
-                "start": 190,
-                "end": 192,
+                "start": 149,
+                "end": 151,
                 "value": "up"
             },
             {
-                "time": 9268,
+                "time": 9118,
                 "type": "word",
-                "start": 193,
-                "end": 214,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10154,
-                "type": "word",
-                "start": 215,
-                "end": 219,
+                "start": 153,
+                "end": 157,
                 "value": "Next"
             },
             {
-                "time": 10857,
+                "time": 9934,
                 "type": "word",
-                "start": 220,
-                "end": 241,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 11259,
-                "type": "word",
-                "start": 242,
-                "end": 245,
+                "start": 159,
+                "end": 162,
                 "value": "ask"
             },
             {
-                "time": 11616,
+                "time": 10315,
                 "type": "word",
-                "start": 246,
-                "end": 249,
+                "start": 163,
+                "end": 166,
                 "value": "the"
             },
             {
-                "time": 11708,
+                "time": 10407,
                 "type": "word",
-                "start": 250,
-                "end": 258,
+                "start": 167,
+                "end": 175,
                 "value": "students"
             },
             {
-                "time": 12304,
+                "time": 11036,
                 "type": "word",
-                "start": 259,
-                "end": 262,
+                "start": 176,
+                "end": 179,
                 "value": "who"
             },
             {
-                "time": 12435,
+                "time": 11168,
                 "type": "word",
-                "start": 263,
-                "end": 267,
+                "start": 180,
+                "end": 184,
                 "value": "have"
             },
             {
-                "time": 12632,
+                "time": 11365,
                 "type": "word",
-                "start": 268,
-                "end": 271,
+                "start": 185,
+                "end": 188,
                 "value": "the"
             },
             {
-                "time": 12748,
+                "time": 11480,
                 "type": "word",
-                "start": 272,
-                "end": 276,
+                "start": 189,
+                "end": 193,
                 "value": "same"
             },
             {
-                "time": 13110,
+                "time": 11850,
                 "type": "word",
-                "start": 277,
-                "end": 284,
+                "start": 194,
+                "end": 201,
                 "value": "posters"
             },
             {
-                "time": 13738,
+                "time": 12491,
                 "type": "word",
-                "start": 285,
-                "end": 287,
+                "start": 202,
+                "end": 204,
                 "value": "to"
             },
             {
-                "time": 13864,
+                "time": 12617,
                 "type": "word",
-                "start": 288,
-                "end": 292,
+                "start": 205,
+                "end": 209,
                 "value": "step"
             },
             {
-                "time": 14213,
+                "time": 12991,
                 "type": "word",
-                "start": 293,
-                "end": 300,
+                "start": 210,
+                "end": 217,
                 "value": "forward"
             },
             {
-                "time": 14787,
+                "time": 13566,
                 "type": "word",
-                "start": 301,
-                "end": 304,
+                "start": 218,
+                "end": 221,
                 "value": "and"
             },
             {
-                "time": 14955,
+                "time": 13734,
                 "type": "word",
-                "start": 305,
-                "end": 309,
+                "start": 222,
+                "end": 226,
                 "value": "read"
             },
             {
-                "time": 15170,
+                "time": 13949,
                 "type": "word",
-                "start": 310,
-                "end": 314,
+                "start": 227,
+                "end": 231,
                 "value": "them"
             },
             {
-                "time": 15341,
+                "time": 14120,
                 "type": "word",
-                "start": 315,
-                "end": 320,
+                "start": 232,
+                "end": 237,
                 "value": "aloud"
             }
         ]

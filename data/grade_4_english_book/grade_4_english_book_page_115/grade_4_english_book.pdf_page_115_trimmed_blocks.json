@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -97,36 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and act out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and act out.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 253,
+                "time": 262,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 442,
+                "time": 452,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "act"
             },
             {
-                "time": 762,
+                "time": 778,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "out"
             }
         ]
@@ -214,7 +216,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri : Hello,<break time=\"300ms\"/> Waruni.<break time=\"500ms\"/> I&apos;m Senuri here.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> : Hello, <phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme>. I'm <phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> here.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -222,57 +224,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 886,
+                "time": 913,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 83,
+                "end": 88,
                 "value": "Hello"
             },
             {
-                "time": 1582,
+                "time": 1718,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1982,
-                "type": "word",
-                "start": 64,
-                "end": 70,
+                "start": 126,
+                "end": 132,
                 "value": "Waruni"
             },
             {
-                "time": 2695,
+                "time": 2696,
                 "type": "word",
-                "start": 71,
-                "end": 92,
-                "value": "<break time=\"500ms\"/>"
+                "start": 144,
+                "end": 147,
+                "value": "I'm"
             },
             {
-                "time": 3582,
+                "time": 2948,
                 "type": "word",
-                "start": 93,
-                "end": 101,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 3740,
-                "type": "word",
-                "start": 102,
-                "end": 108,
+                "start": 184,
+                "end": 190,
                 "value": "Senuri"
             },
             {
-                "time": 4348,
+                "time": 3459,
                 "type": "word",
-                "start": 109,
-                "end": 113,
+                "start": 201,
+                "end": 205,
                 "value": "here"
             }
         ]
@@ -360,7 +348,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni: Hello ,<break time=\"300ms\"/> Senuri.<break time=\"500ms\"/> How are you?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme>: Hello , <phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme>. How are you?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -368,57 +356,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Waruni"
             },
             {
-                "time": 940,
+                "time": 872,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 82,
+                "end": 87,
                 "value": "Hello"
             },
             {
-                "time": 1636,
+                "time": 1671,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2036,
-                "type": "word",
-                "start": 64,
-                "end": 70,
+                "start": 126,
+                "end": 132,
                 "value": "Senuri"
             },
             {
-                "time": 2786,
+                "time": 2759,
                 "type": "word",
-                "start": 71,
-                "end": 92,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3672,
-                "type": "word",
-                "start": 93,
-                "end": 96,
+                "start": 144,
+                "end": 147,
                 "value": "How"
             },
             {
-                "time": 3977,
+                "time": 3083,
                 "type": "word",
-                "start": 97,
-                "end": 100,
+                "start": 148,
+                "end": 151,
                 "value": "are"
             },
             {
-                "time": 4201,
+                "time": 3313,
                 "type": "word",
-                "start": 101,
-                "end": 104,
+                "start": 152,
+                "end": 155,
                 "value": "you"
             }
         ]
@@ -528,7 +502,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri : Fine,<break time=\"300ms\"/> thanks.<break time=\"500ms\"/> Hope you are fine too.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> : Fine, thanks. Hope you are fine too.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -536,71 +510,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 892,
+                "time": 920,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 83,
+                "end": 87,
                 "value": "Fine"
             },
             {
-                "time": 1542,
+                "time": 1689,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1942,
-                "type": "word",
-                "start": 63,
-                "end": 69,
+                "start": 89,
+                "end": 95,
                 "value": "thanks"
             },
             {
-                "time": 2490,
+                "time": 2643,
                 "type": "word",
-                "start": 70,
-                "end": 91,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3377,
-                "type": "word",
-                "start": 92,
-                "end": 96,
+                "start": 97,
+                "end": 101,
                 "value": "Hope"
             },
             {
-                "time": 3708,
+                "time": 2981,
                 "type": "word",
-                "start": 97,
-                "end": 100,
+                "start": 102,
+                "end": 105,
                 "value": "you"
             },
             {
-                "time": 3867,
+                "time": 3144,
                 "type": "word",
-                "start": 101,
-                "end": 104,
+                "start": 106,
+                "end": 109,
                 "value": "are"
             },
             {
-                "time": 4023,
+                "time": 3305,
                 "type": "word",
-                "start": 105,
-                "end": 109,
+                "start": 110,
+                "end": 114,
                 "value": "fine"
             },
             {
-                "time": 4451,
+                "time": 3742,
                 "type": "word",
-                "start": 110,
-                "end": 113,
+                "start": 115,
+                "end": 118,
                 "value": "too"
             }
         ]
@@ -677,7 +637,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Are you free on the 25th?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Are you free on the 25th?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -685,43 +645,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Are"
             },
             {
-                "time": 160,
+                "time": 169,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "you"
             },
             {
-                "time": 472,
+                "time": 489,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "free"
             },
             {
-                "time": 874,
+                "time": 901,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "on"
             },
             {
-                "time": 1061,
+                "time": 1105,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "the"
             },
             {
-                "time": 1154,
+                "time": 1198,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "25th"
             }
         ]
@@ -776,7 +736,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni: Yes,<break time=\"300ms\"/> anything special?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme>: Yes, anything special?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -784,36 +744,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Waruni"
             },
             {
-                "time": 947,
+                "time": 884,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 82,
+                "end": 85,
                 "value": "Yes"
             },
             {
-                "time": 1735,
+                "time": 1800,
                 "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2135,
-                "type": "word",
-                "start": 61,
-                "end": 69,
+                "start": 87,
+                "end": 95,
                 "value": "anything"
             },
             {
-                "time": 2700,
+                "time": 2380,
                 "type": "word",
-                "start": 70,
-                "end": 77,
+                "start": 96,
+                "end": 103,
                 "value": "special"
             }
         ]
@@ -923,7 +876,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri: Yes,<break time=\"300ms\"/> my family is going to donate some</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme>: Yes, my family is going to donate some</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -931,71 +884,64 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 892,
+                "time": 920,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 82,
+                "end": 85,
                 "value": "Yes"
             },
             {
-                "time": 1680,
+                "time": 1835,
                 "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2080,
-                "type": "word",
-                "start": 61,
-                "end": 63,
+                "start": 87,
+                "end": 89,
                 "value": "my"
             },
             {
-                "time": 2305,
+                "time": 2069,
                 "type": "word",
-                "start": 64,
-                "end": 70,
+                "start": 90,
+                "end": 96,
                 "value": "family"
             },
             {
-                "time": 2922,
+                "time": 2709,
                 "type": "word",
-                "start": 71,
-                "end": 73,
+                "start": 97,
+                "end": 99,
                 "value": "is"
             },
             {
-                "time": 3079,
+                "time": 2865,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 100,
+                "end": 105,
                 "value": "going"
             },
             {
-                "time": 3488,
+                "time": 3295,
                 "type": "word",
-                "start": 80,
-                "end": 82,
+                "start": 106,
+                "end": 108,
                 "value": "to"
             },
             {
-                "time": 3639,
+                "time": 3443,
                 "type": "word",
-                "start": 83,
-                "end": 89,
+                "start": 109,
+                "end": 115,
                 "value": "donate"
             },
             {
-                "time": 4096,
+                "time": 3928,
                 "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 116,
+                "end": 120,
                 "value": "some"
             }
         ]
@@ -1061,7 +1007,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">books to a village school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>books to a village school.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1069,36 +1015,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "books"
             },
             {
-                "time": 367,
+                "time": 370,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "to"
             },
             {
-                "time": 652,
+                "time": 672,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 757,
+                "time": 787,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "village"
             },
             {
-                "time": 1222,
+                "time": 1271,
                 "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 47,
+                "end": 53,
                 "value": "school"
             }
         ]
@@ -1197,7 +1143,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni: Great! Can I give some books too?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme>: Great! Can I give some books too?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1205,57 +1151,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Waruni"
             },
             {
-                "time": 947,
+                "time": 884,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 82,
+                "end": 87,
                 "value": "Great"
             },
             {
-                "time": 1821,
+                "time": 1767,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 89,
+                "end": 92,
                 "value": "Can"
             },
             {
-                "time": 2032,
+                "time": 1981,
                 "type": "word",
-                "start": 46,
-                "end": 47,
+                "start": 93,
+                "end": 94,
                 "value": "I"
             },
             {
-                "time": 2181,
+                "time": 2139,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 95,
+                "end": 99,
                 "value": "give"
             },
             {
-                "time": 2415,
+                "time": 2386,
                 "type": "word",
-                "start": 53,
-                "end": 57,
+                "start": 100,
+                "end": 104,
                 "value": "some"
             },
             {
-                "time": 2701,
+                "time": 2687,
                 "type": "word",
-                "start": 58,
-                "end": 63,
+                "start": 105,
+                "end": 110,
                 "value": "books"
             },
             {
-                "time": 3134,
+                "time": 3161,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 111,
+                "end": 114,
                 "value": "too"
             }
         ]
@@ -1343,7 +1289,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri: Yes,<break time=\"300ms\"/> please.<break time=\"500ms\"/> Come with your parents.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme>: Yes, please. Come with your parents.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1351,64 +1297,50 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 892,
+                "time": 920,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 82,
+                "end": 85,
                 "value": "Yes"
             },
             {
-                "time": 1680,
+                "time": 1828,
                 "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2074,
-                "type": "word",
-                "start": 61,
-                "end": 67,
+                "start": 87,
+                "end": 93,
                 "value": "please"
             },
             {
-                "time": 2777,
-                "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3664,
-                "type": "word",
-                "start": 90,
-                "end": 94,
-                "value": "Come"
-            },
-            {
-                "time": 3897,
+                "time": 2949,
                 "type": "word",
                 "start": 95,
                 "end": 99,
-                "value": "with"
+                "value": "Come"
             },
             {
-                "time": 4069,
+                "time": 3185,
                 "type": "word",
                 "start": 100,
                 "end": 104,
+                "value": "with"
+            },
+            {
+                "time": 3366,
+                "type": "word",
+                "start": 105,
+                "end": 109,
                 "value": "your"
             },
             {
-                "time": 4214,
+                "time": 3519,
                 "type": "word",
-                "start": 105,
-                "end": 112,
+                "start": 110,
+                "end": 117,
                 "value": "parents"
             }
         ]
@@ -1529,7 +1461,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni: Thank you so much.<break time=\"500ms\"/> See you on the 25th.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme>: Thank you so much. See you on the 25th.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1537,78 +1469,71 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Waruni"
             },
             {
-                "time": 940,
+                "time": 878,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 82,
+                "end": 87,
                 "value": "Thank"
             },
             {
-                "time": 1295,
+                "time": 1242,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 88,
+                "end": 91,
                 "value": "you"
             },
             {
-                "time": 1425,
+                "time": 1380,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 92,
+                "end": 94,
                 "value": "so"
             },
             {
-                "time": 1647,
+                "time": 1620,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 95,
+                "end": 99,
                 "value": "much"
             },
             {
-                "time": 2171,
+                "time": 2547,
                 "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3058,
-                "type": "word",
-                "start": 75,
-                "end": 78,
+                "start": 101,
+                "end": 104,
                 "value": "See"
             },
             {
-                "time": 3332,
+                "time": 2832,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 105,
+                "end": 108,
                 "value": "you"
             },
             {
-                "time": 3617,
+                "time": 3126,
                 "type": "word",
-                "start": 83,
-                "end": 85,
+                "start": 109,
+                "end": 111,
                 "value": "on"
             },
             {
-                "time": 3758,
+                "time": 3278,
                 "type": "word",
-                "start": 86,
-                "end": 89,
+                "start": 112,
+                "end": 115,
                 "value": "the"
             },
             {
-                "time": 3850,
+                "time": 3370,
                 "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 116,
+                "end": 120,
                 "value": "25th"
             }
         ]

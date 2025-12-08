@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -97,7 +98,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a game.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's play a game.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -105,29 +106,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 276,
+                "time": 285,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "play"
             },
             {
-                "time": 590,
+                "time": 619,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 649,
+                "time": 679,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "game"
             }
         ]
@@ -171,37 +172,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is /are<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There is /are....</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
-                "time": 216,
+                "time": 227,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 341,
+                "time": 353,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "/are"
-            },
-            {
-                "time": 1365,
-                "type": "word",
-                "start": 40,
-                "end": 62,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -233,22 +228,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Picture A</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Picture A</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Picture"
             },
             {
-                "time": 427,
+                "time": 455,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "A"
             }
         ]
@@ -281,22 +277,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Picture B</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Picture B</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Picture"
             },
             {
-                "time": 374,
+                "time": 381,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "B"
             }
         ]

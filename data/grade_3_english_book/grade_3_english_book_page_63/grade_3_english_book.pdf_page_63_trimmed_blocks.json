@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "54",
-        "words": [
-            "54"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.098600387573242,
-                    24.34998893737793
-                ],
-                [
-                    61.44860076904297,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">54</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "54"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen to the story.",
         "words": [
             "Listen",
@@ -79,41 +49,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen to the story.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen to the story.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 380,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 517,
+                "time": 722,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "the"
             },
             {
-                "time": 639,
+                "time": 829,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "story"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Let's make a soup.",
         "words": [
             "Let's",
@@ -163,41 +134,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a soup.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's make a soup.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 264,
+                "time": 428,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "make"
             },
             {
-                "time": 516,
+                "time": 657,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 574,
+                "time": 840,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "soup"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "We are hungry.",
         "words": [
             "We",
@@ -236,35 +208,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We are hungry.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We are hungry.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 234,
+                "time": 354,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "are"
             },
             {
-                "time": 415,
+                "time": 522,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "hungry"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Let's make a vegetable soup.",
         "words": [
             "Let's",
@@ -325,45 +297,112 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a vegetable soup.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's make a vegetable soup.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 332,
+                "time": 473,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "make"
             },
             {
-                "time": 580,
+                "time": 733,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 633,
+                "time": 810,
                 "type": "word",
-                "start": 45,
-                "end": 54,
+                "start": 41,
+                "end": 50,
                 "value": "vegetable"
             },
             {
-                "time": 1238,
+                "time": 1498,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 51,
+                "end": 55,
                 "value": "soup"
+            }
+        ]
+    },
+    "4": {
+        "text": "I have tomatoes.",
+        "words": [
+            "I",
+            "have",
+            "tomatoes."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    316.739013671875,
+                    348.3789978027344
+                ],
+                [
+                    323.3990173339844,
+                    369.8170166015625
+                ]
+            ],
+            [
+                [
+                    327.8990173339844,
+                    348.3789978027344
+                ],
+                [
+                    369.4610290527344,
+                    369.8170166015625
+                ]
+            ],
+            [
+                [
+                    300.17901611328125,
+                    369.97900390625
+                ],
+                [
+                    386.9390563964844,
+                    391.4170227050781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I have tomatoes.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 262,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "have"
+            },
+            {
+                "time": 583,
+                "type": "word",
+                "start": 35,
+                "end": 43,
+                "value": "tomatoes"
             }
         ]
     },
@@ -406,102 +445,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have carrots.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 160,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "have"
-            },
-            {
-                "time": 316,
-                "type": "word",
-                "start": 34,
-                "end": 41,
-                "value": "carrots"
-            }
-        ]
-    },
-    "6": {
-        "text": "I have tomatoes.",
-        "words": [
-            "I",
-            "have",
-            "tomatoes."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    316.739013671875,
-                    348.3789978027344
-                ],
-                [
-                    323.3990173339844,
-                    369.8170166015625
-                ]
-            ],
-            [
-                [
-                    327.8990173339844,
-                    348.3789978027344
-                ],
-                [
-                    369.4610290527344,
-                    369.8170166015625
-                ]
-            ],
-            [
-                [
-                    300.17901611328125,
-                    369.97900390625
-                ],
-                [
-                    386.9390563964844,
-                    391.4170227050781
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I have tomatoes.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have carrots.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 171,
+                "time": 277,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 423,
+                "time": 583,
                 "type": "word",
-                "start": 34,
+                "start": 35,
                 "end": 42,
-                "value": "tomatoes"
+                "value": "carrots"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "I have cabbages.",
         "words": [
             "I",
@@ -540,35 +512,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have cabbages.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have cabbages.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 160,
+                "time": 277,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 316,
+                "time": 476,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "cabbages"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "I have leeks.",
         "words": [
             "I",
@@ -607,35 +579,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have leeks.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have leeks.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 231,
+                "time": 277,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 486,
+                "time": 583,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "leeks"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "I have pumpkins.",
         "words": [
             "I",
@@ -674,35 +646,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have pumpkins.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have pumpkins.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 182,
+                "time": 216,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 436,
+                "time": 522,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "pumpkins"
             }
         ]
     },
-    "10": {
+    "9": {
         "text": "I have potatoes.",
         "words": [
             "I",
@@ -741,35 +713,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have potatoes.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have potatoes.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 169,
+                "time": 277,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 373,
+                "time": 583,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "potatoes"
             }
         ]
     },
-    "11": {
+    "10": {
         "text": "The soup is ready. It's very tasty.",
         "words": [
             "The",
@@ -852,64 +824,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The soup is ready.<break time=\"500ms\"/> It&apos;s very tasty.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The soup is ready. It's very tasty.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
-                "time": 96,
+                "time": 340,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "soup"
             },
             {
-                "time": 437,
+                "time": 569,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 619,
+                "time": 799,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "ready"
             },
             {
-                "time": 1046,
+                "time": 1864,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
+                "start": 47,
+                "end": 51,
+                "value": "It's"
             },
             {
-                "time": 1933,
+                "time": 2078,
                 "type": "word",
-                "start": 67,
-                "end": 76,
-                "value": "It&apos;s"
-            },
-            {
-                "time": 2189,
-                "type": "word",
-                "start": 77,
-                "end": 81,
+                "start": 52,
+                "end": 56,
                 "value": "very"
             },
             {
-                "time": 2481,
+                "time": 2460,
                 "type": "word",
-                "start": 82,
-                "end": 87,
+                "start": 57,
+                "end": 62,
                 "value": "tasty"
             }
         ]

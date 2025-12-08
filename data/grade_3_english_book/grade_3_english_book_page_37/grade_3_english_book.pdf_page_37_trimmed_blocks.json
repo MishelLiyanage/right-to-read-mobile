@@ -16,16 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello!</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             }
         ]
@@ -69,30 +69,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">How are you?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How are you?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 379,
+                "time": 354,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "are"
             },
             {
-                "time": 651,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "you"
             }
         ]
@@ -158,51 +158,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello! I'm fine.<break time=\"500ms\"/> Thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! I'm fine. Thank you.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 1007,
+                "time": 1304,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "I'm"
             },
             {
-                "time": 1264,
+                "time": 1533,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "fine"
             },
             {
-                "time": 1908,
+                "time": 2630,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2795,
-                "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 45,
+                "end": 50,
                 "value": "Thank"
             },
             {
-                "time": 3230,
+                "time": 2936,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "you"
             }
         ]
@@ -224,16 +217,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello!</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             }
         ]
@@ -277,30 +270,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">How are you?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How are you?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 379,
+                "time": 354,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "are"
             },
             {
-                "time": 651,
+                "time": 583,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "you"
             }
         ]
@@ -377,64 +370,57 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello! I'm very well.<break time=\"500ms\"/> Thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! I'm very well. Thank you.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 1007,
+                "time": 1304,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "I'm"
             },
             {
-                "time": 1256,
+                "time": 1533,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "very"
             },
             {
-                "time": 1683,
+                "time": 1915,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 44,
+                "end": 48,
                 "value": "well"
             },
             {
-                "time": 2301,
+                "time": 2936,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3188,
-                "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 50,
+                "end": 55,
                 "value": "Thank"
             },
             {
-                "time": 3623,
+                "time": 3242,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 56,
+                "end": 59,
                 "value": "you"
             }
         ]
     },
     "6": {
-        "text": "Stand in a circle. Ask your friend, \u201cHow are you?\u201d",
+        "text": "Stand in a circle. Ask your friend, \"How are you?\"",
         "words": [
             "Stand",
             "in",
@@ -443,9 +429,9 @@
             "Ask",
             "your",
             "friend,",
-            "\u201cHow",
+            "\"How",
             "are",
-            "you?\u201d"
+            "you?\""
         ],
         "bounding_boxes": [
             [
@@ -549,93 +535,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Stand in a circle.<break time=\"500ms\"/> Ask your friend,<break time=\"300ms\"/> \u201cHow are you?\u201d</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>Stand in a circle. Ask your friend, \"How are you?\"</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Stand"
             },
             {
-                "time": 538,
+                "time": 661,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "in"
             },
             {
-                "time": 747,
+                "time": 722,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 819,
+                "time": 875,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "circle"
             },
             {
-                "time": 1519,
+                "time": 2129,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2405,
-                "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "Ask"
             },
             {
-                "time": 2802,
+                "time": 2435,
                 "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 51,
+                "end": 55,
                 "value": "your"
             },
             {
-                "time": 2964,
+                "time": 2573,
                 "type": "word",
-                "start": 76,
-                "end": 82,
+                "start": 56,
+                "end": 62,
                 "value": "friend"
             },
             {
-                "time": 3745,
+                "time": 3233,
                 "type": "word",
-                "start": 83,
-                "end": 104,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4139,
-                "type": "word",
-                "start": 108,
-                "end": 111,
+                "start": 65,
+                "end": 68,
                 "value": "How"
             },
             {
-                "time": 4396,
+                "time": 3462,
                 "type": "word",
-                "start": 112,
-                "end": 115,
+                "start": 69,
+                "end": 72,
                 "value": "are"
             },
             {
-                "time": 4492,
+                "time": 3676,
                 "type": "word",
-                "start": 116,
-                "end": 119,
+                "start": 73,
+                "end": 76,
                 "value": "you"
             }
         ]

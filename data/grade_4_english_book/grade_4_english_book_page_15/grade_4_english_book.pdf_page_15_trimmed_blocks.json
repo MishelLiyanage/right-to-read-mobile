@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -86,34 +87,313 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "repeat"
             }
         ]
     },
     "2": {
+        "text": "head eyes mouth nose fingers hand toes knees",
+        "words": [
+            "head",
+            "eyes",
+            "mouth",
+            "nose",
+            "fingers",
+            "hand",
+            "toes",
+            "knees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    373.534912109375,
+                    37.93210220336914
+                ],
+                [
+                    416.9689025878906,
+                    59.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    55.93210220336914
+                ],
+                [
+                    402.2088928222656,
+                    77.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    73.93209838867188
+                ],
+                [
+                    422.638916015625,
+                    95.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    91.93209838867188
+                ],
+                [
+                    404.4049072265625,
+                    113.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    109.93209838867188
+                ],
+                [
+                    422.26092529296875,
+                    131.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    127.93209838867188
+                ],
+                [
+                    409.1029052734375,
+                    149.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    145.93209838867188
+                ],
+                [
+                    399.6349182128906,
+                    167.37010192871094
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    163.93209838867188
+                ],
+                [
+                    414.1968994140625,
+                    185.37010192871094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>head eyes mouth nose fingers hand toes knees</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "head"
+            },
+            {
+                "time": 217,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "eyes"
+            },
+            {
+                "time": 441,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "mouth"
+            },
+            {
+                "time": 826,
+                "type": "word",
+                "start": 44,
+                "end": 48,
+                "value": "nose"
+            },
+            {
+                "time": 1206,
+                "type": "word",
+                "start": 49,
+                "end": 56,
+                "value": "fingers"
+            },
+            {
+                "time": 1708,
+                "type": "word",
+                "start": 57,
+                "end": 61,
+                "value": "hand"
+            },
+            {
+                "time": 2041,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "toes"
+            },
+            {
+                "time": 2368,
+                "type": "word",
+                "start": 67,
+                "end": 72,
+                "value": "knees"
+            }
+        ]
+    },
+    "3": {
+        "text": "neck shoulder ear leg elbow knees",
+        "words": [
+            "neck",
+            "shoulder",
+            "ear",
+            "leg",
+            "elbow",
+            "knees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    434.014892578125,
+                    93.93008422851562
+                ],
+                [
+                    474.6048889160156,
+                    115.36808776855469
+                ]
+            ],
+            [
+                [
+                    434.014892578125,
+                    111.93008422851562
+                ],
+                [
+                    506.60888671875,
+                    133.3680877685547
+                ]
+            ],
+            [
+                [
+                    434.014892578125,
+                    129.93008422851562
+                ],
+                [
+                    461.19488525390625,
+                    151.3680877685547
+                ]
+            ],
+            [
+                [
+                    434.014892578125,
+                    147.93008422851562
+                ],
+                [
+                    459.57489013671875,
+                    169.3680877685547
+                ]
+            ],
+            [
+                [
+                    434.014892578125,
+                    165.93008422851562
+                ],
+                [
+                    484.37890625,
+                    187.3680877685547
+                ]
+            ],
+            [
+                [
+                    364.534912109375,
+                    163.93209838867188
+                ],
+                [
+                    414.1968994140625,
+                    185.37010192871094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>neck shoulder ear leg elbow knees</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "neck"
+            },
+            {
+                "time": 272,
+                "type": "word",
+                "start": 33,
+                "end": 41,
+                "value": "shoulder"
+            },
+            {
+                "time": 817,
+                "type": "word",
+                "start": 42,
+                "end": 45,
+                "value": "ear"
+            },
+            {
+                "time": 1037,
+                "type": "word",
+                "start": 46,
+                "end": 49,
+                "value": "leg"
+            },
+            {
+                "time": 1323,
+                "type": "word",
+                "start": 50,
+                "end": 55,
+                "value": "elbow"
+            },
+            {
+                "time": 1765,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "knees"
+            }
+        ]
+    },
+    "4": {
         "text": "head",
         "words": [
             "head"
@@ -130,20 +410,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">head</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>head</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "head"
             }
         ]
     },
-    "3": {
+    "5": {
         "text": "eyes",
         "words": [
             "eyes"
@@ -160,20 +441,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">eyes</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>eyes</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "eyes"
             }
         ]
     },
-    "4": {
+    "6": {
         "text": "ear",
         "words": [
             "ear"
@@ -190,20 +472,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">ear</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>ear</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "ear"
             }
         ]
     },
-    "5": {
+    "7": {
         "text": "nose mouth",
         "words": [
             "nose",
@@ -231,27 +514,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">nose mouth</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>nose mouth</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "nose"
             },
             {
-                "time": 324,
+                "time": 348,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "mouth"
             }
         ]
     },
-    "6": {
+    "8": {
         "text": "neck",
         "words": [
             "neck"
@@ -268,20 +552,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">neck</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>neck</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "neck"
             }
         ]
     },
-    "7": {
+    "9": {
         "text": "shoulder",
         "words": [
             "shoulder"
@@ -298,20 +583,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">shoulder</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>shoulder</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "shoulder"
             }
         ]
     },
-    "8": {
+    "10": {
         "text": "hand",
         "words": [
             "hand"
@@ -328,20 +614,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hand</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>hand</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "hand"
             }
         ]
     },
-    "9": {
+    "11": {
         "text": "elbow fingers",
         "words": [
             "elbow",
@@ -369,27 +656,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">elbow fingers</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>elbow fingers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "elbow"
             },
             {
-                "time": 447,
+                "time": 471,
                 "type": "word",
-                "start": 33,
-                "end": 40,
+                "start": 34,
+                "end": 41,
                 "value": "fingers"
             }
         ]
     },
-    "10": {
+    "12": {
         "text": "knees",
         "words": [
             "knees"
@@ -406,20 +694,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">knees</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>knees</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "knees"
             }
         ]
     },
-    "11": {
+    "13": {
         "text": "leg",
         "words": [
             "leg"
@@ -436,20 +725,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">leg</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>leg</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "leg"
             }
         ]
     },
-    "12": {
+    "14": {
         "text": "toes",
         "words": [
             "toes"
@@ -466,15 +756,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">toes</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>toes</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "toes"
             }
         ]

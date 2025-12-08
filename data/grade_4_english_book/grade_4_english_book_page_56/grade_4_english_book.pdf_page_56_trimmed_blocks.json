@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s Christmas.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's Christmas.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 262,
+                "time": 261,
                 "type": "word",
-                "start": 37,
-                "end": 46,
+                "start": 33,
+                "end": 42,
                 "value": "Christmas"
             }
         ]
@@ -361,7 +362,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meena: Happy Christmas,<break time=\"300ms\"/> Tony! Tony: Thank you,<break time=\"300ms\"/> Meena.<break time=\"500ms\"/> Meena: Where are you going? Tony: I&apos;m going to the church with my family.<break time=\"500ms\"/> Meena : Ok,<break time=\"300ms\"/> see you later.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meena: Happy Christmas, Tony! Tony: Thank you, Meena. Meena: Where are you going? Tony: I'm going to the church with my family. Meena : Ok, see you later.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -369,225 +370,190 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Meena"
             },
             {
-                "time": 694,
+                "time": 720,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "Happy"
             },
             {
-                "time": 1080,
+                "time": 1117,
                 "type": "word",
-                "start": 40,
-                "end": 49,
+                "start": 41,
+                "end": 50,
                 "value": "Christmas"
             },
             {
-                "time": 1899,
+                "time": 2070,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2299,
-                "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 52,
+                "end": 56,
                 "value": "Tony"
             },
             {
-                "time": 3266,
+                "time": 3073,
                 "type": "word",
-                "start": 78,
-                "end": 82,
+                "start": 58,
+                "end": 62,
                 "value": "Tony"
             },
             {
-                "time": 3975,
+                "time": 3791,
                 "type": "word",
-                "start": 84,
-                "end": 89,
+                "start": 64,
+                "end": 69,
                 "value": "Thank"
             },
             {
-                "time": 4249,
+                "time": 4072,
                 "type": "word",
-                "start": 90,
-                "end": 93,
+                "start": 70,
+                "end": 73,
                 "value": "you"
             },
             {
-                "time": 4720,
+                "time": 4643,
                 "type": "word",
-                "start": 94,
-                "end": 115,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5113,
-                "type": "word",
-                "start": 116,
-                "end": 121,
+                "start": 75,
+                "end": 80,
                 "value": "Meena"
             },
             {
-                "time": 5621,
+                "time": 5557,
                 "type": "word",
-                "start": 122,
-                "end": 143,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6507,
-                "type": "word",
-                "start": 144,
-                "end": 149,
+                "start": 82,
+                "end": 87,
                 "value": "Meena"
             },
             {
-                "time": 7196,
+                "time": 6271,
                 "type": "word",
-                "start": 151,
-                "end": 156,
+                "start": 89,
+                "end": 94,
                 "value": "Where"
             },
             {
-                "time": 7420,
+                "time": 6499,
                 "type": "word",
-                "start": 157,
-                "end": 160,
+                "start": 95,
+                "end": 98,
                 "value": "are"
             },
             {
-                "time": 7515,
+                "time": 6601,
                 "type": "word",
-                "start": 161,
-                "end": 164,
+                "start": 99,
+                "end": 102,
                 "value": "you"
             },
             {
-                "time": 7716,
+                "time": 6810,
                 "type": "word",
-                "start": 165,
-                "end": 170,
+                "start": 103,
+                "end": 108,
                 "value": "going"
             },
             {
-                "time": 8659,
+                "time": 7769,
                 "type": "word",
-                "start": 172,
-                "end": 176,
+                "start": 110,
+                "end": 114,
                 "value": "Tony"
             },
             {
-                "time": 9368,
+                "time": 8487,
                 "type": "word",
-                "start": 178,
-                "end": 186,
-                "value": "I&apos;m"
+                "start": 116,
+                "end": 119,
+                "value": "I'm"
             },
             {
-                "time": 9590,
+                "time": 8718,
                 "type": "word",
-                "start": 187,
-                "end": 192,
+                "start": 120,
+                "end": 125,
                 "value": "going"
             },
             {
-                "time": 9913,
+                "time": 9062,
                 "type": "word",
-                "start": 193,
-                "end": 195,
+                "start": 126,
+                "end": 128,
                 "value": "to"
             },
             {
-                "time": 10079,
+                "time": 9235,
                 "type": "word",
-                "start": 196,
-                "end": 199,
+                "start": 129,
+                "end": 132,
                 "value": "the"
             },
             {
-                "time": 10199,
+                "time": 9364,
                 "type": "word",
-                "start": 200,
-                "end": 206,
+                "start": 133,
+                "end": 139,
                 "value": "church"
             },
             {
-                "time": 10607,
+                "time": 9803,
                 "type": "word",
-                "start": 207,
-                "end": 211,
+                "start": 140,
+                "end": 144,
                 "value": "with"
             },
             {
-                "time": 10827,
+                "time": 10028,
                 "type": "word",
-                "start": 212,
-                "end": 214,
+                "start": 145,
+                "end": 147,
                 "value": "my"
             },
             {
-                "time": 11014,
+                "time": 10221,
                 "type": "word",
-                "start": 215,
-                "end": 221,
+                "start": 148,
+                "end": 154,
                 "value": "family"
             },
             {
-                "time": 11689,
+                "time": 11290,
                 "type": "word",
-                "start": 222,
-                "end": 243,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12576,
-                "type": "word",
-                "start": 244,
-                "end": 249,
+                "start": 156,
+                "end": 161,
                 "value": "Meena"
             },
             {
-                "time": 13264,
+                "time": 12004,
                 "type": "word",
-                "start": 252,
-                "end": 254,
+                "start": 164,
+                "end": 166,
                 "value": "Ok"
             },
             {
-                "time": 14018,
+                "time": 12879,
                 "type": "word",
-                "start": 255,
-                "end": 276,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 14419,
-                "type": "word",
-                "start": 277,
-                "end": 280,
+                "start": 168,
+                "end": 171,
                 "value": "see"
             },
             {
-                "time": 14750,
+                "time": 13219,
                 "type": "word",
-                "start": 281,
-                "end": 284,
+                "start": 172,
+                "end": 175,
                 "value": "you"
             },
             {
-                "time": 15017,
+                "time": 13500,
                 "type": "word",
-                "start": 285,
-                "end": 290,
+                "start": 176,
+                "end": 181,
                 "value": "later"
             }
         ]
@@ -620,22 +586,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s Deepavali.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's Deepavali.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 270,
+                "time": 276,
                 "type": "word",
-                "start": 37,
-                "end": 46,
+                "start": 33,
+                "end": 42,
                 "value": "Deepavali"
             }
         ]
@@ -976,7 +943,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Navaz: Happy Deepavali,<break time=\"300ms\"/> Meena! Meena: Thank you,<break time=\"300ms\"/> Navaz.<break time=\"500ms\"/> Navaz: What are you doing? Meena: I&apos;m doing a design at the doorstep.<break time=\"500ms\"/> Navaz : It&apos;s beautiful.<break time=\"500ms\"/> Meena : Thank you,<break time=\"300ms\"/> Navaz.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>: Happy Deepavali, Meena! Meena: Thank you, <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>. <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>: What are you doing? Meena: I'm doing a design at the doorstep. <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme> : It's beautiful. Meena : Thank you, <phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -984,239 +951,197 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 65,
+                "end": 70,
                 "value": "Navaz"
             },
             {
-                "time": 858,
+                "time": 983,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 82,
+                "end": 87,
                 "value": "Happy"
             },
             {
-                "time": 1217,
+                "time": 1353,
                 "type": "word",
-                "start": 40,
-                "end": 49,
+                "start": 88,
+                "end": 97,
                 "value": "Deepavali"
             },
             {
-                "time": 2195,
+                "time": 2458,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2588,
-                "type": "word",
-                "start": 72,
-                "end": 77,
+                "start": 99,
+                "end": 104,
                 "value": "Meena"
             },
             {
-                "time": 3476,
+                "time": 3372,
                 "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 106,
+                "end": 111,
                 "value": "Meena"
             },
             {
-                "time": 4164,
+                "time": 4086,
                 "type": "word",
-                "start": 86,
-                "end": 91,
+                "start": 113,
+                "end": 118,
                 "value": "Thank"
             },
             {
-                "time": 4438,
+                "time": 4367,
                 "type": "word",
-                "start": 92,
-                "end": 95,
+                "start": 119,
+                "end": 122,
                 "value": "you"
             },
             {
-                "time": 4909,
+                "time": 4938,
                 "type": "word",
-                "start": 96,
-                "end": 117,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5309,
-                "type": "word",
-                "start": 118,
-                "end": 123,
+                "start": 161,
+                "end": 166,
                 "value": "Navaz"
             },
             {
-                "time": 6120,
+                "time": 6289,
                 "type": "word",
-                "start": 124,
-                "end": 145,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7007,
-                "type": "word",
-                "start": 146,
-                "end": 151,
+                "start": 215,
+                "end": 220,
                 "value": "Navaz"
             },
             {
-                "time": 7824,
+                "time": 7266,
                 "type": "word",
-                "start": 153,
-                "end": 157,
+                "start": 232,
+                "end": 236,
                 "value": "What"
             },
             {
-                "time": 8059,
+                "time": 7509,
                 "type": "word",
-                "start": 158,
-                "end": 161,
+                "start": 237,
+                "end": 240,
                 "value": "are"
             },
             {
-                "time": 8141,
+                "time": 7591,
                 "type": "word",
-                "start": 162,
-                "end": 165,
+                "start": 241,
+                "end": 244,
                 "value": "you"
             },
             {
-                "time": 8365,
+                "time": 7822,
                 "type": "word",
-                "start": 166,
-                "end": 171,
+                "start": 245,
+                "end": 250,
                 "value": "doing"
             },
             {
-                "time": 9292,
+                "time": 8772,
                 "type": "word",
-                "start": 173,
-                "end": 178,
+                "start": 252,
+                "end": 257,
                 "value": "Meena"
             },
             {
-                "time": 9980,
+                "time": 9486,
                 "type": "word",
-                "start": 180,
-                "end": 188,
-                "value": "I&apos;m"
+                "start": 259,
+                "end": 262,
+                "value": "I'm"
             },
             {
-                "time": 10214,
+                "time": 9732,
                 "type": "word",
-                "start": 189,
-                "end": 194,
+                "start": 263,
+                "end": 268,
                 "value": "doing"
             },
             {
-                "time": 10571,
+                "time": 10093,
                 "type": "word",
-                "start": 195,
-                "end": 196,
+                "start": 269,
+                "end": 270,
                 "value": "a"
             },
             {
-                "time": 10618,
+                "time": 10140,
                 "type": "word",
-                "start": 197,
-                "end": 203,
+                "start": 271,
+                "end": 277,
                 "value": "design"
             },
             {
-                "time": 11189,
+                "time": 10745,
                 "type": "word",
-                "start": 204,
-                "end": 206,
+                "start": 278,
+                "end": 280,
                 "value": "at"
             },
             {
-                "time": 11312,
+                "time": 10870,
                 "type": "word",
-                "start": 207,
-                "end": 210,
+                "start": 281,
+                "end": 284,
                 "value": "the"
             },
             {
-                "time": 11402,
+                "time": 10960,
                 "type": "word",
-                "start": 211,
-                "end": 219,
+                "start": 285,
+                "end": 293,
                 "value": "doorstep"
             },
             {
-                "time": 12025,
-                "type": "word",
-                "start": 220,
-                "end": 241,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12912,
-                "type": "word",
-                "start": 242,
-                "end": 247,
-                "value": "Navaz"
-            },
-            {
-                "time": 13728,
-                "type": "word",
-                "start": 250,
-                "end": 259,
-                "value": "It&apos;s"
-            },
-            {
-                "time": 13966,
-                "type": "word",
-                "start": 260,
-                "end": 269,
-                "value": "beautiful"
-            },
-            {
-                "time": 14615,
-                "type": "word",
-                "start": 270,
-                "end": 291,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 15501,
-                "type": "word",
-                "start": 292,
-                "end": 297,
-                "value": "Meena"
-            },
-            {
-                "time": 16190,
-                "type": "word",
-                "start": 300,
-                "end": 305,
-                "value": "Thank"
-            },
-            {
-                "time": 16464,
-                "type": "word",
-                "start": 306,
-                "end": 309,
-                "value": "you"
-            },
-            {
-                "time": 16935,
-                "type": "word",
-                "start": 310,
-                "end": 331,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 17335,
+                "time": 11967,
                 "type": "word",
                 "start": 332,
                 "end": 337,
+                "value": "Navaz"
+            },
+            {
+                "time": 12944,
+                "type": "word",
+                "start": 350,
+                "end": 354,
+                "value": "It's"
+            },
+            {
+                "time": 13185,
+                "type": "word",
+                "start": 355,
+                "end": 364,
+                "value": "beautiful"
+            },
+            {
+                "time": 14233,
+                "type": "word",
+                "start": 366,
+                "end": 371,
+                "value": "Meena"
+            },
+            {
+                "time": 14947,
+                "type": "word",
+                "start": 374,
+                "end": 379,
+                "value": "Thank"
+            },
+            {
+                "time": 15228,
+                "type": "word",
+                "start": 380,
+                "end": 383,
+                "value": "you"
+            },
+            {
+                "time": 15800,
+                "type": "word",
+                "start": 422,
+                "end": 427,
                 "value": "Navaz"
             }
         ]

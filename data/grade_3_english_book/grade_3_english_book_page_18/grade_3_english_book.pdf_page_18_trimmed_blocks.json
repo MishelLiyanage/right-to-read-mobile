@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Say"
             }
         ]
@@ -112,72 +113,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hi,<break time=\"300ms\"/> I&apos;m Kumar.<break time=\"500ms\"/> I&apos;m eight years old.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hi, I'm Kumar. I'm eight years old.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Hi"
             },
             {
                 "time": 626,
                 "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time=\"300ms\"/>"
+                "start": 32,
+                "end": 35,
+                "value": "I'm"
             },
             {
-                "time": 1020,
+                "time": 963,
                 "type": "word",
-                "start": 52,
-                "end": 60,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1171,
-                "type": "word",
-                "start": 61,
-                "end": 66,
+                "start": 36,
+                "end": 41,
                 "value": "Kumar"
             },
             {
-                "time": 1831,
+                "time": 2245,
                 "type": "word",
-                "start": 67,
-                "end": 88,
-                "value": "<break time=\"500ms\"/>"
+                "start": 43,
+                "end": 46,
+                "value": "I'm"
             },
             {
-                "time": 2718,
+                "time": 2474,
                 "type": "word",
-                "start": 89,
-                "end": 97,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2940,
-                "type": "word",
-                "start": 98,
-                "end": 103,
+                "start": 47,
+                "end": 52,
                 "value": "eight"
             },
             {
-                "time": 3094,
+                "time": 2703,
                 "type": "word",
-                "start": 104,
-                "end": 109,
+                "start": 53,
+                "end": 58,
                 "value": "years"
             },
             {
-                "time": 3479,
+                "time": 3086,
                 "type": "word",
-                "start": 110,
-                "end": 113,
+                "start": 59,
+                "end": 62,
                 "value": "old"
             }
         ]
@@ -265,72 +252,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hi,<break time=\"300ms\"/> I&apos;m Nethu.<break time=\"500ms\"/> I&apos;m nine years old.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hi, I'm Nethu. I'm nine years old.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Hi"
             },
             {
-                "time": 647,
+                "time": 626,
                 "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time=\"300ms\"/>"
+                "start": 32,
+                "end": 35,
+                "value": "I'm"
             },
             {
-                "time": 1047,
+                "time": 1238,
                 "type": "word",
-                "start": 52,
-                "end": 60,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1206,
-                "type": "word",
-                "start": 61,
-                "end": 66,
+                "start": 36,
+                "end": 41,
                 "value": "Nethu"
             },
             {
-                "time": 1732,
+                "time": 2413,
                 "type": "word",
-                "start": 67,
-                "end": 88,
-                "value": "<break time=\"500ms\"/>"
+                "start": 43,
+                "end": 46,
+                "value": "I'm"
             },
             {
-                "time": 2618,
+                "time": 2642,
                 "type": "word",
-                "start": 89,
-                "end": 97,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2812,
-                "type": "word",
-                "start": 98,
-                "end": 102,
+                "start": 47,
+                "end": 51,
                 "value": "nine"
             },
             {
-                "time": 3191,
+                "time": 2948,
                 "type": "word",
-                "start": 103,
-                "end": 108,
+                "start": 52,
+                "end": 57,
                 "value": "years"
             },
             {
-                "time": 3515,
+                "time": 3407,
                 "type": "word",
-                "start": 109,
-                "end": 112,
+                "start": 58,
+                "end": 61,
                 "value": "old"
             }
         ]
@@ -418,72 +391,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hi,<break time=\"300ms\"/> I&apos;m Nizam.<break time=\"500ms\"/> I&apos;m six years old.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hi, I'm <phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme>. I'm six years old.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Hi"
             },
             {
-                "time": 647,
+                "time": 635,
                 "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time=\"300ms\"/>"
+                "start": 32,
+                "end": 35,
+                "value": "I'm"
             },
             {
-                "time": 1047,
+                "time": 1246,
                 "type": "word",
-                "start": 52,
-                "end": 60,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1223,
-                "type": "word",
-                "start": 61,
-                "end": 66,
+                "start": 71,
+                "end": 76,
                 "value": "Nizam"
             },
             {
-                "time": 1855,
+                "time": 2538,
                 "type": "word",
-                "start": 67,
-                "end": 88,
-                "value": "<break time=\"500ms\"/>"
+                "start": 88,
+                "end": 91,
+                "value": "I'm"
             },
             {
-                "time": 2742,
+                "time": 2767,
                 "type": "word",
-                "start": 89,
-                "end": 97,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2900,
-                "type": "word",
-                "start": 98,
-                "end": 101,
+                "start": 92,
+                "end": 95,
                 "value": "six"
             },
             {
-                "time": 3284,
+                "time": 3150,
                 "type": "word",
-                "start": 102,
-                "end": 107,
+                "start": 96,
+                "end": 101,
                 "value": "years"
             },
             {
-                "time": 3591,
+                "time": 3608,
                 "type": "word",
-                "start": 108,
-                "end": 111,
+                "start": 102,
+                "end": 105,
                 "value": "old"
             }
         ]
@@ -571,72 +530,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hi,<break time=\"300ms\"/> I&apos;m Rasini.<break time=\"500ms\"/> I&apos;m seven years old.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hi, I'm <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>. I'm seven years old.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Hi"
             },
             {
-                "time": 647,
+                "time": 626,
                 "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time=\"300ms\"/>"
+                "start": 32,
+                "end": 35,
+                "value": "I'm"
             },
             {
-                "time": 1047,
+                "time": 1207,
                 "type": "word",
-                "start": 52,
-                "end": 60,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1317,
-                "type": "word",
-                "start": 61,
-                "end": 67,
+                "start": 75,
+                "end": 81,
                 "value": "Rasini"
             },
             {
-                "time": 2006,
+                "time": 2489,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
+                "start": 93,
+                "end": 96,
+                "value": "I'm"
             },
             {
-                "time": 2892,
+                "time": 2719,
                 "type": "word",
-                "start": 90,
-                "end": 98,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 3058,
-                "type": "word",
-                "start": 99,
-                "end": 104,
+                "start": 97,
+                "end": 102,
                 "value": "seven"
             },
             {
-                "time": 3455,
+                "time": 3101,
                 "type": "word",
-                "start": 105,
-                "end": 110,
+                "start": 103,
+                "end": 108,
                 "value": "years"
             },
             {
-                "time": 3846,
+                "time": 3560,
                 "type": "word",
-                "start": 111,
-                "end": 114,
+                "start": 109,
+                "end": 112,
                 "value": "old"
             }
         ]

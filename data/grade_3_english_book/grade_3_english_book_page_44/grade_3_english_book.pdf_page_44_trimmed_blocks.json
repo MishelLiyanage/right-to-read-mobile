@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Our school 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Our school 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Our"
             },
             {
-                "time": 219,
+                "time": 340,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "school"
             },
             {
-                "time": 619,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 39,
+                "end": 40,
                 "value": "3"
             }
         ]
@@ -104,29 +105,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -214,72 +216,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hi,<break time=\"300ms\"/> I&apos;m Raveen.<break time=\"500ms\"/> This is my school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hi, I'm <phoneme alphabet='ipa' ph='r\u0259vi\u02d0n'>Raveen</phoneme>. This is my school.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Hi"
             },
             {
                 "time": 626,
                 "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time=\"300ms\"/>"
+                "start": 32,
+                "end": 35,
+                "value": "I'm"
             },
             {
-                "time": 1026,
+                "time": 963,
                 "type": "word",
-                "start": 52,
-                "end": 60,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1222,
-                "type": "word",
-                "start": 61,
-                "end": 67,
+                "start": 74,
+                "end": 80,
                 "value": "Raveen"
             },
             {
-                "time": 1756,
+                "time": 2229,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2643,
-                "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 92,
+                "end": 96,
                 "value": "This"
             },
             {
-                "time": 2879,
+                "time": 2459,
                 "type": "word",
-                "start": 95,
-                "end": 97,
+                "start": 97,
+                "end": 99,
                 "value": "is"
             },
             {
-                "time": 3045,
+                "time": 2627,
                 "type": "word",
-                "start": 98,
-                "end": 100,
+                "start": 100,
+                "end": 102,
                 "value": "my"
             },
             {
-                "time": 3249,
+                "time": 2765,
                 "type": "word",
-                "start": 101,
-                "end": 107,
+                "start": 103,
+                "end": 109,
                 "value": "school"
             }
         ]

@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "108",
-        "words": [
-            "108"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    25.1914005279541,
-                    24.34998893737793
-                ],
-                [
-                    66.35140228271484,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">108</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "108"
-            }
-        ]
-    },
-    "1": {
         "text": "Let's play a game.",
         "words": [
             "Let's",
@@ -79,41 +49,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a game.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's play a game.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 276,
+                "time": 473,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "play"
             },
             {
-                "time": 590,
+                "time": 733,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 649,
+                "time": 886,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "game"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Select a number from the shapes given below. Ask your friend to guess it.",
         "words": [
             "Select",
@@ -273,118 +244,112 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Select a number from the shapes given below.<break time=\"500ms\"/> Ask your friend to guess it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Select a number from the shapes given below. Ask your friend to guess it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Select"
             },
             {
-                "time": 556,
+                "time": 646,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 610,
+                "time": 722,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 37,
+                "end": 43,
                 "value": "number"
             },
             {
-                "time": 1000,
+                "time": 1181,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 44,
+                "end": 48,
                 "value": "from"
             },
             {
-                "time": 1238,
+                "time": 1410,
                 "type": "word",
-                "start": 48,
-                "end": 51,
+                "start": 49,
+                "end": 52,
                 "value": "the"
             },
             {
-                "time": 1322,
+                "time": 1563,
                 "type": "word",
-                "start": 52,
-                "end": 58,
+                "start": 53,
+                "end": 59,
                 "value": "shapes"
             },
             {
-                "time": 1788,
+                "time": 1946,
                 "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 60,
+                "end": 65,
                 "value": "given"
             },
             {
-                "time": 2154,
+                "time": 2328,
                 "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 66,
+                "end": 71,
                 "value": "below"
             },
             {
-                "time": 2707,
+                "time": 3600,
                 "type": "word",
-                "start": 71,
-                "end": 92,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3594,
-                "type": "word",
-                "start": 93,
-                "end": 96,
+                "start": 73,
+                "end": 76,
                 "value": "Ask"
             },
             {
-                "time": 3939,
+                "time": 3906,
                 "type": "word",
-                "start": 97,
-                "end": 101,
+                "start": 77,
+                "end": 81,
                 "value": "your"
             },
             {
-                "time": 4052,
+                "time": 4059,
                 "type": "word",
-                "start": 102,
-                "end": 108,
+                "start": 82,
+                "end": 88,
                 "value": "friend"
             },
             {
-                "time": 4481,
+                "time": 4349,
                 "type": "word",
-                "start": 109,
-                "end": 111,
+                "start": 89,
+                "end": 91,
                 "value": "to"
             },
             {
-                "time": 4567,
+                "time": 4579,
                 "type": "word",
-                "start": 112,
-                "end": 117,
+                "start": 92,
+                "end": 97,
                 "value": "guess"
             },
             {
-                "time": 4861,
+                "time": 4885,
                 "type": "word",
-                "start": 118,
-                "end": 120,
+                "start": 98,
+                "end": 100,
                 "value": "it"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Is it in a circle? No Is it in a square? Yes Is it in a blue square? No Your number is 18! Yes!",
         "words": [
             "Is",
@@ -654,181 +619,182 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Is it in a circle? No Is it in a square? Yes Is it in a blue square? No Your number is 18! Yes!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Is it in a circle? No Is it in a square? Yes Is it in a blue square? No Your number is 18! Yes!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Is"
             },
             {
-                "time": 174,
+                "time": 325,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "it"
             },
             {
-                "time": 288,
+                "time": 416,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "in"
             },
             {
-                "time": 424,
+                "time": 569,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 479,
+                "time": 646,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "circle"
             },
             {
-                "time": 1410,
+                "time": 1942,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "No"
             },
             {
-                "time": 1658,
+                "time": 2263,
                 "type": "word",
-                "start": 49,
-                "end": 51,
+                "start": 50,
+                "end": 52,
                 "value": "Is"
             },
             {
-                "time": 1833,
+                "time": 2416,
                 "type": "word",
-                "start": 52,
-                "end": 54,
+                "start": 53,
+                "end": 55,
                 "value": "it"
             },
             {
-                "time": 1954,
+                "time": 2553,
                 "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 56,
+                "end": 58,
                 "value": "in"
             },
             {
-                "time": 2082,
+                "time": 2630,
                 "type": "word",
-                "start": 58,
-                "end": 59,
+                "start": 59,
+                "end": 60,
                 "value": "a"
             },
             {
-                "time": 2143,
+                "time": 2829,
                 "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 61,
+                "end": 67,
                 "value": "square"
             },
             {
-                "time": 3156,
+                "time": 3999,
                 "type": "word",
-                "start": 68,
-                "end": 71,
+                "start": 69,
+                "end": 72,
                 "value": "Yes"
             },
             {
-                "time": 3434,
+                "time": 4382,
                 "type": "word",
-                "start": 72,
-                "end": 74,
+                "start": 73,
+                "end": 75,
                 "value": "Is"
             },
             {
-                "time": 3594,
+                "time": 4535,
                 "type": "word",
-                "start": 75,
-                "end": 77,
+                "start": 76,
+                "end": 78,
                 "value": "it"
             },
             {
-                "time": 3728,
+                "time": 4703,
                 "type": "word",
-                "start": 78,
-                "end": 80,
+                "start": 79,
+                "end": 81,
                 "value": "in"
             },
             {
-                "time": 3860,
+                "time": 4795,
                 "type": "word",
-                "start": 81,
-                "end": 82,
+                "start": 82,
+                "end": 83,
                 "value": "a"
             },
             {
-                "time": 3916,
+                "time": 4917,
                 "type": "word",
-                "start": 83,
-                "end": 87,
+                "start": 84,
+                "end": 88,
                 "value": "blue"
             },
             {
-                "time": 4214,
+                "time": 5177,
                 "type": "word",
-                "start": 88,
-                "end": 94,
+                "start": 89,
+                "end": 95,
                 "value": "square"
             },
             {
-                "time": 5207,
+                "time": 6424,
                 "type": "word",
-                "start": 96,
-                "end": 98,
+                "start": 97,
+                "end": 99,
                 "value": "No"
             },
             {
-                "time": 5399,
+                "time": 6653,
                 "type": "word",
-                "start": 99,
-                "end": 103,
+                "start": 100,
+                "end": 104,
                 "value": "Your"
             },
             {
-                "time": 5560,
+                "time": 6806,
                 "type": "word",
-                "start": 104,
-                "end": 110,
+                "start": 105,
+                "end": 111,
                 "value": "number"
             },
             {
-                "time": 5993,
+                "time": 7342,
                 "type": "word",
-                "start": 111,
-                "end": 113,
+                "start": 112,
+                "end": 114,
                 "value": "is"
             },
             {
-                "time": 6199,
+                "time": 7586,
                 "type": "word",
-                "start": 114,
-                "end": 116,
+                "start": 115,
+                "end": 117,
                 "value": "18"
             },
             {
-                "time": 7336,
+                "time": 8861,
                 "type": "word",
-                "start": 118,
-                "end": 121,
+                "start": 119,
+                "end": 122,
                 "value": "Yes"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "17",
         "words": [
             "17"
@@ -845,20 +811,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">17</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>17</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "17"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "13",
         "words": [
             "13"
@@ -875,20 +842,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">13</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>13</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "13"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "14",
         "words": [
             "14"
@@ -905,20 +873,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>14</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "14"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "19 12",
         "words": [
             "19",
@@ -946,28 +915,29 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">19 12</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>19 12</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "19"
             },
             {
-                "time": 514,
+                "time": 722,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "12"
             }
         ]
     },
-    "8": {
-        "text": "10",
+    "7": {
+        "text": "12",
         "words": [
             "12"
         ],
@@ -983,20 +953,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">10</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>12</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "10"
+                "start": 28,
+                "end": 30,
+                "value": "12"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "19",
         "words": [
             "19"
@@ -1013,20 +984,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">19</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>19</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "19"
             }
         ]
     },
-    "10": {
+    "9": {
         "text": "18",
         "words": [
             "18"
@@ -1043,20 +1015,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">18</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>18</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "18"
             }
         ]
     },
-    "11": {
+    "10": {
         "text": "15",
         "words": [
             "15"
@@ -1073,20 +1046,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">15</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>15</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "15"
             }
         ]
     },
-    "12": {
+    "11": {
         "text": "20",
         "words": [
             "20"
@@ -1103,15 +1077,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">20</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>20</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "20"
             }
         ]

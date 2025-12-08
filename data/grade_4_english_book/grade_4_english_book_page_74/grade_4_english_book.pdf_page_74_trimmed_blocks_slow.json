@@ -1,0 +1,2643 @@
+{
+    "0": {
+        "text": "Start here.",
+        "words": [
+            "Start",
+            "here."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    64.58979797363281,
+                    594.3168334960938
+                ],
+                [
+                    95.83779907226562,
+                    610.9907836914062
+                ]
+            ],
+            [
+                [
+                    99.19779968261719,
+                    594.3168334960938
+                ],
+                [
+                    132.69979858398438,
+                    610.9907836914062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Start <break time='200ms'/> here. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Start"
+            },
+            {
+                "time": 754,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1055,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "here"
+            },
+            {
+                "time": 1593,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "(1) Name",
+        "words": [
+            "(1)",
+            "Name"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    67.97250366210938,
+                    478.8163757324219
+                ],
+                [
+                    87.02650451660156,
+                    495.4903869628906
+                ]
+            ],
+            [
+                [
+                    90.52650451660156,
+                    478.8163757324219
+                ],
+                [
+                    132.10650634765625,
+                    495.4903869628906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(1) <break time='200ms'/> Name <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "1"
+            },
+            {
+                "time": 779,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1080,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "Name"
+            },
+            {
+                "time": 1847,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "(2) Name (3) Name (4) Name",
+        "words": [
+            "(2)",
+            "Name",
+            "(3)",
+            "Name",
+            "(4)",
+            "Name"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.00039672851562,
+                    390.1230773925781
+                ],
+                [
+                    87.49040222167969,
+                    406.7970886230469
+                ]
+            ],
+            [
+                [
+                    90.99040222167969,
+                    390.1230773925781
+                ],
+                [
+                    132.57040405273438,
+                    406.7970886230469
+                ]
+            ],
+            [
+                [
+                    166.77940368652344,
+                    390.1230773925781
+                ],
+                [
+                    188.3114013671875,
+                    406.7970886230469
+                ]
+            ],
+            [
+                [
+                    191.8114013671875,
+                    390.1230773925781
+                ],
+                [
+                    233.3914031982422,
+                    406.7970886230469
+                ]
+            ],
+            [
+                [
+                    272.76690673828125,
+                    388.660400390625
+                ],
+                [
+                    293.8509216308594,
+                    405.33441162109375
+                ]
+            ],
+            [
+                [
+                    297.3509216308594,
+                    388.660400390625
+                ],
+                [
+                    338.930908203125,
+                    405.33441162109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(2) <break time='200ms'/> Name <break time='200ms'/> (3) <break time='200ms'/> Name <break time='200ms'/> (4) <break time='200ms'/> Name <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "2"
+            },
+            {
+                "time": 651,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 951,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "Name"
+            },
+            {
+                "time": 1449,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1655,
+                "type": "word",
+                "start": 82,
+                "end": 83,
+                "value": "3"
+            },
+            {
+                "time": 2308,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2608,
+                "type": "word",
+                "start": 107,
+                "end": 111,
+                "value": "Name"
+            },
+            {
+                "time": 3106,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3312,
+                "type": "word",
+                "start": 135,
+                "end": 136,
+                "value": "4"
+            },
+            {
+                "time": 4067,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4369,
+                "type": "word",
+                "start": 160,
+                "end": 164,
+                "value": "Name"
+            },
+            {
+                "time": 5164,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "(5) What's the shape of (6) What's the shape of",
+        "words": [
+            "(5)",
+            "What's",
+            "the",
+            "shape",
+            "of",
+            "(6)",
+            "What's",
+            "the",
+            "shape",
+            "of"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    376.1773986816406,
+                    387.9290771484375
+                ],
+                [
+                    397.70941162109375,
+                    404.60308837890625
+                ]
+            ],
+            [
+                [
+                    400.7893981933594,
+                    387.9290771484375
+                ],
+                [
+                    447.3533935546875,
+                    404.60308837890625
+                ]
+            ],
+            [
+                [
+                    370.493408203125,
+                    404.72906494140625
+                ],
+                [
+                    392.5714111328125,
+                    421.403076171875
+                ]
+            ],
+            [
+                [
+                    396.0714111328125,
+                    404.72906494140625
+                ],
+                [
+                    436.223388671875,
+                    421.403076171875
+                ]
+            ],
+            [
+                [
+                    439.723388671875,
+                    404.72906494140625
+                ],
+                [
+                    453.0373840332031,
+                    421.403076171875
+                ]
+            ],
+            [
+                [
+                    471.2832946777344,
+                    390.7637939453125
+                ],
+                [
+                    492.9552917480469,
+                    407.43780517578125
+                ]
+            ],
+            [
+                [
+                    496.0352783203125,
+                    390.7637939453125
+                ],
+                [
+                    542.5993041992188,
+                    407.43780517578125
+                ]
+            ],
+            [
+                [
+                    465.6692810058594,
+                    407.56378173828125
+                ],
+                [
+                    487.7472839355469,
+                    424.23779296875
+                ]
+            ],
+            [
+                [
+                    491.2472839355469,
+                    407.56378173828125
+                ],
+                [
+                    531.3992919921875,
+                    424.23779296875
+                ]
+            ],
+            [
+                [
+                    534.8992919921875,
+                    407.56378173828125
+                ],
+                [
+                    548.2133178710938,
+                    424.23779296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(5) <break time='200ms'/> What's <break time='200ms'/> the <break time='200ms'/> shape <break time='200ms'/> of <break time='200ms'/> (6) <break time='200ms'/> What's <break time='200ms'/> the <break time='200ms'/> shape <break time='200ms'/> of <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "5"
+            },
+            {
+                "time": 807,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1109,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "What's"
+            },
+            {
+                "time": 1851,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2151,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "the"
+            },
+            {
+                "time": 2587,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2888,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "shape"
+            },
+            {
+                "time": 3500,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3801,
+                "type": "word",
+                "start": 137,
+                "end": 139,
+                "value": "of"
+            },
+            {
+                "time": 4291,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4497,
+                "type": "word",
+                "start": 163,
+                "end": 164,
+                "value": "6"
+            },
+            {
+                "time": 5292,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5592,
+                "type": "word",
+                "start": 188,
+                "end": 194,
+                "value": "What's"
+            },
+            {
+                "time": 6227,
+                "type": "word",
+                "start": 195,
+                "end": 216,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6528,
+                "type": "word",
+                "start": 217,
+                "end": 220,
+                "value": "the"
+            },
+            {
+                "time": 7029,
+                "type": "word",
+                "start": 221,
+                "end": 242,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7329,
+                "type": "word",
+                "start": 243,
+                "end": 248,
+                "value": "shape"
+            },
+            {
+                "time": 8038,
+                "type": "word",
+                "start": 249,
+                "end": 270,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8338,
+                "type": "word",
+                "start": 271,
+                "end": 273,
+                "value": "of"
+            },
+            {
+                "time": 9009,
+                "type": "word",
+                "start": 274,
+                "end": 295,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "(7) How much is a ?",
+        "words": [
+            "(7)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.6852035522461,
+                    119.22452545166016
+                ],
+                [
+                    87.13920593261719,
+                    135.89852905273438
+                ]
+            ],
+            [
+                [
+                    90.63920593261719,
+                    119.22452545166016
+                ],
+                [
+                    120.6412124633789,
+                    135.89852905273438
+                ]
+            ],
+            [
+                [
+                    55.98920440673828,
+                    136.02452087402344
+                ],
+                [
+                    95.231201171875,
+                    152.69851684570312
+                ]
+            ],
+            [
+                [
+                    98.731201171875,
+                    136.02452087402344
+                ],
+                [
+                    108.51720428466797,
+                    152.69851684570312
+                ]
+            ],
+            [
+                [
+                    112.01720428466797,
+                    136.02452087402344
+                ],
+                [
+                    120.52920532226562,
+                    152.69851684570312
+                ]
+            ],
+            [
+                [
+                    124.02920532226562,
+                    136.02452087402344
+                ],
+                [
+                    131.21121215820312,
+                    152.69851684570312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(7) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "7"
+            },
+            {
+                "time": 783,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1084,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "How"
+            },
+            {
+                "time": 1649,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1949,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "much"
+            },
+            {
+                "time": 2591,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2884,
+                "type": "word",
+                "start": 107,
+                "end": 109,
+                "value": "is"
+            },
+            {
+                "time": 3351,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3651,
+                "type": "word",
+                "start": 132,
+                "end": 133,
+                "value": "a"
+            },
+            {
+                "time": 4166,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4746,
+                "type": "word",
+                "start": 158,
+                "end": 179,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a",
+        "words": [
+            "(8)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(9)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(10)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(11)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(12)",
+            "How",
+            "much",
+            "is",
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    70.43820190429688,
+                    31.38462257385254
+                ],
+                [
+                    92.02620697021484,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    95.52620697021484,
+                    31.38462257385254
+                ],
+                [
+                    125.52821350097656,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    60.30220031738281,
+                    48.184608459472656
+                ],
+                [
+                    99.54419708251953,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    103.04419708251953,
+                    48.184608459472656
+                ],
+                [
+                    112.8302001953125,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    116.3302001953125,
+                    48.184608459472656
+                ],
+                [
+                    124.84220123291016,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    128.34219360351562,
+                    48.184608459472656
+                ],
+                [
+                    135.52420043945312,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    172.07110595703125,
+                    30.99262237548828
+                ],
+                [
+                    191.99310302734375,
+                    49.878623962402344
+                ]
+            ],
+            [
+                [
+                    195.49310302734375,
+                    31.38462257385254
+                ],
+                [
+                    225.49510192871094,
+                    48.058624267578125
+                ]
+            ],
+            [
+                [
+                    161.10910034179688,
+                    48.184608459472656
+                ],
+                [
+                    200.3511199951172,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    203.8511199951172,
+                    48.184608459472656
+                ],
+                [
+                    213.63711547851562,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    217.13711547851562,
+                    48.184608459472656
+                ],
+                [
+                    225.64910888671875,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    229.14910888671875,
+                    48.184608459472656
+                ],
+                [
+                    236.33111572265625,
+                    64.85861206054688
+                ]
+            ],
+            [
+                [
+                    274.1387023925781,
+                    29.92179298400879
+                ],
+                [
+                    301.4527282714844,
+                    46.595794677734375
+                ]
+            ],
+            [
+                [
+                    304.9527282714844,
+                    29.92179298400879
+                ],
+                [
+                    334.9547119140625,
+                    46.595794677734375
+                ]
+            ],
+            [
+                [
+                    266.8727111816406,
+                    46.721778869628906
+                ],
+                [
+                    306.11474609375,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    309.61474609375,
+                    46.721778869628906
+                ],
+                [
+                    319.4007568359375,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    322.9007568359375,
+                    46.721778869628906
+                ],
+                [
+                    331.4127502441406,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    334.9127502441406,
+                    46.721778869628906
+                ],
+                [
+                    342.0947570800781,
+                    63.395782470703125
+                ]
+            ],
+            [
+                [
+                    381.0353088378906,
+                    27.06461524963379
+                ],
+                [
+                    406.38934326171875,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    409.88934326171875,
+                    27.06461524963379
+                ],
+                [
+                    439.8913269042969,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    372.789306640625,
+                    43.864601135253906
+                ],
+                [
+                    412.0313415527344,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    415.5313415527344,
+                    43.864601135253906
+                ],
+                [
+                    425.31732177734375,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    428.81732177734375,
+                    43.864601135253906
+                ],
+                [
+                    437.3293151855469,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    440.8293151855469,
+                    43.864601135253906
+                ],
+                [
+                    448.0113220214844,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    468.0816955566406,
+                    27.06461524963379
+                ],
+                [
+                    495.5216979980469,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    499.0216979980469,
+                    27.06461524963379
+                ],
+                [
+                    529.023681640625,
+                    43.738616943359375
+                ]
+            ],
+            [
+                [
+                    466.2196960449219,
+                    43.864601135253906
+                ],
+                [
+                    505.46173095703125,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    508.96173095703125,
+                    43.864601135253906
+                ],
+                [
+                    518.7477416992188,
+                    60.538604736328125
+                ]
+            ],
+            [
+                [
+                    522.2477416992188,
+                    43.864601135253906
+                ],
+                [
+                    530.759765625,
+                    60.538604736328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(8) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (9) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (10) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (11) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (12) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "8"
+            },
+            {
+                "time": 604,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "How"
+            },
+            {
+                "time": 1470,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1771,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "much"
+            },
+            {
+                "time": 2442,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2735,
+                "type": "word",
+                "start": 107,
+                "end": 109,
+                "value": "is"
+            },
+            {
+                "time": 3202,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3502,
+                "type": "word",
+                "start": 132,
+                "end": 133,
+                "value": "a"
+            },
+            {
+                "time": 4017,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4597,
+                "type": "word",
+                "start": 158,
+                "end": 179,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4797,
+                "type": "word",
+                "start": 180,
+                "end": 181,
+                "value": "("
+            },
+            {
+                "time": 5383,
+                "type": "word",
+                "start": 181,
+                "end": 182,
+                "value": "9"
+            },
+            {
+                "time": 6149,
+                "type": "word",
+                "start": 184,
+                "end": 205,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6451,
+                "type": "word",
+                "start": 206,
+                "end": 209,
+                "value": "How"
+            },
+            {
+                "time": 7016,
+                "type": "word",
+                "start": 210,
+                "end": 231,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7317,
+                "type": "word",
+                "start": 232,
+                "end": 236,
+                "value": "much"
+            },
+            {
+                "time": 7987,
+                "type": "word",
+                "start": 237,
+                "end": 258,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8280,
+                "type": "word",
+                "start": 259,
+                "end": 261,
+                "value": "is"
+            },
+            {
+                "time": 8747,
+                "type": "word",
+                "start": 262,
+                "end": 283,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9047,
+                "type": "word",
+                "start": 284,
+                "end": 285,
+                "value": "a"
+            },
+            {
+                "time": 9562,
+                "type": "word",
+                "start": 286,
+                "end": 307,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10142,
+                "type": "word",
+                "start": 310,
+                "end": 331,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10342,
+                "type": "word",
+                "start": 332,
+                "end": 333,
+                "value": "("
+            },
+            {
+                "time": 10929,
+                "type": "word",
+                "start": 333,
+                "end": 335,
+                "value": "10"
+            },
+            {
+                "time": 11559,
+                "type": "word",
+                "start": 337,
+                "end": 358,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11860,
+                "type": "word",
+                "start": 359,
+                "end": 362,
+                "value": "How"
+            },
+            {
+                "time": 12425,
+                "type": "word",
+                "start": 363,
+                "end": 384,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12726,
+                "type": "word",
+                "start": 385,
+                "end": 389,
+                "value": "much"
+            },
+            {
+                "time": 13397,
+                "type": "word",
+                "start": 390,
+                "end": 411,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13690,
+                "type": "word",
+                "start": 412,
+                "end": 414,
+                "value": "is"
+            },
+            {
+                "time": 14157,
+                "type": "word",
+                "start": 415,
+                "end": 436,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14457,
+                "type": "word",
+                "start": 437,
+                "end": 438,
+                "value": "a"
+            },
+            {
+                "time": 14972,
+                "type": "word",
+                "start": 439,
+                "end": 460,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15552,
+                "type": "word",
+                "start": 463,
+                "end": 484,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15752,
+                "type": "word",
+                "start": 485,
+                "end": 486,
+                "value": "("
+            },
+            {
+                "time": 16339,
+                "type": "word",
+                "start": 486,
+                "end": 488,
+                "value": "11"
+            },
+            {
+                "time": 17185,
+                "type": "word",
+                "start": 490,
+                "end": 511,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17486,
+                "type": "word",
+                "start": 512,
+                "end": 515,
+                "value": "How"
+            },
+            {
+                "time": 18051,
+                "type": "word",
+                "start": 516,
+                "end": 537,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18351,
+                "type": "word",
+                "start": 538,
+                "end": 542,
+                "value": "much"
+            },
+            {
+                "time": 19021,
+                "type": "word",
+                "start": 543,
+                "end": 564,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19314,
+                "type": "word",
+                "start": 565,
+                "end": 567,
+                "value": "is"
+            },
+            {
+                "time": 19781,
+                "type": "word",
+                "start": 568,
+                "end": 589,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 20081,
+                "type": "word",
+                "start": 590,
+                "end": 591,
+                "value": "a"
+            },
+            {
+                "time": 20596,
+                "type": "word",
+                "start": 592,
+                "end": 613,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21176,
+                "type": "word",
+                "start": 616,
+                "end": 637,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21376,
+                "type": "word",
+                "start": 638,
+                "end": 639,
+                "value": "("
+            },
+            {
+                "time": 21962,
+                "type": "word",
+                "start": 639,
+                "end": 641,
+                "value": "12"
+            },
+            {
+                "time": 22731,
+                "type": "word",
+                "start": 643,
+                "end": 664,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23032,
+                "type": "word",
+                "start": 665,
+                "end": 668,
+                "value": "How"
+            },
+            {
+                "time": 23597,
+                "type": "word",
+                "start": 669,
+                "end": 690,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23898,
+                "type": "word",
+                "start": 691,
+                "end": 695,
+                "value": "much"
+            },
+            {
+                "time": 24569,
+                "type": "word",
+                "start": 696,
+                "end": 717,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 24862,
+                "type": "word",
+                "start": 718,
+                "end": 720,
+                "value": "is"
+            },
+            {
+                "time": 25329,
+                "type": "word",
+                "start": 721,
+                "end": 742,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 25622,
+                "type": "word",
+                "start": 743,
+                "end": 744,
+                "value": "a"
+            },
+            {
+                "time": 26422,
+                "type": "word",
+                "start": 745,
+                "end": 766,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "and a",
+        "words": [
+            "and",
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    463.0286865234375,
+                    73.1443862915039
+                ],
+                [
+                    488.8726806640625,
+                    89.81838989257812
+                ]
+            ],
+            [
+                [
+                    492.3726806640625,
+                    73.1443862915039
+                ],
+                [
+                    500.8846740722656,
+                    89.81838989257812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>and <break time='200ms'/> a <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "and"
+            },
+            {
+                "time": 693,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 990,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1703,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "(8) How much is a ? (9) How much is a ? (10) How much is a ? (11) How much is a ? (12) How much is a ?",
+        "words": [
+            "(8)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(9)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(10)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(11)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?",
+            "(12)",
+            "How",
+            "much",
+            "is",
+            "a",
+            "?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    73.25019836425781,
+                    211.47251892089844
+                ],
+                [
+                    94.83820343017578,
+                    228.14651489257812
+                ]
+            ],
+            [
+                [
+                    98.33820343017578,
+                    211.47251892089844
+                ],
+                [
+                    128.3402099609375,
+                    228.14651489257812
+                ]
+            ],
+            [
+                [
+                    63.11419677734375,
+                    228.2725067138672
+                ],
+                [
+                    102.35619354248047,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    105.85619354248047,
+                    228.2725067138672
+                ],
+                [
+                    115.64219665527344,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    119.14219665527344,
+                    228.2725067138672
+                ],
+                [
+                    127.6541976928711,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    131.15420532226562,
+                    228.2725067138672
+                ],
+                [
+                    138.33621215820312,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    174.0290985107422,
+                    211.47251892089844
+                ],
+                [
+                    195.6591033935547,
+                    228.14651489257812
+                ]
+            ],
+            [
+                [
+                    199.1591033935547,
+                    211.47251892089844
+                ],
+                [
+                    229.16110229492188,
+                    228.14651489257812
+                ]
+            ],
+            [
+                [
+                    163.9210968017578,
+                    228.2725067138672
+                ],
+                [
+                    203.16311645507812,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    206.66311645507812,
+                    228.2725067138672
+                ],
+                [
+                    216.44911193847656,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    219.94911193847656,
+                    228.2725067138672
+                ],
+                [
+                    228.46112060546875,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    231.96112060546875,
+                    228.2725067138672
+                ],
+                [
+                    239.14312744140625,
+                    244.94650268554688
+                ]
+            ],
+            [
+                [
+                    276.9507141113281,
+                    210.0096893310547
+                ],
+                [
+                    304.2647399902344,
+                    226.68368530273438
+                ]
+            ],
+            [
+                [
+                    307.7647399902344,
+                    210.0096893310547
+                ],
+                [
+                    337.7667236328125,
+                    226.68368530273438
+                ]
+            ],
+            [
+                [
+                    269.6847229003906,
+                    226.80967712402344
+                ],
+                [
+                    308.9267578125,
+                    243.48367309570312
+                ]
+            ],
+            [
+                [
+                    312.4267578125,
+                    226.80967712402344
+                ],
+                [
+                    322.2127685546875,
+                    243.48367309570312
+                ]
+            ],
+            [
+                [
+                    325.7127685546875,
+                    226.80967712402344
+                ],
+                [
+                    334.2247619628906,
+                    243.48367309570312
+                ]
+            ],
+            [
+                [
+                    337.7247619628906,
+                    226.80967712402344
+                ],
+                [
+                    344.9067687988281,
+                    243.48367309570312
+                ]
+            ],
+            [
+                [
+                    383.8472900390625,
+                    207.1523895263672
+                ],
+                [
+                    409.2013244628906,
+                    223.82638549804688
+                ]
+            ],
+            [
+                [
+                    412.7013244628906,
+                    207.1523895263672
+                ],
+                [
+                    442.70330810546875,
+                    223.82638549804688
+                ]
+            ],
+            [
+                [
+                    375.6012878417969,
+                    223.95237731933594
+                ],
+                [
+                    414.84332275390625,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    418.34332275390625,
+                    223.95237731933594
+                ],
+                [
+                    428.12933349609375,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    431.62933349609375,
+                    223.95237731933594
+                ],
+                [
+                    440.1413269042969,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    443.6413269042969,
+                    223.95237731933594
+                ],
+                [
+                    450.8233337402344,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    470.8935852050781,
+                    207.1523895263672
+                ],
+                [
+                    498.3335876464844,
+                    223.82638549804688
+                ]
+            ],
+            [
+                [
+                    501.8335876464844,
+                    207.1523895263672
+                ],
+                [
+                    531.8355712890625,
+                    223.82638549804688
+                ]
+            ],
+            [
+                [
+                    463.68359375,
+                    223.95237731933594
+                ],
+                [
+                    502.9256286621094,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    506.4256286621094,
+                    223.95237731933594
+                ],
+                [
+                    516.2116088867188,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    519.7116088867188,
+                    223.95237731933594
+                ],
+                [
+                    528.2236328125,
+                    240.62637329101562
+                ]
+            ],
+            [
+                [
+                    531.7236328125,
+                    223.95237731933594
+                ],
+                [
+                    538.9056396484375,
+                    240.62637329101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>(8) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (9) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (10) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (11) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/> (12) <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 29,
+                "end": 30,
+                "value": "8"
+            },
+            {
+                "time": 604,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "How"
+            },
+            {
+                "time": 1470,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1771,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "much"
+            },
+            {
+                "time": 2442,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2735,
+                "type": "word",
+                "start": 107,
+                "end": 109,
+                "value": "is"
+            },
+            {
+                "time": 3202,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3502,
+                "type": "word",
+                "start": 132,
+                "end": 133,
+                "value": "a"
+            },
+            {
+                "time": 4017,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4597,
+                "type": "word",
+                "start": 158,
+                "end": 179,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4797,
+                "type": "word",
+                "start": 180,
+                "end": 181,
+                "value": "("
+            },
+            {
+                "time": 5383,
+                "type": "word",
+                "start": 181,
+                "end": 182,
+                "value": "9"
+            },
+            {
+                "time": 6149,
+                "type": "word",
+                "start": 184,
+                "end": 205,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6451,
+                "type": "word",
+                "start": 206,
+                "end": 209,
+                "value": "How"
+            },
+            {
+                "time": 7016,
+                "type": "word",
+                "start": 210,
+                "end": 231,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7317,
+                "type": "word",
+                "start": 232,
+                "end": 236,
+                "value": "much"
+            },
+            {
+                "time": 7987,
+                "type": "word",
+                "start": 237,
+                "end": 258,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8280,
+                "type": "word",
+                "start": 259,
+                "end": 261,
+                "value": "is"
+            },
+            {
+                "time": 8747,
+                "type": "word",
+                "start": 262,
+                "end": 283,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9047,
+                "type": "word",
+                "start": 284,
+                "end": 285,
+                "value": "a"
+            },
+            {
+                "time": 9562,
+                "type": "word",
+                "start": 286,
+                "end": 307,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10142,
+                "type": "word",
+                "start": 310,
+                "end": 331,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10342,
+                "type": "word",
+                "start": 332,
+                "end": 333,
+                "value": "("
+            },
+            {
+                "time": 10929,
+                "type": "word",
+                "start": 333,
+                "end": 335,
+                "value": "10"
+            },
+            {
+                "time": 11559,
+                "type": "word",
+                "start": 337,
+                "end": 358,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11860,
+                "type": "word",
+                "start": 359,
+                "end": 362,
+                "value": "How"
+            },
+            {
+                "time": 12425,
+                "type": "word",
+                "start": 363,
+                "end": 384,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12726,
+                "type": "word",
+                "start": 385,
+                "end": 389,
+                "value": "much"
+            },
+            {
+                "time": 13397,
+                "type": "word",
+                "start": 390,
+                "end": 411,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13690,
+                "type": "word",
+                "start": 412,
+                "end": 414,
+                "value": "is"
+            },
+            {
+                "time": 14157,
+                "type": "word",
+                "start": 415,
+                "end": 436,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14457,
+                "type": "word",
+                "start": 437,
+                "end": 438,
+                "value": "a"
+            },
+            {
+                "time": 14972,
+                "type": "word",
+                "start": 439,
+                "end": 460,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15552,
+                "type": "word",
+                "start": 463,
+                "end": 484,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15752,
+                "type": "word",
+                "start": 485,
+                "end": 486,
+                "value": "("
+            },
+            {
+                "time": 16339,
+                "type": "word",
+                "start": 486,
+                "end": 488,
+                "value": "11"
+            },
+            {
+                "time": 17185,
+                "type": "word",
+                "start": 490,
+                "end": 511,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17486,
+                "type": "word",
+                "start": 512,
+                "end": 515,
+                "value": "How"
+            },
+            {
+                "time": 18051,
+                "type": "word",
+                "start": 516,
+                "end": 537,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18351,
+                "type": "word",
+                "start": 538,
+                "end": 542,
+                "value": "much"
+            },
+            {
+                "time": 19021,
+                "type": "word",
+                "start": 543,
+                "end": 564,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19314,
+                "type": "word",
+                "start": 565,
+                "end": 567,
+                "value": "is"
+            },
+            {
+                "time": 19781,
+                "type": "word",
+                "start": 568,
+                "end": 589,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 20081,
+                "type": "word",
+                "start": 590,
+                "end": 591,
+                "value": "a"
+            },
+            {
+                "time": 20596,
+                "type": "word",
+                "start": 592,
+                "end": 613,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21176,
+                "type": "word",
+                "start": 616,
+                "end": 637,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21376,
+                "type": "word",
+                "start": 638,
+                "end": 639,
+                "value": "("
+            },
+            {
+                "time": 21962,
+                "type": "word",
+                "start": 639,
+                "end": 641,
+                "value": "12"
+            },
+            {
+                "time": 22731,
+                "type": "word",
+                "start": 643,
+                "end": 664,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23032,
+                "type": "word",
+                "start": 665,
+                "end": 668,
+                "value": "How"
+            },
+            {
+                "time": 23597,
+                "type": "word",
+                "start": 669,
+                "end": 690,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23898,
+                "type": "word",
+                "start": 691,
+                "end": 695,
+                "value": "much"
+            },
+            {
+                "time": 24569,
+                "type": "word",
+                "start": 696,
+                "end": 717,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 24862,
+                "type": "word",
+                "start": 718,
+                "end": 720,
+                "value": "is"
+            },
+            {
+                "time": 25329,
+                "type": "word",
+                "start": 721,
+                "end": 742,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 25629,
+                "type": "word",
+                "start": 743,
+                "end": 744,
+                "value": "a"
+            },
+            {
+                "time": 26144,
+                "type": "word",
+                "start": 745,
+                "end": 766,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 26724,
+                "type": "word",
+                "start": 769,
+                "end": 790,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Start again. Put the dice two times.",
+        "words": [
+            "Start",
+            "again.",
+            "Put",
+            "the",
+            "dice",
+            "two",
+            "times."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    470.3736877441406,
+                    306.2657775878906
+                ],
+                [
+                    501.6217346191406,
+                    322.9397888183594
+                ]
+            ],
+            [
+                [
+                    504.9817199707031,
+                    306.2657775878906
+                ],
+                [
+                    547.1497802734375,
+                    322.9397888183594
+                ]
+            ],
+            [
+                [
+                    469.1836853027344,
+                    323.0657653808594
+                ],
+                [
+                    491.72369384765625,
+                    339.7397766113281
+                ]
+            ],
+            [
+                [
+                    494.94366455078125,
+                    323.0657653808594
+                ],
+                [
+                    517.0216674804688,
+                    339.7397766113281
+                ]
+            ],
+            [
+                [
+                    520.5216674804688,
+                    323.0657653808594
+                ],
+                [
+                    547.6397094726562,
+                    339.7397766113281
+                ]
+            ],
+            [
+                [
+                    473.7056884765625,
+                    339.8657531738281
+                ],
+                [
+                    498.6676940917969,
+                    356.5397644042969
+                ]
+            ],
+            [
+                [
+                    502.0276794433594,
+                    339.8657531738281
+                ],
+                [
+                    543.817626953125,
+                    356.5397644042969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Start <break time='200ms'/> again. <break time='200ms'/> Put <break time='200ms'/> the <break time='200ms'/> dice <break time='200ms'/> two <break time='200ms'/> times. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Start"
+            },
+            {
+                "time": 765,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1067,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "again"
+            },
+            {
+                "time": 1642,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2229,
+                "type": "word",
+                "start": 85,
+                "end": 88,
+                "value": "Put"
+            },
+            {
+                "time": 2837,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3137,
+                "type": "word",
+                "start": 111,
+                "end": 114,
+                "value": "the"
+            },
+            {
+                "time": 3567,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3868,
+                "type": "word",
+                "start": 137,
+                "end": 141,
+                "value": "dice"
+            },
+            {
+                "time": 4592,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4885,
+                "type": "word",
+                "start": 164,
+                "end": 167,
+                "value": "two"
+            },
+            {
+                "time": 5478,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5778,
+                "type": "word",
+                "start": 190,
+                "end": 195,
+                "value": "times"
+            },
+            {
+                "time": 6428,
+                "type": "word",
+                "start": 197,
+                "end": 218,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "Write the answers in your exercise book.",
+        "words": [
+            "Write",
+            "the",
+            "answers",
+            "in",
+            "your",
+            "exercise",
+            "book."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.040000915527344,
+                    662.7140502929688
+                ],
+                [
+                    104.0580062866211,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    108.37800598144531,
+                    662.7140502929688
+                ],
+                [
+                    136.76400756835938,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    141.26400756835938,
+                    662.7140502929688
+                ],
+                [
+                    210.74400329589844,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    215.24400329589844,
+                    662.7140502929688
+                ],
+                [
+                    230.9759979248047,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    235.29600524902344,
+                    662.7140502929688
+                ],
+                [
+                    271.9620056152344,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    276.2820129394531,
+                    662.7140502929688
+                ],
+                [
+                    343.2420349121094,
+                    684.1520385742188
+                ]
+            ],
+            [
+                [
+                    347.7420349121094,
+                    662.7140502929688
+                ],
+                [
+                    394.3260498046875,
+                    684.1520385742188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Write <break time='200ms'/> the <break time='200ms'/> answers <break time='200ms'/> in <break time='200ms'/> your <break time='200ms'/> exercise <break time='200ms'/> book. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Write"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 988,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "the"
+            },
+            {
+                "time": 1417,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1718,
+                "type": "word",
+                "start": 82,
+                "end": 89,
+                "value": "answers"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2820,
+                "type": "word",
+                "start": 112,
+                "end": 114,
+                "value": "in"
+            },
+            {
+                "time": 3358,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3660,
+                "type": "word",
+                "start": 137,
+                "end": 141,
+                "value": "your"
+            },
+            {
+                "time": 4284,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4584,
+                "type": "word",
+                "start": 164,
+                "end": 172,
+                "value": "exercise"
+            },
+            {
+                "time": 5671,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5971,
+                "type": "word",
+                "start": 195,
+                "end": 199,
+                "value": "book"
+            },
+            {
+                "time": 6424,
+                "type": "word",
+                "start": 201,
+                "end": 222,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

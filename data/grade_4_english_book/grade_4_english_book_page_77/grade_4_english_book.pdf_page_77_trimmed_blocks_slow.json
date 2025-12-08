@@ -1,0 +1,536 @@
+{
+    "0": {
+        "text": "Speak.",
+        "words": [
+            "Speak."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.6505012512207,
+                    18.421781539916992
+                ],
+                [
+                    131.41249084472656,
+                    44.623783111572266
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Speak. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Speak"
+            },
+            {
+                "time": 645,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "What day is it today?",
+        "words": [
+            "What",
+            "day",
+            "is",
+            "it",
+            "today?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.36710357666016,
+                    77.67391967773438
+                ],
+                [
+                    136.40110778808594,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    140.7211151123047,
+                    77.67391967773438
+                ],
+                [
+                    171.68112182617188,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    176.00112915039062,
+                    77.67391967773438
+                ],
+                [
+                    188.5831298828125,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    193.0831298828125,
+                    77.67391967773438
+                ],
+                [
+                    204.31512451171875,
+                    99.11192321777344
+                ]
+            ],
+            [
+                [
+                    118.29310607910156,
+                    99.27389526367188
+                ],
+                [
+                    175.1911163330078,
+                    120.71189880371094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>What <break time='200ms'/> day <break time='200ms'/> is <break time='200ms'/> it <break time='200ms'/> today? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "What"
+            },
+            {
+                "time": 619,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 919,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "day"
+            },
+            {
+                "time": 1547,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1840,
+                "type": "word",
+                "start": 81,
+                "end": 83,
+                "value": "is"
+            },
+            {
+                "time": 2307,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2607,
+                "type": "word",
+                "start": 106,
+                "end": 108,
+                "value": "it"
+            },
+            {
+                "time": 3098,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3391,
+                "type": "word",
+                "start": 131,
+                "end": 136,
+                "value": "today"
+            },
+            {
+                "time": 3964,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Today is \u2026",
+        "words": [
+            "Today",
+            "is",
+            "\u2026"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    444.03289794921875,
+                    187.37472534179688
+                ],
+                [
+                    493.2268981933594,
+                    208.81272888183594
+                ]
+            ],
+            [
+                [
+                    497.5469055175781,
+                    187.37472534179688
+                ],
+                [
+                    510.12890625,
+                    208.81272888183594
+                ]
+            ],
+            [
+                [
+                    514.62890625,
+                    187.37472534179688
+                ],
+                [
+                    530.1989135742188,
+                    208.81272888183594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Today <break time='200ms'/> is <break time='200ms'/> \u2026 <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Today"
+            },
+            {
+                "time": 752,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1046,
+                "type": "word",
+                "start": 56,
+                "end": 58,
+                "value": "is"
+            },
+            {
+                "time": 1658,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1858,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Weekdays",
+        "words": [
+            "Weekdays"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    145.59890747070312,
+                    525.5223999023438
+                ],
+                [
+                    236.39990234375,
+                    548.1513671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Weekdays <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Weekdays"
+            },
+            {
+                "time": 1064,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Monday Tuesday Wednesday Thursday Friday",
+        "words": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    157.80490112304688,
+                    552.1044921875
+                ],
+                [
+                    225.71890258789062,
+                    573.54248046875
+                ]
+            ],
+            [
+                [
+                    154.45689392089844,
+                    575.7745361328125
+                ],
+                [
+                    223.43289184570312,
+                    597.2125244140625
+                ]
+            ],
+            [
+                [
+                    144.5388946533203,
+                    596.906494140625
+                ],
+                [
+                    243.66488647460938,
+                    618.344482421875
+                ]
+            ],
+            [
+                [
+                    154.99688720703125,
+                    622.8265380859375
+                ],
+                [
+                    232.12689208984375,
+                    644.2645263671875
+                ]
+            ],
+            [
+                [
+                    167.95689392089844,
+                    646.5685424804688
+                ],
+                [
+                    217.88888549804688,
+                    668.0065307617188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Monday <break time='200ms'/> Tuesday <break time='200ms'/> Wednesday <break time='200ms'/> Thursday <break time='200ms'/> Friday <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Monday"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1142,
+                "type": "word",
+                "start": 57,
+                "end": 64,
+                "value": "Tuesday"
+            },
+            {
+                "time": 2025,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2328,
+                "type": "word",
+                "start": 87,
+                "end": 96,
+                "value": "Wednesday"
+            },
+            {
+                "time": 3264,
+                "type": "word",
+                "start": 97,
+                "end": 118,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3566,
+                "type": "word",
+                "start": 119,
+                "end": 127,
+                "value": "Thursday"
+            },
+            {
+                "time": 4509,
+                "type": "word",
+                "start": 128,
+                "end": 149,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4810,
+                "type": "word",
+                "start": 150,
+                "end": 156,
+                "value": "Friday"
+            },
+            {
+                "time": 5662,
+                "type": "word",
+                "start": 157,
+                "end": 178,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Weekend",
+        "words": [
+            "Weekend"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    381.6626892089844,
+                    541.8034057617188
+                ],
+                [
+                    465.4337158203125,
+                    564.432373046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Weekend <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Weekend"
+            },
+            {
+                "time": 850,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Saturday Sunday",
+        "words": [
+            "Saturday",
+            "Sunday"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    387.8591003417969,
+                    565.5264892578125
+                ],
+                [
+                    463.1351318359375,
+                    586.9644775390625
+                ]
+            ],
+            [
+                [
+                    389.6590881347656,
+                    592.364501953125
+                ],
+                [
+                    452.9111022949219,
+                    613.802490234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Saturday <break time='200ms'/> Sunday <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Saturday"
+            },
+            {
+                "time": 1002,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1304,
+                "type": "word",
+                "start": 59,
+                "end": 65,
+                "value": "Sunday"
+            },
+            {
+                "time": 2240,
+                "type": "word",
+                "start": 66,
+                "end": 87,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

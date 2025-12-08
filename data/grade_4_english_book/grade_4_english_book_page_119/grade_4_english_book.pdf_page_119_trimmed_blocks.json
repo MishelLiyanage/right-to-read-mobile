@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "text": "Lesson 7",
         "words": [
             "Lesson",
@@ -27,27 +27,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 522,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Act out.",
         "words": [
             "Act",
@@ -75,27 +76,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Act out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Act out.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Act"
             },
             {
-                "time": 350,
+                "time": 309,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "out"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Let's sing.",
         "words": [
             "Let's",
@@ -104,54 +106,812 @@
         "bounding_boxes": [
             [
                 [
-                    62.358497619628906,
-                    128.55319213867188
+                    321.4657897949219,
+                    15.553312301635742
                 ],
                 [
-                    109.4384994506836,
-                    154.75518798828125
+                    368.5458068847656,
+                    41.755313873291016
                 ]
             ],
             [
                 [
-                    114.9384994506836,
-                    128.55319213867188
+                    374.0458068847656,
+                    15.553312301635742
                 ],
                 [
-                    164.46051025390625,
-                    154.75518798828125
+                    423.5678405761719,
+                    41.755313873291016
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\" pitch=\"+3%\">Let's sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 28,
+                "end": 33,
                 "value": "Let's"
             },
             {
-                "time": 405,
+                "time": 348,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
+            }
+        ]
+    },
+    "3": {
+        "text": "If you are happy",
+        "words": [
+            "If",
+            "you",
+            "are",
+            "happy"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    54.83627700805664
+                ],
+                [
+                    298.5137939453125,
+                    76.27427673339844
+                ]
+            ],
+            [
+                [
+                    302.65380859375,
+                    54.83627700805664
+                ],
+                [
+                    333.2898254394531,
+                    76.27427673339844
+                ]
+            ],
+            [
+                [
+                    337.7898254394531,
+                    54.83627700805664
+                ],
+                [
+                    364.6098327636719,
+                    76.27427673339844
+                ]
+            ],
+            [
+                [
+                    369.1098327636719,
+                    54.83627700805664
+                ],
+                [
+                    422.3538513183594,
+                    76.27427673339844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>If you are happy</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "If"
             },
             {
-                "time": 1046,
+                "time": 146,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"400ms\"/>"
+                "start": 31,
+                "end": 34,
+                "value": "you"
+            },
+            {
+                "time": 300,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "are"
+            },
+            {
+                "time": 409,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "happy"
             }
         ]
     },
     "4": {
+        "text": "and if you know it",
+        "words": [
+            "and",
+            "if",
+            "you",
+            "know",
+            "it"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    82.84426879882812
+                ],
+                [
+                    318.0077819824219,
+                    104.28227233886719
+                ]
+            ],
+            [
+                [
+                    322.5077819824219,
+                    82.84426879882812
+                ],
+                [
+                    333.9737854003906,
+                    104.28227233886719
+                ]
+            ],
+            [
+                [
+                    338.1138000488281,
+                    82.84426879882812
+                ],
+                [
+                    368.74981689453125,
+                    104.28227233886719
+                ]
+            ],
+            [
+                [
+                    373.24981689453125,
+                    82.84426879882812
+                ],
+                [
+                    419.11383056640625,
+                    104.28227233886719
+                ]
+            ],
+            [
+                [
+                    423.433837890625,
+                    82.84426879882812
+                ],
+                [
+                    434.66583251953125,
+                    104.28227233886719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>and if you know it</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "and"
+            },
+            {
+                "time": 170,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "if"
+            },
+            {
+                "time": 303,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "you"
+            },
+            {
+                "time": 423,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "know"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 44,
+                "end": 46,
+                "value": "it"
+            }
+        ]
+    },
+    "5": {
+        "text": "clap your hands.",
+        "words": [
+            "clap",
+            "your",
+            "hands."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    110.85226440429688
+                ],
+                [
+                    320.40179443359375,
+                    132.29026794433594
+                ]
+            ],
+            [
+                [
+                    324.7218017578125,
+                    110.85226440429688
+                ],
+                [
+                    361.3878173828125,
+                    132.29026794433594
+                ]
+            ],
+            [
+                [
+                    365.52783203125,
+                    110.85226440429688
+                ],
+                [
+                    424.1178283691406,
+                    132.29026794433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>clap your hands.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "clap"
+            },
+            {
+                "time": 398,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "your"
+            },
+            {
+                "time": 526,
+                "type": "word",
+                "start": 38,
+                "end": 43,
+                "value": "hands"
+            }
+        ]
+    },
+    "6": {
+        "text": "If you are happy",
+        "words": [
+            "If",
+            "you",
+            "are",
+            "happy"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    351.70379638671875,
+                    148.58029174804688
+                ],
+                [
+                    365.43780517578125,
+                    170.01829528808594
+                ]
+            ],
+            [
+                [
+                    369.57781982421875,
+                    148.58029174804688
+                ],
+                [
+                    400.2138366699219,
+                    170.01829528808594
+                ]
+            ],
+            [
+                [
+                    404.7138366699219,
+                    148.58029174804688
+                ],
+                [
+                    431.5338439941406,
+                    170.01829528808594
+                ]
+            ],
+            [
+                [
+                    436.0338439941406,
+                    148.58029174804688
+                ],
+                [
+                    489.2778625488281,
+                    170.01829528808594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>If you are happy</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "If"
+            },
+            {
+                "time": 146,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "you"
+            },
+            {
+                "time": 300,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "are"
+            },
+            {
+                "time": 409,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "happy"
+            }
+        ]
+    },
+    "7": {
+        "text": "and if you know it",
+        "words": [
+            "and",
+            "if",
+            "you",
+            "know",
+            "it"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    351.70379638671875,
+                    176.58828735351562
+                ],
+                [
+                    384.9317932128906,
+                    198.0262908935547
+                ]
+            ],
+            [
+                [
+                    389.4317932128906,
+                    176.58828735351562
+                ],
+                [
+                    400.8977966308594,
+                    198.0262908935547
+                ]
+            ],
+            [
+                [
+                    405.0378112792969,
+                    176.58828735351562
+                ],
+                [
+                    435.673828125,
+                    198.0262908935547
+                ]
+            ],
+            [
+                [
+                    440.173828125,
+                    176.58828735351562
+                ],
+                [
+                    486.037841796875,
+                    198.0262908935547
+                ]
+            ],
+            [
+                [
+                    490.35784912109375,
+                    176.58828735351562
+                ],
+                [
+                    501.58984375,
+                    198.0262908935547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>and if you know it</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "and"
+            },
+            {
+                "time": 170,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "if"
+            },
+            {
+                "time": 303,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "you"
+            },
+            {
+                "time": 423,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "know"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 44,
+                "end": 46,
+                "value": "it"
+            }
+        ]
+    },
+    "8": {
+        "text": "tap your shoulders.",
+        "words": [
+            "tap",
+            "your",
+            "shoulders."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    351.70379638671875,
+                    204.59628295898438
+                ],
+                [
+                    380.16180419921875,
+                    226.03428649902344
+                ]
+            ],
+            [
+                [
+                    384.3377990722656,
+                    204.59628295898438
+                ],
+                [
+                    421.0038146972656,
+                    226.03428649902344
+                ]
+            ],
+            [
+                [
+                    425.1798095703125,
+                    204.59628295898438
+                ],
+                [
+                    511.52581787109375,
+                    226.03428649902344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>tap your shoulders.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "tap"
+            },
+            {
+                "time": 305,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "your"
+            },
+            {
+                "time": 414,
+                "type": "word",
+                "start": 37,
+                "end": 46,
+                "value": "shoulders"
+            }
+        ]
+    },
+    "9": {
+        "text": "If you are happy",
+        "words": [
+            "If",
+            "you",
+            "are",
+            "happy"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    242.936279296875
+                ],
+                [
+                    298.5137939453125,
+                    264.3742980957031
+                ]
+            ],
+            [
+                [
+                    302.65380859375,
+                    242.936279296875
+                ],
+                [
+                    333.2898254394531,
+                    264.3742980957031
+                ]
+            ],
+            [
+                [
+                    337.7898254394531,
+                    242.936279296875
+                ],
+                [
+                    364.6098327636719,
+                    264.3742980957031
+                ]
+            ],
+            [
+                [
+                    369.1098327636719,
+                    242.936279296875
+                ],
+                [
+                    422.3538513183594,
+                    264.3742980957031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>If you are happy</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "If"
+            },
+            {
+                "time": 146,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "you"
+            },
+            {
+                "time": 300,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "are"
+            },
+            {
+                "time": 409,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "happy"
+            }
+        ]
+    },
+    "10": {
+        "text": "and if you know it",
+        "words": [
+            "and",
+            "if",
+            "you",
+            "know",
+            "it"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    270.94427490234375
+                ],
+                [
+                    318.0077819824219,
+                    292.3822937011719
+                ]
+            ],
+            [
+                [
+                    322.5077819824219,
+                    270.94427490234375
+                ],
+                [
+                    333.9737854003906,
+                    292.3822937011719
+                ]
+            ],
+            [
+                [
+                    338.1138000488281,
+                    270.94427490234375
+                ],
+                [
+                    368.74981689453125,
+                    292.3822937011719
+                ]
+            ],
+            [
+                [
+                    373.24981689453125,
+                    270.94427490234375
+                ],
+                [
+                    419.11383056640625,
+                    292.3822937011719
+                ]
+            ],
+            [
+                [
+                    423.433837890625,
+                    270.94427490234375
+                ],
+                [
+                    434.66583251953125,
+                    292.3822937011719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>and if you know it</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "and"
+            },
+            {
+                "time": 170,
+                "type": "word",
+                "start": 32,
+                "end": 34,
+                "value": "if"
+            },
+            {
+                "time": 303,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "you"
+            },
+            {
+                "time": 423,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "know"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 44,
+                "end": 46,
+                "value": "it"
+            }
+        ]
+    },
+    "11": {
+        "text": "nod your head.",
+        "words": [
+            "nod",
+            "your",
+            "head."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    284.77978515625,
+                    298.9522705078125
+                ],
+                [
+                    317.1977844238281,
+                    320.3902893066406
+                ]
+            ],
+            [
+                [
+                    321.5177917480469,
+                    298.9522705078125
+                ],
+                [
+                    358.1838073730469,
+                    320.3902893066406
+                ]
+            ],
+            [
+                [
+                    362.3238220214844,
+                    298.9522705078125
+                ],
+                [
+                    411.5898132324219,
+                    320.3902893066406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>nod your head.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "nod"
+            },
+            {
+                "time": 384,
+                "type": "word",
+                "start": 32,
+                "end": 36,
+                "value": "your"
+            },
+            {
+                "time": 591,
+                "type": "word",
+                "start": 37,
+                "end": 41,
+                "value": "head"
+            }
+        ]
+    },
+    "12": {
         "text": "Lesson 8",
         "words": [
             "Lesson",
@@ -179,27 +939,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Lesson 8</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 8</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 550,
+                "time": 478,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "8"
             }
         ]
     },
-    "5": {
+    "13": {
         "text": "Let's sing.",
         "words": [
             "Let's",
@@ -227,35 +988,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\" pitch=\"+3%\">Let's sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 28,
+                "end": 33,
                 "value": "Let's"
             },
             {
-                "time": 405,
+                "time": 348,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
-            },
-            {
-                "time": 1046,
-                "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
-    "6": {
+    "14": {
         "text": "One vowel many sounds many sounds one vowel one is a short sound, book, cook, bull and full. The other is a long sound, spoon, broom, blue and true.",
         "words": [
             "One",
@@ -580,265 +1334,217 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">One vowel many sounds many sounds one vowel one is a short sound,<break time=\"300ms\"/> book,<break time=\"300ms\"/> cook,<break time=\"300ms\"/> bull and full.<break time=\"500ms\"/> The other is a long sound,<break time=\"300ms\"/> spoon,<break time=\"300ms\"/> broom,<break time=\"300ms\"/> blue and true.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>One vowel many sounds many sounds one vowel one is a short sound, book, cook, bull and full. The other is a long sound, spoon, broom, blue and true.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "One"
             },
             {
-                "time": 391,
+                "time": 328,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "vowel"
             },
             {
-                "time": 849,
+                "time": 717,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "many"
             },
             {
-                "time": 1230,
+                "time": 1046,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 43,
+                "end": 49,
                 "value": "sounds"
             },
             {
-                "time": 1777,
+                "time": 1518,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "many"
             },
             {
-                "time": 2180,
+                "time": 1857,
                 "type": "word",
-                "start": 54,
-                "end": 60,
+                "start": 55,
+                "end": 61,
                 "value": "sounds"
             },
             {
-                "time": 2717,
+                "time": 2326,
                 "type": "word",
-                "start": 61,
-                "end": 64,
+                "start": 62,
+                "end": 65,
                 "value": "one"
             },
             {
-                "time": 3040,
+                "time": 2604,
                 "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 66,
+                "end": 71,
                 "value": "vowel"
             },
             {
-                "time": 3381,
+                "time": 2897,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 72,
+                "end": 75,
                 "value": "one"
             },
             {
-                "time": 3695,
+                "time": 3174,
                 "type": "word",
-                "start": 75,
-                "end": 77,
+                "start": 76,
+                "end": 78,
                 "value": "is"
             },
             {
-                "time": 3892,
+                "time": 3359,
                 "type": "word",
-                "start": 78,
-                "end": 79,
+                "start": 79,
+                "end": 80,
                 "value": "a"
             },
             {
-                "time": 3945,
+                "time": 3412,
                 "type": "word",
-                "start": 80,
-                "end": 85,
+                "start": 81,
+                "end": 86,
                 "value": "short"
             },
             {
-                "time": 4447,
+                "time": 3831,
                 "type": "word",
-                "start": 86,
-                "end": 91,
+                "start": 87,
+                "end": 92,
                 "value": "sound"
             },
             {
-                "time": 5239,
+                "time": 4624,
                 "type": "word",
-                "start": 92,
-                "end": 113,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5639,
-                "type": "word",
-                "start": 114,
-                "end": 118,
+                "start": 94,
+                "end": 98,
                 "value": "book"
             },
             {
-                "time": 6310,
+                "time": 5303,
                 "type": "word",
-                "start": 119,
-                "end": 140,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 6710,
-                "type": "word",
-                "start": 141,
-                "end": 145,
+                "start": 100,
+                "end": 104,
                 "value": "cook"
             },
             {
-                "time": 7407,
+                "time": 6001,
                 "type": "word",
-                "start": 146,
-                "end": 167,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 7801,
-                "type": "word",
-                "start": 168,
-                "end": 172,
+                "start": 106,
+                "end": 110,
                 "value": "bull"
             },
             {
-                "time": 8156,
+                "time": 6299,
                 "type": "word",
-                "start": 173,
-                "end": 176,
+                "start": 111,
+                "end": 114,
                 "value": "and"
             },
             {
-                "time": 8302,
+                "time": 6424,
                 "type": "word",
-                "start": 177,
-                "end": 181,
+                "start": 115,
+                "end": 119,
                 "value": "full"
             },
             {
-                "time": 8858,
+                "time": 7283,
                 "type": "word",
-                "start": 182,
-                "end": 203,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9745,
-                "type": "word",
-                "start": 204,
-                "end": 207,
+                "start": 121,
+                "end": 124,
                 "value": "The"
             },
             {
-                "time": 9962,
+                "time": 7468,
                 "type": "word",
-                "start": 208,
-                "end": 213,
+                "start": 125,
+                "end": 130,
                 "value": "other"
             },
             {
-                "time": 10266,
+                "time": 7729,
                 "type": "word",
-                "start": 214,
-                "end": 216,
+                "start": 131,
+                "end": 133,
                 "value": "is"
             },
             {
-                "time": 10432,
+                "time": 7874,
                 "type": "word",
-                "start": 217,
-                "end": 218,
+                "start": 134,
+                "end": 135,
                 "value": "a"
             },
             {
-                "time": 10503,
+                "time": 7938,
                 "type": "word",
-                "start": 219,
-                "end": 223,
+                "start": 136,
+                "end": 140,
                 "value": "long"
             },
             {
-                "time": 10965,
+                "time": 8333,
                 "type": "word",
-                "start": 224,
-                "end": 229,
+                "start": 141,
+                "end": 146,
                 "value": "sound"
             },
             {
-                "time": 11806,
+                "time": 9169,
                 "type": "word",
-                "start": 230,
-                "end": 251,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 12206,
-                "type": "word",
-                "start": 252,
-                "end": 257,
+                "start": 148,
+                "end": 153,
                 "value": "spoon"
             },
             {
-                "time": 13121,
+                "time": 10066,
                 "type": "word",
-                "start": 258,
-                "end": 279,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 13521,
-                "type": "word",
-                "start": 280,
-                "end": 285,
+                "start": 155,
+                "end": 160,
                 "value": "broom"
             },
             {
-                "time": 14184,
+                "time": 10758,
                 "type": "word",
-                "start": 286,
-                "end": 307,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 14584,
-                "type": "word",
-                "start": 308,
-                "end": 312,
+                "start": 162,
+                "end": 166,
                 "value": "blue"
             },
             {
-                "time": 14884,
+                "time": 11014,
                 "type": "word",
-                "start": 313,
-                "end": 316,
+                "start": 167,
+                "end": 170,
                 "value": "and"
             },
             {
-                "time": 15057,
+                "time": 11168,
                 "type": "word",
-                "start": 317,
-                "end": 321,
+                "start": 171,
+                "end": 175,
                 "value": "true"
             }
         ]
     },
-    "7": {
+    "15": {
         "text": "Read the poem aloud and ask the students to repeat. With the highlighted words, explain the difference between the long and the short vowel sounds | u | and |u:|.",
         "words": [
             "Read",
@@ -1174,1035 +1880,206 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Read the poem aloud and ask the students to repeat.<break time=\"500ms\"/> With the highlighted words,<break time=\"300ms\"/> explain the difference between the long and the short vowel sounds | u | and |u:|.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the poem aloud and ask the students to repeat. With the highlighted words, explain the difference between the long and the short vowel sounds | u | and |u:|.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 298,
+                "time": 257,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 412,
+                "time": 356,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "poem"
             },
             {
-                "time": 932,
+                "time": 808,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "aloud"
             },
             {
-                "time": 1435,
+                "time": 1249,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "and"
             },
             {
-                "time": 1644,
+                "time": 1438,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "ask"
             },
             {
-                "time": 2097,
+                "time": 1837,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 56,
+                "end": 59,
                 "value": "the"
             },
             {
-                "time": 2216,
+                "time": 1950,
                 "type": "word",
-                "start": 59,
-                "end": 67,
+                "start": 60,
+                "end": 68,
                 "value": "students"
             },
             {
-                "time": 2965,
+                "time": 2597,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 69,
+                "end": 71,
                 "value": "to"
             },
             {
-                "time": 3108,
+                "time": 2727,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 72,
+                "end": 78,
                 "value": "repeat"
             },
             {
-                "time": 3915,
+                "time": 3790,
                 "type": "word",
-                "start": 78,
-                "end": 99,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4801,
-                "type": "word",
-                "start": 100,
-                "end": 104,
+                "start": 80,
+                "end": 84,
                 "value": "With"
             },
             {
-                "time": 4967,
+                "time": 3930,
                 "type": "word",
-                "start": 105,
-                "end": 108,
+                "start": 85,
+                "end": 88,
                 "value": "the"
             },
             {
-                "time": 5089,
+                "time": 4041,
                 "type": "word",
-                "start": 109,
-                "end": 120,
+                "start": 89,
+                "end": 100,
                 "value": "highlighted"
             },
             {
-                "time": 5846,
+                "time": 4704,
                 "type": "word",
-                "start": 121,
-                "end": 126,
+                "start": 101,
+                "end": 106,
                 "value": "words"
             },
             {
-                "time": 6677,
+                "time": 5524,
                 "type": "word",
-                "start": 127,
-                "end": 148,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 7070,
-                "type": "word",
-                "start": 149,
-                "end": 156,
+                "start": 108,
+                "end": 115,
                 "value": "explain"
             },
             {
-                "time": 7772,
+                "time": 6119,
                 "type": "word",
-                "start": 157,
-                "end": 160,
+                "start": 116,
+                "end": 119,
                 "value": "the"
             },
             {
-                "time": 7895,
+                "time": 6229,
                 "type": "word",
-                "start": 161,
-                "end": 171,
+                "start": 120,
+                "end": 130,
                 "value": "difference"
             },
             {
-                "time": 8512,
+                "time": 6740,
                 "type": "word",
-                "start": 172,
-                "end": 179,
+                "start": 131,
+                "end": 138,
                 "value": "between"
             },
             {
-                "time": 9036,
+                "time": 7191,
                 "type": "word",
-                "start": 180,
-                "end": 183,
+                "start": 139,
+                "end": 142,
                 "value": "the"
             },
             {
-                "time": 9137,
+                "time": 7278,
                 "type": "word",
-                "start": 184,
-                "end": 188,
+                "start": 143,
+                "end": 147,
                 "value": "long"
             },
             {
-                "time": 9595,
+                "time": 7669,
                 "type": "word",
-                "start": 189,
-                "end": 192,
+                "start": 148,
+                "end": 151,
                 "value": "and"
             },
             {
-                "time": 9737,
+                "time": 7782,
                 "type": "word",
-                "start": 193,
-                "end": 196,
+                "start": 152,
+                "end": 155,
                 "value": "the"
             },
             {
-                "time": 9821,
+                "time": 7838,
                 "type": "word",
-                "start": 197,
-                "end": 202,
+                "start": 156,
+                "end": 161,
                 "value": "short"
             },
             {
-                "time": 10303,
+                "time": 8247,
                 "type": "word",
-                "start": 203,
-                "end": 208,
+                "start": 162,
+                "end": 167,
                 "value": "vowel"
             },
             {
-                "time": 10780,
+                "time": 8648,
                 "type": "word",
-                "start": 209,
-                "end": 215,
+                "start": 168,
+                "end": 174,
                 "value": "sounds"
             },
             {
-                "time": 11779,
+                "time": 9550,
                 "type": "word",
-                "start": 218,
-                "end": 219,
+                "start": 177,
+                "end": 178,
                 "value": "u"
             },
             {
-                "time": 12703,
+                "time": 10370,
                 "type": "word",
-                "start": 222,
-                "end": 225,
+                "start": 181,
+                "end": 184,
                 "value": "and"
             },
             {
-                "time": 12901,
+                "time": 10552,
                 "type": "word",
-                "start": 226,
-                "end": 230,
+                "start": 185,
+                "end": 189,
                 "value": "|u:|"
-            }
-        ]
-    },
-    "8": {
-        "text": "If you are happy",
-        "words": [
-            "If",
-            "you",
-            "are",
-            "happy"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    54.83627700805664
-                ],
-                [
-                    298.5137939453125,
-                    76.27427673339844
-                ]
-            ],
-            [
-                [
-                    302.65380859375,
-                    54.83627700805664
-                ],
-                [
-                    333.2898254394531,
-                    76.27427673339844
-                ]
-            ],
-            [
-                [
-                    337.7898254394531,
-                    54.83627700805664
-                ],
-                [
-                    364.6098327636719,
-                    76.27427673339844
-                ]
-            ],
-            [
-                [
-                    369.1098327636719,
-                    54.83627700805664
-                ],
-                [
-                    422.3538513183594,
-                    76.27427673339844
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">If you are happy</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "If"
-            },
-            {
-                "time": 173,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "you"
-            },
-            {
-                "time": 364,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "are"
-            },
-            {
-                "time": 492,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "happy"
-            }
-        ]
-    },
-    "9": {
-        "text": "and if you know it",
-        "words": [
-            "and",
-            "if",
-            "you",
-            "know",
-            "it"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    82.84426879882812
-                ],
-                [
-                    318.0077819824219,
-                    104.28227233886719
-                ]
-            ],
-            [
-                [
-                    322.5077819824219,
-                    82.84426879882812
-                ],
-                [
-                    333.9737854003906,
-                    104.28227233886719
-                ]
-            ],
-            [
-                [
-                    338.1138000488281,
-                    82.84426879882812
-                ],
-                [
-                    368.74981689453125,
-                    104.28227233886719
-                ]
-            ],
-            [
-                [
-                    373.24981689453125,
-                    82.84426879882812
-                ],
-                [
-                    419.11383056640625,
-                    104.28227233886719
-                ]
-            ],
-            [
-                [
-                    423.433837890625,
-                    82.84426879882812
-                ],
-                [
-                    434.66583251953125,
-                    104.28227233886719
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">and if you know it</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "and"
-            },
-            {
-                "time": 239,
-                "type": "word",
-                "start": 31,
-                "end": 33,
-                "value": "if"
-            },
-            {
-                "time": 460,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "you"
-            },
-            {
-                "time": 642,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "know"
-            },
-            {
-                "time": 1023,
-                "type": "word",
-                "start": 43,
-                "end": 45,
-                "value": "it"
-            }
-        ]
-    },
-    "10": {
-        "text": "clap your hands.",
-        "words": [
-            "clap",
-            "your",
-            "hands."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    110.85226440429688
-                ],
-                [
-                    320.40179443359375,
-                    132.29026794433594
-                ]
-            ],
-            [
-                [
-                    324.7218017578125,
-                    110.85226440429688
-                ],
-                [
-                    361.3878173828125,
-                    132.29026794433594
-                ]
-            ],
-            [
-                [
-                    365.52783203125,
-                    110.85226440429688
-                ],
-                [
-                    424.1178283691406,
-                    132.29026794433594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">clap your hands.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "clap"
-            },
-            {
-                "time": 472,
-                "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "your"
-            },
-            {
-                "time": 631,
-                "type": "word",
-                "start": 37,
-                "end": 42,
-                "value": "hands"
-            }
-        ]
-    },
-    "11": {
-        "text": "If you are happy",
-        "words": [
-            "If",
-            "you",
-            "are",
-            "happy"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    351.70379638671875,
-                    148.58029174804688
-                ],
-                [
-                    365.43780517578125,
-                    170.01829528808594
-                ]
-            ],
-            [
-                [
-                    369.57781982421875,
-                    148.58029174804688
-                ],
-                [
-                    400.2138366699219,
-                    170.01829528808594
-                ]
-            ],
-            [
-                [
-                    404.7138366699219,
-                    148.58029174804688
-                ],
-                [
-                    431.5338439941406,
-                    170.01829528808594
-                ]
-            ],
-            [
-                [
-                    436.0338439941406,
-                    148.58029174804688
-                ],
-                [
-                    489.2778625488281,
-                    170.01829528808594
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">If you are happy</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "If"
-            },
-            {
-                "time": 173,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "you"
-            },
-            {
-                "time": 364,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "are"
-            },
-            {
-                "time": 492,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "happy"
-            }
-        ]
-    },
-    "12": {
-        "text": "and if you know it",
-        "words": [
-            "and",
-            "if",
-            "you",
-            "know",
-            "it"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    351.70379638671875,
-                    176.58828735351562
-                ],
-                [
-                    384.9317932128906,
-                    198.0262908935547
-                ]
-            ],
-            [
-                [
-                    389.4317932128906,
-                    176.58828735351562
-                ],
-                [
-                    400.8977966308594,
-                    198.0262908935547
-                ]
-            ],
-            [
-                [
-                    405.0378112792969,
-                    176.58828735351562
-                ],
-                [
-                    435.673828125,
-                    198.0262908935547
-                ]
-            ],
-            [
-                [
-                    440.173828125,
-                    176.58828735351562
-                ],
-                [
-                    486.037841796875,
-                    198.0262908935547
-                ]
-            ],
-            [
-                [
-                    490.35784912109375,
-                    176.58828735351562
-                ],
-                [
-                    501.58984375,
-                    198.0262908935547
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">and if you know it</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "and"
-            },
-            {
-                "time": 239,
-                "type": "word",
-                "start": 31,
-                "end": 33,
-                "value": "if"
-            },
-            {
-                "time": 460,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "you"
-            },
-            {
-                "time": 642,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "know"
-            },
-            {
-                "time": 1023,
-                "type": "word",
-                "start": 43,
-                "end": 45,
-                "value": "it"
-            }
-        ]
-    },
-    "13": {
-        "text": "tap your shoulders.",
-        "words": [
-            "tap",
-            "your",
-            "shoulders."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    351.70379638671875,
-                    204.59628295898438
-                ],
-                [
-                    380.16180419921875,
-                    226.03428649902344
-                ]
-            ],
-            [
-                [
-                    384.3377990722656,
-                    204.59628295898438
-                ],
-                [
-                    421.0038146972656,
-                    226.03428649902344
-                ]
-            ],
-            [
-                [
-                    425.1798095703125,
-                    204.59628295898438
-                ],
-                [
-                    511.52581787109375,
-                    226.03428649902344
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">tap your shoulders.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "tap"
-            },
-            {
-                "time": 364,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "your"
-            },
-            {
-                "time": 494,
-                "type": "word",
-                "start": 36,
-                "end": 45,
-                "value": "shoulders"
-            }
-        ]
-    },
-    "14": {
-        "text": "If you are happy",
-        "words": [
-            "If",
-            "you",
-            "are",
-            "happy"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    242.936279296875
-                ],
-                [
-                    298.5137939453125,
-                    264.3742980957031
-                ]
-            ],
-            [
-                [
-                    302.65380859375,
-                    242.936279296875
-                ],
-                [
-                    333.2898254394531,
-                    264.3742980957031
-                ]
-            ],
-            [
-                [
-                    337.7898254394531,
-                    242.936279296875
-                ],
-                [
-                    364.6098327636719,
-                    264.3742980957031
-                ]
-            ],
-            [
-                [
-                    369.1098327636719,
-                    242.936279296875
-                ],
-                [
-                    422.3538513183594,
-                    264.3742980957031
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">If you are happy</prosody></speak>",
-        "dialog": "false",
-        "person_type": "narrator",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "If"
-            },
-            {
-                "time": 173,
-                "type": "word",
-                "start": 30,
-                "end": 33,
-                "value": "you"
-            },
-            {
-                "time": 364,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "are"
-            },
-            {
-                "time": 492,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "happy"
-            }
-        ]
-    },
-    "15": {
-        "text": "and if you know it",
-        "words": [
-            "and",
-            "if",
-            "you",
-            "know",
-            "it"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    270.94427490234375
-                ],
-                [
-                    318.0077819824219,
-                    292.3822937011719
-                ]
-            ],
-            [
-                [
-                    322.5077819824219,
-                    270.94427490234375
-                ],
-                [
-                    333.9737854003906,
-                    292.3822937011719
-                ]
-            ],
-            [
-                [
-                    338.1138000488281,
-                    270.94427490234375
-                ],
-                [
-                    368.74981689453125,
-                    292.3822937011719
-                ]
-            ],
-            [
-                [
-                    373.24981689453125,
-                    270.94427490234375
-                ],
-                [
-                    419.11383056640625,
-                    292.3822937011719
-                ]
-            ],
-            [
-                [
-                    423.433837890625,
-                    270.94427490234375
-                ],
-                [
-                    434.66583251953125,
-                    292.3822937011719
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">and if you know it</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "and"
-            },
-            {
-                "time": 239,
-                "type": "word",
-                "start": 31,
-                "end": 33,
-                "value": "if"
-            },
-            {
-                "time": 460,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "you"
-            },
-            {
-                "time": 642,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "know"
-            },
-            {
-                "time": 1023,
-                "type": "word",
-                "start": 43,
-                "end": 45,
-                "value": "it"
-            }
-        ]
-    },
-    "16": {
-        "text": "nod your head.",
-        "words": [
-            "nod",
-            "your",
-            "head."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    284.77978515625,
-                    298.9522705078125
-                ],
-                [
-                    317.1977844238281,
-                    320.3902893066406
-                ]
-            ],
-            [
-                [
-                    321.5177917480469,
-                    298.9522705078125
-                ],
-                [
-                    358.1838073730469,
-                    320.3902893066406
-                ]
-            ],
-            [
-                [
-                    362.3238220214844,
-                    298.9522705078125
-                ],
-                [
-                    411.5898132324219,
-                    320.3902893066406
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">nod your head.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "nod"
-            },
-            {
-                "time": 463,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "your"
-            },
-            {
-                "time": 670,
-                "type": "word",
-                "start": 36,
-                "end": 40,
-                "value": "head"
-            }
-        ]
-    },
-    "17": {
-        "text": "Let's sing.",
-        "words": [
-            "Let's",
-            "sing."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    321.4657897949219,
-                    15.553312301635742
-                ],
-                [
-                    368.5458068847656,
-                    41.755313873291016
-                ]
-            ],
-            [
-                [
-                    374.0458068847656,
-                    15.553312301635742
-                ],
-                [
-                    423.5678405761719,
-                    41.755313873291016
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\" pitch=\"+3%\">Let's sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 39,
-                "end": 44,
-                "value": "Let's"
-            },
-            {
-                "time": 405,
-                "type": "word",
-                "start": 45,
-                "end": 49,
-                "value": "sing"
-            },
-            {
-                "time": 1046,
-                "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     }

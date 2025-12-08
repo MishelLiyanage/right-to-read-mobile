@@ -1,0 +1,694 @@
+{
+    "0": {
+        "text": "10 Happy days",
+        "words": [
+            "10",
+            "Happy",
+            "days"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.53500366210938,
+                    138.2582244873047
+                ],
+                [
+                    141.2550048828125,
+                    195.4262237548828
+                ]
+            ],
+            [
+                [
+                    195.658203125,
+                    145.25030517578125
+                ],
+                [
+                    307.0062255859375,
+                    188.12631225585938
+                ]
+            ],
+            [
+                [
+                    315.646240234375,
+                    145.25030517578125
+                ],
+                [
+                    393.9462585449219,
+                    188.12631225585938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>10 <break time='200ms'/> Happy <break time='200ms'/> days <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "10"
+            },
+            {
+                "time": 636,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 937,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "Happy"
+            },
+            {
+                "time": 1647,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1947,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "days"
+            },
+            {
+                "time": 2642,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Lesson 1",
+        "words": [
+            "Lesson",
+            "1"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    64.1688003540039,
+                    198.92922973632812
+                ],
+                [
+                    133.5788116455078,
+                    225.1312255859375
+                ]
+            ],
+            [
+                [
+                    137.9788055419922,
+                    198.92922973632812
+                ],
+                [
+                    147.3288116455078,
+                    225.1312255859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 1 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 729,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1029,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "1"
+            },
+            {
+                "time": 1806,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Listen and match.",
+        "words": [
+            "Listen",
+            "and",
+            "match."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    140.65480041503906,
+                    248.349609375
+                ],
+                [
+                    201.39678955078125,
+                    274.5516052246094
+                ]
+            ],
+            [
+                [
+                    206.89678955078125,
+                    248.349609375
+                ],
+                [
+                    247.50880432128906,
+                    274.5516052246094
+                ]
+            ],
+            [
+                [
+                    253.00880432128906,
+                    248.349609375
+                ],
+                [
+                    329.0188293457031,
+                    274.5516052246094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> match. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "match"
+            },
+            {
+                "time": 2501,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "hungry thirsty happy sleepy tired",
+        "words": [
+            "hungry",
+            "thirsty",
+            "happy",
+            "sleepy",
+            "tired"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    383.2069091796875,
+                    185.89517211914062
+                ],
+                [
+                    443.992919921875,
+                    207.3331756591797
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    207.49514770507812
+                ],
+                [
+                    436.2709045410156,
+                    228.9331512451172
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    229.09515380859375
+                ],
+                [
+                    436.450927734375,
+                    250.5331573486328
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    250.69515991210938
+                ],
+                [
+                    436.23492431640625,
+                    272.1331787109375
+                ]
+            ],
+            [
+                [
+                    383.2069091796875,
+                    272.295166015625
+                ],
+                [
+                    421.2589111328125,
+                    293.7331848144531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>hungry <break time='200ms'/> thirsty <break time='200ms'/> happy <break time='200ms'/> sleepy <break time='200ms'/> tired <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "hungry"
+            },
+            {
+                "time": 706,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1008,
+                "type": "word",
+                "start": 57,
+                "end": 64,
+                "value": "thirsty"
+            },
+            {
+                "time": 1847,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2142,
+                "type": "word",
+                "start": 87,
+                "end": 92,
+                "value": "happy"
+            },
+            {
+                "time": 2862,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3155,
+                "type": "word",
+                "start": 115,
+                "end": 121,
+                "value": "sleepy"
+            },
+            {
+                "time": 4046,
+                "type": "word",
+                "start": 122,
+                "end": 143,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4346,
+                "type": "word",
+                "start": 144,
+                "end": 149,
+                "value": "tired"
+            },
+            {
+                "time": 5146,
+                "type": "word",
+                "start": 150,
+                "end": 171,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I'm hungry.",
+        "words": [
+            "I'm",
+            "hungry."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    369.8031921386719,
+                    337.6907958984375
+                ],
+                [
+                    398.2252197265625,
+                    359.1288146972656
+                ]
+            ],
+            [
+                [
+                    402.7252197265625,
+                    337.6907958984375
+                ],
+                [
+                    467.7232360839844,
+                    359.1288146972656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> hungry. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 936,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "hungry"
+            },
+            {
+                "time": 1561,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "I'm thirsty.",
+        "words": [
+            "I'm",
+            "thirsty."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    372.55010986328125,
+                    411.8620910644531
+                ],
+                [
+                    400.9721374511719,
+                    433.30010986328125
+                ]
+            ],
+            [
+                [
+                    405.2921447753906,
+                    411.8620910644531
+                ],
+                [
+                    462.5681457519531,
+                    433.30010986328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> thirsty. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 887,
+                "type": "word",
+                "start": 54,
+                "end": 61,
+                "value": "thirsty"
+            },
+            {
+                "time": 1524,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "I'm happy.",
+        "words": [
+            "I'm",
+            "happy."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    373.5740966796875,
+                    485.9153137207031
+                ],
+                [
+                    401.9961242675781,
+                    507.35333251953125
+                ]
+            ],
+            [
+                [
+                    406.4961242675781,
+                    485.9153137207031
+                ],
+                [
+                    463.9521484375,
+                    507.35333251953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> happy. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "happy"
+            },
+            {
+                "time": 1608,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "I'm sleepy.",
+        "words": [
+            "I'm",
+            "sleepy."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    370.80218505859375,
+                    559.100830078125
+                ],
+                [
+                    399.2242126464844,
+                    580.538818359375
+                ]
+            ],
+            [
+                [
+                    403.7242126464844,
+                    559.100830078125
+                ],
+                [
+                    460.9642333984375,
+                    580.538818359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> sleepy. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "sleepy"
+            },
+            {
+                "time": 1600,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "I'm tired.",
+        "words": [
+            "I'm",
+            "tired."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    377.66009521484375,
+                    630.5679321289062
+                ],
+                [
+                    406.0821228027344,
+                    652.0059204101562
+                ]
+            ],
+            [
+                [
+                    410.4021301269531,
+                    630.5679321289062
+                ],
+                [
+                    454.10614013671875,
+                    652.0059204101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> tired. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "tired"
+            },
+            {
+                "time": 1520,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

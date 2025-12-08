@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Recite.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Recite.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Recite"
             }
         ]
@@ -79,36 +80,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The place so cool,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The place so cool,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
-                "time": 95,
+                "time": 325,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "place"
             },
             {
-                "time": 531,
+                "time": 646,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "so"
             },
             {
-                "time": 725,
+                "time": 982,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "cool"
             }
         ]
@@ -152,29 +154,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">is my school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>is my school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "is"
             },
             {
-                "time": 177,
+                "time": 340,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "my"
             },
             {
-                "time": 348,
+                "time": 569,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 34,
+                "end": 40,
                 "value": "school"
             }
         ]
@@ -229,51 +232,38 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing,<break time=\"250ms\"/> dance and play,<break time=\"250ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sing, dance and play,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 28,
+                "end": 32,
                 "value": "Sing"
             },
             {
-                "time": 653,
+                "time": 830,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"250ms\"/>"
-            },
-            {
-                "time": 997,
-                "type": "word",
-                "start": 66,
-                "end": 71,
+                "start": 34,
+                "end": 39,
                 "value": "dance"
             },
             {
-                "time": 1395,
+                "time": 1289,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 40,
+                "end": 43,
                 "value": "and"
             },
             {
-                "time": 1567,
+                "time": 1442,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 44,
+                "end": 48,
                 "value": "play"
-            },
-            {
-                "time": 2309,
-                "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"250ms\"/>"
             }
         ]
     },
@@ -327,43 +317,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">read,<break time=\"300ms\"/> write and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>read, write and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "read"
             },
             {
-                "time": 631,
+                "time": 708,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1031,
-                "type": "word",
-                "start": 54,
-                "end": 59,
+                "start": 34,
+                "end": 39,
                 "value": "write"
             },
             {
-                "time": 1352,
+                "time": 1091,
                 "type": "word",
-                "start": 60,
-                "end": 63,
+                "start": 40,
+                "end": 43,
                 "value": "and"
             },
             {
-                "time": 1503,
+                "time": 1351,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 44,
+                "end": 47,
                 "value": "say"
             }
         ]
@@ -418,36 +402,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teachers love and care,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teachers love and care,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Teachers"
             },
             {
-                "time": 515,
+                "time": 733,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "love"
             },
             {
-                "time": 757,
+                "time": 1116,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 939,
+                "time": 1345,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 46,
+                "end": 50,
                 "value": "care"
             }
         ]
@@ -502,36 +487,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">many friends are there.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>many friends are there.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "many"
             },
             {
-                "time": 267,
+                "time": 416,
                 "type": "word",
-                "start": 32,
-                "end": 39,
+                "start": 33,
+                "end": 40,
                 "value": "friends"
             },
             {
-                "time": 769,
+                "time": 952,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "are"
             },
             {
-                "time": 904,
+                "time": 1105,
                 "type": "word",
-                "start": 44,
-                "end": 49,
+                "start": 45,
+                "end": 50,
                 "value": "there"
             }
         ]
@@ -586,36 +572,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The place so cheerful,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The place so cheerful,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
-                "time": 95,
+                "time": 325,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "place"
             },
             {
-                "time": 531,
+                "time": 646,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "so"
             },
             {
-                "time": 738,
+                "time": 982,
                 "type": "word",
-                "start": 40,
-                "end": 48,
+                "start": 41,
+                "end": 49,
                 "value": "cheerful"
             }
         ]
@@ -659,29 +646,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">is my school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>is my school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "is"
             },
             {
-                "time": 177,
+                "time": 340,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "my"
             },
             {
-                "time": 348,
+                "time": 569,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 34,
+                "end": 40,
                 "value": "school"
             }
         ]

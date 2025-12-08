@@ -1,0 +1,554 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.12099838256836,
+                    51.805023193359375
+                ],
+                [
+                    114.34099578857422,
+                    75.6250228881836
+                ]
+            ],
+            [
+                [
+                    119.34099578857422,
+                    51.805023193359375
+                ],
+                [
+                    156.26100158691406,
+                    75.6250228881836
+                ]
+            ],
+            [
+                [
+                    161.26100158691406,
+                    51.805023193359375
+                ],
+                [
+                    197.281005859375,
+                    75.6250228881836
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Good evening, madam. Can I help you?",
+        "words": [
+            "Good",
+            "evening,",
+            "madam.",
+            "Can",
+            "I",
+            "help",
+            "you?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    93.81710052490234,
+                    109.17697143554688
+                ],
+                [
+                    143.99710083007812,
+                    132.99697875976562
+                ]
+            ],
+            [
+                [
+                    148.99710083007812,
+                    109.17697143554688
+                ],
+                [
+                    229.37710571289062,
+                    132.99697875976562
+                ]
+            ],
+            [
+                [
+                    93.81710052490234,
+                    133.17697143554688
+                ],
+                [
+                    177.5771026611328,
+                    156.99697875976562
+                ]
+            ],
+            [
+                [
+                    181.5771026611328,
+                    133.17697143554688
+                ],
+                [
+                    220.27711486816406,
+                    156.99697875976562
+                ]
+            ],
+            [
+                [
+                    225.27711486816406,
+                    133.17697143554688
+                ],
+                [
+                    232.67710876464844,
+                    156.99697875976562
+                ]
+            ],
+            [
+                [
+                    93.81710052490234,
+                    157.17697143554688
+                ],
+                [
+                    134.8170928955078,
+                    180.99697875976562
+                ]
+            ],
+            [
+                [
+                    139.61709594726562,
+                    157.17697143554688
+                ],
+                [
+                    183.91708374023438,
+                    180.99697875976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Good <break time='200ms'/> evening, <break time='200ms'/> madam. <break time='200ms'/> Can <break time='200ms'/> I <break time='200ms'/> help <break time='200ms'/> you? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Good"
+            },
+            {
+                "time": 592,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 849,
+                "type": "word",
+                "start": 55,
+                "end": 62,
+                "value": "evening"
+            },
+            {
+                "time": 1736,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2105,
+                "type": "word",
+                "start": 86,
+                "end": 91,
+                "value": "madam"
+            },
+            {
+                "time": 2851,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3494,
+                "type": "word",
+                "start": 115,
+                "end": 118,
+                "value": "Can"
+            },
+            {
+                "time": 4091,
+                "type": "word",
+                "start": 119,
+                "end": 140,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4354,
+                "type": "word",
+                "start": 141,
+                "end": 142,
+                "value": "I"
+            },
+            {
+                "time": 5014,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5339,
+                "type": "word",
+                "start": 165,
+                "end": 169,
+                "value": "help"
+            },
+            {
+                "time": 6159,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6490,
+                "type": "word",
+                "start": 192,
+                "end": 195,
+                "value": "you"
+            },
+            {
+                "time": 7126,
+                "type": "word",
+                "start": 197,
+                "end": 218,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Yes, please! We want some vegetables.",
+        "words": [
+            "Yes,",
+            "please!",
+            "We",
+            "want",
+            "some",
+            "vegetables."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    327.1910095214844,
+                    91.43698120117188
+                ],
+                [
+                    363.051025390625,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    366.4510192871094,
+                    91.43698120117188
+                ],
+                [
+                    434.3310241699219,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    438.73101806640625,
+                    91.43698120117188
+                ],
+                [
+                    469.2710266113281,
+                    115.2569808959961
+                ]
+            ],
+            [
+                [
+                    327.1910095214844,
+                    115.43698120117188
+                ],
+                [
+                    375.7510070800781,
+                    139.25698852539062
+                ]
+            ],
+            [
+                [
+                    380.5509948730469,
+                    115.43698120117188
+                ],
+                [
+                    432.7510070800781,
+                    139.25698852539062
+                ]
+            ],
+            [
+                [
+                    327.1910095214844,
+                    139.43698120117188
+                ],
+                [
+                    435.35101318359375,
+                    163.25698852539062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Yes, <break time='200ms'/> please! <break time='200ms'/> We <break time='200ms'/> want <break time='200ms'/> some <break time='200ms'/> vegetables. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "old woman",
+        "voice_id": "Kimberly",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Yes"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 61,
+                "value": "please"
+            },
+            {
+                "time": 1778,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2496,
+                "type": "word",
+                "start": 85,
+                "end": 87,
+                "value": "We"
+            },
+            {
+                "time": 2934,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3191,
+                "type": "word",
+                "start": 110,
+                "end": 114,
+                "value": "want"
+            },
+            {
+                "time": 4078,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4447,
+                "type": "word",
+                "start": 137,
+                "end": 141,
+                "value": "some"
+            },
+            {
+                "time": 5052,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5383,
+                "type": "word",
+                "start": 164,
+                "end": 174,
+                "value": "vegetables"
+            },
+            {
+                "time": 6405,
+                "type": "word",
+                "start": 176,
+                "end": 197,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "fish eggs coconuts vegetables",
+        "words": [
+            "fish",
+            "eggs",
+            "coconuts",
+            "vegetables"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.4166030883789,
+                    668.3387451171875
+                ],
+                [
+                    131.45660400390625,
+                    692.1587524414062
+                ]
+            ],
+            [
+                [
+                    216.2169952392578,
+                    669.058837890625
+                ],
+                [
+                    260.97698974609375,
+                    692.8787841796875
+                ]
+            ],
+            [
+                [
+                    304.1700134277344,
+                    667.078857421875
+                ],
+                [
+                    389.4100646972656,
+                    690.8988037109375
+                ]
+            ],
+            [
+                [
+                    433.16900634765625,
+                    669.71533203125
+                ],
+                [
+                    535.0490112304688,
+                    693.5352783203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fish <break time='200ms'/> eggs <break time='200ms'/> coconuts <break time='200ms'/> vegetables <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "fish"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "eggs"
+            },
+            {
+                "time": 1563,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1825,
+                "type": "word",
+                "start": 82,
+                "end": 90,
+                "value": "coconuts"
+            },
+            {
+                "time": 2671,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2952,
+                "type": "word",
+                "start": 113,
+                "end": 123,
+                "value": "vegetables"
+            },
+            {
+                "time": 3907,
+                "type": "word",
+                "start": 124,
+                "end": 145,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

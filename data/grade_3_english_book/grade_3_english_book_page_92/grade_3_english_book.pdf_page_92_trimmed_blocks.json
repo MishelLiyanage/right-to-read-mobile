@@ -38,34 +38,102 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
     "1": {
+        "text": "I like leaves.",
+        "words": [
+            "I",
+            "like",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    74.84619903564453,
+                    183.5749969482422
+                ],
+                [
+                    80.02619934082031,
+                    200.24899291992188
+                ]
+            ],
+            [
+                [
+                    83.52619934082031,
+                    183.5749969482422
+                ],
+                [
+                    105.45020294189453,
+                    200.24899291992188
+                ]
+            ],
+            [
+                [
+                    108.95020294189453,
+                    183.5749969482422
+                ],
+                [
+                    154.59017944335938,
+                    200.24899291992188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I like leaves.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 262,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "like"
+            },
+            {
+                "time": 660,
+                "type": "word",
+                "start": 35,
+                "end": 41,
+                "value": "leaves"
+            }
+        ]
+    },
+    "2": {
         "text": "It's time for tea. What do you like?",
         "words": [
             "It's",
@@ -159,77 +227,70 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s time for tea.<break time=\"500ms\"/> What do you like?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's time for tea. What do you like?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 225,
+                "time": 339,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "time"
             },
             {
-                "time": 588,
+                "time": 751,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 38,
+                "end": 41,
                 "value": "for"
             },
             {
-                "time": 773,
+                "time": 889,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 42,
+                "end": 45,
                 "value": "tea"
             },
             {
-                "time": 1269,
+                "time": 1881,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2156,
-                "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 47,
+                "end": 51,
                 "value": "What"
             },
             {
-                "time": 2395,
+                "time": 2110,
                 "type": "word",
-                "start": 77,
-                "end": 79,
+                "start": 52,
+                "end": 54,
                 "value": "do"
             },
             {
-                "time": 2534,
+                "time": 2278,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 55,
+                "end": 58,
                 "value": "you"
             },
             {
-                "time": 2786,
+                "time": 2416,
                 "type": "word",
-                "start": 84,
-                "end": 88,
+                "start": 59,
+                "end": 63,
                 "value": "like"
             }
         ]
     },
-    "2": {
+    "3": {
         "text": "I like honey.",
         "words": [
             "I",
@@ -268,98 +329,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like honey.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like honey.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 216,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 448,
+                "time": 522,
                 "type": "word",
-                "start": 34,
-                "end": 39,
-                "value": "honey"
-            }
-        ]
-    },
-    "3": {
-        "text": "I like leaves.",
-        "words": [
-            "I",
-            "like",
-            "leaves."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    74.84619903564453,
-                    183.5749969482422
-                ],
-                [
-                    80.02619934082031,
-                    200.24899291992188
-                ]
-            ],
-            [
-                [
-                    83.52619934082031,
-                    183.5749969482422
-                ],
-                [
-                    105.45020294189453,
-                    200.24899291992188
-                ]
-            ],
-            [
-                [
-                    108.95020294189453,
-                    183.5749969482422
-                ],
-                [
-                    154.59017944335938,
-                    200.24899291992188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I like leaves.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "I"
-            },
-            {
-                "time": 153,
-                "type": "word",
-                "start": 29,
-                "end": 33,
-                "value": "like"
-            },
-            {
-                "time": 537,
-                "type": "word",
-                "start": 34,
+                "start": 35,
                 "end": 40,
-                "value": "leaves"
+                "value": "honey"
             }
         ]
     },
@@ -402,30 +396,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like milk.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like milk.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 262,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 440,
+                "time": 583,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "milk"
             }
         ]
@@ -469,30 +463,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like mangoes.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like mangoes.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 216,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 453,
+                "time": 522,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 35,
+                "end": 42,
                 "value": "mangoes"
             }
         ]
@@ -536,30 +530,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like leaves.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like leaves.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 262,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 480,
+                "time": 660,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "leaves"
             }
         ]
@@ -603,30 +597,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like meat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like meat.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 216,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 446,
+                "time": 583,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "meat"
             }
         ]

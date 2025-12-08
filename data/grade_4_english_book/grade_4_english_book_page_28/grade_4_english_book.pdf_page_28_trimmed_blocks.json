@@ -27,34 +27,90 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
     },
     "1": {
-        "text": "Read and enjoy.",
+        "text": "leaf egg caterpillar cocoon butterfly Read and enjoy.",
         "words": [
+            "leaf",
+            "egg",
+            "caterpillar",
+            "cocoon",
+            "butterfly",
             "Read",
             "and",
             "enjoy."
         ],
         "bounding_boxes": [
+            [
+                [
+                    395.2933044433594,
+                    57.290321350097656
+                ],
+                [
+                    420.60528564453125,
+                    73.96432495117188
+                ]
+            ],
+            [
+                [
+                    395.2933044433594,
+                    75.29434967041016
+                ],
+                [
+                    420.2552795410156,
+                    91.96835327148438
+                ]
+            ],
+            [
+                [
+                    395.2933044433594,
+                    93.29837799072266
+                ],
+                [
+                    460.7153015136719,
+                    109.97238159179688
+                ]
+            ],
+            [
+                [
+                    395.2933044433594,
+                    111.30240631103516
+                ],
+                [
+                    442.2633056640625,
+                    127.97640991210938
+                ]
+            ],
+            [
+                [
+                    395.2933044433594,
+                    129.3064422607422
+                ],
+                [
+                    452.3713684082031,
+                    145.98043823242188
+                ]
+            ],
             [
                 [
                     128.64950561523438,
@@ -86,29 +142,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and enjoy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>leaf egg caterpillar cocoon butterfly Read and enjoy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
+                "value": "leaf"
+            },
+            {
+                "time": 326,
+                "type": "word",
+                "start": 33,
+                "end": 36,
+                "value": "egg"
+            },
+            {
+                "time": 473,
+                "type": "word",
+                "start": 37,
+                "end": 48,
+                "value": "caterpillar"
+            },
+            {
+                "time": 1247,
+                "type": "word",
+                "start": 49,
+                "end": 55,
+                "value": "cocoon"
+            },
+            {
+                "time": 1766,
+                "type": "word",
+                "start": 56,
+                "end": 65,
+                "value": "butterfly"
+            },
+            {
+                "time": 2409,
+                "type": "word",
+                "start": 66,
+                "end": 70,
                 "value": "Read"
             },
             {
-                "time": 253,
+                "time": 2703,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 71,
+                "end": 74,
                 "value": "and"
             },
             {
-                "time": 417,
+                "time": 2822,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 75,
+                "end": 80,
                 "value": "enjoy"
             }
         ]
@@ -460,253 +552,226 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is in the garden with her mother.<break time=\"500ms\"/> One day,<break time=\"300ms\"/> she sees some butterfly eggs on a leaf.<break time=\"500ms\"/> They come every week to the garden.<break time=\"500ms\"/> They check on the butterfly eggs.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is in the garden with her mother. One day, she sees some butterfly eggs on a leaf. They come every week to the garden. They check on the butterfly eggs.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 634,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 751,
+                "time": 807,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 84,
+                "end": 86,
                 "value": "in"
             },
             {
-                "time": 855,
+                "time": 901,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 87,
+                "end": 90,
                 "value": "the"
             },
             {
-                "time": 936,
+                "time": 982,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 91,
+                "end": 97,
                 "value": "garden"
             },
             {
-                "time": 1369,
+                "time": 1441,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 98,
+                "end": 102,
                 "value": "with"
             },
             {
-                "time": 1582,
+                "time": 1654,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 103,
+                "end": 106,
                 "value": "her"
             },
             {
-                "time": 1708,
+                "time": 1781,
                 "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 107,
+                "end": 113,
                 "value": "mother"
             },
             {
-                "time": 2209,
+                "time": 2682,
                 "type": "word",
-                "start": 67,
-                "end": 88,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3096,
-                "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 115,
+                "end": 118,
                 "value": "One"
             },
             {
-                "time": 3410,
-                "type": "word",
-                "start": 93,
-                "end": 96,
-                "value": "day"
-            },
-            {
-                "time": 3972,
-                "type": "word",
-                "start": 97,
-                "end": 118,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4372,
+                "time": 3002,
                 "type": "word",
                 "start": 119,
                 "end": 122,
+                "value": "day"
+            },
+            {
+                "time": 3672,
+                "type": "word",
+                "start": 124,
+                "end": 127,
                 "value": "she"
             },
             {
-                "time": 4592,
-                "type": "word",
-                "start": 123,
-                "end": 127,
-                "value": "sees"
-            },
-            {
-                "time": 4966,
+                "time": 3904,
                 "type": "word",
                 "start": 128,
                 "end": 132,
+                "value": "sees"
+            },
+            {
+                "time": 4279,
+                "type": "word",
+                "start": 133,
+                "end": 137,
                 "value": "some"
             },
             {
-                "time": 5227,
+                "time": 4539,
                 "type": "word",
-                "start": 133,
-                "end": 142,
+                "start": 138,
+                "end": 147,
                 "value": "butterfly"
             },
             {
-                "time": 5913,
+                "time": 5239,
                 "type": "word",
-                "start": 143,
-                "end": 147,
+                "start": 148,
+                "end": 152,
                 "value": "eggs"
             },
             {
-                "time": 6272,
+                "time": 5620,
                 "type": "word",
-                "start": 148,
-                "end": 150,
+                "start": 153,
+                "end": 155,
                 "value": "on"
             },
             {
-                "time": 6434,
+                "time": 5788,
                 "type": "word",
-                "start": 151,
-                "end": 152,
+                "start": 156,
+                "end": 157,
                 "value": "a"
             },
             {
-                "time": 6501,
+                "time": 5856,
                 "type": "word",
-                "start": 153,
-                "end": 157,
+                "start": 158,
+                "end": 162,
                 "value": "leaf"
             },
             {
-                "time": 7017,
+                "time": 6780,
                 "type": "word",
-                "start": 158,
-                "end": 179,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7904,
-                "type": "word",
-                "start": 180,
-                "end": 184,
+                "start": 164,
+                "end": 168,
                 "value": "They"
             },
             {
-                "time": 8045,
+                "time": 6927,
                 "type": "word",
-                "start": 185,
-                "end": 189,
+                "start": 169,
+                "end": 173,
                 "value": "come"
             },
             {
-                "time": 8281,
+                "time": 7175,
                 "type": "word",
-                "start": 190,
-                "end": 195,
+                "start": 174,
+                "end": 179,
                 "value": "every"
             },
             {
-                "time": 8499,
+                "time": 7394,
                 "type": "word",
-                "start": 196,
-                "end": 200,
+                "start": 180,
+                "end": 184,
                 "value": "week"
             },
             {
-                "time": 8772,
+                "time": 7666,
                 "type": "word",
-                "start": 201,
-                "end": 203,
+                "start": 185,
+                "end": 187,
                 "value": "to"
             },
             {
-                "time": 8896,
+                "time": 7791,
                 "type": "word",
-                "start": 204,
-                "end": 207,
+                "start": 188,
+                "end": 191,
                 "value": "the"
             },
             {
-                "time": 9030,
+                "time": 7924,
                 "type": "word",
-                "start": 208,
-                "end": 214,
+                "start": 192,
+                "end": 198,
                 "value": "garden"
             },
             {
-                "time": 9680,
+                "time": 8969,
                 "type": "word",
-                "start": 215,
-                "end": 236,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10567,
-                "type": "word",
-                "start": 237,
-                "end": 241,
+                "start": 200,
+                "end": 204,
                 "value": "They"
             },
             {
-                "time": 10748,
+                "time": 9155,
                 "type": "word",
-                "start": 242,
-                "end": 247,
+                "start": 205,
+                "end": 210,
                 "value": "check"
             },
             {
-                "time": 11075,
+                "time": 9496,
                 "type": "word",
-                "start": 248,
-                "end": 250,
+                "start": 211,
+                "end": 213,
                 "value": "on"
             },
             {
-                "time": 11165,
+                "time": 9586,
                 "type": "word",
-                "start": 251,
-                "end": 254,
+                "start": 214,
+                "end": 217,
                 "value": "the"
             },
             {
-                "time": 11254,
+                "time": 9675,
                 "type": "word",
-                "start": 255,
-                "end": 264,
+                "start": 218,
+                "end": 227,
                 "value": "butterfly"
             },
             {
-                "time": 11993,
+                "time": 10427,
                 "type": "word",
-                "start": 265,
-                "end": 269,
+                "start": 228,
+                "end": 232,
                 "value": "eggs"
             }
         ]
@@ -739,22 +804,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Week 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Week 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Week"
             },
             {
-                "time": 256,
+                "time": 280,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "1"
             }
         ]
@@ -820,7 +886,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Mother,<break time=\"300ms\"/> what&apos;s on this leaf?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Mother, what's on this leaf?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -828,43 +894,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Mother"
             },
             {
-                "time": 605,
+                "time": 722,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
+                "start": 36,
+                "end": 42,
+                "value": "what's"
             },
             {
-                "time": 1006,
+                "time": 1070,
                 "type": "word",
-                "start": 56,
-                "end": 67,
-                "value": "what&apos;s"
-            },
-            {
-                "time": 1337,
-                "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 43,
+                "end": 45,
                 "value": "on"
             },
             {
-                "time": 1539,
+                "time": 1282,
                 "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 46,
+                "end": 50,
                 "value": "this"
             },
             {
-                "time": 1780,
+                "time": 1523,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 51,
+                "end": 55,
                 "value": "leaf"
             }
         ]
@@ -919,7 +978,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh<break time=\"1000ms\"/> some butterfly eggs.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Oh... some butterfly eggs.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -927,36 +986,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Oh"
             },
             {
-                "time": 541,
+                "time": 912,
                 "type": "word",
-                "start": 29,
-                "end": 51,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1641,
-                "type": "word",
-                "start": 52,
-                "end": 56,
+                "start": 34,
+                "end": 38,
                 "value": "some"
             },
             {
-                "time": 2010,
+                "time": 1258,
                 "type": "word",
-                "start": 57,
-                "end": 66,
+                "start": 39,
+                "end": 48,
                 "value": "butterfly"
             },
             {
-                "time": 2729,
+                "time": 1963,
                 "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 49,
+                "end": 53,
                 "value": "eggs"
             }
         ]

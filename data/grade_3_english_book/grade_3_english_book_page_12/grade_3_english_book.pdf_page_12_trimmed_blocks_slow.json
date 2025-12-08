@@ -1,21 +1,10 @@
 {
     "0": {
-        "text": "3 Numbers",
+        "text": "Numbers",
         "words": [
-            "3",
             "Numbers"
         ],
         "bounding_boxes": [
-            [
-                [
-                    558.0360107421875,
-                    24.34998893737793
-                ],
-                [
-                    573.3060302734375,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     260.7330017089844,
@@ -27,37 +16,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>3 <break time='200ms'/> Numbers <break time='200ms'/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Numbers <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
-                "end": 29,
-                "value": "3"
-            },
-            {
-                "time": 659,
-                "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 952,
-                "type": "word",
-                "start": 52,
-                "end": 59,
+                "end": 35,
                 "value": "Numbers"
             },
             {
-                "time": 1947,
+                "time": 900,
                 "type": "word",
-                "start": 60,
-                "end": 81,
+                "start": 36,
+                "end": 57,
                 "value": "<break time='200ms'/>"
             }
         ]
@@ -115,59 +90,59 @@
         "ssml": "<speak><prosody rate='slow'>Count, <break time='200ms'/> read <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 33,
                 "value": "Count"
             },
             {
-                "time": 713,
+                "time": 732,
                 "type": "word",
                 "start": 35,
                 "end": 56,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1006,
+                "time": 1007,
                 "type": "word",
                 "start": 57,
                 "end": 61,
                 "value": "read"
             },
             {
-                "time": 1537,
+                "time": 1529,
                 "type": "word",
                 "start": 62,
                 "end": 83,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 1837,
+                "time": 1823,
                 "type": "word",
                 "start": 84,
                 "end": 87,
                 "value": "and"
             },
             {
-                "time": 2440,
+                "time": 2394,
                 "type": "word",
                 "start": 88,
                 "end": 109,
                 "value": "<break time='200ms'/>"
             },
             {
-                "time": 2740,
+                "time": 2706,
                 "type": "word",
                 "start": 110,
                 "end": 113,
                 "value": "say"
             },
             {
-                "time": 3241,
+                "time": 3239,
                 "type": "word",
                 "start": 115,
                 "end": 136,
@@ -176,44 +151,6 @@
         ]
     },
     "2": {
-        "text": "four",
-        "words": [
-            "four"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    200.85899353027344,
-                    533.801025390625
-                ],
-                [
-                    235.8058319091797,
-                    557.6209716796875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>four <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 32,
-                "value": "four"
-            },
-            {
-                "time": 861,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "3": {
         "text": "one",
         "words": [
             "one"
@@ -233,17 +170,17 @@
         "ssml": "<speak><prosody rate='slow'>one <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 31,
                 "value": "one"
             },
             {
-                "time": 759,
+                "time": 683,
                 "type": "word",
                 "start": 32,
                 "end": 53,
@@ -251,7 +188,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "two",
         "words": [
             "two"
@@ -271,17 +208,17 @@
         "ssml": "<speak><prosody rate='slow'>two <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 31,
                 "value": "two"
             },
             {
-                "time": 639,
+                "time": 721,
                 "type": "word",
                 "start": 32,
                 "end": 53,
@@ -289,7 +226,7 @@
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "three",
         "words": [
             "three"
@@ -309,20 +246,58 @@
         "ssml": "<speak><prosody rate='slow'>three <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 33,
                 "value": "three"
             },
             {
-                "time": 746,
+                "time": 721,
                 "type": "word",
                 "start": 34,
                 "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "four",
+        "words": [
+            "four"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    200.85899353027344,
+                    533.801025390625
+                ],
+                [
+                    235.8058319091797,
+                    557.6209716796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>four <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "four"
+            },
+            {
+                "time": 733,
+                "type": "word",
+                "start": 33,
+                "end": 54,
                 "value": "<break time='200ms'/>"
             }
         ]
@@ -347,17 +322,17 @@
         "ssml": "<speak><prosody rate='slow'>five <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 32,
                 "value": "five"
             },
             {
-                "time": 809,
+                "time": 836,
                 "type": "word",
                 "start": 33,
                 "end": 54,

@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -104,30 +105,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">school f lag</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>school flag</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "school"
             },
             {
-                "time": 478,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 35,
-                "value": "f"
-            },
-            {
-                "time": 652,
-                "type": "word",
-                "start": 36,
+                "start": 35,
                 "end": 39,
-                "value": "lag"
+                "value": "flag"
             }
         ]
     },
@@ -148,50 +143,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Principal</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Principal</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Principal"
             }
         ]
     },
     "3": {
-        "text": "teachers",
-        "words": [
-            "teachers"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    75.31797790527344,
-                    242.43295288085938
-                ],
-                [
-                    148.03799438476562,
-                    263.8709716796875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">teachers</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "teachers"
-            }
-        ]
-    },
-    "4": {
         "text": "prefect",
         "words": [
             "prefect"
@@ -208,16 +174,48 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">prefect</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>prefect</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "prefect"
+            }
+        ]
+    },
+    "4": {
+        "text": "teachers",
+        "words": [
+            "teachers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    75.31797790527344,
+                    242.43295288085938
+                ],
+                [
+                    148.03799438476562,
+                    263.8709716796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>teachers</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "teachers"
             }
         ]
     },
@@ -260,29 +258,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">lines of children</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>lines of children</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "lines"
             },
             {
-                "time": 397,
+                "time": 569,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "of"
             },
             {
-                "time": 518,
+                "time": 722,
                 "type": "word",
-                "start": 36,
-                "end": 44,
+                "start": 37,
+                "end": 45,
                 "value": "children"
             }
         ]
@@ -447,120 +446,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Morning assembly is on Monday.<break time=\"500ms\"/> We hoist the school f lag.<break time=\"500ms\"/> We read news.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Morning assembly is on Monday. We hoist the school flag. We read news.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Morning"
             },
             {
-                "time": 383,
+                "time": 580,
                 "type": "word",
-                "start": 35,
-                "end": 43,
+                "start": 36,
+                "end": 44,
                 "value": "assembly"
             },
             {
-                "time": 980,
+                "time": 1238,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "is"
             },
             {
-                "time": 1140,
+                "time": 1437,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "on"
             },
             {
-                "time": 1321,
+                "time": 1651,
                 "type": "word",
-                "start": 50,
-                "end": 56,
+                "start": 51,
+                "end": 57,
                 "value": "Monday"
             },
             {
-                "time": 1970,
+                "time": 2818,
                 "type": "word",
-                "start": 57,
-                "end": 78,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2857,
-                "type": "word",
-                "start": 79,
-                "end": 81,
+                "start": 59,
+                "end": 61,
                 "value": "We"
             },
             {
-                "time": 3014,
+                "time": 3016,
                 "type": "word",
-                "start": 82,
-                "end": 87,
+                "start": 62,
+                "end": 67,
                 "value": "hoist"
             },
             {
-                "time": 3399,
+                "time": 3414,
                 "type": "word",
-                "start": 88,
-                "end": 91,
+                "start": 68,
+                "end": 71,
                 "value": "the"
             },
             {
-                "time": 3521,
+                "time": 3567,
                 "type": "word",
-                "start": 92,
-                "end": 98,
+                "start": 72,
+                "end": 78,
                 "value": "school"
             },
             {
-                "time": 3985,
+                "time": 3949,
                 "type": "word",
-                "start": 99,
-                "end": 100,
-                "value": "f"
+                "start": 79,
+                "end": 83,
+                "value": "flag"
             },
             {
-                "time": 4198,
+                "time": 5116,
                 "type": "word",
-                "start": 101,
-                "end": 104,
-                "value": "lag"
-            },
-            {
-                "time": 4705,
-                "type": "word",
-                "start": 105,
-                "end": 126,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5592,
-                "type": "word",
-                "start": 127,
-                "end": 129,
+                "start": 85,
+                "end": 87,
                 "value": "We"
             },
             {
-                "time": 5742,
+                "time": 5330,
                 "type": "word",
-                "start": 130,
-                "end": 134,
+                "start": 88,
+                "end": 92,
                 "value": "read"
             },
             {
-                "time": 5957,
+                "time": 5636,
                 "type": "word",
-                "start": 135,
-                "end": 139,
+                "start": 93,
+                "end": 97,
                 "value": "news"
             }
         ]

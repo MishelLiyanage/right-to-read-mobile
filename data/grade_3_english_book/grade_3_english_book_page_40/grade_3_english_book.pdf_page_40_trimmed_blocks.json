@@ -1,8 +1,9 @@
 {
     "0": {
-        "text": "write",
+        "text": "write play",
         "words": [
-            "write"
+            "write",
+            "play"
         ],
         "bounding_boxes": [
             [
@@ -14,27 +15,7 @@
                     198.88800048828125,
                     348.25201416015625
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">write</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "write"
-            }
-        ]
-    },
-    "1": {
-        "text": "play",
-        "words": [
-            "play"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     395.2460021972656,
@@ -46,53 +27,32 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">play</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>write play</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 33,
+                "value": "write"
+            },
+            {
+                "time": 416,
+                "type": "word",
+                "start": 34,
+                "end": 38,
                 "value": "play"
             }
         ]
     },
-    "2": {
-        "text": "watch",
+    "1": {
+        "text": "sleep watch",
         "words": [
+            "sleep",
             "watch"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    157.21897888183594,
-                    546.550048828125
-                ],
-                [
-                    215.8389892578125,
-                    570.3699951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">watch</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "watch"
-            }
-        ]
-    },
-    "3": {
-        "text": "sleep",
-        "words": [
-            "sleep"
         ],
         "bounding_boxes": [
             [
@@ -104,18 +64,36 @@
                     423.65899658203125,
                     570.3699951171875
                 ]
+            ],
+            [
+                [
+                    157.21897888183594,
+                    546.550048828125
+                ],
+                [
+                    215.8389892578125,
+                    570.3699951171875
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">sleep</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>sleep watch</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "sleep"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "watch"
             }
         ]
     }

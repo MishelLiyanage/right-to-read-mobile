@@ -1,22 +1,11 @@
 {
     "0": {
-        "text": "125 Read aloud.",
+        "text": "Read aloud.",
         "words": [
-            "125",
             "Read",
             "aloud."
         ],
         "bounding_boxes": [
-            [
-                [
-                    546.7559814453125,
-                    24.34998893737793
-                ],
-                [
-                    584.5859375,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -38,29 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">125 Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "125"
-            },
-            {
-                "time": 1339,
-                "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 1555,
+                "time": 416,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
@@ -159,72 +142,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is our world.<break time=\"500ms\"/> This is the globe.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is our world. This is the globe.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 62,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 282,
+                "time": 353,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 411,
+                "time": 536,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "our"
             },
             {
-                "time": 532,
+                "time": 750,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "world"
             },
             {
-                "time": 1193,
+                "time": 2038,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2080,
-                "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 47,
+                "end": 51,
                 "value": "This"
             },
             {
-                "time": 2314,
+                "time": 2298,
                 "type": "word",
-                "start": 72,
-                "end": 74,
+                "start": 52,
+                "end": 54,
                 "value": "is"
             },
             {
-                "time": 2480,
+                "time": 2374,
                 "type": "word",
-                "start": 75,
-                "end": 78,
+                "start": 55,
+                "end": 58,
                 "value": "the"
             },
             {
-                "time": 2580,
+                "time": 2604,
                 "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 59,
+                "end": 64,
                 "value": "globe"
             }
         ]
@@ -290,44 +266,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is the world map.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is the world map.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 100,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 358,
+                "time": 375,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 491,
+                "time": 436,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 569,
+                "time": 589,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "world"
             },
             {
-                "time": 972,
+                "time": 1093,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "map"
             }
         ]
@@ -382,37 +358,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is Sri Lanka.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is Sri Lanka.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 235,
+                "time": 339,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 328,
+                "time": 522,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "Sri"
             },
             {
-                "time": 615,
+                "time": 843,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "Lanka"
             }
         ]

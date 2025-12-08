@@ -49,43 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look,<break time=\"300ms\"/> read and match.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look, read and match.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
-                "time": 618,
+                "time": 694,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1020,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 34,
+                "end": 38,
                 "value": "read"
             },
             {
-                "time": 1251,
+                "time": 1046,
                 "type": "word",
-                "start": 59,
-                "end": 62,
+                "start": 39,
+                "end": 42,
                 "value": "and"
             },
             {
-                "time": 1377,
+                "time": 1199,
                 "type": "word",
-                "start": 63,
-                "end": 68,
+                "start": 43,
+                "end": 48,
                 "value": "match"
             }
         ]
@@ -107,16 +101,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sithum</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='sit\u032aum'>Sithum</phoneme></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 65,
+                "end": 71,
                 "value": "Sithum"
             }
         ]
@@ -138,15 +132,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">socks</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>socks</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "socks"
             }
         ]
@@ -168,15 +163,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">tie</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>tie</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "tie"
             }
         ]
@@ -198,15 +194,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">shirt</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>shirt</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "shirt"
             }
         ]
@@ -228,15 +225,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">shorts</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>shorts</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "shorts"
             }
         ]
@@ -258,15 +256,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">shoes</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>shoes</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "shoes"
             }
         ]
@@ -288,16 +287,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Nisha</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>Nisha</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Nisha"
             }
         ]
@@ -319,15 +318,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">sandals</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>sandals</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "sandals"
             }
         ]
@@ -349,23 +349,17 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">t shirt</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>t-shirt</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "t"
-            },
-            {
-                "time": 203,
-                "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "shirt"
+                "start": 28,
+                "end": 35,
+                "value": "t-shirt"
             }
         ]
     },
@@ -386,15 +380,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>hat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "hat"
             }
         ]
@@ -416,15 +411,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">jeans</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>jeans</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "jeans"
             }
         ]

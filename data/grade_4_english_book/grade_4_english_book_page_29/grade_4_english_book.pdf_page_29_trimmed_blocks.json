@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Week 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Week 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Week"
             },
             {
-                "time": 262,
+                "time": 285,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "2"
             }
         ]
@@ -108,7 +109,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What happens to these eggs?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What happens to these eggs?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -116,36 +117,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "What"
             },
             {
-                "time": 270,
+                "time": 279,
                 "type": "word",
-                "start": 32,
-                "end": 39,
+                "start": 33,
+                "end": 40,
                 "value": "happens"
             },
             {
-                "time": 789,
+                "time": 819,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "to"
             },
             {
-                "time": 932,
+                "time": 967,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "these"
             },
             {
-                "time": 1232,
+                "time": 1273,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "eggs"
             }
         ]
@@ -233,7 +234,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">A caterpillar comes out of the eggs.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>A caterpillar comes out of the eggs.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -241,50 +242,50 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "A"
             },
             {
                 "time": 74,
                 "type": "word",
-                "start": 29,
-                "end": 40,
+                "start": 30,
+                "end": 41,
                 "value": "caterpillar"
             },
             {
-                "time": 845,
+                "time": 871,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "comes"
             },
             {
-                "time": 1210,
+                "time": 1242,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "out"
             },
             {
-                "time": 1408,
+                "time": 1448,
                 "type": "word",
-                "start": 51,
-                "end": 53,
+                "start": 52,
+                "end": 54,
                 "value": "of"
             },
             {
-                "time": 1531,
+                "time": 1571,
                 "type": "word",
-                "start": 54,
-                "end": 57,
+                "start": 55,
+                "end": 58,
                 "value": "the"
             },
             {
-                "time": 1703,
+                "time": 1757,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 59,
+                "end": 63,
                 "value": "eggs"
             }
         ]
@@ -317,166 +318,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Week 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Week 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Week"
             },
             {
-                "time": 235,
+                "time": 252,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "3"
             }
         ]
     },
     "4": {
-        "text": "A caterpillar? What happens to the caterpillar?",
-        "words": [
-            "A",
-            "caterpillar?",
-            "What",
-            "happens",
-            "to",
-            "the",
-            "caterpillar?"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    88.10890197753906,
-                    536.1998901367188
-                ],
-                [
-                    102.1489028930664,
-                    558.015869140625
-                ]
-            ],
-            [
-                [
-                    107.85490417480469,
-                    536.1998901367188
-                ],
-                [
-                    215.08094787597656,
-                    558.015869140625
-                ]
-            ],
-            [
-                [
-                    70.18090057373047,
-                    557.7999267578125
-                ],
-                [
-                    119.71690368652344,
-                    579.6159057617188
-                ]
-            ],
-            [
-                [
-                    125.42290496826172,
-                    557.7999267578125
-                ],
-                [
-                    207.95291137695312,
-                    579.6159057617188
-                ]
-            ],
-            [
-                [
-                    213.65890502929688,
-                    557.7999267578125
-                ],
-                [
-                    232.99090576171875,
-                    579.6159057617188
-                ]
-            ],
-            [
-                [
-                    79.6489028930664,
-                    579.39990234375
-                ],
-                [
-                    110.59089660644531,
-                    601.2158813476562
-                ]
-            ],
-            [
-                [
-                    116.2968978881836,
-                    579.39990234375
-                ],
-                [
-                    223.52294921875,
-                    601.2158813476562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">A caterpillar? What happens to the caterpillar?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "A"
-            },
-            {
-                "time": 102,
-                "type": "word",
-                "start": 29,
-                "end": 40,
-                "value": "caterpillar"
-            },
-            {
-                "time": 1274,
-                "type": "word",
-                "start": 42,
-                "end": 46,
-                "value": "What"
-            },
-            {
-                "time": 1538,
-                "type": "word",
-                "start": 47,
-                "end": 54,
-                "value": "happens"
-            },
-            {
-                "time": 2056,
-                "type": "word",
-                "start": 55,
-                "end": 57,
-                "value": "to"
-            },
-            {
-                "time": 2223,
-                "type": "word",
-                "start": 58,
-                "end": 61,
-                "value": "the"
-            },
-            {
-                "time": 2345,
-                "type": "word",
-                "start": 62,
-                "end": 73,
-                "value": "caterpillar"
-            }
-        ]
-    },
-    "5": {
         "text": "It eats the leaf . It grows big. It makes a cocoon.",
         "words": [
             "It",
@@ -614,7 +477,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It eats the leaf .<break time=\"500ms\"/> It grows big.<break time=\"500ms\"/> It makes a cocoon.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It eats the leaf . It grows big. It makes a cocoon.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -622,93 +485,218 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
                 "time": 168,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "eats"
             },
             {
-                "time": 443,
+                "time": 449,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 555,
+                "time": 562,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "leaf"
             },
             {
-                "time": 1057,
+                "time": 1471,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1944,
-                "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "It"
             },
             {
-                "time": 2109,
+                "time": 1647,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 50,
+                "end": 55,
                 "value": "grows"
             },
             {
-                "time": 2447,
+                "time": 1984,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 56,
+                "end": 59,
                 "value": "big"
             },
             {
-                "time": 2926,
+                "time": 2851,
                 "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3813,
-                "type": "word",
-                "start": 102,
-                "end": 104,
+                "start": 61,
+                "end": 63,
                 "value": "It"
             },
             {
-                "time": 3971,
+                "time": 3021,
                 "type": "word",
-                "start": 105,
-                "end": 110,
+                "start": 64,
+                "end": 69,
                 "value": "makes"
             },
             {
-                "time": 4322,
+                "time": 3399,
                 "type": "word",
-                "start": 111,
-                "end": 112,
+                "start": 70,
+                "end": 71,
                 "value": "a"
             },
             {
-                "time": 4375,
+                "time": 3452,
                 "type": "word",
-                "start": 113,
-                "end": 119,
+                "start": 72,
+                "end": 78,
                 "value": "cocoon"
+            }
+        ]
+    },
+    "5": {
+        "text": "A caterpillar? What happens to the caterpillar?",
+        "words": [
+            "A",
+            "caterpillar?",
+            "What",
+            "happens",
+            "to",
+            "the",
+            "caterpillar?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    88.10890197753906,
+                    536.1998901367188
+                ],
+                [
+                    102.1489028930664,
+                    558.015869140625
+                ]
+            ],
+            [
+                [
+                    107.85490417480469,
+                    536.1998901367188
+                ],
+                [
+                    215.08094787597656,
+                    558.015869140625
+                ]
+            ],
+            [
+                [
+                    70.18090057373047,
+                    557.7999267578125
+                ],
+                [
+                    119.71690368652344,
+                    579.6159057617188
+                ]
+            ],
+            [
+                [
+                    125.42290496826172,
+                    557.7999267578125
+                ],
+                [
+                    207.95291137695312,
+                    579.6159057617188
+                ]
+            ],
+            [
+                [
+                    213.65890502929688,
+                    557.7999267578125
+                ],
+                [
+                    232.99090576171875,
+                    579.6159057617188
+                ]
+            ],
+            [
+                [
+                    79.6489028930664,
+                    579.39990234375
+                ],
+                [
+                    110.59089660644531,
+                    601.2158813476562
+                ]
+            ],
+            [
+                [
+                    116.2968978881836,
+                    579.39990234375
+                ],
+                [
+                    223.52294921875,
+                    601.2158813476562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>A caterpillar? What happens to the caterpillar?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "A"
+            },
+            {
+                "time": 106,
+                "type": "word",
+                "start": 30,
+                "end": 41,
+                "value": "caterpillar"
+            },
+            {
+                "time": 1309,
+                "type": "word",
+                "start": 43,
+                "end": 47,
+                "value": "What"
+            },
+            {
+                "time": 1582,
+                "type": "word",
+                "start": 48,
+                "end": 55,
+                "value": "happens"
+            },
+            {
+                "time": 2122,
+                "type": "word",
+                "start": 56,
+                "end": 58,
+                "value": "to"
+            },
+            {
+                "time": 2289,
+                "type": "word",
+                "start": 59,
+                "end": 62,
+                "value": "the"
+            },
+            {
+                "time": 2415,
+                "type": "word",
+                "start": 63,
+                "end": 74,
+                "value": "caterpillar"
             }
         ]
     }

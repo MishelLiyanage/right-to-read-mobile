@@ -1,0 +1,945 @@
+{
+    "0": {
+        "text": "Lesson 8",
+        "words": [
+            "Lesson",
+            "8"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    33.925506591796875
+                ],
+                [
+                    131.7692108154297,
+                    60.127506256103516
+                ]
+            ],
+            [
+                [
+                    137.2692108154297,
+                    33.925506591796875
+                ],
+                [
+                    150.60121154785156,
+                    60.127506256103516
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 8 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 729,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1022,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "8"
+            },
+            {
+                "time": 1729,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Let's wish our friends. Make cards to send them.",
+        "words": [
+            "Let's",
+            "wish",
+            "our",
+            "friends.",
+            "Make",
+            "cards",
+            "to",
+            "send",
+            "them."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    135.9300994873047,
+                    82.21652221679688
+                ],
+                [
+                    183.0100860595703,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    187.05809020996094,
+                    82.21652221679688
+                ],
+                [
+                    234.33607482910156,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    238.6040802001953,
+                    82.21652221679688
+                ],
+                [
+                    272.2200927734375,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    276.2680969238281,
+                    82.21652221679688
+                ],
+                [
+                    354.06011962890625,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    357.2281188964844,
+                    82.21652221679688
+                ],
+                [
+                    413.2181396484375,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    417.48614501953125,
+                    82.21652221679688
+                ],
+                [
+                    472.57415771484375,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    476.6221618652344,
+                    82.21652221679688
+                ],
+                [
+                    497.0381774902344,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    501.3061828613281,
+                    82.21652221679688
+                ],
+                [
+                    551.0261840820312,
+                    108.41851806640625
+                ]
+            ],
+            [
+                [
+                    135.9300994873047,
+                    108.61654663085938
+                ],
+                [
+                    200.0821075439453,
+                    134.81854248046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> wish <break time='200ms'/> our <break time='200ms'/> friends. <break time='200ms'/> Make <break time='200ms'/> cards <break time='200ms'/> to <break time='200ms'/> send <break time='200ms'/> them. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "wish"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1961,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "our"
+            },
+            {
+                "time": 2488,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2790,
+                "type": "word",
+                "start": 109,
+                "end": 116,
+                "value": "friends"
+            },
+            {
+                "time": 3458,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4044,
+                "type": "word",
+                "start": 140,
+                "end": 144,
+                "value": "Make"
+            },
+            {
+                "time": 4638,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4932,
+                "type": "word",
+                "start": 167,
+                "end": 172,
+                "value": "cards"
+            },
+            {
+                "time": 5663,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5958,
+                "type": "word",
+                "start": 195,
+                "end": 197,
+                "value": "to"
+            },
+            {
+                "time": 6493,
+                "type": "word",
+                "start": 198,
+                "end": 219,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6784,
+                "type": "word",
+                "start": 220,
+                "end": 224,
+                "value": "send"
+            },
+            {
+                "time": 7438,
+                "type": "word",
+                "start": 225,
+                "end": 246,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7738,
+                "type": "word",
+                "start": 247,
+                "end": 251,
+                "value": "them"
+            },
+            {
+                "time": 8158,
+                "type": "word",
+                "start": 253,
+                "end": 274,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Let's wish Rasini.",
+        "words": [
+            "Let's",
+            "wish",
+            "Rasini."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    211.3135986328125
+                ],
+                [
+                    100.87921142578125,
+                    232.75160217285156
+                ]
+            ],
+            [
+                [
+                    105.19921112060547,
+                    211.3135986328125
+                ],
+                [
+                    143.88121032714844,
+                    232.75160217285156
+                ]
+            ],
+            [
+                [
+                    148.38121032714844,
+                    211.3135986328125
+                ],
+                [
+                    204.0911865234375,
+                    232.75160217285156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> wish <break time='200ms'/> <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "wish"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1962,
+                "type": "word",
+                "start": 122,
+                "end": 128,
+                "value": "Rasini"
+            },
+            {
+                "time": 3027,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Let's wish Tony.",
+        "words": [
+            "Let's",
+            "wish",
+            "Tony."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    350.35919189453125,
+                    211.3135986328125
+                ],
+                [
+                    388.87921142578125,
+                    232.75160217285156
+                ]
+            ],
+            [
+                [
+                    393.1991882324219,
+                    211.3135986328125
+                ],
+                [
+                    431.8811950683594,
+                    232.75160217285156
+                ]
+            ],
+            [
+                [
+                    435.8411865234375,
+                    211.3135986328125
+                ],
+                [
+                    478.60919189453125,
+                    232.75160217285156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> wish <break time='200ms'/> Tony. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "wish"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1961,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "Tony"
+            },
+            {
+                "time": 2529,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Sinhala and Tamil",
+        "words": [
+            "Sinhala",
+            "and",
+            "Tamil"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    100.63749694824219,
+                    262.4513854980469
+                ],
+                [
+                    163.6195068359375,
+                    283.889404296875
+                ]
+            ],
+            [
+                [
+                    168.1195068359375,
+                    262.4513854980469
+                ],
+                [
+                    201.34750366210938,
+                    283.889404296875
+                ]
+            ],
+            [
+                [
+                    205.30751037597656,
+                    262.4513854980469
+                ],
+                [
+                    251.603515625,
+                    283.889404296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sinhala <break time='200ms'/> and <break time='200ms'/> Tamil <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Sinhala"
+            },
+            {
+                "time": 1065,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1358,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "and"
+            },
+            {
+                "time": 2004,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2304,
+                "type": "word",
+                "start": 84,
+                "end": 89,
+                "value": "Tamil"
+            },
+            {
+                "time": 3119,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "New Year",
+        "words": [
+            "New",
+            "Year"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    136.8354949951172,
+                    291.4493713378906
+                ],
+                [
+                    175.5714874267578,
+                    312.88739013671875
+                ]
+            ],
+            [
+                [
+                    179.35150146484375,
+                    291.4493713378906
+                ],
+                [
+                    215.56748962402344,
+                    312.88739013671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>New <break time='200ms'/> Year <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "New"
+            },
+            {
+                "time": 602,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 903,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "Year"
+            },
+            {
+                "time": 1518,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Christmas",
+        "words": [
+            "Christmas"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    396.2239074707031,
+                    279.45928955078125
+                ],
+                [
+                    483.055908203125,
+                    300.8973083496094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Christmas <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Christmas"
+            },
+            {
+                "time": 869,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Let's wish Dasun.",
+        "words": [
+            "Let's",
+            "wish",
+            "Dasun."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.359893798828125,
+                    350.27130126953125
+                ],
+                [
+                    100.87989807128906,
+                    371.7093200683594
+                ]
+            ],
+            [
+                [
+                    105.19989776611328,
+                    350.27130126953125
+                ],
+                [
+                    143.88189697265625,
+                    371.7093200683594
+                ]
+            ],
+            [
+                [
+                    148.38189697265625,
+                    350.27130126953125
+                ],
+                [
+                    208.80789184570312,
+                    371.7093200683594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> wish <break time='200ms'/> <phoneme alphabet='ipa' ph='dasun'>Dasun</phoneme>. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "wish"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1962,
+                "type": "word",
+                "start": 118,
+                "end": 123,
+                "value": "Dasun"
+            },
+            {
+                "time": 3054,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Let's wish Meena.",
+        "words": [
+            "Let's",
+            "wish",
+            "Meena."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    350.3598937988281,
+                    350.27130126953125
+                ],
+                [
+                    388.8799133300781,
+                    371.7093200683594
+                ]
+            ],
+            [
+                [
+                    393.1999206542969,
+                    350.27130126953125
+                ],
+                [
+                    431.8819274902344,
+                    371.7093200683594
+                ]
+            ],
+            [
+                [
+                    436.3819274902344,
+                    350.27130126953125
+                ],
+                [
+                    500.2099304199219,
+                    371.7093200683594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> wish <break time='200ms'/> Meena. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 687,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "wish"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1962,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "Meena"
+            },
+            {
+                "time": 2505,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "Vesak Festival",
+        "words": [
+            "Vesak",
+            "Festival"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    117.77300262451172,
+                    414.8760070800781
+                ],
+                [
+                    167.63299560546875,
+                    436.31402587890625
+                ]
+            ],
+            [
+                [
+                    171.9530029296875,
+                    414.8760070800781
+                ],
+                [
+                    234.46701049804688,
+                    436.31402587890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Vesak <break time='200ms'/> Festival <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Vesak"
+            },
+            {
+                "time": 746,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1039,
+                "type": "word",
+                "start": 56,
+                "end": 64,
+                "value": "Festival"
+            },
+            {
+                "time": 2044,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "Thaipongal",
+        "words": [
+            "Thaipongal"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    387.6842956542969,
+                    414.8760070800781
+                ],
+                [
+                    482.4363098144531,
+                    436.31402587890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Thaipongal <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 38,
+                "value": "Thaipongal"
+            },
+            {
+                "time": 1195,
+                "type": "word",
+                "start": 39,
+                "end": 60,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

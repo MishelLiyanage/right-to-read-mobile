@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 397,
+                "time": 410,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "2"
             }
         ]
@@ -75,30 +76,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Let&apos;s sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 49,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 342,
+                "time": 348,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
-            },
-            {
-                "time": 846,
-                "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -141,29 +136,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s have fun.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's have fun.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 258,
+                "time": 262,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "have"
             },
             {
-                "time": 448,
+                "time": 459,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 39,
+                "end": 42,
                 "value": "fun"
             }
         ]
@@ -207,43 +203,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Run,<break time=\"300ms\"/> run,<break time=\"300ms\"/> run.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Run, run, run.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Run"
             },
             {
-                "time": 548,
+                "time": 663,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 942,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "run"
             },
             {
-                "time": 1533,
+                "time": 1375,
                 "type": "word",
-                "start": 57,
-                "end": 78,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1933,
-                "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 38,
+                "end": 41,
                 "value": "run"
             }
         ]
@@ -342,64 +325,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s run around and have a little fun!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's run around and have a little fun!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 336,
+                "time": 359,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 34,
+                "end": 37,
                 "value": "run"
             },
             {
-                "time": 547,
+                "time": 576,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 38,
+                "end": 44,
                 "value": "around"
             },
             {
-                "time": 994,
+                "time": 1037,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 45,
+                "end": 48,
                 "value": "and"
             },
             {
-                "time": 1120,
+                "time": 1162,
                 "type": "word",
-                "start": 53,
-                "end": 57,
+                "start": 49,
+                "end": 53,
                 "value": "have"
             },
             {
-                "time": 1338,
+                "time": 1380,
                 "type": "word",
-                "start": 58,
-                "end": 59,
+                "start": 54,
+                "end": 55,
                 "value": "a"
             },
             {
-                "time": 1379,
+                "time": 1421,
                 "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 56,
+                "end": 62,
                 "value": "little"
             },
             {
-                "time": 1672,
+                "time": 1735,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 63,
+                "end": 66,
                 "value": "fun"
             }
         ]
@@ -487,57 +471,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Run around and have a little fun!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Run around and have a little fun!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Run"
             },
             {
-                "time": 237,
+                "time": 242,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "around"
             },
             {
-                "time": 679,
+                "time": 696,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "and"
             },
             {
-                "time": 816,
+                "time": 833,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "have"
             },
             {
-                "time": 1036,
+                "time": 1060,
                 "type": "word",
-                "start": 47,
-                "end": 48,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
-                "time": 1093,
+                "time": 1117,
                 "type": "word",
-                "start": 49,
-                "end": 55,
+                "start": 50,
+                "end": 56,
                 "value": "little"
             },
             {
-                "time": 1394,
+                "time": 1432,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 57,
+                "end": 60,
                 "value": "fun"
             }
         ]
@@ -603,43 +588,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Fun time is for everyone.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Fun time is for everyone.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Fun"
             },
             {
-                "time": 310,
+                "time": 321,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "time"
             },
             {
-                "time": 662,
+                "time": 685,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 836,
+                "time": 872,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "for"
             },
             {
-                "time": 1068,
+                "time": 1104,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 44,
+                "end": 52,
                 "value": "everyone"
             }
         ]
@@ -683,29 +669,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s have fun.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's have fun.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 258,
+                "time": 262,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "have"
             },
             {
-                "time": 448,
+                "time": 459,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 39,
+                "end": 42,
                 "value": "fun"
             }
         ]
@@ -749,43 +736,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Jump,<break time=\"300ms\"/> jump,<break time=\"300ms\"/> jump.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Jump, jump, jump.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Jump"
             },
             {
-                "time": 772,
+                "time": 877,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1166,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 34,
+                "end": 38,
                 "value": "jump"
             },
             {
-                "time": 1824,
+                "time": 1640,
                 "type": "word",
-                "start": 59,
-                "end": 80,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2224,
-                "type": "word",
-                "start": 81,
-                "end": 85,
+                "start": 40,
+                "end": 44,
                 "value": "jump"
             }
         ]
@@ -884,64 +858,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s jump up and have a little fun!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's jump up and have a little fun!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 341,
+                "time": 371,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "jump"
             },
             {
-                "time": 769,
+                "time": 820,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 39,
+                "end": 41,
                 "value": "up"
             },
             {
-                "time": 963,
+                "time": 1027,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1082,
+                "time": 1147,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 46,
+                "end": 50,
                 "value": "have"
             },
             {
-                "time": 1269,
+                "time": 1333,
                 "type": "word",
-                "start": 55,
-                "end": 56,
+                "start": 51,
+                "end": 52,
                 "value": "a"
             },
             {
-                "time": 1326,
+                "time": 1391,
                 "type": "word",
-                "start": 57,
-                "end": 63,
+                "start": 53,
+                "end": 59,
                 "value": "little"
             },
             {
-                "time": 1627,
+                "time": 1705,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 60,
+                "end": 63,
                 "value": "fun"
             }
         ]
@@ -1029,57 +1004,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Jump up and have a little fun!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Jump up and have a little fun!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Jump"
             },
             {
                 "time": 344,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "up"
             },
             {
-                "time": 556,
+                "time": 561,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "and"
             },
             {
-                "time": 672,
+                "time": 678,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "have"
             },
             {
-                "time": 890,
+                "time": 895,
                 "type": "word",
-                "start": 44,
-                "end": 45,
+                "start": 45,
+                "end": 46,
                 "value": "a"
             },
             {
-                "time": 947,
+                "time": 953,
                 "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 47,
+                "end": 53,
                 "value": "little"
             },
             {
-                "time": 1248,
+                "time": 1267,
                 "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 54,
+                "end": 57,
                 "value": "fun"
             }
         ]
@@ -1145,43 +1121,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Fun time is for everyone.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Fun time is for everyone.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Fun"
             },
             {
-                "time": 310,
+                "time": 321,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "time"
             },
             {
-                "time": 662,
+                "time": 685,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 836,
+                "time": 872,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "for"
             },
             {
-                "time": 1068,
+                "time": 1104,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 44,
+                "end": 52,
                 "value": "everyone"
             }
         ]

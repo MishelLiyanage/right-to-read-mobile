@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "68",
-        "words": [
-            "68"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.85689926147461,
-                    24.34998893737793
-                ],
-                [
-                    61.68690490722656,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">68</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "68"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 569,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "bee monkey crow butterfly",
         "words": [
             "bee",
@@ -145,41 +116,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bee monkey crow butterfly</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>bee monkey crow butterfly</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "bee"
             },
             {
-                "time": 171,
+                "time": 336,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "monkey"
             },
             {
-                "time": 564,
+                "time": 733,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "crow"
             },
             {
-                "time": 860,
+                "time": 1116,
                 "type": "word",
-                "start": 43,
-                "end": 52,
+                "start": 44,
+                "end": 53,
                 "value": "butterfly"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "parrot",
         "words": [
             "parrot"
@@ -196,20 +168,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">parrot</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>parrot</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "parrot"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "mynah",
         "words": [
             "mynah"
@@ -226,20 +199,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">mynah</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>mynah</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "mynah"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "rat squirrel worm",
         "words": [
             "rat",
@@ -278,34 +252,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">rat squirrel worm</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>rat squirrel worm</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "rat"
             },
             {
-                "time": 274,
+                "time": 416,
                 "type": "word",
-                "start": 31,
-                "end": 39,
+                "start": 32,
+                "end": 40,
                 "value": "squirrel"
             },
             {
-                "time": 718,
+                "time": 875,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "worm"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "These are animals and birds in my garden.",
         "words": [
             "These",
@@ -399,65 +374,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">These are animals and birds in my garden.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>These are animals and birds in my garden.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "These"
             },
             {
-                "time": 261,
+                "time": 416,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 398,
+                "time": 738,
                 "type": "word",
-                "start": 37,
-                "end": 44,
+                "start": 38,
+                "end": 45,
                 "value": "animals"
             },
             {
-                "time": 909,
+                "time": 1257,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "and"
             },
             {
-                "time": 1172,
+                "time": 1487,
                 "type": "word",
-                "start": 49,
-                "end": 54,
+                "start": 50,
+                "end": 55,
                 "value": "birds"
             },
             {
-                "time": 1627,
+                "time": 1869,
                 "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 56,
+                "end": 58,
                 "value": "in"
             },
             {
-                "time": 1799,
+                "time": 1946,
                 "type": "word",
-                "start": 58,
-                "end": 60,
+                "start": 59,
+                "end": 61,
                 "value": "my"
             },
             {
-                "time": 1969,
+                "time": 2175,
                 "type": "word",
-                "start": 61,
-                "end": 67,
+                "start": 62,
+                "end": 68,
                 "value": "garden"
             }
         ]

@@ -1,0 +1,932 @@
+{
+    "0": {
+        "text": "Read and say.",
+        "words": [
+            "Read",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    63.36000061035156,
+                    52.058990478515625
+                ],
+                [
+                    111.02000427246094,
+                    75.87899017333984
+                ]
+            ],
+            [
+                [
+                    116.02000427246094,
+                    52.058990478515625
+                ],
+                [
+                    152.9400177001953,
+                    75.87899017333984
+                ]
+            ],
+            [
+                [
+                    157.9400177001953,
+                    52.058990478515625
+                ],
+                [
+                    193.96002197265625,
+                    75.87899017333984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "and"
+            },
+            {
+                "time": 1582,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1845,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "say"
+            },
+            {
+                "time": 2427,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "clock timetable",
+        "words": [
+            "clock",
+            "timetable"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    123.5199966430664,
+                    109.61398315429688
+                ],
+                [
+                    166.4320068359375,
+                    131.05198669433594
+                ]
+            ],
+            [
+                [
+                    257.40399169921875,
+                    107.57998657226562
+                ],
+                [
+                    340.2760009765625,
+                    129.0179901123047
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>clock <break time='200ms'/> timetable <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "clock"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1044,
+                "type": "word",
+                "start": 56,
+                "end": 65,
+                "value": "timetable"
+            },
+            {
+                "time": 1972,
+                "type": "word",
+                "start": 66,
+                "end": 87,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "calendar",
+        "words": [
+            "calendar"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    354.34521484375,
+                    128.23228454589844
+                ],
+                [
+                    431.4710998535156,
+                    166.9700164794922
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>calendar <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "calendar"
+            },
+            {
+                "time": 949,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "black board",
+        "words": [
+            "black",
+            "board"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    116.7699966430664,
+                    290.9639892578125
+                ],
+                [
+                    162.11199951171875,
+                    312.4020080566406
+                ]
+            ],
+            [
+                [
+                    166.4320068359375,
+                    290.9639892578125
+                ],
+                [
+                    215.06800842285156,
+                    312.4020080566406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>black <break time='200ms'/> board <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "black"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1044,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "board"
+            },
+            {
+                "time": 1681,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "This is my classroom. It is big. The walls are yellow. The desks are brown. I like my classroom.",
+        "words": [
+            "This",
+            "is",
+            "my",
+            "classroom.",
+            "It",
+            "is",
+            "big.",
+            "The",
+            "walls",
+            "are",
+            "yellow.",
+            "The",
+            "desks",
+            "are",
+            "brown.",
+            "I",
+            "like",
+            "my",
+            "classroom."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.359901428222656,
+                    334.47698974609375
+                ],
+                [
+                    92.64190673828125,
+                    355.9150085449219
+                ]
+            ],
+            [
+                [
+                    97.14190673828125,
+                    334.47698974609375
+                ],
+                [
+                    109.72390747070312,
+                    355.9150085449219
+                ]
+            ],
+            [
+                [
+                    114.22390747070312,
+                    334.47698974609375
+                ],
+                [
+                    141.65589904785156,
+                    355.9150085449219
+                ]
+            ],
+            [
+                [
+                    145.9759063720703,
+                    334.47698974609375
+                ],
+                [
+                    237.07391357421875,
+                    355.9150085449219
+                ]
+            ],
+            [
+                [
+                    59.359901428222656,
+                    356.4729919433594
+                ],
+                [
+                    72.85990142822266,
+                    377.9110107421875
+                ]
+            ],
+            [
+                [
+                    77.17990112304688,
+                    356.4729919433594
+                ],
+                [
+                    89.76190185546875,
+                    377.9110107421875
+                ]
+            ],
+            [
+                [
+                    94.26190185546875,
+                    356.4729919433594
+                ],
+                [
+                    126.19390106201172,
+                    377.9110107421875
+                ]
+            ],
+            [
+                [
+                    59.359901428222656,
+                    378.468994140625
+                ],
+                [
+                    90.26590728759766,
+                    399.9070129394531
+                ]
+            ],
+            [
+                [
+                    94.58590698242188,
+                    378.468994140625
+                ],
+                [
+                    137.2099151611328,
+                    399.9070129394531
+                ]
+            ],
+            [
+                [
+                    141.7099151611328,
+                    378.468994140625
+                ],
+                [
+                    168.5299072265625,
+                    399.9070129394531
+                ]
+            ],
+            [
+                [
+                    172.84991455078125,
+                    378.468994140625
+                ],
+                [
+                    230.23391723632812,
+                    399.9070129394531
+                ]
+            ],
+            [
+                [
+                    59.359901428222656,
+                    400.4649963378906
+                ],
+                [
+                    90.26590728759766,
+                    421.90301513671875
+                ]
+            ],
+            [
+                [
+                    94.76590728759766,
+                    400.4649963378906
+                ],
+                [
+                    141.74591064453125,
+                    421.90301513671875
+                ]
+            ],
+            [
+                [
+                    146.24591064453125,
+                    400.4649963378906
+                ],
+                [
+                    173.06590270996094,
+                    421.90301513671875
+                ]
+            ],
+            [
+                [
+                    177.56590270996094,
+                    400.4649963378906
+                ],
+                [
+                    235.97589111328125,
+                    421.90301513671875
+                ]
+            ],
+            [
+                [
+                    59.359901428222656,
+                    422.46099853515625
+                ],
+                [
+                    66.0198974609375,
+                    443.8990173339844
+                ]
+            ],
+            [
+                [
+                    70.5198974609375,
+                    422.46099853515625
+                ],
+                [
+                    98.70790100097656,
+                    443.8990173339844
+                ]
+            ],
+            [
+                [
+                    103.20790100097656,
+                    422.46099853515625
+                ],
+                [
+                    130.63990783691406,
+                    443.8990173339844
+                ]
+            ],
+            [
+                [
+                    134.9599151611328,
+                    422.46099853515625
+                ],
+                [
+                    226.05792236328125,
+                    443.8990173339844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> classroom. <break time='200ms'/> It <break time='200ms'/> is <break time='200ms'/> big. <break time='200ms'/> The <break time='200ms'/> walls <break time='200ms'/> are <break time='200ms'/> yellow. <break time='200ms'/> The <break time='200ms'/> desks <break time='200ms'/> are <break time='200ms'/> brown. <break time='200ms'/> I <break time='200ms'/> like <break time='200ms'/> my <break time='200ms'/> classroom. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 646,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 908,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1730,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2049,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "my"
+            },
+            {
+                "time": 2628,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2872,
+                "type": "word",
+                "start": 105,
+                "end": 114,
+                "value": "classroom"
+            },
+            {
+                "time": 4031,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4749,
+                "type": "word",
+                "start": 138,
+                "end": 140,
+                "value": "It"
+            },
+            {
+                "time": 5088,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5413,
+                "type": "word",
+                "start": 163,
+                "end": 165,
+                "value": "is"
+            },
+            {
+                "time": 6235,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6554,
+                "type": "word",
+                "start": 188,
+                "end": 191,
+                "value": "big"
+            },
+            {
+                "time": 7346,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8051,
+                "type": "word",
+                "start": 215,
+                "end": 218,
+                "value": "The"
+            },
+            {
+                "time": 8385,
+                "type": "word",
+                "start": 219,
+                "end": 240,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8629,
+                "type": "word",
+                "start": 241,
+                "end": 246,
+                "value": "walls"
+            },
+            {
+                "time": 9642,
+                "type": "word",
+                "start": 247,
+                "end": 268,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9998,
+                "type": "word",
+                "start": 269,
+                "end": 272,
+                "value": "are"
+            },
+            {
+                "time": 10634,
+                "type": "word",
+                "start": 273,
+                "end": 294,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10965,
+                "type": "word",
+                "start": 295,
+                "end": 301,
+                "value": "yellow"
+            },
+            {
+                "time": 11758,
+                "type": "word",
+                "start": 303,
+                "end": 324,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12463,
+                "type": "word",
+                "start": 325,
+                "end": 328,
+                "value": "The"
+            },
+            {
+                "time": 12875,
+                "type": "word",
+                "start": 329,
+                "end": 350,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13213,
+                "type": "word",
+                "start": 351,
+                "end": 356,
+                "value": "desks"
+            },
+            {
+                "time": 14179,
+                "type": "word",
+                "start": 357,
+                "end": 378,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14504,
+                "type": "word",
+                "start": 379,
+                "end": 382,
+                "value": "are"
+            },
+            {
+                "time": 15081,
+                "type": "word",
+                "start": 383,
+                "end": 404,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15368,
+                "type": "word",
+                "start": 405,
+                "end": 410,
+                "value": "brown"
+            },
+            {
+                "time": 16206,
+                "type": "word",
+                "start": 412,
+                "end": 433,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16986,
+                "type": "word",
+                "start": 434,
+                "end": 435,
+                "value": "I"
+            },
+            {
+                "time": 17240,
+                "type": "word",
+                "start": 436,
+                "end": 457,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17571,
+                "type": "word",
+                "start": 458,
+                "end": 462,
+                "value": "like"
+            },
+            {
+                "time": 18459,
+                "type": "word",
+                "start": 463,
+                "end": 484,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18827,
+                "type": "word",
+                "start": 485,
+                "end": 487,
+                "value": "my"
+            },
+            {
+                "time": 19478,
+                "type": "word",
+                "start": 488,
+                "end": 509,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19778,
+                "type": "word",
+                "start": 510,
+                "end": 519,
+                "value": "classroom"
+            },
+            {
+                "time": 20800,
+                "type": "word",
+                "start": 521,
+                "end": 542,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "table",
+        "words": [
+            "table"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    368.32501220703125,
+                    396.17498779296875
+                ],
+                [
+                    411.3990173339844,
+                    417.6130065917969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>table <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "table"
+            },
+            {
+                "time": 772,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "desk",
+        "words": [
+            "desk"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    369.8910217285156,
+                    474.4749755859375
+                ],
+                [
+                    408.9510192871094,
+                    495.9129943847656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>desk <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "desk"
+            },
+            {
+                "time": 797,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "chair",
+        "words": [
+            "chair"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    264.64501953125,
+                    514.2550048828125
+                ],
+                [
+                    306.6750183105469,
+                    535.6929931640625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>chair <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "chair"
+            },
+            {
+                "time": 758,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "dustbin",
+        "words": [
+            "dustbin"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    353.7450256347656,
+                    659.6950073242188
+                ],
+                [
+                    417.64501953125,
+                    681.1329956054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>dustbin <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "dustbin"
+            },
+            {
+                "time": 975,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "broom",
+        "words": [
+            "broom"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    491.35504150390625,
+                    688.9810180664062
+                ],
+                [
+                    546.68701171875,
+                    710.4190063476562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>broom <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "broom"
+            },
+            {
+                "time": 757,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

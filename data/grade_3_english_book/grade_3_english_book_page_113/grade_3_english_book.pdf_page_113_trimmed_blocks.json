@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "104",
-        "words": [
-            "104"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    25.48430061340332,
-                    24.34998893737793
-                ],
-                [
-                    66.04430389404297,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">104</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "104"
-            }
-        ]
-    },
-    "1": {
         "text": "Count.",
         "words": [
             "Count."
@@ -46,20 +16,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Count.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Count.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Count"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "1 2 3 4 5 6 7 8 9 10",
         "words": [
             "1",
@@ -175,83 +146,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1 2 3 4 5 6 7 8 9 10</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1 2 3 4 5 6 7 8 9 10</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 282,
+                "time": 371,
                 "type": "word",
-                "start": 29,
-                "end": 30,
+                "start": 30,
+                "end": 31,
                 "value": "2"
             },
             {
-                "time": 501,
+                "time": 646,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "3"
             },
             {
-                "time": 804,
+                "time": 1074,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "4"
             },
             {
-                "time": 1114,
+                "time": 1349,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "5"
             },
             {
-                "time": 1459,
+                "time": 1747,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "6"
             },
             {
-                "time": 1840,
+                "time": 2098,
                 "type": "word",
-                "start": 39,
-                "end": 40,
+                "start": 40,
+                "end": 41,
                 "value": "7"
             },
             {
-                "time": 2277,
+                "time": 2557,
                 "type": "word",
-                "start": 41,
-                "end": 42,
+                "start": 42,
+                "end": 43,
                 "value": "8"
             },
             {
-                "time": 2520,
+                "time": 2741,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 44,
+                "end": 45,
                 "value": "9"
             },
             {
-                "time": 2863,
+                "time": 3092,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "10"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "11 12 13 14 15 16 17 18 19 20",
         "words": [
             "11",
@@ -367,83 +339,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">11 12 13 14 15 16 17 18 19 20</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>11 12 13 14 15 16 17 18 19 20</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "11"
             },
             {
-                "time": 477,
+                "time": 569,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "12"
             },
             {
-                "time": 839,
+                "time": 1105,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "13"
             },
             {
-                "time": 1419,
+                "time": 1716,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "14"
             },
             {
-                "time": 2130,
+                "time": 2328,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "15"
             },
             {
-                "time": 2688,
+                "time": 2940,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "16"
             },
             {
-                "time": 3275,
+                "time": 3628,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "17"
             },
             {
-                "time": 3948,
+                "time": 4408,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 49,
+                "end": 51,
                 "value": "18"
             },
             {
-                "time": 4414,
+                "time": 4851,
                 "type": "word",
-                "start": 51,
-                "end": 53,
+                "start": 52,
+                "end": 54,
                 "value": "19"
             },
             {
-                "time": 4973,
+                "time": 5386,
                 "type": "word",
-                "start": 54,
-                "end": 56,
+                "start": 55,
+                "end": 57,
                 "value": "20"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Count back.",
         "words": [
             "Count",
@@ -471,27 +444,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Count back.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Count back.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Count"
             },
             {
-                "time": 375,
+                "time": 519,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "back"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "20 19 18 17 16 15 14 13 12 11",
         "words": [
             "20",
@@ -607,83 +581,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">20 19 18 17 16 15 14 13 12 11</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>20 19 18 17 16 15 14 13 12 11</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "20"
             },
             {
-                "time": 349,
+                "time": 580,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "19"
             },
             {
-                "time": 1009,
+                "time": 1192,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "18"
             },
             {
-                "time": 1565,
+                "time": 1651,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "17"
             },
             {
-                "time": 2291,
+                "time": 2339,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "16"
             },
             {
-                "time": 2898,
+                "time": 3042,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "15"
             },
             {
-                "time": 3443,
+                "time": 3715,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "14"
             },
             {
-                "time": 4056,
+                "time": 4250,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 49,
+                "end": 51,
                 "value": "13"
             },
             {
-                "time": 4673,
+                "time": 4862,
                 "type": "word",
-                "start": 51,
-                "end": 53,
+                "start": 52,
+                "end": 54,
                 "value": "12"
             },
             {
-                "time": 5100,
+                "time": 5306,
                 "type": "word",
-                "start": 54,
-                "end": 56,
+                "start": 55,
+                "end": 57,
                 "value": "11"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "10 9 8 7 6 5 4 3 2 1",
         "words": [
             "10",
@@ -799,83 +774,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">10 9 8 7 6 5 4 3 2 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>10 9 8 7 6 5 4 3 2 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "10"
             },
             {
-                "time": 243,
+                "time": 473,
                 "type": "word",
-                "start": 30,
-                "end": 31,
+                "start": 31,
+                "end": 32,
                 "value": "9"
             },
             {
-                "time": 581,
+                "time": 810,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "8"
             },
             {
-                "time": 775,
+                "time": 993,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             },
             {
-                "time": 1203,
+                "time": 1498,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "6"
             },
             {
-                "time": 1591,
+                "time": 1789,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 39,
+                "end": 40,
                 "value": "5"
             },
             {
-                "time": 1935,
+                "time": 2217,
                 "type": "word",
-                "start": 40,
-                "end": 41,
+                "start": 41,
+                "end": 42,
                 "value": "4"
             },
             {
-                "time": 2216,
+                "time": 2523,
                 "type": "word",
-                "start": 42,
-                "end": 43,
+                "start": 43,
+                "end": 44,
                 "value": "3"
             },
             {
-                "time": 2500,
+                "time": 2874,
                 "type": "word",
-                "start": 44,
-                "end": 45,
+                "start": 45,
+                "end": 46,
                 "value": "2"
             },
             {
-                "time": 2795,
+                "time": 3104,
                 "type": "word",
-                "start": 46,
-                "end": 47,
+                "start": 47,
+                "end": 48,
                 "value": "1"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "Count two by two.",
         "words": [
             "Count",
@@ -925,41 +901,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Count two by two.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Count two by two.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Count"
             },
             {
-                "time": 307,
+                "time": 519,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "two"
             },
             {
-                "time": 570,
+                "time": 810,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "by"
             },
             {
-                "time": 769,
+                "time": 1116,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "two"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "2 4 6 8 10 12 14 16 18 20",
         "words": [
             "2",
@@ -1075,83 +1052,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2 4 6 8 10 12 14 16 18 20</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2 4 6 8 10 12 14 16 18 20</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 210,
+                "time": 371,
                 "type": "word",
-                "start": 29,
-                "end": 30,
+                "start": 30,
+                "end": 31,
                 "value": "4"
             },
             {
-                "time": 540,
+                "time": 646,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "6"
             },
             {
-                "time": 957,
+                "time": 1181,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "8"
             },
             {
-                "time": 1225,
+                "time": 1349,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "10"
             },
             {
-                "time": 1493,
+                "time": 1640,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "12"
             },
             {
-                "time": 1893,
+                "time": 2114,
                 "type": "word",
-                "start": 41,
-                "end": 43,
+                "start": 42,
+                "end": 44,
                 "value": "14"
             },
             {
-                "time": 2542,
+                "time": 2741,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "16"
             },
             {
-                "time": 3146,
+                "time": 3414,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "18"
             },
             {
-                "time": 3690,
+                "time": 3857,
                 "type": "word",
-                "start": 50,
-                "end": 52,
+                "start": 51,
+                "end": 53,
                 "value": "20"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "Count five by five.",
         "words": [
             "Count",
@@ -1201,41 +1179,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Count five by five.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Count five by five.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Count"
             },
             {
-                "time": 311,
+                "time": 519,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "five"
             },
             {
-                "time": 723,
+                "time": 886,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "by"
             },
             {
-                "time": 921,
+                "time": 1192,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "five"
             }
         ]
     },
-    "10": {
+    "9": {
         "text": "5 10 15 20",
         "words": [
             "5",
@@ -1285,36 +1264,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">5 10 15 20</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>5 10 15 20</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "5"
             },
             {
-                "time": 360,
+                "time": 508,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "10"
             },
             {
-                "time": 619,
+                "time": 799,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "15"
             },
             {
-                "time": 1173,
+                "time": 1487,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "20"
             }
         ]

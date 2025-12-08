@@ -1,0 +1,1410 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    63.32600021362305,
+                    52.154998779296875
+                ],
+                [
+                    118.5459976196289,
+                    75.9749984741211
+                ]
+            ],
+            [
+                [
+                    123.5459976196289,
+                    52.154998779296875
+                ],
+                [
+                    160.46600341796875,
+                    75.9749984741211
+                ]
+            ],
+            [
+                [
+                    165.46600341796875,
+                    52.154998779296875
+                ],
+                [
+                    201.4860076904297,
+                    75.9749984741211
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "red",
+        "words": [
+            "red"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    168.4459991455078,
+                    198.37399291992188
+                ],
+                [
+                    198.24600219726562,
+                    222.19400024414062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>red <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "red"
+            },
+            {
+                "time": 696,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "orange",
+        "words": [
+            "orange"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    197.92599487304688,
+                    118.09396362304688
+                ],
+                [
+                    263.7460021972656,
+                    141.91397094726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>orange <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "orange"
+            },
+            {
+                "time": 836,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "yellow",
+        "words": [
+            "yellow"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    260.365966796875,
+                    196.21395874023438
+                ],
+                [
+                    319.2459411621094,
+                    220.03396606445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>yellow <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "yellow"
+            },
+            {
+                "time": 836,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "green",
+        "words": [
+            "green"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    320.3659973144531,
+                    114.13394165039062
+                ],
+                [
+                    374.10601806640625,
+                    137.95394897460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>green <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "green"
+            },
+            {
+                "time": 771,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "blue",
+        "words": [
+            "blue"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    377.96600341796875,
+                    203.41397094726562
+                ],
+                [
+                    418.96600341796875,
+                    227.23397827148438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>blue <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "blue"
+            },
+            {
+                "time": 719,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "white",
+        "words": [
+            "white"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    442.7659912109375,
+                    114.13394165039062
+                ],
+                [
+                    495.2860107421875,
+                    137.95394897460938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>white <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "white"
+            },
+            {
+                "time": 683,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "black",
+        "words": [
+            "black"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    476.6059875488281,
+                    200.53396606445312
+                ],
+                [
+                    526.9859619140625,
+                    224.35397338867188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>black <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "black"
+            },
+            {
+                "time": 822,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    63.32598876953125,
+                    282.0339660644531
+                ],
+                [
+                    118.54598236083984,
+                    305.8539733886719
+                ]
+            ],
+            [
+                [
+                    123.54598236083984,
+                    282.0339660644531
+                ],
+                [
+                    160.4659881591797,
+                    305.8539733886719
+                ]
+            ],
+            [
+                [
+                    165.4659881591797,
+                    282.0339660644531
+                ],
+                [
+                    201.48599243164062,
+                    305.8539733886719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "This is a red apple.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "red",
+            "apple."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    86.80070495605469,
+                    335.3179931640625
+                ],
+                [
+                    123.78070068359375,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    128.78070068359375,
+                    335.3179931640625
+                ],
+                [
+                    142.76071166992188,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    147.76071166992188,
+                    335.3179931640625
+                ],
+                [
+                    159.92071533203125,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    74.76070404052734,
+                    359.3179931640625
+                ],
+                [
+                    104.56069946289062,
+                    383.13800048828125
+                ]
+            ],
+            [
+                [
+                    109.56069946289062,
+                    359.3179931640625
+                ],
+                [
+                    168.56069946289062,
+                    383.13800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> red <break time='200ms'/> apple. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 676,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 982,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1486,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1792,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2176,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2470,
+                "type": "word",
+                "start": 104,
+                "end": 107,
+                "value": "red"
+            },
+            {
+                "time": 3062,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3350,
+                "type": "word",
+                "start": 130,
+                "end": 135,
+                "value": "apple"
+            },
+            {
+                "time": 3907,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "This is an orange butterfly.",
+        "words": [
+            "This",
+            "is",
+            "an",
+            "orange",
+            "butterfly."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    212.76998901367188,
+                    335.1080017089844
+                ],
+                [
+                    249.75,
+                    358.9280090332031
+                ]
+            ],
+            [
+                [
+                    254.75,
+                    335.1080017089844
+                ],
+                [
+                    268.7300109863281,
+                    358.9280090332031
+                ]
+            ],
+            [
+                [
+                    273.7300109863281,
+                    335.1080017089844
+                ],
+                [
+                    298.4900207519531,
+                    358.9280090332031
+                ]
+            ],
+            [
+                [
+                    220.50999450683594,
+                    359.1080017089844
+                ],
+                [
+                    286.3299865722656,
+                    382.9280090332031
+                ]
+            ],
+            [
+                [
+                    210.80999755859375,
+                    383.1080017089844
+                ],
+                [
+                    297.0299987792969,
+                    406.9280090332031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> an <break time='200ms'/> orange <break time='200ms'/> butterfly. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1475,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1756,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "an"
+            },
+            {
+                "time": 2176,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2445,
+                "type": "word",
+                "start": 105,
+                "end": 111,
+                "value": "orange"
+            },
+            {
+                "time": 3088,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3319,
+                "type": "word",
+                "start": 134,
+                "end": 143,
+                "value": "butterfly"
+            },
+            {
+                "time": 4201,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "This is a yellow bird.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "yellow",
+            "bird."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    343.1199951171875,
+                    335.3179931640625
+                ],
+                [
+                    380.1000061035156,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    385.1000061035156,
+                    335.3179931640625
+                ],
+                [
+                    399.08001708984375,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    404.08001708984375,
+                    335.3179931640625
+                ],
+                [
+                    416.2400207519531,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    350.53997802734375,
+                    359.3179931640625
+                ],
+                [
+                    409.4199523925781,
+                    383.13800048828125
+                ]
+            ],
+            [
+                [
+                    357.0799865722656,
+                    383.3179931640625
+                ],
+                [
+                    398.8600158691406,
+                    407.13800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> yellow <break time='200ms'/> bird. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1518,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1811,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2171,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2439,
+                "type": "word",
+                "start": 104,
+                "end": 110,
+                "value": "yellow"
+            },
+            {
+                "time": 3154,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3441,
+                "type": "word",
+                "start": 133,
+                "end": 137,
+                "value": "bird"
+            },
+            {
+                "time": 3938,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "This is a blue fish.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "blue",
+            "fish."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    467.1709899902344,
+                    335.3179931640625
+                ],
+                [
+                    504.1510009765625,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    509.1510009765625,
+                    335.3179931640625
+                ],
+                [
+                    523.1309814453125,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    528.1309814453125,
+                    335.3179931640625
+                ],
+                [
+                    540.2909545898438,
+                    359.13800048828125
+                ]
+            ],
+            [
+                [
+                    458.8710021972656,
+                    359.3179931640625
+                ],
+                [
+                    499.8710021972656,
+                    383.13800048828125
+                ]
+            ],
+            [
+                [
+                    504.8710021972656,
+                    359.3179931640625
+                ],
+                [
+                    545.1909790039062,
+                    383.13800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> blue <break time='200ms'/> fish. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1518,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1811,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2171,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2439,
+                "type": "word",
+                "start": 104,
+                "end": 108,
+                "value": "blue"
+            },
+            {
+                "time": 3126,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3401,
+                "type": "word",
+                "start": 131,
+                "end": 135,
+                "value": "fish"
+            },
+            {
+                "time": 3979,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "This is a green leaf.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "green",
+            "leaf."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.93690490722656,
+                    545.655029296875
+                ],
+                [
+                    129.91690063476562,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    134.91690063476562,
+                    545.655029296875
+                ],
+                [
+                    148.89691162109375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    153.89691162109375,
+                    545.655029296875
+                ],
+                [
+                    166.05691528320312,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    77.79690551757812,
+                    569.655029296875
+                ],
+                [
+                    131.5369110107422,
+                    593.4749755859375
+                ]
+            ],
+            [
+                [
+                    136.5369110107422,
+                    569.655029296875
+                ],
+                [
+                    177.7769012451172,
+                    593.4749755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> green <break time='200ms'/> leaf. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1580,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1936,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2143,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2412,
+                "type": "word",
+                "start": 104,
+                "end": 109,
+                "value": "green"
+            },
+            {
+                "time": 3107,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3376,
+                "type": "word",
+                "start": 132,
+                "end": 136,
+                "value": "leaf"
+            },
+            {
+                "time": 3954,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "14": {
+        "text": "This is a black cat.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "black",
+            "cat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    246.43299865722656,
+                    545.655029296875
+                ],
+                [
+                    283.41302490234375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    288.41302490234375,
+                    545.655029296875
+                ],
+                [
+                    302.3930358886719,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    307.3930358886719,
+                    545.655029296875
+                ],
+                [
+                    319.55303955078125,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    324.55303955078125,
+                    545.655029296875
+                ],
+                [
+                    374.93304443359375,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    290.7330017089844,
+                    569.655029296875
+                ],
+                [
+                    327.03302001953125,
+                    593.4749755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> black <break time='200ms'/> cat. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1518,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1811,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2171,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2439,
+                "type": "word",
+                "start": 104,
+                "end": 109,
+                "value": "black"
+            },
+            {
+                "time": 3135,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3404,
+                "type": "word",
+                "start": 132,
+                "end": 135,
+                "value": "cat"
+            },
+            {
+                "time": 4028,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "15": {
+        "text": "This is a white dog.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "white",
+            "dog."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    451.27398681640625,
+                    545.655029296875
+                ],
+                [
+                    488.2539978027344,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    493.2539978027344,
+                    545.655029296875
+                ],
+                [
+                    507.2340087890625,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    512.2340087890625,
+                    545.655029296875
+                ],
+                [
+                    524.3939819335938,
+                    569.4749755859375
+                ]
+            ],
+            [
+                [
+                    436.4539794921875,
+                    569.655029296875
+                ],
+                [
+                    488.9739990234375,
+                    593.4749755859375
+                ]
+            ],
+            [
+                [
+                    493.9739990234375,
+                    569.655029296875
+                ],
+                [
+                    535.833984375,
+                    593.4749755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> white <break time='200ms'/> dog. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 996,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1518,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1811,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2196,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2489,
+                "type": "word",
+                "start": 104,
+                "end": 109,
+                "value": "white"
+            },
+            {
+                "time": 3109,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3377,
+                "type": "word",
+                "start": 132,
+                "end": 135,
+                "value": "dog"
+            },
+            {
+                "time": 3922,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

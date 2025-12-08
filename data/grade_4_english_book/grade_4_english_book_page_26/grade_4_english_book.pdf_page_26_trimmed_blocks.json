@@ -181,127 +181,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">e.g.<break time=\"500ms\"/> : There are three trees in picture A.<break time=\"500ms\"/> There are two trees in picture B.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>e.g. :- There are three trees in picture A. There are two trees in picture B.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "e.g."
             },
             {
-                "time": 993,
+                "time": 1109,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1588,
-                "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 36,
+                "end": 41,
                 "value": "There"
             },
             {
-                "time": 1796,
+                "time": 1323,
                 "type": "word",
-                "start": 61,
-                "end": 64,
+                "start": 42,
+                "end": 45,
                 "value": "are"
             },
             {
-                "time": 1895,
+                "time": 1448,
                 "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 46,
+                "end": 51,
                 "value": "three"
             },
             {
-                "time": 2279,
+                "time": 1800,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 52,
+                "end": 57,
                 "value": "trees"
             },
             {
-                "time": 2732,
+                "time": 2272,
                 "type": "word",
-                "start": 77,
-                "end": 79,
+                "start": 58,
+                "end": 60,
                 "value": "in"
             },
             {
-                "time": 2857,
+                "time": 2390,
                 "type": "word",
-                "start": 80,
-                "end": 87,
+                "start": 61,
+                "end": 68,
                 "value": "picture"
             },
             {
-                "time": 3388,
+                "time": 2845,
                 "type": "word",
-                "start": 88,
-                "end": 89,
-                "value": "A"
+                "start": 69,
+                "end": 71,
+                "value": "A."
             },
             {
-                "time": 3687,
+                "time": 2995,
                 "type": "word",
-                "start": 90,
-                "end": 111,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4574,
-                "type": "word",
-                "start": 112,
-                "end": 117,
+                "start": 72,
+                "end": 77,
                 "value": "There"
             },
             {
-                "time": 4758,
+                "time": 3189,
                 "type": "word",
-                "start": 118,
-                "end": 121,
+                "start": 78,
+                "end": 81,
                 "value": "are"
             },
             {
-                "time": 4871,
+                "time": 3292,
                 "type": "word",
-                "start": 122,
-                "end": 125,
+                "start": 82,
+                "end": 85,
                 "value": "two"
             },
             {
-                "time": 5161,
+                "time": 3544,
                 "type": "word",
-                "start": 126,
-                "end": 131,
+                "start": 86,
+                "end": 91,
                 "value": "trees"
             },
             {
-                "time": 5626,
+                "time": 4025,
                 "type": "word",
-                "start": 132,
-                "end": 134,
+                "start": 92,
+                "end": 94,
                 "value": "in"
             },
             {
-                "time": 5751,
+                "time": 4151,
                 "type": "word",
-                "start": 135,
-                "end": 142,
+                "start": 95,
+                "end": 102,
                 "value": "picture"
             },
             {
-                "time": 6220,
+                "time": 4631,
                 "type": "word",
-                "start": 143,
-                "end": 144,
+                "start": 103,
+                "end": 104,
                 "value": "B"
             }
         ]
@@ -422,99 +409,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is<break time=\"1000ms\"/> in picture A/B.<break time=\"500ms\"/> There are<break time=\"1000ms\"/> in picture A/B.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There is.................... in picture A/B. There are.................... in picture A/B.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
-                "time": 265,
+                "time": 266,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 791,
+                "time": 1023,
                 "type": "word",
-                "start": 35,
-                "end": 57,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1885,
-                "type": "word",
-                "start": 58,
-                "end": 60,
+                "start": 57,
+                "end": 59,
                 "value": "in"
             },
             {
-                "time": 2041,
+                "time": 1156,
                 "type": "word",
-                "start": 61,
-                "end": 68,
+                "start": 60,
+                "end": 67,
                 "value": "picture"
             },
             {
-                "time": 2493,
+                "time": 1692,
                 "type": "word",
-                "start": 69,
-                "end": 72,
+                "start": 68,
+                "end": 71,
                 "value": "A/B"
             },
             {
-                "time": 2956,
+                "time": 2607,
                 "type": "word",
                 "start": 73,
-                "end": 94,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3843,
-                "type": "word",
-                "start": 95,
-                "end": 100,
+                "end": 78,
                 "value": "There"
             },
             {
-                "time": 4057,
+                "time": 2810,
                 "type": "word",
-                "start": 101,
-                "end": 104,
+                "start": 79,
+                "end": 82,
                 "value": "are"
             },
             {
-                "time": 4543,
+                "time": 3516,
                 "type": "word",
-                "start": 104,
-                "end": 126,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 5638,
-                "type": "word",
-                "start": 127,
-                "end": 129,
+                "start": 103,
+                "end": 105,
                 "value": "in"
             },
             {
-                "time": 5786,
+                "time": 3650,
                 "type": "word",
-                "start": 130,
-                "end": 137,
+                "start": 106,
+                "end": 113,
                 "value": "picture"
             },
             {
-                "time": 6226,
+                "time": 4185,
                 "type": "word",
-                "start": 138,
-                "end": 141,
+                "start": 114,
+                "end": 117,
                 "value": "A/B"
             }
         ]
@@ -855,225 +822,219 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Ask the students to work in pairs and spot the differences in the pictures.<break time=\"500ms\"/> Assign picture A to one student and picture B to the other student in the pair.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ask the students to work in pairs and spot the differences in the pictures. Assign picture A to one student and picture B to the other student in the pair.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Ask"
             },
             {
-                "time": 363,
+                "time": 387,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "the"
             },
             {
-                "time": 456,
+                "time": 479,
                 "type": "word",
-                "start": 35,
-                "end": 43,
+                "start": 36,
+                "end": 44,
                 "value": "students"
             },
             {
-                "time": 991,
+                "time": 1033,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "to"
             },
             {
-                "time": 1110,
+                "time": 1152,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "work"
             },
             {
-                "time": 1480,
+                "time": 1534,
                 "type": "word",
-                "start": 52,
-                "end": 54,
+                "start": 53,
+                "end": 55,
                 "value": "in"
             },
             {
-                "time": 1615,
+                "time": 1669,
                 "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 56,
+                "end": 61,
                 "value": "pairs"
             },
             {
-                "time": 2019,
+                "time": 2100,
                 "type": "word",
-                "start": 61,
-                "end": 64,
+                "start": 62,
+                "end": 65,
                 "value": "and"
             },
             {
-                "time": 2150,
+                "time": 2231,
                 "type": "word",
-                "start": 65,
-                "end": 69,
+                "start": 66,
+                "end": 70,
                 "value": "spot"
             },
             {
-                "time": 2564,
+                "time": 2658,
                 "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 71,
+                "end": 74,
                 "value": "the"
             },
             {
-                "time": 2672,
+                "time": 2766,
                 "type": "word",
-                "start": 74,
-                "end": 85,
+                "start": 75,
+                "end": 86,
                 "value": "differences"
             },
             {
-                "time": 3378,
+                "time": 3499,
                 "type": "word",
-                "start": 86,
-                "end": 88,
+                "start": 87,
+                "end": 89,
                 "value": "in"
             },
             {
-                "time": 3500,
+                "time": 3621,
                 "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 90,
+                "end": 93,
                 "value": "the"
             },
             {
-                "time": 3573,
+                "time": 3694,
                 "type": "word",
-                "start": 93,
-                "end": 101,
+                "start": 94,
+                "end": 102,
                 "value": "pictures"
             },
             {
-                "time": 4456,
+                "time": 5002,
                 "type": "word",
-                "start": 102,
-                "end": 123,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5343,
-                "type": "word",
-                "start": 124,
-                "end": 130,
+                "start": 104,
+                "end": 110,
                 "value": "Assign"
             },
             {
-                "time": 5780,
+                "time": 5461,
                 "type": "word",
-                "start": 131,
-                "end": 138,
+                "start": 111,
+                "end": 118,
                 "value": "picture"
             },
             {
-                "time": 6223,
+                "time": 5921,
                 "type": "word",
-                "start": 139,
-                "end": 140,
+                "start": 119,
+                "end": 120,
                 "value": "A"
             },
             {
-                "time": 6345,
+                "time": 6057,
                 "type": "word",
-                "start": 141,
-                "end": 143,
+                "start": 121,
+                "end": 123,
                 "value": "to"
             },
             {
-                "time": 6448,
+                "time": 6160,
                 "type": "word",
-                "start": 144,
-                "end": 147,
+                "start": 124,
+                "end": 127,
                 "value": "one"
             },
             {
-                "time": 6755,
+                "time": 6494,
                 "type": "word",
-                "start": 148,
-                "end": 155,
+                "start": 128,
+                "end": 135,
                 "value": "student"
             },
             {
-                "time": 7263,
+                "time": 7028,
                 "type": "word",
-                "start": 156,
-                "end": 159,
+                "start": 136,
+                "end": 139,
                 "value": "and"
             },
             {
-                "time": 7438,
+                "time": 7203,
                 "type": "word",
-                "start": 160,
-                "end": 167,
+                "start": 140,
+                "end": 147,
                 "value": "picture"
             },
             {
-                "time": 7888,
+                "time": 7665,
                 "type": "word",
-                "start": 168,
-                "end": 169,
+                "start": 148,
+                "end": 149,
                 "value": "B"
             },
             {
-                "time": 8084,
+                "time": 7868,
                 "type": "word",
-                "start": 170,
-                "end": 172,
+                "start": 150,
+                "end": 152,
                 "value": "to"
             },
             {
-                "time": 8258,
+                "time": 8048,
                 "type": "word",
-                "start": 173,
-                "end": 176,
+                "start": 153,
+                "end": 156,
                 "value": "the"
             },
             {
-                "time": 8451,
+                "time": 8248,
                 "type": "word",
-                "start": 177,
-                "end": 182,
+                "start": 157,
+                "end": 162,
                 "value": "other"
             },
             {
-                "time": 8667,
+                "time": 8464,
                 "type": "word",
-                "start": 183,
-                "end": 190,
+                "start": 163,
+                "end": 170,
                 "value": "student"
             },
             {
-                "time": 9149,
+                "time": 8979,
                 "type": "word",
-                "start": 191,
-                "end": 193,
+                "start": 171,
+                "end": 173,
                 "value": "in"
             },
             {
-                "time": 9270,
+                "time": 9099,
                 "type": "word",
-                "start": 194,
-                "end": 197,
+                "start": 174,
+                "end": 177,
                 "value": "the"
             },
             {
-                "time": 9334,
+                "time": 9163,
                 "type": "word",
-                "start": 198,
-                "end": 202,
+                "start": 178,
+                "end": 182,
                 "value": "pair"
             }
         ]
@@ -1106,22 +1067,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
@@ -1165,29 +1127,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and do.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and do.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 606,
+                "time": 638,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "do"
             }
         ]
@@ -1363,113 +1326,114 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">You need: a paper plate colour pencils glue sand white paper a pair of scissors</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>You need: a paper plate colour pencils glue sand white paper a pair of scissors</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "You"
             },
             {
-                "time": 163,
+                "time": 168,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "need"
             },
             {
-                "time": 786,
+                "time": 798,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 873,
+                "time": 890,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "paper"
             },
             {
-                "time": 1344,
+                "time": 1373,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "plate"
             },
             {
-                "time": 1750,
+                "time": 1793,
                 "type": "word",
-                "start": 51,
-                "end": 57,
+                "start": 52,
+                "end": 58,
                 "value": "colour"
             },
             {
-                "time": 2087,
+                "time": 2144,
                 "type": "word",
-                "start": 58,
-                "end": 65,
+                "start": 59,
+                "end": 66,
                 "value": "pencils"
             },
             {
-                "time": 2692,
+                "time": 2775,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 67,
+                "end": 71,
                 "value": "glue"
             },
             {
-                "time": 2976,
+                "time": 3065,
                 "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 72,
+                "end": 76,
                 "value": "sand"
             },
             {
-                "time": 3345,
+                "time": 3442,
                 "type": "word",
-                "start": 76,
-                "end": 81,
+                "start": 77,
+                "end": 82,
                 "value": "white"
             },
             {
-                "time": 3583,
+                "time": 3679,
                 "type": "word",
-                "start": 82,
-                "end": 87,
+                "start": 83,
+                "end": 88,
                 "value": "paper"
             },
             {
-                "time": 4041,
+                "time": 4156,
                 "type": "word",
-                "start": 88,
-                "end": 89,
+                "start": 89,
+                "end": 90,
                 "value": "a"
             },
             {
-                "time": 4085,
+                "time": 4200,
                 "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 91,
+                "end": 95,
                 "value": "pair"
             },
             {
-                "time": 4387,
+                "time": 4531,
                 "type": "word",
-                "start": 95,
-                "end": 97,
+                "start": 96,
+                "end": 98,
                 "value": "of"
             },
             {
-                "time": 4482,
+                "time": 4626,
                 "type": "word",
-                "start": 98,
-                "end": 106,
+                "start": 99,
+                "end": 107,
                 "value": "scissors"
             }
         ]

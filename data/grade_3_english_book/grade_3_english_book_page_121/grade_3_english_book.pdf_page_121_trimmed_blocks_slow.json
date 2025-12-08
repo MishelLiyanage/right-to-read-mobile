@@ -1,0 +1,694 @@
+{
+    "0": {
+        "text": "Listen and read.",
+        "words": [
+            "Listen",
+            "and",
+            "read."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.489498138427734,
+                    57.509002685546875
+                ],
+                [
+                    114.7094955444336,
+                    81.3290023803711
+                ]
+            ],
+            [
+                [
+                    119.7094955444336,
+                    57.509002685546875
+                ],
+                [
+                    156.62950134277344,
+                    81.3290023803711
+                ]
+            ],
+            [
+                [
+                    161.62950134277344,
+                    57.509002685546875
+                ],
+                [
+                    209.8695068359375,
+                    81.3290023803711
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> read. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "read"
+            },
+            {
+                "time": 2461,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I am Vinod.",
+        "words": [
+            "I",
+            "am",
+            "Vinod."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    239.489501953125,
+                    111.50900268554688
+                ],
+                [
+                    246.88949584960938,
+                    135.32901000976562
+                ]
+            ],
+            [
+                [
+                    251.28948974609375,
+                    111.50900268554688
+                ],
+                [
+                    284.54949951171875,
+                    135.32901000976562
+                ]
+            ],
+            [
+                [
+                    288.9494934082031,
+                    111.50900268554688
+                ],
+                [
+                    348.92950439453125,
+                    135.32901000976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> am <break time='200ms'/> <phoneme alphabet='ipa' ph='vinod'>Vinod</phoneme>. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 462,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 787,
+                "type": "word",
+                "start": 52,
+                "end": 54,
+                "value": "am"
+            },
+            {
+                "time": 1711,
+                "type": "word",
+                "start": 55,
+                "end": 76,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2055,
+                "type": "word",
+                "start": 112,
+                "end": 117,
+                "value": "Vinod"
+            },
+            {
+                "time": 3242,
+                "type": "word",
+                "start": 129,
+                "end": 150,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "This is my garden.",
+        "words": [
+            "This",
+            "is",
+            "my",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    239.489501953125,
+                    135.50900268554688
+                ],
+                [
+                    276.4695129394531,
+                    159.32901000976562
+                ]
+            ],
+            [
+                [
+                    281.4695129394531,
+                    135.50900268554688
+                ],
+                [
+                    295.44952392578125,
+                    159.32901000976562
+                ]
+            ],
+            [
+                [
+                    300.44952392578125,
+                    135.50900268554688
+                ],
+                [
+                    330.9295349121094,
+                    159.32901000976562
+                ]
+            ],
+            [
+                [
+                    335.7295227050781,
+                    135.50900268554688
+                ],
+                [
+                    408.72955322265625,
+                    159.32901000976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/> garden. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 643,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1728,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2046,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "my"
+            },
+            {
+                "time": 2625,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2869,
+                "type": "word",
+                "start": 105,
+                "end": 111,
+                "value": "garden"
+            },
+            {
+                "time": 3570,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "It has big trees.",
+        "words": [
+            "It",
+            "has",
+            "big",
+            "trees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    239.489501953125,
+                    159.50900268554688
+                ],
+                [
+                    254.489501953125,
+                    183.32901000976562
+                ]
+            ],
+            [
+                [
+                    264.28948974609375,
+                    159.50900268554688
+                ],
+                [
+                    298.1495056152344,
+                    183.32901000976562
+                ]
+            ],
+            [
+                [
+                    308.1495056152344,
+                    159.50900268554688
+                ],
+                [
+                    337.3495178222656,
+                    183.32901000976562
+                ]
+            ],
+            [
+                [
+                    342.1495056152344,
+                    159.50900268554688
+                ],
+                [
+                    394.1095275878906,
+                    183.32901000976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> big <break time='200ms'/> trees. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 420,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 689,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1464,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1720,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "big"
+            },
+            {
+                "time": 2670,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2964,
+                "type": "word",
+                "start": 105,
+                "end": 110,
+                "value": "trees"
+            },
+            {
+                "time": 3848,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "It has bushes.",
+        "words": [
+            "It",
+            "has",
+            "bushes."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    239.489501953125,
+                    183.50900268554688
+                ],
+                [
+                    254.489501953125,
+                    207.32901000976562
+                ]
+            ],
+            [
+                [
+                    259.28948974609375,
+                    183.50900268554688
+                ],
+                [
+                    293.1495056152344,
+                    207.32901000976562
+                ]
+            ],
+            [
+                [
+                    303.1495056152344,
+                    183.50900268554688
+                ],
+                [
+                    376.32952880859375,
+                    207.32901000976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> bushes. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 420,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 689,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1464,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1720,
+                "type": "word",
+                "start": 79,
+                "end": 85,
+                "value": "bushes"
+            },
+            {
+                "time": 2650,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "trees",
+        "words": [
+            "trees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    439.5840148925781,
+                    389.0260009765625
+                ],
+                [
+                    488.009033203125,
+                    418.9010009765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>trees <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "trees"
+            },
+            {
+                "time": 865,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "plants",
+        "words": [
+            "plants"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    98.5625991821289,
+                    505.97503662109375
+                ],
+                [
+                    157.68759155273438,
+                    535.8500366210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>plants <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "plants"
+            },
+            {
+                "time": 878,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "bushes",
+        "words": [
+            "bushes"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    349.3080139160156,
+                    562.4320068359375
+                ],
+                [
+                    414.1580505371094,
+                    592.3070068359375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bushes <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "bushes"
+            },
+            {
+                "time": 936,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Carrots grow underground!",
+        "words": [
+            "Carrots",
+            "grow",
+            "underground!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.489501953125,
+                    597.509033203125
+                ],
+                [
+                    126.54949951171875,
+                    621.3289794921875
+                ]
+            ],
+            [
+                [
+                    131.54949951171875,
+                    597.509033203125
+                ],
+                [
+                    177.56948852539062,
+                    621.3289794921875
+                ]
+            ],
+            [
+                [
+                    182.36949157714844,
+                    597.509033203125
+                ],
+                [
+                    310.72955322265625,
+                    621.3289794921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Carrots <break time='200ms'/> grow <break time='200ms'/> underground! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Carrots"
+            },
+            {
+                "time": 903,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1165,
+                "type": "word",
+                "start": 58,
+                "end": 62,
+                "value": "grow"
+            },
+            {
+                "time": 1691,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2035,
+                "type": "word",
+                "start": 85,
+                "end": 96,
+                "value": "underground"
+            },
+            {
+                "time": 2942,
+                "type": "word",
+                "start": 98,
+                "end": 119,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

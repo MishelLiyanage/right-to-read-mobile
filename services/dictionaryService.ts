@@ -94,6 +94,10 @@ export class DictionaryService {
       let dictionary: LocalDictionary;
       
       switch (bookName) {
+        case 'demo_book':
+          // For demo book, use grade 3 dictionary as fallback
+          dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');
+          break;
         case 'grade_3_english_book':
           dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');
           break;
@@ -119,6 +123,9 @@ export class DictionaryService {
     if (!bookTitle) return 'grade_3_english_book';
     
     // Map book titles to folder names
+    if (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book')) {
+      return 'demo_book';
+    }
     if (bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3')) {
       return 'grade_3_english_book';
     }

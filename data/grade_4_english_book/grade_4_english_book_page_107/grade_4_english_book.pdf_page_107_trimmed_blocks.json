@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
@@ -75,22 +76,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 266,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
@@ -145,36 +147,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us shade.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees give us shade.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 347,
+                "time": 351,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "give"
             },
             {
-                "time": 583,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "us"
             },
             {
-                "time": 749,
+                "time": 774,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "shade"
             }
         ]
@@ -229,36 +232,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us medicine.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees give us medicine.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 347,
+                "time": 351,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "give"
             },
             {
-                "time": 583,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "us"
             },
             {
-                "time": 798,
+                "time": 829,
                 "type": "word",
-                "start": 41,
-                "end": 49,
+                "start": 42,
+                "end": 50,
                 "value": "medicine"
             }
         ]
@@ -313,143 +317,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us vegetables.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees give us vegetables.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 347,
+                "time": 351,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "give"
             },
             {
-                "time": 583,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "us"
             },
             {
-                "time": 798,
+                "time": 830,
                 "type": "word",
-                "start": 41,
-                "end": 51,
+                "start": 42,
+                "end": 52,
                 "value": "vegetables"
             }
         ]
     },
     "5": {
-        "text": "Trees give us beautiful flowers.",
-        "words": [
-            "Trees",
-            "give",
-            "us",
-            "beautiful",
-            "flowers."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    270.2818908691406,
-                    297.076904296875
-                ],
-                [
-                    308.265869140625,
-                    316.1329040527344
-                ]
-            ],
-            [
-                [
-                    312.265869140625,
-                    297.076904296875
-                ],
-                [
-                    343.1138610839844,
-                    316.1329040527344
-                ]
-            ],
-            [
-                [
-                    262.0578918457031,
-                    316.27691650390625
-                ],
-                [
-                    279.4178771972656,
-                    335.3329162597656
-                ]
-            ],
-            [
-                [
-                    282.7778625488281,
-                    316.27691650390625
-                ],
-                [
-                    351.3377990722656,
-                    335.3329162597656
-                ]
-            ],
-            [
-                [
-                    277.68988037109375,
-                    335.4769287109375
-                ],
-                [
-                    336.5218811035156,
-                    354.5329284667969
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us beautiful flowers.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Trees"
-            },
-            {
-                "time": 347,
-                "type": "word",
-                "start": 33,
-                "end": 37,
-                "value": "give"
-            },
-            {
-                "time": 583,
-                "type": "word",
-                "start": 38,
-                "end": 40,
-                "value": "us"
-            },
-            {
-                "time": 790,
-                "type": "word",
-                "start": 41,
-                "end": 50,
-                "value": "beautiful"
-            },
-            {
-                "time": 1309,
-                "type": "word",
-                "start": 51,
-                "end": 58,
-                "value": "flowers"
-            }
-        ]
-    },
-    "6": {
         "text": "Trees give us cool air.",
         "words": [
             "Trees",
@@ -510,44 +413,148 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us cool air.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees give us cool air.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
+                "value": "Trees"
+            },
+            {
+                "time": 362,
+                "type": "word",
+                "start": 34,
+                "end": 38,
+                "value": "give"
+            },
+            {
+                "time": 612,
+                "type": "word",
+                "start": 39,
+                "end": 41,
+                "value": "us"
+            },
+            {
+                "time": 827,
+                "type": "word",
+                "start": 42,
+                "end": 46,
+                "value": "cool"
+            },
+            {
+                "time": 1171,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "air"
+            }
+        ]
+    },
+    "6": {
+        "text": "Trees give us beautiful flowers.",
+        "words": [
+            "Trees",
+            "give",
+            "us",
+            "beautiful",
+            "flowers."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    270.2818908691406,
+                    297.076904296875
+                ],
+                [
+                    308.265869140625,
+                    316.1329040527344
+                ]
+            ],
+            [
+                [
+                    312.265869140625,
+                    297.076904296875
+                ],
+                [
+                    343.1138610839844,
+                    316.1329040527344
+                ]
+            ],
+            [
+                [
+                    262.0578918457031,
+                    316.27691650390625
+                ],
+                [
+                    279.4178771972656,
+                    335.3329162597656
+                ]
+            ],
+            [
+                [
+                    282.7778625488281,
+                    316.27691650390625
+                ],
+                [
+                    351.3377990722656,
+                    335.3329162597656
+                ]
+            ],
+            [
+                [
+                    277.68988037109375,
+                    335.4769287109375
+                ],
+                [
+                    336.5218811035156,
+                    354.5329284667969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Trees give us beautiful flowers.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
                 "time": 351,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "give"
             },
             {
-                "time": 595,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "us"
             },
             {
-                "time": 791,
+                "time": 822,
                 "type": "word",
-                "start": 41,
-                "end": 45,
-                "value": "cool"
+                "start": 42,
+                "end": 51,
+                "value": "beautiful"
             },
             {
-                "time": 1115,
+                "time": 1353,
                 "type": "word",
-                "start": 46,
-                "end": 49,
-                "value": "air"
+                "start": 52,
+                "end": 59,
+                "value": "flowers"
             }
         ]
     },
@@ -601,36 +608,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees give us fruits.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees give us fruits.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 347,
+                "time": 351,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "give"
             },
             {
-                "time": 583,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "us"
             },
             {
-                "time": 790,
+                "time": 822,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 42,
+                "end": 48,
                 "value": "fruits"
             }
         ]

@@ -1,0 +1,1338 @@
+{
+    "0": {
+        "text": "Read and tell the number.",
+        "words": [
+            "Read",
+            "and",
+            "tell",
+            "the",
+            "number."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    52.160003662109375
+                ],
+                [
+                    107.18960571289062,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    112.18960571289062,
+                    52.160003662109375
+                ],
+                [
+                    149.109619140625,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    153.9096221923828,
+                    52.160003662109375
+                ],
+                [
+                    182.349609375,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    187.1496124267578,
+                    52.160003662109375
+                ],
+                [
+                    218.6896209716797,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    223.6896209716797,
+                    52.160003662109375
+                ],
+                [
+                    305.0696716308594,
+                    75.9800033569336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> and <break time='200ms'/> tell <break time='200ms'/> the <break time='200ms'/> number. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 704,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 917,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "and"
+            },
+            {
+                "time": 1496,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1739,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "tell"
+            },
+            {
+                "time": 2414,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2708,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "the"
+            },
+            {
+                "time": 3159,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3428,
+                "type": "word",
+                "start": 134,
+                "end": 140,
+                "value": "number"
+            },
+            {
+                "time": 3985,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Rasi : Where's Kasuni?",
+        "words": [
+            "Rasi",
+            ":",
+            "Where's",
+            "Kasuni?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    134.16000366210938
+                ],
+                [
+                    97.66959381103516,
+                    157.98001098632812
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    134.16000366210938
+                ],
+                [
+                    171.90960693359375,
+                    157.98001098632812
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    134.16000366210938
+                ],
+                [
+                    266.28961181640625,
+                    157.98001098632812
+                ]
+            ],
+            [
+                [
+                    271.28961181640625,
+                    134.16000366210938
+                ],
+                [
+                    344.3896484375,
+                    157.98001098632812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0si'>Rasi</phoneme> <break time='200ms'/> : <break time='200ms'/> Where's <break time='200ms'/> <phoneme alphabet='ipa' ph='kasuni'>Kasuni</phoneme>? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 65,
+                "end": 69,
+                "value": "Rasi"
+            },
+            {
+                "time": 789,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 989,
+                "type": "word",
+                "start": 104,
+                "end": 125,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1226,
+                "type": "word",
+                "start": 126,
+                "end": 133,
+                "value": "Where's"
+            },
+            {
+                "time": 2093,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2349,
+                "type": "word",
+                "start": 192,
+                "end": 198,
+                "value": "Kasuni"
+            },
+            {
+                "time": 3705,
+                "type": "word",
+                "start": 210,
+                "end": 231,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Manu : She's sick.",
+        "words": [
+            "Manu",
+            ":",
+            "She's",
+            "sick."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    168.16000366210938
+                ],
+                [
+                    114.089599609375,
+                    191.98001098632812
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    168.16000366210938
+                ],
+                [
+                    171.90960693359375,
+                    191.98001098632812
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    168.16000366210938
+                ],
+                [
+                    239.32958984375,
+                    191.98001098632812
+                ]
+            ],
+            [
+                [
+                    244.32958984375,
+                    168.16000366210938
+                ],
+                [
+                    285.7496032714844,
+                    191.98001098632812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme> <break time='200ms'/> : <break time='200ms'/> She's <break time='200ms'/> sick. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "Manu"
+            },
+            {
+                "time": 753,
+                "type": "word",
+                "start": 77,
+                "end": 98,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 953,
+                "type": "word",
+                "start": 101,
+                "end": 122,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1247,
+                "type": "word",
+                "start": 123,
+                "end": 128,
+                "value": "She's"
+            },
+            {
+                "time": 2293,
+                "type": "word",
+                "start": 129,
+                "end": 150,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2637,
+                "type": "word",
+                "start": 151,
+                "end": 155,
+                "value": "sick"
+            },
+            {
+                "time": 3361,
+                "type": "word",
+                "start": 157,
+                "end": 178,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Binu : Let's tell the teacher.",
+        "words": [
+            "Binu",
+            ":",
+            "Let's",
+            "tell",
+            "the",
+            "teacher."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    202.16000366210938
+                ],
+                [
+                    102.2295913696289,
+                    225.98001098632812
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    202.16000366210938
+                ],
+                [
+                    171.90960693359375,
+                    225.98001098632812
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    202.16000366210938
+                ],
+                [
+                    233.44961547851562,
+                    225.98001098632812
+                ]
+            ],
+            [
+                [
+                    238.24961853027344,
+                    202.16000366210938
+                ],
+                [
+                    266.6896057128906,
+                    225.98001098632812
+                ]
+            ],
+            [
+                [
+                    271.4895935058594,
+                    202.16000366210938
+                ],
+                [
+                    303.02960205078125,
+                    225.98001098632812
+                ]
+            ],
+            [
+                [
+                    307.82958984375,
+                    202.16000366210938
+                ],
+                [
+                    385.1096496582031,
+                    225.98001098632812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='binu'>Binu</phoneme> <break time='200ms'/> : <break time='200ms'/> Let's <break time='200ms'/> tell <break time='200ms'/> the <break time='200ms'/> teacher. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "Binu"
+            },
+            {
+                "time": 660,
+                "type": "word",
+                "start": 77,
+                "end": 98,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 860,
+                "type": "word",
+                "start": 101,
+                "end": 122,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1122,
+                "type": "word",
+                "start": 123,
+                "end": 128,
+                "value": "Let's"
+            },
+            {
+                "time": 2096,
+                "type": "word",
+                "start": 129,
+                "end": 150,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2352,
+                "type": "word",
+                "start": 151,
+                "end": 155,
+                "value": "tell"
+            },
+            {
+                "time": 3105,
+                "type": "word",
+                "start": 156,
+                "end": 177,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3324,
+                "type": "word",
+                "start": 178,
+                "end": 181,
+                "value": "the"
+            },
+            {
+                "time": 3912,
+                "type": "word",
+                "start": 182,
+                "end": 203,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4181,
+                "type": "word",
+                "start": 204,
+                "end": 211,
+                "value": "teacher"
+            },
+            {
+                "time": 5172,
+                "type": "word",
+                "start": 213,
+                "end": 234,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Rasi : Teacher, our team has six girls.",
+        "words": [
+            "Rasi",
+            ":",
+            "Teacher,",
+            "our",
+            "team",
+            "has",
+            "six",
+            "girls."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.52960205078125,
+                    236.16000366210938
+                ],
+                [
+                    97.66960144042969,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    236.16000366210938
+                ],
+                [
+                    171.90960693359375,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    236.16000366210938
+                ],
+                [
+                    271.4096374511719,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    275.4096374511719,
+                    236.16000366210938
+                ],
+                [
+                    305.96966552734375,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    310.56964111328125,
+                    236.16000366210938
+                ],
+                [
+                    361.8696594238281,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    366.8696594238281,
+                    236.16000366210938
+                ],
+                [
+                    400.72967529296875,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    405.72967529296875,
+                    236.16000366210938
+                ],
+                [
+                    429.9496765136719,
+                    259.9800109863281
+                ]
+            ],
+            [
+                [
+                    434.7496643066406,
+                    236.16000366210938
+                ],
+                [
+                    478.7696838378906,
+                    259.9800109863281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0si'>Rasi</phoneme> <break time='200ms'/> : <break time='200ms'/> Teacher, <break time='200ms'/> our <break time='200ms'/> team <break time='200ms'/> has <break time='200ms'/> six <break time='200ms'/> girls. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 65,
+                "end": 69,
+                "value": "Rasi"
+            },
+            {
+                "time": 789,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 989,
+                "type": "word",
+                "start": 104,
+                "end": 125,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1226,
+                "type": "word",
+                "start": 126,
+                "end": 133,
+                "value": "Teacher"
+            },
+            {
+                "time": 2093,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2349,
+                "type": "word",
+                "start": 157,
+                "end": 160,
+                "value": "our"
+            },
+            {
+                "time": 3072,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3322,
+                "type": "word",
+                "start": 183,
+                "end": 187,
+                "value": "team"
+            },
+            {
+                "time": 4313,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4663,
+                "type": "word",
+                "start": 210,
+                "end": 213,
+                "value": "has"
+            },
+            {
+                "time": 5298,
+                "type": "word",
+                "start": 214,
+                "end": 235,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5567,
+                "type": "word",
+                "start": 236,
+                "end": 239,
+                "value": "six"
+            },
+            {
+                "time": 6469,
+                "type": "word",
+                "start": 240,
+                "end": 261,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6701,
+                "type": "word",
+                "start": 262,
+                "end": 267,
+                "value": "girls"
+            },
+            {
+                "time": 7646,
+                "type": "word",
+                "start": 269,
+                "end": 290,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Manu : Kasuni is sick.",
+        "words": [
+            "Manu",
+            ":",
+            "Kasuni",
+            "is",
+            "sick."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.52960205078125,
+                    270.1600036621094
+                ],
+                [
+                    114.089599609375,
+                    293.9800109863281
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    270.1600036621094
+                ],
+                [
+                    171.90960693359375,
+                    293.9800109863281
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    270.1600036621094
+                ],
+                [
+                    255.36962890625,
+                    293.9800109863281
+                ]
+            ],
+            [
+                [
+                    260.36962890625,
+                    270.1600036621094
+                ],
+                [
+                    274.3496398925781,
+                    293.9800109863281
+                ]
+            ],
+            [
+                [
+                    279.3496398925781,
+                    270.1600036621094
+                ],
+                [
+                    320.7696228027344,
+                    293.9800109863281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme> <break time='200ms'/> : <break time='200ms'/> <phoneme alphabet='ipa' ph='kasuni'>Kasuni</phoneme> <break time='200ms'/> is <break time='200ms'/> sick. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "Manu"
+            },
+            {
+                "time": 735,
+                "type": "word",
+                "start": 77,
+                "end": 98,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 935,
+                "type": "word",
+                "start": 101,
+                "end": 122,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1210,
+                "type": "word",
+                "start": 159,
+                "end": 165,
+                "value": "Kasuni"
+            },
+            {
+                "time": 2351,
+                "type": "word",
+                "start": 176,
+                "end": 197,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2576,
+                "type": "word",
+                "start": 198,
+                "end": 200,
+                "value": "is"
+            },
+            {
+                "time": 3412,
+                "type": "word",
+                "start": 201,
+                "end": 222,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3668,
+                "type": "word",
+                "start": 223,
+                "end": 227,
+                "value": "sick"
+            },
+            {
+                "time": 4491,
+                "type": "word",
+                "start": 229,
+                "end": 250,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Teacher : No problem. Let's play.",
+        "words": [
+            "Teacher",
+            ":",
+            "No",
+            "problem.",
+            "Let's",
+            "play."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.52960205078125,
+                    304.1600036621094
+                ],
+                [
+                    133.02960205078125,
+                    327.9800109863281
+                ]
+            ],
+            [
+                [
+                    165.52960205078125,
+                    304.1600036621094
+                ],
+                [
+                    171.90960693359375,
+                    327.9800109863281
+                ]
+            ],
+            [
+                [
+                    192.52960205078125,
+                    304.1600036621094
+                ],
+                [
+                    219.18959045410156,
+                    327.9800109863281
+                ]
+            ],
+            [
+                [
+                    224.18959045410156,
+                    304.1600036621094
+                ],
+                [
+                    309.0895690917969,
+                    327.9800109863281
+                ]
+            ],
+            [
+                [
+                    313.0895690917969,
+                    304.1600036621094
+                ],
+                [
+                    355.88958740234375,
+                    327.9800109863281
+                ]
+            ],
+            [
+                [
+                    360.88958740234375,
+                    304.1600036621094
+                ],
+                [
+                    404.86956787109375,
+                    327.9800109863281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Teacher <break time='200ms'/> : <break time='200ms'/> No <break time='200ms'/> problem. <break time='200ms'/> Let's <break time='200ms'/> play. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Teacher"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 951,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1244,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "No"
+            },
+            {
+                "time": 1775,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2031,
+                "type": "word",
+                "start": 107,
+                "end": 114,
+                "value": "problem"
+            },
+            {
+                "time": 2808,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3576,
+                "type": "word",
+                "start": 138,
+                "end": 143,
+                "value": "Let's"
+            },
+            {
+                "time": 3989,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4220,
+                "type": "word",
+                "start": 166,
+                "end": 170,
+                "value": "play"
+            },
+            {
+                "time": 4870,
+                "type": "word",
+                "start": 172,
+                "end": 193,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "7 \u2013 1 = 6 Seven minus one is six",
+        "words": [
+            "7",
+            "\u2013",
+            "1",
+            "=",
+            "6",
+            "Seven",
+            "minus",
+            "one",
+            "is",
+            "six"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    255.36500549316406,
+                    431.3899841308594
+                ],
+                [
+                    265.8650207519531,
+                    455.2099914550781
+                ]
+            ],
+            [
+                [
+                    268.8650207519531,
+                    431.3899841308594
+                ],
+                [
+                    278.6650085449219,
+                    455.2099914550781
+                ]
+            ],
+            [
+                [
+                    280.6650085449219,
+                    431.3899841308594
+                ],
+                [
+                    289.1650085449219,
+                    455.2099914550781
+                ]
+            ],
+            [
+                [
+                    304.1650085449219,
+                    431.3899841308594
+                ],
+                [
+                    314.9649963378906,
+                    455.2099914550781
+                ]
+            ],
+            [
+                [
+                    324.9649963378906,
+                    431.3899841308594
+                ],
+                [
+                    337.2049865722656,
+                    455.2099914550781
+                ]
+            ],
+            [
+                [
+                    174.10501098632812,
+                    457.3899841308594
+                ],
+                [
+                    230.14498901367188,
+                    481.2099914550781
+                ]
+            ],
+            [
+                [
+                    240.14498901367188,
+                    457.3899841308594
+                ],
+                [
+                    299.82501220703125,
+                    481.2099914550781
+                ]
+            ],
+            [
+                [
+                    304.82501220703125,
+                    457.3899841308594
+                ],
+                [
+                    340.0250244140625,
+                    481.2099914550781
+                ]
+            ],
+            [
+                [
+                    350.0250244140625,
+                    457.3899841308594
+                ],
+                [
+                    364.0050354003906,
+                    481.2099914550781
+                ]
+            ],
+            [
+                [
+                    374.0050354003906,
+                    457.3899841308594
+                ],
+                [
+                    398.22503662109375,
+                    481.2099914550781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>7 <break time='200ms'/> \u2013 <break time='200ms'/> 1 <break time='200ms'/> = <break time='200ms'/> 6 <break time='200ms'/> Seven <break time='200ms'/> minus <break time='200ms'/> one <break time='200ms'/> is <break time='200ms'/> six <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "7"
+            },
+            {
+                "time": 921,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1121,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1446,
+                "type": "word",
+                "start": 78,
+                "end": 79,
+                "value": "1"
+            },
+            {
+                "time": 1823,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2080,
+                "type": "word",
+                "start": 102,
+                "end": 103,
+                "value": "="
+            },
+            {
+                "time": 2911,
+                "type": "word",
+                "start": 104,
+                "end": 125,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3223,
+                "type": "word",
+                "start": 126,
+                "end": 127,
+                "value": "6"
+            },
+            {
+                "time": 3821,
+                "type": "word",
+                "start": 128,
+                "end": 149,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4083,
+                "type": "word",
+                "start": 150,
+                "end": 155,
+                "value": "Seven"
+            },
+            {
+                "time": 4753,
+                "type": "word",
+                "start": 156,
+                "end": 177,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5071,
+                "type": "word",
+                "start": 178,
+                "end": 183,
+                "value": "minus"
+            },
+            {
+                "time": 5669,
+                "type": "word",
+                "start": 184,
+                "end": 205,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5932,
+                "type": "word",
+                "start": 206,
+                "end": 209,
+                "value": "one"
+            },
+            {
+                "time": 6490,
+                "type": "word",
+                "start": 210,
+                "end": 231,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6758,
+                "type": "word",
+                "start": 232,
+                "end": 234,
+                "value": "is"
+            },
+            {
+                "time": 7189,
+                "type": "word",
+                "start": 235,
+                "end": 256,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7482,
+                "type": "word",
+                "start": 257,
+                "end": 260,
+                "value": "six"
+            },
+            {
+                "time": 8055,
+                "type": "word",
+                "start": 261,
+                "end": 282,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Subtraction - minus",
+        "words": [
+            "Subtraction",
+            "-",
+            "minus"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    320.9850158691406,
+                    555.449951171875
+                ],
+                [
+                    428.9850769042969,
+                    579.2699584960938
+                ]
+            ],
+            [
+                [
+                    179.8159942626953,
+                    553.240966796875
+                ],
+                [
+                    196.30067443847656,
+                    577.0609741210938
+                ]
+            ],
+            [
+                [
+                    234.53599548339844,
+                    555.489990234375
+                ],
+                [
+                    294.21600341796875,
+                    579.3099975585938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Subtraction <break time='200ms'/> - <break time='200ms'/> minus <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 39,
+                "value": "Subtraction"
+            },
+            {
+                "time": 1306,
+                "type": "word",
+                "start": 40,
+                "end": 61,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1506,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1831,
+                "type": "word",
+                "start": 86,
+                "end": 91,
+                "value": "minus"
+            },
+            {
+                "time": 2557,
+                "type": "word",
+                "start": 92,
+                "end": 113,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

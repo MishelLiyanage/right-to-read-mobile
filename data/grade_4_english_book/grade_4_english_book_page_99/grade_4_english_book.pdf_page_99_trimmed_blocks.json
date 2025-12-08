@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 397,
+                "time": 410,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "2"
             }
         ]
@@ -75,22 +76,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Act out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Act out.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Act"
             },
             {
-                "time": 298,
+                "time": 309,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "out"
             }
         ]
@@ -200,84 +202,78 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Excuse me May I<break time=\"1000ms\"/> Please Thank you You&apos;re welcome</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Excuse me May I... Please Thank you You're welcome</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Excuse"
             },
             {
-                "time": 532,
+                "time": 617,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "me"
             },
             {
-                "time": 696,
+                "time": 794,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "May"
             },
             {
-                "time": 1022,
+                "time": 1061,
                 "type": "word",
-                "start": 41,
-                "end": 42,
+                "start": 42,
+                "end": 43,
                 "value": "I"
             },
             {
-                "time": 1597,
+                "time": 1947,
                 "type": "word",
-                "start": 42,
-                "end": 64,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2697,
-                "type": "word",
-                "start": 65,
-                "end": 71,
+                "start": 47,
+                "end": 53,
                 "value": "Please"
             },
             {
-                "time": 3024,
+                "time": 2276,
                 "type": "word",
-                "start": 72,
-                "end": 77,
+                "start": 54,
+                "end": 59,
                 "value": "Thank"
             },
             {
-                "time": 3378,
+                "time": 2641,
                 "type": "word",
-                "start": 78,
-                "end": 81,
+                "start": 60,
+                "end": 63,
                 "value": "you"
             },
             {
-                "time": 3535,
+                "time": 2804,
                 "type": "word",
-                "start": 82,
-                "end": 93,
-                "value": "You&apos;re"
+                "start": 64,
+                "end": 70,
+                "value": "You're"
             },
             {
-                "time": 3745,
+                "time": 3015,
                 "type": "word",
-                "start": 94,
-                "end": 101,
+                "start": 71,
+                "end": 78,
                 "value": "welcome"
             }
         ]
     },
     "3": {
-        "text": "Rasini : Excuse me teacher, may I come in?",
+        "text": "Rasini : Excuse me teacher, may I come in? Teacher : Yes, you may.",
         "words": [
             "Rasini",
             ":",
@@ -287,7 +283,12 @@
             "may",
             "I",
             "come",
-            "in?"
+            "in?",
+            "Teacher",
+            ":",
+            "Yes,",
+            "you",
+            "may."
         ],
         "bounding_boxes": [
             [
@@ -379,88 +380,7 @@
                     452.4186706542969,
                     411.4267272949219
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasini : Excuse me teacher,<break time=\"300ms\"/> may I come in?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Rasini"
-            },
-            {
-                "time": 899,
-                "type": "word",
-                "start": 36,
-                "end": 42,
-                "value": "Excuse"
-            },
-            {
-                "time": 1536,
-                "type": "word",
-                "start": 43,
-                "end": 45,
-                "value": "me"
-            },
-            {
-                "time": 1734,
-                "type": "word",
-                "start": 46,
-                "end": 53,
-                "value": "teacher"
-            },
-            {
-                "time": 2387,
-                "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2787,
-                "type": "word",
-                "start": 76,
-                "end": 79,
-                "value": "may"
-            },
-            {
-                "time": 3164,
-                "type": "word",
-                "start": 80,
-                "end": 81,
-                "value": "I"
-            },
-            {
-                "time": 3332,
-                "type": "word",
-                "start": 82,
-                "end": 86,
-                "value": "come"
-            },
-            {
-                "time": 3717,
-                "type": "word",
-                "start": 87,
-                "end": 89,
-                "value": "in"
-            }
-        ]
-    },
-    "4": {
-        "text": "Teacher : Yes, you may.",
-        "words": [
-            "Teacher",
-            ":",
-            "Yes,",
-            "you",
-            "may."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     62.19660186767578,
@@ -512,50 +432,99 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : Yes,<break time=\"300ms\"/> you may.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> : Excuse me teacher, may I come in? Teacher : Yes, you may.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 67,
+                "end": 73,
+                "value": "Rasini"
+            },
+            {
+                "time": 1100,
+                "type": "word",
+                "start": 86,
+                "end": 92,
+                "value": "Excuse"
+            },
+            {
+                "time": 1750,
+                "type": "word",
+                "start": 93,
+                "end": 95,
+                "value": "me"
+            },
+            {
+                "time": 1949,
+                "type": "word",
+                "start": 96,
+                "end": 103,
+                "value": "teacher"
+            },
+            {
+                "time": 2734,
+                "type": "word",
+                "start": 105,
+                "end": 108,
+                "value": "may"
+            },
+            {
+                "time": 3128,
+                "type": "word",
+                "start": 109,
+                "end": 110,
+                "value": "I"
+            },
+            {
+                "time": 3305,
+                "type": "word",
+                "start": 111,
+                "end": 115,
+                "value": "come"
+            },
+            {
+                "time": 3699,
+                "type": "word",
+                "start": 116,
+                "end": 118,
+                "value": "in"
+            },
+            {
+                "time": 4425,
+                "type": "word",
+                "start": 120,
+                "end": 127,
                 "value": "Teacher"
             },
             {
-                "time": 775,
+                "time": 5204,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 130,
+                "end": 133,
                 "value": "Yes"
             },
             {
-                "time": 1437,
+                "time": 6119,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1838,
-                "type": "word",
-                "start": 63,
-                "end": 66,
+                "start": 135,
+                "end": 138,
                 "value": "you"
             },
             {
-                "time": 1982,
+                "time": 6279,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 139,
+                "end": 142,
                 "value": "may"
             }
         ]
     },
-    "5": {
-        "text": "Waruni : Please give me your pen.",
+    "4": {
+        "text": "Waruni : Please give me your pen. Meena : Here you are. Waruni : Thank you. Meena : You're welcome.",
         "words": [
             "Waruni",
             ":",
@@ -563,7 +532,20 @@
             "give",
             "me",
             "your",
-            "pen."
+            "pen.",
+            "Meena",
+            ":",
+            "Here",
+            "you",
+            "are.",
+            "Waruni",
+            ":",
+            "Thank",
+            "you.",
+            "Meena",
+            ":",
+            "You're",
+            "welcome."
         ],
         "bounding_boxes": [
             [
@@ -635,67 +617,7 @@
                     363.1026306152344,
                     612.17822265625
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni : Please give me your pen.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Waruni"
-            },
-            {
-                "time": 947,
-                "type": "word",
-                "start": 36,
-                "end": 42,
-                "value": "Please"
-            },
-            {
-                "time": 1355,
-                "type": "word",
-                "start": 43,
-                "end": 47,
-                "value": "give"
-            },
-            {
-                "time": 1544,
-                "type": "word",
-                "start": 48,
-                "end": 50,
-                "value": "me"
-            },
-            {
-                "time": 1710,
-                "type": "word",
-                "start": 51,
-                "end": 55,
-                "value": "your"
-            },
-            {
-                "time": 1891,
-                "type": "word",
-                "start": 56,
-                "end": 59,
-                "value": "pen"
-            }
-        ]
-    },
-    "6": {
-        "text": "Meena : Here you are.",
-        "words": [
-            "Meena",
-            ":",
-            "Here",
-            "you",
-            "are."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     62.19660186767578,
@@ -745,52 +667,7 @@
                     264.3186340332031,
                     636.1722412109375
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Meena : Here you are.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Meena"
-            },
-            {
-                "time": 687,
-                "type": "word",
-                "start": 35,
-                "end": 39,
-                "value": "Here"
-            },
-            {
-                "time": 954,
-                "type": "word",
-                "start": 40,
-                "end": 43,
-                "value": "you"
-            },
-            {
-                "time": 1221,
-                "type": "word",
-                "start": 44,
-                "end": 47,
-                "value": "are"
-            }
-        ]
-    },
-    "7": {
-        "text": "Waruni : Thank you.",
-        "words": [
-            "Waruni",
-            ":",
-            "Thank",
-            "you."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     62.19660186767578,
@@ -830,45 +707,7 @@
                     245.13064575195312,
                     660.1661987304688
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni : Thank you.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Waruni"
-            },
-            {
-                "time": 940,
-                "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "Thank"
-            },
-            {
-                "time": 1300,
-                "type": "word",
-                "start": 42,
-                "end": 45,
-                "value": "you"
-            }
-        ]
-    },
-    "8": {
-        "text": "Meena : You're welcome.",
-        "words": [
-            "Meena",
-            ":",
-            "You're",
-            "welcome."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     62.19660186767578,
@@ -910,7 +749,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meena : You&apos;re welcome.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> : Please give me your pen. Meena : Here you are. <phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> : Thank you. Meena : You're welcome.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -918,22 +757,113 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 64,
+                "end": 70,
+                "value": "Waruni"
+            },
+            {
+                "time": 884,
+                "type": "word",
+                "start": 83,
+                "end": 89,
+                "value": "Please"
+            },
+            {
+                "time": 1299,
+                "type": "word",
+                "start": 90,
+                "end": 94,
+                "value": "give"
+            },
+            {
+                "time": 1491,
+                "type": "word",
+                "start": 95,
+                "end": 97,
+                "value": "me"
+            },
+            {
+                "time": 1667,
+                "type": "word",
+                "start": 98,
+                "end": 102,
+                "value": "your"
+            },
+            {
+                "time": 1851,
+                "type": "word",
+                "start": 103,
+                "end": 106,
+                "value": "pen"
+            },
+            {
+                "time": 2721,
+                "type": "word",
+                "start": 108,
+                "end": 113,
                 "value": "Meena"
             },
             {
-                "time": 694,
+                "time": 3428,
                 "type": "word",
-                "start": 35,
-                "end": 46,
-                "value": "You&apos;re"
+                "start": 116,
+                "end": 120,
+                "value": "Here"
             },
             {
-                "time": 918,
+                "time": 3708,
                 "type": "word",
-                "start": 47,
-                "end": 54,
+                "start": 121,
+                "end": 124,
+                "value": "you"
+            },
+            {
+                "time": 3982,
+                "type": "word",
+                "start": 125,
+                "end": 128,
+                "value": "are"
+            },
+            {
+                "time": 4852,
+                "type": "word",
+                "start": 166,
+                "end": 172,
+                "value": "Waruni"
+            },
+            {
+                "time": 5723,
+                "type": "word",
+                "start": 185,
+                "end": 190,
+                "value": "Thank"
+            },
+            {
+                "time": 6092,
+                "type": "word",
+                "start": 191,
+                "end": 194,
+                "value": "you"
+            },
+            {
+                "time": 6866,
+                "type": "word",
+                "start": 196,
+                "end": 201,
+                "value": "Meena"
+            },
+            {
+                "time": 7579,
+                "type": "word",
+                "start": 204,
+                "end": 210,
+                "value": "You're"
+            },
+            {
+                "time": 7812,
+                "type": "word",
+                "start": 211,
+                "end": 218,
                 "value": "welcome"
             }
         ]

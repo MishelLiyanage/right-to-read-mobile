@@ -82,64 +82,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">In the evening,<break time=\"300ms\"/> my (6) visited me.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>In the evening, my (6) visited me.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "In"
             },
             {
-                "time": 160,
+                "time": 164,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "the"
             },
             {
-                "time": 332,
+                "time": 333,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 35,
+                "end": 42,
                 "value": "evening"
             },
             {
-                "time": 1069,
+                "time": 1189,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1469,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "my"
             },
             {
-                "time": 2188,
+                "time": 1940,
                 "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 48,
+                "end": 49,
                 "value": "6"
             },
             {
-                "time": 3031,
+                "time": 2828,
                 "type": "word",
-                "start": 71,
-                "end": 78,
+                "start": 51,
+                "end": 58,
                 "value": "visited"
             },
             {
-                "time": 3581,
+                "time": 3385,
                 "type": "word",
-                "start": 79,
-                "end": 81,
+                "start": 59,
+                "end": 61,
                 "value": "me"
             }
         ]
@@ -216,50 +210,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I enjoyed my birthday very much.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I enjoyed my birthday very much.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
                 "time": 148,
                 "type": "word",
-                "start": 29,
-                "end": 36,
+                "start": 30,
+                "end": 37,
                 "value": "enjoyed"
             },
             {
-                "time": 645,
+                "time": 656,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "my"
             },
             {
-                "time": 848,
+                "time": 859,
                 "type": "word",
-                "start": 40,
-                "end": 48,
+                "start": 41,
+                "end": 49,
                 "value": "birthday"
             },
             {
-                "time": 1392,
+                "time": 1435,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "very"
             },
             {
-                "time": 1745,
+                "time": 1794,
                 "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 55,
+                "end": 59,
                 "value": "much"
             }
         ]
@@ -413,99 +408,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(a) home (b) books (c) 9th (d) plant (e) friends (f) milk rice</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(a) home (b) books (c) 9th (d) plant (e) friends (f) milk rice</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "a"
             },
             {
-                "time": 634,
+                "time": 653,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "home"
             },
             {
-                "time": 1354,
+                "time": 1399,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "b"
             },
             {
-                "time": 2029,
+                "time": 2087,
                 "type": "word",
-                "start": 40,
-                "end": 45,
+                "start": 41,
+                "end": 46,
                 "value": "books"
             },
             {
-                "time": 2800,
+                "time": 2902,
                 "type": "word",
-                "start": 47,
-                "end": 48,
+                "start": 48,
+                "end": 49,
                 "value": "c"
             },
             {
-                "time": 3568,
+                "time": 3688,
                 "type": "word",
-                "start": 50,
-                "end": 53,
+                "start": 51,
+                "end": 54,
                 "value": "9th"
             },
             {
-                "time": 4324,
+                "time": 4462,
                 "type": "word",
-                "start": 55,
-                "end": 56,
+                "start": 56,
+                "end": 57,
                 "value": "d"
             },
             {
-                "time": 5060,
+                "time": 5224,
                 "type": "word",
-                "start": 58,
-                "end": 63,
+                "start": 59,
+                "end": 64,
                 "value": "plant"
             },
             {
-                "time": 5786,
+                "time": 5970,
                 "type": "word",
-                "start": 65,
-                "end": 66,
+                "start": 66,
+                "end": 67,
                 "value": "e"
             },
             {
-                "time": 6376,
+                "time": 6573,
                 "type": "word",
-                "start": 68,
-                "end": 75,
+                "start": 69,
+                "end": 76,
                 "value": "friends"
             },
             {
-                "time": 7249,
+                "time": 7473,
                 "type": "word",
-                "start": 77,
-                "end": 78,
+                "start": 78,
+                "end": 79,
                 "value": "f"
             },
             {
-                "time": 7908,
+                "time": 8147,
                 "type": "word",
-                "start": 80,
-                "end": 84,
+                "start": 81,
+                "end": 85,
                 "value": "milk"
             },
             {
-                "time": 8275,
+                "time": 8535,
                 "type": "word",
-                "start": 85,
-                "end": 89,
+                "start": 86,
+                "end": 90,
                 "value": "rice"
             }
         ]

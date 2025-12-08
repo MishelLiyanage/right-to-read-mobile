@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "98",
-        "words": [
-            "98"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.13520050048828,
-                    24.34998893737793
-                ],
-                [
-                    61.425201416015625,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">98</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "98"
-            }
-        ]
-    },
-    "1": {
         "text": "Time",
         "words": [
             "Time"
@@ -46,20 +16,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Time</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Time</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Time"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Look.",
         "words": [
             "Look."
@@ -76,20 +47,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Seven o'clock Ten o' clock Eight o' clock",
         "words": [
             "Seven",
@@ -183,69 +155,70 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Seven o&apos;clock Ten o&apos; clock Eight o&apos; clock</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Seven o'clock Ten o' clock Eight o' clock</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Seven"
             },
             {
-                "time": 401,
+                "time": 567,
                 "type": "word",
-                "start": 33,
-                "end": 45,
-                "value": "o&apos;clock"
+                "start": 34,
+                "end": 41,
+                "value": "o'clock"
             },
             {
-                "time": 870,
+                "time": 1071,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 42,
+                "end": 45,
                 "value": "Ten"
             },
             {
-                "time": 1143,
+                "time": 1255,
                 "type": "word",
-                "start": 50,
-                "end": 57,
-                "value": "o&apos;"
+                "start": 46,
+                "end": 48,
+                "value": "o'"
             },
             {
-                "time": 1211,
+                "time": 1423,
                 "type": "word",
-                "start": 58,
-                "end": 63,
+                "start": 49,
+                "end": 54,
                 "value": "clock"
             },
             {
-                "time": 1639,
+                "time": 1866,
                 "type": "word",
-                "start": 64,
-                "end": 69,
+                "start": 55,
+                "end": 60,
                 "value": "Eight"
             },
             {
-                "time": 1831,
+                "time": 2035,
                 "type": "word",
-                "start": 70,
-                "end": 77,
-                "value": "o&apos;"
+                "start": 61,
+                "end": 63,
+                "value": "o'"
             },
             {
-                "time": 1872,
+                "time": 2111,
                 "type": "word",
-                "start": 78,
-                "end": 83,
+                "start": 64,
+                "end": 69,
                 "value": "clock"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Four o' clock",
         "words": [
             "Four",
@@ -284,34 +257,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Four o&apos; clock</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Four o' clock</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Four"
             },
             {
-                "time": 394,
+                "time": 416,
                 "type": "word",
-                "start": 32,
-                "end": 39,
-                "value": "o&apos;"
+                "start": 33,
+                "end": 35,
+                "value": "o'"
             },
             {
-                "time": 451,
+                "time": 569,
                 "type": "word",
-                "start": 40,
-                "end": 45,
+                "start": 36,
+                "end": 41,
                 "value": "clock"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Read the time.",
         "words": [
             "Read",
@@ -350,29 +324,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read the time.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the time.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 277,
+                "time": 340,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 371,
+                "time": 569,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "time"
             }
         ]

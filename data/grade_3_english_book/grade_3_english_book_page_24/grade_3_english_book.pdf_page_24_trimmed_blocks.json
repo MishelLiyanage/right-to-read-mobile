@@ -1,22 +1,11 @@
 {
     "0": {
-        "text": "15 My pets",
+        "text": "My pets",
         "words": [
-            "15",
             "My",
             "pets"
         ],
         "bounding_boxes": [
-            [
-                [
-                    554.094970703125,
-                    24.34998893737793
-                ],
-                [
-                    577.2549438476562,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     267.8340148925781,
@@ -38,29 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">15 My pets</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My pets</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "15"
-            },
-            {
-                "time": 509,
-                "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 697,
+                "time": 340,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 31,
+                "end": 35,
                 "value": "pets"
             }
         ]
@@ -115,43 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 833,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1216,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1445,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -173,15 +150,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>cat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "cat"
             }
         ]
@@ -203,15 +181,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dog</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "dog"
             }
         ]
@@ -233,15 +212,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cow</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>cow</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "cow"
             }
         ]
@@ -263,15 +243,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">fish</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>fish</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "fish"
             }
         ]
@@ -293,15 +274,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">parrot</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>parrot</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "parrot"
             }
         ]
@@ -323,15 +305,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">rabbit</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>rabbit</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "rabbit"
             }
         ]

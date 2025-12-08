@@ -1,0 +1,1367 @@
+{
+    "0": {
+        "text": "Read aloud.",
+        "words": [
+            "Read",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    33.544525146484375
+                ],
+                [
+                    114.78519439697266,
+                    59.746524810791016
+                ]
+            ],
+            [
+                [
+                    120.28519439697266,
+                    33.544525146484375
+                ],
+                [
+                    185.58120727539062,
+                    59.746524810791016
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "aloud"
+            },
+            {
+                "time": 1495,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "First - 1st Second - 2nd",
+        "words": [
+            "First",
+            "-",
+            "1st",
+            "Second",
+            "-",
+            "2nd"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    71.38851928710938
+                ],
+                [
+                    96.45121002197266,
+                    92.82652282714844
+                ]
+            ],
+            [
+                [
+                    109.77120971679688,
+                    71.38851928710938
+                ],
+                [
+                    117.60121154785156,
+                    92.82652282714844
+                ]
+            ],
+            [
+                [
+                    121.20121002197266,
+                    71.38851928710938
+                ],
+                [
+                    137.5606231689453,
+                    92.82652282714844
+                ]
+            ],
+            [
+                [
+                    321.35919189453125,
+                    71.38851928710938
+                ],
+                [
+                    382.919189453125,
+                    92.82652282714844
+                ]
+            ],
+            [
+                [
+                    387.419189453125,
+                    71.38851928710938
+                ],
+                [
+                    395.2491760253906,
+                    92.82652282714844
+                ]
+            ],
+            [
+                [
+                    403.8891906738281,
+                    71.38851928710938
+                ],
+                [
+                    427.6617431640625,
+                    92.82652282714844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>First <break time='200ms'/> - <break time='200ms'/> 1st <break time='200ms'/> Second <break time='200ms'/> - <break time='200ms'/> 2nd <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "First"
+            },
+            {
+                "time": 711,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 911,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1118,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "1st"
+            },
+            {
+                "time": 1813,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2106,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "Second"
+            },
+            {
+                "time": 2857,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3057,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3264,
+                "type": "word",
+                "start": 159,
+                "end": 162,
+                "value": "2nd"
+            },
+            {
+                "time": 4135,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Third - 3rd Fourth - 4th",
+        "words": [
+            "Third",
+            "-",
+            "3rd",
+            "Fourth",
+            "-",
+            "4th"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    105.38851928710938
+                ],
+                [
+                    104.06520080566406,
+                    126.82652282714844
+                ]
+            ],
+            [
+                [
+                    108.56520080566406,
+                    105.38851928710938
+                ],
+                [
+                    116.39520263671875,
+                    126.82652282714844
+                ]
+            ],
+            [
+                [
+                    120.89520263671875,
+                    105.38851928710938
+                ],
+                [
+                    141.41615295410156,
+                    126.82652282714844
+                ]
+            ],
+            [
+                [
+                    321.35919189453125,
+                    105.38851928710938
+                ],
+                [
+                    376.043212890625,
+                    126.82652282714844
+                ]
+            ],
+            [
+                [
+                    389.543212890625,
+                    105.38851928710938
+                ],
+                [
+                    397.3731994628906,
+                    126.82652282714844
+                ]
+            ],
+            [
+                [
+                    401.8731994628906,
+                    105.38851928710938
+                ],
+                [
+                    422.7310485839844,
+                    126.82652282714844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Third <break time='200ms'/> - <break time='200ms'/> 3rd <break time='200ms'/> Fourth <break time='200ms'/> - <break time='200ms'/> 4th <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Third"
+            },
+            {
+                "time": 514,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 714,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 920,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "3rd"
+            },
+            {
+                "time": 1583,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1876,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "Fourth"
+            },
+            {
+                "time": 2505,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2705,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2911,
+                "type": "word",
+                "start": 159,
+                "end": 162,
+                "value": "4th"
+            },
+            {
+                "time": 3634,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Look at the calendar in your classroom. Say the date.",
+        "words": [
+            "Look",
+            "at",
+            "the",
+            "calendar",
+            "in",
+            "your",
+            "classroom.",
+            "Say",
+            "the",
+            "date."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    197.54452514648438
+                ],
+                [
+                    109.68119812011719,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    114.96119689941406,
+                    197.54452514648438
+                ],
+                [
+                    136.5872039794922,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    141.64720153808594,
+                    197.54452514648438
+                ],
+                [
+                    176.34120178222656,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    181.84120178222656,
+                    197.54452514648438
+                ],
+                [
+                    272.4591979980469,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    277.73919677734375,
+                    197.54452514648438
+                ],
+                [
+                    296.96722412109375,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    302.2472229003906,
+                    197.54452514648438
+                ],
+                [
+                    347.0612487792969,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    352.34124755859375,
+                    197.54452514648438
+                ],
+                [
+                    463.6832580566406,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    467.64324951171875,
+                    197.54452514648438
+                ],
+                [
+                    503.8552551269531,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    508.9152526855469,
+                    197.54452514648438
+                ],
+                [
+                    543.6092529296875,
+                    223.74652099609375
+                ]
+            ],
+            [
+                [
+                    62.35919952392578,
+                    229.55453491210938
+                ],
+                [
+                    116.41319274902344,
+                    255.75653076171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Look <break time='200ms'/> at <break time='200ms'/> the <break time='200ms'/> calendar <break time='200ms'/> in <break time='200ms'/> your <break time='200ms'/> classroom. <break time='200ms'/> Say <break time='200ms'/> the <break time='200ms'/> date. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Look"
+            },
+            {
+                "time": 589,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 889,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "at"
+            },
+            {
+                "time": 1448,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1748,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2178,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2471,
+                "type": "word",
+                "start": 106,
+                "end": 114,
+                "value": "calendar"
+            },
+            {
+                "time": 3391,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3691,
+                "type": "word",
+                "start": 137,
+                "end": 139,
+                "value": "in"
+            },
+            {
+                "time": 4229,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4531,
+                "type": "word",
+                "start": 162,
+                "end": 166,
+                "value": "your"
+            },
+            {
+                "time": 5155,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5455,
+                "type": "word",
+                "start": 189,
+                "end": 198,
+                "value": "classroom"
+            },
+            {
+                "time": 6285,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6872,
+                "type": "word",
+                "start": 222,
+                "end": 225,
+                "value": "Say"
+            },
+            {
+                "time": 7632,
+                "type": "word",
+                "start": 226,
+                "end": 247,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7926,
+                "type": "word",
+                "start": 248,
+                "end": 251,
+                "value": "the"
+            },
+            {
+                "time": 8477,
+                "type": "word",
+                "start": 252,
+                "end": 273,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8779,
+                "type": "word",
+                "start": 274,
+                "end": 278,
+                "value": "date"
+            },
+            {
+                "time": 9222,
+                "type": "word",
+                "start": 280,
+                "end": 301,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Today is the of",
+        "words": [
+            "Today",
+            "is",
+            "the",
+            "of"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35929870605469,
+                    302.154296875
+                ],
+                [
+                    111.55329895019531,
+                    323.5923156738281
+                ]
+            ],
+            [
+                [
+                    115.87329864501953,
+                    302.154296875
+                ],
+                [
+                    128.45529174804688,
+                    323.5923156738281
+                ]
+            ],
+            [
+                [
+                    242.17930603027344,
+                    302.154296875
+                ],
+                [
+                    270.5653076171875,
+                    323.5923156738281
+                ]
+            ],
+            [
+                [
+                    318.85931396484375,
+                    302.154296875
+                ],
+                [
+                    335.9773254394531,
+                    323.5923156738281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Today <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> of <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Today"
+            },
+            {
+                "time": 720,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1020,
+                "type": "word",
+                "start": 56,
+                "end": 58,
+                "value": "is"
+            },
+            {
+                "time": 1582,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1876,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "the"
+            },
+            {
+                "time": 2427,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2727,
+                "type": "word",
+                "start": 107,
+                "end": 109,
+                "value": "of"
+            },
+            {
+                "time": 3402,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Lesson 5",
+        "words": [
+            "Lesson",
+            "5"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    359.4950866699219
+                ],
+                [
+                    131.7692108154297,
+                    385.69708251953125
+                ]
+            ],
+            [
+                [
+                    137.2692108154297,
+                    359.4950866699219
+                ],
+                [
+                    150.51321411132812,
+                    385.69708251953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 5 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 729,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1019,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "5"
+            },
+            {
+                "time": 1822,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Let's make a calendar of birthdays.",
+        "words": [
+            "Let's",
+            "make",
+            "a",
+            "calendar",
+            "of",
+            "birthdays."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    142.99920654296875,
+                    412.7439880371094
+                ],
+                [
+                    188.01119995117188,
+                    438.94598388671875
+                ]
+            ],
+            [
+                [
+                    193.51119995117188,
+                    412.7439880371094
+                ],
+                [
+                    253.13121032714844,
+                    438.94598388671875
+                ]
+            ],
+            [
+                [
+                    258.6312255859375,
+                    412.7439880371094
+                ],
+                [
+                    272.0072326660156,
+                    438.94598388671875
+                ]
+            ],
+            [
+                [
+                    277.5072326660156,
+                    412.7439880371094
+                ],
+                [
+                    368.1252746582031,
+                    438.94598388671875
+                ]
+            ],
+            [
+                [
+                    142.99920654296875,
+                    439.14398193359375
+                ],
+                [
+                    163.92120361328125,
+                    465.3459777832031
+                ]
+            ],
+            [
+                [
+                    169.20120239257812,
+                    439.14398193359375
+                ],
+                [
+                    272.9532165527344,
+                    465.3459777832031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> make <break time='200ms'/> a <break time='200ms'/> calendar <break time='200ms'/> of <break time='200ms'/> birthdays. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 640,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 941,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "make"
+            },
+            {
+                "time": 1618,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 84,
+                "value": "a"
+            },
+            {
+                "time": 2611,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2911,
+                "type": "word",
+                "start": 107,
+                "end": 115,
+                "value": "calendar"
+            },
+            {
+                "time": 3815,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4115,
+                "type": "word",
+                "start": 138,
+                "end": 140,
+                "value": "of"
+            },
+            {
+                "time": 4695,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4989,
+                "type": "word",
+                "start": 163,
+                "end": 172,
+                "value": "birthdays"
+            },
+            {
+                "time": 5901,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Take some colour papers.",
+        "words": [
+            "Take",
+            "some",
+            "colour",
+            "papers."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    526.3885498046875
+                ],
+                [
+                    100.78919982910156,
+                    547.8265380859375
+                ]
+            ],
+            [
+                [
+                    105.28919982910156,
+                    526.3885498046875
+                ],
+                [
+                    152.26919555664062,
+                    547.8265380859375
+                ]
+            ],
+            [
+                [
+                    156.76919555664062,
+                    526.3885498046875
+                ],
+                [
+                    208.14120483398438,
+                    547.8265380859375
+                ]
+            ],
+            [
+                [
+                    212.46121215820312,
+                    526.3885498046875
+                ],
+                [
+                    275.2812194824219,
+                    547.8265380859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Take <break time='200ms'/> some <break time='200ms'/> colour <break time='200ms'/> papers. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Take"
+            },
+            {
+                "time": 366,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 666,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "some"
+            },
+            {
+                "time": 1393,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1693,
+                "type": "word",
+                "start": 82,
+                "end": 88,
+                "value": "colour"
+            },
+            {
+                "time": 2353,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2646,
+                "type": "word",
+                "start": 111,
+                "end": 117,
+                "value": "papers"
+            },
+            {
+                "time": 3368,
+                "type": "word",
+                "start": 119,
+                "end": 140,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Draw a balloon.",
+        "words": [
+            "Draw",
+            "a",
+            "balloon."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919952392578,
+                    563.396484375
+                ],
+                [
+                    106.60320281982422,
+                    584.83447265625
+                ]
+            ],
+            [
+                [
+                    110.92320251464844,
+                    563.396484375
+                ],
+                [
+                    121.86720275878906,
+                    584.83447265625
+                ]
+            ],
+            [
+                [
+                    126.36720275878906,
+                    563.396484375
+                ],
+                [
+                    194.335205078125,
+                    584.83447265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Draw <break time='200ms'/> a <break time='200ms'/> balloon. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Draw"
+            },
+            {
+                "time": 659,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 955,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "a"
+            },
+            {
+                "time": 1568,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1869,
+                "type": "word",
+                "start": 79,
+                "end": 86,
+                "value": "balloon"
+            },
+            {
+                "time": 2546,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "Cut it.",
+        "words": [
+            "Cut",
+            "it."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919189453125,
+                    600.404541015625
+                ],
+                [
+                    93.08519744873047,
+                    621.842529296875
+                ]
+            ],
+            [
+                [
+                    97.40519714355469,
+                    600.404541015625
+                ],
+                [
+                    114.28919982910156,
+                    621.842529296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Cut <break time='200ms'/> it. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Cut"
+            },
+            {
+                "time": 611,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "it"
+            },
+            {
+                "time": 1236,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "Write your name on it.",
+        "words": [
+            "Write",
+            "your",
+            "name",
+            "on",
+            "it."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.35919189453125,
+                    637.4124755859375
+                ],
+                [
+                    107.377197265625,
+                    658.8504638671875
+                ]
+            ],
+            [
+                [
+                    111.69719696044922,
+                    637.4124755859375
+                ],
+                [
+                    148.36318969726562,
+                    658.8504638671875
+                ]
+            ],
+            [
+                [
+                    152.68319702148438,
+                    637.4124755859375
+                ],
+                [
+                    203.62318420410156,
+                    658.8504638671875
+                ]
+            ],
+            [
+                [
+                    208.12318420410156,
+                    637.4124755859375
+                ],
+                [
+                    229.59718322753906,
+                    658.8504638671875
+                ]
+            ],
+            [
+                [
+                    234.09718322753906,
+                    637.4124755859375
+                ],
+                [
+                    250.98117065429688,
+                    658.8504638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Write <break time='200ms'/> your <break time='200ms'/> name <break time='200ms'/> on <break time='200ms'/> it. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Write"
+            },
+            {
+                "time": 660,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 962,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "your"
+            },
+            {
+                "time": 1586,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "name"
+            },
+            {
+                "time": 2582,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2882,
+                "type": "word",
+                "start": 110,
+                "end": 112,
+                "value": "on"
+            },
+            {
+                "time": 3531,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3826,
+                "type": "word",
+                "start": 135,
+                "end": 137,
+                "value": "it"
+            },
+            {
+                "time": 4149,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

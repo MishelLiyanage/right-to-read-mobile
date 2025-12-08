@@ -27,117 +27,38 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
     },
     "1": {
-        "text": "Listen and find answers.",
-        "words": [
-            "Listen",
-            "and",
-            "find",
-            "answers."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    128.64959716796875,
-                    65.44601440429688
-                ],
-                [
-                    189.39158630371094,
-                    91.64801025390625
-                ]
-            ],
-            [
-                [
-                    194.89158630371094,
-                    65.44601440429688
-                ],
-                [
-                    235.50360107421875,
-                    91.64801025390625
-                ]
-            ],
-            [
-                [
-                    241.00360107421875,
-                    65.44601440429688
-                ],
-                [
-                    281.8135986328125,
-                    91.64801025390625
-                ]
-            ],
-            [
-                [
-                    287.3135986328125,
-                    65.44601440429688
-                ],
-                [
-                    379.14166259765625,
-                    91.64801025390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and find answers.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 398,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "and"
-            },
-            {
-                "time": 559,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "find"
-            },
-            {
-                "time": 952,
-                "type": "word",
-                "start": 43,
-                "end": 50,
-                "value": "answers"
-            }
-        ]
-    },
-    "2": {
-        "text": "It is... There is...",
+        "text": "It is... There is... Listen and find answers.",
         "words": [
             "It",
             "is...",
             "There",
-            "is..."
+            "is...",
+            "Listen",
+            "and",
+            "find",
+            "answers."
         ],
         "bounding_boxes": [
             [
@@ -179,57 +100,112 @@
                     503.7347412109375,
                     86.86729431152344
                 ]
+            ],
+            [
+                [
+                    128.64959716796875,
+                    65.44601440429688
+                ],
+                [
+                    189.39158630371094,
+                    91.64801025390625
+                ]
+            ],
+            [
+                [
+                    194.89158630371094,
+                    65.44601440429688
+                ],
+                [
+                    235.50360107421875,
+                    91.64801025390625
+                ]
+            ],
+            [
+                [
+                    241.00360107421875,
+                    65.44601440429688
+                ],
+                [
+                    281.8135986328125,
+                    91.64801025390625
+                ]
+            ],
+            [
+                [
+                    287.3135986328125,
+                    65.44601440429688
+                ],
+                [
+                    379.14166259765625,
+                    91.64801025390625
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is<break time=\"1000ms\"/> There is<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is... There is... Listen and find answers.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 130,
+                "time": 135,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 684,
+                "time": 982,
                 "type": "word",
-                "start": 32,
-                "end": 54,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1784,
-                "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 37,
+                "end": 42,
                 "value": "There"
             },
             {
-                "time": 2033,
+                "time": 1241,
                 "type": "word",
-                "start": 61,
-                "end": 63,
+                "start": 43,
+                "end": 45,
                 "value": "is"
             },
             {
-                "time": 2533,
+                "time": 1999,
                 "type": "word",
-                "start": 63,
-                "end": 85,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 49,
+                "end": 55,
+                "value": "Listen"
+            },
+            {
+                "time": 2408,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "and"
+            },
+            {
+                "time": 2568,
+                "type": "word",
+                "start": 60,
+                "end": 64,
+                "value": "find"
+            },
+            {
+                "time": 2969,
+                "type": "word",
+                "start": 65,
+                "end": 72,
+                "value": "answers"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "There is a cleaning campaign in Waruni's school.",
         "words": [
             "There",
@@ -323,69 +299,70 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is a cleaning campaign in Waruni&apos;s school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There is a cleaning campaign in <phoneme alphabet='ipa' ph='varuni'>Waruni's</phoneme> school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 205,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 350,
+                "time": 357,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 403,
+                "time": 409,
                 "type": "word",
-                "start": 38,
-                "end": 46,
+                "start": 39,
+                "end": 47,
                 "value": "cleaning"
             },
             {
-                "time": 932,
+                "time": 961,
                 "type": "word",
-                "start": 47,
-                "end": 55,
+                "start": 48,
+                "end": 56,
                 "value": "campaign"
             },
             {
-                "time": 1520,
+                "time": 1582,
                 "type": "word",
-                "start": 56,
-                "end": 58,
+                "start": 57,
+                "end": 59,
                 "value": "in"
             },
             {
-                "time": 1619,
+                "time": 1748,
                 "type": "word",
-                "start": 59,
-                "end": 72,
-                "value": "Waruni&apos;s"
+                "start": 96,
+                "end": 104,
+                "value": "Waruni's"
             },
             {
-                "time": 2267,
+                "time": 2178,
                 "type": "word",
-                "start": 73,
-                "end": 79,
+                "start": 115,
+                "end": 121,
                 "value": "school"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Notice",
         "words": [
             "Notice"
@@ -402,20 +379,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Notice</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Notice</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Notice"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Cleaning Campaign Date : Sunday the 25th of May Time : From 8 a.m. to 11 a.m. Place: Bingiriya Maha Vidyalaya We invite all the students and parents. Please bring garden tools to clean the school.",
         "words": [
             "Cleaning",
@@ -817,272 +795,238 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Cleaning Campaign Date : Sunday the 25th of May Time : From 8 a.m.<break time=\"500ms\"/> to 11 a.m.<break time=\"500ms\"/> Place: Bingiriya Maha Vidyalaya We invite all the students and parents.<break time=\"500ms\"/> Please bring garden tools to clean the school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Cleaning Campaign Date : Sunday the 25th of May Time : From 8 a.m. to 11 a.m. Place: <phoneme alphabet='ipa' ph='bi\u014bgiriya maha wid\u032aj\u0101laya'>Bingiriya Maha Vidyalaya</phoneme> We invite all the students and parents. Please bring garden tools to clean the school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Cleaning"
             },
             {
-                "time": 427,
+                "time": 444,
                 "type": "word",
-                "start": 36,
-                "end": 44,
+                "start": 37,
+                "end": 45,
                 "value": "Campaign"
             },
             {
-                "time": 1024,
+                "time": 1072,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 46,
+                "end": 50,
                 "value": "Date"
             },
             {
-                "time": 1634,
+                "time": 1688,
                 "type": "word",
-                "start": 52,
-                "end": 58,
+                "start": 53,
+                "end": 59,
                 "value": "Sunday"
             },
             {
-                "time": 2098,
+                "time": 2171,
                 "type": "word",
-                "start": 59,
-                "end": 62,
+                "start": 60,
+                "end": 63,
                 "value": "the"
             },
             {
-                "time": 2191,
+                "time": 2264,
                 "type": "word",
-                "start": 63,
-                "end": 67,
+                "start": 64,
+                "end": 68,
                 "value": "25th"
             },
             {
-                "time": 2901,
+                "time": 3021,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 69,
+                "end": 71,
                 "value": "of"
             },
             {
-                "time": 3023,
+                "time": 3144,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 72,
+                "end": 75,
                 "value": "May"
             },
             {
-                "time": 3226,
+                "time": 3359,
                 "type": "word",
-                "start": 75,
-                "end": 79,
+                "start": 76,
+                "end": 80,
                 "value": "Time"
             },
             {
-                "time": 4030,
+                "time": 4184,
                 "type": "word",
-                "start": 82,
-                "end": 86,
+                "start": 83,
+                "end": 87,
                 "value": "From"
             },
             {
-                "time": 4312,
+                "time": 4448,
                 "type": "word",
-                "start": 87,
-                "end": 88,
+                "start": 88,
+                "end": 89,
                 "value": "8"
             },
             {
-                "time": 4545,
+                "time": 4732,
                 "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 90,
+                "end": 93,
                 "value": "a.m"
             },
             {
-                "time": 5228,
+                "time": 5049,
                 "type": "word",
-                "start": 93,
-                "end": 114,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5734,
-                "type": "word",
-                "start": 115,
-                "end": 117,
+                "start": 95,
+                "end": 97,
                 "value": "to"
             },
             {
-                "time": 5874,
+                "time": 5206,
                 "type": "word",
-                "start": 118,
-                "end": 120,
+                "start": 98,
+                "end": 100,
                 "value": "11"
             },
             {
-                "time": 6325,
+                "time": 5664,
                 "type": "word",
-                "start": 121,
-                "end": 124,
+                "start": 101,
+                "end": 104,
                 "value": "a.m"
             },
             {
-                "time": 6998,
+                "time": 6078,
                 "type": "word",
-                "start": 125,
-                "end": 146,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7504,
-                "type": "word",
-                "start": 147,
-                "end": 152,
+                "start": 106,
+                "end": 111,
                 "value": "Place"
             },
             {
-                "time": 8258,
+                "time": 6867,
                 "type": "word",
-                "start": 154,
-                "end": 163,
-                "value": "Bingiriya"
+                "start": 171,
+                "end": 195,
+                "value": "Bingiriya Maha Vidyalaya"
             },
             {
-                "time": 8818,
+                "time": 8813,
                 "type": "word",
-                "start": 164,
-                "end": 168,
-                "value": "Maha"
-            },
-            {
-                "time": 9238,
-                "type": "word",
-                "start": 169,
-                "end": 178,
-                "value": "Vidyalaya"
-            },
-            {
-                "time": 9812,
-                "type": "word",
-                "start": 179,
-                "end": 181,
+                "start": 206,
+                "end": 208,
                 "value": "We"
             },
             {
-                "time": 10002,
+                "time": 9096,
                 "type": "word",
-                "start": 182,
-                "end": 188,
+                "start": 209,
+                "end": 215,
                 "value": "invite"
             },
             {
-                "time": 10413,
+                "time": 9495,
                 "type": "word",
-                "start": 189,
-                "end": 192,
+                "start": 216,
+                "end": 219,
                 "value": "all"
             },
             {
-                "time": 10646,
+                "time": 9734,
                 "type": "word",
-                "start": 193,
-                "end": 196,
+                "start": 220,
+                "end": 223,
                 "value": "the"
             },
             {
-                "time": 10756,
+                "time": 9845,
                 "type": "word",
-                "start": 197,
-                "end": 205,
+                "start": 224,
+                "end": 232,
                 "value": "students"
             },
             {
-                "time": 11363,
+                "time": 10492,
                 "type": "word",
-                "start": 206,
-                "end": 209,
+                "start": 233,
+                "end": 236,
                 "value": "and"
             },
             {
-                "time": 11525,
+                "time": 10654,
                 "type": "word",
-                "start": 210,
-                "end": 217,
+                "start": 237,
+                "end": 244,
                 "value": "parents"
             },
             {
-                "time": 12247,
+                "time": 11787,
                 "type": "word",
-                "start": 218,
-                "end": 239,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 13133,
-                "type": "word",
-                "start": 240,
-                "end": 246,
+                "start": 246,
+                "end": 252,
                 "value": "Please"
             },
             {
-                "time": 13462,
+                "time": 12115,
                 "type": "word",
-                "start": 247,
-                "end": 252,
+                "start": 253,
+                "end": 258,
                 "value": "bring"
             },
             {
-                "time": 13773,
+                "time": 12426,
                 "type": "word",
-                "start": 253,
-                "end": 259,
+                "start": 259,
+                "end": 265,
                 "value": "garden"
             },
             {
-                "time": 14192,
+                "time": 12857,
                 "type": "word",
-                "start": 260,
-                "end": 265,
+                "start": 266,
+                "end": 271,
                 "value": "tools"
             },
             {
-                "time": 14698,
+                "time": 13382,
                 "type": "word",
-                "start": 266,
-                "end": 268,
+                "start": 272,
+                "end": 274,
                 "value": "to"
             },
             {
-                "time": 14819,
+                "time": 13503,
                 "type": "word",
-                "start": 269,
-                "end": 274,
+                "start": 275,
+                "end": 280,
                 "value": "clean"
             },
             {
-                "time": 15215,
+                "time": 13906,
                 "type": "word",
-                "start": 275,
-                "end": 278,
+                "start": 281,
+                "end": 284,
                 "value": "the"
             },
             {
-                "time": 15295,
+                "time": 13986,
                 "type": "word",
-                "start": 279,
-                "end": 285,
+                "start": 285,
+                "end": 291,
                 "value": "school"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "12.05.2019 Eco Friends' Club",
         "words": [
             "12.05.2019",
@@ -1132,42 +1076,43 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">12.05.2019 Eco Friends&apos; Club</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>12.05.2019 Eco Friends' Club</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
+                "start": 28,
+                "end": 38,
                 "value": "12.05.2019"
             },
             {
-                "time": 1881,
+                "time": 1943,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "Eco"
             },
             {
-                "time": 2238,
+                "time": 2312,
                 "type": "word",
-                "start": 42,
-                "end": 55,
-                "value": "Friends&apos;"
+                "start": 43,
+                "end": 51,
+                "value": "Friends'"
             },
             {
-                "time": 2701,
+                "time": 2796,
                 "type": "word",
-                "start": 56,
-                "end": 60,
+                "start": 52,
+                "end": 56,
                 "value": "Club"
             }
         ]
     },
-    "7": {
-        "text": "1) The notice is about a \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..",
+    "6": {
+        "text": "1) The notice is about a \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..",
         "words": [
             "1)",
             "The",
@@ -1175,7 +1120,7 @@
             "is",
             "about",
             "a",
-            "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.."
+            "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.."
         ],
         "bounding_boxes": [
             [
@@ -1249,61 +1194,62 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1) The notice is about a \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1) The notice is about a \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 720,
+                "time": 744,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "The"
             },
             {
-                "time": 822,
+                "time": 846,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "notice"
             },
             {
-                "time": 1254,
+                "time": 1315,
                 "type": "word",
-                "start": 41,
-                "end": 43,
+                "start": 42,
+                "end": 44,
                 "value": "is"
             },
             {
-                "time": 1409,
+                "time": 1470,
                 "type": "word",
-                "start": 44,
-                "end": 49,
+                "start": 45,
+                "end": 50,
                 "value": "about"
             },
             {
-                "time": 1722,
+                "time": 1790,
                 "type": "word",
-                "start": 50,
-                "end": 51,
+                "start": 51,
+                "end": 52,
                 "value": "a"
             }
         ]
     },
-    "8": {
-        "text": "2)The date is \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.",
+    "7": {
+        "text": "2)The date is \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.",
         "words": [
             "2)The",
             "date",
             "is",
-            "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026."
+            "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -1347,41 +1293,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2)The date is \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2)The date is \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
                 "time": 161,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "The"
             },
             {
-                "time": 273,
+                "time": 279,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "date"
             },
             {
-                "time": 578,
+                "time": 584,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "is"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "3) The time is from\u2026\u2026\u2026\u2026\u2026\u2026\u2026 to\u2026\u2026\u2026\u2026.....",
         "words": [
             "3)",
@@ -1453,62 +1400,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3) The time is from\u2026\u2026\u2026\u2026\u2026\u2026\u2026 to\u2026\u2026\u2026\u2026<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3) The time is from\u2026\u2026\u2026\u2026\u2026\u2026\u2026 to\u2026\u2026\u2026\u2026.....</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             },
             {
-                "time": 740,
+                "time": 753,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "The"
             },
             {
-                "time": 851,
+                "time": 864,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "time"
             },
             {
-                "time": 1249,
+                "time": 1263,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "is"
             },
             {
-                "time": 1423,
+                "time": 1450,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "from"
             },
             {
-                "time": 2279,
+                "time": 2321,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 69,
+                "end": 71,
                 "value": "to"
-            },
-            {
-                "time": 2722,
-                "type": "word",
-                "start": 82,
-                "end": 104,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
-    "10": {
+    "9": {
         "text": "4) It is at ...............................",
         "words": [
             "4)",
@@ -1569,48 +1510,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4) It is at <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>4) It is at ...............................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "4"
             },
             {
-                "time": 783,
+                "time": 820,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "It"
             },
             {
-                "time": 926,
+                "time": 976,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 1097,
+                "time": 1154,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "at"
-            },
-            {
-                "time": 1700,
-                "type": "word",
-                "start": 39,
-                "end": 61,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
-    "11": {
+    "10": {
         "text": "5) ................................ organizes it.",
         "words": [
             "5)",
@@ -1660,36 +1595,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">5) <break time=\"1000ms\"/> organizes it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>5) ................................ organizes it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "5"
             },
             {
-                "time": 668,
+                "time": 774,
                 "type": "word",
-                "start": 30,
-                "end": 52,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1768,
-                "type": "word",
-                "start": 53,
-                "end": 62,
+                "start": 64,
+                "end": 73,
                 "value": "organizes"
             },
             {
-                "time": 2560,
+                "time": 1579,
                 "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 74,
+                "end": 76,
                 "value": "it"
             }
         ]

@@ -1,0 +1,831 @@
+{
+    "0": {
+        "text": "Read.",
+        "words": [
+            "Read."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    52.514007568359375
+                ],
+                [
+                    116.29670715332031,
+                    76.3340072631836
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 683,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "It's time to play.",
+        "words": [
+            "It's",
+            "time",
+            "to",
+            "play."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    133.27902221679688
+                ],
+                [
+                    89.69419860839844,
+                    157.09902954101562
+                ]
+            ],
+            [
+                [
+                    94.49420166015625,
+                    133.27902221679688
+                ],
+                [
+                    138.81419372558594,
+                    157.09902954101562
+                ]
+            ],
+            [
+                [
+                    143.61419677734375,
+                    133.27902221679688
+                ],
+                [
+                    162.1741943359375,
+                    157.09902954101562
+                ]
+            ],
+            [
+                [
+                    166.9741973876953,
+                    133.27902221679688
+                ],
+                [
+                    211.15419006347656,
+                    157.09902954101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It's <break time='200ms'/> time <break time='200ms'/> to <break time='200ms'/> play. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "It's"
+            },
+            {
+                "time": 510,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 804,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "time"
+            },
+            {
+                "time": 1370,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1602,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "to"
+            },
+            {
+                "time": 2040,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2296,
+                "type": "word",
+                "start": 107,
+                "end": 111,
+                "value": "play"
+            },
+            {
+                "time": 2966,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Let's play football.",
+        "words": [
+            "Let's",
+            "play",
+            "football."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    181.27902221679688
+                ],
+                [
+                    103.23419952392578,
+                    205.09902954101562
+                ]
+            ],
+            [
+                [
+                    113.23419952392578,
+                    181.27902221679688
+                ],
+                [
+                    152.53421020507812,
+                    205.09902954101562
+                ]
+            ],
+            [
+                [
+                    162.33421325683594,
+                    181.27902221679688
+                ],
+                [
+                    240.21420288085938,
+                    205.09902954101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> play <break time='200ms'/> football. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "play"
+            },
+            {
+                "time": 1463,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1713,
+                "type": "word",
+                "start": 83,
+                "end": 91,
+                "value": "football"
+            },
+            {
+                "time": 2487,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Navaz, kick the ball.",
+        "words": [
+            "Navaz,",
+            "kick",
+            "the",
+            "ball."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    229.27902221679688
+                ],
+                [
+                    126.89421081542969,
+                    253.09902954101562
+                ]
+            ],
+            [
+                [
+                    130.8942108154297,
+                    229.27902221679688
+                ],
+                [
+                    167.73422241210938,
+                    253.09902954101562
+                ]
+            ],
+            [
+                [
+                    172.334228515625,
+                    229.27902221679688
+                ],
+                [
+                    203.87423706054688,
+                    253.09902954101562
+                ]
+            ],
+            [
+                [
+                    208.87423706054688,
+                    229.27902221679688
+                ],
+                [
+                    249.27423095703125,
+                    253.09902954101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>, <break time='200ms'/> kick <break time='200ms'/> the <break time='200ms'/> ball. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 65,
+                "end": 70,
+                "value": "Navaz"
+            },
+            {
+                "time": 969,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1263,
+                "type": "word",
+                "start": 104,
+                "end": 108,
+                "value": "kick"
+            },
+            {
+                "time": 1707,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1970,
+                "type": "word",
+                "start": 131,
+                "end": 134,
+                "value": "the"
+            },
+            {
+                "time": 2382,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2688,
+                "type": "word",
+                "start": 157,
+                "end": 161,
+                "value": "ball"
+            },
+            {
+                "time": 3261,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Manu, stop the ball.",
+        "words": [
+            "Manu,",
+            "stop",
+            "the",
+            "ball."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    277.2790222167969
+                ],
+                [
+                    122.25420379638672,
+                    301.0990295410156
+                ]
+            ],
+            [
+                [
+                    131.25421142578125,
+                    277.2790222167969
+                ],
+                [
+                    170.97421264648438,
+                    301.0990295410156
+                ]
+            ],
+            [
+                [
+                    175.7742156982422,
+                    277.2790222167969
+                ],
+                [
+                    207.31422424316406,
+                    301.0990295410156
+                ]
+            ],
+            [
+                [
+                    212.31422424316406,
+                    277.2790222167969
+                ],
+                [
+                    252.71421813964844,
+                    301.0990295410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme>, <break time='200ms'/> stop <break time='200ms'/> the <break time='200ms'/> ball. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 62,
+                "end": 66,
+                "value": "Manu"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 78,
+                "end": 99,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1044,
+                "type": "word",
+                "start": 100,
+                "end": 104,
+                "value": "stop"
+            },
+            {
+                "time": 1719,
+                "type": "word",
+                "start": 105,
+                "end": 126,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1981,
+                "type": "word",
+                "start": 127,
+                "end": 130,
+                "value": "the"
+            },
+            {
+                "time": 2242,
+                "type": "word",
+                "start": 131,
+                "end": 152,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2473,
+                "type": "word",
+                "start": 153,
+                "end": 157,
+                "value": "ball"
+            },
+            {
+                "time": 3199,
+                "type": "word",
+                "start": 159,
+                "end": 180,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Don't use your hands.",
+        "words": [
+            "Don't",
+            "use",
+            "your",
+            "hands."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    325.2790222167969
+                ],
+                [
+                    113.05419921875,
+                    349.0990295410156
+                ]
+            ],
+            [
+                [
+                    117.85420227050781,
+                    325.2790222167969
+                ],
+                [
+                    150.8942108154297,
+                    349.0990295410156
+                ]
+            ],
+            [
+                [
+                    155.6942138671875,
+                    325.2790222167969
+                ],
+                [
+                    196.4342041015625,
+                    349.0990295410156
+                ]
+            ],
+            [
+                [
+                    201.2342071533203,
+                    325.2790222167969
+                ],
+                [
+                    266.13421630859375,
+                    349.0990295410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Don't <break time='200ms'/> use <break time='200ms'/> your <break time='200ms'/> hands. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Don't"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "use"
+            },
+            {
+                "time": 1676,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1907,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "your"
+            },
+            {
+                "time": 2396,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2702,
+                "type": "word",
+                "start": 109,
+                "end": 114,
+                "value": "hands"
+            },
+            {
+                "time": 3357,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Kick it to the goal.",
+        "words": [
+            "Kick",
+            "it",
+            "to",
+            "the",
+            "goal."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    373.2790222167969
+                ],
+                [
+                    101.05420684814453,
+                    397.0990295410156
+                ]
+            ],
+            [
+                [
+                    105.65421295166016,
+                    373.2790222167969
+                ],
+                [
+                    118.3342056274414,
+                    397.0990295410156
+                ]
+            ],
+            [
+                [
+                    122.93421173095703,
+                    373.2790222167969
+                ],
+                [
+                    141.49420166015625,
+                    397.0990295410156
+                ]
+            ],
+            [
+                [
+                    146.29420471191406,
+                    373.2790222167969
+                ],
+                [
+                    177.83421325683594,
+                    397.0990295410156
+                ]
+            ],
+            [
+                [
+                    182.63421630859375,
+                    373.2790222167969
+                ],
+                [
+                    229.59420776367188,
+                    397.0990295410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Kick <break time='200ms'/> it <break time='200ms'/> to <break time='200ms'/> the <break time='200ms'/> goal. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Kick"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "it"
+            },
+            {
+                "time": 1254,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1554,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "to"
+            },
+            {
+                "time": 2106,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2369,
+                "type": "word",
+                "start": 105,
+                "end": 108,
+                "value": "the"
+            },
+            {
+                "time": 2795,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3038,
+                "type": "word",
+                "start": 131,
+                "end": 135,
+                "value": "goal"
+            },
+            {
+                "time": 3642,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Wow! It's a goal!",
+        "words": [
+            "Wow!",
+            "It's",
+            "a",
+            "goal!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.31420135498047,
+                    421.2790222167969
+                ],
+                [
+                    115.35420227050781,
+                    445.0990295410156
+                ]
+            ],
+            [
+                [
+                    120.35420227050781,
+                    421.2790222167969
+                ],
+                [
+                    147.73419189453125,
+                    445.0990295410156
+                ]
+            ],
+            [
+                [
+                    152.73419189453125,
+                    421.2790222167969
+                ],
+                [
+                    164.89419555664062,
+                    445.0990295410156
+                ]
+            ],
+            [
+                [
+                    169.89419555664062,
+                    421.2790222167969
+                ],
+                [
+                    216.65419006347656,
+                    445.0990295410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Wow! <break time='200ms'/> It's <break time='200ms'/> a <break time='200ms'/> goal! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Wow"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1488,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "It's"
+            },
+            {
+                "time": 1897,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2184,
+                "type": "word",
+                "start": 82,
+                "end": 83,
+                "value": "a"
+            },
+            {
+                "time": 2544,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2844,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "goal"
+            },
+            {
+                "time": 3450,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

@@ -93,64 +93,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What are the types of food you eat?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What are the types of food you eat?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "What"
             },
             {
                 "time": 167,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "are"
             },
             {
                 "time": 274,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             },
             {
-                "time": 405,
+                "time": 415,
                 "type": "word",
-                "start": 40,
-                "end": 45,
+                "start": 41,
+                "end": 46,
                 "value": "types"
             },
             {
-                "time": 824,
+                "time": 855,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "of"
             },
             {
-                "time": 943,
+                "time": 974,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 50,
+                "end": 54,
                 "value": "food"
             },
             {
-                "time": 1259,
+                "time": 1303,
                 "type": "word",
-                "start": 54,
-                "end": 57,
+                "start": 55,
+                "end": 58,
                 "value": "you"
             },
             {
-                "time": 1432,
+                "time": 1490,
                 "type": "word",
-                "start": 58,
-                "end": 61,
+                "start": 59,
+                "end": 62,
                 "value": "eat"
             }
         ]
@@ -238,58 +239,45 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I eat <break time=\"1000ms\"/> I don&apos;t eat <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I eat ...................... I don't eat ..................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 190,
+                "time": 203,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "eat"
             },
             {
-                "time": 737,
+                "time": 866,
                 "type": "word",
-                "start": 33,
-                "end": 55,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1837,
-                "type": "word",
-                "start": 56,
-                "end": 57,
+                "start": 57,
+                "end": 58,
                 "value": "I"
             },
             {
-                "time": 1961,
+                "time": 991,
                 "type": "word",
-                "start": 58,
+                "start": 59,
+                "end": 64,
+                "value": "don't"
+            },
+            {
+                "time": 1313,
+                "type": "word",
+                "start": 65,
                 "end": 68,
-                "value": "don&apos;t"
-            },
-            {
-                "time": 2262,
-                "type": "word",
-                "start": 69,
-                "end": 72,
                 "value": "eat"
-            },
-            {
-                "time": 2837,
-                "type": "word",
-                "start": 73,
-                "end": 95,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     }

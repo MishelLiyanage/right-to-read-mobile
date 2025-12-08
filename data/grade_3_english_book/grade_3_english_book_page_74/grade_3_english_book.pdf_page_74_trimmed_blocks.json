@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             }
         ]
@@ -288,205 +289,185 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is a farm.<break time=\"500ms\"/> There are vegetables and fruits in it.<break time=\"500ms\"/> They need a king.<break time=\"500ms\"/> Mango holds a meeting to select a king.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There is a farm. There are vegetables and fruits in it. They need a king. Mango holds a meeting to select a king.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
-                "time": 194,
+                "time": 416,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 344,
+                "time": 569,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 392,
+                "time": 646,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "farm"
             },
             {
-                "time": 985,
+                "time": 1887,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1872,
-                "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 45,
+                "end": 50,
                 "value": "There"
             },
             {
-                "time": 2054,
+                "time": 2117,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "are"
             },
             {
-                "time": 2161,
+                "time": 2209,
                 "type": "word",
-                "start": 75,
-                "end": 85,
+                "start": 55,
+                "end": 65,
                 "value": "vegetables"
             },
             {
-                "time": 2840,
+                "time": 2988,
                 "type": "word",
-                "start": 86,
-                "end": 89,
+                "start": 66,
+                "end": 69,
                 "value": "and"
             },
             {
-                "time": 3012,
+                "time": 3187,
                 "type": "word",
-                "start": 90,
-                "end": 96,
+                "start": 70,
+                "end": 76,
                 "value": "fruits"
             },
             {
-                "time": 3386,
+                "time": 3646,
                 "type": "word",
-                "start": 97,
-                "end": 99,
+                "start": 77,
+                "end": 79,
                 "value": "in"
             },
             {
-                "time": 3530,
+                "time": 3814,
                 "type": "word",
-                "start": 100,
-                "end": 102,
+                "start": 80,
+                "end": 82,
                 "value": "it"
             },
             {
-                "time": 3817,
+                "time": 4715,
                 "type": "word",
-                "start": 103,
-                "end": 124,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4703,
-                "type": "word",
-                "start": 125,
-                "end": 129,
+                "start": 84,
+                "end": 88,
                 "value": "They"
             },
             {
-                "time": 4861,
+                "time": 4868,
                 "type": "word",
-                "start": 130,
-                "end": 134,
+                "start": 89,
+                "end": 93,
                 "value": "need"
             },
             {
-                "time": 5111,
+                "time": 5113,
                 "type": "word",
-                "start": 135,
-                "end": 136,
+                "start": 94,
+                "end": 95,
                 "value": "a"
             },
             {
-                "time": 5165,
+                "time": 5174,
                 "type": "word",
-                "start": 137,
-                "end": 141,
+                "start": 96,
+                "end": 100,
                 "value": "king"
             },
             {
-                "time": 5723,
+                "time": 6391,
                 "type": "word",
-                "start": 142,
-                "end": 163,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6610,
-                "type": "word",
-                "start": 164,
-                "end": 169,
+                "start": 102,
+                "end": 107,
                 "value": "Mango"
             },
             {
-                "time": 7134,
+                "time": 6773,
                 "type": "word",
-                "start": 170,
-                "end": 175,
+                "start": 108,
+                "end": 113,
                 "value": "holds"
             },
             {
-                "time": 7603,
+                "time": 7232,
                 "type": "word",
-                "start": 176,
-                "end": 177,
+                "start": 114,
+                "end": 115,
                 "value": "a"
             },
             {
-                "time": 7661,
+                "time": 7308,
                 "type": "word",
-                "start": 178,
-                "end": 185,
+                "start": 116,
+                "end": 123,
                 "value": "meeting"
             },
             {
-                "time": 8092,
+                "time": 7691,
                 "type": "word",
-                "start": 186,
-                "end": 188,
+                "start": 124,
+                "end": 126,
                 "value": "to"
             },
             {
-                "time": 8210,
+                "time": 7920,
                 "type": "word",
-                "start": 189,
-                "end": 195,
+                "start": 127,
+                "end": 133,
                 "value": "select"
             },
             {
-                "time": 8701,
+                "time": 8379,
                 "type": "word",
-                "start": 196,
-                "end": 197,
+                "start": 134,
+                "end": 135,
                 "value": "a"
             },
             {
-                "time": 8757,
+                "time": 8455,
                 "type": "word",
-                "start": 198,
-                "end": 202,
+                "start": 136,
+                "end": 140,
                 "value": "king"
             }
         ]
     },
     "2": {
-        "text": "Good morning vegetables! Tell us your good qualities.",
+        "text": "\"Good morning vegetables! Tell us your good qualities.\"",
         "words": [
-            "Good",
+            "\"Good",
             "morning",
             "vegetables!",
             "Tell",
             "us",
             "your",
             "good",
-            "qualities."
+            "qualities.\""
         ],
         "bounding_boxes": [
             [
@@ -570,73 +551,76 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Good morning vegetables! Tell us your good qualities.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Good morning vegetables! Tell us your good qualities.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Good"
             },
             {
-                "time": 328,
+                "time": 580,
                 "type": "word",
-                "start": 32,
-                "end": 39,
+                "start": 33,
+                "end": 40,
                 "value": "morning"
             },
             {
-                "time": 763,
+                "time": 1116,
                 "type": "word",
-                "start": 40,
-                "end": 50,
+                "start": 41,
+                "end": 51,
                 "value": "vegetables"
             },
             {
-                "time": 2083,
+                "time": 2560,
                 "type": "word",
-                "start": 52,
-                "end": 56,
+                "start": 53,
+                "end": 57,
                 "value": "Tell"
             },
             {
-                "time": 2293,
+                "time": 2866,
                 "type": "word",
-                "start": 57,
-                "end": 59,
+                "start": 58,
+                "end": 60,
                 "value": "us"
             },
             {
-                "time": 2502,
+                "time": 3096,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 61,
+                "end": 65,
                 "value": "your"
             },
             {
-                "time": 2653,
+                "time": 3249,
                 "type": "word",
-                "start": 65,
-                "end": 69,
+                "start": 66,
+                "end": 70,
                 "value": "good"
             },
             {
-                "time": 2973,
+                "time": 3600,
                 "type": "word",
-                "start": 70,
-                "end": 79,
+                "start": 71,
+                "end": 80,
                 "value": "qualities"
             }
         ]
     },
     "3": {
-        "text": "My colour is orange. I'm sweet. Kids love me.",
+        "text": "Carrot speaks first. \"My colour is orange. I'm sweet. Kids love me.\"",
         "words": [
-            "My",
+            "Carrot",
+            "speaks",
+            "first.",
+            "\"My",
             "colour",
             "is",
             "orange.",
@@ -644,9 +628,39 @@
             "sweet.",
             "Kids",
             "love",
-            "me."
+            "me.\""
         ],
         "bounding_boxes": [
+            [
+                [
+                    171.02159118652344,
+                    248.4569091796875
+                ],
+                [
+                    223.09559631347656,
+                    269.8949279785156
+                ]
+            ],
+            [
+                [
+                    227.4156036376953,
+                    248.4569091796875
+                ],
+                [
+                    285.3396301269531,
+                    269.8949279785156
+                ]
+            ],
+            [
+                [
+                    289.8396301269531,
+                    248.4569091796875
+                ],
+                [
+                    327.4776611328125,
+                    269.8949279785156
+                ]
+            ],
             [
                 [
                     331.0776672363281,
@@ -738,97 +752,148 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My colour is orange.<break time=\"500ms\"/> I&apos;m sweet.<break time=\"500ms\"/> Kids love me.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Carrot speaks first. My colour is orange. I'm sweet. Kids love me.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 34,
+                "value": "Carrot"
+            },
+            {
+                "time": 522,
+                "type": "word",
+                "start": 35,
+                "end": 41,
+                "value": "speaks"
+            },
+            {
+                "time": 1118,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "first"
+            },
+            {
+                "time": 2355,
+                "type": "word",
+                "start": 49,
+                "end": 51,
                 "value": "My"
             },
             {
-                "time": 176,
+                "time": 2508,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 52,
+                "end": 58,
                 "value": "colour"
             },
             {
-                "time": 622,
+                "time": 2982,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 59,
+                "end": 61,
                 "value": "is"
             },
             {
-                "time": 774,
+                "time": 3119,
                 "type": "word",
-                "start": 40,
-                "end": 46,
+                "start": 62,
+                "end": 68,
                 "value": "orange"
             },
             {
-                "time": 1310,
+                "time": 4432,
                 "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"500ms\"/>"
+                "start": 70,
+                "end": 73,
+                "value": "I'm"
             },
             {
-                "time": 2197,
+                "time": 4646,
                 "type": "word",
-                "start": 69,
-                "end": 77,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2359,
-                "type": "word",
-                "start": 78,
-                "end": 83,
+                "start": 74,
+                "end": 79,
                 "value": "sweet"
             },
             {
-                "time": 2870,
+                "time": 5745,
                 "type": "word",
-                "start": 84,
-                "end": 105,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3757,
-                "type": "word",
-                "start": 106,
-                "end": 110,
+                "start": 81,
+                "end": 85,
                 "value": "Kids"
             },
             {
-                "time": 4122,
+                "time": 6142,
                 "type": "word",
-                "start": 111,
-                "end": 115,
+                "start": 86,
+                "end": 90,
                 "value": "love"
             },
             {
-                "time": 4418,
+                "time": 6433,
                 "type": "word",
-                "start": 116,
-                "end": 118,
+                "start": 91,
+                "end": 93,
                 "value": "me"
             }
         ]
     },
     "4": {
-        "text": "I'm delicious.",
+        "text": "Next is the Pineapple. \"I'm delicious.\"",
         "words": [
-            "I'm",
-            "delicious."
+            "Next",
+            "is",
+            "the",
+            "Pineapple.",
+            "\"I'm",
+            "delicious.\""
         ],
         "bounding_boxes": [
+            [
+                [
+                    163.02960205078125,
+                    334.85693359375
+                ],
+                [
+                    203.15159606933594,
+                    356.2949523925781
+                ]
+            ],
+            [
+                [
+                    207.4716033935547,
+                    334.85693359375
+                ],
+                [
+                    220.05360412597656,
+                    356.2949523925781
+                ]
+            ],
+            [
+                [
+                    224.3736114501953,
+                    334.85693359375
+                ],
+                [
+                    252.7595977783203,
+                    356.2949523925781
+                ]
+            ],
+            [
+                [
+                    257.25958251953125,
+                    334.85693359375
+                ],
+                [
+                    347.0975646972656,
+                    356.2949523925781
+                ]
+            ],
             [
                 [
                     185.5295867919922,
@@ -850,35 +915,85 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m delicious.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Next is the Pineapple. I'm delicious.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 32,
+                "value": "Next"
             },
             {
-                "time": 231,
+                "time": 657,
+                "type": "word",
+                "start": 33,
+                "end": 35,
+                "value": "is"
+            },
+            {
+                "time": 886,
                 "type": "word",
                 "start": 36,
-                "end": 45,
+                "end": 39,
+                "value": "the"
+            },
+            {
+                "time": 993,
+                "type": "word",
+                "start": 40,
+                "end": 49,
+                "value": "Pineapple"
+            },
+            {
+                "time": 2352,
+                "type": "word",
+                "start": 51,
+                "end": 54,
+                "value": "I'm"
+            },
+            {
+                "time": 2581,
+                "type": "word",
+                "start": 55,
+                "end": 64,
                 "value": "delicious"
             }
         ]
     },
     "5": {
-        "text": "I have vitamins.",
+        "text": "Spinach says, \"I have vitamins.\"",
         "words": [
-            "I",
+            "Spinach",
+            "says,",
+            "\"I",
             "have",
-            "vitamins."
+            "vitamins.\""
         ],
         "bounding_boxes": [
+            [
+                [
+                    72.66959381103516,
+                    421.2569274902344
+                ],
+                [
+                    140.5655975341797,
+                    442.6949462890625
+                ]
+            ],
+            [
+                [
+                    145.0655975341797,
+                    421.2569274902344
+                ],
+                [
+                    186.30360412597656,
+                    442.6949462890625
+                ]
+            ],
             [
                 [
                     73.02959442138672,
@@ -910,38 +1025,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have vitamins.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Spinach says, I have vitamins.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 35,
+                "value": "Spinach"
+            },
+            {
+                "time": 657,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "says"
+            },
+            {
+                "time": 1392,
+                "type": "word",
+                "start": 42,
+                "end": 43,
                 "value": "I"
             },
             {
-                "time": 107,
+                "time": 1606,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 44,
+                "end": 48,
                 "value": "have"
             },
             {
-                "time": 299,
+                "time": 1836,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 49,
+                "end": 57,
                 "value": "vitamins"
             }
         ]
     },
     "6": {
-        "text": "I'm beautiful. I'm like a flower. Everyone loves me.",
+        "text": "Then, the Cauliflower says, \"I'm beautiful. I'm like a flower. Everyone loves me.\"",
         "words": [
-            "I'm",
+            "Then,",
+            "the",
+            "Cauliflower",
+            "says,",
+            "\"I'm",
             "beautiful.",
             "I'm",
             "like",
@@ -949,9 +1082,49 @@
             "flower.",
             "Everyone",
             "loves",
-            "me."
+            "me.\""
         ],
         "bounding_boxes": [
+            [
+                [
+                    211.43161010742188,
+                    594.0570068359375
+                ],
+                [
+                    258.51959228515625,
+                    615.4949951171875
+                ]
+            ],
+            [
+                [
+                    261.9396057128906,
+                    594.0570068359375
+                ],
+                [
+                    290.3255920410156,
+                    615.4949951171875
+                ]
+            ],
+            [
+                [
+                    294.8255920410156,
+                    594.0570068359375
+                ],
+                [
+                    390.8916015625,
+                    615.4949951171875
+                ]
+            ],
+            [
+                [
+                    395.21160888671875,
+                    594.0570068359375
+                ],
+                [
+                    436.44964599609375,
+                    615.4949951171875
+                ]
+            ],
             [
                 [
                     211.43161010742188,
@@ -1043,86 +1216,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m beautiful.<break time=\"500ms\"/> I&apos;m like a flower.<break time=\"500ms\"/> Everyone loves me.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Then, the Cauliflower says, I'm beautiful. I'm like a flower. Everyone loves me.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 100,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 32,
+                "value": "Then"
             },
             {
-                "time": 199,
+                "time": 651,
                 "type": "word",
-                "start": 36,
-                "end": 45,
+                "start": 34,
+                "end": 37,
+                "value": "the"
+            },
+            {
+                "time": 1110,
+                "type": "word",
+                "start": 38,
+                "end": 49,
+                "value": "Cauliflower"
+            },
+            {
+                "time": 1951,
+                "type": "word",
+                "start": 50,
+                "end": 54,
+                "value": "says"
+            },
+            {
+                "time": 2575,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "I'm"
+            },
+            {
+                "time": 3034,
+                "type": "word",
+                "start": 60,
+                "end": 69,
                 "value": "beautiful"
             },
             {
-                "time": 828,
+                "time": 4326,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
+                "start": 71,
+                "end": 74,
+                "value": "I'm"
             },
             {
-                "time": 1715,
+                "time": 4555,
                 "type": "word",
-                "start": 68,
-                "end": 76,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1878,
-                "type": "word",
-                "start": 77,
-                "end": 81,
+                "start": 75,
+                "end": 79,
                 "value": "like"
             },
             {
-                "time": 2115,
+                "time": 4785,
                 "type": "word",
-                "start": 82,
-                "end": 83,
+                "start": 80,
+                "end": 81,
                 "value": "a"
             },
             {
-                "time": 2141,
+                "time": 4938,
                 "type": "word",
-                "start": 84,
-                "end": 90,
+                "start": 82,
+                "end": 88,
                 "value": "flower"
             },
             {
-                "time": 2768,
+                "time": 6067,
                 "type": "word",
-                "start": 91,
-                "end": 112,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3654,
-                "type": "word",
-                "start": 113,
-                "end": 121,
+                "start": 90,
+                "end": 98,
                 "value": "Everyone"
             },
             {
-                "time": 4163,
+                "time": 6678,
                 "type": "word",
-                "start": 122,
-                "end": 127,
+                "start": 99,
+                "end": 104,
                 "value": "loves"
             },
             {
-                "time": 4488,
+                "time": 7061,
                 "type": "word",
-                "start": 128,
-                "end": 130,
+                "start": 105,
+                "end": 107,
                 "value": "me"
             }
         ]

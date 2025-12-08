@@ -1,0 +1,456 @@
+{
+    "0": {
+        "text": "4 Joy of work",
+        "words": [
+            "4",
+            "Joy",
+            "of",
+            "work"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    148.32020568847656,
+                    152.7205047607422
+                ],
+                [
+                    175.68020629882812,
+                    209.8885040283203
+                ]
+            ],
+            [
+                [
+                    229.1405029296875,
+                    160.497802734375
+                ],
+                [
+                    284.07647705078125,
+                    203.37380981445312
+                ]
+            ],
+            [
+                [
+                    292.35650634765625,
+                    160.497802734375
+                ],
+                [
+                    326.9525146484375,
+                    203.37380981445312
+                ]
+            ],
+            [
+                [
+                    335.23248291015625,
+                    160.497802734375
+                ],
+                [
+                    416.3404541015625,
+                    203.37380981445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>4 <break time='200ms'/> Joy <break time='200ms'/> of <break time='200ms'/> work <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "4"
+            },
+            {
+                "time": 761,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1062,
+                "type": "word",
+                "start": 52,
+                "end": 55,
+                "value": "Joy"
+            },
+            {
+                "time": 1830,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2131,
+                "type": "word",
+                "start": 78,
+                "end": 80,
+                "value": "of"
+            },
+            {
+                "time": 2711,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3011,
+                "type": "word",
+                "start": 103,
+                "end": 107,
+                "value": "work"
+            },
+            {
+                "time": 3730,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Lesson1",
+        "words": [
+            "Lesson1"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.757598876953125,
+                    257.96759033203125
+                ],
+                [
+                    141.51760864257812,
+                    284.1695861816406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson1 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Lesson1"
+            },
+            {
+                "time": 1139,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Listen, point and say.",
+        "words": [
+            "Listen,",
+            "point",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    131.87759399414062,
+                    312.0361022949219
+                ],
+                [
+                    198.53758239746094,
+                    338.23809814453125
+                ]
+            ],
+            [
+                [
+                    202.9375762939453,
+                    312.0361022949219
+                ],
+                [
+                    256.1775817871094,
+                    338.23809814453125
+                ]
+            ],
+            [
+                [
+                    261.45758056640625,
+                    312.0361022949219
+                ],
+                [
+                    302.0696105957031,
+                    338.23809814453125
+                ]
+            ],
+            [
+                [
+                    307.5696105957031,
+                    312.0361022949219
+                ],
+                [
+                    347.1916198730469,
+                    338.23809814453125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen, <break time='200ms'/> point <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 717,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1011,
+                "type": "word",
+                "start": 58,
+                "end": 63,
+                "value": "point"
+            },
+            {
+                "time": 1656,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1956,
+                "type": "word",
+                "start": 86,
+                "end": 89,
+                "value": "and"
+            },
+            {
+                "time": 2560,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2860,
+                "type": "word",
+                "start": 112,
+                "end": 115,
+                "value": "say"
+            },
+            {
+                "time": 3360,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "farmer",
+        "words": [
+            "farmer"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.04820251464844,
+                    511.8849182128906
+                ],
+                [
+                    160.39419555664062,
+                    538.0869140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>farmer <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "farmer"
+            },
+            {
+                "time": 788,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "teacher",
+        "words": [
+            "teacher"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    275.63018798828125,
+                    511.8849182128906
+                ],
+                [
+                    354.6101989746094,
+                    538.0869140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>teacher <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "teacher"
+            },
+            {
+                "time": 812,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "doctor",
+        "words": [
+            "doctor"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    449.505615234375,
+                    530.819580078125
+                ],
+                [
+                    514.3396606445312,
+                    557.0216064453125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>doctor <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "doctor"
+            },
+            {
+                "time": 876,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "nurse",
+        "words": [
+            "nurse"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    198.14169311523438,
+                    639.5210571289062
+                ],
+                [
+                    255.60568237304688,
+                    665.7230834960938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>nurse <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "nurse"
+            },
+            {
+                "time": 761,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "postman",
+        "words": [
+            "postman"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    354.0885925292969,
+                    638.8123779296875
+                ],
+                [
+                    447.8966064453125,
+                    665.014404296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>postman <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "postman"
+            },
+            {
+                "time": 943,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

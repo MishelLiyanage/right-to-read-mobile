@@ -42,7 +42,6 @@ import page133G3BlocksData from '@/data/grade_3_english_book/grade_3_english_boo
 import page134G3BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_134/grade_3_english_book.pdf_page_134_blocks.json';
 import page135G3BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_135/grade_3_english_book.pdf_page_135_blocks.json';
 import page136G3BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_136/grade_3_english_book.pdf_page_136_blocks.json';
-import page137G3BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_137/grade_3_english_book.pdf_page_137_blocks.json';
 import page14BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_14/grade_3_english_book.pdf_page_14_blocks.json';
 import page15BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_15/grade_3_english_book.pdf_page_15_blocks.json';
 import page16BlocksData from '@/data/grade_3_english_book/grade_3_english_book_page_16/grade_3_english_book.pdf_page_16_blocks.json';
@@ -304,7 +303,6 @@ export class BookDataService {
     this.dataMap.set(134, page134G3BlocksData as any);
     this.dataMap.set(135, page135G3BlocksData as any);
     this.dataMap.set(136, page136G3BlocksData as any);
-    this.dataMap.set(137, page137G3BlocksData as any);
 
     // Grade 4 English Book pages (moved to higher numbers to avoid conflicts)
     this.dataMap.set(200, page98G4BlocksData as any);

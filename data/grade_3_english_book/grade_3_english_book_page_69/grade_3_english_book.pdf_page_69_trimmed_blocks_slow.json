@@ -1,0 +1,532 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.22209930419922,
+                    52.160003662109375
+                ],
+                [
+                    117.44208526611328,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    122.44208526611328,
+                    52.160003662109375
+                ],
+                [
+                    159.36209106445312,
+                    75.9800033569336
+                ]
+            ],
+            [
+                [
+                    164.36209106445312,
+                    52.160003662109375
+                ],
+                [
+                    200.38209533691406,
+                    75.9800033569336
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2486,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "bread",
+        "words": [
+            "bread"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    155.25454711914062,
+                    125.6396255493164
+                ],
+                [
+                    195.7554931640625,
+                    143.46543884277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bread <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "bread"
+            },
+            {
+                "time": 719,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "string hoppers",
+        "words": [
+            "string",
+            "hoppers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    344.69775390625,
+                    131.0395965576172
+                ],
+                [
+                    384.315673828125,
+                    148.8654022216797
+                ]
+            ],
+            [
+                [
+                    388.05743408203125,
+                    131.0395965576172
+                ],
+                [
+                    444.3487243652344,
+                    148.8654022216797
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>string <break time='200ms'/> hoppers <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "string"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 64,
+                "value": "hoppers"
+            },
+            {
+                "time": 1872,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "noodles",
+        "words": [
+            "noodles"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    471.8399963378906,
+                    225.5444793701172
+                ],
+                [
+                    525.4567260742188,
+                    243.13125610351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>noodles <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "noodles"
+            },
+            {
+                "time": 900,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "potato curry",
+        "words": [
+            "potato",
+            "curry"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    159.8489990234375,
+                    300.24847412109375
+                ],
+                [
+                    205.06369018554688,
+                    317.83526611328125
+                ]
+            ],
+            [
+                [
+                    208.7552947998047,
+                    300.24847412109375
+                ],
+                [
+                    243.633544921875,
+                    317.83526611328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>potato <break time='200ms'/> curry <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "potato"
+            },
+            {
+                "time": 953,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1265,
+                "type": "word",
+                "start": 57,
+                "end": 62,
+                "value": "curry"
+            },
+            {
+                "time": 1920,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "fried rice",
+        "words": [
+            "fried",
+            "rice"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    350.60198974609375,
+                    366.5625305175781
+                ],
+                [
+                    382.713623046875,
+                    384.4590759277344
+                ]
+            ],
+            [
+                [
+                    386.4702453613281,
+                    366.5625305175781
+                ],
+                [
+                    411.4743347167969,
+                    384.4590759277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fried <break time='200ms'/> rice <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "fried"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1044,
+                "type": "word",
+                "start": 56,
+                "end": 60,
+                "value": "rice"
+            },
+            {
+                "time": 1694,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "pittu",
+        "words": [
+            "pittu"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    185.98699951171875,
+                    461.5095520019531
+                ],
+                [
+                    219.82667541503906,
+                    479.4060974121094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>pittu <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "pittu"
+            },
+            {
+                "time": 757,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "roti",
+        "words": [
+            "roti"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    485.7699890136719,
+                    453.41912841796875
+                ],
+                [
+                    508.1905212402344,
+                    471.2567138671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>roti <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "roti"
+            },
+            {
+                "time": 746,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "fish curry",
+        "words": [
+            "fish",
+            "curry"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    236.32899475097656,
+                    601.9271240234375
+                ],
+                [
+                    261.81982421875,
+                    619.7647094726562
+                ]
+            ],
+            [
+                [
+                    265.5640869140625,
+                    601.9271240234375
+                ],
+                [
+                    300.9397888183594,
+                    619.7647094726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>fish <break time='200ms'/> curry <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "fish"
+            },
+            {
+                "time": 708,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 971,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "curry"
+            },
+            {
+                "time": 1599,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "hoppers",
+        "words": [
+            "hoppers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    459.2449951171875,
+                    616.3740844726562
+                ],
+                [
+                    515.573486328125,
+                    634.211669921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>hoppers <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "hoppers"
+            },
+            {
+                "time": 913,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}
