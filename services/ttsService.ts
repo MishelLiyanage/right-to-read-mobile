@@ -230,7 +230,8 @@ export class TTSService {
       console.log('[TTS] Creating new sound from block audio');
       
       // Resolve audio using AudioResolver for dynamic paths
-      const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ? 
+      // Check for null/undefined explicitly, not falsy values (0 is a valid page number!)
+      const resolvedAudio = (block.pageNumber !== null && block.pageNumber !== undefined) && (block.blockId !== null && block.blockId !== undefined) ? 
         AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle, this.isSlowMode) : null;
         
       console.log(`[TTS] AudioResolver result:`, {
@@ -440,7 +441,8 @@ export class TTSService {
 
           if (wordMark) {
             // Resolve audio using AudioResolver for dynamic paths
-            const resolvedAudio = block.pageNumber && block.blockId !== null && block.blockId !== undefined ?
+            // Check for null/undefined explicitly, not falsy values (0 is a valid page number!)
+            const resolvedAudio = (block.pageNumber !== null && block.pageNumber !== undefined) && (block.blockId !== null && block.blockId !== undefined) ?
               AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle, this.isSlowMode) : null;
             
             if (resolvedAudio) {

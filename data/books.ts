@@ -1,6 +1,13 @@
 import { TrimmedBlocksDataService } from '@/services/trimmedBlocksDataService';
 import { Book } from '@/types/book';
 
+// Static imports for Demo Book pages (pages 0-2)
+const demoPageImages = {
+  0: require('@/data/demo_book/demo_book_page_0/demo_book.pdf_page_0.png'),
+  1: require('@/data/demo_book/demo_book_page_1/demo_book.pdf_page_1.png'),
+  2: require('@/data/demo_book/demo_book_page_2/demo_book.pdf_page_2.png'),
+};
+
 // Static imports for Grade 3 English Book pages (pages 10-136)
 const grade3PageImages = {
   10: require('@/data/grade_3_english_book/grade_3_english_book_page_10/grade_3_english_book.pdf_page_10.png'),
@@ -543,7 +550,7 @@ const generateBlocksForPage = (pageNumber: number, bookTitle: string) => {
     const pageData = trimmedBlocksService.getTrimmedBlocksForPage(pageNumber, bookTitle);
     
     if (!pageData) {
-      console.warn(`No trimmed block data found for page ${pageNumber} in ${bookTitle}`);
+      console.warn(`[generateBlocksForPage] No trimmed block data found for page ${pageNumber} in ${bookTitle}`);
       return [];
     }
 
@@ -552,21 +559,32 @@ const generateBlocksForPage = (pageNumber: number, bookTitle: string) => {
     for (const [blockId, blockInfo] of Object.entries(pageData)) {
       if (blockInfo && (blockInfo as any).text && (blockInfo as any).text.trim()) {
         // Store page and block info so TTS service can dynamically load audio using AudioResolver
-        blocks.push({
+        const block = {
           id: parseInt(blockId),
           text: (blockInfo as any).text,
           audio: null, // Audio resolved dynamically by AudioResolver
           pageNumber: pageNumber,
           blockId: parseInt(blockId)
-        });
+        };
+        blocks.push(block);
       }
     }
     
     return blocks;
   } catch (error) {
-    console.warn(`Error generating blocks for page ${pageNumber} in ${bookTitle}:`, error);
+    console.warn(`[generateBlocksForPage] Error generating blocks for page ${pageNumber} in ${bookTitle}:`, error);
     return [];
   }
+};
+
+// Generate pages for Demo Book using static imports with dynamic blocks
+const generateDemoPages = () => {
+  const availablePages = Object.keys(demoPageImages).map(Number).sort((a, b) => a - b);
+  return availablePages.map(pageNumber => ({
+    pageNumber,
+    image: demoPageImages[pageNumber as keyof typeof demoPageImages],
+    blocks: generateBlocksForPage(pageNumber, 'Demo Book')
+  }));
 };
 
 // Generate pages for Grade 3 English Book using static imports with dynamic blocks
@@ -593,6 +611,34 @@ const generateGrade4Pages = () => {
 
 export const getAllBooks = (): Book[] => {
   return [
+    {
+      id: 0,
+      title: 'Demo Book',
+      author: 'Right to Read',
+      backgroundColor: '#FF6B6B',
+      hasData: true,
+      tableOfContents: [
+        {
+          id: 'demo-page-0',
+          title: 'Page 0',
+          pageNumber: 0,
+          navigationPageNumber: 0
+        },
+        {
+          id: 'demo-page-1',
+          title: 'Page 1',
+          pageNumber: 1,
+          navigationPageNumber: 1
+        },
+        {
+          id: 'demo-page-2',
+          title: 'Page 2',
+          pageNumber: 2,
+          navigationPageNumber: 2
+        }
+      ],
+      pages: generateDemoPages()
+    },
     {
       id: 1,
       title: 'Grade 3 English Book',
