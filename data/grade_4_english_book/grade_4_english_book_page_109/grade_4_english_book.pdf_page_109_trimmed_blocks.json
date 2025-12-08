@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 8</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 8</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 447,
+                "time": 478,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "8"
             }
         ]
@@ -86,7 +87,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play hopscotch.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's play hopscotch.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -94,22 +95,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 288,
+                "time": 297,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "play"
             },
             {
-                "time": 578,
+                "time": 601,
                 "type": "word",
-                "start": 43,
-                "end": 52,
+                "start": 39,
+                "end": 48,
                 "value": "hopscotch"
             }
         ]
@@ -153,29 +154,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We need trees.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We need trees.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 138,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "need"
             },
             {
-                "time": 383,
+                "time": 390,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "trees"
             }
         ]
@@ -252,57 +254,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s protect trees.<break time=\"500ms\"/> Let&apos;s plant trees.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's protect trees. Let's plant trees.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 270,
+                "time": 275,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 34,
+                "end": 41,
                 "value": "protect"
             },
             {
-                "time": 750,
+                "time": 775,
                 "type": "word",
-                "start": 46,
-                "end": 51,
+                "start": 42,
+                "end": 47,
                 "value": "trees"
             },
             {
-                "time": 1303,
+                "time": 1723,
                 "type": "word",
-                "start": 52,
-                "end": 73,
-                "value": "<break time=\"500ms\"/>"
+                "start": 49,
+                "end": 54,
+                "value": "Let's"
             },
             {
-                "time": 2190,
+                "time": 2041,
                 "type": "word",
-                "start": 74,
-                "end": 84,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2493,
-                "type": "word",
-                "start": 85,
-                "end": 90,
+                "start": 55,
+                "end": 60,
                 "value": "plant"
             },
             {
-                "time": 2924,
+                "time": 2486,
                 "type": "word",
-                "start": 91,
-                "end": 96,
+                "start": 61,
+                "end": 66,
                 "value": "trees"
             }
         ]
@@ -346,29 +342,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees are useful.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees are useful.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 374,
+                "time": 385,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 503,
+                "time": 514,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "useful"
             }
         ]
@@ -456,64 +453,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees are beautiful.<break time=\"500ms\"/> Trees are our friends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees are beautiful. Trees are our friends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 374,
+                "time": 385,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 503,
+                "time": 514,
                 "type": "word",
-                "start": 37,
-                "end": 46,
+                "start": 38,
+                "end": 47,
                 "value": "beautiful"
             },
             {
-                "time": 1214,
+                "time": 1627,
                 "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2101,
-                "type": "word",
-                "start": 69,
-                "end": 74,
+                "start": 49,
+                "end": 54,
                 "value": "Trees"
             },
             {
-                "time": 2469,
+                "time": 2006,
                 "type": "word",
-                "start": 75,
-                "end": 78,
+                "start": 55,
+                "end": 58,
                 "value": "are"
             },
             {
-                "time": 2628,
+                "time": 2173,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 59,
+                "end": 62,
                 "value": "our"
             },
             {
-                "time": 2764,
+                "time": 2309,
                 "type": "word",
-                "start": 83,
-                "end": 90,
+                "start": 63,
+                "end": 70,
                 "value": "friends"
             }
         ]
@@ -557,29 +548,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We love nature.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We love nature.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 127,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "love"
             },
             {
-                "time": 420,
+                "time": 425,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 36,
+                "end": 42,
                 "value": "nature"
             }
         ]
@@ -623,29 +615,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We love nature.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We love nature.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 127,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "love"
             },
             {
-                "time": 420,
+                "time": 425,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 36,
+                "end": 42,
                 "value": "nature"
             }
         ]
@@ -1041,281 +1034,254 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Draw a hopscotch on a paper with the sayings.<break time=\"500ms\"/> Paste it on the floor.<break time=\"500ms\"/> Ask the students to play hopscotch.<break time=\"500ms\"/> When the player lands on a square,<break time=\"300ms\"/> he or she should read the saying aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Draw a hopscotch on a paper with the sayings. Paste it on the floor. Ask the students to play hopscotch. When the player lands on a square, he or she should read the saying aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Draw"
             },
             {
-                "time": 344,
+                "time": 360,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 408,
+                "time": 425,
                 "type": "word",
-                "start": 34,
-                "end": 43,
+                "start": 35,
+                "end": 44,
                 "value": "hopscotch"
             },
             {
-                "time": 1198,
+                "time": 1274,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "on"
             },
             {
-                "time": 1312,
+                "time": 1388,
                 "type": "word",
-                "start": 47,
-                "end": 48,
+                "start": 48,
+                "end": 49,
                 "value": "a"
             },
             {
-                "time": 1370,
+                "time": 1446,
                 "type": "word",
-                "start": 49,
-                "end": 54,
+                "start": 50,
+                "end": 55,
                 "value": "paper"
             },
             {
-                "time": 1838,
+                "time": 1920,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 56,
+                "end": 60,
                 "value": "with"
             },
             {
-                "time": 2034,
+                "time": 2117,
                 "type": "word",
-                "start": 60,
-                "end": 63,
+                "start": 61,
+                "end": 64,
                 "value": "the"
             },
             {
-                "time": 2141,
+                "time": 2223,
                 "type": "word",
-                "start": 64,
-                "end": 71,
+                "start": 65,
+                "end": 72,
                 "value": "sayings"
             },
             {
-                "time": 2842,
+                "time": 3325,
                 "type": "word",
-                "start": 72,
-                "end": 93,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3729,
-                "type": "word",
-                "start": 94,
-                "end": 99,
+                "start": 74,
+                "end": 79,
                 "value": "Paste"
             },
             {
-                "time": 4078,
+                "time": 3682,
                 "type": "word",
-                "start": 100,
-                "end": 102,
+                "start": 80,
+                "end": 82,
                 "value": "it"
             },
             {
-                "time": 4183,
+                "time": 3786,
                 "type": "word",
-                "start": 103,
-                "end": 105,
+                "start": 83,
+                "end": 85,
                 "value": "on"
             },
             {
-                "time": 4339,
+                "time": 3949,
                 "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 86,
+                "end": 89,
                 "value": "the"
             },
             {
-                "time": 4405,
+                "time": 4015,
                 "type": "word",
-                "start": 110,
-                "end": 115,
+                "start": 90,
+                "end": 95,
                 "value": "floor"
             },
             {
-                "time": 4990,
+                "time": 4994,
                 "type": "word",
-                "start": 116,
-                "end": 137,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5876,
-                "type": "word",
-                "start": 138,
-                "end": 141,
+                "start": 97,
+                "end": 100,
                 "value": "Ask"
             },
             {
-                "time": 6234,
+                "time": 5375,
                 "type": "word",
-                "start": 142,
-                "end": 145,
+                "start": 101,
+                "end": 104,
                 "value": "the"
             },
             {
-                "time": 6326,
+                "time": 5467,
                 "type": "word",
-                "start": 146,
-                "end": 154,
+                "start": 105,
+                "end": 113,
                 "value": "students"
             },
             {
-                "time": 6944,
+                "time": 6120,
                 "type": "word",
-                "start": 155,
-                "end": 157,
+                "start": 114,
+                "end": 116,
                 "value": "to"
             },
             {
-                "time": 7067,
+                "time": 6242,
                 "type": "word",
-                "start": 158,
-                "end": 162,
+                "start": 117,
+                "end": 121,
                 "value": "play"
             },
             {
-                "time": 7383,
+                "time": 6565,
                 "type": "word",
-                "start": 163,
-                "end": 172,
+                "start": 122,
+                "end": 131,
                 "value": "hopscotch"
             },
             {
-                "time": 8367,
+                "time": 7992,
                 "type": "word",
-                "start": 173,
-                "end": 194,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9254,
-                "type": "word",
-                "start": 195,
-                "end": 199,
+                "start": 133,
+                "end": 137,
                 "value": "When"
             },
             {
-                "time": 9413,
+                "time": 8162,
                 "type": "word",
-                "start": 200,
-                "end": 203,
+                "start": 138,
+                "end": 141,
                 "value": "the"
             },
             {
-                "time": 9496,
+                "time": 8245,
                 "type": "word",
-                "start": 204,
-                "end": 210,
+                "start": 142,
+                "end": 148,
                 "value": "player"
             },
             {
-                "time": 9960,
+                "time": 8731,
                 "type": "word",
-                "start": 211,
-                "end": 216,
+                "start": 149,
+                "end": 154,
                 "value": "lands"
             },
             {
-                "time": 10442,
+                "time": 9213,
                 "type": "word",
-                "start": 217,
-                "end": 219,
+                "start": 155,
+                "end": 157,
                 "value": "on"
             },
             {
-                "time": 10570,
+                "time": 9341,
                 "type": "word",
-                "start": 220,
-                "end": 221,
+                "start": 158,
+                "end": 159,
                 "value": "a"
             },
             {
-                "time": 10627,
+                "time": 9398,
                 "type": "word",
-                "start": 222,
-                "end": 228,
+                "start": 160,
+                "end": 166,
                 "value": "square"
             },
             {
-                "time": 11439,
+                "time": 10333,
                 "type": "word",
-                "start": 229,
-                "end": 250,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 11840,
-                "type": "word",
-                "start": 251,
-                "end": 253,
+                "start": 168,
+                "end": 170,
                 "value": "he"
             },
             {
-                "time": 12000,
+                "time": 10504,
                 "type": "word",
-                "start": 254,
-                "end": 256,
+                "start": 171,
+                "end": 173,
                 "value": "or"
             },
             {
-                "time": 12118,
+                "time": 10622,
                 "type": "word",
-                "start": 257,
-                "end": 260,
+                "start": 174,
+                "end": 177,
                 "value": "she"
             },
             {
-                "time": 12301,
+                "time": 10818,
                 "type": "word",
-                "start": 261,
-                "end": 267,
+                "start": 178,
+                "end": 184,
                 "value": "should"
             },
             {
-                "time": 12548,
+                "time": 11072,
                 "type": "word",
-                "start": 268,
-                "end": 272,
+                "start": 185,
+                "end": 189,
                 "value": "read"
             },
             {
-                "time": 12796,
+                "time": 11327,
                 "type": "word",
-                "start": 273,
-                "end": 276,
+                "start": 190,
+                "end": 193,
                 "value": "the"
             },
             {
-                "time": 12868,
+                "time": 11399,
                 "type": "word",
-                "start": 277,
-                "end": 283,
+                "start": 194,
+                "end": 200,
                 "value": "saying"
             },
             {
-                "time": 13277,
+                "time": 11835,
                 "type": "word",
-                "start": 284,
-                "end": 289,
+                "start": 201,
+                "end": 206,
                 "value": "aloud"
             }
         ]

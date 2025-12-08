@@ -137,7 +137,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Brinjal says,<break time=\"300ms\"/> &quot;I have minerals and vitamins.<break time=\"500ms\"/> Look at my shiny skin!&quot;</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Brinjal says, \"I have minerals and vitamins. Look at my shiny skin!\"</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -145,99 +145,85 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Brinjal"
             },
             {
                 "time": 387,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "says"
             },
             {
-                "time": 1005,
+                "time": 1127,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1405,
-                "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 43,
+                "end": 44,
                 "value": "I"
             },
             {
-                "time": 1530,
+                "time": 1257,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 45,
+                "end": 49,
                 "value": "have"
             },
             {
-                "time": 1708,
+                "time": 1435,
                 "type": "word",
-                "start": 75,
-                "end": 83,
+                "start": 50,
+                "end": 58,
                 "value": "minerals"
             },
             {
-                "time": 2266,
+                "time": 2005,
                 "type": "word",
-                "start": 84,
-                "end": 87,
+                "start": 59,
+                "end": 62,
                 "value": "and"
             },
             {
-                "time": 2409,
+                "time": 2148,
                 "type": "word",
-                "start": 88,
-                "end": 96,
+                "start": 63,
+                "end": 71,
                 "value": "vitamins"
             },
             {
-                "time": 3270,
+                "time": 3415,
                 "type": "word",
-                "start": 97,
-                "end": 118,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4157,
-                "type": "word",
-                "start": 119,
-                "end": 123,
+                "start": 73,
+                "end": 77,
                 "value": "Look"
             },
             {
-                "time": 4368,
+                "time": 3631,
                 "type": "word",
-                "start": 124,
-                "end": 126,
+                "start": 78,
+                "end": 80,
                 "value": "at"
             },
             {
-                "time": 4468,
+                "time": 3731,
                 "type": "word",
-                "start": 127,
-                "end": 129,
+                "start": 81,
+                "end": 83,
                 "value": "my"
             },
             {
-                "time": 4650,
+                "time": 3926,
                 "type": "word",
-                "start": 130,
-                "end": 135,
+                "start": 84,
+                "end": 89,
                 "value": "shiny"
             },
             {
-                "time": 5095,
+                "time": 4378,
                 "type": "word",
-                "start": 136,
-                "end": 140,
+                "start": 90,
+                "end": 94,
                 "value": "skin"
             }
         ]
@@ -369,92 +355,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Everyone has good qualities.<break time=\"500ms\"/> It is difficult to select the king.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Everyone has good qualities. It is difficult to select the king.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Everyone"
             },
             {
-                "time": 479,
+                "time": 502,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "has"
             },
             {
-                "time": 703,
+                "time": 739,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "good"
             },
             {
-                "time": 954,
+                "time": 1002,
                 "type": "word",
-                "start": 45,
-                "end": 54,
+                "start": 46,
+                "end": 55,
                 "value": "qualities"
             },
             {
-                "time": 1868,
+                "time": 2324,
                 "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2755,
-                "type": "word",
-                "start": 77,
-                "end": 79,
+                "start": 57,
+                "end": 59,
                 "value": "It"
             },
             {
-                "time": 2902,
+                "time": 2483,
                 "type": "word",
-                "start": 80,
-                "end": 82,
+                "start": 60,
+                "end": 62,
                 "value": "is"
             },
             {
-                "time": 3070,
+                "time": 2665,
                 "type": "word",
-                "start": 83,
-                "end": 92,
+                "start": 63,
+                "end": 72,
                 "value": "difficult"
             },
             {
-                "time": 3653,
+                "time": 3265,
                 "type": "word",
-                "start": 93,
-                "end": 95,
+                "start": 73,
+                "end": 75,
                 "value": "to"
             },
             {
-                "time": 3769,
+                "time": 3382,
                 "type": "word",
-                "start": 96,
-                "end": 102,
+                "start": 76,
+                "end": 82,
                 "value": "select"
             },
             {
-                "time": 4208,
+                "time": 3833,
                 "type": "word",
-                "start": 103,
-                "end": 106,
+                "start": 83,
+                "end": 86,
                 "value": "the"
             },
             {
-                "time": 4315,
+                "time": 3941,
                 "type": "word",
-                "start": 107,
-                "end": 111,
+                "start": 87,
+                "end": 91,
                 "value": "king"
             }
         ]
@@ -542,58 +522,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">&quot; Here comes Rasini.<break time=\"500ms\"/> We&apos;ll ask her.&quot;</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
+        "ssml": "<speak><prosody rate='slow'>\" Here comes <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>. We'll ask her.\"</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 30,
+                "end": 34,
                 "value": "Here"
             },
             {
-                "time": 265,
+                "time": 280,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 35,
+                "end": 40,
                 "value": "comes"
             },
             {
-                "time": 676,
+                "time": 706,
                 "type": "word",
-                "start": 45,
-                "end": 51,
+                "start": 80,
+                "end": 86,
                 "value": "Rasini"
             },
             {
-                "time": 1508,
+                "time": 1832,
                 "type": "word",
-                "start": 52,
-                "end": 73,
-                "value": "<break time=\"500ms\"/>"
+                "start": 98,
+                "end": 103,
+                "value": "We'll"
             },
             {
-                "time": 2395,
+                "time": 2133,
                 "type": "word",
-                "start": 74,
-                "end": 84,
-                "value": "We&apos;ll"
-            },
-            {
-                "time": 2676,
-                "type": "word",
-                "start": 85,
-                "end": 88,
+                "start": 104,
+                "end": 107,
                 "value": "ask"
             },
             {
-                "time": 2984,
+                "time": 2455,
                 "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 108,
+                "end": 111,
                 "value": "her"
             }
         ]
@@ -670,7 +643,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">&quot;Rasini,<break time=\"300ms\"/> who is the vegetable king?&quot;</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>\"<phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>, who is the vegetable king?\"</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -678,50 +651,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 68,
+                "end": 74,
                 "value": "Rasini"
             },
             {
-                "time": 976,
+                "time": 1011,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1370,
-                "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 86,
+                "end": 89,
                 "value": "who"
             },
             {
-                "time": 1526,
+                "time": 1194,
                 "type": "word",
-                "start": 66,
-                "end": 68,
+                "start": 90,
+                "end": 92,
                 "value": "is"
             },
             {
-                "time": 1663,
+                "time": 1368,
                 "type": "word",
-                "start": 69,
-                "end": 72,
+                "start": 93,
+                "end": 96,
                 "value": "the"
             },
             {
-                "time": 1763,
+                "time": 1489,
                 "type": "word",
-                "start": 73,
-                "end": 82,
+                "start": 97,
+                "end": 106,
                 "value": "vegetable"
             },
             {
-                "time": 2389,
+                "time": 2132,
                 "type": "word",
-                "start": 83,
-                "end": 87,
+                "start": 107,
+                "end": 111,
                 "value": "king"
             }
         ]
@@ -930,7 +896,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">&quot; My mother says you all are good.<break time=\"500ms\"/> You keep us healthy.<break time=\"500ms\"/> You all are kings and queens.&quot;</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>\" My mother says you all are good. You keep us healthy. You all are kings and queens.\"</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -938,134 +904,120 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 30,
+                "end": 32,
                 "value": "My"
             },
             {
-                "time": 271,
+                "time": 283,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 33,
+                "end": 39,
                 "value": "mother"
             },
             {
-                "time": 662,
+                "time": 692,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 40,
+                "end": 44,
                 "value": "says"
             },
             {
-                "time": 1009,
+                "time": 1052,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 45,
+                "end": 48,
                 "value": "you"
             },
             {
-                "time": 1246,
+                "time": 1303,
+                "type": "word",
+                "start": 49,
+                "end": 52,
+                "value": "all"
+            },
+            {
+                "time": 1576,
                 "type": "word",
                 "start": 53,
                 "end": 56,
-                "value": "all"
-            },
-            {
-                "time": 1501,
-                "type": "word",
-                "start": 57,
-                "end": 60,
                 "value": "are"
             },
             {
-                "time": 1628,
+                "time": 1707,
                 "type": "word",
-                "start": 61,
-                "end": 65,
+                "start": 57,
+                "end": 61,
                 "value": "good"
             },
             {
-                "time": 2092,
+                "time": 2568,
                 "type": "word",
-                "start": 66,
-                "end": 87,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2979,
-                "type": "word",
-                "start": 88,
-                "end": 91,
+                "start": 63,
+                "end": 66,
                 "value": "You"
             },
             {
-                "time": 3169,
+                "time": 2762,
                 "type": "word",
-                "start": 92,
-                "end": 96,
+                "start": 67,
+                "end": 71,
                 "value": "keep"
             },
             {
-                "time": 3470,
+                "time": 3090,
                 "type": "word",
-                "start": 97,
-                "end": 99,
+                "start": 72,
+                "end": 74,
                 "value": "us"
             },
             {
-                "time": 3643,
+                "time": 3270,
                 "type": "word",
-                "start": 100,
-                "end": 107,
+                "start": 75,
+                "end": 82,
                 "value": "healthy"
             },
             {
-                "time": 4165,
+                "time": 4188,
                 "type": "word",
-                "start": 108,
-                "end": 129,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5052,
-                "type": "word",
-                "start": 130,
-                "end": 133,
+                "start": 84,
+                "end": 87,
                 "value": "You"
             },
             {
-                "time": 5267,
+                "time": 4413,
                 "type": "word",
-                "start": 134,
-                "end": 137,
+                "start": 88,
+                "end": 91,
                 "value": "all"
             },
             {
-                "time": 5434,
+                "time": 4588,
                 "type": "word",
-                "start": 138,
-                "end": 141,
+                "start": 92,
+                "end": 95,
                 "value": "are"
             },
             {
-                "time": 5650,
+                "time": 4815,
                 "type": "word",
-                "start": 142,
-                "end": 147,
+                "start": 96,
+                "end": 101,
                 "value": "kings"
             },
             {
-                "time": 6044,
+                "time": 5225,
                 "type": "word",
-                "start": 148,
-                "end": 151,
+                "start": 102,
+                "end": 105,
                 "value": "and"
             },
             {
-                "time": 6236,
+                "time": 5416,
                 "type": "word",
-                "start": 152,
-                "end": 158,
+                "start": 106,
+                "end": 112,
                 "value": "queens"
             }
         ]

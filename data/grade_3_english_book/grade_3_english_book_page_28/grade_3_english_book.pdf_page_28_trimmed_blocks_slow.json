@@ -1,5 +1,68 @@
 {
     "0": {
+        "text": "My home",
+        "words": [
+            "My",
+            "home"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    257.5169982910156,
+                    120.21197509765625
+                ],
+                [
+                    313.85101318359375,
+                    169.04296875
+                ]
+            ],
+            [
+                [
+                    323.6910095214844,
+                    120.21197509765625
+                ],
+                [
+                    437.8760070800781,
+                    169.04296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>My <break time='200ms'/> home <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "My"
+            },
+            {
+                "time": 670,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 970,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "home"
+            },
+            {
+                "time": 1716,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
         "text": "My family Listen and say.",
         "words": [
             "My",
@@ -137,7 +200,7 @@
             }
         ]
     },
-    "1": {
+    "2": {
         "text": "father mother",
         "words": [
             "father",
@@ -200,7 +263,7 @@
             }
         ]
     },
-    "2": {
+    "3": {
         "text": "brother sister",
         "words": [
             "brother",
@@ -259,69 +322,6 @@
                 "type": "word",
                 "start": 65,
                 "end": 86,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "3": {
-        "text": "My home",
-        "words": [
-            "My",
-            "home"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    257.5169982910156,
-                    120.21197509765625
-                ],
-                [
-                    313.85101318359375,
-                    169.04296875
-                ]
-            ],
-            [
-                [
-                    323.6910095214844,
-                    120.21197509765625
-                ],
-                [
-                    437.8760070800781,
-                    169.04296875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>My <break time='200ms'/> home <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "My"
-            },
-            {
-                "time": 670,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 970,
-                "type": "word",
-                "start": 53,
-                "end": 57,
-                "value": "home"
-            },
-            {
-                "time": 1716,
-                "type": "word",
-                "start": 58,
-                "end": 79,
                 "value": "<break time='200ms'/>"
             }
         ]

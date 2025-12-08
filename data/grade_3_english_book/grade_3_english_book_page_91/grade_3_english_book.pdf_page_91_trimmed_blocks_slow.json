@@ -1,0 +1,842 @@
+{
+    "0": {
+        "text": "Listen and repeat.",
+        "words": [
+            "Listen",
+            "and",
+            "repeat."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.23460006713867,
+                    50.766021728515625
+                ],
+                [
+                    117.45459747314453,
+                    74.58602142333984
+                ]
+            ],
+            [
+                [
+                    122.45459747314453,
+                    50.766021728515625
+                ],
+                [
+                    159.37460327148438,
+                    74.58602142333984
+                ]
+            ],
+            [
+                [
+                    164.37460327148438,
+                    50.766021728515625
+                ],
+                [
+                    231.45460510253906,
+                    74.58602142333984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> repeat. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1580,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1880,
+                "type": "word",
+                "start": 83,
+                "end": 89,
+                "value": "repeat"
+            },
+            {
+                "time": 2567,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "The rabbit can't fly. It can hop.",
+        "words": [
+            "The",
+            "rabbit",
+            "can't",
+            "fly.",
+            "It",
+            "can",
+            "hop."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    76.85399627685547,
+                    255.45492553710938
+                ],
+                [
+                    107.95127868652344,
+                    277.0256042480469
+                ]
+            ],
+            [
+                [
+                    112.4791259765625,
+                    255.45492553710938
+                ],
+                [
+                    162.5209503173828,
+                    277.0256042480469
+                ]
+            ],
+            [
+                [
+                    83.6457748413086,
+                    277.1885986328125
+                ],
+                [
+                    127.00447845458984,
+                    298.75927734375
+                ]
+            ],
+            [
+                [
+                    131.35121154785156,
+                    277.1885986328125
+                ],
+                [
+                    156.45361328125,
+                    298.75927734375
+                ]
+            ],
+            [
+                [
+                    205.15899658203125,
+                    266.62994384765625
+                ],
+                [
+                    218.7425537109375,
+                    288.20062255859375
+                ]
+            ],
+            [
+                [
+                    223.08929443359375,
+                    266.62994384765625
+                ],
+                [
+                    254.89291381835938,
+                    288.20062255859375
+                ]
+            ],
+            [
+                [
+                    259.4207763671875,
+                    266.62994384765625
+                ],
+                [
+                    297.72637939453125,
+                    288.20062255859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>The <break time='200ms'/> rabbit <break time='200ms'/> can't <break time='200ms'/> fly. <break time='200ms'/> It <break time='200ms'/> can <break time='200ms'/> hop. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 557,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 857,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "rabbit"
+            },
+            {
+                "time": 1532,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1832,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "can't"
+            },
+            {
+                "time": 2544,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2844,
+                "type": "word",
+                "start": 111,
+                "end": 114,
+                "value": "fly"
+            },
+            {
+                "time": 3423,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4009,
+                "type": "word",
+                "start": 138,
+                "end": 140,
+                "value": "It"
+            },
+            {
+                "time": 4534,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4834,
+                "type": "word",
+                "start": 163,
+                "end": 166,
+                "value": "can"
+            },
+            {
+                "time": 5536,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5836,
+                "type": "word",
+                "start": 189,
+                "end": 192,
+                "value": "hop"
+            },
+            {
+                "time": 6277,
+                "type": "word",
+                "start": 194,
+                "end": 215,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "The dog can't hop. It can run.",
+        "words": [
+            "The",
+            "dog",
+            "can't",
+            "hop.",
+            "It",
+            "can",
+            "run."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    345.46099853515625,
+                    351.1131591796875
+                ],
+                [
+                    375.06243896484375,
+                    371.646240234375
+                ]
+            ],
+            [
+                [
+                    379.37249755859375,
+                    351.1131591796875
+                ],
+                [
+                    410.0428466796875,
+                    371.646240234375
+                ]
+            ],
+            [
+                [
+                    337.2546691894531,
+                    371.8013916015625
+                ],
+                [
+                    378.5277099609375,
+                    392.33447265625
+                ]
+            ],
+            [
+                [
+                    382.6653747558594,
+                    371.8013916015625
+                ],
+                [
+                    419.12841796875,
+                    392.33447265625
+                ]
+            ],
+            [
+                [
+                    451.0350036621094,
+                    365.1231689453125
+                ],
+                [
+                    463.96514892578125,
+                    385.65625
+                ]
+            ],
+            [
+                [
+                    468.1028137207031,
+                    365.1231689453125
+                ],
+                [
+                    498.3766174316406,
+                    385.65625
+                ]
+            ],
+            [
+                [
+                    502.6866760253906,
+                    365.1231689453125
+                ],
+                [
+                    535.5120239257812,
+                    385.65625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>The <break time='200ms'/> dog <break time='200ms'/> can't <break time='200ms'/> hop. <break time='200ms'/> It <break time='200ms'/> can <break time='200ms'/> run. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 492,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 792,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "dog"
+            },
+            {
+                "time": 1496,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1796,
+                "type": "word",
+                "start": 80,
+                "end": 85,
+                "value": "can't"
+            },
+            {
+                "time": 2410,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2711,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "hop"
+            },
+            {
+                "time": 3153,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3740,
+                "type": "word",
+                "start": 135,
+                "end": 137,
+                "value": "It"
+            },
+            {
+                "time": 4264,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4564,
+                "type": "word",
+                "start": 160,
+                "end": 163,
+                "value": "can"
+            },
+            {
+                "time": 5266,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5566,
+                "type": "word",
+                "start": 186,
+                "end": 189,
+                "value": "run"
+            },
+            {
+                "time": 6116,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "The fish can't run. It can swim.",
+        "words": [
+            "The",
+            "fish",
+            "can't",
+            "run.",
+            "It",
+            "can",
+            "swim."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    87.87889862060547,
+                    495.7602233886719
+                ],
+                [
+                    117.43551635742188,
+                    516.26220703125
+                ]
+            ],
+            [
+                [
+                    121.73904418945312,
+                    495.7602233886719
+                ],
+                [
+                    151.0374298095703,
+                    516.26220703125
+                ]
+            ],
+            [
+                [
+                    80.82112121582031,
+                    516.417236328125
+                ],
+                [
+                    122.03167724609375,
+                    536.919189453125
+                ]
+            ],
+            [
+                [
+                    126.1630630493164,
+                    516.417236328125
+                ],
+                [
+                    158.93869018554688,
+                    536.919189453125
+                ]
+            ],
+            [
+                [
+                    198.5760040283203,
+                    502.9902648925781
+                ],
+                [
+                    211.486572265625,
+                    523.4922485351562
+                ]
+            ],
+            [
+                [
+                    215.6179656982422,
+                    502.9902648925781
+                ],
+                [
+                    245.84591674804688,
+                    523.4922485351562
+                ]
+            ],
+            [
+                [
+                    250.14944458007812,
+                    502.9902648925781
+                ],
+                [
+                    299.34735107421875,
+                    523.4922485351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>The <break time='200ms'/> fish <break time='200ms'/> can't <break time='200ms'/> run. <break time='200ms'/> It <break time='200ms'/> can <break time='200ms'/> swim. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 492,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 792,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "fish"
+            },
+            {
+                "time": 1450,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1750,
+                "type": "word",
+                "start": 81,
+                "end": 86,
+                "value": "can't"
+            },
+            {
+                "time": 2370,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2670,
+                "type": "word",
+                "start": 109,
+                "end": 112,
+                "value": "run"
+            },
+            {
+                "time": 3164,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3751,
+                "type": "word",
+                "start": 136,
+                "end": 138,
+                "value": "It"
+            },
+            {
+                "time": 4275,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4575,
+                "type": "word",
+                "start": 161,
+                "end": 164,
+                "value": "can"
+            },
+            {
+                "time": 5277,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5577,
+                "type": "word",
+                "start": 187,
+                "end": 191,
+                "value": "swim"
+            },
+            {
+                "time": 6112,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "The parrot can't swim. It can fly.",
+        "words": [
+            "The",
+            "parrot",
+            "can't",
+            "swim.",
+            "It",
+            "can",
+            "fly."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    308.24700927734375,
+                    662.0486450195312
+                ],
+                [
+                    338.90728759765625,
+                    683.3162231445312
+                ]
+            ],
+            [
+                [
+                    343.37152099609375,
+                    662.0486450195312
+                ],
+                [
+                    393.4422302246094,
+                    683.3162231445312
+                ]
+            ],
+            [
+                [
+                    302.1578063964844,
+                    683.4769287109375
+                ],
+                [
+                    344.9072265625,
+                    704.7445068359375
+                ]
+            ],
+            [
+                [
+                    349.1929016113281,
+                    683.4769287109375
+                ],
+                [
+                    400.2279052734375,
+                    704.7445068359375
+                ]
+            ],
+            [
+                [
+                    450.04864501953125,
+                    671.8877563476562
+                ],
+                [
+                    463.4413146972656,
+                    693.1553344726562
+                ]
+            ],
+            [
+                [
+                    467.72698974609375,
+                    671.8877563476562
+                ],
+                [
+                    499.0837097167969,
+                    693.1553344726562
+                ]
+            ],
+            [
+                [
+                    503.5479431152344,
+                    671.8877563476562
+                ],
+                [
+                    528.2976684570312,
+                    693.1553344726562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>The <break time='200ms'/> parrot <break time='200ms'/> can't <break time='200ms'/> swim. <break time='200ms'/> It <break time='200ms'/> can <break time='200ms'/> fly. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "The"
+            },
+            {
+                "time": 492,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 786,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "parrot"
+            },
+            {
+                "time": 1478,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1778,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "can't"
+            },
+            {
+                "time": 2490,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2790,
+                "type": "word",
+                "start": 111,
+                "end": 115,
+                "value": "swim"
+            },
+            {
+                "time": 3325,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3911,
+                "type": "word",
+                "start": 139,
+                "end": 141,
+                "value": "It"
+            },
+            {
+                "time": 4436,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4736,
+                "type": "word",
+                "start": 164,
+                "end": 167,
+                "value": "can"
+            },
+            {
+                "time": 5438,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5731,
+                "type": "word",
+                "start": 190,
+                "end": 193,
+                "value": "fly"
+            },
+            {
+                "time": 6323,
+                "type": "word",
+                "start": 195,
+                "end": 216,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

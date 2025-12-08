@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and point.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and point.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 372,
+                "time": 383,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 535,
+                "time": 548,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 39,
+                "end": 44,
                 "value": "point"
             }
         ]
@@ -115,36 +116,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is home screen.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is home screen.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 233,
+                "time": 240,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 396,
+                "time": 409,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "home"
             },
             {
-                "time": 652,
+                "time": 677,
                 "type": "word",
-                "start": 40,
-                "end": 46,
+                "start": 41,
+                "end": 47,
                 "value": "screen"
             }
         ]
@@ -199,36 +201,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Click on &apos;Start&apos; button.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Click on 'Start' button.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Click"
             },
             {
-                "time": 323,
+                "time": 339,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "on"
             },
             {
-                "time": 503,
+                "time": 530,
                 "type": "word",
-                "start": 36,
-                "end": 53,
-                "value": "&apos;Start&apos;"
+                "start": 37,
+                "end": 44,
+                "value": "'Start'"
             },
             {
-                "time": 906,
+                "time": 933,
                 "type": "word",
-                "start": 54,
-                "end": 60,
+                "start": 45,
+                "end": 51,
                 "value": "button"
             }
         ]

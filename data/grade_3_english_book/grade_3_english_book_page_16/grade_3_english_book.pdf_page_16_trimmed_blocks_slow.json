@@ -1,21 +1,10 @@
 {
     "0": {
-        "text": "7 Say.",
+        "text": "Say.",
         "words": [
-            "7",
             "Say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    559.2509765625,
-                    24.34998893737793
-                ],
-                [
-                    572.0910034179688,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -27,7 +16,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>7 <break time='200ms'/> Say. <break time='200ms'/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Say. <break time='200ms'/></prosody></speak>",
         "dialog": "false",
         "person_type": "null",
         "voice_id": "Joanna",
@@ -36,28 +25,14 @@
                 "time": 6,
                 "type": "word",
                 "start": 28,
-                "end": 29,
-                "value": "7"
-            },
-            {
-                "time": 792,
-                "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 1092,
-                "type": "word",
-                "start": 52,
-                "end": 55,
+                "end": 31,
                 "value": "Say"
             },
             {
-                "time": 1592,
+                "time": 632,
                 "type": "word",
-                "start": 57,
-                "end": 78,
+                "start": 33,
+                "end": 54,
                 "value": "<break time='200ms'/>"
             }
         ]

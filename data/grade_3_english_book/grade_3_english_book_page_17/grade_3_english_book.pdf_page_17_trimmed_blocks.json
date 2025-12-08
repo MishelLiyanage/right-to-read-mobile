@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "8",
-        "words": [
-            "8"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    37.56930160522461,
-                    24.34998893737793
-                ],
-                [
-                    53.97930145263672,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">8</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "8"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "How old are you ?",
         "words": [
             "How",
@@ -156,7 +127,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How old are you ?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How old are you ?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -164,38 +135,42 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 217,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "old"
             },
             {
-                "time": 522,
+                "time": 526,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "are"
             },
             {
-                "time": 618,
+                "time": 622,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "you"
             }
         ]
     },
-    "3": {
-        "text": "I'm 8.",
+    "2": {
+        "text": "I'm 8. I'm 7. I'm 6.",
         "words": [
             "I'm",
-            "8."
+            "8.",
+            "I'm",
+            "7.",
+            "I'm",
+            "6."
         ],
         "bounding_boxes": [
             [
@@ -217,36 +192,7 @@
                     143.29681396484375,
                     249.53599548339844
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m 8.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 158,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "8"
-            }
-        ]
-    },
-    "4": {
-        "text": "I'm 7.",
-        "words": [
-            "I'm",
-            "7."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     214.50479125976562,
@@ -266,36 +212,7 @@
                     262.4208068847656,
                     239.6179656982422
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m 7.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 164,
-                "type": "word",
-                "start": 36,
-                "end": 37,
-                "value": "7"
-            }
-        ]
-    },
-    "5": {
-        "text": "I'm 6.",
-        "words": [
-            "I'm",
-            "6."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     341.26080322265625,
@@ -317,28 +234,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m 6.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm 8. I'm 7. I'm 6.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 164,
+                "time": 162,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
+                "value": "8"
+            },
+            {
+                "time": 993,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "I'm"
+            },
+            {
+                "time": 1134,
+                "type": "word",
+                "start": 39,
+                "end": 40,
+                "value": "7"
+            },
+            {
+                "time": 2266,
+                "type": "word",
+                "start": 42,
+                "end": 45,
+                "value": "I'm"
+            },
+            {
+                "time": 2420,
+                "type": "word",
+                "start": 46,
+                "end": 47,
                 "value": "6"
             }
         ]
     },
-    "6": {
+    "3": {
         "text": "I'm 9.",
         "words": [
             "I'm",
@@ -366,7 +311,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m 9.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm 9.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -374,20 +319,20 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 224,
+                "time": 236,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 32,
+                "end": 33,
                 "value": "9"
             }
         ]
     },
-    "7": {
+    "4": {
         "text": "How old are you? I'm .......",
         "words": [
             "How",
@@ -459,55 +404,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How old are you? I&apos;m <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How old are you? I'm .......</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 217,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "old"
             },
             {
-                "time": 522,
+                "time": 526,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "are"
             },
             {
-                "time": 618,
+                "time": 622,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "you"
             },
             {
-                "time": 1432,
+                "time": 1442,
                 "type": "word",
-                "start": 44,
-                "end": 52,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2078,
-                "type": "word",
-                "start": 53,
-                "end": 75,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 45,
+                "end": 48,
+                "value": "I'm"
             }
         ]
     },
-    "8": {
+    "5": {
         "text": "Read.",
         "words": [
             "Read."
@@ -524,20 +463,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             }
         ]
     },
-    "9": {
+    "6": {
         "text": "I'm six.",
         "words": [
             "I'm",
@@ -565,31 +505,34 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m six.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm six.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 176,
+                "time": 181,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 32,
+                "end": 35,
                 "value": "six"
             }
         ]
     },
-    "10": {
-        "text": "I'm seven.",
+    "7": {
+        "text": "I'm seven. I'm eight.",
         "words": [
             "I'm",
-            "seven."
+            "seven.",
+            "I'm",
+            "eight."
         ],
         "bounding_boxes": [
             [
@@ -611,35 +554,7 @@
                     355.76300048828125,
                     643.2139892578125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m seven.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 155,
-                "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "seven"
-            }
-        ]
-    },
-    "11": {
-        "text": "I'm eight.",
-        "words": [
-            "I'm",
-            "eight."
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     422.2510070800781,
@@ -661,27 +576,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m eight.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm seven. I'm eight.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 183,
+                "time": 160,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 32,
+                "end": 37,
+                "value": "seven"
+            },
+            {
+                "time": 1195,
+                "type": "word",
+                "start": 39,
+                "end": 42,
+                "value": "I'm"
+            },
+            {
+                "time": 1384,
+                "type": "word",
+                "start": 43,
+                "end": 48,
                 "value": "eight"
             }
         ]
     },
-    "12": {
+    "8": {
         "text": "I'm nine.",
         "words": [
             "I'm",
@@ -709,27 +639,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m nine.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm nine.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 171,
+                "time": 183,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 32,
+                "end": 36,
                 "value": "nine"
             }
         ]
     },
-    "13": {
+    "9": {
         "text": "I'm ten.",
         "words": [
             "I'm",
@@ -757,22 +688,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m ten.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm ten.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
                 "time": 198,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 32,
+                "end": 35,
                 "value": "ten"
             }
         ]

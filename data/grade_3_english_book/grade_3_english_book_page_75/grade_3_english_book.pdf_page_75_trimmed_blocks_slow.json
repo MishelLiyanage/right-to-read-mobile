@@ -1,0 +1,1403 @@
+{
+    "0": {
+        "text": "Brinjal says, \"I have minerals and vitamins. Look at my shiny skin!\"",
+        "words": [
+            "Brinjal",
+            "says,",
+            "\"I",
+            "have",
+            "minerals",
+            "and",
+            "vitamins.",
+            "Look",
+            "at",
+            "my",
+            "shiny",
+            "skin!\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.60599899291992,
+                    95.58901977539062
+                ],
+                [
+                    115.95799255371094,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    120.45799255371094,
+                    95.58901977539062
+                ],
+                [
+                    161.6959991455078,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    165.29600524902344,
+                    95.58901977539062
+                ],
+                [
+                    179.67800903320312,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    184.17800903320312,
+                    95.58901977539062
+                ],
+                [
+                    225.74000549316406,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    230.24000549316406,
+                    95.58901977539062
+                ],
+                [
+                    303.8420104980469,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    308.3420104980469,
+                    95.58901977539062
+                ],
+                [
+                    341.57000732421875,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    345.8900146484375,
+                    95.58901977539062
+                ],
+                [
+                    425.0720520019531,
+                    117.02702331542969
+                ]
+            ],
+            [
+                [
+                    62.60599899291992,
+                    117.18899536132812
+                ],
+                [
+                    101.32400512695312,
+                    138.6269989013672
+                ]
+            ],
+            [
+                [
+                    105.64400482177734,
+                    117.18899536132812
+                ],
+                [
+                    123.3380126953125,
+                    138.6269989013672
+                ]
+            ],
+            [
+                [
+                    127.65801239013672,
+                    117.18899536132812
+                ],
+                [
+                    155.0900115966797,
+                    138.6269989013672
+                ]
+            ],
+            [
+                [
+                    159.41001892089844,
+                    117.18899536132812
+                ],
+                [
+                    203.6540069580078,
+                    138.6269989013672
+                ]
+            ],
+            [
+                [
+                    207.97401428222656,
+                    117.18899536132812
+                ],
+                [
+                    254.99000549316406,
+                    138.6269989013672
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Brinjal <break time='200ms'/> says, <break time='200ms'/> \"I <break time='200ms'/> have <break time='200ms'/> minerals <break time='200ms'/> and <break time='200ms'/> vitamins. <break time='200ms'/> Look <break time='200ms'/> at <break time='200ms'/> my <break time='200ms'/> shiny <break time='200ms'/> skin!\" <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Brinjal"
+            },
+            {
+                "time": 789,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1089,
+                "type": "word",
+                "start": 58,
+                "end": 62,
+                "value": "says"
+            },
+            {
+                "time": 1793,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2087,
+                "type": "word",
+                "start": 87,
+                "end": 88,
+                "value": "I"
+            },
+            {
+                "time": 2677,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2977,
+                "type": "word",
+                "start": 111,
+                "end": 115,
+                "value": "have"
+            },
+            {
+                "time": 3550,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3850,
+                "type": "word",
+                "start": 138,
+                "end": 146,
+                "value": "minerals"
+            },
+            {
+                "time": 4756,
+                "type": "word",
+                "start": 147,
+                "end": 168,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5056,
+                "type": "word",
+                "start": 169,
+                "end": 172,
+                "value": "and"
+            },
+            {
+                "time": 5653,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5953,
+                "type": "word",
+                "start": 195,
+                "end": 203,
+                "value": "vitamins"
+            },
+            {
+                "time": 6841,
+                "type": "word",
+                "start": 205,
+                "end": 226,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7428,
+                "type": "word",
+                "start": 227,
+                "end": 231,
+                "value": "Look"
+            },
+            {
+                "time": 8011,
+                "type": "word",
+                "start": 232,
+                "end": 253,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8311,
+                "type": "word",
+                "start": 254,
+                "end": 256,
+                "value": "at"
+            },
+            {
+                "time": 8836,
+                "type": "word",
+                "start": 257,
+                "end": 278,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9136,
+                "type": "word",
+                "start": 279,
+                "end": 281,
+                "value": "my"
+            },
+            {
+                "time": 9800,
+                "type": "word",
+                "start": 282,
+                "end": 303,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10100,
+                "type": "word",
+                "start": 304,
+                "end": 309,
+                "value": "shiny"
+            },
+            {
+                "time": 10818,
+                "type": "word",
+                "start": 310,
+                "end": 331,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11118,
+                "type": "word",
+                "start": 332,
+                "end": 336,
+                "value": "skin"
+            },
+            {
+                "time": 11743,
+                "type": "word",
+                "start": 339,
+                "end": 360,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Everyone has good qualities. It is difficult to select the king.",
+        "words": [
+            "Everyone",
+            "has",
+            "good",
+            "qualities.",
+            "It",
+            "is",
+            "difficult",
+            "to",
+            "select",
+            "the",
+            "king."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.60599899291992,
+                    160.38900756835938
+                ],
+                [
+                    139.1959991455078,
+                    181.82701110839844
+                ]
+            ],
+            [
+                [
+                    143.6959991455078,
+                    160.38900756835938
+                ],
+                [
+                    174.1699981689453,
+                    181.82701110839844
+                ]
+            ],
+            [
+                [
+                    178.6699981689453,
+                    160.38900756835938
+                ],
+                [
+                    220.8260040283203,
+                    181.82701110839844
+                ]
+            ],
+            [
+                [
+                    225.3260040283203,
+                    160.38900756835938
+                ],
+                [
+                    302.6360168457031,
+                    181.82701110839844
+                ]
+            ],
+            [
+                [
+                    62.60599899291992,
+                    181.98898315429688
+                ],
+                [
+                    76.10600280761719,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    80.4260025024414,
+                    181.98898315429688
+                ],
+                [
+                    93.00800323486328,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    97.50800323486328,
+                    181.98898315429688
+                ],
+                [
+                    163.0279998779297,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    167.1680145263672,
+                    181.98898315429688
+                ],
+                [
+                    183.87200927734375,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    188.37200927734375,
+                    181.98898315429688
+                ],
+                [
+                    237.4580078125,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    241.5980224609375,
+                    181.98898315429688
+                ],
+                [
+                    269.9840087890625,
+                    203.42698669433594
+                ]
+            ],
+            [
+                [
+                    274.4840087890625,
+                    181.98898315429688
+                ],
+                [
+                    316.5320129394531,
+                    203.42698669433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Everyone <break time='200ms'/> has <break time='200ms'/> good <break time='200ms'/> qualities. <break time='200ms'/> It <break time='200ms'/> is <break time='200ms'/> difficult <break time='200ms'/> to <break time='200ms'/> select <break time='200ms'/> the <break time='200ms'/> king. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Everyone"
+            },
+            {
+                "time": 960,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1254,
+                "type": "word",
+                "start": 59,
+                "end": 62,
+                "value": "has"
+            },
+            {
+                "time": 1902,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2195,
+                "type": "word",
+                "start": 85,
+                "end": 89,
+                "value": "good"
+            },
+            {
+                "time": 2806,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3099,
+                "type": "word",
+                "start": 112,
+                "end": 121,
+                "value": "qualities"
+            },
+            {
+                "time": 3995,
+                "type": "word",
+                "start": 123,
+                "end": 144,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4582,
+                "type": "word",
+                "start": 145,
+                "end": 147,
+                "value": "It"
+            },
+            {
+                "time": 5131,
+                "type": "word",
+                "start": 148,
+                "end": 169,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5431,
+                "type": "word",
+                "start": 170,
+                "end": 172,
+                "value": "is"
+            },
+            {
+                "time": 5993,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6293,
+                "type": "word",
+                "start": 195,
+                "end": 204,
+                "value": "difficult"
+            },
+            {
+                "time": 7190,
+                "type": "word",
+                "start": 205,
+                "end": 226,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7483,
+                "type": "word",
+                "start": 227,
+                "end": 229,
+                "value": "to"
+            },
+            {
+                "time": 8135,
+                "type": "word",
+                "start": 230,
+                "end": 251,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8435,
+                "type": "word",
+                "start": 252,
+                "end": 258,
+                "value": "select"
+            },
+            {
+                "time": 9343,
+                "type": "word",
+                "start": 259,
+                "end": 280,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9643,
+                "type": "word",
+                "start": 281,
+                "end": 284,
+                "value": "the"
+            },
+            {
+                "time": 10079,
+                "type": "word",
+                "start": 285,
+                "end": 306,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10379,
+                "type": "word",
+                "start": 307,
+                "end": 311,
+                "value": "king"
+            },
+            {
+                "time": 10892,
+                "type": "word",
+                "start": 313,
+                "end": 334,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "\" Here comes Rasini. We'll ask her.\"",
+        "words": [
+            "\"",
+            "Here",
+            "comes",
+            "Rasini.",
+            "We'll",
+            "ask",
+            "her.\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.60599899291992,
+                    225.18899536132812
+                ],
+                [
+                    70.4540023803711,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    74.9540023803711,
+                    225.18899536132812
+                ],
+                [
+                    114.80599975585938,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    119.30599975585938,
+                    225.18899536132812
+                ],
+                [
+                    175.61000061035156,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    180.11000061035156,
+                    225.18899536132812
+                ],
+                [
+                    235.81997680664062,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    238.87998962402344,
+                    225.18899536132812
+                ],
+                [
+                    279.83001708984375,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    284.33001708984375,
+                    225.18899536132812
+                ],
+                [
+                    313.18402099609375,
+                    246.6269989013672
+                ]
+            ],
+            [
+                [
+                    317.5040283203125,
+                    225.18899536132812
+                ],
+                [
+                    357.8600158691406,
+                    246.6269989013672
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>\" <break time='200ms'/> Here <break time='200ms'/> comes <break time='200ms'/> <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>. <break time='200ms'/> We'll <break time='200ms'/> ask <break time='200ms'/> her.\" <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 0,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 206,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "Here"
+            },
+            {
+                "time": 880,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1173,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "comes"
+            },
+            {
+                "time": 1909,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2204,
+                "type": "word",
+                "start": 146,
+                "end": 152,
+                "value": "Rasini"
+            },
+            {
+                "time": 3364,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3950,
+                "type": "word",
+                "start": 186,
+                "end": 191,
+                "value": "We'll"
+            },
+            {
+                "time": 4550,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4850,
+                "type": "word",
+                "start": 214,
+                "end": 217,
+                "value": "ask"
+            },
+            {
+                "time": 5545,
+                "type": "word",
+                "start": 218,
+                "end": 239,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5846,
+                "type": "word",
+                "start": 240,
+                "end": 243,
+                "value": "her"
+            },
+            {
+                "time": 6230,
+                "type": "word",
+                "start": 246,
+                "end": 267,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "\"Rasini, who is the vegetable king?\"",
+        "words": [
+            "\"Rasini,",
+            "who",
+            "is",
+            "the",
+            "vegetable",
+            "king?\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.60599899291992,
+                    268.3890075683594
+                ],
+                [
+                    125.35401153564453,
+                    289.8270263671875
+                ]
+            ],
+            [
+                [
+                    128.77401733398438,
+                    268.3890075683594
+                ],
+                [
+                    165.0080108642578,
+                    289.8270263671875
+                ]
+            ],
+            [
+                [
+                    169.32801818847656,
+                    268.3890075683594
+                ],
+                [
+                    182.0900115966797,
+                    289.8270263671875
+                ]
+            ],
+            [
+                [
+                    186.41001892089844,
+                    268.3890075683594
+                ],
+                [
+                    214.79600524902344,
+                    289.8270263671875
+                ]
+            ],
+            [
+                [
+                    219.1160125732422,
+                    268.3890075683594
+                ],
+                [
+                    302.6180114746094,
+                    289.8270263671875
+                ]
+            ],
+            [
+                [
+                    307.1180114746094,
+                    268.3890075683594
+                ],
+                [
+                    360.59600830078125,
+                    289.8270263671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>\"<phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>, <break time='200ms'/> who <break time='200ms'/> is <break time='200ms'/> the <break time='200ms'/> vegetable <break time='200ms'/> king?\" <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 68,
+                "end": 74,
+                "value": "Rasini"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1206,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "who"
+            },
+            {
+                "time": 1724,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2018,
+                "type": "word",
+                "start": 134,
+                "end": 136,
+                "value": "is"
+            },
+            {
+                "time": 2631,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2925,
+                "type": "word",
+                "start": 159,
+                "end": 162,
+                "value": "the"
+            },
+            {
+                "time": 3476,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3770,
+                "type": "word",
+                "start": 185,
+                "end": 194,
+                "value": "vegetable"
+            },
+            {
+                "time": 4732,
+                "type": "word",
+                "start": 195,
+                "end": 216,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5032,
+                "type": "word",
+                "start": 217,
+                "end": 221,
+                "value": "king"
+            },
+            {
+                "time": 5524,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "\" My mother says you all are good. You keep us healthy. You all are kings and queens.\"",
+        "words": [
+            "\"",
+            "My",
+            "mother",
+            "says",
+            "you",
+            "all",
+            "are",
+            "good.",
+            "You",
+            "keep",
+            "us",
+            "healthy.",
+            "You",
+            "all",
+            "are",
+            "kings",
+            "and",
+            "queens.\""
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.60599899291992,
+                    311.5890197753906
+                ],
+                [
+                    70.4540023803711,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    74.39600372314453,
+                    311.5890197753906
+                ],
+                [
+                    99.12800598144531,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    102.89000701904297,
+                    311.5890197753906
+                ],
+                [
+                    165.8000030517578,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    169.56201171875,
+                    311.5890197753906
+                ],
+                [
+                    205.95802307128906,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    209.72003173828125,
+                    311.5890197753906
+                ],
+                [
+                    240.3560333251953,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    244.29803466796875,
+                    311.5890197753906
+                ],
+                [
+                    264.0620422363281,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    268.0040283203125,
+                    311.5890197753906
+                ],
+                [
+                    294.82403564453125,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    298.7660217285156,
+                    311.5890197753906
+                ],
+                [
+                    346.57403564453125,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    349.0760192871094,
+                    311.5890197753906
+                ],
+                [
+                    379.5860290527344,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    383.52801513671875,
+                    311.5890197753906
+                ],
+                [
+                    424.0639953613281,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    428.0059814453125,
+                    311.5890197753906
+                ],
+                [
+                    447.5359802246094,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    451.47796630859375,
+                    311.5890197753906
+                ],
+                [
+                    519.751953125,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    522.2539672851562,
+                    311.5890197753906
+                ],
+                [
+                    552.7639770507812,
+                    333.02703857421875
+                ]
+            ],
+            [
+                [
+                    62.60599899291992,
+                    333.18902587890625
+                ],
+                [
+                    82.37001037597656,
+                    354.6270446777344
+                ]
+            ],
+            [
+                [
+                    86.87001037597656,
+                    333.18902587890625
+                ],
+                [
+                    113.69001007080078,
+                    354.6270446777344
+                ]
+            ],
+            [
+                [
+                    118.19001007080078,
+                    333.18902587890625
+                ],
+                [
+                    162.77601623535156,
+                    354.6270446777344
+                ]
+            ],
+            [
+                [
+                    167.27601623535156,
+                    333.18902587890625
+                ],
+                [
+                    200.50401306152344,
+                    354.6270446777344
+                ]
+            ],
+            [
+                [
+                    205.00401306152344,
+                    333.18902587890625
+                ],
+                [
+                    280.7300109863281,
+                    354.6270446777344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>\" <break time='200ms'/> My <break time='200ms'/> mother <break time='200ms'/> says <break time='200ms'/> you <break time='200ms'/> all <break time='200ms'/> are <break time='200ms'/> good. <break time='200ms'/> You <break time='200ms'/> keep <break time='200ms'/> us <break time='200ms'/> healthy. <break time='200ms'/> You <break time='200ms'/> all <break time='200ms'/> are <break time='200ms'/> kings <break time='200ms'/> and <break time='200ms'/> queens.\" <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 0,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 206,
+                "type": "word",
+                "start": 52,
+                "end": 54,
+                "value": "My"
+            },
+            {
+                "time": 901,
+                "type": "word",
+                "start": 55,
+                "end": 76,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1195,
+                "type": "word",
+                "start": 77,
+                "end": 83,
+                "value": "mother"
+            },
+            {
+                "time": 1844,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2144,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "says"
+            },
+            {
+                "time": 3032,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3332,
+                "type": "word",
+                "start": 133,
+                "end": 136,
+                "value": "you"
+            },
+            {
+                "time": 4020,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4320,
+                "type": "word",
+                "start": 159,
+                "end": 162,
+                "value": "all"
+            },
+            {
+                "time": 4904,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5198,
+                "type": "word",
+                "start": 185,
+                "end": 188,
+                "value": "are"
+            },
+            {
+                "time": 5844,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6137,
+                "type": "word",
+                "start": 211,
+                "end": 215,
+                "value": "good"
+            },
+            {
+                "time": 6552,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7139,
+                "type": "word",
+                "start": 239,
+                "end": 242,
+                "value": "You"
+            },
+            {
+                "time": 7827,
+                "type": "word",
+                "start": 243,
+                "end": 264,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8127,
+                "type": "word",
+                "start": 265,
+                "end": 269,
+                "value": "keep"
+            },
+            {
+                "time": 8655,
+                "type": "word",
+                "start": 270,
+                "end": 291,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8948,
+                "type": "word",
+                "start": 292,
+                "end": 294,
+                "value": "us"
+            },
+            {
+                "time": 9617,
+                "type": "word",
+                "start": 295,
+                "end": 316,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9917,
+                "type": "word",
+                "start": 317,
+                "end": 324,
+                "value": "healthy"
+            },
+            {
+                "time": 10560,
+                "type": "word",
+                "start": 326,
+                "end": 347,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11146,
+                "type": "word",
+                "start": 348,
+                "end": 351,
+                "value": "You"
+            },
+            {
+                "time": 11834,
+                "type": "word",
+                "start": 352,
+                "end": 373,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12134,
+                "type": "word",
+                "start": 374,
+                "end": 377,
+                "value": "all"
+            },
+            {
+                "time": 12719,
+                "type": "word",
+                "start": 378,
+                "end": 399,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13012,
+                "type": "word",
+                "start": 400,
+                "end": 403,
+                "value": "are"
+            },
+            {
+                "time": 13658,
+                "type": "word",
+                "start": 404,
+                "end": 425,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13959,
+                "type": "word",
+                "start": 426,
+                "end": 431,
+                "value": "kings"
+            },
+            {
+                "time": 14717,
+                "type": "word",
+                "start": 432,
+                "end": 453,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15017,
+                "type": "word",
+                "start": 454,
+                "end": 457,
+                "value": "and"
+            },
+            {
+                "time": 15736,
+                "type": "word",
+                "start": 458,
+                "end": 479,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16036,
+                "type": "word",
+                "start": 480,
+                "end": 486,
+                "value": "queens"
+            },
+            {
+                "time": 16742,
+                "type": "word",
+                "start": 489,
+                "end": 510,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

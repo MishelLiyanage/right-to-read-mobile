@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "82",
-        "words": [
-            "82"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.23040008544922,
-                    24.34998893737793
-                ],
-                [
-                    61.31040573120117,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">82</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "82"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and repeat.",
         "words": [
             "Listen",
@@ -68,64 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "repeat"
             }
         ]
     },
-    "2": {
-        "text": "1",
-        "words": [
-            "1"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    184.11355590820312,
-                    100.47592163085938
-                ],
-                [
-                    191.81089782714844,
-                    122.04660034179688
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">1</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "1"
-            }
-        ]
-    },
-    "3": {
+    "1": {
         "text": "The rabbit can't fly. It can hop.",
         "words": [
             "The",
@@ -208,99 +149,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The rabbit can&apos;t fly.<break time=\"500ms\"/> It can hop.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The rabbit can't fly. It can hop.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 123,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "rabbit"
             },
             {
-                "time": 585,
+                "time": 592,
                 "type": "word",
-                "start": 38,
-                "end": 48,
-                "value": "can&apos;t"
+                "start": 39,
+                "end": 44,
+                "value": "can't"
             },
             {
-                "time": 935,
+                "time": 962,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 45,
+                "end": 48,
                 "value": "fly"
             },
             {
-                "time": 1491,
+                "time": 1922,
                 "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2378,
-                "type": "word",
-                "start": 75,
-                "end": 77,
+                "start": 50,
+                "end": 52,
                 "value": "It"
             },
             {
-                "time": 2499,
+                "time": 2043,
                 "type": "word",
-                "start": 78,
-                "end": 81,
+                "start": 53,
+                "end": 56,
                 "value": "can"
             },
             {
-                "time": 2732,
+                "time": 2288,
                 "type": "word",
-                "start": 82,
-                "end": 85,
+                "start": 57,
+                "end": 60,
                 "value": "hop"
             }
         ]
     },
-    "4": {
-        "text": "2",
-        "words": [
-            "2"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    427.3290100097656,
-                    204.16390991210938
-                ],
-                [
-                    438.177734375,
-                    225.73458862304688
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">2</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "2"
-            }
-        ]
-    },
-    "5": {
+    "2": {
         "text": "The dog can't hop. It can run.",
         "words": [
             "The",
@@ -383,99 +288,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The dog can&apos;t hop.<break time=\"500ms\"/> It can run.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The dog can't hop. It can run.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 106,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "dog"
             },
             {
-                "time": 545,
+                "time": 566,
                 "type": "word",
-                "start": 35,
-                "end": 45,
-                "value": "can&apos;t"
+                "start": 36,
+                "end": 41,
+                "value": "can't"
             },
             {
-                "time": 870,
+                "time": 904,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 42,
+                "end": 45,
                 "value": "hop"
             },
             {
-                "time": 1348,
+                "time": 1783,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2235,
-                "type": "word",
-                "start": 72,
-                "end": 74,
+                "start": 47,
+                "end": 49,
                 "value": "It"
             },
             {
-                "time": 2356,
+                "time": 1905,
                 "type": "word",
-                "start": 75,
-                "end": 78,
+                "start": 50,
+                "end": 53,
                 "value": "can"
             },
             {
-                "time": 2598,
+                "time": 2164,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 54,
+                "end": 57,
                 "value": "run"
             }
         ]
     },
-    "6": {
-        "text": "3",
-        "words": [
-            "3"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    174.69000244140625,
-                    348.1639404296875
-                ],
-                [
-                    185.5930633544922,
-                    369.734619140625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">3</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "3"
-            }
-        ]
-    },
-    "7": {
+    "3": {
         "text": "The fish can't run. It can swim.",
         "words": [
             "The",
@@ -558,99 +427,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The fish can&apos;t run.<break time=\"500ms\"/> It can swim.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The fish can't run. It can swim.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 123,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "fish"
             },
             {
-                "time": 442,
+                "time": 458,
                 "type": "word",
-                "start": 36,
-                "end": 46,
-                "value": "can&apos;t"
+                "start": 37,
+                "end": 42,
+                "value": "can't"
             },
             {
-                "time": 793,
+                "time": 834,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 43,
+                "end": 46,
                 "value": "run"
             },
             {
-                "time": 1228,
+                "time": 1679,
                 "type": "word",
-                "start": 51,
-                "end": 72,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2115,
-                "type": "word",
-                "start": 73,
-                "end": 75,
+                "start": 48,
+                "end": 50,
                 "value": "It"
             },
             {
-                "time": 2236,
+                "time": 1800,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 51,
+                "end": 54,
                 "value": "can"
             },
             {
-                "time": 2467,
+                "time": 2038,
                 "type": "word",
-                "start": 80,
-                "end": 84,
+                "start": 55,
+                "end": 59,
                 "value": "swim"
             }
         ]
     },
-    "8": {
-        "text": "4",
-        "words": [
-            "4"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    411.7138977050781,
-                    508.3049621582031
-                ],
-                [
-                    422.0373840332031,
-                    529.8756713867188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">4</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "4"
-            }
-        ]
-    },
-    "9": {
+    "4": {
         "text": "The parrot can't swim. It can fly.",
         "words": [
             "The",
@@ -733,64 +566,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The parrot can&apos;t swim.<break time=\"500ms\"/> It can fly.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The parrot can't swim. It can fly.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 110,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "parrot"
             },
             {
-                "time": 556,
+                "time": 565,
                 "type": "word",
-                "start": 38,
-                "end": 48,
-                "value": "can&apos;t"
+                "start": 39,
+                "end": 44,
+                "value": "can't"
             },
             {
-                "time": 877,
+                "time": 901,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 45,
+                "end": 49,
                 "value": "swim"
             },
             {
-                "time": 1390,
+                "time": 1817,
                 "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2277,
-                "type": "word",
-                "start": 76,
-                "end": 78,
+                "start": 51,
+                "end": 53,
                 "value": "It"
             },
             {
-                "time": 2398,
+                "time": 1938,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 54,
+                "end": 57,
                 "value": "can"
             },
             {
-                "time": 2626,
+                "time": 2178,
                 "type": "word",
-                "start": 83,
-                "end": 86,
+                "start": 58,
+                "end": 61,
                 "value": "fly"
             }
         ]

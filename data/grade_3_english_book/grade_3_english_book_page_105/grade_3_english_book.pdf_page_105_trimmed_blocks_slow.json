@@ -1,0 +1,881 @@
+{
+    "0": {
+        "text": "Play.",
+        "words": [
+            "Play."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    60.146026611328125
+                ],
+                [
+                    106.17671203613281,
+                    83.96602630615234
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Play. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Play"
+            },
+            {
+                "time": 545,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Hide and seek",
+        "words": [
+            "Hide",
+            "and",
+            "seek"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    227.35670471191406,
+                    84.14602661132812
+                ],
+                [
+                    271.0367126464844,
+                    107.96602630615234
+                ]
+            ],
+            [
+                [
+                    276.0367126464844,
+                    84.14602661132812
+                ],
+                [
+                    312.95672607421875,
+                    107.96602630615234
+                ]
+            ],
+            [
+                [
+                    317.95672607421875,
+                    84.14602661132812
+                ],
+                [
+                    360.5367126464844,
+                    107.96602630615234
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hide <break time='200ms'/> and <break time='200ms'/> seek <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Hide"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1025,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "and"
+            },
+            {
+                "time": 1628,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1919,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "seek"
+            },
+            {
+                "time": 2630,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "We play hide and seek.",
+        "words": [
+            "We",
+            "play",
+            "hide",
+            "and",
+            "seek."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    126.68600463867188
+                ],
+                [
+                    92.89669799804688,
+                    150.50601196289062
+                ]
+            ],
+            [
+                [
+                    97.89669799804688,
+                    126.68600463867188
+                ],
+                [
+                    137.19671630859375,
+                    150.50601196289062
+                ]
+            ],
+            [
+                [
+                    141.99671936035156,
+                    126.68600463867188
+                ],
+                [
+                    182.9767303466797,
+                    150.50601196289062
+                ]
+            ],
+            [
+                [
+                    187.9767303466797,
+                    126.68600463867188
+                ],
+                [
+                    224.89674377441406,
+                    150.50601196289062
+                ]
+            ],
+            [
+                [
+                    229.89674377441406,
+                    126.68600463867188
+                ],
+                [
+                    278.7567443847656,
+                    150.50601196289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> play <break time='200ms'/> hide <break time='200ms'/> and <break time='200ms'/> seek. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 864,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "play"
+            },
+            {
+                "time": 1521,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1822,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "hide"
+            },
+            {
+                "time": 2443,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2743,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "and"
+            },
+            {
+                "time": 3347,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3637,
+                "type": "word",
+                "start": 133,
+                "end": 137,
+                "value": "seek"
+            },
+            {
+                "time": 4204,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Get ready boys.",
+        "words": [
+            "Get",
+            "ready",
+            "boys."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    154.68600463867188
+                ],
+                [
+                    96.69670104980469,
+                    178.50601196289062
+                ]
+            ],
+            [
+                [
+                    101.4967041015625,
+                    154.68600463867188
+                ],
+                [
+                    153.73670959472656,
+                    178.50601196289062
+                ]
+            ],
+            [
+                [
+                    158.53671264648438,
+                    154.68600463867188
+                ],
+                [
+                    207.41671752929688,
+                    178.50601196289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Get <break time='200ms'/> ready <break time='200ms'/> boys. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Get"
+            },
+            {
+                "time": 505,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 805,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "ready"
+            },
+            {
+                "time": 1414,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1715,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "boys"
+            },
+            {
+                "time": 2348,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Get ready girls.",
+        "words": [
+            "Get",
+            "ready",
+            "girls."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    182.68600463867188
+                ],
+                [
+                    96.69670104980469,
+                    206.50601196289062
+                ]
+            ],
+            [
+                [
+                    101.4967041015625,
+                    182.68600463867188
+                ],
+                [
+                    153.73670959472656,
+                    206.50601196289062
+                ]
+            ],
+            [
+                [
+                    163.53671264648438,
+                    182.68600463867188
+                ],
+                [
+                    207.5567169189453,
+                    206.50601196289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Get <break time='200ms'/> ready <break time='200ms'/> girls. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Get"
+            },
+            {
+                "time": 505,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 805,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "ready"
+            },
+            {
+                "time": 1414,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1716,
+                "type": "word",
+                "start": 82,
+                "end": 87,
+                "value": "girls"
+            },
+            {
+                "time": 2344,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Run and hide.",
+        "words": [
+            "Run",
+            "and",
+            "hide."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    210.68600463867188
+                ],
+                [
+                    99.65670013427734,
+                    234.50601196289062
+                ]
+            ],
+            [
+                [
+                    104.65670013427734,
+                    210.68600463867188
+                ],
+                [
+                    141.5767059326172,
+                    234.50601196289062
+                ]
+            ],
+            [
+                [
+                    151.5767059326172,
+                    210.68600463867188
+                ],
+                [
+                    198.8367156982422,
+                    234.50601196289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Run <break time='200ms'/> and <break time='200ms'/> hide. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Run"
+            },
+            {
+                "time": 576,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 876,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "and"
+            },
+            {
+                "time": 1480,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1780,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "hide"
+            },
+            {
+                "time": 2318,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "1, 2, 3, 4, 5, 6, 7 ,8 ,9 ,10.",
+        "words": [
+            "1,",
+            "2,",
+            "3,",
+            "4,",
+            "5,",
+            "6,",
+            "7",
+            ",8",
+            ",9",
+            ",10."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    238.68600463867188
+                ],
+                [
+                    76.23670196533203,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    79.83670043945312,
+                    238.68600463867188
+                ],
+                [
+                    97.19670104980469,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    101.19670104980469,
+                    238.68600463867188
+                ],
+                [
+                    118.2166976928711,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    122.2166976928711,
+                    238.68600463867188
+                ],
+                [
+                    138.9967041015625,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    142.9967041015625,
+                    238.68600463867188
+                ],
+                [
+                    160.0167236328125,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    164.0167236328125,
+                    238.68600463867188
+                ],
+                [
+                    181.63673400878906,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    185.63673400878906,
+                    238.68600463867188
+                ],
+                [
+                    196.13673400878906,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    201.13673400878906,
+                    238.68600463867188
+                ],
+                [
+                    218.63673400878906,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    223.63673400878906,
+                    238.68600463867188
+                ],
+                [
+                    241.19674682617188,
+                    262.5060119628906
+                ]
+            ],
+            [
+                [
+                    246.19674682617188,
+                    238.68600463867188
+                ],
+                [
+                    277.5567321777344,
+                    262.5060119628906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>1, <break time='200ms'/> 2, <break time='200ms'/> 3, <break time='200ms'/> 4, <break time='200ms'/> 5, <break time='200ms'/> 6, <break time='200ms'/> 7 <break time='200ms'/> ,8 <break time='200ms'/> ,9 <break time='200ms'/> ,10. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "1"
+            },
+            {
+                "time": 779,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1079,
+                "type": "word",
+                "start": 53,
+                "end": 54,
+                "value": "2"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1955,
+                "type": "word",
+                "start": 78,
+                "end": 79,
+                "value": "3"
+            },
+            {
+                "time": 2550,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2850,
+                "type": "word",
+                "start": 103,
+                "end": 104,
+                "value": "4"
+            },
+            {
+                "time": 3609,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3909,
+                "type": "word",
+                "start": 128,
+                "end": 129,
+                "value": "5"
+            },
+            {
+                "time": 4583,
+                "type": "word",
+                "start": 131,
+                "end": 152,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4877,
+                "type": "word",
+                "start": 153,
+                "end": 154,
+                "value": "6"
+            },
+            {
+                "time": 5671,
+                "type": "word",
+                "start": 156,
+                "end": 177,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5971,
+                "type": "word",
+                "start": 178,
+                "end": 179,
+                "value": "7"
+            },
+            {
+                "time": 6757,
+                "type": "word",
+                "start": 180,
+                "end": 201,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7051,
+                "type": "word",
+                "start": 203,
+                "end": 204,
+                "value": "8"
+            },
+            {
+                "time": 7664,
+                "type": "word",
+                "start": 205,
+                "end": 226,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7964,
+                "type": "word",
+                "start": 228,
+                "end": 229,
+                "value": "9"
+            },
+            {
+                "time": 8632,
+                "type": "word",
+                "start": 230,
+                "end": 251,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8925,
+                "type": "word",
+                "start": 253,
+                "end": 255,
+                "value": "10"
+            },
+            {
+                "time": 9407,
+                "type": "word",
+                "start": 257,
+                "end": 278,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Here I come.",
+        "words": [
+            "Here",
+            "I",
+            "come."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3567008972168,
+                    266.6860046386719
+                ],
+                [
+                    106.63670349121094,
+                    290.5060119628906
+                ]
+            ],
+            [
+                [
+                    111.63670349121094,
+                    266.6860046386719
+                ],
+                [
+                    119.03670501708984,
+                    290.5060119628906
+                ]
+            ],
+            [
+                [
+                    124.03670501708984,
+                    266.6860046386719
+                ],
+                [
+                    183.7766876220703,
+                    290.5060119628906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Here <break time='200ms'/> I <break time='200ms'/> come. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Here"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 863,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "I"
+            },
+            {
+                "time": 1454,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1755,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "come"
+            },
+            {
+                "time": 2271,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">lion</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>lion</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "lion"
             }
         ]
@@ -90,7 +91,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in a den.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in a den.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
@@ -98,36 +99,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 183,
+                "time": 191,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 518,
+                "time": 547,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
             },
             {
-                "time": 633,
+                "time": 662,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 703,
+                "time": 731,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "den"
             }
         ]
@@ -149,15 +150,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dog</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "dog"
             }
         ]
@@ -223,7 +225,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in a kennel.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in a kennel.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -231,36 +233,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 125,
+                "time": 136,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 358,
+                "time": 384,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
             },
             {
-                "time": 459,
+                "time": 484,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 531,
+                "time": 566,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "kennel"
             }
         ]
@@ -282,15 +284,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hen</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>hen</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "hen"
             }
         ]
@@ -356,44 +359,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in a coop.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in a coop.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "old woman",
+        "voice_id": "Kimberly",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 161,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 371,
+                "time": 416,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
             },
             {
-                "time": 492,
+                "time": 633,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 551,
+                "time": 699,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "coop"
             }
         ]
@@ -415,15 +418,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">fish</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>fish</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "fish"
             }
         ]
@@ -489,7 +493,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We live in a pond.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We live in a pond.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -497,36 +501,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 158,
+                "time": 162,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "live"
             },
             {
-                "time": 461,
+                "time": 473,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "in"
             },
             {
-                "time": 563,
+                "time": 574,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 611,
+                "time": 622,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "pond"
             }
         ]

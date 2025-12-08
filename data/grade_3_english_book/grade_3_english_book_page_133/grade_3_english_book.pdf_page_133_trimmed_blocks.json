@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "124",
-        "words": [
-            "124"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    26.707500457763672,
-                    24.34998893737793
-                ],
-                [
-                    64.80750274658203,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">124</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "124"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and read.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 602,
+                "time": 635,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "read"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "plane bicycle ship",
         "words": [
             "plane",
@@ -134,34 +105,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">plane bicycle ship</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>plane bicycle ship</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "plane"
             },
             {
-                "time": 378,
+                "time": 382,
                 "type": "word",
-                "start": 33,
-                "end": 40,
+                "start": 34,
+                "end": 41,
                 "value": "bicycle"
             },
             {
-                "time": 916,
+                "time": 947,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "ship"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "jeep train lorry",
         "words": [
             "jeep",
@@ -200,34 +172,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">jeep train lorry</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>jeep train lorry</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "jeep"
             },
             {
-                "time": 404,
+                "time": 423,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "train"
             },
             {
-                "time": 785,
+                "time": 829,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 39,
+                "end": 44,
                 "value": "lorry"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "bus jet van",
         "words": [
             "bus",
@@ -266,62 +239,43 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bus jet van</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>bus jet van</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "bus"
             },
             {
-                "time": 262,
+                "time": 272,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "jet"
             },
             {
-                "time": 546,
+                "time": 569,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "van"
             }
         ]
     },
-    "5": {
-        "text": "car boat three wheeler",
+    "4": {
+        "text": "three wheeler boat car",
         "words": [
-            "car",
-            "boat",
             "three",
-            "wheeler"
+            "wheeler",
+            "boat",
+            "car"
         ],
         "bounding_boxes": [
-            [
-                [
-                    106.90299987792969,
-                    633.8340454101562
-                ],
-                [
-                    133.2010040283203,
-                    655.2720336914062
-                ]
-            ],
-            [
-                [
-                    291.6730041503906,
-                    641.426025390625
-                ],
-                [
-                    330.44500732421875,
-                    662.864013671875
-                ]
-            ],
             [
                 [
                     463.7869873046875,
@@ -341,39 +295,60 @@
                     519.5870361328125,
                     664.3040161132812
                 ]
+            ],
+            [
+                [
+                    291.6730041503906,
+                    641.426025390625
+                ],
+                [
+                    330.44500732421875,
+                    662.864013671875
+                ]
+            ],
+            [
+                [
+                    106.90299987792969,
+                    633.8340454101562
+                ],
+                [
+                    133.2010040283203,
+                    655.2720336914062
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">car boat three wheeler</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>three wheeler boat car</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "car"
-            },
-            {
-                "time": 273,
-                "type": "word",
-                "start": 31,
-                "end": 35,
-                "value": "boat"
-            },
-            {
-                "time": 521,
-                "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 28,
+                "end": 33,
                 "value": "three"
             },
             {
-                "time": 806,
+                "time": 262,
+                "type": "word",
+                "start": 34,
+                "end": 41,
+                "value": "wheeler"
+            },
+            {
+                "time": 622,
                 "type": "word",
                 "start": 42,
-                "end": 49,
-                "value": "wheeler"
+                "end": 46,
+                "value": "boat"
+            },
+            {
+                "time": 967,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "car"
             }
         ]
     }

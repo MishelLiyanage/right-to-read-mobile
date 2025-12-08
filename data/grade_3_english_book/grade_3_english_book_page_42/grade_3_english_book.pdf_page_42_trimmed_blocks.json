@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Point"
             },
             {
                 "time": 357,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
                 "time": 531,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
@@ -104,29 +105,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">apple an apple</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>apple an apple</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "apple"
             },
             {
-                "time": 386,
+                "time": 417,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
-                "time": 486,
+                "time": 518,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "apple"
             }
         ]
@@ -181,36 +183,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is an apple.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is an apple.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 125,
+                "time": 131,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
-                "time": 421,
+                "time": 432,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "apple"
             }
         ]
@@ -254,29 +257,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">butterfly a butterfly</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>butterfly a butterfly</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "butterfly"
             },
             {
-                "time": 733,
+                "time": 750,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 778,
+                "time": 795,
                 "type": "word",
-                "start": 39,
-                "end": 48,
+                "start": 40,
+                "end": 49,
                 "value": "butterfly"
             }
         ]
@@ -331,191 +335,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is a butterfly.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is a butterfly.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 144,
+                "time": 149,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 298,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 348,
+                "time": 360,
                 "type": "word",
-                "start": 35,
-                "end": 44,
+                "start": 36,
+                "end": 45,
                 "value": "butterfly"
             }
         ]
     },
     "5": {
-        "text": "elephant an elephant",
-        "words": [
-            "elephant",
-            "an",
-            "elephant"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    162.63999938964844,
-                    237.39901733398438
-                ],
-                [
-                    247.24000549316406,
-                    261.2190246582031
-                ]
-            ],
-            [
-                [
-                    162.63999938964844,
-                    267.3990173339844
-                ],
-                [
-                    187.40000915527344,
-                    291.2190246582031
-                ]
-            ],
-            [
-                [
-                    192.40000915527344,
-                    267.3990173339844
-                ],
-                [
-                    277.0,
-                    291.2190246582031
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">elephant an elephant</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "elephant"
-            },
-            {
-                "time": 541,
-                "type": "word",
-                "start": 36,
-                "end": 38,
-                "value": "an"
-            },
-            {
-                "time": 675,
-                "type": "word",
-                "start": 39,
-                "end": 47,
-                "value": "elephant"
-            }
-        ]
-    },
-    "6": {
-        "text": "It is an elephant.",
-        "words": [
-            "It",
-            "is",
-            "an",
-            "elephant."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    162.63999938964844,
-                    300.281982421875
-                ],
-                [
-                    175.38999938964844,
-                    320.52899169921875
-                ]
-            ],
-            [
-                [
-                    179.47000122070312,
-                    300.281982421875
-                ],
-                [
-                    191.35299682617188,
-                    320.52899169921875
-                ]
-            ],
-            [
-                [
-                    195.60299682617188,
-                    300.281982421875
-                ],
-                [
-                    216.6490020751953,
-                    320.52899169921875
-                ]
-            ],
-            [
-                [
-                    220.8990020751953,
-                    300.281982421875
-                ],
-                [
-                    298.1470031738281,
-                    320.52899169921875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">It is an elephant.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "It"
-            },
-            {
-                "time": 125,
-                "type": "word",
-                "start": 30,
-                "end": 32,
-                "value": "is"
-            },
-            {
-                "time": 299,
-                "type": "word",
-                "start": 33,
-                "end": 35,
-                "value": "an"
-            },
-            {
-                "time": 421,
-                "type": "word",
-                "start": 36,
-                "end": 44,
-                "value": "elephant"
-            }
-        ]
-    },
-    "7": {
         "text": "cat a cat",
         "words": [
             "cat",
@@ -554,34 +409,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cat a cat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>cat a cat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "cat"
             },
             {
-                "time": 265,
+                "time": 277,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 324,
+                "time": 336,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "cat"
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "It is a cat.",
         "words": [
             "It",
@@ -631,37 +487,190 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is a cat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is a cat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 146,
+                "time": 151,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 320,
+                "time": 331,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 374,
+                "time": 385,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "cat"
+            }
+        ]
+    },
+    "7": {
+        "text": "elephant an elephant",
+        "words": [
+            "elephant",
+            "an",
+            "elephant"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    162.63999938964844,
+                    237.39901733398438
+                ],
+                [
+                    247.24000549316406,
+                    261.2190246582031
+                ]
+            ],
+            [
+                [
+                    162.63999938964844,
+                    267.3990173339844
+                ],
+                [
+                    187.40000915527344,
+                    291.2190246582031
+                ]
+            ],
+            [
+                [
+                    192.40000915527344,
+                    267.3990173339844
+                ],
+                [
+                    277.0,
+                    291.2190246582031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>elephant an elephant</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "elephant"
+            },
+            {
+                "time": 558,
+                "type": "word",
+                "start": 37,
+                "end": 39,
+                "value": "an"
+            },
+            {
+                "time": 693,
+                "type": "word",
+                "start": 40,
+                "end": 48,
+                "value": "elephant"
+            }
+        ]
+    },
+    "8": {
+        "text": "It is an elephant.",
+        "words": [
+            "It",
+            "is",
+            "an",
+            "elephant."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    162.63999938964844,
+                    300.281982421875
+                ],
+                [
+                    175.38999938964844,
+                    320.52899169921875
+                ]
+            ],
+            [
+                [
+                    179.47000122070312,
+                    300.281982421875
+                ],
+                [
+                    191.35299682617188,
+                    320.52899169921875
+                ]
+            ],
+            [
+                [
+                    195.60299682617188,
+                    300.281982421875
+                ],
+                [
+                    216.6490020751953,
+                    320.52899169921875
+                ]
+            ],
+            [
+                [
+                    220.8990020751953,
+                    300.281982421875
+                ],
+                [
+                    298.1470031738281,
+                    320.52899169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It is an elephant.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 131,
+                "type": "word",
+                "start": 31,
+                "end": 33,
+                "value": "is"
+            },
+            {
+                "time": 310,
+                "type": "word",
+                "start": 34,
+                "end": 36,
+                "value": "an"
+            },
+            {
+                "time": 432,
+                "type": "word",
+                "start": 37,
+                "end": 45,
+                "value": "elephant"
             }
         ]
     },
@@ -704,29 +713,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">igloo an igloo</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>igloo an igloo</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "igloo"
             },
             {
                 "time": 290,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
                 "time": 439,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "igloo"
             }
         ]
@@ -781,36 +791,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is an igloo.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is an igloo.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 125,
+                "time": 131,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
-                "time": 420,
+                "time": 431,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "igloo"
             }
         ]
@@ -854,29 +865,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">dog a dog</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>dog a dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "dog"
             },
             {
-                "time": 341,
+                "time": 340,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "a"
             },
             {
-                "time": 374,
+                "time": 381,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "dog"
             }
         ]
@@ -931,36 +943,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is a dog.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is a dog.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 144,
+                "time": 154,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 319,
+                "time": 336,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 374,
+                "time": 391,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "dog"
             }
         ]
@@ -1004,29 +1017,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">orange an orange</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>orange an orange</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 7,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "orange"
             },
             {
-                "time": 361,
+                "time": 372,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "an"
             },
             {
-                "time": 477,
+                "time": 488,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "orange"
             }
         ]
@@ -1081,36 +1095,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is an orange.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is an orange.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 125,
+                "time": 131,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
-                "time": 429,
+                "time": 440,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 37,
+                "end": 43,
                 "value": "orange"
             }
         ]
@@ -1154,29 +1169,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">mango a mango</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>mango a mango</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "mango"
             },
             {
-                "time": 466,
+                "time": 484,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 495,
+                "time": 514,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "mango"
             }
         ]
@@ -1231,36 +1247,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is a mango.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is a mango.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 125,
+                "time": 131,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 346,
+                "time": 357,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "mango"
             }
         ]
@@ -1304,29 +1321,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">umbrella an umbrella</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>umbrella an umbrella</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "umbrella"
             },
             {
-                "time": 524,
+                "time": 548,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "an"
             },
             {
-                "time": 651,
+                "time": 675,
                 "type": "word",
-                "start": 39,
-                "end": 47,
+                "start": 40,
+                "end": 48,
                 "value": "umbrella"
             }
         ]
@@ -1381,36 +1399,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is an umbrella.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is an umbrella.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 125,
+                "time": 131,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "an"
             },
             {
-                "time": 417,
+                "time": 428,
                 "type": "word",
-                "start": 36,
-                "end": 44,
+                "start": 37,
+                "end": 45,
                 "value": "umbrella"
             }
         ]
@@ -1454,29 +1473,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">rose a rose</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>rose a rose</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "rose"
             },
             {
-                "time": 349,
+                "time": 363,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 410,
+                "time": 424,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "rose"
             }
         ]
@@ -1531,36 +1551,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is a rose.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is a rose.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 150,
+                "time": 155,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 304,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 362,
+                "time": 367,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "rose"
             }
         ]

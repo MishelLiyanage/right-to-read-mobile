@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
@@ -141,69 +142,119 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen a nd p oint to the clock.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen a nd p oint to the clock.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 382,
+                "time": 412,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 460,
+                "time": 490,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "nd"
             },
             {
-                "time": 869,
+                "time": 917,
                 "type": "word",
-                "start": 39,
-                "end": 40,
+                "start": 40,
+                "end": 41,
                 "value": "p"
             },
             {
-                "time": 1137,
+                "time": 1198,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "oint"
             },
             {
-                "time": 1382,
+                "time": 1444,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "to"
             },
             {
-                "time": 1516,
+                "time": 1578,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 50,
+                "end": 53,
                 "value": "the"
             },
             {
-                "time": 1646,
+                "time": 1708,
                 "type": "word",
-                "start": 53,
-                "end": 58,
+                "start": 54,
+                "end": 59,
                 "value": "clock"
             }
         ]
     },
     "2": {
+        "text": "Telling time",
+        "words": [
+            "Telling",
+            "time"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    395.41180419921875,
+                    52.00137710571289
+                ],
+                [
+                    449.2137756347656,
+                    73.43937683105469
+                ]
+            ],
+            [
+                [
+                    453.5337829589844,
+                    52.00137710571289
+                ],
+                [
+                    493.4217834472656,
+                    73.43937683105469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Telling time</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Telling"
+            },
+            {
+                "time": 468,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "time"
+            }
+        ]
+    },
+    "3": {
         "text": "It's six thirty in the morning.",
         "words": [
             "It's",
@@ -275,55 +326,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s six thirty in the morning.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's six thirty in the morning.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 221,
+                "time": 227,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "six"
             },
             {
-                "time": 546,
+                "time": 563,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 37,
+                "end": 43,
                 "value": "thirty"
             },
             {
-                "time": 883,
+                "time": 905,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 44,
+                "end": 46,
                 "value": "in"
             },
             {
-                "time": 995,
+                "time": 1016,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 47,
+                "end": 50,
                 "value": "the"
             },
             {
-                "time": 1055,
+                "time": 1077,
                 "type": "word",
-                "start": 55,
-                "end": 62,
+                "start": 51,
+                "end": 58,
                 "value": "morning"
             }
         ]
     },
-    "3": {
+    "4": {
         "text": "It's time to go to school.",
         "words": [
             "It's",
@@ -395,55 +447,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s time to go to school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's time to go to school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
                 "time": 230,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "time"
             },
             {
-                "time": 526,
+                "time": 527,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 38,
+                "end": 40,
                 "value": "to"
             },
             {
-                "time": 631,
+                "time": 632,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 41,
+                "end": 43,
                 "value": "go"
             },
             {
-                "time": 869,
+                "time": 876,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 44,
+                "end": 46,
                 "value": "to"
             },
             {
-                "time": 1001,
+                "time": 1009,
                 "type": "word",
-                "start": 51,
-                "end": 57,
+                "start": 47,
+                "end": 53,
                 "value": "school"
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "Senuri is going to school.",
         "words": [
             "Senuri",
@@ -504,48 +557,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is going to school.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is going to school.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 628,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 741,
+                "time": 784,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 84,
+                "end": 89,
                 "value": "going"
             },
             {
-                "time": 1043,
+                "time": 1033,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 90,
+                "end": 92,
                 "value": "to"
             },
             {
-                "time": 1165,
+                "time": 1154,
                 "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 93,
+                "end": 99,
                 "value": "school"
             }
         ]
     },
-    "5": {
+    "6": {
         "text": "It's ten thirty.",
         "words": [
             "It's",
@@ -584,34 +638,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s ten thirty.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's ten thirty.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
                 "time": 245,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "ten"
             },
             {
-                "time": 525,
+                "time": 537,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 37,
+                "end": 43,
                 "value": "thirty"
             }
         ]
     },
-    "6": {
+    "7": {
         "text": "It's play time.",
         "words": [
             "It's",
@@ -650,34 +705,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s play time.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's play time.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 264,
+                "time": 269,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "play"
             },
             {
-                "time": 539,
+                "time": 549,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 38,
+                "end": 42,
                 "value": "time"
             }
         ]
     },
-    "7": {
+    "8": {
         "text": "Senuri is playing with her friends.",
         "words": [
             "Senuri",
@@ -749,55 +805,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is playing with her friends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is playing with her friends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 630,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 756,
+                "time": 813,
                 "type": "word",
-                "start": 37,
-                "end": 44,
+                "start": 84,
+                "end": 91,
                 "value": "playing"
             },
             {
-                "time": 1196,
+                "time": 1280,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 92,
+                "end": 96,
                 "value": "with"
             },
             {
-                "time": 1358,
+                "time": 1461,
                 "type": "word",
-                "start": 50,
-                "end": 53,
+                "start": 97,
+                "end": 100,
                 "value": "her"
             },
             {
-                "time": 1500,
+                "time": 1596,
                 "type": "word",
-                "start": 54,
-                "end": 61,
+                "start": 101,
+                "end": 108,
                 "value": "friends"
             }
         ]
     },
-    "8": {
+    "9": {
         "text": "It's one o'clock.",
         "words": [
             "It's",
@@ -836,34 +893,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s one o&apos;clock.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's one o'clock.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
                 "time": 228,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "one"
             },
             {
-                "time": 447,
+                "time": 459,
                 "type": "word",
-                "start": 41,
-                "end": 53,
-                "value": "o&apos;clock"
+                "start": 37,
+                "end": 44,
+                "value": "o'clock"
             }
         ]
     },
-    "9": {
+    "10": {
         "text": "It's time to go home.",
         "words": [
             "It's",
@@ -924,48 +982,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s time to go home.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's time to go home.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
                 "time": 245,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "time"
             },
             {
                 "time": 543,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 38,
+                "end": 40,
                 "value": "to"
             },
             {
                 "time": 655,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 41,
+                "end": 43,
                 "value": "go"
             },
             {
                 "time": 919,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 44,
+                "end": 48,
                 "value": "home"
             }
         ]
     },
-    "10": {
+    "11": {
         "text": "Senuri is going home.",
         "words": [
             "Senuri",
@@ -1015,41 +1074,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is going home.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is going home.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 634,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 741,
+                "time": 785,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 84,
+                "end": 89,
                 "value": "going"
             },
             {
-                "time": 1082,
+                "time": 1132,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 90,
+                "end": 94,
                 "value": "home"
             }
         ]
     },
-    "11": {
+    "12": {
         "text": "It's five-fifteen.",
         "words": [
             "It's",
@@ -1077,34 +1137,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s five fifteen.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's five-fifteen.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 262,
+                "time": 261,
                 "type": "word",
-                "start": 37,
-                "end": 41,
-                "value": "five"
-            },
-            {
-                "time": 622,
-                "type": "word",
-                "start": 42,
-                "end": 49,
-                "value": "fifteen"
+                "start": 33,
+                "end": 45,
+                "value": "five-fifteen"
             }
         ]
     },
-    "12": {
+    "13": {
         "text": "It's tea time.",
         "words": [
             "It's",
@@ -1143,34 +1197,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s tea time.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's tea time.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 258,
+                "time": 265,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "tea"
             },
             {
-                "time": 482,
+                "time": 501,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 37,
+                "end": 41,
                 "value": "time"
             }
         ]
     },
-    "13": {
+    "14": {
         "text": "Senuri is drinking tea with her sisiter.",
         "words": [
             "Senuri",
@@ -1253,62 +1308,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is drinking tea with her sisiter.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is drinking tea with her sisiter.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 634,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 758,
+                "time": 779,
                 "type": "word",
-                "start": 37,
-                "end": 45,
+                "start": 84,
+                "end": 92,
                 "value": "drinking"
             },
             {
-                "time": 1251,
+                "time": 1255,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 93,
+                "end": 96,
                 "value": "tea"
             },
             {
-                "time": 1483,
+                "time": 1500,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 97,
+                "end": 101,
                 "value": "with"
             },
             {
-                "time": 1677,
+                "time": 1694,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 102,
+                "end": 105,
                 "value": "her"
             },
             {
-                "time": 1840,
+                "time": 1857,
                 "type": "word",
-                "start": 59,
-                "end": 66,
+                "start": 106,
+                "end": 113,
                 "value": "sisiter"
             }
         ]
     },
-    "14": {
+    "15": {
         "text": "It's eight forty five.",
         "words": [
             "It's",
@@ -1358,41 +1414,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s eight forty five.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's eight forty five.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 264,
+                "time": 263,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 33,
+                "end": 38,
                 "value": "eight"
             },
             {
-                "time": 479,
+                "time": 490,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 39,
+                "end": 44,
                 "value": "forty"
             },
             {
-                "time": 839,
+                "time": 863,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 45,
+                "end": 49,
                 "value": "five"
             }
         ]
     },
-    "15": {
+    "16": {
         "text": "It's time to go to bed.",
         "words": [
             "It's",
@@ -1464,55 +1521,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s time to go to bed.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's time to go to bed.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
                 "time": 245,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "time"
             },
             {
                 "time": 543,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 38,
+                "end": 40,
                 "value": "to"
             },
             {
                 "time": 655,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 41,
+                "end": 43,
                 "value": "go"
             },
             {
-                "time": 865,
+                "time": 879,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 44,
+                "end": 46,
                 "value": "to"
             },
             {
-                "time": 988,
+                "time": 1002,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 47,
+                "end": 50,
                 "value": "bed"
             }
         ]
     },
-    "16": {
+    "17": {
         "text": "Senuri is going to bed.",
         "words": [
             "Senuri",
@@ -1573,43 +1631,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri is going to bed.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> is going to bed.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 593,
+                "time": 628,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 81,
+                "end": 83,
                 "value": "is"
             },
             {
-                "time": 741,
+                "time": 784,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 84,
+                "end": 89,
                 "value": "going"
             },
             {
-                "time": 1043,
+                "time": 1033,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 90,
+                "end": 92,
                 "value": "to"
             },
             {
-                "time": 1159,
+                "time": 1148,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 93,
+                "end": 96,
                 "value": "bed"
             }
         ]

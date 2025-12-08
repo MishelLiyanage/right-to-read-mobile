@@ -1,0 +1,692 @@
+{
+    "0": {
+        "text": "Listen and point.",
+        "words": [
+            "Listen",
+            "and",
+            "point."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    51.704010009765625
+                ],
+                [
+                    114.7470932006836,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    119.7470932006836,
+                    51.704010009765625
+                ],
+                [
+                    156.66709899902344,
+                    75.52400970458984
+                ]
+            ],
+            [
+                [
+                    161.66709899902344,
+                    51.704010009765625
+                ],
+                [
+                    216.34710693359375,
+                    75.52400970458984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> point. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1623,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1920,
+                "type": "word",
+                "start": 83,
+                "end": 88,
+                "value": "point"
+            },
+            {
+                "time": 2499,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Good morning, children! Let's go to the computer lab.",
+        "words": [
+            "Good",
+            "morning,",
+            "children!",
+            "Let's",
+            "go",
+            "to",
+            "the",
+            "computer",
+            "lab."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    66.72709655761719,
+                    119.0259780883789
+                ],
+                [
+                    109.38009643554688,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    113.63009643554688,
+                    119.0259780883789
+                ],
+                [
+                    186.79811096191406,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    190.19810485839844,
+                    119.0259780883789
+                ],
+                [
+                    259.4051208496094,
+                    139.27297973632812
+                ]
+            ],
+            [
+                [
+                    66.72709655761719,
+                    139.42599487304688
+                ],
+                [
+                    103.10710144042969,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    107.35710144042969,
+                    139.42599487304688
+                ],
+                [
+                    127.26409912109375,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    131.34410095214844,
+                    139.42599487304688
+                ],
+                [
+                    147.12010192871094,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    151.20010375976562,
+                    139.42599487304688
+                ],
+                [
+                    178.00912475585938,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    182.25912475585938,
+                    139.42599487304688
+                ],
+                [
+                    260.6461486816406,
+                    159.67300415039062
+                ]
+            ],
+            [
+                [
+                    264.72613525390625,
+                    139.42599487304688
+                ],
+                [
+                    294.9011535644531,
+                    159.67300415039062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Good <break time='200ms'/> morning, <break time='200ms'/> children! <break time='200ms'/> Let's <break time='200ms'/> go <break time='200ms'/> to <break time='200ms'/> the <break time='200ms'/> computer <break time='200ms'/> lab. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Good"
+            },
+            {
+                "time": 617,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 917,
+                "type": "word",
+                "start": 55,
+                "end": 62,
+                "value": "morning"
+            },
+            {
+                "time": 1701,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1994,
+                "type": "word",
+                "start": 86,
+                "end": 94,
+                "value": "children"
+            },
+            {
+                "time": 2749,
+                "type": "word",
+                "start": 96,
+                "end": 117,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3336,
+                "type": "word",
+                "start": 118,
+                "end": 123,
+                "value": "Let's"
+            },
+            {
+                "time": 3970,
+                "type": "word",
+                "start": 124,
+                "end": 145,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4267,
+                "type": "word",
+                "start": 146,
+                "end": 148,
+                "value": "go"
+            },
+            {
+                "time": 4881,
+                "type": "word",
+                "start": 149,
+                "end": 170,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5181,
+                "type": "word",
+                "start": 171,
+                "end": 173,
+                "value": "to"
+            },
+            {
+                "time": 5818,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6118,
+                "type": "word",
+                "start": 196,
+                "end": 199,
+                "value": "the"
+            },
+            {
+                "time": 6554,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6854,
+                "type": "word",
+                "start": 222,
+                "end": 230,
+                "value": "computer"
+            },
+            {
+                "time": 7729,
+                "type": "word",
+                "start": 231,
+                "end": 252,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8030,
+                "type": "word",
+                "start": 253,
+                "end": 256,
+                "value": "lab"
+            },
+            {
+                "time": 8608,
+                "type": "word",
+                "start": 258,
+                "end": 279,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "This is a computer. A computer has many parts.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "computer.",
+            "A",
+            "computer",
+            "has",
+            "many",
+            "parts."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    251.583984375
+                ],
+                [
+                    96.50709533691406,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    101.50709533691406,
+                    251.583984375
+                ],
+                [
+                    115.48709106445312,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    120.48709106445312,
+                    251.583984375
+                ],
+                [
+                    132.6470947265625,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    137.6470947265625,
+                    251.583984375
+                ],
+                [
+                    235.3470916748047,
+                    275.40399169921875
+                ]
+            ],
+            [
+                [
+                    59.527099609375,
+                    275.583984375
+                ],
+                [
+                    72.9271011352539,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    77.527099609375,
+                    275.583984375
+                ],
+                [
+                    169.74710083007812,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    174.54710388183594,
+                    275.583984375
+                ],
+                [
+                    208.40711975097656,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    213.40711975097656,
+                    275.583984375
+                ],
+                [
+                    268.6471252441406,
+                    299.40399169921875
+                ]
+            ],
+            [
+                [
+                    273.4471130371094,
+                    275.583984375
+                ],
+                [
+                    328.14715576171875,
+                    299.40399169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> computer. <break time='200ms'/> A <break time='200ms'/> computer <break time='200ms'/> has <break time='200ms'/> many <break time='200ms'/> parts. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 971,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1534,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1827,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2527,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2820,
+                "type": "word",
+                "start": 104,
+                "end": 112,
+                "value": "computer"
+            },
+            {
+                "time": 3577,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4163,
+                "type": "word",
+                "start": 136,
+                "end": 137,
+                "value": "A"
+            },
+            {
+                "time": 4863,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5156,
+                "type": "word",
+                "start": 160,
+                "end": 168,
+                "value": "computer"
+            },
+            {
+                "time": 6020,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6313,
+                "type": "word",
+                "start": 191,
+                "end": 194,
+                "value": "has"
+            },
+            {
+                "time": 6961,
+                "type": "word",
+                "start": 195,
+                "end": 216,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7254,
+                "type": "word",
+                "start": 217,
+                "end": 221,
+                "value": "many"
+            },
+            {
+                "time": 7955,
+                "type": "word",
+                "start": 222,
+                "end": 243,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8248,
+                "type": "word",
+                "start": 244,
+                "end": 249,
+                "value": "parts"
+            },
+            {
+                "time": 8936,
+                "type": "word",
+                "start": 251,
+                "end": 272,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "CPU monitor",
+        "words": [
+            "CPU",
+            "monitor"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    480.72698974609375,
+                    318.1239929199219
+                ],
+                [
+                    521.6669921875,
+                    341.9440002441406
+                ]
+            ],
+            [
+                [
+                    188.26699829101562,
+                    318.1239929199219
+                ],
+                [
+                    262.76702880859375,
+                    341.9440002441406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>CPU <break time='200ms'/> monitor <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "CPU"
+            },
+            {
+                "time": 1120,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1327,
+                "type": "word",
+                "start": 54,
+                "end": 61,
+                "value": "monitor"
+            },
+            {
+                "time": 2206,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "keyboard mouse",
+        "words": [
+            "keyboard",
+            "mouse"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    167.32699584960938,
+                    637.0040283203125
+                ],
+                [
+                    253.0869903564453,
+                    660.823974609375
+                ]
+            ],
+            [
+                [
+                    403.3269958496094,
+                    652.9239501953125
+                ],
+                [
+                    468.12701416015625,
+                    676.7439575195312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>keyboard <break time='200ms'/> mouse <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "keyboard"
+            },
+            {
+                "time": 914,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1214,
+                "type": "word",
+                "start": 59,
+                "end": 64,
+                "value": "mouse"
+            },
+            {
+                "time": 1988,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

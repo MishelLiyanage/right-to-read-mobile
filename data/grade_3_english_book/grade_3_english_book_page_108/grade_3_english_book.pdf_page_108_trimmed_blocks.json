@@ -49,43 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1462,
+                "time": 1172,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1641,
+                "time": 1351,
                 "type": "word",
-                "start": 66,
-                "end": 72,
+                "start": 46,
+                "end": 52,
                 "value": "repeat"
             }
         ]
@@ -107,15 +101,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Shapes</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Shapes</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Shapes"
             }
         ]
@@ -159,29 +154,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">rectangle square triangle</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>rectangle square triangle</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "rectangle"
             },
             {
-                "time": 685,
+                "time": 715,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "square"
             },
             {
-                "time": 1124,
+                "time": 1167,
                 "type": "word",
-                "start": 44,
-                "end": 52,
+                "start": 45,
+                "end": 53,
                 "value": "triangle"
             }
         ]
@@ -214,22 +210,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">oval circle</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>oval circle</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "oval"
             },
             {
-                "time": 306,
+                "time": 317,
                 "type": "word",
-                "start": 32,
-                "end": 38,
+                "start": 33,
+                "end": 39,
                 "value": "circle"
             }
         ]
@@ -284,36 +281,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud the pattern.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud the pattern.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 268,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             },
             {
-                "time": 650,
+                "time": 675,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "the"
             },
             {
-                "time": 729,
+                "time": 754,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 43,
+                "end": 50,
                 "value": "pattern"
             }
         ]
@@ -335,15 +333,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             }
         ]
@@ -365,15 +364,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             }
         ]
@@ -395,15 +395,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             }
         ]
@@ -425,15 +426,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>4.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "4"
             }
         ]

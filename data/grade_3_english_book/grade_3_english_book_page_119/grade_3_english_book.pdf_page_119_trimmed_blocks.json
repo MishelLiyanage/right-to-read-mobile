@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and speak.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and speak.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 254,
+                "time": 263,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 441,
+                "time": 450,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "speak"
             }
         ]
@@ -126,7 +127,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I am Tick,<break time=\"300ms\"/> the mouse.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I am Tick, the mouse.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -134,43 +135,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 184,
+                "time": 195,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "am"
             },
             {
-                "time": 358,
+                "time": 374,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "Tick"
             },
             {
-                "time": 828,
+                "time": 946,
                 "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1228,
-                "type": "word",
-                "start": 59,
-                "end": 62,
+                "start": 39,
+                "end": 42,
                 "value": "the"
             },
             {
-                "time": 1313,
+                "time": 1031,
                 "type": "word",
-                "start": 63,
-                "end": 68,
+                "start": 43,
+                "end": 48,
                 "value": "mouse"
             }
         ]
@@ -225,7 +219,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My face is a</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My face is a</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -233,29 +227,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 163,
+                "time": 169,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "face"
             },
             {
-                "time": 532,
+                "time": 549,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "is"
             },
             {
-                "time": 702,
+                "time": 723,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             }
         ]
@@ -310,7 +304,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My ears are two</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My ears are two</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -318,29 +312,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 275,
+                "time": 290,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "ears"
             },
             {
-                "time": 511,
+                "time": 533,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "are"
             },
             {
-                "time": 609,
+                "time": 632,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "two"
             }
         ]
@@ -395,7 +389,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My eyes are two</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My eyes are two</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -403,29 +397,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 335,
+                "time": 352,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "eyes"
             },
             {
-                "time": 709,
+                "time": 744,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "are"
             },
             {
-                "time": 835,
+                "time": 870,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "two"
             }
         ]
@@ -480,7 +474,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My fingers are small</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My fingers are small</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -488,29 +482,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 180,
+                "time": 185,
                 "type": "word",
-                "start": 30,
-                "end": 37,
+                "start": 31,
+                "end": 38,
                 "value": "fingers"
             },
             {
-                "time": 738,
+                "time": 772,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "are"
             },
             {
-                "time": 885,
+                "time": 934,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "small"
             }
         ]
@@ -576,50 +570,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look at the pictures.<break time=\"500ms\"/> Speak.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look at the pictures. Speak.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
-                "time": 221,
+                "time": 227,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "at"
             },
             {
-                "time": 345,
+                "time": 350,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 428,
+                "time": 433,
                 "type": "word",
-                "start": 39,
-                "end": 47,
+                "start": 40,
+                "end": 48,
                 "value": "pictures"
             },
             {
-                "time": 1224,
+                "time": 1650,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2110,
-                "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 50,
+                "end": 55,
                 "value": "Speak"
             }
         ]

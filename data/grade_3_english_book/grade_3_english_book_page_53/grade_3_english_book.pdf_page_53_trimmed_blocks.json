@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 266,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
@@ -108,63 +109,68 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The best eco friend is Raveen.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The best eco-friend is <phoneme alphabet='ipa' ph='ravi\u02d0n'>Raveen</phoneme>.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 116,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "best"
             },
             {
-                "time": 563,
+                "time": 577,
                 "type": "word",
-                "start": 36,
-                "end": 39,
-                "value": "eco"
+                "start": 37,
+                "end": 47,
+                "value": "eco-friend"
             },
             {
-                "time": 871,
+                "time": 1320,
                 "type": "word",
-                "start": 40,
-                "end": 46,
-                "value": "friend"
-            },
-            {
-                "time": 1277,
-                "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "is"
             },
             {
-                "time": 1470,
+                "time": 1519,
                 "type": "word",
-                "start": 50,
-                "end": 56,
+                "start": 88,
+                "end": 94,
                 "value": "Raveen"
             }
         ]
     },
     "2": {
-        "text": "I clean the garden.",
+        "text": "\uf09f I clean the garden.",
         "words": [
+            "\uf09f",
             "I",
             "clean",
             "the",
             "garden."
         ],
         "bounding_boxes": [
+            [
+                [
+                    246.2969970703125,
+                    548.8909912109375
+                ],
+                [
+                    255.45700073242188,
+                    571.0909423828125
+                ]
+            ],
             [
                 [
                     282.2969970703125,
@@ -206,49 +212,61 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I clean the garden.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I clean the garden.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 129,
+                "time": 134,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "clean"
             },
             {
-                "time": 491,
+                "time": 508,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 581,
+                "time": 598,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "garden"
             }
         ]
     },
     "3": {
-        "text": "I water the plants.",
+        "text": "\uf09f I water the plants.",
         "words": [
+            "\uf09f",
             "I",
             "water",
             "the",
             "plants."
         ],
         "bounding_boxes": [
+            [
+                [
+                    246.2969970703125,
+                    579.8909912109375
+                ],
+                [
+                    255.45700073242188,
+                    602.0909423828125
+                ]
+            ],
             [
                 [
                     282.2969970703125,
@@ -290,47 +308,59 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I water the plants.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I water the plants.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
                 "time": 89,
                 "type": "word",
-                "start": 29,
-                "end": 34,
+                "start": 30,
+                "end": 35,
                 "value": "water"
             },
             {
-                "time": 454,
+                "time": 459,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 591,
+                "time": 597,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "plants"
             }
         ]
     },
     "4": {
-        "text": "I weed.",
+        "text": "\uf09f I weed.",
         "words": [
+            "\uf09f",
             "I",
             "weed."
         ],
         "bounding_boxes": [
+            [
+                [
+                    246.2969970703125,
+                    610.8909912109375
+                ],
+                [
+                    255.45700073242188,
+                    633.0909423828125
+                ]
+            ],
             [
                 [
                     282.2969970703125,
@@ -352,34 +382,46 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I weed.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I weed.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 105,
+                "time": 110,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "weed"
             }
         ]
     },
     "5": {
-        "text": "I pick litter.",
+        "text": "\uf09f I pick litter.",
         "words": [
+            "\uf09f",
             "I",
             "pick",
             "litter."
         ],
         "bounding_boxes": [
+            [
+                [
+                    246.2969970703125,
+                    641.8909912109375
+                ],
+                [
+                    255.45700073242188,
+                    664.0909423828125
+                ]
+            ],
             [
                 [
                     282.2969970703125,
@@ -411,41 +453,53 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I pick litter.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I pick litter.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 126,
+                "time": 130,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "pick"
             },
             {
-                "time": 465,
+                "time": 484,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "litter"
             }
         ]
     },
     "6": {
-        "text": "I love nature.",
+        "text": "\uf09f I love nature.",
         "words": [
+            "\uf09f",
             "I",
             "love",
             "nature."
         ],
         "bounding_boxes": [
+            [
+                [
+                    246.2969970703125,
+                    672.8909912109375
+                ],
+                [
+                    255.45700073242188,
+                    695.0909423828125
+                ]
+            ],
             [
                 [
                     282.2969970703125,
@@ -477,29 +531,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I love nature.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I love nature.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 101,
+                "time": 112,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "love"
             },
             {
-                "time": 404,
+                "time": 421,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "nature"
             }
         ]

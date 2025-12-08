@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 8</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 8</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 447,
+                "time": 478,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "8"
             }
         ]
@@ -97,7 +98,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play a game.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's play a game.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -105,29 +106,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 276,
+                "time": 285,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "play"
             },
             {
-                "time": 590,
+                "time": 619,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 649,
+                "time": 679,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "game"
             }
         ]
@@ -666,407 +667,345 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Write a word on a piece of paper.<break time=\"500ms\"/> (An action,<break time=\"300ms\"/> sport,<break time=\"300ms\"/> hobby or a game) Crumple the paper into a ball.<break time=\"500ms\"/> Throw the paper balls to your friend.<break time=\"500ms\"/> Pick a paper ball.<break time=\"500ms\"/> Open the piece of paper.<break time=\"500ms\"/> Read the word aloud.<break time=\"500ms\"/> Make a simple sentence with the word.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Write a word on a piece of paper. (An action, sport, hobby or a game) Crumple the paper into a ball. Throw the paper balls to your friend. Pick a paper ball. Open the piece of paper. Read the word aloud. Make a simple sentence with the word.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Write"
             },
             {
-                "time": 261,
+                "time": 277,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "a"
             },
             {
-                "time": 302,
+                "time": 318,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "word"
             },
             {
-                "time": 603,
+                "time": 632,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "on"
             },
             {
-                "time": 726,
+                "time": 755,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 44,
+                "end": 45,
                 "value": "a"
             },
             {
-                "time": 787,
+                "time": 816,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "piece"
             },
             {
-                "time": 1177,
+                "time": 1219,
                 "type": "word",
-                "start": 51,
-                "end": 53,
+                "start": 52,
+                "end": 54,
                 "value": "of"
             },
             {
-                "time": 1295,
+                "time": 1336,
                 "type": "word",
-                "start": 54,
-                "end": 59,
+                "start": 55,
+                "end": 60,
                 "value": "paper"
             },
             {
-                "time": 1887,
+                "time": 2344,
                 "type": "word",
-                "start": 60,
-                "end": 81,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2387,
-                "type": "word",
-                "start": 82,
-                "end": 83,
-                "value": "("
-            },
-            {
-                "time": 2974,
-                "type": "word",
-                "start": 83,
-                "end": 85,
+                "start": 63,
+                "end": 65,
                 "value": "An"
             },
             {
-                "time": 3129,
+                "time": 2500,
                 "type": "word",
-                "start": 86,
-                "end": 92,
+                "start": 66,
+                "end": 72,
                 "value": "action"
             },
             {
-                "time": 3892,
+                "time": 3387,
                 "type": "word",
-                "start": 93,
-                "end": 114,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4285,
-                "type": "word",
-                "start": 115,
-                "end": 120,
+                "start": 74,
+                "end": 79,
                 "value": "sport"
             },
             {
-                "time": 5037,
+                "time": 4251,
                 "type": "word",
-                "start": 121,
-                "end": 142,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5437,
-                "type": "word",
-                "start": 143,
-                "end": 148,
+                "start": 81,
+                "end": 86,
                 "value": "hobby"
             },
             {
-                "time": 5793,
+                "time": 4613,
                 "type": "word",
-                "start": 149,
-                "end": 151,
+                "start": 87,
+                "end": 89,
                 "value": "or"
             },
             {
-                "time": 5969,
+                "time": 4795,
                 "type": "word",
-                "start": 152,
-                "end": 153,
+                "start": 90,
+                "end": 91,
                 "value": "a"
             },
             {
-                "time": 6029,
+                "time": 4856,
                 "type": "word",
-                "start": 154,
-                "end": 158,
+                "start": 92,
+                "end": 96,
                 "value": "game"
             },
             {
-                "time": 6738,
+                "time": 5571,
                 "type": "word",
-                "start": 160,
-                "end": 167,
+                "start": 98,
+                "end": 105,
                 "value": "Crumple"
             },
             {
-                "time": 7186,
+                "time": 6030,
                 "type": "word",
-                "start": 168,
-                "end": 171,
+                "start": 106,
+                "end": 109,
                 "value": "the"
             },
             {
-                "time": 7312,
+                "time": 6155,
                 "type": "word",
-                "start": 172,
-                "end": 177,
+                "start": 110,
+                "end": 115,
                 "value": "paper"
             },
             {
-                "time": 7785,
+                "time": 6649,
                 "type": "word",
-                "start": 178,
-                "end": 182,
+                "start": 116,
+                "end": 120,
                 "value": "into"
             },
             {
-                "time": 8084,
+                "time": 6954,
                 "type": "word",
-                "start": 183,
-                "end": 184,
+                "start": 121,
+                "end": 122,
                 "value": "a"
             },
             {
-                "time": 8120,
+                "time": 6990,
                 "type": "word",
-                "start": 185,
-                "end": 189,
+                "start": 123,
+                "end": 127,
                 "value": "ball"
             },
             {
-                "time": 8578,
+                "time": 7837,
                 "type": "word",
-                "start": 190,
-                "end": 211,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9465,
-                "type": "word",
-                "start": 212,
-                "end": 217,
+                "start": 129,
+                "end": 134,
                 "value": "Throw"
             },
             {
-                "time": 9765,
+                "time": 8142,
                 "type": "word",
-                "start": 218,
-                "end": 221,
+                "start": 135,
+                "end": 138,
                 "value": "the"
             },
             {
-                "time": 9883,
+                "time": 8260,
                 "type": "word",
-                "start": 222,
-                "end": 227,
+                "start": 139,
+                "end": 144,
                 "value": "paper"
             },
             {
-                "time": 10298,
+                "time": 8687,
                 "type": "word",
-                "start": 228,
-                "end": 233,
+                "start": 145,
+                "end": 150,
                 "value": "balls"
             },
             {
-                "time": 10699,
+                "time": 9117,
                 "type": "word",
-                "start": 234,
-                "end": 236,
+                "start": 151,
+                "end": 153,
                 "value": "to"
             },
             {
-                "time": 10832,
+                "time": 9249,
                 "type": "word",
-                "start": 237,
-                "end": 241,
+                "start": 154,
+                "end": 158,
                 "value": "your"
             },
             {
-                "time": 10973,
+                "time": 9390,
                 "type": "word",
-                "start": 242,
-                "end": 248,
+                "start": 159,
+                "end": 165,
                 "value": "friend"
             },
             {
-                "time": 11504,
+                "time": 10309,
                 "type": "word",
-                "start": 249,
-                "end": 270,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12391,
-                "type": "word",
-                "start": 271,
-                "end": 275,
+                "start": 167,
+                "end": 171,
                 "value": "Pick"
             },
             {
-                "time": 12601,
+                "time": 10527,
                 "type": "word",
-                "start": 276,
-                "end": 277,
+                "start": 172,
+                "end": 173,
                 "value": "a"
             },
             {
-                "time": 12650,
+                "time": 10575,
                 "type": "word",
-                "start": 278,
-                "end": 283,
+                "start": 174,
+                "end": 179,
                 "value": "paper"
             },
             {
-                "time": 13053,
+                "time": 11006,
                 "type": "word",
-                "start": 284,
-                "end": 288,
+                "start": 180,
+                "end": 184,
                 "value": "ball"
             },
             {
-                "time": 13507,
+                "time": 11849,
                 "type": "word",
-                "start": 289,
-                "end": 310,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 14394,
-                "type": "word",
-                "start": 311,
-                "end": 315,
+                "start": 186,
+                "end": 190,
                 "value": "Open"
             },
             {
-                "time": 14700,
+                "time": 12160,
                 "type": "word",
-                "start": 316,
-                "end": 319,
+                "start": 191,
+                "end": 194,
                 "value": "the"
             },
             {
-                "time": 14803,
+                "time": 12263,
                 "type": "word",
-                "start": 320,
-                "end": 325,
+                "start": 195,
+                "end": 200,
                 "value": "piece"
             },
             {
-                "time": 15184,
+                "time": 12657,
                 "type": "word",
-                "start": 326,
-                "end": 328,
+                "start": 201,
+                "end": 203,
                 "value": "of"
             },
             {
-                "time": 15301,
+                "time": 12774,
                 "type": "word",
-                "start": 329,
-                "end": 334,
+                "start": 204,
+                "end": 209,
                 "value": "paper"
             },
             {
-                "time": 15894,
+                "time": 13782,
                 "type": "word",
-                "start": 335,
-                "end": 356,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 16781,
-                "type": "word",
-                "start": 357,
-                "end": 361,
+                "start": 211,
+                "end": 215,
                 "value": "Read"
             },
             {
-                "time": 17000,
+                "time": 14018,
                 "type": "word",
-                "start": 362,
-                "end": 365,
+                "start": 216,
+                "end": 219,
                 "value": "the"
             },
             {
-                "time": 17075,
+                "time": 14099,
                 "type": "word",
-                "start": 366,
-                "end": 370,
+                "start": 220,
+                "end": 224,
                 "value": "word"
             },
             {
-                "time": 17396,
+                "time": 14433,
                 "type": "word",
-                "start": 371,
-                "end": 376,
+                "start": 225,
+                "end": 230,
                 "value": "aloud"
             },
             {
-                "time": 17989,
+                "time": 15422,
                 "type": "word",
-                "start": 377,
-                "end": 398,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18876,
-                "type": "word",
-                "start": 399,
-                "end": 403,
+                "start": 232,
+                "end": 236,
                 "value": "Make"
             },
             {
-                "time": 19125,
+                "time": 15682,
                 "type": "word",
-                "start": 404,
-                "end": 405,
+                "start": 237,
+                "end": 238,
                 "value": "a"
             },
             {
-                "time": 19195,
+                "time": 15753,
                 "type": "word",
-                "start": 406,
-                "end": 412,
+                "start": 239,
+                "end": 245,
                 "value": "simple"
             },
             {
-                "time": 19642,
+                "time": 16199,
                 "type": "word",
-                "start": 413,
-                "end": 421,
+                "start": 246,
+                "end": 254,
                 "value": "sentence"
             },
             {
-                "time": 20206,
+                "time": 16770,
                 "type": "word",
-                "start": 422,
-                "end": 426,
+                "start": 255,
+                "end": 259,
                 "value": "with"
             },
             {
-                "time": 20406,
+                "time": 16971,
                 "type": "word",
-                "start": 427,
-                "end": 430,
+                "start": 260,
+                "end": 263,
                 "value": "the"
             },
             {
-                "time": 20461,
+                "time": 17025,
                 "type": "word",
-                "start": 431,
-                "end": 435,
+                "start": 264,
+                "end": 268,
                 "value": "word"
             }
         ]
@@ -1099,23 +1038,17 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">e.g.<break time=\"500ms\"/> : </prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>e.g. :-</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "e.g."
-            },
-            {
-                "time": 1187,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"500ms\"/>"
             }
         ]
     },
@@ -1169,37 +1102,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">football I like football.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>football I like football.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "football"
             },
             {
-                "time": 521,
+                "time": 585,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "I"
             },
             {
                 "time": 677,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "like"
             },
             {
-                "time": 1063,
+                "time": 1013,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 44,
+                "end": 52,
                 "value": "football"
             }
         ]

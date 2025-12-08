@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "106",
-        "words": [
-            "106"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    25.682100296020508,
-                    24.34998893737793
-                ],
-                [
-                    65.85210418701172,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">106</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "106"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Let's run",
         "words": [
             "Let's",
@@ -123,27 +94,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s run</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's run</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 271,
+                "time": 276,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 34,
+                "end": 37,
                 "value": "run"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Please stand on the line.",
         "words": [
             "Please",
@@ -204,48 +176,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Please stand on the line.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Please stand on the line.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Please"
             },
             {
                 "time": 341,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "stand"
             },
             {
-                "time": 755,
+                "time": 769,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "on"
             },
             {
-                "time": 899,
+                "time": 913,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "the"
             },
             {
-                "time": 975,
+                "time": 988,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "line"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "On your mark!",
         "words": [
             "On",
@@ -284,34 +257,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">On your mark!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>On your mark!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "On"
             },
             {
-                "time": 146,
+                "time": 151,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "your"
             },
             {
-                "time": 300,
+                "time": 305,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "mark"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Get set.",
         "words": [
             "Get",
@@ -339,27 +313,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Get set.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Get set.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Get"
             },
             {
-                "time": 238,
+                "time": 249,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "set"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "Go!",
         "words": [
             "Go!"
@@ -376,20 +351,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Go!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Go!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Go"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "Amod is the first.",
         "words": [
             "Amod",
@@ -439,41 +415,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Amod is the first.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Amod is the first.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Amod"
             },
             {
-                "time": 350,
+                "time": 358,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 526,
+                "time": 534,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 649,
+                "time": 657,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "first"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "Rasi is the second.",
         "words": [
             "Rasi",
@@ -523,41 +500,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasi is the second.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Rasi is the second.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Rasi"
             },
             {
-                "time": 496,
+                "time": 516,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 629,
+                "time": 649,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 745,
+                "time": 764,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "second"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "Himara is the third.",
         "words": [
             "Himara",
@@ -607,41 +585,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Himara is the third.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Himara is the third.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Himara"
             },
             {
-                "time": 602,
+                "time": 611,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "is"
             },
             {
-                "time": 779,
+                "time": 788,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "the"
             },
             {
-                "time": 904,
+                "time": 913,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "third"
             }
         ]
     },
-    "10": {
+    "9": {
         "text": "Dinu is the last.",
         "words": [
             "Dinu",
@@ -691,36 +670,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Dinu is the last.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Dinu is the last.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Dinu"
             },
             {
-                "time": 395,
+                "time": 413,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 564,
+                "time": 582,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 654,
+                "time": 673,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "last"
             }
         ]

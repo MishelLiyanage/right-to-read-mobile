@@ -1,0 +1,630 @@
+{
+    "0": {
+        "text": "Read aloud.",
+        "words": [
+            "Read",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.532100677490234,
+                    51.503021240234375
+                ],
+                [
+                    107.19210815429688,
+                    75.3230209350586
+                ]
+            ],
+            [
+                [
+                    112.19210815429688,
+                    51.503021240234375
+                ],
+                [
+                    171.55210876464844,
+                    75.3230209350586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "aloud"
+            },
+            {
+                "time": 1495,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "A rainy day",
+        "words": [
+            "A",
+            "rainy",
+            "day"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    173.05210876464844,
+                    85.50302124023438
+                ],
+                [
+                    186.4521026611328,
+                    109.3230209350586
+                ]
+            ],
+            [
+                [
+                    191.05210876464844,
+                    85.50302124023438
+                ],
+                [
+                    236.9721221923828,
+                    109.3230209350586
+                ]
+            ],
+            [
+                [
+                    241.77212524414062,
+                    85.50302124023438
+                ],
+                [
+                    276.172119140625,
+                    109.3230209350586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>A <break time='200ms'/> rainy <break time='200ms'/> day <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "A"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 859,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "rainy"
+            },
+            {
+                "time": 1575,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1876,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "day"
+            },
+            {
+                "time": 2560,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "It's a rainy day.",
+        "words": [
+            "It's",
+            "a",
+            "rainy",
+            "day."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.5321044921875,
+                    119.50302124023438
+                ],
+                [
+                    86.91210174560547,
+                    143.32302856445312
+                ]
+            ],
+            [
+                [
+                    91.91210174560547,
+                    119.50302124023438
+                ],
+                [
+                    104.07210540771484,
+                    143.32302856445312
+                ]
+            ],
+            [
+                [
+                    109.07210540771484,
+                    119.50302124023438
+                ],
+                [
+                    154.9921112060547,
+                    143.32302856445312
+                ]
+            ],
+            [
+                [
+                    159.7921142578125,
+                    119.50302124023438
+                ],
+                [
+                    198.8721160888672,
+                    143.32302856445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It's <break time='200ms'/> a <break time='200ms'/> rainy <break time='200ms'/> day. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "It's"
+            },
+            {
+                "time": 570,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 870,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "a"
+            },
+            {
+                "time": 1423,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1723,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "rainy"
+            },
+            {
+                "time": 2445,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2746,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "day"
+            },
+            {
+                "time": 3323,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "We cannot go out.",
+        "words": [
+            "We",
+            "cannot",
+            "go",
+            "out."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.5321044921875,
+                    153.50302124023438
+                ],
+                [
+                    90.07209777832031,
+                    177.32302856445312
+                ]
+            ],
+            [
+                [
+                    95.07209777832031,
+                    153.50302124023438
+                ],
+                [
+                    161.55210876464844,
+                    177.32302856445312
+                ]
+            ],
+            [
+                [
+                    166.35211181640625,
+                    153.50302124023438
+                ],
+                [
+                    189.77210998535156,
+                    177.32302856445312
+                ]
+            ],
+            [
+                [
+                    194.77210998535156,
+                    153.50302124023438
+                ],
+                [
+                    232.51211547851562,
+                    177.32302856445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> cannot <break time='200ms'/> go <break time='200ms'/> out. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 496,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 796,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "cannot"
+            },
+            {
+                "time": 1517,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1814,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "go"
+            },
+            {
+                "time": 2428,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2730,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "out"
+            },
+            {
+                "time": 3173,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "We can play inside.",
+        "words": [
+            "We",
+            "can",
+            "play",
+            "inside."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.5321044921875,
+                    187.50302124023438
+                ],
+                [
+                    90.07209777832031,
+                    211.32302856445312
+                ]
+            ],
+            [
+                [
+                    95.07209777832031,
+                    187.50302124023438
+                ],
+                [
+                    130.19210815429688,
+                    211.32302856445312
+                ]
+            ],
+            [
+                [
+                    135.19210815429688,
+                    187.50302124023438
+                ],
+                [
+                    174.4921112060547,
+                    211.32302856445312
+                ]
+            ],
+            [
+                [
+                    179.2921142578125,
+                    187.50302124023438
+                ],
+                [
+                    240.53213500976562,
+                    211.32302856445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> can <break time='200ms'/> play <break time='200ms'/> inside. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 869,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "can"
+            },
+            {
+                "time": 1571,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1871,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "play"
+            },
+            {
+                "time": 2520,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2821,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "inside"
+            },
+            {
+                "time": 3598,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "We can make paper boats.",
+        "words": [
+            "We",
+            "can",
+            "make",
+            "paper",
+            "boats."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.5321044921875,
+                    221.50302124023438
+                ],
+                [
+                    90.07209777832031,
+                    245.32302856445312
+                ]
+            ],
+            [
+                [
+                    95.07209777832031,
+                    221.50302124023438
+                ],
+                [
+                    130.19210815429688,
+                    245.32302856445312
+                ]
+            ],
+            [
+                [
+                    135.19210815429688,
+                    221.50302124023438
+                ],
+                [
+                    189.39210510253906,
+                    245.32302856445312
+                ]
+            ],
+            [
+                [
+                    194.39210510253906,
+                    221.50302124023438
+                ],
+                [
+                    248.912109375,
+                    245.32302856445312
+                ]
+            ],
+            [
+                [
+                    253.7121124267578,
+                    221.50302124023438
+                ],
+                [
+                    312.2721252441406,
+                    245.32302856445312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> can <break time='200ms'/> make <break time='200ms'/> paper <break time='200ms'/> boats. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 496,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 796,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "can"
+            },
+            {
+                "time": 1497,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1800,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "make"
+            },
+            {
+                "time": 2466,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2760,
+                "type": "word",
+                "start": 106,
+                "end": 111,
+                "value": "paper"
+            },
+            {
+                "time": 3519,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3813,
+                "type": "word",
+                "start": 134,
+                "end": 139,
+                "value": "boats"
+            },
+            {
+                "time": 4403,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

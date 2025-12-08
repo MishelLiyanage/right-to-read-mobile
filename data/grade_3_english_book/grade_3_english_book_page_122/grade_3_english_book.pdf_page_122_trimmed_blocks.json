@@ -49,43 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1476,
+                "time": 1198,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1671,
+                "time": 1392,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 46,
+                "end": 50,
                 "value": "read"
             }
         ]
@@ -151,43 +145,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is a big tree</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is a big tree</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 226,
+                "time": 233,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 381,
+                "time": 395,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "a"
             },
             {
-                "time": 442,
+                "time": 456,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "big"
             },
             {
-                "time": 713,
+                "time": 734,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "tree"
             }
         ]
@@ -231,29 +226,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It has leaves.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It has leaves.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
                 "time": 109,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "has"
             },
             {
-                "time": 382,
+                "time": 390,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "leaves"
             }
         ]
@@ -297,29 +293,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It has branches.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It has branches.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 130,
+                "time": 140,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "has"
             },
             {
-                "time": 336,
+                "time": 346,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "branches"
             }
         ]
@@ -374,36 +371,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It has a trunk.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It has a trunk.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 131,
+                "time": 142,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "has"
             },
             {
-                "time": 362,
+                "time": 372,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 418,
+                "time": 428,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "trunk"
             }
         ]
@@ -447,29 +445,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It has roots.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It has roots.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
                 "time": 110,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "has"
             },
             {
                 "time": 377,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "roots"
             }
         ]
@@ -513,29 +512,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">leaves branches roots</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>leaves branches roots</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "leaves"
             },
             {
-                "time": 322,
+                "time": 338,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "branches"
             },
             {
-                "time": 916,
+                "time": 945,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "roots"
             }
         ]
@@ -568,22 +568,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">trunk flowers</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>trunk flowers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "trunk"
             },
             {
                 "time": 357,
                 "type": "word",
-                "start": 33,
-                "end": 40,
+                "start": 34,
+                "end": 41,
                 "value": "flowers"
             }
         ]

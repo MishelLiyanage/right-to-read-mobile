@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -82,15 +83,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">belt</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>belt</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "belt"
             }
         ]
@@ -112,15 +114,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">pocket</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>pocket</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "pocket"
             }
         ]
@@ -142,53 +145,25 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">collar</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>collar</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "collar"
             }
         ]
     },
     "4": {
-        "text": "pleats",
+        "text": "frills pleats",
         "words": [
+            "frills",
             "pleats"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    246.60000610351562,
-                    357.3909912109375
-                ],
-                [
-                    303.8600158691406,
-                    381.21099853515625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">pleats</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "pleats"
-            }
-        ]
-    },
-    "5": {
-        "text": "frills",
-        "words": [
-            "frills"
         ],
         "bounding_boxes": [
             [
@@ -200,22 +175,40 @@
                     523.0599975585938,
                     382.291015625
                 ]
+            ],
+            [
+                [
+                    246.60000610351562,
+                    357.3909912109375
+                ],
+                [
+                    303.8600158691406,
+                    381.21099853515625
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">frills</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>frills pleats</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "frills"
+            },
+            {
+                "time": 463,
+                "type": "word",
+                "start": 35,
+                "end": 41,
+                "value": "pleats"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "buttons",
         "words": [
             "buttons"
@@ -232,20 +225,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">buttons</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>buttons</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "buttons"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "lace",
         "words": [
             "lace"
@@ -262,20 +256,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">lace</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>lace</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "lace"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "buckles",
         "words": [
             "buckles"
@@ -292,15 +287,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">buckles</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>buckles</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "buckles"
             }
         ]

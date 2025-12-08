@@ -27,34 +27,90 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
     },
     "1": {
-        "text": "Match and speak.",
+        "text": "is + verb + ing Match and speak.",
         "words": [
+            "is",
+            "+",
+            "verb",
+            "+",
+            "ing",
             "Match",
             "and",
             "speak."
         ],
         "bounding_boxes": [
+            [
+                [
+                    356.4444885253906,
+                    71.24417114257812
+                ],
+                [
+                    369.0264892578125,
+                    92.68217468261719
+                ]
+            ],
+            [
+                [
+                    373.5264892578125,
+                    71.24417114257812
+                ],
+                [
+                    383.2464904785156,
+                    92.68217468261719
+                ]
+            ],
+            [
+                [
+                    387.5664978027344,
+                    71.24417114257812
+                ],
+                [
+                    423.90850830078125,
+                    92.68217468261719
+                ]
+            ],
+            [
+                [
+                    428.40850830078125,
+                    71.24417114257812
+                ],
+                [
+                    438.1285095214844,
+                    92.68217468261719
+                ]
+            ],
+            [
+                [
+                    442.6285095214844,
+                    71.24417114257812
+                ],
+                [
+                    469.30450439453125,
+                    92.68217468261719
+                ]
+            ],
             [
                 [
                     135.9300994873047,
@@ -86,29 +142,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Match and speak.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>is + verb + ing Match and speak.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
+                "start": 28,
+                "end": 30,
+                "value": "is"
+            },
+            {
+                "time": 180,
+                "type": "word",
+                "start": 31,
                 "end": 32,
+                "value": "+"
+            },
+            {
+                "time": 525,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "verb"
+            },
+            {
+                "time": 837,
+                "type": "word",
+                "start": 38,
+                "end": 39,
+                "value": "+"
+            },
+            {
+                "time": 1206,
+                "type": "word",
+                "start": 40,
+                "end": 43,
+                "value": "ing"
+            },
+            {
+                "time": 1382,
+                "type": "word",
+                "start": 44,
+                "end": 49,
                 "value": "Match"
             },
             {
-                "time": 369,
+                "time": 1752,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 50,
+                "end": 53,
                 "value": "and"
             },
             {
-                "time": 534,
+                "time": 1901,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 54,
+                "end": 59,
                 "value": "speak"
             }
         ]
@@ -295,135 +387,282 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s the Vesak festival.<break time=\"500ms\"/> Rasini and her friends are at the temple.<break time=\"500ms\"/> What are they doing?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's the Vesak festival. <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> and her friends are at the temple. What are they doing?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 203,
+                "time": 204,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 311,
+                "time": 312,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 37,
+                "end": 42,
                 "value": "Vesak"
             },
             {
-                "time": 764,
+                "time": 778,
                 "type": "word",
-                "start": 47,
-                "end": 55,
+                "start": 43,
+                "end": 51,
                 "value": "festival"
             },
             {
-                "time": 1451,
+                "time": 1866,
                 "type": "word",
-                "start": 56,
-                "end": 77,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2337,
-                "type": "word",
-                "start": 78,
-                "end": 84,
+                "start": 92,
+                "end": 98,
                 "value": "Rasini"
             },
             {
-                "time": 3020,
+                "time": 2512,
                 "type": "word",
-                "start": 85,
-                "end": 88,
+                "start": 109,
+                "end": 112,
                 "value": "and"
             },
             {
-                "time": 3142,
+                "time": 2616,
                 "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 113,
+                "end": 116,
                 "value": "her"
             },
             {
-                "time": 3279,
+                "time": 2724,
                 "type": "word",
-                "start": 93,
-                "end": 100,
+                "start": 117,
+                "end": 124,
                 "value": "friends"
             },
             {
-                "time": 3798,
+                "time": 3248,
                 "type": "word",
-                "start": 101,
-                "end": 104,
+                "start": 125,
+                "end": 128,
                 "value": "are"
             },
             {
-                "time": 3985,
+                "time": 3436,
                 "type": "word",
-                "start": 105,
-                "end": 107,
+                "start": 129,
+                "end": 131,
                 "value": "at"
             },
             {
-                "time": 4092,
+                "time": 3550,
                 "type": "word",
-                "start": 108,
-                "end": 111,
+                "start": 132,
+                "end": 135,
                 "value": "the"
             },
             {
-                "time": 4203,
+                "time": 3658,
                 "type": "word",
-                "start": 112,
-                "end": 118,
+                "start": 136,
+                "end": 142,
                 "value": "temple"
             },
             {
-                "time": 4842,
+                "time": 4679,
                 "type": "word",
-                "start": 119,
-                "end": 140,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5729,
-                "type": "word",
-                "start": 141,
-                "end": 145,
+                "start": 144,
+                "end": 148,
                 "value": "What"
             },
             {
-                "time": 5897,
+                "time": 4857,
                 "type": "word",
-                "start": 146,
-                "end": 149,
+                "start": 149,
+                "end": 152,
                 "value": "are"
             },
             {
-                "time": 5994,
+                "time": 4959,
                 "type": "word",
-                "start": 150,
-                "end": 154,
+                "start": 153,
+                "end": 157,
                 "value": "they"
             },
             {
-                "time": 6143,
+                "time": 5114,
                 "type": "word",
-                "start": 155,
-                "end": 160,
+                "start": 158,
+                "end": 163,
                 "value": "doing"
+            }
+        ]
+    },
+    "3": {
+        "text": "Dasun",
+        "words": [
+            "Dasun"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    378.99310302734375,
+                    291.3819885253906
+                ],
+                [
+                    427.6810607910156,
+                    310.43798828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='dasun'>Dasun</phoneme></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Dasun"
+            }
+        ]
+    },
+    "4": {
+        "text": "Tony Meena Nisal",
+        "words": [
+            "Tony",
+            "Meena",
+            "Nisal"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    484.7099914550781,
+                    428.2953796386719
+                ],
+                [
+                    518.9819946289062,
+                    447.35137939453125
+                ]
+            ],
+            [
+                [
+                    309.5914001464844,
+                    441.07769775390625
+                ],
+                [
+                    361.3033752441406,
+                    460.1336975097656
+                ]
+            ],
+            [
+                [
+                    81.09960174560547,
+                    447.0039978027344
+                ],
+                [
+                    118.25160217285156,
+                    466.05999755859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Tony Meena <phoneme alphabet='ipa' ph='nisal'>Nisal</phoneme></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Tony"
+            },
+            {
+                "time": 344,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "Meena"
+            },
+            {
+                "time": 691,
+                "type": "word",
+                "start": 74,
+                "end": 79,
+                "value": "Nisal"
+            }
+        ]
+    },
+    "5": {
+        "text": "Sonia",
+        "words": [
+            "Sonia"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    79.0436019897461,
+                    591.571044921875
+                ],
+                [
+                    120.30760192871094,
+                    610.6270141601562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sonia</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Sonia"
+            }
+        ]
+    },
+    "6": {
+        "text": "Navaz",
+        "words": [
+            "Navaz"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    346.0249938964844,
+                    612.6143188476562
+                ],
+                [
+                    393.3849792480469,
+                    631.6702880859375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 65,
+                "end": 70,
+                "value": "Navaz"
             }
         ]
     }

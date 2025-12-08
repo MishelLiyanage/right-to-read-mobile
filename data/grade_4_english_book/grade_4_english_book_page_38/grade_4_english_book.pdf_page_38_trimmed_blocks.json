@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -86,34 +87,84 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and answer.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and answer.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 253,
+                "time": 262,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 458,
+                "time": 467,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 37,
+                "end": 43,
                 "value": "answer"
             }
         ]
     },
     "2": {
+        "text": "What...? Where...?",
+        "words": [
+            "What...?",
+            "Where...?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    403.4202880859375,
+                    43.48007583618164
+                ],
+                [
+                    476.6443176269531,
+                    64.91807556152344
+                ]
+            ],
+            [
+                [
+                    403.4202880859375,
+                    65.08004760742188
+                ],
+                [
+                    485.0323181152344,
+                    86.51805114746094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>What...? Where...?</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "What"
+            },
+            {
+                "time": 948,
+                "type": "word",
+                "start": 37,
+                "end": 42,
+                "value": "Where"
+            }
+        ]
+    },
+    "3": {
         "text": "Rasini and her family are going to Kandy. They are at the Fort railway station.",
         "words": [
             "Rasini",
@@ -284,125 +335,119 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasini and her family are going to Kandy.<break time=\"500ms\"/> They are at the Fort railway station.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> and her family are going to Kandy. They are at the Fort railway station.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 67,
+                "end": 73,
                 "value": "Rasini"
             },
             {
-                "time": 651,
+                "time": 623,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 84,
+                "end": 87,
                 "value": "and"
             },
             {
-                "time": 755,
+                "time": 748,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 88,
+                "end": 91,
                 "value": "her"
             },
             {
-                "time": 896,
+                "time": 883,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 92,
+                "end": 98,
                 "value": "family"
             },
             {
-                "time": 1415,
+                "time": 1409,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 99,
+                "end": 102,
                 "value": "are"
             },
             {
-                "time": 1560,
+                "time": 1555,
                 "type": "word",
-                "start": 53,
-                "end": 58,
+                "start": 103,
+                "end": 108,
                 "value": "going"
             },
             {
-                "time": 1864,
+                "time": 1872,
                 "type": "word",
-                "start": 59,
-                "end": 61,
+                "start": 109,
+                "end": 111,
                 "value": "to"
             },
             {
-                "time": 1979,
+                "time": 1987,
                 "type": "word",
-                "start": 62,
-                "end": 67,
+                "start": 112,
+                "end": 117,
                 "value": "Kandy"
             },
             {
-                "time": 2677,
+                "time": 3074,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3563,
-                "type": "word",
-                "start": 90,
-                "end": 94,
+                "start": 119,
+                "end": 123,
                 "value": "They"
             },
             {
-                "time": 3735,
+                "time": 3246,
                 "type": "word",
-                "start": 95,
-                "end": 98,
+                "start": 124,
+                "end": 127,
                 "value": "are"
             },
             {
-                "time": 3885,
+                "time": 3395,
                 "type": "word",
-                "start": 99,
-                "end": 101,
+                "start": 128,
+                "end": 130,
                 "value": "at"
             },
             {
-                "time": 4015,
+                "time": 3525,
                 "type": "word",
-                "start": 102,
-                "end": 105,
+                "start": 131,
+                "end": 134,
                 "value": "the"
             },
             {
-                "time": 4113,
+                "time": 3623,
                 "type": "word",
-                "start": 106,
-                "end": 110,
+                "start": 135,
+                "end": 139,
                 "value": "Fort"
             },
             {
-                "time": 4550,
+                "time": 4061,
                 "type": "word",
-                "start": 111,
-                "end": 118,
+                "start": 140,
+                "end": 147,
                 "value": "railway"
             },
             {
-                "time": 5085,
+                "time": 4638,
                 "type": "word",
-                "start": 119,
-                "end": 126,
+                "start": 148,
+                "end": 155,
                 "value": "station"
             }
         ]
     },
-    "3": {
+    "4": {
         "text": "Attention please! The train on platform five leaves Fort for Kandy. It leaves at 5.30 a.m. It stops at Ragama, Veyangoda,Polgahawela and Peradeniya.",
         "words": [
             "Attention",
@@ -661,7 +706,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Attention please! The train on platform five leaves Fort for Kandy.<break time=\"500ms\"/> It leaves at 5.30 a.m.<break time=\"500ms\"/> It stops at Ragama,<break time=\"300ms\"/> Veyangoda,Polgahawela and Peradeniya.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Attention please! The train on platform five leaves Fort for Kandy. It leaves at 5.30 a.m. It stops at <phoneme alphabet='ipa' ph='ra\u02d0gama'>Ragama</phoneme>, <phoneme alphabet='ipa' ph='weja\u014bgoda'>Veyangoda</phoneme>, <phoneme alphabet='ipa' ph='polgahawela'>Polgahawela</phoneme> and <phoneme alphabet='ipa' ph='peradeniya'>Peradeniya</phoneme>.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
@@ -669,195 +714,174 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Attention"
             },
             {
-                "time": 628,
+                "time": 637,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "please"
             },
             {
-                "time": 1627,
+                "time": 1686,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "The"
             },
             {
-                "time": 1808,
+                "time": 1876,
                 "type": "word",
-                "start": 49,
-                "end": 54,
+                "start": 50,
+                "end": 55,
                 "value": "train"
             },
             {
-                "time": 2253,
+                "time": 2331,
                 "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 56,
+                "end": 58,
                 "value": "on"
             },
             {
-                "time": 2420,
+                "time": 2499,
                 "type": "word",
-                "start": 58,
-                "end": 66,
+                "start": 59,
+                "end": 67,
                 "value": "platform"
             },
             {
-                "time": 3104,
+                "time": 3203,
                 "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 68,
+                "end": 72,
                 "value": "five"
             },
             {
-                "time": 3663,
+                "time": 3771,
                 "type": "word",
-                "start": 72,
-                "end": 78,
+                "start": 73,
+                "end": 79,
                 "value": "leaves"
             },
             {
-                "time": 4012,
+                "time": 4120,
                 "type": "word",
-                "start": 79,
-                "end": 83,
+                "start": 80,
+                "end": 84,
                 "value": "Fort"
             },
             {
-                "time": 4489,
+                "time": 4599,
                 "type": "word",
-                "start": 84,
-                "end": 87,
+                "start": 85,
+                "end": 88,
                 "value": "for"
             },
             {
-                "time": 4647,
+                "time": 4762,
                 "type": "word",
-                "start": 88,
-                "end": 93,
+                "start": 89,
+                "end": 94,
                 "value": "Kandy"
             },
             {
-                "time": 5230,
+                "time": 5739,
                 "type": "word",
-                "start": 94,
-                "end": 115,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6116,
-                "type": "word",
-                "start": 116,
-                "end": 118,
+                "start": 96,
+                "end": 98,
                 "value": "It"
             },
             {
-                "time": 6258,
+                "time": 5881,
                 "type": "word",
-                "start": 119,
-                "end": 125,
+                "start": 99,
+                "end": 105,
                 "value": "leaves"
             },
             {
-                "time": 6673,
+                "time": 6321,
                 "type": "word",
-                "start": 126,
-                "end": 128,
+                "start": 106,
+                "end": 108,
                 "value": "at"
             },
             {
-                "time": 6787,
+                "time": 6435,
                 "type": "word",
-                "start": 129,
-                "end": 133,
+                "start": 109,
+                "end": 113,
                 "value": "5.30"
             },
             {
-                "time": 7569,
+                "time": 7239,
                 "type": "word",
-                "start": 134,
-                "end": 137,
+                "start": 114,
+                "end": 117,
                 "value": "a.m"
             },
             {
-                "time": 8149,
+                "time": 7823,
                 "type": "word",
-                "start": 138,
-                "end": 159,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 8656,
-                "type": "word",
-                "start": 160,
-                "end": 162,
+                "start": 119,
+                "end": 121,
                 "value": "It"
             },
             {
-                "time": 8813,
+                "time": 8015,
                 "type": "word",
-                "start": 163,
-                "end": 168,
+                "start": 122,
+                "end": 127,
                 "value": "stops"
             },
             {
-                "time": 9414,
+                "time": 8539,
                 "type": "word",
-                "start": 169,
-                "end": 171,
+                "start": 128,
+                "end": 130,
                 "value": "at"
             },
             {
-                "time": 9524,
+                "time": 8627,
                 "type": "word",
-                "start": 172,
-                "end": 178,
+                "start": 169,
+                "end": 175,
                 "value": "Ragama"
             },
             {
-                "time": 10390,
+                "time": 9794,
                 "type": "word",
-                "start": 179,
-                "end": 200,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 10790,
-                "type": "word",
-                "start": 201,
-                "end": 210,
+                "start": 227,
+                "end": 236,
                 "value": "Veyangoda"
             },
             {
-                "time": 11888,
+                "time": 10962,
                 "type": "word",
-                "start": 211,
-                "end": 222,
+                "start": 289,
+                "end": 300,
                 "value": "Polgahawela"
             },
             {
-                "time": 13182,
+                "time": 12226,
                 "type": "word",
-                "start": 223,
-                "end": 226,
+                "start": 311,
+                "end": 314,
                 "value": "and"
             },
             {
-                "time": 13419,
+                "time": 12457,
                 "type": "word",
-                "start": 227,
-                "end": 237,
+                "start": 355,
+                "end": 365,
                 "value": "Peradeniya"
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "1) Where is Rasini's family going? 2) Where are they now? 3) What is the platform number? 4) What time does the train leave? 5) Where does it stop?",
         "words": [
             "1)",
@@ -1182,211 +1206,212 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1) Where is Rasini&apos;s family going? 2) Where are they now? 3) What is the platform number? 4) What time does the train leave? 5) Where does it stop?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1) Where is <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini's</phoneme> family going? 2) Where are they now? 3) What is the platform number? 4) What time does the train leave? 5) Where does it stop?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 739,
+                "time": 764,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 31,
+                "end": 36,
                 "value": "Where"
             },
             {
-                "time": 919,
+                "time": 961,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 1060,
+                "time": 1109,
                 "type": "word",
-                "start": 39,
-                "end": 52,
-                "value": "Rasini&apos;s"
+                "start": 79,
+                "end": 87,
+                "value": "Rasini's"
             },
             {
-                "time": 1873,
+                "time": 1695,
                 "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 98,
+                "end": 104,
                 "value": "family"
             },
             {
-                "time": 2335,
+                "time": 2177,
                 "type": "word",
-                "start": 60,
-                "end": 65,
+                "start": 105,
+                "end": 110,
                 "value": "going"
             },
             {
-                "time": 3302,
+                "time": 3167,
                 "type": "word",
-                "start": 67,
-                "end": 68,
+                "start": 112,
+                "end": 113,
                 "value": "2"
             },
             {
-                "time": 4010,
+                "time": 3901,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 115,
+                "end": 120,
                 "value": "Where"
             },
             {
-                "time": 4182,
+                "time": 4072,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 121,
+                "end": 124,
                 "value": "are"
             },
             {
-                "time": 4282,
-                "type": "word",
-                "start": 80,
-                "end": 84,
-                "value": "they"
-            },
-            {
-                "time": 4489,
-                "type": "word",
-                "start": 85,
-                "end": 88,
-                "value": "now"
-            },
-            {
-                "time": 5378,
-                "type": "word",
-                "start": 90,
-                "end": 91,
-                "value": "3"
-            },
-            {
-                "time": 6104,
-                "type": "word",
-                "start": 93,
-                "end": 97,
-                "value": "What"
-            },
-            {
-                "time": 6267,
-                "type": "word",
-                "start": 98,
-                "end": 100,
-                "value": "is"
-            },
-            {
-                "time": 6413,
-                "type": "word",
-                "start": 101,
-                "end": 104,
-                "value": "the"
-            },
-            {
-                "time": 6511,
-                "type": "word",
-                "start": 105,
-                "end": 113,
-                "value": "platform"
-            },
-            {
-                "time": 7161,
-                "type": "word",
-                "start": 114,
-                "end": 120,
-                "value": "number"
-            },
-            {
-                "time": 8109,
-                "type": "word",
-                "start": 122,
-                "end": 123,
-                "value": "4"
-            },
-            {
-                "time": 8930,
+                "time": 4172,
                 "type": "word",
                 "start": 125,
                 "end": 129,
+                "value": "they"
+            },
+            {
+                "time": 4381,
+                "type": "word",
+                "start": 130,
+                "end": 133,
+                "value": "now"
+            },
+            {
+                "time": 5301,
+                "type": "word",
+                "start": 135,
+                "end": 136,
+                "value": "3"
+            },
+            {
+                "time": 6041,
+                "type": "word",
+                "start": 138,
+                "end": 142,
                 "value": "What"
             },
             {
-                "time": 9121,
+                "time": 6204,
                 "type": "word",
-                "start": 130,
-                "end": 134,
-                "value": "time"
+                "start": 143,
+                "end": 145,
+                "value": "is"
             },
             {
-                "time": 9426,
+                "time": 6349,
                 "type": "word",
-                "start": 135,
-                "end": 139,
-                "value": "does"
-            },
-            {
-                "time": 9645,
-                "type": "word",
-                "start": 140,
-                "end": 143,
+                "start": 146,
+                "end": 149,
                 "value": "the"
             },
             {
-                "time": 9765,
-                "type": "word",
-                "start": 144,
-                "end": 149,
-                "value": "train"
-            },
-            {
-                "time": 10162,
+                "time": 6447,
                 "type": "word",
                 "start": 150,
-                "end": 155,
-                "value": "leave"
-            },
-            {
-                "time": 10926,
-                "type": "word",
-                "start": 157,
                 "end": 158,
-                "value": "5"
+                "value": "platform"
             },
             {
-                "time": 11801,
+                "time": 7121,
                 "type": "word",
-                "start": 160,
+                "start": 159,
                 "end": 165,
-                "value": "Where"
+                "value": "number"
             },
             {
-                "time": 11941,
+                "time": 8085,
                 "type": "word",
-                "start": 166,
-                "end": 170,
+                "start": 167,
+                "end": 168,
+                "value": "4"
+            },
+            {
+                "time": 8933,
+                "type": "word",
+                "start": 170,
+                "end": 174,
+                "value": "What"
+            },
+            {
+                "time": 9128,
+                "type": "word",
+                "start": 175,
+                "end": 179,
+                "value": "time"
+            },
+            {
+                "time": 9449,
+                "type": "word",
+                "start": 180,
+                "end": 184,
                 "value": "does"
             },
             {
-                "time": 12171,
+                "time": 9668,
                 "type": "word",
-                "start": 171,
-                "end": 173,
+                "start": 185,
+                "end": 188,
+                "value": "the"
+            },
+            {
+                "time": 9788,
+                "type": "word",
+                "start": 189,
+                "end": 194,
+                "value": "train"
+            },
+            {
+                "time": 10199,
+                "type": "word",
+                "start": 195,
+                "end": 200,
+                "value": "leave"
+            },
+            {
+                "time": 10977,
+                "type": "word",
+                "start": 202,
+                "end": 203,
+                "value": "5"
+            },
+            {
+                "time": 11864,
+                "type": "word",
+                "start": 205,
+                "end": 210,
+                "value": "Where"
+            },
+            {
+                "time": 12004,
+                "type": "word",
+                "start": 211,
+                "end": 215,
+                "value": "does"
+            },
+            {
+                "time": 12234,
+                "type": "word",
+                "start": 216,
+                "end": 218,
                 "value": "it"
             },
             {
-                "time": 12297,
+                "time": 12360,
                 "type": "word",
-                "start": 174,
-                "end": 178,
+                "start": 219,
+                "end": 223,
                 "value": "stop"
             }
         ]

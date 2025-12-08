@@ -71,63 +71,57 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Play the game.<break time=\"500ms\"/> Listen and practise.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Play the game. Listen and practise.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Play"
             },
             {
-                "time": 371,
+                "time": 314,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 526,
+                "time": 447,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "game"
             },
             {
-                "time": 1166,
+                "time": 1370,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2053,
-                "type": "word",
-                "start": 63,
-                "end": 69,
+                "start": 43,
+                "end": 49,
                 "value": "Listen"
             },
             {
-                "time": 2506,
+                "time": 1748,
                 "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 50,
+                "end": 53,
                 "value": "and"
             },
             {
-                "time": 2697,
+                "time": 1912,
                 "type": "word",
-                "start": 74,
-                "end": 82,
+                "start": 54,
+                "end": 62,
                 "value": "practise"
             }
         ]
     },
     "1": {
-        "text": "Stand in a circle. Ask a friend to stand in the middle. Pass the ball. Practise. \u201cWhere do you live?\u201d \u201cI live in ............................",
+        "text": "Stand in a circle. Ask a friend to stand in the middle. Pass the ball. Practise. \"Where do you live?\" \"I live in ............................",
         "words": [
             "Stand",
             "in",
@@ -145,11 +139,11 @@
             "the",
             "ball.",
             "Practise.",
-            "\u201cWhere",
+            "\"Where",
             "do",
             "you",
-            "live?\u201d",
-            "\u201cI",
+            "live?\"",
+            "\"I",
             "live",
             "in",
             "............................"
@@ -396,205 +390,171 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Stand in a circle.<break time=\"500ms\"/> Ask a friend to stand in the middle.<break time=\"500ms\"/> Pass the ball.<break time=\"500ms\"/> Practise.<break time=\"500ms\"/> \u201cWhere do you live?\u201d \u201cI live in <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Stand in a circle. Ask a friend to stand in the middle. Pass the ball. Practise. \"Where do you live?\" \"I live in ............................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Stand"
             },
             {
-                "time": 546,
+                "time": 473,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "in"
             },
             {
-                "time": 710,
+                "time": 610,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 765,
+                "time": 666,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "circle"
             },
             {
-                "time": 1535,
+                "time": 1699,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2422,
-                "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "Ask"
             },
             {
-                "time": 2870,
+                "time": 2080,
                 "type": "word",
-                "start": 71,
-                "end": 72,
+                "start": 51,
+                "end": 52,
                 "value": "a"
             },
             {
-                "time": 2916,
+                "time": 2127,
                 "type": "word",
-                "start": 73,
-                "end": 79,
+                "start": 53,
+                "end": 59,
                 "value": "friend"
             },
             {
-                "time": 3318,
+                "time": 2477,
                 "type": "word",
-                "start": 80,
-                "end": 82,
+                "start": 60,
+                "end": 62,
                 "value": "to"
             },
             {
-                "time": 3451,
+                "time": 2589,
                 "type": "word",
-                "start": 83,
-                "end": 88,
+                "start": 63,
+                "end": 68,
                 "value": "stand"
             },
             {
-                "time": 3993,
+                "time": 3045,
                 "type": "word",
-                "start": 89,
-                "end": 91,
+                "start": 69,
+                "end": 71,
                 "value": "in"
             },
             {
-                "time": 4120,
+                "time": 3144,
                 "type": "word",
-                "start": 92,
-                "end": 95,
+                "start": 72,
+                "end": 75,
                 "value": "the"
             },
             {
-                "time": 4210,
+                "time": 3214,
                 "type": "word",
-                "start": 96,
-                "end": 102,
+                "start": 76,
+                "end": 82,
                 "value": "middle"
             },
             {
-                "time": 4749,
+                "time": 4057,
                 "type": "word",
-                "start": 103,
-                "end": 124,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5636,
-                "type": "word",
-                "start": 125,
-                "end": 129,
+                "start": 84,
+                "end": 88,
                 "value": "Pass"
             },
             {
-                "time": 5997,
+                "time": 4362,
                 "type": "word",
-                "start": 130,
-                "end": 133,
+                "start": 89,
+                "end": 92,
                 "value": "the"
             },
             {
-                "time": 6160,
+                "time": 4499,
                 "type": "word",
-                "start": 134,
-                "end": 138,
+                "start": 93,
+                "end": 97,
                 "value": "ball"
             },
             {
-                "time": 6665,
+                "time": 5313,
                 "type": "word",
-                "start": 139,
-                "end": 160,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7552,
-                "type": "word",
-                "start": 161,
-                "end": 169,
+                "start": 99,
+                "end": 107,
                 "value": "Practise"
             },
             {
-                "time": 8416,
+                "time": 6448,
                 "type": "word",
-                "start": 170,
-                "end": 191,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9303,
-                "type": "word",
-                "start": 195,
-                "end": 200,
+                "start": 110,
+                "end": 115,
                 "value": "Where"
             },
             {
-                "time": 9586,
+                "time": 6690,
                 "type": "word",
-                "start": 201,
-                "end": 203,
+                "start": 116,
+                "end": 118,
                 "value": "do"
             },
             {
-                "time": 9697,
+                "time": 6791,
                 "type": "word",
-                "start": 204,
-                "end": 207,
+                "start": 119,
+                "end": 122,
                 "value": "you"
             },
             {
-                "time": 9863,
+                "time": 6937,
                 "type": "word",
-                "start": 208,
-                "end": 212,
+                "start": 123,
+                "end": 127,
                 "value": "live"
             },
             {
-                "time": 10748,
+                "time": 7761,
                 "type": "word",
-                "start": 220,
-                "end": 221,
+                "start": 131,
+                "end": 132,
                 "value": "I"
             },
             {
-                "time": 10899,
+                "time": 7891,
                 "type": "word",
-                "start": 222,
-                "end": 226,
+                "start": 133,
+                "end": 137,
                 "value": "live"
             },
             {
-                "time": 11260,
+                "time": 8203,
                 "type": "word",
-                "start": 227,
-                "end": 229,
+                "start": 138,
+                "end": 140,
                 "value": "in"
-            },
-            {
-                "time": 11886,
-                "type": "word",
-                "start": 230,
-                "end": 252,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -615,15 +575,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Say.</prosody></speak>",
         "dialog": "false",
-        "person_type": "narrator",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Say"
             }
         ]
@@ -700,7 +661,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Meenu,<break time=\"300ms\"/> this is my friend,<break time=\"300ms\"/> Rasini.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meenu, this is my friend, <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -708,111 +669,48 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Meenu"
             },
             {
-                "time": 853,
+                "time": 844,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1253,
-                "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 35,
+                "end": 39,
                 "value": "this"
             },
             {
-                "time": 1545,
+                "time": 1105,
                 "type": "word",
-                "start": 60,
-                "end": 62,
+                "start": 40,
+                "end": 42,
                 "value": "is"
             },
             {
-                "time": 1697,
+                "time": 1235,
                 "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 43,
+                "end": 45,
                 "value": "my"
             },
             {
-                "time": 1918,
+                "time": 1428,
                 "type": "word",
-                "start": 66,
-                "end": 72,
+                "start": 46,
+                "end": 52,
                 "value": "friend"
             },
             {
-                "time": 2884,
+                "time": 2235,
                 "type": "word",
-                "start": 73,
-                "end": 94,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3284,
-                "type": "word",
-                "start": 95,
-                "end": 101,
+                "start": 93,
+                "end": 99,
                 "value": "Rasini"
             }
         ]
     },
     "4": {
-        "text": "Hello! Rasini.",
-        "words": [
-            "Hello!",
-            "Rasini."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    393.372802734375,
-                    646.300048828125
-                ],
-                [
-                    447.352783203125,
-                    670.1199951171875
-                ]
-            ],
-            [
-                [
-                    389.9128112792969,
-                    675.300048828125
-                ],
-                [
-                    451.8128356933594,
-                    699.1199951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello! Rasini.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Hello"
-            },
-            {
-                "time": 1007,
-                "type": "word",
-                "start": 34,
-                "end": 40,
-                "value": "Rasini"
-            }
-        ]
-    },
-    "5": {
         "text": "Hello! Meenu.",
         "words": [
             "Hello!",
@@ -840,7 +738,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"70%\">Hello! Meenu.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello! Meenu.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -848,16 +746,65 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 1007,
+                "time": 915,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "Meenu"
+            }
+        ]
+    },
+    "5": {
+        "text": "Hello! Rasini.",
+        "words": [
+            "Hello!",
+            "Rasini."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    393.372802734375,
+                    646.300048828125
+                ],
+                [
+                    447.352783203125,
+                    670.1199951171875
+                ]
+            ],
+            [
+                [
+                    389.9128112792969,
+                    675.300048828125
+                ],
+                [
+                    451.8128356933594,
+                    699.1199951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 915,
+                "type": "word",
+                "start": 74,
+                "end": 80,
+                "value": "Rasini"
             }
         ]
     }

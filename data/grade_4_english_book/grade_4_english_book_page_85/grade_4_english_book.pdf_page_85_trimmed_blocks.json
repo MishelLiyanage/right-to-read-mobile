@@ -27,30 +27,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Let&apos;s sing.<break time=\"400ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 49,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 342,
+                "time": 348,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
-            },
-            {
-                "time": 846,
-                "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -104,57 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sunny,<break time=\"300ms\"/> sunny,<break time=\"300ms\"/> sunny,<break time=\"300ms\"/> sunny,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sunny, sunny, sunny, sunny,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Sunny"
             },
             {
-                "time": 734,
+                "time": 847,
                 "type": "word",
-                "start": 33,
+                "start": 35,
+                "end": 40,
+                "value": "sunny"
+            },
+            {
+                "time": 1687,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "sunny"
+            },
+            {
+                "time": 2521,
+                "type": "word",
+                "start": 49,
                 "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1134,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "sunny"
-            },
-            {
-                "time": 1862,
-                "type": "word",
-                "start": 61,
-                "end": 82,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2262,
-                "type": "word",
-                "start": 83,
-                "end": 88,
-                "value": "sunny"
-            },
-            {
-                "time": 2991,
-                "type": "word",
-                "start": 89,
-                "end": 110,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3384,
-                "type": "word",
-                "start": 111,
-                "end": 116,
                 "value": "sunny"
             }
         ]
@@ -231,50 +205,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it is sunny in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it is sunny in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
-                "time": 139,
+                "time": 149,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 281,
+                "time": 297,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "sunny"
             },
             {
-                "time": 692,
+                "time": 729,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "in"
             },
             {
-                "time": 820,
+                "time": 857,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "the"
             },
             {
-                "time": 925,
+                "time": 962,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "sky"
             }
         ]
@@ -373,106 +348,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">S U N N Y,<break time=\"300ms\"/> sunny,<break time=\"300ms\"/> it is sunny in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>S-U-N-N-Y, sunny, it is sunny in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "S"
             },
             {
-                "time": 284,
+                "time": 742,
                 "type": "word",
-                "start": 29,
-                "end": 30,
+                "start": 30,
+                "end": 31,
                 "value": "U"
             },
             {
-                "time": 533,
+                "time": 1417,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "N"
             },
             {
-                "time": 671,
+                "time": 2175,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "N"
             },
             {
-                "time": 807,
+                "time": 2933,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "Y"
             },
             {
-                "time": 1367,
+                "time": 3783,
                 "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1769,
-                "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 39,
+                "end": 44,
                 "value": "sunny"
             },
             {
-                "time": 2463,
+                "time": 4573,
                 "type": "word",
-                "start": 65,
-                "end": 86,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2865,
-                "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 46,
+                "end": 48,
                 "value": "it"
             },
             {
-                "time": 3012,
+                "time": 4725,
                 "type": "word",
-                "start": 90,
-                "end": 92,
+                "start": 49,
+                "end": 51,
                 "value": "is"
             },
             {
-                "time": 3154,
+                "time": 4873,
                 "type": "word",
-                "start": 93,
-                "end": 98,
+                "start": 52,
+                "end": 57,
                 "value": "sunny"
             },
             {
-                "time": 3565,
+                "time": 5305,
                 "type": "word",
-                "start": 99,
-                "end": 101,
+                "start": 58,
+                "end": 60,
                 "value": "in"
             },
             {
-                "time": 3693,
+                "time": 5433,
                 "type": "word",
-                "start": 102,
-                "end": 105,
+                "start": 61,
+                "end": 64,
                 "value": "the"
             },
             {
-                "time": 3798,
+                "time": 5538,
                 "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 65,
+                "end": 68,
                 "value": "sky"
             }
         ]
@@ -527,57 +489,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Cloudy,<break time=\"300ms\"/> cloudy,<break time=\"300ms\"/> cloudy,<break time=\"300ms\"/> cloudy,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Cloudy, cloudy, cloudy, cloudy,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Cloudy"
             },
             {
-                "time": 716,
+                "time": 822,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1109,
-                "type": "word",
-                "start": 56,
-                "end": 62,
+                "start": 36,
+                "end": 42,
                 "value": "cloudy"
             },
             {
-                "time": 1857,
+                "time": 1676,
                 "type": "word",
-                "start": 63,
-                "end": 84,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2250,
-                "type": "word",
-                "start": 85,
-                "end": 91,
+                "start": 44,
+                "end": 50,
                 "value": "cloudy"
             },
             {
-                "time": 2998,
+                "time": 2538,
                 "type": "word",
-                "start": 92,
-                "end": 113,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3398,
-                "type": "word",
-                "start": 114,
-                "end": 120,
+                "start": 52,
+                "end": 58,
                 "value": "cloudy"
             }
         ]
@@ -676,113 +618,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it is cloudy in the sky.<break time=\"500ms\"/> C L O U D Y,<break time=\"300ms\"/> cloudy,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it is cloudy in the sky. C-L-O-U-D-Y, cloudy,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
                 "time": 107,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 277,
+                "time": 290,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 34,
+                "end": 40,
                 "value": "cloudy"
             },
             {
-                "time": 769,
+                "time": 815,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "in"
             },
             {
-                "time": 859,
+                "time": 905,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "the"
             },
             {
-                "time": 980,
+                "time": 1026,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "sky"
             },
             {
-                "time": 1607,
+                "time": 2062,
                 "type": "word",
-                "start": 51,
-                "end": 72,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2493,
-                "type": "word",
-                "start": 73,
-                "end": 74,
+                "start": 53,
+                "end": 54,
                 "value": "C"
             },
             {
-                "time": 2782,
+                "time": 2848,
                 "type": "word",
-                "start": 75,
-                "end": 76,
+                "start": 55,
+                "end": 56,
                 "value": "L"
             },
             {
-                "time": 2976,
+                "time": 3611,
                 "type": "word",
-                "start": 77,
-                "end": 78,
+                "start": 57,
+                "end": 58,
                 "value": "O"
             },
             {
-                "time": 3102,
+                "time": 4232,
                 "type": "word",
-                "start": 79,
-                "end": 80,
+                "start": 59,
+                "end": 60,
                 "value": "U"
             },
             {
-                "time": 3259,
+                "time": 4907,
                 "type": "word",
-                "start": 81,
-                "end": 82,
+                "start": 61,
+                "end": 62,
                 "value": "D"
             },
             {
-                "time": 3433,
+                "time": 5663,
                 "type": "word",
-                "start": 83,
-                "end": 84,
+                "start": 63,
+                "end": 64,
                 "value": "Y"
             },
             {
-                "time": 4096,
+                "time": 6449,
                 "type": "word",
-                "start": 85,
-                "end": 106,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4490,
-                "type": "word",
-                "start": 107,
-                "end": 113,
+                "start": 66,
+                "end": 72,
                 "value": "cloudy"
             }
         ]
@@ -859,50 +788,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it is cloudy in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it is cloudy in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
                 "time": 107,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 277,
+                "time": 290,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 34,
+                "end": 40,
                 "value": "cloudy"
             },
             {
-                "time": 769,
+                "time": 815,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "in"
             },
             {
-                "time": 859,
+                "time": 905,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "the"
             },
             {
-                "time": 980,
+                "time": 1026,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "sky"
             }
         ]
@@ -957,57 +887,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rainy,<break time=\"300ms\"/> rainy,<break time=\"300ms\"/> rainy,<break time=\"300ms\"/> rainy,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Rainy, rainy, rainy, rainy,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Rainy"
             },
             {
-                "time": 701,
+                "time": 833,
                 "type": "word",
-                "start": 33,
+                "start": 35,
+                "end": 40,
+                "value": "rainy"
+            },
+            {
+                "time": 1642,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "rainy"
+            },
+            {
+                "time": 2448,
+                "type": "word",
+                "start": 49,
                 "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1101,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "rainy"
-            },
-            {
-                "time": 1795,
-                "type": "word",
-                "start": 61,
-                "end": 82,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2195,
-                "type": "word",
-                "start": 83,
-                "end": 88,
-                "value": "rainy"
-            },
-            {
-                "time": 2897,
-                "type": "word",
-                "start": 89,
-                "end": 110,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3292,
-                "type": "word",
-                "start": 111,
-                "end": 116,
                 "value": "rainy"
             }
         ]
@@ -1084,50 +994,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it is rainy in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it is rainy in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
-                "time": 134,
+                "time": 140,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 314,
+                "time": 333,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "rainy"
             },
             {
-                "time": 706,
+                "time": 738,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "in"
             },
             {
-                "time": 826,
+                "time": 858,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "the"
             },
             {
-                "time": 886,
+                "time": 919,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "sky"
             }
         ]
@@ -1226,106 +1137,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">R A I N Y,<break time=\"300ms\"/> rainy,<break time=\"300ms\"/> it is rainy in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>R-A-I-N-Y, rainy, it is rainy in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "R"
             },
             {
-                "time": 165,
+                "time": 694,
                 "type": "word",
-                "start": 29,
-                "end": 34,
-                "value": "A I N"
+                "start": 30,
+                "end": 31,
+                "value": "A"
             },
             {
-                "time": 356,
+                "time": 1488,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "I"
             },
             {
-                "time": 456,
+                "time": 2153,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "N"
             },
             {
-                "time": 677,
+                "time": 2911,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "Y"
             },
             {
-                "time": 1241,
+                "time": 3759,
                 "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1641,
-                "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 39,
+                "end": 44,
                 "value": "rainy"
             },
             {
-                "time": 2343,
+                "time": 4527,
                 "type": "word",
-                "start": 65,
-                "end": 86,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2738,
-                "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 46,
+                "end": 48,
                 "value": "it"
             },
             {
-                "time": 2869,
+                "time": 4663,
                 "type": "word",
-                "start": 90,
-                "end": 92,
+                "start": 49,
+                "end": 51,
                 "value": "is"
             },
             {
-                "time": 3061,
+                "time": 4862,
                 "type": "word",
-                "start": 93,
-                "end": 98,
+                "start": 52,
+                "end": 57,
                 "value": "rainy"
             },
             {
-                "time": 3421,
+                "time": 5284,
                 "type": "word",
-                "start": 99,
-                "end": 101,
+                "start": 58,
+                "end": 60,
                 "value": "in"
             },
             {
-                "time": 3538,
+                "time": 5390,
                 "type": "word",
-                "start": 102,
-                "end": 105,
+                "start": 61,
+                "end": 64,
                 "value": "the"
             },
             {
-                "time": 3643,
+                "time": 5494,
                 "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 65,
+                "end": 68,
                 "value": "sky"
             }
         ]
@@ -1380,57 +1278,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Windy,<break time=\"300ms\"/> windy,<break time=\"300ms\"/> windy,<break time=\"300ms\"/> windy,</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Windy, windy, windy, windy,</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Windy"
             },
             {
-                "time": 674,
+                "time": 796,
                 "type": "word",
-                "start": 33,
+                "start": 35,
+                "end": 40,
+                "value": "windy"
+            },
+            {
+                "time": 1542,
+                "type": "word",
+                "start": 42,
+                "end": 47,
+                "value": "windy"
+            },
+            {
+                "time": 2288,
+                "type": "word",
+                "start": 49,
                 "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1074,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "windy"
-            },
-            {
-                "time": 1708,
-                "type": "word",
-                "start": 61,
-                "end": 82,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2108,
-                "type": "word",
-                "start": 83,
-                "end": 88,
-                "value": "windy"
-            },
-            {
-                "time": 2741,
-                "type": "word",
-                "start": 89,
-                "end": 110,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3141,
-                "type": "word",
-                "start": 111,
-                "end": 116,
                 "value": "windy"
             }
         ]
@@ -1507,50 +1385,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it is windy in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it is windy in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
-                "time": 144,
+                "time": 149,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 305,
+                "time": 317,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "windy"
             },
             {
-                "time": 728,
+                "time": 751,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "in"
             },
             {
-                "time": 852,
+                "time": 875,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "the"
             },
             {
-                "time": 910,
+                "time": 933,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "sky"
             }
         ]
@@ -1649,106 +1528,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">W I N D Y,<break time=\"300ms\"/> windy,<break time=\"300ms\"/> it is windy in the sky.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>W-I-N-D-Y, windy, it is windy in the sky.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "W"
             },
             {
-                "time": 437,
+                "time": 916,
                 "type": "word",
-                "start": 29,
-                "end": 30,
+                "start": 30,
+                "end": 31,
                 "value": "I"
             },
             {
-                "time": 570,
+                "time": 1600,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "N"
             },
             {
-                "time": 696,
+                "time": 2309,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "D"
             },
             {
-                "time": 884,
+                "time": 3065,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "Y"
             },
             {
-                "time": 1513,
+                "time": 3857,
                 "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1913,
-                "type": "word",
-                "start": 59,
-                "end": 64,
+                "start": 39,
+                "end": 44,
                 "value": "windy"
             },
             {
-                "time": 2547,
+                "time": 4604,
                 "type": "word",
-                "start": 65,
-                "end": 86,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2940,
-                "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 46,
+                "end": 48,
                 "value": "it"
             },
             {
-                "time": 3076,
+                "time": 4734,
                 "type": "word",
-                "start": 90,
-                "end": 92,
+                "start": 49,
+                "end": 51,
                 "value": "is"
             },
             {
-                "time": 3230,
+                "time": 4888,
                 "type": "word",
-                "start": 93,
-                "end": 98,
+                "start": 52,
+                "end": 57,
                 "value": "windy"
             },
             {
-                "time": 3690,
+                "time": 5359,
                 "type": "word",
-                "start": 99,
-                "end": 101,
+                "start": 58,
+                "end": 60,
                 "value": "in"
             },
             {
-                "time": 3813,
+                "time": 5480,
                 "type": "word",
-                "start": 102,
-                "end": 105,
+                "start": 61,
+                "end": 64,
                 "value": "the"
             },
             {
-                "time": 3915,
+                "time": 5584,
                 "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 65,
+                "end": 68,
                 "value": "sky"
             }
         ]

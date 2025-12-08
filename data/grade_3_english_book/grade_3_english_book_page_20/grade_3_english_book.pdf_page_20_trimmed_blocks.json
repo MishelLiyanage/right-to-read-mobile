@@ -1,23 +1,12 @@
 {
     "0": {
-        "text": "11 Listen and say.",
+        "text": "Listen and say.",
         "words": [
-            "11",
             "Listen",
             "and",
             "say."
         ],
         "bounding_boxes": [
-            [
-                [
-                    558.0430297851562,
-                    24.34998893737793
-                ],
-                [
-                    573.2830200195312,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.529598236083984,
@@ -49,36 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">11 Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "11"
-            },
-            {
-                "time": 500,
-                "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 934,
+                "time": 454,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 1116,
+                "time": 628,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -133,47 +116,47 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Where do you live?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Where do you live?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Where"
             },
             {
-                "time": 233,
+                "time": 248,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "do"
             },
             {
-                "time": 334,
+                "time": 349,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "you"
             },
             {
-                "time": 476,
+                "time": 496,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "live"
             }
         ]
     },
     "2": {
-        "text": "I live in ...........",
+        "text": "I live in.......",
         "words": [
             "I",
             "live",
-            "in",
-            "..........."
+            "in......."
         ],
         "bounding_boxes": [
             [
@@ -207,7 +190,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in.......</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -215,30 +198,23 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 151,
+                "time": 158,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 433,
+                "time": 430,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
-            },
-            {
-                "time": 1048,
-                "type": "word",
-                "start": 37,
-                "end": 59,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -292,7 +268,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in ........</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -300,30 +276,23 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 118,
+                "time": 121,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 417,
+                "time": 429,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
-            },
-            {
-                "time": 936,
-                "type": "word",
-                "start": 37,
-                "end": 59,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -377,7 +346,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in Matara.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in <phoneme alphabet='ipa' ph='mat\u032aara'>Matara</phoneme>.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -385,39 +354,40 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 125,
+                "time": 101,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 358,
+                "time": 381,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
             },
             {
-                "time": 472,
+                "time": 497,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 76,
+                "end": 82,
                 "value": "Matara"
             }
         ]
     },
     "5": {
-        "text": "I live in...........",
+        "text": "I live in ...........",
         "words": [
             "I",
             "live",
-            "in..........."
+            "in",
+            "..........."
         ],
         "bounding_boxes": [
             [
@@ -446,12 +416,22 @@
                     667.087646484375
                 ],
                 [
+                    338.38201904296875,
+                    688.525634765625
+                ]
+            ],
+            [
+                [
+                    342.88201904296875,
+                    667.087646484375
+                ],
+                [
                     405.0541076660156,
                     688.525634765625
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I live in<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I live in ...........</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -459,30 +439,23 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 118,
+                "time": 121,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "live"
             },
             {
-                "time": 417,
+                "time": 429,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
-            },
-            {
-                "time": 936,
-                "type": "word",
-                "start": 36,
-                "end": 58,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     }

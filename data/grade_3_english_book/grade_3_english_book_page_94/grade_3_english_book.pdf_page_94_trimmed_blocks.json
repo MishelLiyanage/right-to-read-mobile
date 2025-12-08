@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Clothes we wear 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Clothes we wear 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Clothes"
             },
             {
-                "time": 379,
+                "time": 388,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "we"
             },
             {
-                "time": 506,
+                "time": 515,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "wear"
             },
             {
-                "time": 799,
+                "time": 820,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 44,
+                "end": 45,
                 "value": "6"
             }
         ]
@@ -122,37 +123,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Listen and sing.<break time=\"400ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and sing.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 377,
+                "time": 398,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 559,
+                "time": 585,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 39,
+                "end": 43,
                 "value": "sing"
-            },
-            {
-                "time": 1076,
-                "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -261,85 +256,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasini has a blue hat,<break time=\"300ms\"/> blue hat,<break time=\"300ms\"/> blue hat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> has a blue hat, blue hat, blue hat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 67,
+                "end": 73,
                 "value": "Rasini"
             },
             {
-                "time": 645,
+                "time": 567,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 84,
+                "end": 87,
                 "value": "has"
             },
             {
-                "time": 874,
+                "time": 799,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 88,
+                "end": 89,
                 "value": "a"
             },
             {
-                "time": 936,
+                "time": 861,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 90,
+                "end": 94,
                 "value": "blue"
             },
             {
-                "time": 1212,
+                "time": 1150,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 95,
+                "end": 98,
                 "value": "hat"
             },
             {
-                "time": 1832,
+                "time": 1890,
                 "type": "word",
-                "start": 49,
-                "end": 70,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2232,
-                "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 100,
+                "end": 104,
                 "value": "blue"
             },
             {
-                "time": 2483,
+                "time": 2145,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 105,
+                "end": 108,
                 "value": "hat"
             },
             {
-                "time": 3091,
+                "time": 2873,
                 "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3491,
-                "type": "word",
-                "start": 102,
-                "end": 106,
+                "start": 110,
+                "end": 114,
                 "value": "blue"
             },
             {
-                "time": 3710,
+                "time": 3111,
                 "type": "word",
-                "start": 107,
-                "end": 110,
+                "start": 115,
+                "end": 118,
                 "value": "hat"
             }
         ]
@@ -449,85 +431,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meena has a brown belt,<break time=\"300ms\"/> brown belt,<break time=\"300ms\"/> brown belt</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meena has a brown belt, brown belt, brown belt</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Meena"
             },
             {
-                "time": 364,
+                "time": 380,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "has"
             },
             {
-                "time": 619,
+                "time": 642,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 681,
+                "time": 704,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "brown"
             },
             {
-                "time": 1087,
+                "time": 1143,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 46,
+                "end": 50,
                 "value": "belt"
             },
             {
-                "time": 1599,
+                "time": 1755,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1999,
-                "type": "word",
-                "start": 72,
-                "end": 77,
+                "start": 52,
+                "end": 57,
                 "value": "brown"
             },
             {
-                "time": 2305,
+                "time": 2080,
                 "type": "word",
-                "start": 78,
-                "end": 82,
+                "start": 58,
+                "end": 62,
                 "value": "belt"
             },
             {
-                "time": 2980,
+                "time": 2871,
                 "type": "word",
-                "start": 83,
-                "end": 104,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3381,
-                "type": "word",
-                "start": 105,
-                "end": 110,
+                "start": 64,
+                "end": 69,
                 "value": "brown"
             },
             {
-                "time": 3716,
+                "time": 3227,
                 "type": "word",
-                "start": 111,
-                "end": 115,
+                "start": 70,
+                "end": 74,
                 "value": "belt"
             }
         ]
@@ -637,85 +606,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Waruni has a yellow dress,<break time=\"300ms\"/> yellow dress,<break time=\"300ms\"/> yellow dress</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> has a yellow dress, yellow dress, yellow dress</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 64,
+                "end": 70,
                 "value": "Waruni"
             },
             {
-                "time": 555,
+                "time": 572,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 81,
+                "end": 84,
                 "value": "has"
             },
             {
-                "time": 763,
+                "time": 788,
                 "type": "word",
-                "start": 38,
-                "end": 39,
+                "start": 85,
+                "end": 86,
                 "value": "a"
             },
             {
-                "time": 823,
+                "time": 849,
                 "type": "word",
-                "start": 40,
-                "end": 46,
+                "start": 87,
+                "end": 93,
                 "value": "yellow"
             },
             {
-                "time": 1261,
+                "time": 1301,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 94,
+                "end": 99,
                 "value": "dress"
             },
             {
-                "time": 1944,
+                "time": 2104,
                 "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2345,
-                "type": "word",
-                "start": 75,
-                "end": 81,
+                "start": 101,
+                "end": 107,
                 "value": "yellow"
             },
             {
-                "time": 2723,
+                "time": 2494,
                 "type": "word",
-                "start": 82,
-                "end": 87,
+                "start": 108,
+                "end": 113,
                 "value": "dress"
             },
             {
-                "time": 3384,
+                "time": 3284,
                 "type": "word",
-                "start": 88,
-                "end": 109,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3785,
-                "type": "word",
-                "start": 110,
-                "end": 116,
+                "start": 115,
+                "end": 121,
                 "value": "yellow"
             },
             {
-                "time": 4151,
+                "time": 3675,
                 "type": "word",
-                "start": 117,
-                "end": 122,
+                "start": 122,
+                "end": 127,
                 "value": "dress"
             }
         ]
@@ -792,64 +748,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Razik has a raincoat,<break time=\"300ms\"/> raincoat,<break time=\"300ms\"/> raincoat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='razik'>Razik</phoneme> has a raincoat, raincoat, raincoat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Razik"
             },
             {
-                "time": 455,
+                "time": 474,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 79,
+                "end": 82,
                 "value": "has"
             },
             {
-                "time": 681,
+                "time": 721,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 83,
+                "end": 84,
                 "value": "a"
             },
             {
-                "time": 736,
+                "time": 776,
                 "type": "word",
-                "start": 39,
-                "end": 47,
+                "start": 85,
+                "end": 93,
                 "value": "raincoat"
             },
             {
-                "time": 1538,
+                "time": 1711,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1938,
-                "type": "word",
-                "start": 70,
-                "end": 78,
+                "start": 95,
+                "end": 103,
                 "value": "raincoat"
             },
             {
-                "time": 2762,
+                "time": 2659,
                 "type": "word",
-                "start": 79,
-                "end": 100,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3156,
-                "type": "word",
-                "start": 101,
-                "end": 109,
+                "start": 105,
+                "end": 113,
                 "value": "raincoat"
             }
         ]

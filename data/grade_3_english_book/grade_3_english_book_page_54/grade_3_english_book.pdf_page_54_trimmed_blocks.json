@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Act out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Act out.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Act"
             },
             {
-                "time": 298,
+                "time": 309,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "out"
             }
         ]
@@ -108,7 +109,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rovin : Hi,<break time=\"300ms\"/> Good morning!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='rovin'>Rovin</phoneme> : Hi, Good morning!</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -116,36 +117,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Rovin"
             },
             {
-                "time": 748,
+                "time": 969,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 81,
+                "end": 83,
                 "value": "Hi"
             },
             {
-                "time": 1368,
+                "time": 1717,
                 "type": "word",
-                "start": 38,
-                "end": 59,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1768,
-                "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 85,
+                "end": 89,
                 "value": "Good"
             },
             {
-                "time": 1990,
+                "time": 1943,
                 "type": "word",
-                "start": 65,
-                "end": 72,
+                "start": 90,
+                "end": 97,
                 "value": "morning"
             }
         ]
@@ -200,7 +194,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Raj : Good morning!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Raj : Good morning!</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -208,22 +202,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Raj"
             },
             {
-                "time": 791,
+                "time": 826,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "Good"
             },
             {
-                "time": 1017,
+                "time": 1052,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "morning"
             }
         ]
@@ -344,7 +338,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Raj : Here is Nizam.<break time=\"500ms\"/> Is this a new bicycle?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Raj : Here is <phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme>. Is this a new bicycle?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -352,71 +346,64 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Raj"
             },
             {
-                "time": 764,
+                "time": 792,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "Here"
             },
             {
-                "time": 1051,
+                "time": 1088,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "is"
             },
             {
-                "time": 1230,
+                "time": 1276,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 77,
+                "end": 82,
                 "value": "Nizam"
             },
             {
-                "time": 2076,
+                "time": 2519,
                 "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2963,
-                "type": "word",
-                "start": 69,
-                "end": 71,
+                "start": 94,
+                "end": 96,
                 "value": "Is"
             },
             {
-                "time": 3128,
+                "time": 2684,
                 "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 97,
+                "end": 101,
                 "value": "this"
             },
             {
-                "time": 3333,
+                "time": 2896,
                 "type": "word",
-                "start": 77,
-                "end": 78,
+                "start": 102,
+                "end": 103,
                 "value": "a"
             },
             {
-                "time": 3383,
+                "time": 2950,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 104,
+                "end": 107,
                 "value": "new"
             },
             {
-                "time": 3593,
+                "time": 3159,
                 "type": "word",
-                "start": 83,
-                "end": 90,
+                "start": 108,
+                "end": 115,
                 "value": "bicycle"
             }
         ]
@@ -515,7 +502,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Nizam : Yes,<break time=\"300ms\"/> this is my birthday present.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme> : Yes, this is my birthday present.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -523,57 +510,50 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Nizam"
             },
             {
-                "time": 1013,
+                "time": 858,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 81,
+                "end": 84,
                 "value": "Yes"
             },
             {
-                "time": 1710,
+                "time": 1681,
                 "type": "word",
-                "start": 39,
-                "end": 60,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2110,
-                "type": "word",
-                "start": 61,
-                "end": 65,
+                "start": 86,
+                "end": 90,
                 "value": "this"
             },
             {
-                "time": 2328,
+                "time": 1919,
                 "type": "word",
-                "start": 66,
-                "end": 68,
+                "start": 91,
+                "end": 93,
                 "value": "is"
             },
             {
-                "time": 2448,
+                "time": 2043,
                 "type": "word",
-                "start": 69,
-                "end": 71,
+                "start": 94,
+                "end": 96,
                 "value": "my"
             },
             {
-                "time": 2632,
+                "time": 2235,
                 "type": "word",
-                "start": 72,
-                "end": 80,
+                "start": 97,
+                "end": 105,
                 "value": "birthday"
             },
             {
-                "time": 3066,
+                "time": 2692,
                 "type": "word",
-                "start": 81,
-                "end": 88,
+                "start": 106,
+                "end": 113,
                 "value": "present"
             }
         ]
@@ -639,7 +619,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rovin : Ah,<break time=\"300ms\"/> that&apos;s nice!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='rovin'>Rovin</phoneme> : Ah, that's nice!</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -647,36 +627,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Rovin"
             },
             {
-                "time": 767,
+                "time": 889,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 81,
+                "end": 83,
                 "value": "Ah"
             },
             {
-                "time": 1318,
+                "time": 1556,
                 "type": "word",
-                "start": 38,
-                "end": 59,
-                "value": "<break time=\"300ms\"/>"
+                "start": 85,
+                "end": 91,
+                "value": "that's"
             },
             {
-                "time": 1709,
+                "time": 1993,
                 "type": "word",
-                "start": 60,
-                "end": 71,
-                "value": "that&apos;s"
-            },
-            {
-                "time": 2079,
-                "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 92,
+                "end": 96,
                 "value": "nice"
             }
         ]
@@ -731,7 +704,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Nizam : Thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nizam'>Nizam</phoneme> : Thank you.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -739,22 +712,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Nizam"
             },
             {
-                "time": 1010,
+                "time": 855,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 81,
+                "end": 86,
                 "value": "Thank"
             },
             {
-                "time": 1353,
+                "time": 1216,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 87,
+                "end": 90,
                 "value": "you"
             }
         ]

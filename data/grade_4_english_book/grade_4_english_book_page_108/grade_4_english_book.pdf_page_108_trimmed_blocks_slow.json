@@ -1,0 +1,618 @@
+{
+    "0": {
+        "text": "Read aloud.",
+        "words": [
+            "Read",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.557098388671875,
+                    16.993314743041992
+                ],
+                [
+                    112.00509643554688,
+                    43.195316314697266
+                ]
+            ],
+            [
+                [
+                    117.50509643554688,
+                    16.993314743041992
+                ],
+                [
+                    182.80111694335938,
+                    43.195316314697266
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "aloud"
+            },
+            {
+                "time": 1495,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "We need trees.",
+        "words": [
+            "We",
+            "need",
+            "trees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    208.6187286376953,
+                    134.97654724121094
+                ],
+                [
+                    237.03164672851562,
+                    157.59378051757812
+                ]
+            ],
+            [
+                [
+                    240.59231567382812,
+                    136.37242126464844
+                ],
+                [
+                    284.1828308105469,
+                    159.65228271484375
+                ]
+            ],
+            [
+                [
+                    287.5816650390625,
+                    138.4238739013672
+                ],
+                [
+                    335.2543029785156,
+                    161.88197326660156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> need <break time='200ms'/> trees. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 870,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "need"
+            },
+            {
+                "time": 1431,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1721,
+                "type": "word",
+                "start": 80,
+                "end": 85,
+                "value": "trees"
+            },
+            {
+                "time": 2357,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Trees are useful.",
+        "words": [
+            "Trees",
+            "are",
+            "useful."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    203.19317626953125,
+                    170.5217742919922
+                ],
+                [
+                    246.85560607910156,
+                    193.8048095703125
+                ]
+            ],
+            [
+                [
+                    250.41627502441406,
+                    172.58348083496094
+                ],
+                [
+                    278.1458740234375,
+                    195.17092895507812
+                ]
+            ],
+            [
+                [
+                    281.70654296875,
+                    173.94956970214844
+                ],
+                [
+                    340.3847351074219,
+                    197.88819885253906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Trees <break time='200ms'/> are <break time='200ms'/> useful. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Trees"
+            },
+            {
+                "time": 712,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1005,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "are"
+            },
+            {
+                "time": 1663,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1956,
+                "type": "word",
+                "start": 82,
+                "end": 88,
+                "value": "useful"
+            },
+            {
+                "time": 2573,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Let's plant trees.",
+        "words": [
+            "Let's",
+            "plant",
+            "trees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    212.90951538085938,
+                    209.61085510253906
+                ],
+                [
+                    250.69151306152344,
+                    232.63717651367188
+                ]
+            ],
+            [
+                [
+                    254.25218200683594,
+                    211.4158172607422
+                ],
+                [
+                    299.5330810546875,
+                    234.76951599121094
+                ]
+            ],
+            [
+                [
+                    302.77008056640625,
+                    213.5340118408203
+                ],
+                [
+                    350.4427185058594,
+                    236.9921112060547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> plant <break time='200ms'/> trees. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 640,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 940,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "plant"
+            },
+            {
+                "time": 1599,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1889,
+                "type": "word",
+                "start": 84,
+                "end": 89,
+                "value": "trees"
+            },
+            {
+                "time": 2524,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Let's protect trees.",
+        "words": [
+            "Let's",
+            "protect",
+            "trees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    195.65464782714844,
+                    247.45033264160156
+                ],
+                [
+                    233.4366455078125,
+                    270.4766540527344
+                ]
+            ],
+            [
+                [
+                    236.997314453125,
+                    249.2552947998047
+                ],
+                [
+                    297.43780517578125,
+                    273.2708435058594
+                ]
+            ],
+            [
+                [
+                    300.65679931640625,
+                    252.03456115722656
+                ],
+                [
+                    348.3294372558594,
+                    275.49267578125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's <break time='200ms'/> protect <break time='200ms'/> trees. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 640,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 940,
+                "type": "word",
+                "start": 56,
+                "end": 63,
+                "value": "protect"
+            },
+            {
+                "time": 1762,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2052,
+                "type": "word",
+                "start": 86,
+                "end": 91,
+                "value": "trees"
+            },
+            {
+                "time": 2688,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "We love trees.",
+        "words": [
+            "We",
+            "love",
+            "trees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    226.5938720703125,
+                    287.80828857421875
+                ],
+                [
+                    255.0067901611328,
+                    310.4255676269531
+                ]
+            ],
+            [
+                [
+                    258.56744384765625,
+                    289.2042236328125
+                ],
+                [
+                    293.328369140625,
+                    312.0986328125
+                ]
+            ],
+            [
+                [
+                    296.7091979980469,
+                    290.86944580078125
+                ],
+                [
+                    344.3818359375,
+                    314.3275451660156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> love <break time='200ms'/> trees. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 869,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "love"
+            },
+            {
+                "time": 1507,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1808,
+                "type": "word",
+                "start": 80,
+                "end": 85,
+                "value": "trees"
+            },
+            {
+                "time": 2457,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "We love nature too.",
+        "words": [
+            "We",
+            "love",
+            "nature",
+            "too."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    200.95538330078125,
+                    327.8401794433594
+                ],
+                [
+                    229.36830139160156,
+                    350.45745849609375
+                ]
+            ],
+            [
+                [
+                    232.92897033691406,
+                    329.2361145019531
+                ],
+                [
+                    267.68988037109375,
+                    352.1305236816406
+                ]
+            ],
+            [
+                [
+                    271.25054931640625,
+                    330.9091796875
+                ],
+                [
+                    328.400146484375,
+                    354.781005859375
+                ]
+            ],
+            [
+                [
+                    331.7809753417969,
+                    333.55181884765625
+                ],
+                [
+                    365.193115234375,
+                    356.3873596191406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> love <break time='200ms'/> nature <break time='200ms'/> too. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 869,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "love"
+            },
+            {
+                "time": 1507,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1801,
+                "type": "word",
+                "start": 80,
+                "end": 86,
+                "value": "nature"
+            },
+            {
+                "time": 2598,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2889,
+                "type": "word",
+                "start": 109,
+                "end": 112,
+                "value": "too"
+            },
+            {
+                "time": 3376,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

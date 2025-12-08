@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4 Joy of work</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>4 Joy of work</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "4"
             },
             {
-                "time": 231,
+                "time": 246,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "Joy"
             },
             {
-                "time": 589,
+                "time": 628,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "of"
             },
             {
-                "time": 699,
+                "time": 739,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "work"
             }
         ]
@@ -100,15 +101,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Lesson1"
             }
         ]
@@ -163,43 +165,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1170,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1345,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -221,15 +217,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">farmer</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>farmer</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "farmer"
             }
         ]
@@ -251,15 +248,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">teacher</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>teacher</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "teacher"
             }
         ]
@@ -281,15 +279,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">doctor</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>doctor</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "doctor"
             }
         ]
@@ -311,15 +310,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">nurse</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>nurse</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "nurse"
             }
         ]
@@ -341,15 +341,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">postman</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>postman</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "postman"
             }
         ]

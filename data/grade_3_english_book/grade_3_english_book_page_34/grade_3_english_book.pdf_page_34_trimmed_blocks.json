@@ -104,7 +104,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meet my sister.<break time=\"500ms\"/> She is Disna.<break time=\"500ms\"/> She is happy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meet my sister. She is <phoneme alphabet='ipa' ph='disna'>Disna</phoneme>. She is happy.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -112,78 +112,64 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Meet"
             },
             {
-                "time": 257,
+                "time": 264,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "my"
             },
             {
-                "time": 546,
+                "time": 566,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 36,
+                "end": 42,
                 "value": "sister"
             },
             {
-                "time": 1254,
+                "time": 1678,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2141,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 44,
+                "end": 47,
                 "value": "She"
             },
             {
-                "time": 2400,
+                "time": 1944,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "is"
             },
             {
-                "time": 2574,
+                "time": 2130,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 86,
+                "end": 91,
                 "value": "Disna"
             },
             {
-                "time": 3169,
+                "time": 3155,
                 "type": "word",
-                "start": 77,
-                "end": 98,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4056,
-                "type": "word",
-                "start": 99,
-                "end": 102,
+                "start": 103,
+                "end": 106,
                 "value": "She"
             },
             {
-                "time": 4314,
+                "time": 3420,
                 "type": "word",
-                "start": 103,
-                "end": 105,
+                "start": 107,
+                "end": 109,
                 "value": "is"
             },
             {
-                "time": 4468,
+                "time": 3586,
                 "type": "word",
-                "start": 106,
-                "end": 111,
+                "start": 110,
+                "end": 115,
                 "value": "happy"
             }
         ]
@@ -293,86 +279,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Meet my brother.<break time=\"500ms\"/> He is Vinura.<break time=\"500ms\"/> He is happy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Meet my brother. He is <phoneme alphabet='ipa' ph='vinura'>Vinura</phoneme>. He is happy.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Meet"
             },
             {
-                "time": 291,
+                "time": 307,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "my"
             },
             {
-                "time": 468,
+                "time": 519,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "brother"
             },
             {
-                "time": 1027,
+                "time": 1456,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1914,
-                "type": "word",
-                "start": 65,
-                "end": 67,
+                "start": 45,
+                "end": 47,
                 "value": "He"
             },
             {
-                "time": 2095,
+                "time": 1663,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "is"
             },
             {
-                "time": 2280,
+                "time": 1864,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 87,
+                "end": 93,
                 "value": "Vinura"
             },
             {
-                "time": 2967,
+                "time": 2922,
                 "type": "word",
-                "start": 78,
-                "end": 99,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3853,
-                "type": "word",
-                "start": 100,
-                "end": 102,
+                "start": 105,
+                "end": 107,
                 "value": "He"
             },
             {
-                "time": 4001,
+                "time": 3121,
                 "type": "word",
-                "start": 103,
-                "end": 105,
+                "start": 108,
+                "end": 110,
                 "value": "is"
             },
             {
-                "time": 4175,
+                "time": 3333,
                 "type": "word",
-                "start": 106,
-                "end": 111,
+                "start": 111,
+                "end": 116,
                 "value": "happy"
             }
         ]
@@ -735,323 +707,247 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Happy Families 1.<break time=\"500ms\"/> Make six cards.<break time=\"500ms\"/> 2.<break time=\"500ms\"/> Write &quot;father&quot; &quot;mother&quot;&quot;gandmother&quot; &quot;grandfather&quot;&quot;daughter&quot; and &quot;son&quot; on them.<break time=\"500ms\"/> 3.<break time=\"500ms\"/> Take one card.<break time=\"500ms\"/> 4.<break time=\"500ms\"/> Walk around.<break time=\"500ms\"/> 5.<break time=\"500ms\"/> Find family members.<break time=\"500ms\"/> 6.<break time=\"500ms\"/> Hold hands and sit down.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Happy Families 1. Make six cards. 2. Write \"father\" \"mother\"\"gandmother\" \"grandfather\"\"daughter\" and \"son\" on them. 3. Take one card. 4. Walk around. 5. Find family members. 6. Hold hands and sit down.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Happy"
             },
             {
-                "time": 348,
+                "time": 360,
                 "type": "word",
-                "start": 33,
-                "end": 41,
+                "start": 34,
+                "end": 42,
                 "value": "Families"
             },
             {
-                "time": 947,
+                "time": 966,
                 "type": "word",
-                "start": 42,
-                "end": 43,
+                "start": 43,
+                "end": 44,
                 "value": "1"
             },
             {
-                "time": 1441,
+                "time": 1870,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2328,
-                "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 46,
+                "end": 50,
                 "value": "Make"
             },
             {
-                "time": 2616,
+                "time": 2170,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "six"
             },
             {
-                "time": 2995,
+                "time": 2548,
                 "type": "word",
-                "start": 75,
-                "end": 80,
+                "start": 55,
+                "end": 60,
                 "value": "cards"
             },
             {
-                "time": 3642,
+                "time": 3621,
                 "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4529,
-                "type": "word",
-                "start": 103,
-                "end": 104,
+                "start": 62,
+                "end": 63,
                 "value": "2"
             },
             {
-                "time": 4999,
+                "time": 4488,
                 "type": "word",
-                "start": 105,
-                "end": 126,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5885,
-                "type": "word",
-                "start": 127,
-                "end": 132,
+                "start": 65,
+                "end": 70,
                 "value": "Write"
             },
             {
-                "time": 6200,
+                "time": 4813,
                 "type": "word",
-                "start": 139,
-                "end": 145,
+                "start": 72,
+                "end": 78,
                 "value": "father"
             },
             {
-                "time": 6594,
+                "time": 5219,
                 "type": "word",
-                "start": 158,
-                "end": 164,
+                "start": 81,
+                "end": 87,
                 "value": "mother"
             },
             {
-                "time": 6929,
+                "time": 5560,
                 "type": "word",
-                "start": 176,
-                "end": 186,
+                "start": 89,
+                "end": 99,
                 "value": "gandmother"
             },
             {
-                "time": 7561,
+                "time": 6206,
                 "type": "word",
-                "start": 199,
-                "end": 210,
+                "start": 102,
+                "end": 113,
                 "value": "grandfather"
             },
             {
-                "time": 8293,
+                "time": 6972,
                 "type": "word",
-                "start": 222,
-                "end": 230,
+                "start": 115,
+                "end": 123,
                 "value": "daughter"
             },
             {
-                "time": 8743,
+                "time": 7436,
                 "type": "word",
-                "start": 237,
-                "end": 240,
+                "start": 125,
+                "end": 128,
                 "value": "and"
             },
             {
-                "time": 8885,
+                "time": 7577,
                 "type": "word",
-                "start": 247,
-                "end": 250,
+                "start": 130,
+                "end": 133,
                 "value": "son"
             },
             {
-                "time": 9231,
+                "time": 7937,
                 "type": "word",
-                "start": 257,
-                "end": 259,
+                "start": 135,
+                "end": 137,
                 "value": "on"
             },
             {
-                "time": 9398,
+                "time": 8104,
                 "type": "word",
-                "start": 260,
-                "end": 264,
+                "start": 138,
+                "end": 142,
                 "value": "them"
             },
             {
-                "time": 9751,
+                "time": 8851,
                 "type": "word",
-                "start": 265,
-                "end": 286,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10638,
-                "type": "word",
-                "start": 287,
-                "end": 288,
+                "start": 144,
+                "end": 145,
                 "value": "3"
             },
             {
-                "time": 11244,
+                "time": 9859,
                 "type": "word",
-                "start": 289,
-                "end": 310,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12131,
-                "type": "word",
-                "start": 311,
-                "end": 315,
+                "start": 147,
+                "end": 151,
                 "value": "Take"
             },
             {
-                "time": 12461,
+                "time": 10199,
                 "type": "word",
-                "start": 316,
-                "end": 319,
+                "start": 152,
+                "end": 155,
                 "value": "one"
             },
             {
-                "time": 12695,
+                "time": 10433,
                 "type": "word",
-                "start": 320,
-                "end": 324,
+                "start": 156,
+                "end": 160,
                 "value": "card"
             },
             {
-                "time": 13314,
+                "time": 11441,
                 "type": "word",
-                "start": 325,
-                "end": 346,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 14201,
-                "type": "word",
-                "start": 347,
-                "end": 348,
+                "start": 162,
+                "end": 163,
                 "value": "4"
             },
             {
-                "time": 14745,
+                "time": 12380,
                 "type": "word",
-                "start": 349,
-                "end": 370,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 15632,
-                "type": "word",
-                "start": 371,
-                "end": 375,
+                "start": 165,
+                "end": 169,
                 "value": "Walk"
             },
             {
-                "time": 15925,
+                "time": 12679,
                 "type": "word",
-                "start": 376,
-                "end": 382,
+                "start": 170,
+                "end": 176,
                 "value": "around"
             },
             {
-                "time": 16539,
+                "time": 13700,
                 "type": "word",
-                "start": 383,
-                "end": 404,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 17426,
-                "type": "word",
-                "start": 405,
-                "end": 406,
+                "start": 178,
+                "end": 179,
                 "value": "5"
             },
             {
-                "time": 18020,
+                "time": 14702,
                 "type": "word",
-                "start": 407,
-                "end": 428,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18907,
-                "type": "word",
-                "start": 429,
-                "end": 433,
+                "start": 181,
+                "end": 185,
                 "value": "Find"
             },
             {
-                "time": 19282,
+                "time": 15096,
                 "type": "word",
-                "start": 434,
-                "end": 440,
+                "start": 186,
+                "end": 192,
                 "value": "family"
             },
             {
-                "time": 19769,
+                "time": 15590,
                 "type": "word",
-                "start": 441,
-                "end": 448,
+                "start": 193,
+                "end": 200,
                 "value": "members"
             },
             {
-                "time": 20423,
+                "time": 16639,
                 "type": "word",
-                "start": 449,
-                "end": 470,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 21310,
-                "type": "word",
-                "start": 471,
-                "end": 472,
+                "start": 202,
+                "end": 203,
                 "value": "6"
             },
             {
-                "time": 21962,
+                "time": 17697,
                 "type": "word",
-                "start": 473,
-                "end": 494,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 22849,
-                "type": "word",
-                "start": 495,
-                "end": 499,
+                "start": 205,
+                "end": 209,
                 "value": "Hold"
             },
             {
-                "time": 23163,
+                "time": 18016,
                 "type": "word",
-                "start": 500,
-                "end": 505,
+                "start": 210,
+                "end": 215,
                 "value": "hands"
             },
             {
-                "time": 23600,
+                "time": 18478,
                 "type": "word",
-                "start": 506,
-                "end": 509,
+                "start": 216,
+                "end": 219,
                 "value": "and"
             },
             {
-                "time": 23767,
+                "time": 18645,
                 "type": "word",
-                "start": 510,
-                "end": 513,
+                "start": 220,
+                "end": 223,
                 "value": "sit"
             },
             {
-                "time": 24026,
+                "time": 18917,
                 "type": "word",
-                "start": 514,
-                "end": 518,
+                "start": 224,
+                "end": 228,
                 "value": "down"
             }
         ]
@@ -1293,162 +1189,156 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Note to the teacher: Make family cards and write the names of the family members on them.<break time=\"500ms\"/> Give them to students.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Note to the teacher: Make family cards and write the names of the family members on them. Give them to students.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Note"
             },
             {
-                "time": 312,
+                "time": 336,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 447,
+                "time": 471,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 567,
+                "time": 598,
                 "type": "word",
-                "start": 39,
-                "end": 46,
+                "start": 40,
+                "end": 47,
                 "value": "teacher"
             },
             {
-                "time": 1429,
+                "time": 1488,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 49,
+                "end": 53,
                 "value": "Make"
             },
             {
-                "time": 1680,
+                "time": 1750,
                 "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 54,
+                "end": 60,
                 "value": "family"
             },
             {
-                "time": 2126,
+                "time": 2202,
                 "type": "word",
-                "start": 60,
-                "end": 65,
+                "start": 61,
+                "end": 66,
                 "value": "cards"
             },
             {
-                "time": 2554,
+                "time": 2638,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 67,
+                "end": 70,
                 "value": "and"
             },
             {
-                "time": 2737,
+                "time": 2820,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 71,
+                "end": 76,
                 "value": "write"
             },
             {
-                "time": 2994,
+                "time": 3084,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 77,
+                "end": 80,
                 "value": "the"
             },
             {
-                "time": 3090,
+                "time": 3180,
                 "type": "word",
-                "start": 80,
-                "end": 85,
+                "start": 81,
+                "end": 86,
                 "value": "names"
             },
             {
-                "time": 3442,
+                "time": 3539,
                 "type": "word",
-                "start": 86,
-                "end": 88,
+                "start": 87,
+                "end": 89,
                 "value": "of"
             },
             {
-                "time": 3569,
+                "time": 3666,
                 "type": "word",
-                "start": 89,
-                "end": 92,
+                "start": 90,
+                "end": 93,
                 "value": "the"
             },
             {
-                "time": 3684,
+                "time": 3781,
                 "type": "word",
-                "start": 93,
-                "end": 99,
+                "start": 94,
+                "end": 100,
                 "value": "family"
             },
             {
-                "time": 4146,
+                "time": 4255,
                 "type": "word",
-                "start": 100,
-                "end": 107,
+                "start": 101,
+                "end": 108,
                 "value": "members"
             },
             {
-                "time": 4646,
+                "time": 4769,
                 "type": "word",
-                "start": 108,
-                "end": 110,
+                "start": 109,
+                "end": 111,
                 "value": "on"
             },
             {
-                "time": 4822,
+                "time": 4945,
                 "type": "word",
-                "start": 111,
-                "end": 115,
+                "start": 112,
+                "end": 116,
                 "value": "them"
             },
             {
-                "time": 5175,
+                "time": 5691,
                 "type": "word",
-                "start": 116,
-                "end": 137,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6061,
-                "type": "word",
-                "start": 138,
-                "end": 142,
+                "start": 118,
+                "end": 122,
                 "value": "Give"
             },
             {
-                "time": 6263,
+                "time": 5892,
                 "type": "word",
-                "start": 143,
-                "end": 147,
+                "start": 123,
+                "end": 127,
                 "value": "them"
             },
             {
-                "time": 6447,
+                "time": 6077,
                 "type": "word",
-                "start": 148,
-                "end": 150,
+                "start": 128,
+                "end": 130,
                 "value": "to"
             },
             {
-                "time": 6576,
+                "time": 6206,
                 "type": "word",
-                "start": 151,
-                "end": 159,
+                "start": 131,
+                "end": 139,
                 "value": "students"
             }
         ]

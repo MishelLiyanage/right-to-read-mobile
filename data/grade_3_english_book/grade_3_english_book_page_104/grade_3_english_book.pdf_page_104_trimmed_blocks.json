@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and play.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and play.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 587,
+                "time": 620,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "play"
             }
         ]
@@ -302,190 +303,156 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Throw the ball.<break time=\"500ms\"/> Kick the ball.<break time=\"500ms\"/> Let the ball roll.<break time=\"500ms\"/> Bounce the ball.<break time=\"500ms\"/> Pass the ball.<break time=\"500ms\"/> Catch the ball and stop.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Throw the ball. Kick the ball. Let the ball roll. Bounce the ball. Pass the ball. Catch the ball and stop.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Throw"
             },
             {
-                "time": 275,
+                "time": 281,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "the"
             },
             {
-                "time": 394,
+                "time": 400,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "ball"
             },
             {
-                "time": 830,
+                "time": 1231,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1716,
-                "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 44,
+                "end": 48,
                 "value": "Kick"
             },
             {
-                "time": 2003,
+                "time": 1534,
                 "type": "word",
-                "start": 69,
-                "end": 72,
+                "start": 49,
+                "end": 52,
                 "value": "the"
             },
             {
-                "time": 2133,
+                "time": 1665,
                 "type": "word",
-                "start": 73,
-                "end": 77,
+                "start": 53,
+                "end": 57,
                 "value": "ball"
             },
             {
-                "time": 2558,
+                "time": 2478,
                 "type": "word",
-                "start": 78,
-                "end": 99,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3445,
-                "type": "word",
-                "start": 100,
-                "end": 103,
+                "start": 59,
+                "end": 62,
                 "value": "Let"
             },
             {
-                "time": 3651,
+                "time": 2685,
                 "type": "word",
-                "start": 104,
-                "end": 107,
+                "start": 63,
+                "end": 66,
                 "value": "the"
             },
             {
-                "time": 3749,
+                "time": 2782,
                 "type": "word",
-                "start": 108,
-                "end": 112,
+                "start": 67,
+                "end": 71,
                 "value": "ball"
             },
             {
-                "time": 4046,
+                "time": 3086,
                 "type": "word",
-                "start": 113,
-                "end": 117,
+                "start": 72,
+                "end": 76,
                 "value": "roll"
             },
             {
-                "time": 4568,
+                "time": 4010,
                 "type": "word",
-                "start": 118,
-                "end": 139,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5455,
-                "type": "word",
-                "start": 140,
-                "end": 146,
+                "start": 78,
+                "end": 84,
                 "value": "Bounce"
             },
             {
-                "time": 5806,
+                "time": 4379,
                 "type": "word",
-                "start": 147,
-                "end": 150,
+                "start": 85,
+                "end": 88,
                 "value": "the"
             },
             {
-                "time": 5943,
+                "time": 4516,
                 "type": "word",
-                "start": 151,
-                "end": 155,
+                "start": 89,
+                "end": 93,
                 "value": "ball"
             },
             {
-                "time": 6368,
+                "time": 5329,
                 "type": "word",
-                "start": 156,
-                "end": 177,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7255,
-                "type": "word",
-                "start": 178,
-                "end": 182,
+                "start": 95,
+                "end": 99,
                 "value": "Pass"
             },
             {
-                "time": 7560,
+                "time": 5635,
                 "type": "word",
-                "start": 183,
-                "end": 186,
+                "start": 100,
+                "end": 103,
                 "value": "the"
             },
             {
-                "time": 7697,
+                "time": 5772,
                 "type": "word",
-                "start": 187,
-                "end": 191,
+                "start": 104,
+                "end": 108,
                 "value": "ball"
             },
             {
-                "time": 8122,
+                "time": 6585,
                 "type": "word",
-                "start": 192,
-                "end": 213,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9009,
-                "type": "word",
-                "start": 214,
-                "end": 219,
+                "start": 110,
+                "end": 115,
                 "value": "Catch"
             },
             {
-                "time": 9392,
+                "time": 6987,
                 "type": "word",
-                "start": 220,
-                "end": 223,
+                "start": 116,
+                "end": 119,
                 "value": "the"
             },
             {
-                "time": 9506,
+                "time": 7101,
                 "type": "word",
-                "start": 224,
-                "end": 228,
+                "start": 120,
+                "end": 124,
                 "value": "ball"
             },
             {
-                "time": 9854,
+                "time": 7477,
                 "type": "word",
-                "start": 229,
-                "end": 232,
+                "start": 125,
+                "end": 128,
                 "value": "and"
             },
             {
-                "time": 9983,
+                "time": 7606,
                 "type": "word",
-                "start": 233,
-                "end": 237,
+                "start": 129,
+                "end": 133,
                 "value": "stop"
             }
         ]

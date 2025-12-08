@@ -38,37 +38,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing the song.<break time=\"400ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sing the song.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 28,
+                "end": 32,
                 "value": "Sing"
             },
             {
-                "time": 324,
+                "time": 335,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 423,
+                "time": 437,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 37,
+                "end": 41,
                 "value": "song"
-            },
-            {
-                "time": 1054,
-                "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -122,7 +116,7 @@
             [
                 [
                     70.0730972290039,
-                    126.27317382812
+                    126.27200317382812
                 ],
                 [
                     103.64818572998047,
@@ -210,106 +204,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">One little finger my little finger one little finger tap,<break time=\"300ms\"/> tap,<break time=\"300ms\"/> tap.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>One little finger my little finger one little finger tap, tap, tap.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "One"
             },
             {
-                "time": 236,
+                "time": 241,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "little"
             },
             {
-                "time": 485,
+                "time": 496,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "finger"
             },
             {
-                "time": 907,
+                "time": 918,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "my"
             },
             {
-                "time": 1109,
+                "time": 1127,
                 "type": "word",
-                "start": 48,
-                "end": 54,
+                "start": 49,
+                "end": 55,
                 "value": "little"
             },
             {
-                "time": 1393,
+                "time": 1437,
                 "type": "word",
-                "start": 55,
-                "end": 61,
+                "start": 56,
+                "end": 62,
                 "value": "finger"
             },
             {
-                "time": 1810,
+                "time": 1855,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 63,
+                "end": 66,
                 "value": "one"
             },
             {
-                "time": 2124,
+                "time": 2182,
                 "type": "word",
-                "start": 66,
-                "end": 72,
+                "start": 67,
+                "end": 73,
                 "value": "little"
             },
             {
-                "time": 2359,
+                "time": 2417,
                 "type": "word",
-                "start": 73,
-                "end": 79,
+                "start": 74,
+                "end": 80,
                 "value": "finger"
             },
             {
-                "time": 2790,
+                "time": 2848,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 81,
+                "end": 84,
                 "value": "tap"
             },
             {
-                "time": 3296,
+                "time": 3448,
                 "type": "word",
-                "start": 84,
-                "end": 105,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3690,
-                "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 86,
+                "end": 89,
                 "value": "tap"
             },
             {
-                "time": 4159,
+                "time": 4011,
                 "type": "word",
-                "start": 110,
-                "end": 131,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4552,
-                "type": "word",
-                "start": 132,
-                "end": 135,
+                "start": 91,
+                "end": 94,
                 "value": "tap"
             }
         ]
@@ -403,7 +384,7 @@
             ],
             [
                 [
-                    114.86192777344,
+                    114.86192321777344,
                     312.2720031738281
                 ],
                 [
@@ -452,106 +433,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Two little fingers my little fingers two little fingers tap,<break time=\"300ms\"/> tap,<break time=\"300ms\"/> tap.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Two little fingers my little fingers two little fingers tap, tap, tap.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Two"
             },
             {
-                "time": 224,
+                "time": 231,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "little"
             },
             {
-                "time": 482,
+                "time": 501,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "fingers"
             },
             {
-                "time": 1009,
+                "time": 1047,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "my"
             },
             {
-                "time": 1193,
+                "time": 1238,
                 "type": "word",
-                "start": 49,
-                "end": 55,
+                "start": 50,
+                "end": 56,
                 "value": "little"
             },
             {
-                "time": 1479,
+                "time": 1550,
                 "type": "word",
-                "start": 56,
-                "end": 63,
+                "start": 57,
+                "end": 64,
                 "value": "fingers"
             },
             {
-                "time": 2000,
+                "time": 2106,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 65,
+                "end": 68,
                 "value": "two"
             },
             {
-                "time": 2250,
+                "time": 2367,
                 "type": "word",
-                "start": 68,
-                "end": 74,
+                "start": 69,
+                "end": 75,
                 "value": "little"
             },
             {
-                "time": 2552,
+                "time": 2675,
                 "type": "word",
-                "start": 75,
-                "end": 82,
+                "start": 76,
+                "end": 83,
                 "value": "fingers"
             },
             {
-                "time": 3100,
+                "time": 3243,
                 "type": "word",
-                "start": 83,
-                "end": 86,
+                "start": 84,
+                "end": 87,
                 "value": "tap"
             },
             {
-                "time": 3584,
+                "time": 3828,
                 "type": "word",
-                "start": 87,
-                "end": 108,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3978,
-                "type": "word",
-                "start": 109,
-                "end": 112,
+                "start": 89,
+                "end": 92,
                 "value": "tap"
             },
             {
-                "time": 4447,
+                "time": 4391,
                 "type": "word",
-                "start": 113,
-                "end": 134,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4840,
-                "type": "word",
-                "start": 135,
-                "end": 138,
+                "start": 94,
+                "end": 97,
                 "value": "tap"
             }
         ]
@@ -584,30 +552,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Three little<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Three little.....</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Three"
             },
             {
-                "time": 247,
+                "time": 364,
                 "type": "word",
-                "start": 33,
-                "end": 39,
+                "start": 34,
+                "end": 40,
                 "value": "little"
-            },
-            {
-                "time": 900,
-                "type": "word",
-                "start": 39,
-                "end": 61,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -639,30 +601,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Four little<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Four little.....</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Four"
             },
             {
-                "time": 227,
+                "time": 242,
                 "type": "word",
-                "start": 32,
-                "end": 38,
+                "start": 33,
+                "end": 39,
                 "value": "little"
-            },
-            {
-                "time": 891,
-                "type": "word",
-                "start": 38,
-                "end": 60,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -705,36 +661,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Five little<break time=\"1000ms\"/> fingers</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Five little..... fingers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Five"
             },
             {
-                "time": 461,
+                "time": 440,
                 "type": "word",
-                "start": 32,
-                "end": 38,
+                "start": 33,
+                "end": 39,
                 "value": "little"
             },
             {
-                "time": 1061,
+                "time": 1281,
                 "type": "word",
-                "start": 38,
-                "end": 60,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2161,
-                "type": "word",
-                "start": 61,
-                "end": 68,
+                "start": 45,
+                "end": 52,
                 "value": "fingers"
             }
         ]
@@ -778,43 +728,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">clap,<break time=\"300ms\"/> clap,<break time=\"300ms\"/> clap</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>clap, clap, clap</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "clap"
             },
             {
-                "time": 715,
+                "time": 846,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1116,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 34,
+                "end": 38,
                 "value": "clap"
             },
             {
-                "time": 1729,
+                "time": 1567,
                 "type": "word",
-                "start": 59,
-                "end": 80,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2130,
-                "type": "word",
-                "start": 81,
-                "end": 85,
+                "start": 40,
+                "end": 44,
                 "value": "clap"
             }
         ]

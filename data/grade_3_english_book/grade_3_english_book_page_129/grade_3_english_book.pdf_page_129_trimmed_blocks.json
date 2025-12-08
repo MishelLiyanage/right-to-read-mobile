@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "120",
-        "words": [
-            "120"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    26.055599212646484,
-                    24.34998893737793
-                ],
-                [
-                    65.47560119628906,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">120</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "120"
-            }
-        ]
-    },
-    "1": {
         "text": "Read aloud.",
         "words": [
             "Read",
@@ -57,27 +27,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 266,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "We get water from:",
         "words": [
             "We",
@@ -127,41 +98,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We get water from:</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We get water from:</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 135,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "get"
             },
             {
                 "time": 341,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "water"
             },
             {
-                "time": 687,
+                "time": 686,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "from"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "rain",
         "words": [
             "rain"
@@ -178,20 +150,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">rain</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>rain</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "rain"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "tap",
         "words": [
             "tap"
@@ -208,53 +181,25 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">tap</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>tap</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "tap"
             }
         ]
     },
-    "5": {
-        "text": "well",
+    "4": {
+        "text": "river well",
         "words": [
+            "river",
             "well"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    148.8470001220703,
-                    671.5142822265625
-                ],
-                [
-                    186.2869873046875,
-                    695.3342895507812
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">well</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "well"
-            }
-        ]
-    },
-    "6": {
-        "text": "river",
-        "words": [
-            "river"
         ],
         "bounding_boxes": [
             [
@@ -266,18 +211,36 @@
                     438.8470153808594,
                     698.1956787109375
                 ]
+            ],
+            [
+                [
+                    148.8470001220703,
+                    671.5142822265625
+                ],
+                [
+                    186.2869873046875,
+                    695.3342895507812
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">river</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>river well</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "river"
+            },
+            {
+                "time": 294,
+                "type": "word",
+                "start": 34,
+                "end": 38,
+                "value": "well"
             }
         ]
     }

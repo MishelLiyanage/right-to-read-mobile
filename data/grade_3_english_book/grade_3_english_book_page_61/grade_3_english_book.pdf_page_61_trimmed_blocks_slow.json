@@ -1,0 +1,984 @@
+{
+    "0": {
+        "text": "Fruits Talk",
+        "words": [
+            "Fruits",
+            "Talk"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    282.2279968261719,
+                    51.613983154296875
+                ],
+                [
+                    332.6080322265625,
+                    75.4339828491211
+                ]
+            ],
+            [
+                [
+                    62.36799621582031,
+                    75.61398315429688
+                ],
+                [
+                    99.2280044555664,
+                    99.4339828491211
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Fruits <break time='200ms'/> Talk <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Fruits"
+            },
+            {
+                "time": 712,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1012,
+                "type": "word",
+                "start": 57,
+                "end": 61,
+                "value": "Talk"
+            },
+            {
+                "time": 1746,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Do you like apples?",
+        "words": [
+            "Do",
+            "you",
+            "like",
+            "apples?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    207.36000061035156,
+                    120.54202270507812
+                ],
+                [
+                    230.45401000976562,
+                    141.9800262451172
+                ]
+            ],
+            [
+                [
+                    234.77401733398438,
+                    120.54202270507812
+                ],
+                [
+                    265.4100341796875,
+                    141.9800262451172
+                ]
+            ],
+            [
+                [
+                    269.9100341796875,
+                    120.54202270507812
+                ],
+                [
+                    298.0980224609375,
+                    141.9800262451172
+                ]
+            ],
+            [
+                [
+                    207.36000061035156,
+                    142.14199829101562
+                ],
+                [
+                    272.23199462890625,
+                    163.5800018310547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Do <break time='200ms'/> you <break time='200ms'/> like <break time='200ms'/> apples? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "Do"
+            },
+            {
+                "time": 697,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 987,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "you"
+            },
+            {
+                "time": 1649,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1951,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "like"
+            },
+            {
+                "time": 2565,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2865,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "apples"
+            },
+            {
+                "time": 3404,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Yes, I like.",
+        "words": [
+            "Yes,",
+            "I",
+            "like."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    203.8209991455078,
+                    390.9410095214844
+                ],
+                [
+                    236.09498596191406,
+                    412.3790283203125
+                ]
+            ],
+            [
+                [
+                    239.6949920654297,
+                    390.9410095214844
+                ],
+                [
+                    246.35499572753906,
+                    412.3790283203125
+                ]
+            ],
+            [
+                [
+                    250.85499572753906,
+                    390.9410095214844
+                ],
+                [
+                    284.69500732421875,
+                    412.3790283203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Yes, <break time='200ms'/> I <break time='200ms'/> like. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Yes"
+            },
+            {
+                "time": 732,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1032,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "I"
+            },
+            {
+                "time": 1620,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1920,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "like"
+            },
+            {
+                "time": 2463,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "No, I like babanas.",
+        "words": [
+            "No,",
+            "I",
+            "like",
+            "babanas."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    349.1929931640625,
+                    125.83401489257812
+                ],
+                [
+                    378.02899169921875,
+                    147.2720184326172
+                ]
+            ],
+            [
+                [
+                    381.6289978027344,
+                    125.83401489257812
+                ],
+                [
+                    388.28900146484375,
+                    147.2720184326172
+                ]
+            ],
+            [
+                [
+                    392.78900146484375,
+                    125.83401489257812
+                ],
+                [
+                    420.97698974609375,
+                    147.2720184326172
+                ]
+            ],
+            [
+                [
+                    349.1929931640625,
+                    147.43399047851562
+                ],
+                [
+                    429.0950012207031,
+                    168.8719940185547
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>No, <break time='200ms'/> I <break time='200ms'/> like <break time='200ms'/> babanas. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "No"
+            },
+            {
+                "time": 691,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 991,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "I"
+            },
+            {
+                "time": 1579,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1879,
+                "type": "word",
+                "start": 78,
+                "end": 82,
+                "value": "like"
+            },
+            {
+                "time": 2509,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2809,
+                "type": "word",
+                "start": 105,
+                "end": 112,
+                "value": "babanas"
+            },
+            {
+                "time": 3741,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "an apple",
+        "words": [
+            "an",
+            "apple"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    95.45449829101562,
+                    447.9549865722656
+                ],
+                [
+                    117.7385025024414,
+                    469.39300537109375
+                ]
+            ],
+            [
+                [
+                    122.2385025024414,
+                    447.9549865722656
+                ],
+                [
+                    169.68649291992188,
+                    469.39300537109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>an <break time='200ms'/> apple <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "an"
+            },
+            {
+                "time": 369,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "apple"
+            },
+            {
+                "time": 1378,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "a mango",
+        "words": [
+            "a",
+            "mango"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    236.14199829101562,
+                    452.2749938964844
+                ],
+                [
+                    247.08599853515625,
+                    473.7130126953125
+                ]
+            ],
+            [
+                [
+                    251.58599853515625,
+                    452.2749938964844
+                ],
+                [
+                    313.39801025390625,
+                    473.7130126953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> mango <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 706,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1006,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "mango"
+            },
+            {
+                "time": 1891,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "a papaya",
+        "words": [
+            "a",
+            "papaya"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    335.25799560546875,
+                    467.2559814453125
+                ],
+                [
+                    346.2019958496094,
+                    488.6940002441406
+                ]
+            ],
+            [
+                [
+                    350.7019958496094,
+                    467.2559814453125
+                ],
+                [
+                    414.4040222167969,
+                    488.6940002441406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> papaya <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 853,
+                "type": "word",
+                "start": 52,
+                "end": 58,
+                "value": "papaya"
+            },
+            {
+                "time": 1677,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "a pineapple",
+        "words": [
+            "a",
+            "pineapple"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    448.0849914550781,
+                    453.8030090332031
+                ],
+                [
+                    459.02899169921875,
+                    475.24102783203125
+                ]
+            ],
+            [
+                [
+                    463.52899169921875,
+                    453.8030090332031
+                ],
+                [
+                    547.85888671875,
+                    475.24102783203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> pineapple <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 859,
+                "type": "word",
+                "start": 52,
+                "end": 61,
+                "value": "pineapple"
+            },
+            {
+                "time": 1881,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "a rambutan",
+        "words": [
+            "a",
+            "rambutan"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    57.4015007019043,
+                    492.12200927734375
+                ],
+                [
+                    68.34550476074219,
+                    513.5599975585938
+                ]
+            ],
+            [
+                [
+                    72.84550476074219,
+                    492.12200927734375
+                ],
+                [
+                    159.0474853515625,
+                    513.5599975585938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> rambutan <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 859,
+                "type": "word",
+                "start": 52,
+                "end": 60,
+                "value": "rambutan"
+            },
+            {
+                "time": 2050,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "a guava",
+        "words": [
+            "a",
+            "guava"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    85.79810333251953,
+                    600.5950317382812
+                ],
+                [
+                    96.74210357666016,
+                    622.0330200195312
+                ]
+            ],
+            [
+                [
+                    101.24210357666016,
+                    600.5950317382812
+                ],
+                [
+                    154.48611450195312,
+                    622.0330200195312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> guava <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 853,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "guava"
+            },
+            {
+                "time": 1711,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "grapes",
+        "words": [
+            "grapes"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    104.12100219726562,
+                    637.3070068359375
+                ],
+                [
+                    161.0189971923828,
+                    658.7449951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>grapes <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "grapes"
+            },
+            {
+                "time": 854,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "a watermelon",
+        "words": [
+            "a",
+            "watermelon"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    152.70399475097656,
+                    674.8648071289062
+                ],
+                [
+                    163.6479949951172,
+                    696.3027954101562
+                ]
+            ],
+            [
+                [
+                    167.96800231933594,
+                    674.8648071289062
+                ],
+                [
+                    270.8379821777344,
+                    696.3027954101562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> watermelon <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 559,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 860,
+                "type": "word",
+                "start": 52,
+                "end": 62,
+                "value": "watermelon"
+            },
+            {
+                "time": 1910,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "a banana",
+        "words": [
+            "a",
+            "banana"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    267.29998779296875,
+                    694.5043334960938
+                ],
+                [
+                    278.2439880371094,
+                    715.9423217773438
+                ]
+            ],
+            [
+                [
+                    282.7439880371094,
+                    694.5043334960938
+                ],
+                [
+                    349.1999816894531,
+                    715.9423217773438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> banana <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 619,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 920,
+                "type": "word",
+                "start": 52,
+                "end": 58,
+                "value": "banana"
+            },
+            {
+                "time": 1693,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "an orange",
+        "words": [
+            "an",
+            "orange"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    454.96099853515625,
+                    654.2350463867188
+                ],
+                [
+                    477.2449951171875,
+                    675.6730346679688
+                ]
+            ],
+            [
+                [
+                    481.7449951171875,
+                    654.2350463867188
+                ],
+                [
+                    540.9829711914062,
+                    675.6730346679688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>an <break time='200ms'/> orange <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "an"
+            },
+            {
+                "time": 369,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 663,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "orange"
+            },
+            {
+                "time": 1466,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

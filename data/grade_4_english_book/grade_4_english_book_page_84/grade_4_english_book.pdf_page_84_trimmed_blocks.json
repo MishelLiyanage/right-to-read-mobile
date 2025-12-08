@@ -27,34 +27,64 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
     },
     "1": {
-        "text": "Listen and repeat.",
+        "text": "cloudy rainy Listen and repeat. How was the weather like last week?",
         "words": [
+            "cloudy",
+            "rainy",
             "Listen",
             "and",
-            "repeat."
+            "repeat.",
+            "How",
+            "was",
+            "the",
+            "weather",
+            "like",
+            "last",
+            "week?"
         ],
         "bounding_boxes": [
+            [
+                [
+                    372.9599914550781,
+                    93.89749908447266
+                ],
+                [
+                    416.052001953125,
+                    110.57150268554688
+                ]
+            ],
+            [
+                [
+                    436.9119873046875,
+                    93.89749908447266
+                ],
+                [
+                    469.0560302734375,
+                    110.57150268554688
+                ]
+            ],
             [
                 [
                     132.7095947265625,
@@ -84,47 +114,7 @@
                     318.8515930175781,
                     80.4630126953125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 401,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "and"
-            },
-            {
-                "time": 555,
-                "type": "word",
-                "start": 38,
-                "end": 44,
-                "value": "repeat"
-            }
-        ]
-    },
-    "2": {
-        "text": "How was the weather like last week?",
-        "words": [
-            "How",
-            "was",
-            "the",
-            "weather",
-            "like",
-            "last",
-            "week?"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     59.529598236083984,
@@ -196,58 +186,129 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How was the weather like last week?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat. How was the weather like last week?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "How"
-            },
-            {
-                "time": 228,
-                "type": "word",
-                "start": 31,
+                "start": 28,
                 "end": 34,
-                "value": "was"
+                "value": "Listen"
             },
             {
-                "time": 465,
+                "time": 413,
                 "type": "word",
                 "start": 35,
                 "end": 38,
+                "value": "and"
+            },
+            {
+                "time": 567,
+                "type": "word",
+                "start": 39,
+                "end": 45,
+                "value": "repeat"
+            },
+            {
+                "time": 1613,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "How"
+            },
+            {
+                "time": 1839,
+                "type": "word",
+                "start": 51,
+                "end": 54,
+                "value": "was"
+            },
+            {
+                "time": 2084,
+                "type": "word",
+                "start": 55,
+                "end": 58,
                 "value": "the"
             },
             {
-                "time": 575,
+                "time": 2193,
                 "type": "word",
-                "start": 39,
-                "end": 46,
+                "start": 59,
+                "end": 66,
                 "value": "weather"
             },
             {
-                "time": 899,
+                "time": 2531,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 67,
+                "end": 71,
                 "value": "like"
             },
             {
-                "time": 1238,
+                "time": 2890,
                 "type": "word",
-                "start": 52,
-                "end": 56,
+                "start": 72,
+                "end": 76,
                 "value": "last"
             },
             {
-                "time": 1597,
+                "time": 3262,
                 "type": "word",
-                "start": 57,
-                "end": 61,
+                "start": 77,
+                "end": 81,
                 "value": "week"
+            }
+        ]
+    },
+    "2": {
+        "text": "sunny windy",
+        "words": [
+            "sunny",
+            "windy"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    372.9599914550781,
+                    72.2955093383789
+                ],
+                [
+                    412.7760314941406,
+                    88.96951293945312
+                ]
+            ],
+            [
+                [
+                    433.4960021972656,
+                    72.2955093383789
+                ],
+                [
+                    472.9200439453125,
+                    88.96951293945312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>sunny windy</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "sunny"
+            },
+            {
+                "time": 440,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "windy"
             }
         ]
     },
@@ -301,36 +362,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Monday It was sunny.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Monday It was sunny.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Monday"
             },
             {
-                "time": 420,
+                "time": 436,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "It"
             },
             {
-                "time": 494,
+                "time": 510,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "was"
             },
             {
-                "time": 689,
+                "time": 704,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "sunny"
             }
         ]
@@ -385,36 +447,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Tuesday It was cloudy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Tuesday It was cloudy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Tuesday"
             },
             {
-                "time": 652,
+                "time": 679,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "It"
             },
             {
-                "time": 776,
+                "time": 803,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "was"
             },
             {
-                "time": 990,
+                "time": 1016,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 43,
+                "end": 49,
                 "value": "cloudy"
             }
         ]
@@ -469,36 +532,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Wednesday It was cloudy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Wednesday It was cloudy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Wednesday"
             },
             {
-                "time": 584,
+                "time": 605,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "It"
             },
             {
-                "time": 699,
+                "time": 721,
                 "type": "word",
-                "start": 40,
-                "end": 43,
+                "start": 41,
+                "end": 44,
                 "value": "was"
             },
             {
-                "time": 929,
+                "time": 966,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 45,
+                "end": 51,
                 "value": "cloudy"
             }
         ]
@@ -553,36 +617,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Thursday It was windy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Thursday It was windy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Thursday"
             },
             {
-                "time": 581,
+                "time": 596,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "It"
             },
             {
-                "time": 673,
+                "time": 687,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "was"
             },
             {
-                "time": 879,
+                "time": 894,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "windy"
             }
         ]
@@ -637,36 +702,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Friday It was rainy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Friday It was rainy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Friday"
             },
             {
-                "time": 468,
+                "time": 486,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "It"
             },
             {
-                "time": 543,
+                "time": 561,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "was"
             },
             {
-                "time": 773,
+                "time": 798,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "rainy"
             }
         ]
@@ -721,36 +787,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Saturday It was rainy.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Saturday It was rainy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Saturday"
             },
             {
-                "time": 602,
+                "time": 634,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "It"
             },
             {
-                "time": 676,
+                "time": 708,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "was"
             },
             {
-                "time": 907,
+                "time": 946,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "rainy"
             }
         ]
@@ -805,36 +872,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sunday It was sunny.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sunday It was sunny.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Sunday"
             },
             {
-                "time": 560,
+                "time": 581,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "It"
             },
             {
-                "time": 676,
+                "time": 697,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "was"
             },
             {
-                "time": 870,
+                "time": 891,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "sunny"
             }
         ]

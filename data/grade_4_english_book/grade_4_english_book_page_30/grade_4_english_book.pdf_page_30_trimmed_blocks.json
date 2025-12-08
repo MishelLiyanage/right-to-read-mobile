@@ -27,162 +27,29 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Week 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Week 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Week"
             },
             {
-                "time": 249,
+                "time": 265,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "4"
             }
         ]
     },
     "1": {
-        "text": "Oh! How wonderful!",
-        "words": [
-            "Oh!",
-            "How",
-            "wonderful!"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    83.34700012207031,
-                    124.7958984375
-                ],
-                [
-                    117.43899536132812,
-                    146.61190795898438
-                ]
-            ],
-            [
-                [
-                    123.1449966430664,
-                    124.7958984375
-                ],
-                [
-                    164.34698486328125,
-                    146.61190795898438
-                ]
-            ],
-            [
-                [
-                    83.34700012207031,
-                    146.3958740234375
-                ],
-                [
-                    183.22900390625,
-                    168.21188354492188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh! How wonderful!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "Oh"
-            },
-            {
-                "time": 890,
-                "type": "word",
-                "start": 31,
-                "end": 34,
-                "value": "How"
-            },
-            {
-                "time": 1105,
-                "type": "word",
-                "start": 35,
-                "end": 44,
-                "value": "wonderful"
-            }
-        ]
-    },
-    "2": {
-        "text": "Then what happens?",
-        "words": [
-            "Then",
-            "what",
-            "happens?"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    83.34700012207031,
-                    178.00390625
-                ],
-                [
-                    127.55499267578125,
-                    199.81991577148438
-                ]
-            ],
-            [
-                [
-                    133.260986328125,
-                    178.00390625
-                ],
-                [
-                    180.47500610351562,
-                    199.81991577148438
-                ]
-            ],
-            [
-                [
-                    83.34700012207031,
-                    199.6038818359375
-                ],
-                [
-                    177.2349853515625,
-                    221.41989135742188
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Then what happens?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Then"
-            },
-            {
-                "time": 194,
-                "type": "word",
-                "start": 32,
-                "end": 36,
-                "value": "what"
-            },
-            {
-                "time": 411,
-                "type": "word",
-                "start": 37,
-                "end": 44,
-                "value": "happens"
-            }
-        ]
-    },
-    "3": {
-        "text": "The cocoon breaks. A beautiful butterfly comes out.",
+        "text": "The cocoon breaks. A beautiful butterfly comes out. Oh! How wonderful!",
         "words": [
             "The",
             "cocoon",
@@ -191,7 +58,10 @@
             "beautiful",
             "butterfly",
             "comes",
-            "out."
+            "out.",
+            "Oh!",
+            "How",
+            "wonderful!"
         ],
         "bounding_boxes": [
             [
@@ -273,9 +143,39 @@
                     532.5968017578125,
                     136.42092895507812
                 ]
+            ],
+            [
+                [
+                    83.34700012207031,
+                    124.7958984375
+                ],
+                [
+                    117.43899536132812,
+                    146.61190795898438
+                ]
+            ],
+            [
+                [
+                    123.1449966430664,
+                    124.7958984375
+                ],
+                [
+                    164.34698486328125,
+                    146.61190795898438
+                ]
+            ],
+            [
+                [
+                    83.34700012207031,
+                    146.3958740234375
+                ],
+                [
+                    183.22900390625,
+                    168.21188354492188
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The cocoon breaks.<break time=\"500ms\"/> A beautiful butterfly comes out.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The cocoon breaks. A beautiful butterfly comes out. Oh! How wonderful!</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -283,69 +183,150 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 98,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "cocoon"
             },
             {
-                "time": 588,
+                "time": 601,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "breaks"
             },
             {
-                "time": 1227,
+                "time": 1641,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2114,
-                "type": "word",
-                "start": 67,
-                "end": 68,
+                "start": 47,
+                "end": 48,
                 "value": "A"
             },
             {
-                "time": 2188,
+                "time": 1715,
                 "type": "word",
-                "start": 69,
-                "end": 78,
+                "start": 49,
+                "end": 58,
                 "value": "beautiful"
             },
             {
-                "time": 2705,
+                "time": 2254,
                 "type": "word",
-                "start": 79,
-                "end": 88,
+                "start": 59,
+                "end": 68,
                 "value": "butterfly"
             },
             {
-                "time": 3322,
+                "time": 2897,
                 "type": "word",
-                "start": 89,
-                "end": 94,
+                "start": 69,
+                "end": 74,
                 "value": "comes"
             },
             {
-                "time": 3705,
+                "time": 3294,
                 "type": "word",
-                "start": 95,
-                "end": 98,
+                "start": 75,
+                "end": 78,
                 "value": "out"
+            },
+            {
+                "time": 4090,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "Oh"
+            },
+            {
+                "time": 4996,
+                "type": "word",
+                "start": 84,
+                "end": 87,
+                "value": "How"
+            },
+            {
+                "time": 5216,
+                "type": "word",
+                "start": 88,
+                "end": 97,
+                "value": "wonderful"
             }
         ]
     },
-    "4": {
+    "2": {
+        "text": "Then what happens?",
+        "words": [
+            "Then",
+            "what",
+            "happens?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    83.34700012207031,
+                    178.00390625
+                ],
+                [
+                    127.55499267578125,
+                    199.81991577148438
+                ]
+            ],
+            [
+                [
+                    133.260986328125,
+                    178.00390625
+                ],
+                [
+                    180.47500610351562,
+                    199.81991577148438
+                ]
+            ],
+            [
+                [
+                    83.34700012207031,
+                    199.6038818359375
+                ],
+                [
+                    177.2349853515625,
+                    221.41989135742188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Then what happens?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Then"
+            },
+            {
+                "time": 232,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "what"
+            },
+            {
+                "time": 451,
+                "type": "word",
+                "start": 38,
+                "end": 45,
+                "value": "happens"
+            }
+        ]
+    },
+    "3": {
         "text": "Oh! great. Butterfly, butterfly, come to my garden .",
         "words": [
             "Oh!",
@@ -450,7 +431,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh! great.<break time=\"500ms\"/> Butterfly,<break time=\"300ms\"/> butterfly,<break time=\"300ms\"/> come to my garden .</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Oh! great. Butterfly, butterfly, come to my garden .</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -458,83 +439,62 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Oh"
             },
             {
-                "time": 813,
+                "time": 834,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "great"
             },
             {
-                "time": 1307,
+                "time": 1716,
                 "type": "word",
-                "start": 37,
-                "end": 58,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2194,
-                "type": "word",
-                "start": 59,
-                "end": 68,
+                "start": 39,
+                "end": 48,
                 "value": "Butterfly"
             },
             {
-                "time": 3065,
+                "time": 2707,
                 "type": "word",
-                "start": 69,
-                "end": 90,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 3458,
-                "type": "word",
-                "start": 91,
-                "end": 100,
+                "start": 50,
+                "end": 59,
                 "value": "butterfly"
             },
             {
-                "time": 4329,
+                "time": 3704,
                 "type": "word",
-                "start": 101,
-                "end": 122,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4730,
-                "type": "word",
-                "start": 123,
-                "end": 127,
+                "start": 61,
+                "end": 65,
                 "value": "come"
             },
             {
-                "time": 5008,
+                "time": 3996,
                 "type": "word",
-                "start": 128,
-                "end": 130,
+                "start": 66,
+                "end": 68,
                 "value": "to"
             },
             {
-                "time": 5169,
+                "time": 4168,
                 "type": "word",
-                "start": 131,
-                "end": 133,
+                "start": 69,
+                "end": 71,
                 "value": "my"
             },
             {
-                "time": 5323,
+                "time": 4339,
                 "type": "word",
-                "start": 134,
-                "end": 140,
+                "start": 72,
+                "end": 78,
                 "value": "garden"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Ask the students to act out the dialogue. If needed, read it first with the students for practice.",
         "words": [
             "Ask",
@@ -738,148 +698,135 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Ask the students to act out the dialogue.<break time=\"500ms\"/> If needed,<break time=\"300ms\"/> read it first with the students for practice.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ask the students to act out the dialogue. If needed, read it first with the students for practice.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Ask"
             },
             {
-                "time": 363,
+                "time": 387,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "the"
             },
             {
-                "time": 456,
+                "time": 479,
                 "type": "word",
-                "start": 35,
-                "end": 43,
+                "start": 36,
+                "end": 44,
                 "value": "students"
             },
             {
-                "time": 1024,
+                "time": 1054,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "to"
             },
             {
-                "time": 1198,
+                "time": 1226,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "act"
             },
             {
-                "time": 1517,
+                "time": 1552,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "out"
             },
             {
-                "time": 1707,
+                "time": 1757,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 56,
+                "end": 59,
                 "value": "the"
             },
             {
-                "time": 1815,
+                "time": 1865,
                 "type": "word",
-                "start": 59,
-                "end": 67,
+                "start": 60,
+                "end": 68,
                 "value": "dialogue"
             },
             {
-                "time": 2621,
+                "time": 3073,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3508,
-                "type": "word",
-                "start": 90,
-                "end": 92,
+                "start": 70,
+                "end": 72,
                 "value": "If"
             },
             {
-                "time": 3671,
+                "time": 3247,
                 "type": "word",
-                "start": 93,
-                "end": 99,
+                "start": 73,
+                "end": 79,
                 "value": "needed"
             },
             {
-                "time": 4352,
+                "time": 4023,
                 "type": "word",
-                "start": 100,
-                "end": 121,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 4754,
-                "type": "word",
-                "start": 122,
-                "end": 126,
+                "start": 81,
+                "end": 85,
                 "value": "read"
             },
             {
-                "time": 5002,
+                "time": 4282,
                 "type": "word",
-                "start": 127,
-                "end": 129,
+                "start": 86,
+                "end": 88,
                 "value": "it"
             },
             {
-                "time": 5105,
+                "time": 4386,
                 "type": "word",
-                "start": 130,
-                "end": 135,
+                "start": 89,
+                "end": 94,
                 "value": "first"
             },
             {
-                "time": 5533,
+                "time": 4833,
                 "type": "word",
-                "start": 136,
-                "end": 140,
+                "start": 95,
+                "end": 99,
                 "value": "with"
             },
             {
-                "time": 5689,
+                "time": 4990,
                 "type": "word",
-                "start": 141,
-                "end": 144,
+                "start": 100,
+                "end": 103,
                 "value": "the"
             },
             {
-                "time": 5798,
+                "time": 5099,
                 "type": "word",
-                "start": 145,
-                "end": 153,
+                "start": 104,
+                "end": 112,
                 "value": "students"
             },
             {
-                "time": 6386,
+                "time": 5727,
                 "type": "word",
-                "start": 154,
-                "end": 157,
+                "start": 113,
+                "end": 116,
                 "value": "for"
             },
             {
-                "time": 6558,
+                "time": 5899,
                 "type": "word",
-                "start": 158,
-                "end": 166,
+                "start": 117,
+                "end": 125,
                 "value": "practice"
             }
         ]

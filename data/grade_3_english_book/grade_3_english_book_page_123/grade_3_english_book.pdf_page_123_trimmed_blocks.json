@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "114",
-        "words": [
-            "114"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.23040008544922,
-                    24.34998893737793
-                ],
-                [
-                    61.280399322509766,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">114</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "114"
-            }
-        ]
-    },
-    "1": {
         "text": "Read.",
         "words": [
             "Read."
@@ -46,20 +16,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "The seeds hide in soil.",
         "words": [
             "The",
@@ -120,48 +91,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The seeds hide in soil.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The seeds hide in soil.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 122,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "seeds"
             },
             {
-                "time": 517,
+                "time": 531,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "hide"
             },
             {
-                "time": 906,
+                "time": 926,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "in"
             },
             {
-                "time": 1043,
+                "time": 1064,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 46,
+                "end": 50,
                 "value": "soil"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "They start growing.",
         "words": [
             "They",
@@ -200,34 +172,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">They start growing.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>They start growing.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "They"
             },
             {
-                "time": 152,
+                "time": 164,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "start"
             },
             {
-                "time": 544,
+                "time": 568,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "growing"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Roots grow down.",
         "words": [
             "Roots",
@@ -266,34 +239,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Roots grow down.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Roots grow down.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Roots"
             },
             {
-                "time": 328,
+                "time": 345,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "grow"
             },
             {
-                "time": 627,
+                "time": 665,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "down"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Tiny shoots grow up.",
         "words": [
             "Tiny",
@@ -343,41 +317,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Tiny shoots grow up.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Tiny shoots grow up.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Tiny"
             },
             {
-                "time": 414,
+                "time": 435,
                 "type": "word",
-                "start": 32,
-                "end": 38,
+                "start": 33,
+                "end": 39,
                 "value": "shoots"
             },
             {
-                "time": 824,
+                "time": 859,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "grow"
             },
             {
-                "time": 1164,
+                "time": 1229,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "up"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "At last, seeds become plants.",
         "words": [
             "At",
@@ -438,50 +413,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">At last,<break time=\"300ms\"/> seeds become plants.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>At last, seeds become plants.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "At"
             },
             {
-                "time": 143,
+                "time": 154,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "last"
             },
             {
-                "time": 849,
+                "time": 974,
                 "type": "word",
-                "start": 35,
-                "end": 56,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1242,
-                "type": "word",
-                "start": 57,
-                "end": 62,
+                "start": 37,
+                "end": 42,
                 "value": "seeds"
             },
             {
-                "time": 1653,
+                "time": 1397,
                 "type": "word",
-                "start": 63,
-                "end": 69,
+                "start": 43,
+                "end": 49,
                 "value": "become"
             },
             {
-                "time": 2060,
+                "time": 1810,
                 "type": "word",
-                "start": 70,
-                "end": 76,
+                "start": 50,
+                "end": 56,
                 "value": "plants"
             }
         ]

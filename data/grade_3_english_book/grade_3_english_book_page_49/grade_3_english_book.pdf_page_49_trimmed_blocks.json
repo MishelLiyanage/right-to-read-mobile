@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "40",
-        "words": [
-            "40"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.30030059814453,
-                    24.34998893737793
-                ],
-                [
-                    62.24030303955078,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">40</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "40"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and act.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and act.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and act.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 380,
+                "time": 404,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 562,
+                "time": 586,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "act"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "1) You look sad!",
         "words": [
             "1)",
@@ -145,7 +116,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1) You look sad!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>You look sad!</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -153,34 +124,27 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "1"
-            },
-            {
-                "time": 800,
-                "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 28,
+                "end": 31,
                 "value": "You"
             },
             {
-                "time": 1057,
+                "time": 274,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 32,
+                "end": 36,
                 "value": "look"
             },
             {
-                "time": 1319,
+                "time": 548,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 37,
+                "end": 40,
                 "value": "sad"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "2) I don't have a ruler. 3) Don't worry. I have one.",
         "words": [
             "2)",
@@ -318,7 +282,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2) I don&apos;t have a ruler.<break time=\"500ms\"/> 3) Don&apos;t worry.<break time=\"500ms\"/> I have one.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I don't have a ruler. Don't worry. I have one.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -326,104 +290,76 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "2"
-            },
-            {
-                "time": 655,
-                "type": "word",
-                "start": 30,
-                "end": 31,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 778,
+                "time": 153,
                 "type": "word",
-                "start": 32,
-                "end": 42,
-                "value": "don&apos;t"
+                "start": 30,
+                "end": 35,
+                "value": "don't"
             },
             {
-                "time": 1023,
+                "time": 429,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 36,
+                "end": 40,
                 "value": "have"
             },
             {
-                "time": 1284,
+                "time": 644,
                 "type": "word",
-                "start": 48,
-                "end": 49,
+                "start": 41,
+                "end": 42,
                 "value": "a"
             },
             {
-                "time": 1331,
+                "time": 700,
                 "type": "word",
-                "start": 50,
-                "end": 55,
+                "start": 43,
+                "end": 48,
                 "value": "ruler"
             },
             {
-                "time": 2013,
+                "time": 1798,
+                "type": "word",
+                "start": 50,
+                "end": 55,
+                "value": "Don't"
+            },
+            {
+                "time": 2055,
                 "type": "word",
                 "start": 56,
-                "end": 77,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2900,
-                "type": "word",
-                "start": 78,
-                "end": 79,
-                "value": "3"
-            },
-            {
-                "time": 3693,
-                "type": "word",
-                "start": 81,
-                "end": 91,
-                "value": "Don&apos;t"
-            },
-            {
-                "time": 3932,
-                "type": "word",
-                "start": 92,
-                "end": 97,
+                "end": 61,
                 "value": "worry"
             },
             {
-                "time": 4539,
+                "time": 3064,
                 "type": "word",
-                "start": 98,
-                "end": 119,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5425,
-                "type": "word",
-                "start": 120,
-                "end": 121,
+                "start": 63,
+                "end": 64,
                 "value": "I"
             },
             {
-                "time": 5512,
+                "time": 3151,
                 "type": "word",
-                "start": 122,
-                "end": 126,
+                "start": 65,
+                "end": 69,
                 "value": "have"
             },
             {
-                "time": 5780,
+                "time": 3433,
                 "type": "word",
-                "start": 127,
-                "end": 130,
+                "start": 70,
+                "end": 73,
                 "value": "one"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "4) I have colour pencils. She has an eraser.",
         "words": [
             "4)",
@@ -528,7 +464,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4) I have colour pencils.<break time=\"500ms\"/> She has an eraser.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have colour pencils. She has an eraser.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -536,76 +472,62 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "4"
-            },
-            {
-                "time": 738,
-                "type": "word",
-                "start": 30,
-                "end": 31,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 902,
+                "time": 179,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 1162,
+                "time": 449,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 35,
+                "end": 41,
                 "value": "colour"
             },
             {
-                "time": 1539,
+                "time": 840,
                 "type": "word",
-                "start": 44,
-                "end": 51,
+                "start": 42,
+                "end": 49,
                 "value": "pencils"
             },
             {
-                "time": 2263,
+                "time": 1982,
                 "type": "word",
-                "start": 52,
-                "end": 73,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3149,
-                "type": "word",
-                "start": 74,
-                "end": 77,
+                "start": 51,
+                "end": 54,
                 "value": "She"
             },
             {
-                "time": 3415,
+                "time": 2252,
                 "type": "word",
-                "start": 78,
-                "end": 81,
+                "start": 55,
+                "end": 58,
                 "value": "has"
             },
             {
-                "time": 3654,
+                "time": 2508,
                 "type": "word",
-                "start": 82,
-                "end": 84,
+                "start": 59,
+                "end": 61,
                 "value": "an"
             },
             {
-                "time": 3827,
+                "time": 2692,
                 "type": "word",
-                "start": 85,
-                "end": 91,
+                "start": 62,
+                "end": 68,
                 "value": "eraser"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "5) Yes, I have an eraser.",
         "words": [
             "5)",
@@ -677,7 +599,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">5) Yes,<break time=\"300ms\"/> I have an eraser.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Yes, I have an eraser.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -685,55 +607,41 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "5"
-            },
-            {
-                "time": 835,
-                "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 28,
+                "end": 31,
                 "value": "Yes"
             },
             {
-                "time": 1623,
+                "time": 825,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2023,
-                "type": "word",
-                "start": 56,
-                "end": 57,
+                "start": 33,
+                "end": 34,
                 "value": "I"
             },
             {
-                "time": 2248,
+                "time": 1063,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 35,
+                "end": 39,
                 "value": "have"
             },
             {
-                "time": 2484,
+                "time": 1308,
                 "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 40,
+                "end": 42,
                 "value": "an"
             },
             {
-                "time": 2604,
+                "time": 1432,
                 "type": "word",
-                "start": 66,
-                "end": 72,
+                "start": 43,
+                "end": 49,
                 "value": "eraser"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "6) Let's share.",
         "words": [
             "6)",
@@ -772,7 +680,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">6) Let&apos;s share.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's share.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -780,22 +688,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
-                "value": "6"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 1057,
+                "time": 302,
                 "type": "word",
-                "start": 30,
-                "end": 40,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 1414,
-                "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 34,
+                "end": 39,
                 "value": "share"
             }
         ]

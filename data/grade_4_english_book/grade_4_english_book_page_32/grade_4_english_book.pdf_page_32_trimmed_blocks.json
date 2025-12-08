@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3 Places around me</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3 Places around me</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             },
             {
                 "time": 285,
                 "type": "word",
-                "start": 29,
-                "end": 35,
+                "start": 30,
+                "end": 36,
                 "value": "Places"
             },
             {
-                "time": 862,
+                "time": 887,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 37,
+                "end": 43,
                 "value": "around"
             },
             {
-                "time": 1235,
+                "time": 1267,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 44,
+                "end": 46,
                 "value": "me"
             }
         ]
@@ -111,22 +112,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 385,
+                "time": 396,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "1"
             }
         ]
@@ -170,29 +172,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 12,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
                 "time": 216,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
                 "time": 355,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "say"
             }
         ]
@@ -247,44 +250,95 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">temple church mosque kovil</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>temple church mosque kovil</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "temple"
             },
             {
-                "time": 387,
+                "time": 404,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "church"
             },
             {
-                "time": 814,
+                "time": 843,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 42,
+                "end": 48,
                 "value": "mosque"
             },
             {
-                "time": 1191,
+                "time": 1226,
                 "type": "word",
-                "start": 48,
-                "end": 53,
+                "start": 49,
+                "end": 54,
                 "value": "kovil"
             }
         ]
     },
     "4": {
-        "text": "temple",
+        "text": "1 2",
         "words": [
-            "temple"
+            "1",
+            "2"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    161.56399536132812,
+                    311.41522216796875
+                ],
+                [
+                    170.68399047851562,
+                    337.04620361328125
+                ]
+            ],
+            [
+                [
+                    422.5976867675781,
+                    311.01031494140625
+                ],
+                [
+                    431.7176818847656,
+                    336.64129638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>1 2</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "1"
+            },
+            {
+                "time": 260,
+                "type": "word",
+                "start": 30,
+                "end": 31,
+                "value": "2"
+            }
+        ]
+    },
+    "5": {
+        "text": "temple church",
+        "words": [
+            "temple",
+            "church"
         ],
         "bounding_boxes": [
             [
@@ -296,27 +350,7 @@
                     202.94517517089844,
                     498.13189697265625
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">temple</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "temple"
-            }
-        ]
-    },
-    "5": {
-        "text": "church",
-        "words": [
-            "church"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     401.3411865234375,
@@ -328,23 +362,81 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">church</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>temple church</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
+                "value": "temple"
+            },
+            {
+                "time": 417,
+                "type": "word",
+                "start": 35,
+                "end": 41,
                 "value": "church"
             }
         ]
     },
     "6": {
-        "text": "mosque",
+        "text": "3 4",
         "words": [
-            "mosque"
+            "3",
+            "4"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    164.8719024658203,
+                    510.3424072265625
+                ],
+                [
+                    173.9918975830078,
+                    535.9734497070312
+                ]
+            ],
+            [
+                [
+                    417.3114013671875,
+                    510.5667724609375
+                ],
+                [
+                    426.431396484375,
+                    536.1978149414062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>3 4</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "3"
+            },
+            {
+                "time": 292,
+                "type": "word",
+                "start": 30,
+                "end": 31,
+                "value": "4"
+            }
+        ]
+    },
+    "7": {
+        "text": "mosque kovil",
+        "words": [
+            "mosque",
+            "kovil"
         ],
         "bounding_boxes": [
             [
@@ -356,27 +448,7 @@
                     212.94049072265625,
                     684.3839111328125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">mosque</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "mosque"
-            }
-        ]
-    },
-    "7": {
-        "text": "kovil",
-        "words": [
-            "kovil"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     405.198486328125,
@@ -388,15 +460,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">kovil</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>mosque kovil</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 34,
+                "value": "mosque"
+            },
+            {
+                "time": 393,
+                "type": "word",
+                "start": 35,
+                "end": 40,
                 "value": "kovil"
             }
         ]

@@ -1,0 +1,755 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.998199462890625,
+                    61.980010986328125
+                ],
+                [
+                    117.21819305419922,
+                    85.80001068115234
+                ]
+            ],
+            [
+                [
+                    122.21819305419922,
+                    61.980010986328125
+                ],
+                [
+                    159.13819885253906,
+                    85.80001068115234
+                ]
+            ],
+            [
+                [
+                    164.13819885253906,
+                    61.980010986328125
+                ],
+                [
+                    200.158203125,
+                    85.80001068115234
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I drink my morning tea.",
+        "words": [
+            "I",
+            "drink",
+            "my",
+            "morning",
+            "tea."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.998199462890625,
+                    133.98001098632812
+                ],
+                [
+                    69.39820098876953,
+                    157.80001831054688
+                ]
+            ],
+            [
+                [
+                    74.39820098876953,
+                    133.98001098632812
+                ],
+                [
+                    121.53820037841797,
+                    157.80001831054688
+                ]
+            ],
+            [
+                [
+                    126.33819580078125,
+                    133.98001098632812
+                ],
+                [
+                    156.8181915283203,
+                    157.80001831054688
+                ]
+            ],
+            [
+                [
+                    161.61819458007812,
+                    133.98001098632812
+                ],
+                [
+                    242.31820678710938,
+                    157.80001831054688
+                ]
+            ],
+            [
+                [
+                    247.1182098388672,
+                    133.98001098632812
+                ],
+                [
+                    284.1982116699219,
+                    157.80001831054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> drink <break time='200ms'/> my <break time='200ms'/> morning <break time='200ms'/> tea. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 597,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 898,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "drink"
+            },
+            {
+                "time": 1539,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1839,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "my"
+            },
+            {
+                "time": 2503,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2803,
+                "type": "word",
+                "start": 105,
+                "end": 112,
+                "value": "morning"
+            },
+            {
+                "time": 3520,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3820,
+                "type": "word",
+                "start": 135,
+                "end": 138,
+                "value": "tea"
+            },
+            {
+                "time": 4321,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "I run to the garden.",
+        "words": [
+            "I",
+            "run",
+            "to",
+            "the",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.99819564819336,
+                    167.98001098632812
+                ],
+                [
+                    69.398193359375,
+                    191.80001831054688
+                ]
+            ],
+            [
+                [
+                    74.398193359375,
+                    167.98001098632812
+                ],
+                [
+                    106.19818878173828,
+                    191.80001831054688
+                ]
+            ],
+            [
+                [
+                    110.99819946289062,
+                    167.98001098632812
+                ],
+                [
+                    129.55819702148438,
+                    191.80001831054688
+                ]
+            ],
+            [
+                [
+                    134.3582000732422,
+                    167.98001098632812
+                ],
+                [
+                    165.89820861816406,
+                    191.80001831054688
+                ]
+            ],
+            [
+                [
+                    170.89820861816406,
+                    167.98001098632812
+                ],
+                [
+                    243.89822387695312,
+                    191.80001831054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> run <break time='200ms'/> to <break time='200ms'/> the <break time='200ms'/> garden. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 584,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 885,
+                "type": "word",
+                "start": 52,
+                "end": 55,
+                "value": "run"
+            },
+            {
+                "time": 1499,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1799,
+                "type": "word",
+                "start": 78,
+                "end": 80,
+                "value": "to"
+            },
+            {
+                "time": 2436,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2736,
+                "type": "word",
+                "start": 103,
+                "end": 106,
+                "value": "the"
+            },
+            {
+                "time": 3165,
+                "type": "word",
+                "start": 107,
+                "end": 128,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3466,
+                "type": "word",
+                "start": 129,
+                "end": 135,
+                "value": "garden"
+            },
+            {
+                "time": 4093,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "I feel the wet grass.",
+        "words": [
+            "I",
+            "feel",
+            "the",
+            "wet",
+            "grass."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.99819564819336,
+                    201.98001098632812
+                ],
+                [
+                    69.398193359375,
+                    225.80001831054688
+                ]
+            ],
+            [
+                [
+                    74.398193359375,
+                    201.98001098632812
+                ],
+                [
+                    109.43819427490234,
+                    225.80001831054688
+                ]
+            ],
+            [
+                [
+                    114.23819732666016,
+                    201.98001098632812
+                ],
+                [
+                    145.7781982421875,
+                    225.80001831054688
+                ]
+            ],
+            [
+                [
+                    150.5782012939453,
+                    201.98001098632812
+                ],
+                [
+                    185.71820068359375,
+                    225.80001831054688
+                ]
+            ],
+            [
+                [
+                    190.31820678710938,
+                    201.98001098632812
+                ],
+                [
+                    245.61822509765625,
+                    225.80001831054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> feel <break time='200ms'/> the <break time='200ms'/> wet <break time='200ms'/> grass. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 584,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 878,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "feel"
+            },
+            {
+                "time": 1601,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1901,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "the"
+            },
+            {
+                "time": 2331,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2624,
+                "type": "word",
+                "start": 105,
+                "end": 108,
+                "value": "wet"
+            },
+            {
+                "time": 3184,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3484,
+                "type": "word",
+                "start": 131,
+                "end": 136,
+                "value": "grass"
+            },
+            {
+                "time": 4085,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I see the bright sun.",
+        "words": [
+            "I",
+            "see",
+            "the",
+            "bright",
+            "sun."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.99819564819336,
+                    235.98001098632812
+                ],
+                [
+                    69.398193359375,
+                    259.8000183105469
+                ]
+            ],
+            [
+                [
+                    74.398193359375,
+                    235.98001098632812
+                ],
+                [
+                    106.17819213867188,
+                    259.8000183105469
+                ]
+            ],
+            [
+                [
+                    110.97819519042969,
+                    235.98001098632812
+                ],
+                [
+                    142.5181884765625,
+                    259.8000183105469
+                ]
+            ],
+            [
+                [
+                    147.5181884765625,
+                    235.98001098632812
+                ],
+                [
+                    203.418212890625,
+                    259.8000183105469
+                ]
+            ],
+            [
+                [
+                    208.2182159423828,
+                    235.98001098632812
+                ],
+                [
+                    248.79823303222656,
+                    259.8000183105469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> see <break time='200ms'/> the <break time='200ms'/> bright <break time='200ms'/> sun. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 584,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 884,
+                "type": "word",
+                "start": 52,
+                "end": 55,
+                "value": "see"
+            },
+            {
+                "time": 1648,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1948,
+                "type": "word",
+                "start": 78,
+                "end": 81,
+                "value": "the"
+            },
+            {
+                "time": 2384,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2686,
+                "type": "word",
+                "start": 104,
+                "end": 110,
+                "value": "bright"
+            },
+            {
+                "time": 3262,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3552,
+                "type": "word",
+                "start": 133,
+                "end": 136,
+                "value": "sun"
+            },
+            {
+                "time": 4115,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "I hear bird singing.",
+        "words": [
+            "I",
+            "hear",
+            "bird",
+            "singing."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.99819564819336,
+                    269.9800109863281
+                ],
+                [
+                    69.398193359375,
+                    293.8000183105469
+                ]
+            ],
+            [
+                [
+                    74.398193359375,
+                    269.9800109863281
+                ],
+                [
+                    117.19819641113281,
+                    293.8000183105469
+                ]
+            ],
+            [
+                [
+                    121.99819946289062,
+                    269.9800109863281
+                ],
+                [
+                    157.4982147216797,
+                    293.8000183105469
+                ]
+            ],
+            [
+                [
+                    162.4982147216797,
+                    269.9800109863281
+                ],
+                [
+                    237.1582489013672,
+                    293.8000183105469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> hear <break time='200ms'/> bird <break time='200ms'/> singing. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 584,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 884,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "hear"
+            },
+            {
+                "time": 1531,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1833,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "bird"
+            },
+            {
+                "time": 2476,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2776,
+                "type": "word",
+                "start": 106,
+                "end": 113,
+                "value": "singing"
+            },
+            {
+                "time": 3418,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

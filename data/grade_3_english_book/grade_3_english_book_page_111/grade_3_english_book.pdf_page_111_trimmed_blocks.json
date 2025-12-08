@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "102",
-        "words": [
-            "102"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    26.055599212646484,
-                    24.34998893737793
-                ],
-                [
-                    65.47560119628906,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">102</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "102"
-            }
-        ]
-    },
-    "1": {
         "text": "Read.",
         "words": [
             "Read."
@@ -46,20 +16,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "It's time to play.",
         "words": [
             "It's",
@@ -109,41 +80,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s time to play.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's time to play.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 276,
+                "time": 275,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "time"
             },
             {
-                "time": 617,
+                "time": 628,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 38,
+                "end": 40,
                 "value": "to"
             },
             {
-                "time": 738,
+                "time": 750,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 41,
+                "end": 45,
                 "value": "play"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "Let's play football.",
         "words": [
             "Let's",
@@ -182,35 +154,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s play football.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>Let's play football.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 265,
+                "time": 318,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "play"
             },
             {
-                "time": 555,
+                "time": 646,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 39,
+                "end": 47,
                 "value": "football"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "Navaz, kick the ball.",
         "words": [
             "Navaz,",
@@ -260,49 +232,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Navaz,<break time=\"300ms\"/> kick the ball.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme>, kick the ball.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 65,
+                "end": 70,
                 "value": "Navaz"
             },
             {
-                "time": 858,
+                "time": 931,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1259,
-                "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 82,
+                "end": 86,
                 "value": "kick"
             },
             {
-                "time": 1552,
+                "time": 1203,
                 "type": "word",
-                "start": 60,
-                "end": 63,
+                "start": 87,
+                "end": 90,
                 "value": "the"
             },
             {
-                "time": 1666,
+                "time": 1328,
                 "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 91,
+                "end": 95,
                 "value": "ball"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "Manu, stop the ball.",
         "words": [
             "Manu,",
@@ -352,49 +317,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Manu,<break time=\"300ms\"/> stop the ball.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme>, stop the ball.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 62,
+                "end": 66,
                 "value": "Manu"
             },
             {
-                "time": 699,
+                "time": 870,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1099,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 78,
+                "end": 82,
                 "value": "stop"
             },
             {
-                "time": 1551,
+                "time": 1268,
                 "type": "word",
-                "start": 59,
-                "end": 62,
+                "start": 83,
+                "end": 86,
                 "value": "the"
             },
             {
-                "time": 1643,
+                "time": 1391,
                 "type": "word",
-                "start": 63,
-                "end": 67,
+                "start": 87,
+                "end": 91,
                 "value": "ball"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "Don't use your hands.",
         "words": [
             "Don't",
@@ -444,42 +402,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Don&apos;t use your hands.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>Don't use your hands.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Don&apos;t"
+                "start": 28,
+                "end": 33,
+                "value": "Don't"
             },
             {
-                "time": 224,
+                "time": 296,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 34,
+                "end": 37,
                 "value": "use"
             },
             {
-                "time": 482,
+                "time": 525,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 38,
+                "end": 42,
                 "value": "your"
             },
             {
-                "time": 618,
+                "time": 646,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 43,
+                "end": 48,
                 "value": "hands"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "Kick it to the goal.",
         "words": [
             "Kick",
@@ -540,49 +498,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Kick it to the goal.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>Kick it to the goal.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Kick"
             },
             {
-                "time": 230,
+                "time": 290,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "it"
             },
             {
-                "time": 327,
+                "time": 387,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "to"
             },
             {
-                "time": 450,
+                "time": 557,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "the"
             },
             {
-                "time": 565,
+                "time": 662,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "goal"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "Wow! It's a goal!",
         "words": [
             "Wow!",
@@ -632,37 +590,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Wow! It&apos;s a goal!</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>Wow! It's a goal!</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Wow"
             },
             {
-                "time": 1059,
+                "time": 997,
                 "type": "word",
-                "start": 32,
-                "end": 41,
-                "value": "It&apos;s"
+                "start": 33,
+                "end": 37,
+                "value": "It's"
             },
             {
                 "time": 1287,
                 "type": "word",
-                "start": 42,
-                "end": 43,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
-                "time": 1345,
+                "time": 1349,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 40,
+                "end": 44,
                 "value": "goal"
             }
         ]

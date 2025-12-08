@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2 Our beautiful garden</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2 Our beautiful garden</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 274,
+                "time": 276,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "Our"
             },
             {
-                "time": 427,
+                "time": 441,
                 "type": "word",
-                "start": 33,
-                "end": 42,
+                "start": 34,
+                "end": 43,
                 "value": "beautiful"
             },
             {
-                "time": 950,
+                "time": 977,
                 "type": "word",
-                "start": 43,
-                "end": 49,
+                "start": 44,
+                "end": 50,
                 "value": "garden"
             }
         ]
@@ -111,22 +112,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 385,
+                "time": 396,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "1"
             }
         ]
@@ -181,43 +183,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1170,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1345,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -338,78 +334,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">trees/ birds butterflies pond/ bird bath watering can/ flowers vegetables</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>trees/ birds butterflies pond/ bird bath watering can/ flowers vegetables</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "trees/"
             },
             {
-                "time": 815,
+                "time": 852,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "birds"
             },
             {
-                "time": 1202,
+                "time": 1252,
                 "type": "word",
-                "start": 40,
-                "end": 51,
+                "start": 41,
+                "end": 52,
                 "value": "butterflies"
             },
             {
-                "time": 1927,
+                "time": 1996,
                 "type": "word",
-                "start": 52,
-                "end": 57,
+                "start": 53,
+                "end": 58,
                 "value": "pond/"
             },
             {
-                "time": 2768,
+                "time": 2871,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 59,
+                "end": 63,
                 "value": "bird"
             },
             {
-                "time": 3086,
+                "time": 3203,
                 "type": "word",
-                "start": 63,
-                "end": 67,
+                "start": 64,
+                "end": 68,
                 "value": "bath"
             },
             {
-                "time": 3434,
+                "time": 3557,
                 "type": "word",
-                "start": 68,
-                "end": 76,
+                "start": 69,
+                "end": 77,
                 "value": "watering"
             },
             {
-                "time": 3932,
+                "time": 4055,
                 "type": "word",
-                "start": 77,
-                "end": 81,
+                "start": 78,
+                "end": 82,
                 "value": "can/"
             },
             {
-                "time": 4644,
+                "time": 4800,
                 "type": "word",
-                "start": 82,
-                "end": 89,
+                "start": 83,
+                "end": 90,
                 "value": "flowers"
             },
             {
-                "time": 5211,
+                "time": 5386,
                 "type": "word",
-                "start": 90,
-                "end": 100,
+                "start": 91,
+                "end": 101,
                 "value": "vegetables"
             }
         ]
@@ -431,15 +428,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">trees</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>trees</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "trees"
             }
         ]
@@ -461,15 +459,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">birds</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>birds</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "birds"
             }
         ]
@@ -491,15 +490,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">pond</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>pond</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "pond"
             }
         ]
@@ -521,15 +521,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">butterflies</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>butterflies</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 38,
+                "start": 28,
+                "end": 39,
                 "value": "butterflies"
             }
         ]
@@ -562,22 +563,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bird bath</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>bird bath</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "bird"
             },
             {
-                "time": 233,
+                "time": 239,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "bath"
             }
         ]
@@ -610,22 +612,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">watering can</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>watering can</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "watering"
             },
             {
-                "time": 500,
+                "time": 519,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "can"
             }
         ]
@@ -647,15 +650,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">vegetables</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>vegetables</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
+                "start": 28,
+                "end": 38,
                 "value": "vegetables"
             }
         ]
@@ -677,15 +681,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">flowers</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>flowers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "flowers"
             }
         ]

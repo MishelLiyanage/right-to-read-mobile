@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Talk to your friends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Talk to your friends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Talk"
             },
             {
-                "time": 298,
+                "time": 303,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 417,
+                "time": 422,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "your"
             },
             {
-                "time": 558,
+                "time": 563,
                 "type": "word",
-                "start": 40,
-                "end": 47,
+                "start": 41,
+                "end": 48,
                 "value": "friends"
             }
         ]
@@ -133,7 +134,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">When is your birthday?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>When is your birthday?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -141,29 +142,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "When"
             },
             {
-                "time": 161,
+                "time": 172,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 299,
+                "time": 318,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "your"
             },
             {
-                "time": 405,
+                "time": 432,
                 "type": "word",
-                "start": 40,
-                "end": 48,
+                "start": 41,
+                "end": 49,
                 "value": "birthday"
             }
         ]
@@ -229,7 +230,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It is on 17th May.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It is on 17th May.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -237,36 +238,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "It"
             },
             {
-                "time": 126,
+                "time": 130,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 287,
+                "time": 310,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "on"
             },
             {
-                "time": 453,
+                "time": 487,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "17th"
             },
             {
-                "time": 1210,
+                "time": 1278,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "May"
             }
         ]

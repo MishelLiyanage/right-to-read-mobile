@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -159,7 +160,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a cat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a cat.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -167,64 +168,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 242,
+                "time": 246,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 394,
+                "time": 409,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 596,
+                "time": 619,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1145,
+                "time": 1562,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2032,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2160,
+                "time": 1695,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2340,
+                "time": 1875,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2417,
+                "time": 1956,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 52,
+                "end": 55,
                 "value": "cat"
             }
         ]
@@ -323,7 +317,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a rabbit.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a rabbit.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -331,64 +325,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 331,
+                "time": 330,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 519,
+                "time": 523,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 690,
+                "time": 703,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1156,
+                "time": 1559,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2042,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2174,
+                "time": 1694,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2365,
+                "time": 1893,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2410,
+                "time": 1938,
                 "type": "word",
-                "start": 72,
-                "end": 78,
+                "start": 52,
+                "end": 58,
                 "value": "rabbit"
             }
         ]
@@ -487,7 +474,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a dog.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a dog.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -495,64 +482,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 242,
+                "time": 246,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 394,
+                "time": 409,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 596,
+                "time": 619,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1145,
+                "time": 1562,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2032,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2170,
+                "time": 1701,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2349,
+                "time": 1889,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2410,
+                "time": 1949,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 52,
+                "end": 55,
                 "value": "dog"
             }
         ]
@@ -651,7 +631,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a parrot.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a parrot.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -659,64 +639,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 331,
+                "time": 330,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 519,
+                "time": 523,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 690,
+                "time": 703,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1156,
+                "time": 1559,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2042,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2169,
+                "time": 1685,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2340,
+                "time": 1864,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2393,
+                "time": 1917,
                 "type": "word",
-                "start": 72,
-                "end": 78,
+                "start": 52,
+                "end": 58,
                 "value": "parrot"
             }
         ]
@@ -826,7 +799,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a f ish.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a fish.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -834,72 +807,58 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 242,
+                "time": 246,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 394,
+                "time": 409,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 596,
+                "time": 619,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1145,
+                "time": 1562,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2032,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2164,
+                "time": 1695,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2336,
+                "time": 1873,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2375,
+                "time": 1924,
                 "type": "word",
-                "start": 72,
-                "end": 73,
-                "value": "f"
-            },
-            {
-                "time": 2573,
-                "type": "word",
-                "start": 74,
-                "end": 77,
-                "value": "ish"
+                "start": 52,
+                "end": 56,
+                "value": "fish"
             }
         ]
     },
@@ -997,7 +956,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my pet.<break time=\"500ms\"/> It is a cow.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my pet. It is a cow.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1005,64 +964,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 331,
+                "time": 330,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 519,
+                "time": 523,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 690,
+                "time": 703,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "pet"
             },
             {
-                "time": 1156,
+                "time": 1559,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2042,
-                "type": "word",
-                "start": 64,
-                "end": 66,
+                "start": 44,
+                "end": 46,
                 "value": "It"
             },
             {
-                "time": 2173,
+                "time": 1689,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2351,
+                "time": 1873,
                 "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "a"
             },
             {
-                "time": 2397,
+                "time": 1919,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 52,
+                "end": 55,
                 "value": "cow"
             }
         ]

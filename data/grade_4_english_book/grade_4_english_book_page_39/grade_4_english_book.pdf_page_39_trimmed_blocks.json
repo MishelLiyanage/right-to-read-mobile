@@ -27,81 +27,36 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
     },
     "1": {
-        "text": "Read aloud.",
-        "words": [
-            "Read",
-            "aloud."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    131.4792022705078,
-                    76.70840454101562
-                ],
-                [
-                    183.90521240234375,
-                    102.910400390625
-                ]
-            ],
-            [
-                [
-                    189.40521240234375,
-                    76.70840454101562
-                ],
-                [
-                    254.70123291015625,
-                    102.910400390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "Read"
-            },
-            {
-                "time": 266,
-                "type": "word",
-                "start": 32,
-                "end": 37,
-                "value": "aloud"
-            }
-        ]
-    },
-    "2": {
-        "text": "I go to... Where.....?",
+        "text": "I go to... Where.....? Read aloud.",
         "words": [
             "I",
             "go",
             "to...",
-            "Where.....?"
+            "Where.....?",
+            "Read",
+            "aloud."
         ],
         "bounding_boxes": [
             [
@@ -143,58 +98,78 @@
                     499.16595458984375,
                     92.39988708496094
                 ]
+            ],
+            [
+                [
+                    131.4792022705078,
+                    76.70840454101562
+                ],
+                [
+                    183.90521240234375,
+                    102.910400390625
+                ]
+            ],
+            [
+                [
+                    189.40521240234375,
+                    76.70840454101562
+                ],
+                [
+                    254.70123291015625,
+                    102.910400390625
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I go to<break time=\"1000ms\"/> Where<break time=\"1000ms\"/>?</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>I go to... Where.....? Read aloud.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 130,
+                "time": 95,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "go"
             },
             {
-                "time": 385,
+                "time": 325,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 908,
+                "time": 1190,
                 "type": "word",
-                "start": 34,
-                "end": 56,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2008,
-                "type": "word",
-                "start": 57,
-                "end": 62,
+                "start": 39,
+                "end": 44,
                 "value": "Where"
             },
             {
-                "time": 2562,
+                "time": 2176,
                 "type": "word",
-                "start": 62,
-                "end": 84,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 51,
+                "end": 55,
+                "value": "Read"
+            },
+            {
+                "time": 2447,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "aloud"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "I go to the playground at weekends.",
         "words": [
             "I",
@@ -277,63 +252,64 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I go to the playground at weekends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I go to the playground at weekends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 110,
+                "time": 122,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "go"
             },
             {
-                "time": 328,
+                "time": 357,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 456,
+                "time": 485,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 568,
+                "time": 597,
                 "type": "word",
-                "start": 39,
-                "end": 49,
+                "start": 40,
+                "end": 50,
                 "value": "playground"
             },
             {
-                "time": 1225,
+                "time": 1289,
                 "type": "word",
-                "start": 50,
-                "end": 52,
+                "start": 51,
+                "end": 53,
                 "value": "at"
             },
             {
-                "time": 1361,
+                "time": 1425,
                 "type": "word",
-                "start": 53,
-                "end": 61,
+                "start": 54,
+                "end": 62,
                 "value": "weekends"
             }
         ]
     },
-    "4": {
-        "text": "I go to the children's park at weekends.",
+    "3": {
+        "text": "I go to the children's park at weekends. g p",
         "words": [
             "I",
             "go",
@@ -342,7 +318,9 @@
             "children's",
             "park",
             "at",
-            "weekends."
+            "weekends.",
+            "g",
+            "p"
         ],
         "bounding_boxes": [
             [
@@ -424,71 +402,92 @@
                     465.4653015136719,
                     469.9076843261719
                 ]
+            ],
+            [
+                [
+                    75.99919891357422,
+                    443.7056884765625
+                ],
+                [
+                    89.37519836425781,
+                    469.9076843261719
+                ]
+            ],
+            [
+                [
+                    276.7712097167969,
+                    443.7056884765625
+                ],
+                [
+                    290.147216796875,
+                    469.9076843261719
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I go to the children&apos;s park at weekends.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I go to the children's park at weekends.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 110,
+                "time": 122,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "go"
             },
             {
-                "time": 328,
+                "time": 357,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 456,
+                "time": 485,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 572,
+                "time": 601,
                 "type": "word",
-                "start": 39,
-                "end": 54,
-                "value": "children&apos;s"
+                "start": 40,
+                "end": 50,
+                "value": "children's"
             },
             {
-                "time": 1204,
+                "time": 1244,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 51,
+                "end": 55,
                 "value": "park"
             },
             {
-                "time": 1534,
+                "time": 1586,
                 "type": "word",
-                "start": 60,
-                "end": 62,
+                "start": 56,
+                "end": 58,
                 "value": "at"
             },
             {
-                "time": 1663,
+                "time": 1716,
                 "type": "word",
-                "start": 63,
-                "end": 71,
+                "start": 59,
+                "end": 67,
                 "value": "weekends"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I go to the beach at weekends. Where do you go at weekends?",
         "words": [
             "I",
@@ -637,106 +636,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I go to the beach at weekends.<break time=\"500ms\"/> Where do you go at weekends?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I go to the beach at weekends. Where do you go at weekends?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 110,
+                "time": 122,
                 "type": "word",
-                "start": 29,
-                "end": 31,
+                "start": 30,
+                "end": 32,
                 "value": "go"
             },
             {
-                "time": 328,
+                "time": 357,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 463,
+                "time": 492,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 582,
+                "time": 611,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "beach"
             },
             {
-                "time": 868,
+                "time": 911,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "at"
             },
             {
-                "time": 1000,
+                "time": 1042,
                 "type": "word",
-                "start": 48,
-                "end": 56,
+                "start": 49,
+                "end": 57,
                 "value": "weekends"
             },
             {
-                "time": 1786,
+                "time": 2254,
                 "type": "word",
-                "start": 57,
-                "end": 78,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2673,
-                "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 59,
+                "end": 64,
                 "value": "Where"
             },
             {
-                "time": 2862,
+                "time": 2443,
                 "type": "word",
-                "start": 85,
-                "end": 87,
+                "start": 65,
+                "end": 67,
                 "value": "do"
             },
             {
-                "time": 2972,
+                "time": 2558,
                 "type": "word",
-                "start": 88,
-                "end": 91,
+                "start": 68,
+                "end": 71,
                 "value": "you"
             },
             {
-                "time": 3125,
+                "time": 2716,
                 "type": "word",
-                "start": 92,
-                "end": 94,
+                "start": 72,
+                "end": 74,
                 "value": "go"
             },
             {
-                "time": 3399,
+                "time": 3003,
                 "type": "word",
-                "start": 95,
-                "end": 97,
+                "start": 75,
+                "end": 77,
                 "value": "at"
             },
             {
-                "time": 3490,
+                "time": 3095,
                 "type": "word",
-                "start": 98,
-                "end": 106,
+                "start": 78,
+                "end": 86,
                 "value": "weekends"
             }
         ]

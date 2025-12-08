@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">6 Let&apos;s go shopping</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>6 Let's go shopping</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "6"
             },
             {
-                "time": 468,
+                "time": 490,
                 "type": "word",
-                "start": 29,
-                "end": 39,
-                "value": "Let&apos;s"
+                "start": 30,
+                "end": 35,
+                "value": "Let's"
             },
             {
-                "time": 761,
+                "time": 803,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 36,
+                "end": 38,
                 "value": "go"
             },
             {
-                "time": 979,
+                "time": 1021,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 39,
+                "end": 47,
                 "value": "shopping"
             }
         ]
@@ -111,125 +112,39 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 385,
+                "time": 396,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "1"
             }
         ]
     },
     "2": {
-        "text": "Listen, point and say.",
-        "words": [
-            "Listen,",
-            "point",
-            "and",
-            "say."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    126.68190002441406,
-                    264.2908935546875
-                ],
-                [
-                    193.34188842773438,
-                    290.4928894042969
-                ]
-            ],
-            [
-                [
-                    197.74188232421875,
-                    264.2908935546875
-                ],
-                [
-                    250.9818878173828,
-                    290.4928894042969
-                ]
-            ],
-            [
-                [
-                    256.26190185546875,
-                    264.2908935546875
-                ],
-                [
-                    296.8739318847656,
-                    290.4928894042969
-                ]
-            ],
-            [
-                [
-                    302.3739318847656,
-                    264.2908935546875
-                ],
-                [
-                    341.9959411621094,
-                    290.4928894042969
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 702,
-                "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
-                "value": "point"
-            },
-            {
-                "time": 1461,
-                "type": "word",
-                "start": 62,
-                "end": 65,
-                "value": "and"
-            },
-            {
-                "time": 1635,
-                "type": "word",
-                "start": 66,
-                "end": 69,
-                "value": "say"
-            }
-        ]
-    },
-    "3": {
-        "text": "seller price shop books cashier",
+        "text": "seller price shop books cashier Listen, point and say.",
         "words": [
             "seller",
             "price",
             "shop",
             "books",
-            "cashier"
+            "cashier",
+            "Listen,",
+            "point",
+            "and",
+            "say."
         ],
         "bounding_boxes": [
             [
@@ -281,46 +196,301 @@
                     430.238525390625,
                     292.4026184082031
                 ]
+            ],
+            [
+                [
+                    126.68190002441406,
+                    264.2908935546875
+                ],
+                [
+                    193.34188842773438,
+                    290.4928894042969
+                ]
+            ],
+            [
+                [
+                    197.74188232421875,
+                    264.2908935546875
+                ],
+                [
+                    250.9818878173828,
+                    290.4928894042969
+                ]
+            ],
+            [
+                [
+                    256.26190185546875,
+                    264.2908935546875
+                ],
+                [
+                    296.8739318847656,
+                    290.4928894042969
+                ]
+            ],
+            [
+                [
+                    302.3739318847656,
+                    264.2908935546875
+                ],
+                [
+                    341.9959411621094,
+                    290.4928894042969
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">seller price shop books cashier</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>seller price shop books cashier Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "seller"
             },
             {
-                "time": 361,
+                "time": 434,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "price"
             },
             {
-                "time": 722,
+                "time": 790,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "shop"
             },
             {
-                "time": 1122,
+                "time": 1189,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "books"
             },
             {
-                "time": 1492,
+                "time": 1546,
                 "type": "word",
-                "start": 51,
-                "end": 58,
+                "start": 52,
+                "end": 59,
                 "value": "cashier"
+            },
+            {
+                "time": 2133,
+                "type": "word",
+                "start": 60,
+                "end": 66,
+                "value": "Listen"
+            },
+            {
+                "time": 3052,
+                "type": "word",
+                "start": 68,
+                "end": 73,
+                "value": "point"
+            },
+            {
+                "time": 3434,
+                "type": "word",
+                "start": 74,
+                "end": 77,
+                "value": "and"
+            },
+            {
+                "time": 3608,
+                "type": "word",
+                "start": 78,
+                "end": 81,
+                "value": "say"
+            }
+        ]
+    },
+    "3": {
+        "text": "Shop",
+        "words": [
+            "Shop"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    290.54290771484375,
+                    342.73468017578125
+                ],
+                [
+                    325.56793212890625,
+                    360.5997009277344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Shop</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Shop"
+            }
+        ]
+    },
+    "4": {
+        "text": "Books",
+        "words": [
+            "Books"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    420.3045959472656,
+                    367.5413818359375
+                ],
+                [
+                    461.5846252441406,
+                    385.4064025878906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Books</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Books"
+            }
+        ]
+    },
+    "5": {
+        "text": "Seller",
+        "words": [
+            "Seller"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    303.5220947265625,
+                    419.3246765136719
+                ],
+                [
+                    340.9170837402344,
+                    437.189697265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Seller</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Seller"
+            }
+        ]
+    },
+    "6": {
+        "text": "Price",
+        "words": [
+            "Price"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    278.21710205078125,
+                    515.6547241210938
+                ],
+                [
+                    312.1770935058594,
+                    533.5197143554688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Price</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Price"
+            }
+        ]
+    },
+    "7": {
+        "text": "Cashier",
+        "words": [
+            "Cashier"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    304.6846008300781,
+                    544.3314208984375
+                ],
+                [
+                    357.724609375,
+                    562.1964111328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Cashier</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Cashier"
+            }
+        ]
+    },
+    "8": {
+        "text": "Counter",
+        "words": [
+            "Counter"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    301.24261474609375,
+                    559.0465087890625
+                ],
+                [
+                    357.9726257324219,
+                    576.9114990234375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Counter</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Counter"
             }
         ]
     }

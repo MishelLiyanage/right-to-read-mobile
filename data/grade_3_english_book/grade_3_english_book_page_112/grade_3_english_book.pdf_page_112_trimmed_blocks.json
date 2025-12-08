@@ -60,43 +60,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and tell the number.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and tell the number.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 250,
+                "time": 261,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 414,
+                "time": 425,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "tell"
             },
             {
-                "time": 688,
+                "time": 713,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "the"
             },
             {
-                "time": 784,
+                "time": 809,
                 "type": "word",
-                "start": 45,
-                "end": 51,
+                "start": 46,
+                "end": 52,
                 "value": "number"
             }
         ]
@@ -151,7 +152,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasi : Where&apos;s Kasuni?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0si'>Rasi</phoneme> : Where's <phoneme alphabet='ipa' ph='kasuni'>Kasuni</phoneme>?</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -159,22 +160,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 65,
+                "end": 69,
                 "value": "Rasi"
             },
             {
-                "time": 814,
+                "time": 830,
                 "type": "word",
-                "start": 34,
-                "end": 46,
-                "value": "Where&apos;s"
+                "start": 82,
+                "end": 89,
+                "value": "Where's"
             },
             {
-                "time": 1210,
+                "time": 1212,
                 "type": "word",
-                "start": 47,
-                "end": 53,
+                "start": 126,
+                "end": 132,
                 "value": "Kasuni"
             }
         ]
@@ -229,7 +230,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Manu : She&apos;s sick.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme> : She's sick.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -237,22 +238,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 62,
+                "end": 66,
                 "value": "Manu"
             },
             {
-                "time": 820,
+                "time": 941,
                 "type": "word",
-                "start": 34,
-                "end": 44,
-                "value": "She&apos;s"
+                "start": 79,
+                "end": 84,
+                "value": "She's"
             },
             {
-                "time": 1094,
+                "time": 1232,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 85,
+                "end": 89,
                 "value": "sick"
             }
         ]
@@ -329,44 +330,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Binu : Let&apos;s tell the teacher.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='binu'>Binu</phoneme> : Let's tell the teacher.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 62,
+                "end": 66,
                 "value": "Binu"
             },
             {
-                "time": 848,
+                "time": 763,
                 "type": "word",
-                "start": 34,
-                "end": 44,
-                "value": "Let&apos;s"
+                "start": 79,
+                "end": 84,
+                "value": "Let's"
             },
             {
-                "time": 1174,
+                "time": 1203,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 85,
+                "end": 89,
                 "value": "tell"
             },
             {
-                "time": 1417,
+                "time": 1544,
                 "type": "word",
-                "start": 50,
-                "end": 53,
+                "start": 90,
+                "end": 93,
                 "value": "the"
             },
             {
-                "time": 1563,
+                "time": 1670,
                 "type": "word",
-                "start": 54,
-                "end": 61,
+                "start": 94,
+                "end": 101,
                 "value": "teacher"
             }
         ]
@@ -465,7 +466,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Rasi : Teacher,<break time=\"300ms\"/> our team has six girls.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='\u027ea\u02d0si'>Rasi</phoneme> : Teacher, our team has six girls.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -473,57 +474,50 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 65,
+                "end": 69,
                 "value": "Rasi"
             },
             {
-                "time": 814,
+                "time": 837,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 82,
+                "end": 89,
                 "value": "Teacher"
             },
             {
-                "time": 1480,
+                "time": 1636,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1880,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 91,
+                "end": 94,
                 "value": "our"
             },
             {
-                "time": 2134,
+                "time": 1900,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 95,
+                "end": 99,
                 "value": "team"
             },
             {
-                "time": 2494,
+                "time": 2292,
                 "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 100,
+                "end": 103,
                 "value": "has"
             },
             {
-                "time": 2737,
+                "time": 2554,
                 "type": "word",
-                "start": 77,
-                "end": 80,
+                "start": 104,
+                "end": 107,
                 "value": "six"
             },
             {
-                "time": 3158,
+                "time": 3002,
                 "type": "word",
-                "start": 81,
-                "end": 86,
+                "start": 108,
+                "end": 113,
                 "value": "girls"
             }
         ]
@@ -589,7 +583,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Manu : Kasuni is sick.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='manu'>Manu</phoneme> : <phoneme alphabet='ipa' ph='kasuni'>Kasuni</phoneme> is sick.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -597,29 +591,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 62,
+                "end": 66,
                 "value": "Manu"
             },
             {
-                "time": 792,
+                "time": 941,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 115,
+                "end": 121,
                 "value": "Kasuni"
             },
             {
-                "time": 1397,
+                "time": 1739,
                 "type": "word",
-                "start": 41,
-                "end": 43,
+                "start": 132,
+                "end": 134,
                 "value": "is"
             },
             {
-                "time": 1544,
+                "time": 1890,
                 "type": "word",
-                "start": 44,
-                "end": 48,
+                "start": 135,
+                "end": 139,
                 "value": "sick"
             }
         ]
@@ -696,7 +690,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Teacher : No problem.<break time=\"500ms\"/> Let&apos;s play.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Teacher : No problem. Let's play.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -704,43 +698,36 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Teacher"
             },
             {
-                "time": 783,
+                "time": 806,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "No"
             },
             {
-                "time": 1012,
+                "time": 1054,
                 "type": "word",
-                "start": 40,
-                "end": 47,
+                "start": 41,
+                "end": 48,
                 "value": "problem"
             },
             {
-                "time": 1722,
+                "time": 2151,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
+                "start": 50,
+                "end": 55,
+                "value": "Let's"
             },
             {
-                "time": 2609,
+                "time": 2431,
                 "type": "word",
-                "start": 70,
-                "end": 80,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2885,
-                "type": "word",
-                "start": 81,
-                "end": 85,
+                "start": 56,
+                "end": 60,
                 "value": "play"
             }
         ]
@@ -861,78 +848,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">7 \u2013 1 = 6 Seven minus one is six</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>7 \u2013 1 = 6 Seven minus one is six</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "7"
             },
             {
-                "time": 397,
+                "time": 411,
                 "type": "word",
-                "start": 28,
-                "end": 33,
+                "start": 29,
+                "end": 34,
                 "value": " \u2013 "
             },
             {
-                "time": 489,
+                "time": 503,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "1"
             },
             {
-                "time": 817,
+                "time": 844,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "="
             },
             {
-                "time": 1294,
+                "time": 1321,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "6"
             },
             {
-                "time": 1585,
+                "time": 1618,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "Seven"
             },
             {
-                "time": 1956,
+                "time": 1996,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "minus"
             },
             {
-                "time": 2436,
+                "time": 2509,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "one"
             },
             {
-                "time": 2714,
+                "time": 2802,
                 "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 56,
+                "end": 58,
                 "value": "is"
             },
             {
-                "time": 2868,
+                "time": 2956,
                 "type": "word",
-                "start": 58,
-                "end": 61,
+                "start": 59,
+                "end": 62,
                 "value": "six"
             }
         ]
@@ -976,22 +964,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Subtraction minus</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Subtraction - minus</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 38,
+                "start": 28,
+                "end": 39,
                 "value": "Subtraction"
             },
             {
-                "time": 778,
+                "time": 1323,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 42,
+                "end": 47,
                 "value": "minus"
             }
         ]

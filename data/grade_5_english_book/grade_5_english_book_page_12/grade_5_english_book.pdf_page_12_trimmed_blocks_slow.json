@@ -1,0 +1,478 @@
+{
+    "0": {
+        "text": "are taking part in different games. Nisal is at the registration desk.",
+        "words": [
+            "are",
+            "taking",
+            "part",
+            "in",
+            "different",
+            "games.",
+            "Nisal",
+            "is",
+            "at",
+            "the",
+            "registration",
+            "desk."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    57.355804443359375
+                ],
+                [
+                    113.28389739990234,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    123.139892578125,
+                    57.355804443359375
+                ],
+                [
+                    189.0299072265625,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    199.1059112548828,
+                    57.355804443359375
+                ],
+                [
+                    242.2479248046875,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    252.1039276123047,
+                    57.355804443359375
+                ],
+                [
+                    271.3319396972656,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    281.4079284667969,
+                    57.355804443359375
+                ],
+                [
+                    371.1019287109375,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    380.9579162597656,
+                    57.355804443359375
+                ],
+                [
+                    459.6519470214844,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    80.50389862060547,
+                    83.75582885742188
+                ],
+                [
+                    131.58790588378906,
+                    109.95782470703125
+                ]
+            ],
+            [
+                [
+                    137.08790588378906,
+                    83.75582885742188
+                ],
+                [
+                    152.4658966064453,
+                    109.95782470703125
+                ]
+            ],
+            [
+                [
+                    157.9658966064453,
+                    83.75582885742188
+                ],
+                [
+                    179.59190368652344,
+                    109.95782470703125
+                ]
+            ],
+            [
+                [
+                    184.6519012451172,
+                    83.75582885742188
+                ],
+                [
+                    219.3459014892578,
+                    109.95782470703125
+                ]
+            ],
+            [
+                [
+                    224.8459014892578,
+                    83.75582885742188
+                ],
+                [
+                    341.4239501953125,
+                    109.95782470703125
+                ]
+            ],
+            [
+                [
+                    346.9239501953125,
+                    83.75582885742188
+                ],
+                [
+                    401.57196044921875,
+                    109.95782470703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>are <break time='200ms'/> taking <break time='200ms'/> part <break time='200ms'/> in <break time='200ms'/> different <break time='200ms'/> games. <break time='200ms'/> <phoneme alphabet='ipa' ph='nisal'>Nisal</phoneme> <break time='200ms'/> is <break time='200ms'/> at <break time='200ms'/> the <break time='200ms'/> registration <break time='200ms'/> desk. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "are"
+            },
+            {
+                "time": 572,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 872,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "taking"
+            },
+            {
+                "time": 1661,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1954,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "part"
+            },
+            {
+                "time": 2622,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2922,
+                "type": "word",
+                "start": 110,
+                "end": 112,
+                "value": "in"
+            },
+            {
+                "time": 3460,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3753,
+                "type": "word",
+                "start": 135,
+                "end": 144,
+                "value": "different"
+            },
+            {
+                "time": 4514,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4815,
+                "type": "word",
+                "start": 167,
+                "end": 172,
+                "value": "games"
+            },
+            {
+                "time": 5454,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6041,
+                "type": "word",
+                "start": 231,
+                "end": 236,
+                "value": "Nisal"
+            },
+            {
+                "time": 6932,
+                "type": "word",
+                "start": 247,
+                "end": 268,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7225,
+                "type": "word",
+                "start": 269,
+                "end": 271,
+                "value": "is"
+            },
+            {
+                "time": 7692,
+                "type": "word",
+                "start": 272,
+                "end": 293,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7992,
+                "type": "word",
+                "start": 294,
+                "end": 296,
+                "value": "at"
+            },
+            {
+                "time": 8517,
+                "type": "word",
+                "start": 297,
+                "end": 318,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8818,
+                "type": "word",
+                "start": 319,
+                "end": 322,
+                "value": "the"
+            },
+            {
+                "time": 9254,
+                "type": "word",
+                "start": 323,
+                "end": 344,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9554,
+                "type": "word",
+                "start": 345,
+                "end": 357,
+                "value": "registration"
+            },
+            {
+                "time": 10715,
+                "type": "word",
+                "start": 358,
+                "end": 379,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11016,
+                "type": "word",
+                "start": 380,
+                "end": 384,
+                "value": "desk"
+            },
+            {
+                "time": 11679,
+                "type": "word",
+                "start": 386,
+                "end": 407,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I'm from the North Central Province.",
+        "words": [
+            "I'm",
+            "from",
+            "the",
+            "North",
+            "Central",
+            "Province."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    287.36920166015625,
+                    193.31918334960938
+                ],
+                [
+                    322.10723876953125,
+                    219.52117919921875
+                ]
+            ],
+            [
+                [
+                    327.60723876953125,
+                    193.31918334960938
+                ],
+                [
+                    377.89923095703125,
+                    219.52117919921875
+                ]
+            ],
+            [
+                [
+                    388.6792297363281,
+                    193.31918334960938
+                ],
+                [
+                    423.3732604980469,
+                    219.52117919921875
+                ]
+            ],
+            [
+                [
+                    287.36920166015625,
+                    219.71917724609375
+                ],
+                [
+                    346.9452209472656,
+                    245.92117309570312
+                ]
+            ],
+            [
+                [
+                    352.4452209472656,
+                    219.71917724609375
+                ],
+                [
+                    428.0592956542969,
+                    245.92117309570312
+                ]
+            ],
+            [
+                [
+                    287.36920166015625,
+                    246.11917114257812
+                ],
+                [
+                    381.0892333984375,
+                    272.3211669921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> from <break time='200ms'/> the <break time='200ms'/> North <break time='200ms'/> Central <break time='200ms'/> Province. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "from"
+            },
+            {
+                "time": 1496,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1797,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "the"
+            },
+            {
+                "time": 2202,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2504,
+                "type": "word",
+                "start": 107,
+                "end": 112,
+                "value": "North"
+            },
+            {
+                "time": 3161,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3461,
+                "type": "word",
+                "start": 135,
+                "end": 142,
+                "value": "Central"
+            },
+            {
+                "time": 4279,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4575,
+                "type": "word",
+                "start": 165,
+                "end": 173,
+                "value": "Province"
+            },
+            {
+                "time": 5450,
+                "type": "word",
+                "start": 175,
+                "end": 196,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

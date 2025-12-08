@@ -1,0 +1,629 @@
+{
+    "0": {
+        "text": "My food bag 4",
+        "words": [
+            "My",
+            "food",
+            "bag",
+            "4"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    276.427001953125,
+                    94.1920166015625
+                ],
+                [
+                    331.3869934082031,
+                    141.83201599121094
+                ]
+            ],
+            [
+                [
+                    340.98699951171875,
+                    94.1920166015625
+                ],
+                [
+                    425.2669982910156,
+                    141.83201599121094
+                ]
+            ],
+            [
+                [
+                    435.2669982910156,
+                    94.1920166015625
+                ],
+                [
+                    508.2270202636719,
+                    141.83201599121094
+                ]
+            ],
+            [
+                [
+                    196.36500549316406,
+                    82.28056335449219
+                ],
+                [
+                    224.08555603027344,
+                    165.4721221923828
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>My <break time='200ms'/> food <break time='200ms'/> bag <break time='200ms'/> 4 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "My"
+            },
+            {
+                "time": 670,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 965,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "food"
+            },
+            {
+                "time": 1625,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1927,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "bag"
+            },
+            {
+                "time": 2576,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2869,
+                "type": "word",
+                "start": 106,
+                "end": 107,
+                "value": "4"
+            },
+            {
+                "time": 3601,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Sing.",
+        "words": [
+            "Sing."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    78.69309997558594,
+                    213.49301147460938
+                ],
+                [
+                    125.29309844970703,
+                    237.31301879882812
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sing. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Sing"
+            },
+            {
+                "time": 568,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Hot cross buns!",
+        "words": [
+            "Hot",
+            "cross",
+            "buns!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    247.83309936523438,
+                    250.49301147460938
+                ],
+                [
+                    281.8930969238281,
+                    274.3130187988281
+                ]
+            ],
+            [
+                [
+                    286.6930847167969,
+                    250.49301147460938
+                ],
+                [
+                    332.8131408691406,
+                    274.3130187988281
+                ]
+            ],
+            [
+                [
+                    337.8131408691406,
+                    250.49301147460938
+                ],
+                [
+                    390.55316162109375,
+                    274.3130187988281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hot <break time='200ms'/> cross <break time='200ms'/> buns! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Hot"
+            },
+            {
+                "time": 716,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1010,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "cross"
+            },
+            {
+                "time": 1744,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2037,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "buns"
+            },
+            {
+                "time": 2650,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Hot cross buns! Hot cross buns! One a penny, two a penny. Hot cross buns!",
+        "words": [
+            "Hot",
+            "cross",
+            "buns!",
+            "Hot",
+            "cross",
+            "buns!",
+            "One",
+            "a",
+            "penny,",
+            "two",
+            "a",
+            "penny.",
+            "Hot",
+            "cross",
+            "buns!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    68.69309997558594,
+                    289.4930114746094
+                ],
+                [
+                    102.75310516357422,
+                    313.3130187988281
+                ]
+            ],
+            [
+                [
+                    107.55310821533203,
+                    289.4930114746094
+                ],
+                [
+                    153.67311096191406,
+                    313.3130187988281
+                ]
+            ],
+            [
+                [
+                    158.67311096191406,
+                    289.4930114746094
+                ],
+                [
+                    211.4131317138672,
+                    313.3130187988281
+                ]
+            ],
+            [
+                [
+                    68.69309997558594,
+                    316.4930114746094
+                ],
+                [
+                    102.75310516357422,
+                    340.3130187988281
+                ]
+            ],
+            [
+                [
+                    107.55310821533203,
+                    316.4930114746094
+                ],
+                [
+                    153.67311096191406,
+                    340.3130187988281
+                ]
+            ],
+            [
+                [
+                    158.67311096191406,
+                    316.4930114746094
+                ],
+                [
+                    211.4131317138672,
+                    340.3130187988281
+                ]
+            ],
+            [
+                [
+                    68.69309997558594,
+                    343.4930114746094
+                ],
+                [
+                    108.43310546875,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    113.43310546875,
+                    343.4930114746094
+                ],
+                [
+                    125.59310913085938,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    130.59310913085938,
+                    343.4930114746094
+                ],
+                [
+                    194.6531219482422,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    198.453125,
+                    343.4930114746094
+                ],
+                [
+                    234.1131134033203,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    239.1131134033203,
+                    343.4930114746094
+                ],
+                [
+                    251.2731170654297,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    256.27313232421875,
+                    343.4930114746094
+                ],
+                [
+                    319.6331481933594,
+                    367.3130187988281
+                ]
+            ],
+            [
+                [
+                    68.69309997558594,
+                    370.4930114746094
+                ],
+                [
+                    102.75310516357422,
+                    394.3130187988281
+                ]
+            ],
+            [
+                [
+                    107.55310821533203,
+                    370.4930114746094
+                ],
+                [
+                    153.67311096191406,
+                    394.3130187988281
+                ]
+            ],
+            [
+                [
+                    158.67311096191406,
+                    370.4930114746094
+                ],
+                [
+                    211.4131317138672,
+                    394.3130187988281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hot <break time='200ms'/> cross <break time='200ms'/> buns! <break time='200ms'/> Hot <break time='200ms'/> cross <break time='200ms'/> buns! <break time='200ms'/> One <break time='200ms'/> a <break time='200ms'/> penny, <break time='200ms'/> two <break time='200ms'/> a <break time='200ms'/> penny. <break time='200ms'/> Hot <break time='200ms'/> cross <break time='200ms'/> buns! <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Hot"
+            },
+            {
+                "time": 716,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1010,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "cross"
+            },
+            {
+                "time": 1744,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2037,
+                "type": "word",
+                "start": 82,
+                "end": 86,
+                "value": "buns"
+            },
+            {
+                "time": 2650,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3237,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "Hot"
+            },
+            {
+                "time": 3947,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4240,
+                "type": "word",
+                "start": 136,
+                "end": 141,
+                "value": "cross"
+            },
+            {
+                "time": 4974,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5268,
+                "type": "word",
+                "start": 164,
+                "end": 168,
+                "value": "buns"
+            },
+            {
+                "time": 5881,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6468,
+                "type": "word",
+                "start": 192,
+                "end": 195,
+                "value": "One"
+            },
+            {
+                "time": 7132,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7425,
+                "type": "word",
+                "start": 218,
+                "end": 219,
+                "value": "a"
+            },
+            {
+                "time": 8125,
+                "type": "word",
+                "start": 220,
+                "end": 241,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8425,
+                "type": "word",
+                "start": 242,
+                "end": 247,
+                "value": "penny"
+            },
+            {
+                "time": 9108,
+                "type": "word",
+                "start": 249,
+                "end": 270,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9409,
+                "type": "word",
+                "start": 271,
+                "end": 274,
+                "value": "two"
+            },
+            {
+                "time": 9976,
+                "type": "word",
+                "start": 275,
+                "end": 296,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10272,
+                "type": "word",
+                "start": 297,
+                "end": 298,
+                "value": "a"
+            },
+            {
+                "time": 10885,
+                "type": "word",
+                "start": 299,
+                "end": 320,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11185,
+                "type": "word",
+                "start": 321,
+                "end": 326,
+                "value": "penny"
+            },
+            {
+                "time": 11680,
+                "type": "word",
+                "start": 328,
+                "end": 349,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12266,
+                "type": "word",
+                "start": 350,
+                "end": 353,
+                "value": "Hot"
+            },
+            {
+                "time": 12977,
+                "type": "word",
+                "start": 354,
+                "end": 375,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13270,
+                "type": "word",
+                "start": 376,
+                "end": 381,
+                "value": "cross"
+            },
+            {
+                "time": 14004,
+                "type": "word",
+                "start": 382,
+                "end": 403,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14297,
+                "type": "word",
+                "start": 404,
+                "end": 408,
+                "value": "buns"
+            },
+            {
+                "time": 14911,
+                "type": "word",
+                "start": 410,
+                "end": 431,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

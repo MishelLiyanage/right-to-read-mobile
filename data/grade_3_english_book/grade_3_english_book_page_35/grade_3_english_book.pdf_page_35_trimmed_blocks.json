@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             }
         ]
@@ -57,7 +58,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m father.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm father.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
@@ -65,15 +66,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 261,
+                "time": 267,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 32,
+                "end": 38,
                 "value": "father"
             }
         ]
@@ -106,7 +107,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m mother.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm mother.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -114,15 +115,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
                 "time": 222,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 32,
+                "end": 38,
                 "value": "mother"
             }
         ]
@@ -155,7 +156,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m sister.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm sister.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -163,15 +164,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 164,
+                "time": 177,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 32,
+                "end": 38,
                 "value": "sister"
             }
         ]
@@ -204,7 +205,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m brother.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm brother.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -212,15 +213,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 188,
+                "time": 192,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 32,
+                "end": 39,
                 "value": "brother"
             }
         ]
@@ -253,7 +254,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m grandmother.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm grandmother.</prosody></speak>",
         "dialog": "true",
         "person_type": "old woman",
         "voice_id": "Kimberly",
@@ -261,15 +262,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 228,
+                "time": 241,
                 "type": "word",
-                "start": 36,
-                "end": 47,
+                "start": 32,
+                "end": 43,
                 "value": "grandmother"
             }
         ]
@@ -302,7 +303,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m grandfather.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm grandfather.</prosody></speak>",
         "dialog": "true",
         "person_type": "old man",
         "voice_id": "Matthew",
@@ -310,15 +311,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
                 "time": 174,
                 "type": "word",
-                "start": 36,
-                "end": 47,
+                "start": 32,
+                "end": 43,
                 "value": "grandfather"
             }
         ]

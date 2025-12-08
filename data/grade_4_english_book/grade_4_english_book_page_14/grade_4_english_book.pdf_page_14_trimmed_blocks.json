@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -108,43 +109,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s talk about our family.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's talk about our family.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
                 "time": 251,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "talk"
             },
             {
-                "time": 580,
+                "time": 586,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 39,
+                "end": 44,
                 "value": "about"
             },
             {
-                "time": 884,
+                "time": 905,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 45,
+                "end": 48,
                 "value": "our"
             },
             {
-                "time": 998,
+                "time": 1019,
                 "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 49,
+                "end": 55,
                 "value": "family"
             }
         ]
@@ -199,36 +201,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">e.g.<break time=\"500ms\"/> : I&apos;m Dasun.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>e.g. :- I'm <phoneme alphabet='ipa' ph='dasun'>Dasun</phoneme>.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "e.g."
             },
             {
-                "time": 1061,
+                "time": 1192,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"500ms\"/>"
+                "start": 36,
+                "end": 39,
+                "value": "I'm"
             },
             {
-                "time": 1661,
+                "time": 1396,
                 "type": "word",
-                "start": 55,
-                "end": 63,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 1871,
-                "type": "word",
-                "start": 64,
-                "end": 69,
+                "start": 75,
+                "end": 80,
                 "value": "Dasun"
             }
         ]
@@ -261,22 +257,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m kind.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm kind.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
                 "time": 203,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 32,
+                "end": 36,
                 "value": "kind"
             }
         ]
@@ -364,57 +361,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There are five members in my family.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There are five members in my family.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
-                "time": 201,
+                "time": 207,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 305,
+                "time": 311,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "five"
             },
             {
-                "time": 687,
+                "time": 706,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 43,
+                "end": 50,
                 "value": "members"
             },
             {
-                "time": 1174,
+                "time": 1211,
                 "type": "word",
-                "start": 50,
-                "end": 52,
+                "start": 51,
+                "end": 53,
                 "value": "in"
             },
             {
-                "time": 1288,
+                "time": 1326,
                 "type": "word",
-                "start": 53,
-                "end": 55,
+                "start": 54,
+                "end": 56,
                 "value": "my"
             },
             {
-                "time": 1475,
+                "time": 1520,
                 "type": "word",
-                "start": 56,
-                "end": 62,
+                "start": 57,
+                "end": 63,
                 "value": "family"
             }
         ]
@@ -447,23 +445,17 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm ..................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 652,
-                "type": "word",
-                "start": 36,
-                "end": 58,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             }
         ]
     },
@@ -495,23 +487,17 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm ..................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 652,
-                "type": "word",
-                "start": 36,
-                "end": 58,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             }
         ]
     },
@@ -576,43 +562,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My father is <break time=\"1000ms\"/> (name)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My father is .................... (name)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 216,
+                "time": 206,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "father"
             },
             {
-                "time": 732,
+                "time": 681,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "is"
             },
             {
-                "time": 1071,
+                "time": 1189,
                 "type": "word",
-                "start": 40,
-                "end": 62,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2078,
-                "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 63,
+                "end": 67,
                 "value": "name"
             }
         ]
@@ -656,30 +636,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>He is ....................</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "He"
             },
             {
-                "time": 247,
+                "time": 251,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
-            },
-            {
-                "time": 798,
-                "type": "word",
-                "start": 33,
-                "end": 55,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -744,43 +718,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My mother is <break time=\"1000ms\"/> (name)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My mother is ............. (name)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 161,
+                "time": 173,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "mother"
             },
             {
-                "time": 534,
+                "time": 576,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "is"
             },
             {
-                "time": 892,
+                "time": 1121,
                 "type": "word",
-                "start": 40,
-                "end": 62,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1898,
-                "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 56,
+                "end": 60,
                 "value": "name"
             }
         ]
@@ -824,30 +792,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">She is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>She is ...........</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "She"
             },
             {
-                "time": 273,
+                "time": 287,
                 "type": "word",
-                "start": 31,
-                "end": 33,
+                "start": 32,
+                "end": 34,
                 "value": "is"
-            },
-            {
-                "time": 841,
-                "type": "word",
-                "start": 34,
-                "end": 56,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -901,43 +863,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My sister is<break time=\"1000ms\"/> (name)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My sister is............. (name)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 192,
+                "time": 187,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "sister"
             },
             {
-                "time": 747,
+                "time": 783,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "is"
             },
             {
-                "time": 1101,
+                "time": 1532,
                 "type": "word",
-                "start": 39,
-                "end": 61,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2108,
-                "type": "word",
-                "start": 63,
-                "end": 67,
+                "start": 55,
+                "end": 59,
                 "value": "name"
             }
         ]
@@ -981,30 +937,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">She is <break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>She is ...........</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "She"
             },
             {
-                "time": 273,
+                "time": 287,
                 "type": "word",
-                "start": 31,
-                "end": 33,
+                "start": 32,
+                "end": 34,
                 "value": "is"
-            },
-            {
-                "time": 841,
-                "type": "word",
-                "start": 34,
-                "end": 56,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -1058,43 +1008,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My brother is<break time=\"1000ms\"/> (name)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My brother is.............. (name)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 193,
+                "time": 191,
                 "type": "word",
-                "start": 30,
-                "end": 37,
+                "start": 31,
+                "end": 38,
                 "value": "brother"
             },
             {
-                "time": 632,
+                "time": 637,
                 "type": "word",
-                "start": 38,
-                "end": 40,
+                "start": 39,
+                "end": 41,
                 "value": "is"
             },
             {
-                "time": 974,
+                "time": 1366,
                 "type": "word",
-                "start": 40,
-                "end": 62,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1981,
-                "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 57,
+                "end": 61,
                 "value": "name"
             }
         ]
@@ -1182,57 +1126,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He is <break time=\"1000ms\"/> I love my family.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>He is ............ I love my family.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "He"
             },
             {
-                "time": 247,
+                "time": 251,
                 "type": "word",
-                "start": 30,
-                "end": 32,
+                "start": 31,
+                "end": 33,
                 "value": "is"
             },
             {
-                "time": 705,
+                "time": 822,
                 "type": "word",
-                "start": 33,
-                "end": 55,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 1805,
-                "type": "word",
-                "start": 56,
-                "end": 57,
+                "start": 47,
+                "end": 48,
                 "value": "I"
             },
             {
-                "time": 1909,
+                "time": 939,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 49,
+                "end": 53,
                 "value": "love"
             },
             {
-                "time": 2183,
+                "time": 1219,
                 "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 54,
+                "end": 56,
                 "value": "my"
             },
             {
-                "time": 2384,
+                "time": 1433,
                 "type": "word",
-                "start": 66,
-                "end": 72,
+                "start": 57,
+                "end": 63,
                 "value": "family"
             }
         ]
@@ -1386,106 +1324,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Divide the students into groups of three.<break time=\"500ms\"/> Ask them to introduce their family.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Divide the students into groups of three. Ask them to introduce their family.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Divide"
             },
             {
-                "time": 467,
+                "time": 483,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "the"
             },
             {
-                "time": 547,
+                "time": 563,
                 "type": "word",
-                "start": 38,
-                "end": 46,
+                "start": 39,
+                "end": 47,
                 "value": "students"
             },
             {
-                "time": 1150,
+                "time": 1200,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "into"
             },
             {
-                "time": 1392,
+                "time": 1442,
                 "type": "word",
-                "start": 52,
-                "end": 58,
+                "start": 53,
+                "end": 59,
                 "value": "groups"
             },
             {
-                "time": 1807,
+                "time": 1864,
                 "type": "word",
-                "start": 59,
-                "end": 61,
+                "start": 60,
+                "end": 62,
                 "value": "of"
             },
             {
-                "time": 1924,
+                "time": 1982,
                 "type": "word",
-                "start": 62,
-                "end": 67,
+                "start": 63,
+                "end": 68,
                 "value": "three"
             },
             {
-                "time": 2431,
+                "time": 2897,
                 "type": "word",
-                "start": 68,
-                "end": 89,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3317,
-                "type": "word",
-                "start": 90,
-                "end": 93,
+                "start": 70,
+                "end": 73,
                 "value": "Ask"
             },
             {
-                "time": 3668,
+                "time": 3271,
                 "type": "word",
-                "start": 94,
-                "end": 98,
+                "start": 74,
+                "end": 78,
                 "value": "them"
             },
             {
-                "time": 3888,
+                "time": 3491,
                 "type": "word",
-                "start": 99,
-                "end": 101,
+                "start": 79,
+                "end": 81,
                 "value": "to"
             },
             {
-                "time": 4034,
+                "time": 3637,
                 "type": "word",
-                "start": 102,
-                "end": 111,
+                "start": 82,
+                "end": 91,
                 "value": "introduce"
             },
             {
-                "time": 4699,
+                "time": 4318,
                 "type": "word",
-                "start": 112,
-                "end": 117,
+                "start": 92,
+                "end": 97,
                 "value": "their"
             },
             {
-                "time": 4886,
+                "time": 4505,
                 "type": "word",
-                "start": 118,
-                "end": 124,
+                "start": 98,
+                "end": 104,
                 "value": "family"
             }
         ]

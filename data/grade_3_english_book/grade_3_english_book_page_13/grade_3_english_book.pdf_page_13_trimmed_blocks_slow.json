@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "4",
-        "words": [
-            "4"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    37.862300872802734,
-                    24.34998893737793
-                ],
-                [
-                    53.67230224609375,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>4 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 29,
-                "value": "4"
-            },
-            {
-                "time": 861,
-                "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Walk on the floor. Say numbers one to five.",
         "words": [
             "Walk",
@@ -275,45 +237,7 @@
             }
         ]
     },
-    "2": {
-        "text": "one",
-        "words": [
-            "one"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    259.5231628417969,
-                    671.600341796875
-                ],
-                [
-                    298.29754638671875,
-                    695.4203491210938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>one <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 31,
-                "value": "one"
-            },
-            {
-                "time": 759,
-                "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "3": {
+    "1": {
         "text": "two",
         "words": [
             "two"
@@ -321,12 +245,12 @@
         "bounding_boxes": [
             [
                 [
-                    358.6860046386719,
-                    602.4720458984375
+                    253.28541564941406,
+                    195.19699096679688
                 ],
                 [
-                    397.96710205078125,
-                    626.2919921875
+                    292.56646728515625,
+                    219.01699829101562
                 ]
             ]
         ],
@@ -351,121 +275,7 @@
             }
         ]
     },
-    "4": {
-        "text": "three",
-        "words": [
-            "three"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    243.74899291992188,
-                    509.6419982910156
-                ],
-                [
-                    297.9229431152344,
-                    533.4619750976562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>three <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 33,
-                "value": "three"
-            },
-            {
-                "time": 746,
-                "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "5": {
-        "text": "four",
-        "words": [
-            "four"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    345.9700012207031,
-                    444.92498779296875
-                ],
-                [
-                    387.8507385253906,
-                    468.7449951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>four <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 32,
-                "value": "four"
-            },
-            {
-                "time": 861,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "6": {
-        "text": "five",
-        "words": [
-            "five"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    251.4367218017578,
-                    358.0780029296875
-                ],
-                [
-                    288.73504638671875,
-                    381.89801025390625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>five <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 32,
-                "value": "five"
-            },
-            {
-                "time": 809,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "7": {
+    "2": {
         "text": "one",
         "words": [
             "one"
@@ -503,7 +313,121 @@
             }
         ]
     },
-    "8": {
+    "3": {
+        "text": "five",
+        "words": [
+            "five"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    251.4367218017578,
+                    358.0780029296875
+                ],
+                [
+                    288.73504638671875,
+                    381.89801025390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>five <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "five"
+            },
+            {
+                "time": 809,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "four",
+        "words": [
+            "four"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    345.9700012207031,
+                    444.92498779296875
+                ],
+                [
+                    387.8507385253906,
+                    468.7449951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>four <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "four"
+            },
+            {
+                "time": 861,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "three",
+        "words": [
+            "three"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    243.74899291992188,
+                    509.6419982910156
+                ],
+                [
+                    297.9229431152344,
+                    533.4619750976562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>three <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "three"
+            },
+            {
+                "time": 746,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
         "text": "two",
         "words": [
             "two"
@@ -511,12 +435,12 @@
         "bounding_boxes": [
             [
                 [
-                    253.28541564941406,
-                    195.19699096679688
+                    358.6860046386719,
+                    602.4720458984375
                 ],
                 [
-                    292.56646728515625,
-                    219.01699829101562
+                    397.96710205078125,
+                    626.2919921875
                 ]
             ]
         ],
@@ -534,6 +458,44 @@
             },
             {
                 "time": 639,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "one",
+        "words": [
+            "one"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    259.5231628417969,
+                    671.600341796875
+                ],
+                [
+                    298.29754638671875,
+                    695.4203491210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>one <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "one"
+            },
+            {
+                "time": 759,
                 "type": "word",
                 "start": 32,
                 "end": 53,

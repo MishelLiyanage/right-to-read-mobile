@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "10",
-        "words": [
-            "10"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    33.394500732421875,
-                    24.34998893737793
-                ],
-                [
-                    58.144500732421875,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">10</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "10"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "What grade are you in?",
         "words": [
             "What",
@@ -156,7 +127,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What grade are you in?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What grade are you in?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -164,41 +135,41 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "What"
             },
             {
                 "time": 153,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "grade"
             },
             {
-                "time": 541,
+                "time": 543,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "are"
             },
             {
-                "time": 669,
+                "time": 671,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "you"
             },
             {
-                "time": 962,
+                "time": 973,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "in"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "I'm in grade three. I'm in grade four.",
         "words": [
             "I'm",
@@ -292,7 +263,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m in grade three.<break time=\"500ms\"/> I&apos;m in grade four.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm in grade three. I'm in grade four.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -300,69 +271,62 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 242,
+                "time": 249,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 32,
+                "end": 34,
                 "value": "in"
             },
             {
-                "time": 392,
+                "time": 403,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 35,
+                "end": 40,
                 "value": "grade"
             },
             {
-                "time": 704,
+                "time": 729,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 41,
+                "end": 46,
                 "value": "three"
             },
             {
-                "time": 1155,
+                "time": 1573,
                 "type": "word",
-                "start": 51,
-                "end": 72,
-                "value": "<break time=\"500ms\"/>"
+                "start": 48,
+                "end": 51,
+                "value": "I'm"
             },
             {
-                "time": 2042,
+                "time": 1815,
                 "type": "word",
-                "start": 73,
-                "end": 81,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 2273,
-                "type": "word",
-                "start": 82,
-                "end": 84,
+                "start": 52,
+                "end": 54,
                 "value": "in"
             },
             {
-                "time": 2481,
+                "time": 2024,
                 "type": "word",
-                "start": 85,
-                "end": 90,
+                "start": 55,
+                "end": 60,
                 "value": "grade"
             },
             {
-                "time": 2775,
+                "time": 2325,
                 "type": "word",
-                "start": 91,
-                "end": 95,
+                "start": 61,
+                "end": 65,
                 "value": "four"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "I'm in grade f ive.",
         "words": [
             "I'm",
@@ -423,7 +387,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m in grade f ive.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm in grade five.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -431,41 +395,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 260,
+                "time": 248,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 32,
+                "end": 34,
                 "value": "in"
             },
             {
-                "time": 448,
+                "time": 456,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 35,
+                "end": 40,
                 "value": "grade"
             },
             {
-                "time": 803,
+                "time": 758,
                 "type": "word",
-                "start": 45,
-                "end": 46,
-                "value": "f"
-            },
-            {
-                "time": 1029,
-                "type": "word",
-                "start": 47,
-                "end": 50,
-                "value": "ive"
+                "start": 41,
+                "end": 45,
+                "value": "five"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I'm in grade six.",
         "words": [
             "I'm",
@@ -515,7 +472,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m in grade six.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm in grade six.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -523,29 +480,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
-                "time": 201,
+                "time": 209,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 32,
+                "end": 34,
                 "value": "in"
             },
             {
-                "time": 314,
+                "time": 326,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 35,
+                "end": 40,
                 "value": "grade"
             },
             {
-                "time": 619,
+                "time": 640,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 41,
+                "end": 44,
                 "value": "six"
             }
         ]

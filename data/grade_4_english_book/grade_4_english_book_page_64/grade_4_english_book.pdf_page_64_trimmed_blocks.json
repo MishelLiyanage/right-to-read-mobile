@@ -71,50 +71,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This or these? That or those?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This or these? That or those?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 236,
+                "time": 243,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "or"
             },
             {
-                "time": 350,
+                "time": 357,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "these"
             },
             {
-                "time": 1181,
+                "time": 1200,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "That"
             },
             {
-                "time": 1432,
+                "time": 1465,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "or"
             },
             {
-                "time": 1553,
+                "time": 1586,
                 "type": "word",
-                "start": 50,
-                "end": 55,
+                "start": 51,
+                "end": 56,
                 "value": "those"
             }
         ]
@@ -169,29 +170,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2026\u2026\u2026\u2026\u2026 frock \u2026\u2026\u2026\u2026\u2026 pens</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>\u2026\u2026\u2026\u2026\u2026 frock \u2026\u2026\u2026\u2026\u2026 pens</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "\u2026"
             },
             {
-                "time": 867,
+                "time": 888,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "frock"
             },
             {
-                "time": 1815,
+                "time": 1857,
                 "type": "word",
-                "start": 65,
-                "end": 69,
+                "start": 66,
+                "end": 70,
                 "value": "pens"
             }
         ]
@@ -246,29 +248,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2026\u2026\u2026\u2026\u2026 ruler \u2026\u2026\u2026\u2026\u2026 pencils</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>\u2026\u2026\u2026\u2026\u2026 ruler \u2026\u2026\u2026\u2026\u2026 pencils</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "\u2026"
             },
             {
-                "time": 867,
+                "time": 888,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "ruler"
             },
             {
-                "time": 1781,
+                "time": 1802,
                 "type": "word",
-                "start": 65,
-                "end": 72,
+                "start": 66,
+                "end": 73,
                 "value": "pencils"
             }
         ]

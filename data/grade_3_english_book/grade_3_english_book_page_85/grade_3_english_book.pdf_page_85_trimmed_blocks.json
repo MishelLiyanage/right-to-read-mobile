@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "76",
-        "words": [
-            "76"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    31.636699676513672,
-                    24.34998893737793
-                ],
-                [
-                    59.896697998046875,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">76</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "76"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "Who would like to go for a ride?",
         "words": [
             "Who",
@@ -189,7 +160,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Who would like to go for a ride?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Who would like to go for a ride?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged man",
         "voice_id": "Joey",
@@ -197,62 +168,62 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Who"
             },
             {
-                "time": 173,
+                "time": 177,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "would"
             },
             {
-                "time": 459,
+                "time": 463,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "like"
             },
             {
-                "time": 720,
+                "time": 723,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "to"
             },
             {
-                "time": 852,
+                "time": 865,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "go"
             },
             {
-                "time": 1161,
+                "time": 1185,
                 "type": "word",
-                "start": 48,
-                "end": 51,
+                "start": 49,
+                "end": 52,
                 "value": "for"
             },
             {
-                "time": 1474,
+                "time": 1500,
                 "type": "word",
-                "start": 52,
-                "end": 53,
+                "start": 53,
+                "end": 54,
                 "value": "a"
             },
             {
-                "time": 1520,
+                "time": 1546,
                 "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 55,
+                "end": 59,
                 "value": "ride"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "moo, moo",
         "words": [
             "moo,",
@@ -280,35 +251,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">moo,<break time=\"300ms\"/> moo</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>moo, moo</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "moo"
             },
             {
-                "time": 568,
+                "time": 643,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 961,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "moo"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "neigh",
         "words": [
             "neigh"
@@ -325,21 +289,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>neigh</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "neigh"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "woof, woof",
         "words": [
             "woof,",
@@ -367,35 +331,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>woof, woof</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "woof"
             },
             {
-                "time": 648,
+                "time": 608,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1042,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 34,
+                "end": 38,
                 "value": "woof"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "mew, mew",
         "words": [
             "mew,",
@@ -423,35 +380,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">mew,<break time=\"300ms\"/> mew</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>mew, mew</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "mew"
             },
             {
-                "time": 550,
+                "time": 786,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 950,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "mew"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "baa, baa",
         "words": [
             "baa,",
@@ -479,35 +429,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>baa, baa</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "baa"
             },
             {
-                "time": 685,
+                "time": 698,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1078,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "baa"
             }
         ]
     },
-    "8": {
+    "7": {
         "text": "quack, quack",
         "words": [
             "quack,",
@@ -535,35 +478,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>quack, quack</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "quack"
             },
             {
-                "time": 761,
+                "time": 725,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1154,
-                "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 35,
+                "end": 40,
                 "value": "quack"
             }
         ]
     },
-    "9": {
+    "8": {
         "text": "cluck, cluck",
         "words": [
             "cluck,",
@@ -591,30 +527,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cluck,<break time=\"300ms\"/> cluck</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "ssml": "<speak><prosody rate='slow'>cluck, cluck</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "cluck"
             },
             {
-                "time": 654,
+                "time": 775,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1054,
-                "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 35,
+                "end": 40,
                 "value": "cluck"
             }
         ]

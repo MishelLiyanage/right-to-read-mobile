@@ -49,36 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read the picture story.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the picture story.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 246,
+                "time": 257,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 338,
+                "time": 356,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 37,
+                "end": 44,
                 "value": "picture"
             },
             {
-                "time": 788,
+                "time": 833,
                 "type": "word",
-                "start": 44,
-                "end": 49,
+                "start": 45,
+                "end": 50,
                 "value": "story"
             }
         ]
@@ -122,39 +123,40 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Float or Sink?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Float or Sink?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Float"
             },
             {
-                "time": 293,
+                "time": 311,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "or"
             },
             {
-                "time": 403,
+                "time": 421,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "Sink"
             }
         ]
     },
     "2": {
-        "text": "Take a (1)\u2026\u2026\u2026.",
+        "text": "Take a (1)\u2026\u2026\u2026..",
         "words": [
             "Take",
             "a",
-            "(1)\u2026\u2026\u2026.."
+            "(1)\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -188,34 +190,138 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Take a (1)\u2026\u2026\u2026.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Take a (1)\u2026\u2026\u2026.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Take"
             },
             {
-                "time": 337,
+                "time": 347,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 1053,
+                "time": 1093,
                 "type": "word",
-                "start": 35,
-                "end": 36,
+                "start": 36,
+                "end": 37,
                 "value": "1"
             }
         ]
     },
     "3": {
+        "text": "look leaves basin coins water",
+        "words": [
+            "look",
+            "leaves",
+            "basin",
+            "coins",
+            "water"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    449.68707275390625,
+                    194.08700561523438
+                ],
+                [
+                    487.9070739746094,
+                    217.90701293945312
+                ]
+            ],
+            [
+                [
+                    436.7470703125,
+                    222.08700561523438
+                ],
+                [
+                    495.66705322265625,
+                    245.90701293945312
+                ]
+            ],
+            [
+                [
+                    440.7670593261719,
+                    250.08700561523438
+                ],
+                [
+                    491.6670837402344,
+                    273.9070129394531
+                ]
+            ],
+            [
+                [
+                    442.1270446777344,
+                    278.0870056152344
+                ],
+                [
+                    490.32708740234375,
+                    301.9070129394531
+                ]
+            ],
+            [
+                [
+                    441.8670349121094,
+                    306.0870056152344
+                ],
+                [
+                    495.5670166015625,
+                    329.9070129394531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>look leaves basin coins water</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "look"
+            },
+            {
+                "time": 243,
+                "type": "word",
+                "start": 33,
+                "end": 39,
+                "value": "leaves"
+            },
+            {
+                "time": 577,
+                "type": "word",
+                "start": 40,
+                "end": 45,
+                "value": "basin"
+            },
+            {
+                "time": 1000,
+                "type": "word",
+                "start": 46,
+                "end": 51,
+                "value": "coins"
+            },
+            {
+                "time": 1512,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "water"
+            }
+        ]
+    },
+    "4": {
         "text": "Put some (2)\u2026\u2026\u2026",
         "words": [
             "Put",
@@ -254,38 +360,39 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Put some (2)\u2026\u2026\u2026</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Put some (2)\u2026\u2026\u2026</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Put"
             },
             {
                 "time": 168,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "some"
             },
             {
-                "time": 949,
+                "time": 977,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "2"
             }
         ]
     },
-    "4": {
+    "5": {
         "text": "Put (3)\u2026\u2026\u2026.",
         "words": [
             "Put",
-            "(3)\u2026\u2026\u2026.."
+            "(3)\u2026\u2026\u2026."
         ],
         "bounding_boxes": [
             [
@@ -309,67 +416,38 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Put (3)\u2026\u2026\u2026.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Put (3)\u2026\u2026\u2026.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Put"
             },
             {
-                "time": 666,
+                "time": 680,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "3"
             }
         ]
     },
-    "5": {
-        "text": "into the water. Put (4) \u2026\u2026\u2026\u2026..",
+    "6": {
+        "text": "Put (4) \u2026\u2026\u2026\u2026.. into the water.",
         "words": [
-            "into",
-            "the",
-            "water.",
             "Put",
             "(4)",
-            "\u2026\u2026\u2026\u2026."
+            "\u2026\u2026\u2026\u2026..",
+            "into",
+            "the",
+            "water."
         ],
         "bounding_boxes": [
-            [
-                [
-                    365.8670959472656,
-                    493.6940002441406
-                ],
-                [
-                    401.80712890625,
-                    517.5139770507812
-                ]
-            ],
-            [
-                [
-                    406.60711669921875,
-                    493.6940002441406
-                ],
-                [
-                    438.1471252441406,
-                    517.5139770507812
-                ]
-            ],
-            [
-                [
-                    442.9471130371094,
-                    493.6940002441406
-                ],
-                [
-                    502.12713623046875,
-                    517.5139770507812
-                ]
-            ],
             [
                 [
                     59.527099609375,
@@ -399,57 +477,81 @@
                     213.4071044921875,
                     507.9210205078125
                 ]
+            ],
+            [
+                [
+                    365.8670959472656,
+                    493.6940002441406
+                ],
+                [
+                    401.80712890625,
+                    517.5139770507812
+                ]
+            ],
+            [
+                [
+                    406.60711669921875,
+                    493.6940002441406
+                ],
+                [
+                    438.1471252441406,
+                    517.5139770507812
+                ]
+            ],
+            [
+                [
+                    442.9471130371094,
+                    493.6940002441406
+                ],
+                [
+                    502.12713623046875,
+                    517.5139770507812
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">into the water.<break time=\"500ms\"/> Put (4) \u2026\u2026\u2026\u2026..</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Put (4) \u2026\u2026\u2026\u2026.. into the water.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
+                "start": 28,
                 "end": 31,
-                "value": "into"
-            },
-            {
-                "time": 306,
-                "type": "word",
-                "start": 32,
-                "end": 35,
-                "value": "the"
-            },
-            {
-                "time": 406,
-                "type": "word",
-                "start": 36,
-                "end": 41,
-                "value": "water"
-            },
-            {
-                "time": 1024,
-                "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1911,
-                "type": "word",
-                "start": 64,
-                "end": 67,
                 "value": "Put"
             },
             {
-                "time": 2564,
+                "time": 674,
                 "type": "word",
-                "start": 69,
-                "end": 70,
+                "start": 33,
+                "end": 34,
                 "value": "4"
+            },
+            {
+                "time": 1612,
+                "type": "word",
+                "start": 51,
+                "end": 55,
+                "value": "into"
+            },
+            {
+                "time": 1917,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "the"
+            },
+            {
+                "time": 2017,
+                "type": "word",
+                "start": 60,
+                "end": 65,
+                "value": "water"
             }
         ]
     },
-    "6": {
+    "7": {
         "text": "(5)\u2026\u2026\u2026.. what happens !",
         "words": [
             "(5)\u2026\u2026\u2026..",
@@ -499,41 +601,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">(5)\u2026\u2026\u2026..<break time=\"500ms\"/> what happens !</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>(5)\u2026\u2026\u2026.. what happens !</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 28,
-                "end": 29,
+                "start": 29,
+                "end": 30,
                 "value": "5"
             },
             {
-                "time": 600,
+                "time": 1009,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1487,
-                "type": "word",
-                "start": 63,
-                "end": 67,
+                "start": 43,
+                "end": 47,
                 "value": "what"
             },
             {
-                "time": 1643,
+                "time": 1165,
                 "type": "word",
-                "start": 68,
-                "end": 75,
+                "start": 48,
+                "end": 55,
                 "value": "happens"
             }
         ]
     },
-    "7": {
+    "8": {
         "text": "Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)",
         "words": [
             "Coins",
@@ -627,57 +723,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Coins \u2026\u2026..(float / sink) Leaves \u2026\u2026\u2026 (float/ sink)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Coins"
             },
             {
-                "time": 1095,
+                "time": 1126,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "float"
             },
             {
-                "time": 1850,
+                "time": 1901,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 51,
+                "end": 55,
                 "value": "sink"
             },
             {
-                "time": 2705,
+                "time": 2781,
                 "type": "word",
-                "start": 56,
-                "end": 62,
+                "start": 57,
+                "end": 63,
                 "value": "Leaves"
             },
             {
-                "time": 3326,
+                "time": 3410,
                 "type": "word",
-                "start": 73,
-                "end": 74,
+                "start": 74,
+                "end": 75,
                 "value": "("
             },
             {
-                "time": 3912,
+                "time": 3997,
                 "type": "word",
-                "start": 74,
-                "end": 80,
+                "start": 75,
+                "end": 81,
                 "value": "float/"
             },
             {
-                "time": 4717,
+                "time": 4857,
                 "type": "word",
-                "start": 81,
-                "end": 85,
+                "start": 82,
+                "end": 86,
                 "value": "sink"
             }
         ]

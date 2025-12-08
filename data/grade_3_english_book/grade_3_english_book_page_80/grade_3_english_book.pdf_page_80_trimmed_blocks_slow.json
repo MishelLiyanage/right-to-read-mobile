@@ -1,0 +1,722 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    52.211029052734375
+                ],
+                [
+                    114.7470932006836,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    119.7470932006836,
+                    52.211029052734375
+                ],
+                [
+                    156.66709899902344,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    161.66709899902344,
+                    52.211029052734375
+                ],
+                [
+                    197.68710327148438,
+                    76.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "sheep",
+        "words": [
+            "sheep"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    78.91299438476562,
+                    214.27297973632812
+                ],
+                [
+                    135.45298767089844,
+                    238.09298706054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>sheep <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "sheep"
+            },
+            {
+                "time": 736,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "cow duck",
+        "words": [
+            "cow",
+            "duck"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    279.072998046875,
+                    173.95297241210938
+                ],
+                [
+                    316.9930114746094,
+                    197.77297973632812
+                ]
+            ],
+            [
+                [
+                    368.3529968261719,
+                    156.67294311523438
+                ],
+                [
+                    414.27301025390625,
+                    180.49295043945312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>cow <break time='200ms'/> duck <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "cow"
+            },
+            {
+                "time": 704,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1006,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "duck"
+            },
+            {
+                "time": 1684,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "dog",
+        "words": [
+            "dog"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    423.072998046875,
+                    230.11294555664062
+                ],
+                [
+                    458.65301513671875,
+                    253.93295288085938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>dog <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "dog"
+            },
+            {
+                "time": 611,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "owl",
+        "words": [
+            "owl"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    497.9530029296875,
+                    173.05294799804688
+                ],
+                [
+                    530.4130249023438,
+                    196.87295532226562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>owl <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "owl"
+            },
+            {
+                "time": 675,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "cat",
+        "words": [
+            "cat"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    358.7330017089844,
+                    309.27294921875
+                ],
+                [
+                    388.7530212402344,
+                    333.09295654296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>cat <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "cat"
+            },
+            {
+                "time": 723,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "rabbit",
+        "words": [
+            "rabbit"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    196.99298095703125,
+                    329.4729919433594
+                ],
+                [
+                    252.2530059814453,
+                    353.2929992675781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>rabbit <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "rabbit"
+            },
+            {
+                "time": 767,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "duckling",
+        "words": [
+            "duckling"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    436.05303955078125,
+                    323.09295654296875
+                ],
+                [
+                    516.5130004882812,
+                    346.9129638671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>duckling <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "duckling"
+            },
+            {
+                "time": 860,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "bunny",
+        "words": [
+            "bunny"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.3330078125,
+                    458.97296142578125
+                ],
+                [
+                    122.27300262451172,
+                    482.79296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bunny <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "bunny"
+            },
+            {
+                "time": 778,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "kitten",
+        "words": [
+            "kitten"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    155.91299438476562,
+                    433.63299560546875
+                ],
+                [
+                    210.6330108642578,
+                    457.4530029296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>kitten <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "kitten"
+            },
+            {
+                "time": 755,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "owlet",
+        "words": [
+            "owlet"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    276.53302001953125,
+                    418.6329650878906
+                ],
+                [
+                    327.8330078125,
+                    442.4529724121094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>owlet <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "owlet"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "lamb",
+        "words": [
+            "lamb"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    406.8330078125,
+                    477.77294921875
+                ],
+                [
+                    456.5530090332031,
+                    501.59295654296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>lamb <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "lamb"
+            },
+            {
+                "time": 784,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "calf",
+        "words": [
+            "calf"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    479.9330139160156,
+                    461.6929626464844
+                ],
+                [
+                    515.2130126953125,
+                    485.5129699707031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>calf <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "calf"
+            },
+            {
+                "time": 736,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "puppy",
+        "words": [
+            "puppy"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    258.4930114746094,
+                    515.052978515625
+                ],
+                [
+                    317.65301513671875,
+                    538.8729248046875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>puppy <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "puppy"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "14": {
+        "text": "This is a puppy.",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "puppy."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    315.4880065917969,
+                    585.7869873046875
+                ],
+                [
+                    352.468017578125,
+                    609.6069946289062
+                ]
+            ],
+            [
+                [
+                    357.468017578125,
+                    585.7869873046875
+                ],
+                [
+                    371.4480285644531,
+                    609.6069946289062
+                ]
+            ],
+            [
+                [
+                    376.4480285644531,
+                    585.7869873046875
+                ],
+                [
+                    388.6080322265625,
+                    609.6069946289062
+                ]
+            ],
+            [
+                [
+                    393.6080322265625,
+                    585.7869873046875
+                ],
+                [
+                    457.4480285644531,
+                    609.6069946289062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> puppy. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 619,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 914,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1429,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1727,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2282,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2583,
+                "type": "word",
+                "start": 104,
+                "end": 109,
+                "value": "puppy"
+            },
+            {
+                "time": 3286,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

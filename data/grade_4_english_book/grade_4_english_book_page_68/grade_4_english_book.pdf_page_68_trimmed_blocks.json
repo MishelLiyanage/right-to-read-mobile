@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
@@ -75,30 +76,24 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Let&apos;s sing.<break time=\"400ms\"/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 49,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 342,
+                "time": 348,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
-            },
-            {
-                "time": 846,
-                "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -174,50 +169,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How many hats can you see?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How many hats can you see?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 207,
+                "time": 208,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "many"
             },
             {
-                "time": 476,
+                "time": 485,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "hats"
             },
             {
-                "time": 833,
+                "time": 853,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "can"
             },
             {
-                "time": 1023,
+                "time": 1043,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "you"
             },
             {
-                "time": 1154,
+                "time": 1174,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 50,
+                "end": 53,
                 "value": "see"
             }
         ]
@@ -261,43 +257,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">One,<break time=\"300ms\"/> two,<break time=\"300ms\"/> three.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>One, two, three.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "One"
             },
             {
-                "time": 747,
+                "time": 872,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1147,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "two"
             },
             {
-                "time": 1709,
+                "time": 1541,
                 "type": "word",
-                "start": 57,
-                "end": 78,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2103,
-                "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 38,
+                "end": 43,
                 "value": "three"
             }
         ]
@@ -374,50 +357,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How many books can you see?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How many books can you see?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 185,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "many"
             },
             {
-                "time": 476,
+                "time": 487,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "books"
             },
             {
-                "time": 841,
+                "time": 871,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "can"
             },
             {
-                "time": 1017,
+                "time": 1046,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "you"
             },
             {
-                "time": 1148,
+                "time": 1178,
                 "type": "word",
-                "start": 50,
-                "end": 53,
+                "start": 51,
+                "end": 54,
                 "value": "see"
             }
         ]
@@ -461,43 +445,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">One,<break time=\"300ms\"/> two,<break time=\"300ms\"/> three.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>One, two, three.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "One"
             },
             {
-                "time": 747,
+                "time": 872,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1147,
-                "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 33,
+                "end": 36,
                 "value": "two"
             },
             {
-                "time": 1709,
+                "time": 1541,
                 "type": "word",
-                "start": 57,
-                "end": 78,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2103,
-                "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 38,
+                "end": 43,
                 "value": "three"
             }
         ]
@@ -585,57 +556,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">You can count and you can buy</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>You can count and you can buy</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "You"
             },
             {
-                "time": 136,
+                "time": 146,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "can"
             },
             {
-                "time": 328,
+                "time": 346,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "count"
             },
             {
-                "time": 680,
+                "time": 698,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 816,
+                "time": 834,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 46,
+                "end": 49,
                 "value": "you"
             },
             {
-                "time": 954,
+                "time": 972,
                 "type": "word",
-                "start": 49,
-                "end": 52,
+                "start": 50,
+                "end": 53,
                 "value": "can"
             },
             {
-                "time": 1154,
+                "time": 1172,
                 "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 54,
+                "end": 57,
                 "value": "buy"
             }
         ]
@@ -701,43 +673,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">and you ask <emphasis level=\"moderate\">HOW</emphasis> <emphasis level=\"moderate\">MANY</emphasis>.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>and you ask HOW MANY.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "and"
             },
             {
-                "time": 173,
+                "time": 184,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "you"
             },
             {
-                "time": 271,
+                "time": 282,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "ask"
             },
             {
-                "time": 611,
+                "time": 630,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 40,
+                "end": 43,
                 "value": "HOW"
             },
             {
-                "time": 826,
+                "time": 818,
                 "type": "word",
-                "start": 108,
-                "end": 112,
+                "start": 44,
+                "end": 48,
                 "value": "MANY"
             }
         ]
@@ -792,43 +765,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sugar,<break time=\"300ms\"/> you can&apos;t count</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sugar, you can't count</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Sugar"
             },
             {
-                "time": 796,
+                "time": 914,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1196,
-                "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 35,
+                "end": 38,
                 "value": "you"
             },
             {
-                "time": 1338,
+                "time": 1062,
                 "type": "word",
-                "start": 59,
-                "end": 69,
-                "value": "can&apos;t"
+                "start": 39,
+                "end": 44,
+                "value": "can't"
             },
             {
-                "time": 1683,
+                "time": 1423,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 45,
+                "end": 50,
                 "value": "count"
             }
         ]
@@ -883,43 +850,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">money,<break time=\"300ms\"/> you can&apos;t count</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>money, you can't count</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "money"
             },
             {
-                "time": 708,
+                "time": 832,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1108,
-                "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 35,
+                "end": 38,
                 "value": "you"
             },
             {
-                "time": 1240,
+                "time": 964,
                 "type": "word",
-                "start": 59,
-                "end": 69,
-                "value": "can&apos;t"
+                "start": 39,
+                "end": 44,
+                "value": "can't"
             },
             {
-                "time": 1594,
+                "time": 1331,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 45,
+                "end": 50,
                 "value": "count"
             }
         ]
@@ -974,43 +935,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">butter,<break time=\"300ms\"/> you can&apos;t count</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>butter, you can't count</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "butter"
             },
             {
-                "time": 620,
+                "time": 733,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1020,
-                "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 36,
+                "end": 39,
                 "value": "you"
             },
             {
-                "time": 1151,
+                "time": 865,
                 "type": "word",
-                "start": 60,
-                "end": 70,
-                "value": "can&apos;t"
+                "start": 40,
+                "end": 45,
+                "value": "can't"
             },
             {
-                "time": 1505,
+                "time": 1232,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 46,
+                "end": 51,
                 "value": "count"
             }
         ]
@@ -1076,43 +1031,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">and you ask <emphasis level=\"moderate\">HOW</emphasis> <emphasis level=\"moderate\">MUCH</emphasis>.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>and you ask HOW MUCH.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "and"
             },
             {
-                "time": 173,
+                "time": 184,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "you"
             },
             {
-                "time": 271,
+                "time": 282,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "ask"
             },
             {
-                "time": 611,
+                "time": 630,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 40,
+                "end": 43,
                 "value": "HOW"
             },
             {
-                "time": 810,
+                "time": 796,
                 "type": "word",
-                "start": 108,
-                "end": 112,
+                "start": 44,
+                "end": 48,
                 "value": "MUCH"
             }
         ]

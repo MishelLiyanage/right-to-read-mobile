@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "46",
-        "words": [
-            "46"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    30.149900436401367,
-                    24.34998893737793
-                ],
-                [
-                    61.37989807128906,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">46</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "46"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say. How do you come to school?",
         "words": [
             "Listen",
@@ -134,83 +104,77 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.<break time=\"500ms\"/> How do you come to school?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say. How do you come to school?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             },
             {
-                "time": 1122,
+                "time": 1551,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2008,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 44,
+                "end": 47,
                 "value": "How"
             },
             {
-                "time": 2199,
+                "time": 1741,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "do"
             },
             {
-                "time": 2301,
+                "time": 1843,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "you"
             },
             {
-                "time": 2464,
+                "time": 2006,
                 "type": "word",
-                "start": 75,
-                "end": 79,
+                "start": 55,
+                "end": 59,
                 "value": "come"
             },
             {
-                "time": 2711,
+                "time": 2259,
                 "type": "word",
-                "start": 80,
-                "end": 82,
+                "start": 60,
+                "end": 62,
                 "value": "to"
             },
             {
-                "time": 2814,
+                "time": 2362,
                 "type": "word",
-                "start": 83,
-                "end": 89,
+                "start": 63,
+                "end": 69,
                 "value": "school"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "bus",
         "words": [
             "bus"
@@ -227,24 +191,27 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bus</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>bus</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "bus"
             }
         ]
     },
-    "3": {
-        "text": "school van",
+    "2": {
+        "text": "school van three wheeler",
         "words": [
             "school",
-            "van"
+            "van",
+            "three",
+            "wheeler"
         ],
         "bounding_boxes": [
             [
@@ -266,35 +233,7 @@
                     364.5970458984375,
                     305.9651794433594
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">school van</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "school"
-            },
-            {
-                "time": 413,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "van"
-            }
-        ]
-    },
-    "4": {
-        "text": "three wheeler",
-        "words": [
-            "three",
-            "wheeler"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     429.58099365234375,
@@ -316,27 +255,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">three wheeler</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>school van three wheeler</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 34,
+                "value": "school"
+            },
+            {
+                "time": 442,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "van"
+            },
+            {
+                "time": 757,
+                "type": "word",
+                "start": 39,
+                "end": 44,
                 "value": "three"
             },
             {
-                "time": 247,
+                "time": 1051,
                 "type": "word",
-                "start": 33,
-                "end": 40,
+                "start": 45,
+                "end": 52,
                 "value": "wheeler"
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "car",
         "words": [
             "car"
@@ -353,20 +307,21 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">car</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>car</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "car"
             }
         ]
     },
-    "6": {
+    "4": {
         "text": "motor cycle",
         "words": [
             "motor",
@@ -394,27 +349,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">motor cycle</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>motor cycle</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "motor"
             },
             {
-                "time": 354,
+                "time": 372,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "cycle"
             }
         ]
     },
-    "7": {
+    "5": {
         "text": "on foot",
         "words": [
             "on",
@@ -442,27 +398,28 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">on foot</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>on foot</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "on"
             },
             {
-                "time": 169,
+                "time": 181,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "foot"
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "I come to school on foot.",
         "words": [
             "I",
@@ -534,7 +491,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I come to school on foot.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I come to school on foot.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -542,48 +499,48 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 121,
+                "time": 127,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "come"
             },
             {
-                "time": 364,
+                "time": 381,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 461,
+                "time": 483,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "school"
             },
             {
-                "time": 882,
+                "time": 918,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "on"
             },
             {
-                "time": 1011,
+                "time": 1052,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "foot"
             }
         ]
     },
-    "9": {
+    "7": {
         "text": "I come to school by bicycle.",
         "words": [
             "I",
@@ -655,7 +612,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I come to school by bicycle.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I come to school by bicycle.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -663,43 +620,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 121,
+                "time": 127,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "come"
             },
             {
-                "time": 364,
+                "time": 381,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 461,
+                "time": 483,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "school"
             },
             {
-                "time": 806,
+                "time": 841,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "by"
             },
             {
-                "time": 1052,
+                "time": 1101,
                 "type": "word",
-                "start": 47,
-                "end": 54,
+                "start": 48,
+                "end": 55,
                 "value": "bicycle"
             }
         ]

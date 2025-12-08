@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -97,43 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1170,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1345,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -287,204 +282,113 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">blender spoon oven rice cooker mortar and pestle gas cooker coconut scraper refrigerator</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>blender spoon oven rice cooker mortar and pestle gas cooker coconut scraper refrigerator</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "blender"
             },
             {
-                "time": 467,
+                "time": 493,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "spoon"
             },
             {
-                "time": 877,
+                "time": 923,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "oven"
             },
             {
-                "time": 1140,
+                "time": 1192,
                 "type": "word",
-                "start": 46,
-                "end": 50,
+                "start": 47,
+                "end": 51,
                 "value": "rice"
             },
             {
-                "time": 1502,
+                "time": 1587,
                 "type": "word",
-                "start": 51,
-                "end": 57,
+                "start": 52,
+                "end": 58,
                 "value": "cooker"
             },
             {
-                "time": 1847,
+                "time": 1939,
                 "type": "word",
-                "start": 58,
-                "end": 64,
+                "start": 59,
+                "end": 65,
                 "value": "mortar"
             },
             {
-                "time": 2318,
+                "time": 2431,
                 "type": "word",
-                "start": 65,
-                "end": 68,
+                "start": 66,
+                "end": 69,
                 "value": "and"
             },
             {
-                "time": 2478,
+                "time": 2591,
                 "type": "word",
-                "start": 69,
-                "end": 75,
+                "start": 70,
+                "end": 76,
                 "value": "pestle"
             },
             {
-                "time": 2881,
+                "time": 3007,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 77,
+                "end": 80,
                 "value": "gas"
             },
             {
-                "time": 3286,
+                "time": 3439,
                 "type": "word",
-                "start": 80,
-                "end": 86,
+                "start": 81,
+                "end": 87,
                 "value": "cooker"
             },
             {
-                "time": 3661,
+                "time": 3834,
                 "type": "word",
-                "start": 87,
-                "end": 94,
+                "start": 88,
+                "end": 95,
                 "value": "coconut"
             },
             {
-                "time": 4463,
+                "time": 4642,
                 "type": "word",
-                "start": 95,
-                "end": 102,
+                "start": 96,
+                "end": 103,
                 "value": "scraper"
             },
             {
-                "time": 4965,
+                "time": 5158,
                 "type": "word",
-                "start": 103,
-                "end": 115,
+                "start": 104,
+                "end": 116,
                 "value": "refrigerator"
             }
         ]
     },
     "3": {
-        "text": "coconut scraper",
-        "words": [
-            "coconut",
-            "scraper"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    90.28759765625,
-                    332.6518859863281
-                ],
-                [
-                    147.3175811767578,
-                    350.51690673828125
-                ]
-            ],
-            [
-                [
-                    150.91758728027344,
-                    332.6518859863281
-                ],
-                [
-                    202.007568359375,
-                    350.51690673828125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">coconut scraper</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "coconut"
-            },
-            {
-                "time": 557,
-                "type": "word",
-                "start": 35,
-                "end": 42,
-                "value": "scraper"
-            }
-        ]
-    },
-    "4": {
-        "text": "rice cooker",
-        "words": [
-            "rice",
-            "cooker"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    267.61248779296875,
-                    332.6518859863281
-                ],
-                [
-                    292.5724792480469,
-                    350.51690673828125
-                ]
-            ],
-            [
-                [
-                    296.3224792480469,
-                    332.6518859863281
-                ],
-                [
-                    342.1624755859375,
-                    350.51690673828125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">rice cooker</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 31,
-                "value": "rice"
-            },
-            {
-                "time": 320,
-                "type": "word",
-                "start": 32,
-                "end": 38,
-                "value": "cooker"
-            }
-        ]
-    },
-    "5": {
-        "text": "gas cooker",
+        "text": "gas cooker rice cooker coconut scraper",
         "words": [
             "gas",
-            "cooker"
+            "cooker",
+            "rice",
+            "cooker",
+            "coconut",
+            "scraper"
         ],
         "bounding_boxes": [
             [
@@ -506,59 +410,98 @@
                     501.80560302734375,
                     350.51690673828125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">gas cooker</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "gas"
-            },
-            {
-                "time": 358,
-                "type": "word",
-                "start": 31,
-                "end": 37,
-                "value": "cooker"
-            }
-        ]
-    },
-    "6": {
-        "text": "blender",
-        "words": [
-            "blender"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
-                    119.44709777832031,
-                    525.8173217773438
+                    267.61248779296875,
+                    332.6518859863281
                 ],
                 [
-                    172.8470916748047,
-                    543.6823120117188
+                    292.5724792480469,
+                    350.51690673828125
+                ]
+            ],
+            [
+                [
+                    296.3224792480469,
+                    332.6518859863281
+                ],
+                [
+                    342.1624755859375,
+                    350.51690673828125
+                ]
+            ],
+            [
+                [
+                    90.28759765625,
+                    332.6518859863281
+                ],
+                [
+                    147.3175811767578,
+                    350.51690673828125
+                ]
+            ],
+            [
+                [
+                    150.91758728027344,
+                    332.6518859863281
+                ],
+                [
+                    202.007568359375,
+                    350.51690673828125
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">blender</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>gas cooker rice cooker coconut scraper</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "blender"
+                "start": 28,
+                "end": 31,
+                "value": "gas"
+            },
+            {
+                "time": 380,
+                "type": "word",
+                "start": 32,
+                "end": 38,
+                "value": "cooker"
+            },
+            {
+                "time": 782,
+                "type": "word",
+                "start": 39,
+                "end": 43,
+                "value": "rice"
+            },
+            {
+                "time": 1160,
+                "type": "word",
+                "start": 44,
+                "end": 50,
+                "value": "cooker"
+            },
+            {
+                "time": 1504,
+                "type": "word",
+                "start": 51,
+                "end": 58,
+                "value": "coconut"
+            },
+            {
+                "time": 2191,
+                "type": "word",
+                "start": 59,
+                "end": 66,
+                "value": "scraper"
             }
         ]
     },
-    "7": {
+    "4": {
         "text": "oven",
         "words": [
             "oven"
@@ -575,53 +518,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">oven</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>oven</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "oven"
             }
         ]
     },
-    "8": {
-        "text": "spoon",
+    "5": {
+        "text": "blender",
         "words": [
-            "spoon"
+            "blender"
         ],
         "bounding_boxes": [
             [
                 [
-                    124.36270141601562,
-                    651.108642578125
+                    119.44709777832031,
+                    525.8173217773438
                 ],
                 [
-                    166.647705078125,
-                    668.9736328125
+                    172.8470916748047,
+                    543.6823120117188
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">spoon</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>blender</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "spoon"
+                "start": 28,
+                "end": 35,
+                "value": "blender"
             }
         ]
     },
-    "9": {
-        "text": "refrigerator",
+    "6": {
+        "text": "refrigerator spoon",
         "words": [
-            "refrigerator"
+            "refrigerator",
+            "spoon"
         ],
         "bounding_boxes": [
             [
@@ -633,22 +579,40 @@
                     343.8498840332031,
                     668.9736328125
                 ]
+            ],
+            [
+                [
+                    124.36270141601562,
+                    651.108642578125
+                ],
+                [
+                    166.647705078125,
+                    668.9736328125
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">refrigerator</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>refrigerator spoon</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 39,
+                "start": 28,
+                "end": 40,
                 "value": "refrigerator"
+            },
+            {
+                "time": 943,
+                "type": "word",
+                "start": 41,
+                "end": 46,
+                "value": "spoon"
             }
         ]
     },
-    "10": {
+    "7": {
         "text": "mortar and pestle",
         "words": [
             "mortar",
@@ -687,29 +651,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">mortar and pestle</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>mortar and pestle</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "mortar"
             },
             {
-                "time": 295,
+                "time": 314,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 464,
+                "time": 484,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "pestle"
             }
         ]

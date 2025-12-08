@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 425,
+                "time": 452,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "3"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "repeat"
             }
         ]
@@ -163,36 +165,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Months of the year</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Months of the year</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Months"
             },
             {
-                "time": 348,
+                "time": 358,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "of"
             },
             {
-                "time": 481,
+                "time": 490,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "the"
             },
             {
-                "time": 562,
+                "time": 572,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "year"
             }
         ]
@@ -236,38 +239,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">June comes before<break time=\"1000ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>June comes before...</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "June"
             },
             {
-                "time": 268,
+                "time": 310,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "comes"
             },
             {
-                "time": 674,
+                "time": 708,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "before"
-            },
-            {
-                "time": 1493,
-                "type": "word",
-                "start": 44,
-                "end": 66,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -310,127 +306,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">June comes after<break time=\"1000ms\"/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>June comes after...</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "June"
             },
             {
-                "time": 276,
-                "type": "word",
-                "start": 32,
-                "end": 37,
-                "value": "comes"
-            },
-            {
-                "time": 586,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "after"
-            },
-            {
-                "time": 1321,
-                "type": "word",
-                "start": 43,
-                "end": 65,
-                "value": "<break time=\"1000ms\"/>"
-            }
-        ]
-    },
-    "5": {
-        "text": "April comes before May.",
-        "words": [
-            "April",
-            "comes",
-            "before",
-            "May."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    163.27029418945312,
-                    591.387451171875
-                ],
-                [
-                    192.6982879638672,
-                    608.0614013671875
-                ]
-            ],
-            [
-                [
-                    196.1982879638672,
-                    591.387451171875
-                ],
-                [
-                    239.99029541015625,
-                    608.0614013671875
-                ]
-            ],
-            [
-                [
-                    163.87229919433594,
-                    608.1874389648438
-                ],
-                [
-                    205.70431518554688,
-                    624.8613891601562
-                ]
-            ],
-            [
-                [
-                    209.20431518554688,
-                    608.1874389648438
-                ],
-                [
-                    240.08831787109375,
-                    624.8613891601562
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">April comes before May.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "April"
-            },
-            {
-                "time": 444,
+                "time": 331,
                 "type": "word",
                 "start": 33,
                 "end": 38,
                 "value": "comes"
             },
             {
-                "time": 830,
+                "time": 738,
                 "type": "word",
                 "start": 39,
-                "end": 45,
-                "value": "before"
-            },
-            {
-                "time": 1223,
-                "type": "word",
-                "start": 46,
-                "end": 49,
-                "value": "May"
+                "end": 44,
+                "value": "after"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "April comes after March.",
         "words": [
             "April",
@@ -480,38 +384,123 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">April comes after March.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "ssml": "<speak><prosody rate='slow'>April comes after March.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "April"
             },
             {
-                "time": 353,
+                "time": 420,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 34,
+                "end": 39,
                 "value": "comes"
             },
             {
-                "time": 667,
+                "time": 875,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "after"
             },
             {
-                "time": 975,
+                "time": 1211,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "March"
+            }
+        ]
+    },
+    "6": {
+        "text": "April comes before May.",
+        "words": [
+            "April",
+            "comes",
+            "before",
+            "May."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    163.27029418945312,
+                    591.387451171875
+                ],
+                [
+                    192.6982879638672,
+                    608.0614013671875
+                ]
+            ],
+            [
+                [
+                    196.1982879638672,
+                    591.387451171875
+                ],
+                [
+                    239.99029541015625,
+                    608.0614013671875
+                ]
+            ],
+            [
+                [
+                    163.87229919433594,
+                    608.1874389648438
+                ],
+                [
+                    205.70431518554688,
+                    624.8613891601562
+                ]
+            ],
+            [
+                [
+                    209.20431518554688,
+                    608.1874389648438
+                ],
+                [
+                    240.08831787109375,
+                    624.8613891601562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>April comes before May.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "April"
+            },
+            {
+                "time": 407,
+                "type": "word",
+                "start": 34,
+                "end": 39,
+                "value": "comes"
+            },
+            {
+                "time": 794,
+                "type": "word",
+                "start": 40,
+                "end": 46,
+                "value": "before"
+            },
+            {
+                "time": 1179,
+                "type": "word",
+                "start": 47,
+                "end": 50,
+                "value": "May"
             }
         ]
     }

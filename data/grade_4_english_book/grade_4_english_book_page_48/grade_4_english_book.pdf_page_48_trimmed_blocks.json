@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 6</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 6</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "6"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "repeat"
             }
         ]
@@ -372,197 +374,170 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Walter Disney is an artist.<break time=\"500ms\"/> He is famous.<break time=\"500ms\"/> He created many cartoon characters.<break time=\"500ms\"/> He created cartoon films.<break time=\"500ms\"/> These are five of his cartoons.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Walter Disney is an artist. He is famous. He created many cartoon characters. He created cartoon films. These are five of his cartoons.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Walter"
             },
             {
-                "time": 419,
+                "time": 435,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "Disney"
             },
             {
-                "time": 902,
+                "time": 945,
                 "type": "word",
-                "start": 41,
-                "end": 43,
+                "start": 42,
+                "end": 44,
                 "value": "is"
             },
             {
-                "time": 1075,
+                "time": 1131,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "an"
             },
             {
-                "time": 1180,
+                "time": 1237,
                 "type": "word",
-                "start": 47,
-                "end": 53,
+                "start": 48,
+                "end": 54,
                 "value": "artist"
             },
             {
-                "time": 1808,
+                "time": 2266,
                 "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2695,
-                "type": "word",
-                "start": 76,
-                "end": 78,
+                "start": 56,
+                "end": 58,
                 "value": "He"
             },
             {
-                "time": 2843,
+                "time": 2419,
                 "type": "word",
-                "start": 79,
-                "end": 81,
+                "start": 59,
+                "end": 61,
                 "value": "is"
             },
             {
-                "time": 3050,
+                "time": 2633,
                 "type": "word",
-                "start": 82,
-                "end": 88,
+                "start": 62,
+                "end": 68,
                 "value": "famous"
             },
             {
-                "time": 3688,
+                "time": 3657,
                 "type": "word",
-                "start": 89,
-                "end": 110,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4575,
-                "type": "word",
-                "start": 111,
-                "end": 113,
+                "start": 70,
+                "end": 72,
                 "value": "He"
             },
             {
-                "time": 4748,
+                "time": 3835,
                 "type": "word",
-                "start": 114,
-                "end": 121,
+                "start": 73,
+                "end": 80,
                 "value": "created"
             },
             {
-                "time": 5299,
+                "time": 4411,
                 "type": "word",
-                "start": 122,
-                "end": 126,
+                "start": 81,
+                "end": 85,
                 "value": "many"
             },
             {
-                "time": 5561,
+                "time": 4673,
                 "type": "word",
-                "start": 127,
-                "end": 134,
+                "start": 86,
+                "end": 93,
                 "value": "cartoon"
             },
             {
-                "time": 6115,
+                "time": 5241,
                 "type": "word",
-                "start": 135,
-                "end": 145,
+                "start": 94,
+                "end": 104,
                 "value": "characters"
             },
             {
-                "time": 7003,
+                "time": 6530,
                 "type": "word",
-                "start": 146,
-                "end": 167,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7890,
-                "type": "word",
-                "start": 168,
-                "end": 170,
+                "start": 106,
+                "end": 108,
                 "value": "He"
             },
             {
-                "time": 8032,
+                "time": 6677,
                 "type": "word",
-                "start": 171,
-                "end": 178,
+                "start": 109,
+                "end": 116,
                 "value": "created"
             },
             {
-                "time": 8603,
+                "time": 7271,
                 "type": "word",
-                "start": 179,
-                "end": 186,
+                "start": 117,
+                "end": 124,
                 "value": "cartoon"
             },
             {
-                "time": 9160,
+                "time": 7836,
                 "type": "word",
-                "start": 187,
-                "end": 192,
+                "start": 125,
+                "end": 130,
                 "value": "films"
             },
             {
-                "time": 9847,
+                "time": 8923,
                 "type": "word",
-                "start": 193,
-                "end": 214,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10734,
-                "type": "word",
-                "start": 215,
-                "end": 220,
+                "start": 132,
+                "end": 137,
                 "value": "These"
             },
             {
-                "time": 11008,
+                "time": 9204,
                 "type": "word",
-                "start": 221,
-                "end": 224,
+                "start": 138,
+                "end": 141,
                 "value": "are"
             },
             {
-                "time": 11112,
+                "time": 9308,
                 "type": "word",
-                "start": 225,
-                "end": 229,
+                "start": 142,
+                "end": 146,
                 "value": "five"
             },
             {
-                "time": 11503,
+                "time": 9705,
                 "type": "word",
-                "start": 230,
-                "end": 232,
+                "start": 147,
+                "end": 149,
                 "value": "of"
             },
             {
-                "time": 11624,
+                "time": 9827,
                 "type": "word",
-                "start": 233,
-                "end": 236,
+                "start": 150,
+                "end": 153,
                 "value": "his"
             },
             {
-                "time": 11841,
+                "time": 10057,
                 "type": "word",
-                "start": 237,
-                "end": 245,
+                "start": 154,
+                "end": 162,
                 "value": "cartoons"
             }
         ]
@@ -661,189 +636,70 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Mickey Mouse Minnie Mouse Donald Duck Goofy Pluto</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Mickey Mouse Minnie Mouse Donald Duck Goofy Pluto</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Mickey"
             },
             {
-                "time": 299,
+                "time": 306,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "Mouse"
             },
             {
-                "time": 628,
+                "time": 661,
                 "type": "word",
-                "start": 40,
-                "end": 46,
+                "start": 41,
+                "end": 47,
                 "value": "Minnie"
             },
             {
-                "time": 915,
+                "time": 947,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 48,
+                "end": 53,
                 "value": "Mouse"
             },
             {
-                "time": 1298,
+                "time": 1350,
                 "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 54,
+                "end": 60,
                 "value": "Donald"
             },
             {
-                "time": 1760,
+                "time": 1825,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 61,
+                "end": 65,
                 "value": "Duck"
             },
             {
-                "time": 1999,
+                "time": 2079,
                 "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 66,
+                "end": 71,
                 "value": "Goofy"
             },
             {
-                "time": 2323,
+                "time": 2403,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 72,
+                "end": 77,
                 "value": "Pluto"
             }
         ]
     },
     "4": {
-        "text": "These are two of his films.",
-        "words": [
-            "These",
-            "are",
-            "two",
-            "of",
-            "his",
-            "films."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    59.531402587890625,
-                    478.0325927734375
-                ],
-                [
-                    115.45540618896484,
-                    504.234619140625
-                ]
-            ],
-            [
-                [
-                    120.07540130615234,
-                    478.0325927734375
-                ],
-                [
-                    145.80740356445312,
-                    504.234619140625
-                ]
-            ],
-            [
-                [
-                    150.30740356445312,
-                    478.0325927734375
-                ],
-                [
-                    182.91941833496094,
-                    504.234619140625
-                ]
-            ],
-            [
-                [
-                    187.9794158935547,
-                    478.0325927734375
-                ],
-                [
-                    208.62347412109375,
-                    504.234619140625
-                ]
-            ],
-            [
-                [
-                    213.12347412109375,
-                    478.0325927734375
-                ],
-                [
-                    240.7355041503906,
-                    504.234619140625
-                ]
-            ],
-            [
-                [
-                    245.7355041503906,
-                    478.0325927734375
-                ],
-                [
-                    295.7355041503906,
-                    504.234619140625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">These are two of his films.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "These"
-            },
-            {
-                "time": 324,
-                "type": "word",
-                "start": 33,
-                "end": 36,
-                "value": "are"
-            },
-            {
-                "time": 468,
-                "type": "word",
-                "start": 37,
-                "end": 40,
-                "value": "two"
-            },
-            {
-                "time": 773,
-                "type": "word",
-                "start": 41,
-                "end": 43,
-                "value": "of"
-            },
-            {
-                "time": 874,
-                "type": "word",
-                "start": 44,
-                "end": 47,
-                "value": "his"
-            },
-            {
-                "time": 1073,
-                "type": "word",
-                "start": 48,
-                "end": 53,
-                "value": "films"
-            }
-        ]
-    },
-    "5": {
         "text": "Snow White and Seven Dwarfs",
         "words": [
             "Snow",
@@ -904,48 +760,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Snow White and Seven Dwarfs</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Snow White and Seven Dwarfs</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Snow"
             },
             {
                 "time": 304,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "White"
             },
             {
-                "time": 685,
+                "time": 693,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "and"
             },
             {
-                "time": 842,
+                "time": 850,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "Seven"
             },
             {
-                "time": 1240,
+                "time": 1255,
                 "type": "word",
-                "start": 48,
-                "end": 54,
+                "start": 49,
+                "end": 55,
                 "value": "Dwarfs"
             }
         ]
     },
-    "6": {
+    "5": {
         "text": "The Jungle Book",
         "words": [
             "The",
@@ -984,29 +841,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The Jungle Book</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The Jungle Book</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 120,
                 "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 32,
+                "end": 38,
                 "value": "Jungle"
             },
             {
-                "time": 606,
+                "time": 625,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "Book"
             }
         ]

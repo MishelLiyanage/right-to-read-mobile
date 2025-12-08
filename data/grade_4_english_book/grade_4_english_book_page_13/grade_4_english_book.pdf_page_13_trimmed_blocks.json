@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 425,
+                "time": 452,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "3"
             }
         ]
@@ -86,34 +87,213 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and recite.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and recite.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "recite"
             }
         ]
     },
     "2": {
+        "text": "This is.......",
+        "words": [
+            "This",
+            "is......."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    371.8262939453125,
+                    68.12960815429688
+                ],
+                [
+                    405.1082763671875,
+                    89.56761169433594
+                ]
+            ],
+            [
+                [
+                    409.6082763671875,
+                    68.12960815429688
+                ],
+                [
+                    461.75433349609375,
+                    89.56761169433594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This is.......</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 314,
+                "type": "word",
+                "start": 33,
+                "end": 35,
+                "value": "is"
+            }
+        ]
+    },
+    "3": {
+        "text": "kind",
+        "words": [
+            "kind"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    372.3663024902344,
+                    96.13760375976562
+                ],
+                [
+                    408.7622985839844,
+                    117.57560729980469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>kind</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "kind"
+            }
+        ]
+    },
+    "4": {
+        "text": "tall",
+        "words": [
+            "tall"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    372.1863098144531,
+                    124.14559936523438
+                ],
+                [
+                    398.52032470703125,
+                    145.58360290527344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>tall</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "tall"
+            }
+        ]
+    },
+    "5": {
+        "text": "dear sweet small",
+        "words": [
+            "dear",
+            "sweet",
+            "small"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    448.9202880859375,
+                    91.38558959960938
+                ],
+                [
+                    487.0442810058594,
+                    112.82359313964844
+                ]
+            ],
+            [
+                [
+                    472.1042785644531,
+                    114.31759643554688
+                ],
+                [
+                    522.1263427734375,
+                    135.75559997558594
+                ]
+            ],
+            [
+                [
+                    412.3622741699219,
+                    128.75357055664062
+                ],
+                [
+                    458.76629638671875,
+                    150.1915740966797
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>dear sweet small</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "dear"
+            },
+            {
+                "time": 334,
+                "type": "word",
+                "start": 33,
+                "end": 38,
+                "value": "sweet"
+            },
+            {
+                "time": 788,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "small"
+            }
+        ]
+    },
+    "6": {
         "text": "This is my mother, kind and dear. This is my father, standing near. This is my brother, see how tall! This is my sister, not so tall. This is my baby brother, sweet and small. This is my family, one and all.",
         "words": [
             "This",
@@ -581,372 +761,303 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is my mother,<break time=\"300ms\"/> kind and dear.<break time=\"500ms\"/> This is my father,<break time=\"300ms\"/> standing near.<break time=\"500ms\"/> This is my brother,<break time=\"300ms\"/> see how tall! This is my sister,<break time=\"300ms\"/> not so tall.<break time=\"500ms\"/> This is my baby brother,<break time=\"300ms\"/> sweet and small.<break time=\"500ms\"/> This is my family,<break time=\"300ms\"/> one and all.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is my mother, kind and dear. This is my father, standing near. This is my brother, see how tall! This is my sister, not so tall. This is my baby brother, sweet and small. This is my family, one and all.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 259,
+                "time": 276,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 397,
+                "time": 414,
                 "type": "word",
-                "start": 35,
-                "end": 37,
+                "start": 36,
+                "end": 38,
                 "value": "my"
             },
             {
-                "time": 561,
+                "time": 585,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "mother"
             },
             {
-                "time": 1199,
+                "time": 1351,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1600,
-                "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 47,
+                "end": 51,
                 "value": "kind"
             },
             {
-                "time": 1900,
+                "time": 1664,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 52,
+                "end": 55,
                 "value": "and"
             },
             {
-                "time": 2092,
+                "time": 1855,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 56,
+                "end": 60,
                 "value": "dear"
             },
             {
-                "time": 2572,
+                "time": 2731,
                 "type": "word",
-                "start": 81,
-                "end": 102,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3458,
-                "type": "word",
-                "start": 103,
-                "end": 107,
+                "start": 62,
+                "end": 66,
                 "value": "This"
             },
             {
-                "time": 3711,
+                "time": 3001,
                 "type": "word",
-                "start": 108,
-                "end": 110,
+                "start": 67,
+                "end": 69,
                 "value": "is"
             },
             {
-                "time": 3849,
+                "time": 3139,
                 "type": "word",
-                "start": 111,
-                "end": 113,
+                "start": 70,
+                "end": 72,
                 "value": "my"
             },
             {
-                "time": 4071,
+                "time": 3360,
                 "type": "word",
-                "start": 114,
-                "end": 120,
+                "start": 73,
+                "end": 79,
                 "value": "father"
             },
             {
-                "time": 4844,
+                "time": 4248,
                 "type": "word",
-                "start": 121,
-                "end": 142,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 5244,
-                "type": "word",
-                "start": 143,
-                "end": 151,
+                "start": 81,
+                "end": 89,
                 "value": "standing"
             },
             {
-                "time": 5747,
+                "time": 4778,
                 "type": "word",
-                "start": 152,
-                "end": 156,
+                "start": 90,
+                "end": 94,
                 "value": "near"
             },
             {
-                "time": 6217,
+                "time": 5645,
                 "type": "word",
-                "start": 157,
-                "end": 178,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7104,
-                "type": "word",
-                "start": 179,
-                "end": 183,
+                "start": 96,
+                "end": 100,
                 "value": "This"
             },
             {
-                "time": 7357,
+                "time": 5915,
                 "type": "word",
-                "start": 184,
-                "end": 186,
+                "start": 101,
+                "end": 103,
                 "value": "is"
             },
             {
-                "time": 7495,
+                "time": 6053,
                 "type": "word",
-                "start": 187,
-                "end": 189,
+                "start": 104,
+                "end": 106,
                 "value": "my"
             },
             {
-                "time": 7667,
+                "time": 6233,
                 "type": "word",
-                "start": 190,
-                "end": 197,
+                "start": 107,
+                "end": 114,
                 "value": "brother"
             },
             {
-                "time": 8375,
+                "time": 7046,
                 "type": "word",
-                "start": 198,
-                "end": 219,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 8775,
-                "type": "word",
-                "start": 220,
-                "end": 223,
+                "start": 116,
+                "end": 119,
                 "value": "see"
             },
             {
-                "time": 9095,
+                "time": 7378,
                 "type": "word",
-                "start": 224,
-                "end": 227,
+                "start": 120,
+                "end": 123,
                 "value": "how"
             },
             {
-                "time": 9360,
+                "time": 7650,
                 "type": "word",
-                "start": 228,
-                "end": 232,
+                "start": 124,
+                "end": 128,
                 "value": "tall"
             },
             {
-                "time": 10204,
+                "time": 8495,
                 "type": "word",
-                "start": 234,
-                "end": 238,
+                "start": 130,
+                "end": 134,
                 "value": "This"
             },
             {
-                "time": 10457,
+                "time": 8765,
                 "type": "word",
-                "start": 239,
-                "end": 241,
+                "start": 135,
+                "end": 137,
                 "value": "is"
             },
             {
-                "time": 10595,
+                "time": 8903,
                 "type": "word",
-                "start": 242,
-                "end": 244,
+                "start": 138,
+                "end": 140,
                 "value": "my"
             },
             {
-                "time": 10766,
+                "time": 9082,
                 "type": "word",
-                "start": 245,
-                "end": 251,
+                "start": 141,
+                "end": 147,
                 "value": "sister"
             },
             {
-                "time": 11587,
+                "time": 10025,
                 "type": "word",
-                "start": 252,
-                "end": 273,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 11990,
-                "type": "word",
-                "start": 274,
-                "end": 277,
+                "start": 149,
+                "end": 152,
                 "value": "not"
             },
             {
-                "time": 12281,
+                "time": 10316,
                 "type": "word",
-                "start": 278,
-                "end": 280,
+                "start": 153,
+                "end": 155,
                 "value": "so"
             },
             {
-                "time": 12499,
+                "time": 10562,
                 "type": "word",
-                "start": 281,
-                "end": 285,
+                "start": 156,
+                "end": 160,
                 "value": "tall"
             },
             {
-                "time": 13099,
+                "time": 11555,
                 "type": "word",
-                "start": 286,
-                "end": 307,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 13985,
-                "type": "word",
-                "start": 308,
-                "end": 312,
+                "start": 162,
+                "end": 166,
                 "value": "This"
             },
             {
-                "time": 14207,
+                "time": 11784,
                 "type": "word",
-                "start": 313,
-                "end": 315,
+                "start": 167,
+                "end": 169,
                 "value": "is"
             },
             {
-                "time": 14345,
+                "time": 11922,
                 "type": "word",
-                "start": 316,
-                "end": 318,
+                "start": 170,
+                "end": 172,
                 "value": "my"
             },
             {
-                "time": 14499,
+                "time": 12076,
                 "type": "word",
-                "start": 319,
-                "end": 323,
+                "start": 173,
+                "end": 177,
                 "value": "baby"
             },
             {
-                "time": 14890,
+                "time": 12467,
                 "type": "word",
-                "start": 324,
-                "end": 331,
+                "start": 178,
+                "end": 185,
                 "value": "brother"
             },
             {
-                "time": 15582,
+                "time": 13273,
                 "type": "word",
-                "start": 332,
-                "end": 353,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 15975,
-                "type": "word",
-                "start": 354,
-                "end": 359,
+                "start": 187,
+                "end": 192,
                 "value": "sweet"
             },
             {
-                "time": 16348,
+                "time": 13672,
                 "type": "word",
-                "start": 360,
-                "end": 363,
+                "start": 193,
+                "end": 196,
                 "value": "and"
             },
             {
-                "time": 16514,
+                "time": 13839,
                 "type": "word",
-                "start": 364,
-                "end": 369,
+                "start": 197,
+                "end": 202,
                 "value": "small"
             },
             {
-                "time": 17140,
+                "time": 14857,
                 "type": "word",
-                "start": 370,
-                "end": 391,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18026,
-                "type": "word",
-                "start": 392,
-                "end": 396,
+                "start": 204,
+                "end": 208,
                 "value": "This"
             },
             {
-                "time": 18279,
+                "time": 15127,
                 "type": "word",
-                "start": 397,
-                "end": 399,
+                "start": 209,
+                "end": 211,
                 "value": "is"
             },
             {
-                "time": 18417,
+                "time": 15266,
                 "type": "word",
-                "start": 400,
-                "end": 402,
+                "start": 212,
+                "end": 214,
                 "value": "my"
             },
             {
-                "time": 18639,
+                "time": 15486,
                 "type": "word",
-                "start": 403,
-                "end": 409,
+                "start": 215,
+                "end": 221,
                 "value": "family"
             },
             {
-                "time": 19398,
+                "time": 16354,
                 "type": "word",
-                "start": 410,
-                "end": 431,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 19791,
-                "type": "word",
-                "start": 432,
-                "end": 435,
+                "start": 223,
+                "end": 226,
                 "value": "one"
             },
             {
-                "time": 20035,
+                "time": 16609,
                 "type": "word",
-                "start": 436,
-                "end": 439,
+                "start": 227,
+                "end": 230,
                 "value": "and"
             },
             {
-                "time": 20174,
+                "time": 16749,
                 "type": "word",
-                "start": 440,
-                "end": 443,
+                "start": 231,
+                "end": 234,
                 "value": "all"
             }
         ]

@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -126,51 +127,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s cold.<break time=\"500ms\"/> I wear a</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>It's cold. I wear a</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 243,
+                "time": 261,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 33,
+                "end": 37,
                 "value": "cold"
             },
             {
-                "time": 847,
+                "time": 1237,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1734,
-                "type": "word",
-                "start": 64,
-                "end": 65,
+                "start": 39,
+                "end": 40,
                 "value": "I"
             },
             {
-                "time": 1855,
+                "time": 1352,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 41,
+                "end": 45,
                 "value": "wear"
             },
             {
-                "time": 2222,
+                "time": 1663,
                 "type": "word",
-                "start": 71,
-                "end": 72,
+                "start": 46,
+                "end": 47,
                 "value": "a"
             }
         ]
@@ -192,15 +186,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">sweater</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>sweater</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "sweater"
             }
         ]
@@ -255,44 +250,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s sunny.<break time=\"500ms\"/> I wear</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>It's sunny. I wear</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 256,
+                "time": 240,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 33,
+                "end": 38,
                 "value": "sunny"
             },
             {
-                "time": 753,
+                "time": 1142,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1639,
-                "type": "word",
-                "start": 65,
-                "end": 66,
+                "start": 40,
+                "end": 41,
                 "value": "I"
             },
             {
-                "time": 1851,
+                "time": 1224,
                 "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 42,
+                "end": 46,
                 "value": "wear"
             }
         ]
@@ -314,15 +302,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>hat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "hat"
             }
         ]
@@ -388,51 +377,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s r aining.<break time=\"500ms\"/> I wear</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>It's r aining. I wear</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 239,
+                "time": 216,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 33,
+                "end": 34,
                 "value": "r"
             },
             {
-                "time": 436,
+                "time": 480,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 35,
+                "end": 41,
                 "value": "aining"
             },
             {
-                "time": 902,
+                "time": 1428,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1788,
-                "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 43,
+                "end": 44,
                 "value": "I"
             },
             {
-                "time": 2000,
+                "time": 1511,
                 "type": "word",
-                "start": 70,
-                "end": 74,
+                "start": 45,
+                "end": 49,
                 "value": "wear"
             }
         ]
@@ -454,15 +436,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">raincoat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>raincoat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "raincoat"
             }
         ]
@@ -550,65 +533,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I work in the garden.<break time=\"500ms\"/> I wear</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>I work in the garden. I wear</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 148,
+                "time": 112,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "work"
             },
             {
-                "time": 468,
+                "time": 446,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "in"
             },
             {
-                "time": 615,
+                "time": 558,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "the"
             },
             {
-                "time": 703,
+                "time": 637,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 42,
+                "end": 48,
                 "value": "garden"
             },
             {
-                "time": 1231,
+                "time": 1675,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2118,
-                "type": "word",
-                "start": 70,
-                "end": 71,
+                "start": 50,
+                "end": 51,
                 "value": "I"
             },
             {
-                "time": 2330,
+                "time": 1757,
                 "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 52,
+                "end": 56,
                 "value": "wear"
             }
         ]
@@ -630,15 +606,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">gloves</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>gloves</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "gloves"
             }
         ]

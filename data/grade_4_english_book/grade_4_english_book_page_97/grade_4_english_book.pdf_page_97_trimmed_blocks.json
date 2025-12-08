@@ -104,85 +104,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Continue the game.<break time=\"500ms\"/> Read more words.<break time=\"500ms\"/> Make many sentences.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Continue the game. Read more words. Make many sentences.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
+                "start": 28,
+                "end": 36,
                 "value": "Continue"
             },
             {
-                "time": 617,
+                "time": 630,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             },
             {
-                "time": 735,
+                "time": 748,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "game"
             },
             {
-                "time": 1291,
+                "time": 1712,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2177,
-                "type": "word",
-                "start": 67,
-                "end": 71,
+                "start": 47,
+                "end": 51,
                 "value": "Read"
             },
             {
-                "time": 2404,
+                "time": 1950,
                 "type": "word",
-                "start": 72,
-                "end": 76,
+                "start": 52,
+                "end": 56,
                 "value": "more"
             },
             {
-                "time": 2645,
+                "time": 2209,
                 "type": "word",
-                "start": 77,
-                "end": 82,
+                "start": 57,
+                "end": 62,
                 "value": "words"
             },
             {
-                "time": 3292,
+                "time": 3250,
                 "type": "word",
-                "start": 83,
-                "end": 104,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4179,
-                "type": "word",
-                "start": 105,
-                "end": 109,
+                "start": 64,
+                "end": 68,
                 "value": "Make"
             },
             {
-                "time": 4430,
+                "time": 3518,
                 "type": "word",
-                "start": 110,
-                "end": 114,
+                "start": 69,
+                "end": 73,
                 "value": "many"
             },
             {
-                "time": 4707,
+                "time": 3796,
                 "type": "word",
-                "start": 115,
-                "end": 124,
+                "start": 74,
+                "end": 83,
                 "value": "sentences"
             }
         ]
@@ -215,22 +202,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 9</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 9</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 392,
+                "time": 410,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "9"
             }
         ]
@@ -263,7 +251,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Let&apos;s sing.<break time=\"400ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's sing.</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -271,23 +259,16 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 49,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 342,
+                "time": 348,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 34,
+                "end": 38,
                 "value": "sing"
-            },
-            {
-                "time": 846,
-                "type": "word",
-                "start": 55,
-                "end": 76,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -506,155 +487,142 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Bunny,<break time=\"250ms\"/> the rabbit is running fast humming sunny songs across the fields in a summer day.<break time=\"400ms\"/> In the park</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Bunny, the rabbit is running fast humming sunny songs across the fields in a summer day. In the park</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 28,
+                "end": 33,
                 "value": "Bunny"
             },
             {
-                "time": 620,
+                "time": 728,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"250ms\"/>"
-            },
-            {
-                "time": 964,
-                "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 35,
+                "end": 38,
                 "value": "the"
             },
             {
-                "time": 1069,
+                "time": 836,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 39,
+                "end": 45,
                 "value": "rabbit"
             },
             {
-                "time": 1520,
+                "time": 1299,
                 "type": "word",
-                "start": 78,
-                "end": 80,
+                "start": 46,
+                "end": 48,
                 "value": "is"
             },
             {
-                "time": 1701,
+                "time": 1493,
                 "type": "word",
-                "start": 81,
-                "end": 88,
+                "start": 49,
+                "end": 56,
                 "value": "running"
             },
             {
-                "time": 2011,
+                "time": 1819,
                 "type": "word",
-                "start": 89,
-                "end": 93,
+                "start": 57,
+                "end": 61,
                 "value": "fast"
             },
             {
-                "time": 2462,
+                "time": 2290,
                 "type": "word",
-                "start": 94,
-                "end": 101,
+                "start": 62,
+                "end": 69,
                 "value": "humming"
             },
             {
-                "time": 2838,
+                "time": 2686,
                 "type": "word",
-                "start": 102,
-                "end": 107,
+                "start": 70,
+                "end": 75,
                 "value": "sunny"
             },
             {
-                "time": 3189,
+                "time": 3058,
                 "type": "word",
-                "start": 108,
-                "end": 113,
+                "start": 76,
+                "end": 81,
                 "value": "songs"
             },
             {
-                "time": 3714,
+                "time": 3594,
                 "type": "word",
-                "start": 114,
-                "end": 120,
+                "start": 82,
+                "end": 88,
                 "value": "across"
             },
             {
-                "time": 4103,
+                "time": 4003,
                 "type": "word",
-                "start": 121,
-                "end": 124,
+                "start": 89,
+                "end": 92,
                 "value": "the"
             },
             {
-                "time": 4217,
+                "time": 4120,
                 "type": "word",
-                "start": 125,
-                "end": 131,
+                "start": 93,
+                "end": 99,
                 "value": "fields"
             },
             {
-                "time": 4789,
+                "time": 4726,
                 "type": "word",
-                "start": 132,
-                "end": 134,
+                "start": 100,
+                "end": 102,
                 "value": "in"
             },
             {
-                "time": 4897,
+                "time": 4837,
                 "type": "word",
-                "start": 135,
-                "end": 136,
+                "start": 103,
+                "end": 104,
                 "value": "a"
             },
             {
-                "time": 4951,
+                "time": 4893,
                 "type": "word",
-                "start": 137,
-                "end": 143,
+                "start": 105,
+                "end": 111,
                 "value": "summer"
             },
             {
-                "time": 5346,
+                "time": 5295,
                 "type": "word",
-                "start": 144,
-                "end": 147,
+                "start": 112,
+                "end": 115,
                 "value": "day"
             },
             {
-                "time": 5946,
+                "time": 6300,
                 "type": "word",
-                "start": 148,
-                "end": 169,
-                "value": "<break time=\"400ms\"/>"
-            },
-            {
-                "time": 6733,
-                "type": "word",
-                "start": 170,
-                "end": 172,
+                "start": 117,
+                "end": 119,
                 "value": "In"
             },
             {
-                "time": 6863,
+                "time": 6434,
                 "type": "word",
-                "start": 173,
-                "end": 176,
+                "start": 120,
+                "end": 123,
                 "value": "the"
             },
             {
-                "time": 6939,
+                "time": 6513,
                 "type": "word",
-                "start": 177,
-                "end": 181,
+                "start": 124,
+                "end": 128,
                 "value": "park"
             }
         ]
@@ -775,85 +743,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">it was dark Bunny,<break time=\"300ms\"/> the rabbit is watching a star.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>it was dark Bunny, the rabbit is watching a star.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "it"
             },
             {
                 "time": 153,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "was"
             },
             {
                 "time": 359,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "dark"
             },
             {
-                "time": 655,
+                "time": 673,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 40,
+                "end": 45,
                 "value": "Bunny"
             },
             {
-                "time": 1267,
+                "time": 1392,
                 "type": "word",
-                "start": 45,
-                "end": 66,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1660,
-                "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "the"
             },
             {
-                "time": 1751,
+                "time": 1483,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 51,
+                "end": 57,
                 "value": "rabbit"
             },
             {
-                "time": 2167,
+                "time": 1905,
                 "type": "word",
-                "start": 78,
-                "end": 80,
+                "start": 58,
+                "end": 60,
                 "value": "is"
             },
             {
-                "time": 2316,
+                "time": 2054,
                 "type": "word",
-                "start": 81,
-                "end": 89,
+                "start": 61,
+                "end": 69,
                 "value": "watching"
             },
             {
-                "time": 2777,
+                "time": 2550,
                 "type": "word",
-                "start": 90,
-                "end": 91,
+                "start": 70,
+                "end": 71,
                 "value": "a"
             },
             {
-                "time": 2842,
+                "time": 2615,
                 "type": "word",
-                "start": 92,
-                "end": 96,
+                "start": 72,
+                "end": 76,
                 "value": "star"
             }
         ]
@@ -1227,218 +1189,205 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read the poem aloud and ask the students to repeat.<break time=\"500ms\"/> With the highlighted words,<break time=\"300ms\"/> explain the difference between the long and the short vowel sound | ^ | and | a: | .</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the poem aloud and ask the students to repeat. With the highlighted words, explain the difference between the long and the short vowel sound | ^ | and | a: | .</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 246,
+                "time": 257,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 338,
+                "time": 356,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "poem"
             },
             {
-                "time": 775,
+                "time": 808,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 42,
+                "end": 47,
                 "value": "aloud"
             },
             {
-                "time": 1203,
+                "time": 1249,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "and"
             },
             {
-                "time": 1392,
+                "time": 1438,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "ask"
             },
             {
-                "time": 1763,
+                "time": 1837,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 56,
+                "end": 59,
                 "value": "the"
             },
             {
-                "time": 1876,
+                "time": 1950,
                 "type": "word",
-                "start": 59,
-                "end": 67,
+                "start": 60,
+                "end": 68,
                 "value": "students"
             },
             {
-                "time": 2490,
+                "time": 2597,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 69,
+                "end": 71,
                 "value": "to"
             },
             {
-                "time": 2619,
+                "time": 2727,
                 "type": "word",
-                "start": 71,
-                "end": 77,
+                "start": 72,
+                "end": 78,
                 "value": "repeat"
             },
             {
-                "time": 3295,
+                "time": 3790,
                 "type": "word",
-                "start": 78,
-                "end": 99,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4181,
-                "type": "word",
-                "start": 100,
-                "end": 104,
+                "start": 80,
+                "end": 84,
                 "value": "With"
             },
             {
-                "time": 4315,
+                "time": 3930,
                 "type": "word",
-                "start": 105,
-                "end": 108,
+                "start": 85,
+                "end": 88,
                 "value": "the"
             },
             {
-                "time": 4425,
+                "time": 4041,
                 "type": "word",
-                "start": 109,
-                "end": 120,
+                "start": 89,
+                "end": 100,
                 "value": "highlighted"
             },
             {
-                "time": 5063,
+                "time": 4704,
                 "type": "word",
-                "start": 121,
-                "end": 126,
+                "start": 101,
+                "end": 106,
                 "value": "words"
             },
             {
-                "time": 5764,
+                "time": 5524,
                 "type": "word",
-                "start": 127,
-                "end": 148,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 6158,
-                "type": "word",
-                "start": 149,
-                "end": 156,
+                "start": 108,
+                "end": 115,
                 "value": "explain"
             },
             {
-                "time": 6732,
+                "time": 6119,
                 "type": "word",
-                "start": 157,
-                "end": 160,
+                "start": 116,
+                "end": 119,
                 "value": "the"
             },
             {
-                "time": 6842,
+                "time": 6229,
                 "type": "word",
-                "start": 161,
-                "end": 171,
+                "start": 120,
+                "end": 130,
                 "value": "difference"
             },
             {
-                "time": 7341,
+                "time": 6740,
                 "type": "word",
-                "start": 172,
-                "end": 179,
+                "start": 131,
+                "end": 138,
                 "value": "between"
             },
             {
-                "time": 7778,
+                "time": 7191,
                 "type": "word",
-                "start": 180,
-                "end": 183,
+                "start": 139,
+                "end": 142,
                 "value": "the"
             },
             {
-                "time": 7865,
+                "time": 7278,
                 "type": "word",
-                "start": 184,
-                "end": 188,
+                "start": 143,
+                "end": 147,
                 "value": "long"
             },
             {
-                "time": 8249,
+                "time": 7669,
                 "type": "word",
-                "start": 189,
-                "end": 192,
+                "start": 148,
+                "end": 151,
                 "value": "and"
             },
             {
-                "time": 8363,
+                "time": 7782,
                 "type": "word",
-                "start": 193,
-                "end": 196,
+                "start": 152,
+                "end": 155,
                 "value": "the"
             },
             {
-                "time": 8419,
+                "time": 7838,
                 "type": "word",
-                "start": 197,
-                "end": 202,
+                "start": 156,
+                "end": 161,
                 "value": "short"
             },
             {
-                "time": 8822,
+                "time": 8247,
                 "type": "word",
-                "start": 203,
-                "end": 208,
+                "start": 162,
+                "end": 167,
                 "value": "vowel"
             },
             {
-                "time": 9202,
+                "time": 8648,
                 "type": "word",
-                "start": 209,
-                "end": 214,
+                "start": 168,
+                "end": 173,
                 "value": "sound"
             },
             {
-                "time": 9973,
+                "time": 9455,
                 "type": "word",
-                "start": 221,
-                "end": 224,
+                "start": 180,
+                "end": 183,
                 "value": "and"
             },
             {
-                "time": 10666,
+                "time": 10175,
                 "type": "word",
-                "start": 227,
-                "end": 228,
+                "start": 186,
+                "end": 187,
                 "value": "a"
             },
             {
-                "time": 11436,
+                "time": 10968,
                 "type": "word",
-                "start": 230,
-                "end": 231,
+                "start": 189,
+                "end": 190,
                 "value": "|"
             }
         ]

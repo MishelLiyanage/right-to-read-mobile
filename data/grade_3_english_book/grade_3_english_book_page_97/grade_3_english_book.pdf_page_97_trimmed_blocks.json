@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Match and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Match and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Match"
             },
             {
-                "time": 369,
+                "time": 394,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "and"
             },
             {
-                "time": 531,
+                "time": 556,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "say"
             }
         ]
@@ -324,198 +325,171 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Dasun is ready for a party.<break time=\"500ms\"/> Rasini is ready for school.<break time=\"500ms\"/> Sithum is ready for a picnic.<break time=\"500ms\"/> Nisha is ready for a sea bath.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='dasun'>Dasun</phoneme> is ready for a party. <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme> is ready for school. <phoneme alphabet='ipa' ph='sit\u032aum'>Sithum</phoneme> is ready for a picnic. Nisha is ready for a sea-bath.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 63,
+                "end": 68,
                 "value": "Dasun"
             },
             {
-                "time": 444,
+                "time": 455,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 79,
+                "end": 81,
                 "value": "is"
             },
             {
-                "time": 633,
+                "time": 641,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 82,
+                "end": 87,
                 "value": "ready"
             },
             {
-                "time": 942,
+                "time": 950,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 88,
+                "end": 91,
                 "value": "for"
             },
             {
-                "time": 1173,
+                "time": 1181,
                 "type": "word",
-                "start": 46,
-                "end": 47,
+                "start": 92,
+                "end": 93,
                 "value": "a"
             },
             {
-                "time": 1218,
+                "time": 1226,
                 "type": "word",
-                "start": 48,
-                "end": 53,
+                "start": 94,
+                "end": 99,
                 "value": "party"
             },
             {
-                "time": 1824,
+                "time": 2225,
                 "type": "word",
-                "start": 54,
-                "end": 75,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2711,
-                "type": "word",
-                "start": 76,
-                "end": 82,
+                "start": 140,
+                "end": 146,
                 "value": "Rasini"
             },
             {
-                "time": 3391,
+                "time": 2828,
                 "type": "word",
-                "start": 83,
-                "end": 85,
+                "start": 157,
+                "end": 159,
                 "value": "is"
             },
             {
-                "time": 3560,
+                "time": 3022,
                 "type": "word",
-                "start": 86,
-                "end": 91,
+                "start": 160,
+                "end": 165,
                 "value": "ready"
             },
             {
-                "time": 3870,
+                "time": 3315,
                 "type": "word",
-                "start": 92,
-                "end": 95,
+                "start": 166,
+                "end": 169,
                 "value": "for"
             },
             {
-                "time": 4106,
+                "time": 3549,
                 "type": "word",
-                "start": 96,
-                "end": 102,
+                "start": 170,
+                "end": 176,
                 "value": "school"
             },
             {
-                "time": 4691,
+                "time": 4551,
                 "type": "word",
-                "start": 103,
-                "end": 124,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5578,
-                "type": "word",
-                "start": 125,
-                "end": 131,
+                "start": 215,
+                "end": 221,
                 "value": "Sithum"
             },
             {
-                "time": 6150,
+                "time": 4990,
                 "type": "word",
-                "start": 132,
-                "end": 134,
+                "start": 232,
+                "end": 234,
                 "value": "is"
             },
             {
-                "time": 6326,
+                "time": 5191,
                 "type": "word",
-                "start": 135,
-                "end": 140,
+                "start": 235,
+                "end": 240,
                 "value": "ready"
             },
             {
-                "time": 6611,
+                "time": 5491,
                 "type": "word",
-                "start": 141,
-                "end": 144,
+                "start": 241,
+                "end": 244,
                 "value": "for"
             },
             {
-                "time": 6829,
+                "time": 5709,
                 "type": "word",
-                "start": 145,
-                "end": 146,
+                "start": 245,
+                "end": 246,
                 "value": "a"
             },
             {
-                "time": 6887,
+                "time": 5767,
                 "type": "word",
-                "start": 147,
-                "end": 153,
+                "start": 247,
+                "end": 253,
                 "value": "picnic"
             },
             {
-                "time": 7548,
+                "time": 6821,
                 "type": "word",
-                "start": 154,
-                "end": 175,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 8435,
-                "type": "word",
-                "start": 176,
-                "end": 181,
+                "start": 255,
+                "end": 260,
                 "value": "Nisha"
             },
             {
-                "time": 8884,
+                "time": 7277,
                 "type": "word",
-                "start": 182,
-                "end": 184,
+                "start": 261,
+                "end": 263,
                 "value": "is"
             },
             {
-                "time": 9066,
+                "time": 7466,
                 "type": "word",
-                "start": 185,
-                "end": 190,
+                "start": 264,
+                "end": 269,
                 "value": "ready"
             },
             {
-                "time": 9303,
+                "time": 7709,
                 "type": "word",
-                "start": 191,
-                "end": 194,
+                "start": 270,
+                "end": 273,
                 "value": "for"
             },
             {
-                "time": 9531,
+                "time": 7937,
                 "type": "word",
-                "start": 195,
-                "end": 196,
+                "start": 274,
+                "end": 275,
                 "value": "a"
             },
             {
-                "time": 9591,
+                "time": 7997,
                 "type": "word",
-                "start": 197,
-                "end": 200,
-                "value": "sea"
-            },
-            {
-                "time": 9859,
-                "type": "word",
-                "start": 201,
-                "end": 205,
-                "value": "bath"
+                "start": 276,
+                "end": 284,
+                "value": "sea-bath"
             }
         ]
     }

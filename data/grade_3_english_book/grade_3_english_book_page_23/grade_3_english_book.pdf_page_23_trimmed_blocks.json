@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "14",
-        "words": [
-            "14"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    34.0463981628418,
-                    24.34998893737793
-                ],
-                [
-                    57.47639846801758,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">14</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "14"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and repeat.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and repeat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and repeat.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 401,
+                "time": 413,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 555,
+                "time": 567,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "repeat"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "This is Sahan. He is nine years old. He is in grade 4.",
         "words": [
             "This",
@@ -244,118 +215,105 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is Sahan.<break time=\"500ms\"/> He is nine years old.<break time=\"500ms\"/> He is in grade 4.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is <phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>. He is nine years old. He is in grade 4.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 238,
+                "time": 245,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 367,
+                "time": 375,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 71,
+                "end": 76,
                 "value": "Sahan"
             },
             {
-                "time": 927,
+                "time": 1564,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1813,
-                "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 88,
+                "end": 90,
                 "value": "He"
             },
             {
-                "time": 1956,
+                "time": 1716,
                 "type": "word",
-                "start": 66,
-                "end": 68,
+                "start": 91,
+                "end": 93,
                 "value": "is"
             },
             {
-                "time": 2118,
+                "time": 1885,
                 "type": "word",
-                "start": 69,
-                "end": 73,
+                "start": 94,
+                "end": 98,
                 "value": "nine"
             },
             {
-                "time": 2399,
+                "time": 2187,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 99,
+                "end": 104,
                 "value": "years"
             },
             {
-                "time": 2756,
+                "time": 2572,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 105,
+                "end": 108,
                 "value": "old"
             },
             {
-                "time": 3165,
+                "time": 3368,
                 "type": "word",
-                "start": 84,
-                "end": 105,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4052,
-                "type": "word",
-                "start": 106,
-                "end": 108,
+                "start": 110,
+                "end": 112,
                 "value": "He"
             },
             {
-                "time": 4194,
+                "time": 3520,
                 "type": "word",
-                "start": 109,
-                "end": 111,
+                "start": 113,
+                "end": 115,
                 "value": "is"
             },
             {
-                "time": 4356,
+                "time": 3688,
                 "type": "word",
-                "start": 112,
-                "end": 114,
+                "start": 116,
+                "end": 118,
                 "value": "in"
             },
             {
-                "time": 4479,
+                "time": 3812,
                 "type": "word",
-                "start": 115,
-                "end": 120,
+                "start": 119,
+                "end": 124,
                 "value": "grade"
             },
             {
-                "time": 4809,
+                "time": 4148,
                 "type": "word",
-                "start": 121,
-                "end": 122,
+                "start": 125,
+                "end": 126,
                 "value": "4"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "This is Rasini. She is eight years old. She is in grade 3.",
         "words": [
             "This",
@@ -504,118 +462,105 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is Rasini.<break time=\"500ms\"/> She is eight years old.<break time=\"500ms\"/> She is in grade 3.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is <phoneme alphabet='ipa' ph='\u027ea\u02d0sini'>Rasini</phoneme>. She is eight years old. She is in grade 3.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 239,
+                "time": 251,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 401,
+                "time": 427,
                 "type": "word",
-                "start": 35,
-                "end": 41,
+                "start": 75,
+                "end": 81,
                 "value": "Rasini"
             },
             {
-                "time": 1194,
+                "time": 1533,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2081,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 93,
+                "end": 96,
                 "value": "She"
             },
             {
-                "time": 2351,
+                "time": 1815,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 97,
+                "end": 99,
                 "value": "is"
             },
             {
-                "time": 2511,
+                "time": 1981,
                 "type": "word",
-                "start": 71,
-                "end": 76,
+                "start": 100,
+                "end": 105,
                 "value": "eight"
             },
             {
-                "time": 2767,
+                "time": 2250,
                 "type": "word",
-                "start": 77,
-                "end": 82,
+                "start": 106,
+                "end": 111,
                 "value": "years"
             },
             {
-                "time": 3085,
+                "time": 2582,
                 "type": "word",
-                "start": 83,
-                "end": 86,
+                "start": 112,
+                "end": 115,
                 "value": "old"
             },
             {
-                "time": 3494,
+                "time": 3378,
                 "type": "word",
-                "start": 87,
-                "end": 108,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4381,
-                "type": "word",
-                "start": 109,
-                "end": 112,
+                "start": 117,
+                "end": 120,
                 "value": "She"
             },
             {
-                "time": 4627,
+                "time": 3646,
                 "type": "word",
-                "start": 113,
-                "end": 115,
+                "start": 121,
+                "end": 123,
                 "value": "is"
             },
             {
-                "time": 4772,
+                "time": 3799,
                 "type": "word",
-                "start": 116,
-                "end": 118,
+                "start": 124,
+                "end": 126,
                 "value": "in"
             },
             {
-                "time": 4918,
+                "time": 3945,
                 "type": "word",
-                "start": 119,
-                "end": 124,
+                "start": 127,
+                "end": 132,
                 "value": "grade"
             },
             {
-                "time": 5237,
+                "time": 4270,
                 "type": "word",
-                "start": 125,
-                "end": 126,
+                "start": 133,
+                "end": 134,
                 "value": "3"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "This is Nethu. She is ten years old. She is in grade 5.",
         "words": [
             "This",
@@ -764,113 +709,100 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is Nethu.<break time=\"500ms\"/> She is ten years old.<break time=\"500ms\"/> She is in grade 5.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is Nethu. She is ten years old. She is in grade 5.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 242,
+                "time": 256,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 400,
+                "time": 428,
                 "type": "word",
-                "start": 35,
-                "end": 40,
+                "start": 36,
+                "end": 41,
                 "value": "Nethu"
             },
             {
-                "time": 936,
+                "time": 1352,
                 "type": "word",
-                "start": 41,
-                "end": 62,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1823,
-                "type": "word",
-                "start": 63,
-                "end": 66,
+                "start": 43,
+                "end": 46,
                 "value": "She"
             },
             {
-                "time": 2041,
+                "time": 1588,
                 "type": "word",
-                "start": 67,
-                "end": 69,
+                "start": 47,
+                "end": 49,
                 "value": "is"
             },
             {
-                "time": 2217,
+                "time": 1779,
                 "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 50,
+                "end": 53,
                 "value": "ten"
             },
             {
-                "time": 2503,
+                "time": 2082,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 54,
+                "end": 59,
                 "value": "years"
             },
             {
-                "time": 2895,
+                "time": 2493,
                 "type": "word",
-                "start": 80,
-                "end": 83,
+                "start": 60,
+                "end": 63,
                 "value": "old"
             },
             {
-                "time": 3303,
+                "time": 3289,
                 "type": "word",
-                "start": 84,
-                "end": 105,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 4190,
-                "type": "word",
-                "start": 106,
-                "end": 109,
+                "start": 65,
+                "end": 68,
                 "value": "She"
             },
             {
-                "time": 4436,
+                "time": 3558,
                 "type": "word",
-                "start": 110,
-                "end": 112,
+                "start": 69,
+                "end": 71,
                 "value": "is"
             },
             {
-                "time": 4582,
+                "time": 3710,
                 "type": "word",
-                "start": 113,
-                "end": 115,
+                "start": 72,
+                "end": 74,
                 "value": "in"
             },
             {
-                "time": 4728,
+                "time": 3856,
                 "type": "word",
-                "start": 116,
-                "end": 121,
+                "start": 75,
+                "end": 80,
                 "value": "grade"
             },
             {
-                "time": 5046,
+                "time": 4181,
                 "type": "word",
-                "start": 122,
-                "end": 123,
+                "start": 81,
+                "end": 82,
                 "value": "5"
             }
         ]

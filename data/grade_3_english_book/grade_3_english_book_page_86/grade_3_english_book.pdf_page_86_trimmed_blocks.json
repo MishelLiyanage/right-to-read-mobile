@@ -71,111 +71,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">They all come down the hills.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>They all come down the hills.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "They"
             },
             {
                 "time": 177,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "all"
             },
             {
-                "time": 379,
+                "time": 389,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "come"
             },
             {
-                "time": 651,
+                "time": 667,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "down"
             },
             {
-                "time": 929,
+                "time": 952,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "the"
             },
             {
-                "time": 988,
+                "time": 1010,
                 "type": "word",
-                "start": 50,
-                "end": 55,
+                "start": 51,
+                "end": 56,
                 "value": "hills"
             }
         ]
     },
     "1": {
-        "text": "quack, quack",
-        "words": [
-            "quack,",
-            "quack"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    246.83299255371094,
-                    192.39401245117188
-                ],
-                [
-                    297.6009826660156,
-                    211.45001220703125
-                ]
-            ],
-            [
-                [
-                    246.83299255371094,
-                    211.59402465820312
-                ],
-                [
-                    293.2969970703125,
-                    230.6500244140625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">quack,<break time=\"300ms\"/> quack</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "quack"
-            },
-            {
-                "time": 787,
-                "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1181,
-                "type": "word",
-                "start": 55,
-                "end": 60,
-                "value": "quack"
-            }
-        ]
-    },
-    "2": {
         "text": "baa, baa",
         "words": [
             "baa,",
@@ -203,31 +148,73 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">baa,<break time=\"300ms\"/> baa</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>baa, baa</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "baa"
             },
             {
-                "time": 523,
+                "time": 868,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
+                "start": 33,
+                "end": 36,
+                "value": "baa"
+            }
+        ]
+    },
+    "2": {
+        "text": "quack, quack",
+        "words": [
+            "quack,",
+            "quack"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    246.83299255371094,
+                    192.39401245117188
+                ],
+                [
+                    297.6009826660156,
+                    211.45001220703125
+                ]
+            ],
+            [
+                [
+                    246.83299255371094,
+                    211.59402465820312
+                ],
+                [
+                    293.2969970703125,
+                    230.6500244140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>quack, quack</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "quack"
             },
             {
-                "time": 923,
+                "time": 907,
                 "type": "word",
-                "start": 53,
-                "end": 56,
-                "value": "baa"
+                "start": 35,
+                "end": 40,
+                "value": "quack"
             }
         ]
     },
@@ -248,16 +235,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">neigh</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>neigh</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "neigh"
             }
         ]
@@ -312,37 +299,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Oh! It&apos;s a tortoise.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Oh! It's a tortoise.</prosody></speak>",
         "dialog": "true",
-        "person_type": "middle aged man",
-        "voice_id": "Joey",
+        "person_type": "old man",
+        "voice_id": "Matthew",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Oh"
             },
             {
-                "time": 890,
+                "time": 952,
                 "type": "word",
-                "start": 31,
-                "end": 40,
-                "value": "It&apos;s"
+                "start": 32,
+                "end": 36,
+                "value": "It's"
             },
             {
-                "time": 1175,
+                "time": 1186,
                 "type": "word",
-                "start": 41,
-                "end": 42,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             },
             {
-                "time": 1242,
+                "time": 1240,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 39,
+                "end": 47,
                 "value": "tortoise"
             }
         ]
@@ -375,7 +362,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">woof,<break time=\"300ms\"/> woof</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>woof, woof</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -383,22 +370,15 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "woof"
             },
             {
-                "time": 559,
+                "time": 675,
                 "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 960,
-                "type": "word",
-                "start": 54,
-                "end": 58,
+                "start": 34,
+                "end": 38,
                 "value": "woof"
             }
         ]

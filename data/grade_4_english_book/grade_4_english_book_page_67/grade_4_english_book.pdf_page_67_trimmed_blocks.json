@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -75,27 +76,132 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 266,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
     },
     "2": {
+        "text": "? .",
+        "words": [
+            "?",
+            "."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    445.526611328125,
+                    44.10258865356445
+                ],
+                [
+                    470.1506042480469,
+                    101.27059173583984
+                ]
+            ],
+            [
+                [
+                    494.1506042480469,
+                    44.10258865356445
+                ],
+                [
+                    509.22259521484375,
+                    101.27059173583984
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>? .</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "?"
+            }
+        ]
+    },
+    "3": {
+        "text": "?",
+        "words": [
+            "?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    153.48390197753906,
+                    119.42219543457031
+                ],
+                [
+                    187.08889770507812,
+                    198.18218994140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>?</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "?"
+            }
+        ]
+    },
+    "4": {
+        "text": ".",
+        "words": [
+            "."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    445.9754943847656,
+                    116.34037780761719
+                ],
+                [
+                    463.2454833984375,
+                    181.84536743164062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "."
+            }
+        ]
+    },
+    "5": {
         "text": "How much is this?",
         "words": [
             "How",
@@ -145,42 +251,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How much is this?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How much is this?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 236,
+                "time": 166,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "much"
             },
             {
-                "time": 579,
+                "time": 510,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 750,
+                "time": 653,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "this"
             }
         ]
     },
-    "3": {
+    "6": {
         "text": "It's fifty rupees.",
         "words": [
             "It's",
@@ -219,35 +325,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">It&apos;s fifty rupees.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>It's fifty rupees.</prosody></speak>",
         "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
-                "value": "It&apos;s"
+                "start": 28,
+                "end": 32,
+                "value": "It's"
             },
             {
-                "time": 231,
+                "time": 241,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 33,
+                "end": 38,
                 "value": "fifty"
             },
             {
-                "time": 638,
+                "time": 661,
                 "type": "word",
-                "start": 43,
-                "end": 49,
+                "start": 39,
+                "end": 45,
                 "value": "rupees"
             }
         ]
     },
-    "4": {
+    "7": {
         "text": "Do you like this red blouse?",
         "words": [
             "Do",
@@ -319,56 +425,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Do you like this red blouse?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Do you like this red blouse?</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Do"
             },
             {
-                "time": 84,
+                "time": 108,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "you"
             },
             {
-                "time": 287,
+                "time": 233,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "like"
             },
             {
-                "time": 544,
+                "time": 486,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "this"
             },
             {
-                "time": 853,
+                "time": 713,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 45,
+                "end": 48,
                 "value": "red"
             },
             {
-                "time": 1036,
+                "time": 1001,
                 "type": "word",
-                "start": 48,
-                "end": 54,
+                "start": 49,
+                "end": 55,
                 "value": "blouse"
             }
         ]
     },
-    "5": {
+    "8": {
         "text": "Yes, I like it.",
         "words": [
             "Yes,",
@@ -418,7 +524,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> I like it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Yes, I like it.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -426,41 +532,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Yes"
             },
             {
-                "time": 706,
+                "time": 825,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1106,
-                "type": "word",
-                "start": 53,
-                "end": 54,
+                "start": 33,
+                "end": 34,
                 "value": "I"
             },
             {
-                "time": 1222,
+                "time": 946,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 35,
+                "end": 39,
                 "value": "like"
             },
             {
-                "time": 1554,
+                "time": 1290,
                 "type": "word",
-                "start": 60,
-                "end": 62,
+                "start": 40,
+                "end": 42,
                 "value": "it"
             }
         ]
     },
-    "6": {
+    "9": {
         "text": "Point to (?) or (.) and read.",
         "words": [
             "Point",
@@ -543,48 +642,91 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Point to (?) or (.) and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Point to (?) or (.) and read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Point"
             },
             {
                 "time": 295,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "to"
             },
             {
-                "time": 972,
+                "time": 986,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "or"
             },
             {
-                "time": 1548,
+                "time": 1576,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 48,
+                "end": 51,
                 "value": "and"
             },
             {
-                "time": 1732,
+                "time": 1760,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 52,
+                "end": 56,
                 "value": "read"
             }
         ]
     },
-    "7": {
+    "10": {
+        "text": "? .",
+        "words": [
+            "?",
+            "."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    218.29600524902344,
+                    453.1832275390625
+                ],
+                [
+                    242.92001342773438,
+                    510.3512268066406
+                ]
+            ],
+            [
+                [
+                    363.0159912109375,
+                    447.47119140625
+                ],
+                [
+                    378.0879821777344,
+                    504.6391906738281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>? .</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "?"
+            }
+        ]
+    },
+    "11": {
         "text": "Can you give me that scarf",
         "words": [
             "Can",
@@ -656,56 +798,56 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Can you give me that scarf</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Can you give me that scarf</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Can"
             },
             {
-                "time": 198,
+                "time": 225,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "you"
             },
             {
-                "time": 318,
+                "time": 410,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "give"
             },
             {
-                "time": 559,
+                "time": 645,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "me"
             },
             {
-                "time": 696,
+                "time": 862,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 44,
+                "end": 48,
                 "value": "that"
             },
             {
-                "time": 955,
+                "time": 1112,
                 "type": "word",
-                "start": 48,
-                "end": 53,
+                "start": 49,
+                "end": 54,
                 "value": "scarf"
             }
         ]
     },
-    "8": {
+    "12": {
         "text": "She is paying the bill",
         "words": [
             "She",
@@ -766,49 +908,49 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">She is paying the bill</prosody></speak>",
-        "dialog": "true",
-        "person_type": "young girl",
-        "voice_id": "Ivy",
+        "ssml": "<speak><prosody rate='slow'>She is paying the bill</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "She"
             },
             {
-                "time": 290,
+                "time": 242,
                 "type": "word",
-                "start": 31,
-                "end": 33,
+                "start": 32,
+                "end": 34,
                 "value": "is"
             },
             {
-                "time": 458,
+                "time": 407,
                 "type": "word",
-                "start": 34,
-                "end": 40,
+                "start": 35,
+                "end": 41,
                 "value": "paying"
             },
             {
-                "time": 817,
+                "time": 753,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "the"
             },
             {
-                "time": 923,
+                "time": 864,
                 "type": "word",
-                "start": 45,
-                "end": 49,
+                "start": 46,
+                "end": 50,
                 "value": "bill"
             }
         ]
     },
-    "9": {
+    "13": {
         "text": "Can I help you",
         "words": [
             "Can",
@@ -858,42 +1000,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Can I help you</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Can I help you</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Can"
             },
             {
-                "time": 203,
+                "time": 183,
                 "type": "word",
-                "start": 31,
-                "end": 32,
+                "start": 32,
+                "end": 33,
                 "value": "I"
             },
             {
-                "time": 319,
+                "time": 280,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "help"
             },
             {
-                "time": 634,
+                "time": 602,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "you"
             }
         ]
     },
-    "10": {
+    "14": {
         "text": "I have ten rupees",
         "words": [
             "I",
@@ -943,7 +1085,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have ten rupees</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have ten rupees</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -951,34 +1093,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 122,
+                "time": 129,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 324,
+                "time": 348,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "ten"
             },
             {
-                "time": 634,
+                "time": 674,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "rupees"
             }
         ]
     },
-    "11": {
+    "15": {
         "text": "How much is this hat",
         "words": [
             "How",
@@ -1039,7 +1181,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How much is this hat</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How much is this hat</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -1047,41 +1189,41 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 166,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "much"
             },
             {
-                "time": 521,
+                "time": 528,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 693,
+                "time": 717,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "this"
             },
             {
-                "time": 954,
+                "time": 986,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 45,
+                "end": 48,
                 "value": "hat"
             }
         ]
     },
-    "12": {
+    "16": {
         "text": "What colour do you like",
         "words": [
             "What",
@@ -1142,44 +1284,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">What colour do you like</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>What colour do you like</prosody></speak>",
         "dialog": "true",
-        "person_type": "young boy",
-        "voice_id": "Justin",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "What"
             },
             {
-                "time": 216,
+                "time": 200,
                 "type": "word",
-                "start": 32,
-                "end": 38,
+                "start": 33,
+                "end": 39,
                 "value": "colour"
             },
             {
-                "time": 560,
+                "time": 576,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "do"
             },
             {
-                "time": 648,
+                "time": 657,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "you"
             },
             {
-                "time": 802,
+                "time": 807,
                 "type": "word",
-                "start": 46,
-                "end": 50,
+                "start": 47,
+                "end": 51,
                 "value": "like"
             }
         ]

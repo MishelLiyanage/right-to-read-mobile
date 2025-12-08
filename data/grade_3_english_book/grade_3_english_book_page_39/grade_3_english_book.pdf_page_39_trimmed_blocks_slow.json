@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "30",
-        "words": [
-            "30"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.571300506591797,
-                    24.34998893737793
-                ],
-                [
-                    61.9713020324707,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>30 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "30"
-            },
-            {
-                "time": 768,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -125,7 +87,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "brush wash",
         "words": [
             "brush",
@@ -188,7 +150,7 @@
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "eat drink",
         "words": [
             "eat",
@@ -251,7 +213,7 @@
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "go",
         "words": [
             "go"

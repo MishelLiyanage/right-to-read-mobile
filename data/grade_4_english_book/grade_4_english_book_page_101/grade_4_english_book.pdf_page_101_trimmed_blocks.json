@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 3</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 3</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 425,
+                "time": 452,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "3"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read and match.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read and match.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 227,
+                "time": 243,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
-                "time": 338,
+                "time": 354,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "match"
             }
         ]
@@ -207,71 +209,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is our school bus.<break time=\"500ms\"/> Let&apos;s protect it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is our school bus. Let's protect it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 222,
+                "time": 229,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 372,
+                "time": 386,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "our"
             },
             {
-                "time": 522,
+                "time": 536,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "school"
             },
             {
-                "time": 925,
+                "time": 945,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "bus"
             },
             {
-                "time": 1439,
+                "time": 1845,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"500ms\"/>"
+                "start": 52,
+                "end": 57,
+                "value": "Let's"
             },
             {
-                "time": 2326,
+                "time": 2108,
                 "type": "word",
-                "start": 72,
-                "end": 82,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2583,
-                "type": "word",
-                "start": 83,
-                "end": 90,
+                "start": 58,
+                "end": 65,
                 "value": "protect"
             },
             {
-                "time": 3108,
+                "time": 2659,
                 "type": "word",
-                "start": 91,
-                "end": 93,
+                "start": 66,
+                "end": 68,
                 "value": "it"
             }
         ]
@@ -348,50 +344,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We dump garbage into the bin.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>We dump garbage into the bin.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
                 "time": 140,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "dump"
             },
             {
-                "time": 414,
+                "time": 419,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "garbage"
             },
             {
-                "time": 913,
+                "time": 938,
                 "type": "word",
-                "start": 43,
-                "end": 47,
+                "start": 44,
+                "end": 48,
                 "value": "into"
             },
             {
-                "time": 1183,
+                "time": 1208,
                 "type": "word",
-                "start": 48,
-                "end": 51,
+                "start": 49,
+                "end": 52,
                 "value": "the"
             },
             {
-                "time": 1270,
+                "time": 1295,
                 "type": "word",
-                "start": 52,
-                "end": 55,
+                "start": 53,
+                "end": 56,
                 "value": "bin"
             }
         ]
@@ -501,78 +498,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This is our school wall.<break time=\"500ms\"/> Let&apos;s keep it clean.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This is our school wall. Let's keep it clean.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 222,
+                "time": 229,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "is"
             },
             {
-                "time": 372,
+                "time": 386,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "our"
             },
             {
-                "time": 529,
+                "time": 543,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 40,
+                "end": 46,
                 "value": "school"
             },
             {
-                "time": 946,
+                "time": 966,
                 "type": "word",
-                "start": 46,
-                "end": 50,
+                "start": 47,
+                "end": 51,
                 "value": "wall"
             },
             {
-                "time": 1415,
+                "time": 1840,
                 "type": "word",
-                "start": 51,
-                "end": 72,
-                "value": "<break time=\"500ms\"/>"
+                "start": 53,
+                "end": 58,
+                "value": "Let's"
             },
             {
-                "time": 2302,
+                "time": 2123,
                 "type": "word",
-                "start": 73,
-                "end": 83,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2569,
-                "type": "word",
-                "start": 84,
-                "end": 88,
+                "start": 59,
+                "end": 63,
                 "value": "keep"
             },
             {
-                "time": 2857,
+                "time": 2437,
                 "type": "word",
-                "start": 89,
-                "end": 91,
+                "start": 64,
+                "end": 66,
                 "value": "it"
             },
             {
-                "time": 2998,
+                "time": 2578,
                 "type": "word",
-                "start": 92,
-                "end": 97,
+                "start": 67,
+                "end": 72,
                 "value": "clean"
             }
         ]
@@ -616,29 +607,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Trees are useful.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Trees are useful.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Trees"
             },
             {
-                "time": 374,
+                "time": 385,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
-                "time": 503,
+                "time": 514,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "useful"
             }
         ]
@@ -704,43 +696,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s wait for our turn.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's wait for our turn.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 320,
+                "time": 350,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "wait"
             },
             {
-                "time": 602,
+                "time": 644,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 39,
+                "end": 42,
                 "value": "for"
             },
             {
-                "time": 781,
+                "time": 823,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 43,
+                "end": 46,
                 "value": "our"
             },
             {
-                "time": 901,
+                "time": 950,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 47,
+                "end": 51,
                 "value": "turn"
             }
         ]
@@ -828,64 +821,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">They help us.<break time=\"500ms\"/> Let&apos;s say thank you.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>They help us. Let's say thank you.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "They"
             },
             {
                 "time": 124,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "help"
             },
             {
-                "time": 456,
+                "time": 474,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "us"
             },
             {
-                "time": 834,
+                "time": 1246,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"500ms\"/>"
+                "start": 42,
+                "end": 47,
+                "value": "Let's"
             },
             {
-                "time": 1721,
+                "time": 1572,
                 "type": "word",
-                "start": 62,
-                "end": 72,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2024,
-                "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 48,
+                "end": 51,
                 "value": "say"
             },
             {
-                "time": 2291,
+                "time": 1838,
                 "type": "word",
-                "start": 77,
-                "end": 82,
+                "start": 52,
+                "end": 57,
                 "value": "thank"
             },
             {
-                "time": 2685,
+                "time": 2259,
                 "type": "word",
-                "start": 83,
-                "end": 86,
+                "start": 58,
+                "end": 61,
                 "value": "you"
             }
         ]
@@ -995,78 +982,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">The road is busy.<break time=\"500ms\"/> Let&apos;s follow the road rules.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>The road is busy. Let's follow the road rules.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "The"
             },
             {
                 "time": 117,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "road"
             },
             {
-                "time": 411,
+                "time": 422,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 601,
+                "time": 632,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "busy"
             },
             {
-                "time": 1122,
+                "time": 1555,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"500ms\"/>"
+                "start": 46,
+                "end": 51,
+                "value": "Let's"
             },
             {
-                "time": 2009,
+                "time": 1840,
                 "type": "word",
-                "start": 66,
-                "end": 76,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 2285,
-                "type": "word",
-                "start": 77,
-                "end": 83,
+                "start": 52,
+                "end": 58,
                 "value": "follow"
             },
             {
-                "time": 2686,
+                "time": 2267,
                 "type": "word",
-                "start": 84,
-                "end": 87,
+                "start": 59,
+                "end": 62,
                 "value": "the"
             },
             {
-                "time": 2805,
+                "time": 2387,
                 "type": "word",
-                "start": 88,
-                "end": 92,
+                "start": 63,
+                "end": 67,
                 "value": "road"
             },
             {
-                "time": 3119,
+                "time": 2721,
                 "type": "word",
-                "start": 93,
-                "end": 98,
+                "start": 68,
+                "end": 73,
                 "value": "rules"
             }
         ]

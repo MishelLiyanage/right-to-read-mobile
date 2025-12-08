@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Make a mask.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Make a mask.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Make"
             },
             {
-                "time": 265,
+                "time": 277,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 318,
+                "time": 331,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "mask"
             }
         ]
@@ -236,85 +237,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">You may need \u2022 Bristol board \u2022 Crayons or paint \u2022 Scissors \u2022 Elastic string</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>You may need \u2022 Bristol board \u2022 Crayons or paint \u2022 Scissors \u2022 Elastic string</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "You"
             },
             {
-                "time": 131,
+                "time": 136,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "may"
             },
             {
-                "time": 292,
+                "time": 308,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "need"
             },
             {
-                "time": 949,
+                "time": 998,
                 "type": "word",
-                "start": 44,
-                "end": 51,
+                "start": 45,
+                "end": 52,
                 "value": "Bristol"
             },
             {
-                "time": 1395,
+                "time": 1455,
                 "type": "word",
-                "start": 52,
-                "end": 57,
+                "start": 53,
+                "end": 58,
                 "value": "board"
             },
             {
-                "time": 2198,
+                "time": 2265,
                 "type": "word",
-                "start": 62,
-                "end": 69,
+                "start": 63,
+                "end": 70,
                 "value": "Crayons"
             },
             {
-                "time": 2782,
+                "time": 2878,
                 "type": "word",
-                "start": 70,
-                "end": 72,
+                "start": 71,
+                "end": 73,
                 "value": "or"
             },
             {
-                "time": 2891,
+                "time": 2987,
                 "type": "word",
-                "start": 73,
-                "end": 78,
+                "start": 74,
+                "end": 79,
                 "value": "paint"
             },
             {
-                "time": 3634,
+                "time": 3750,
                 "type": "word",
-                "start": 83,
-                "end": 91,
+                "start": 84,
+                "end": 92,
                 "value": "Scissors"
             },
             {
-                "time": 4512,
+                "time": 4636,
                 "type": "word",
-                "start": 96,
-                "end": 103,
+                "start": 97,
+                "end": 104,
                 "value": "Elastic"
             },
             {
-                "time": 5123,
+                "time": 5253,
                 "type": "word",
-                "start": 104,
-                "end": 110,
+                "start": 105,
+                "end": 111,
                 "value": "string"
             }
         ]
@@ -380,50 +382,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Steps 1.<break time=\"500ms\"/> Select a shape.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Steps 1. Select a shape.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Steps"
             },
             {
-                "time": 513,
+                "time": 538,
                 "type": "word",
-                "start": 33,
-                "end": 34,
+                "start": 34,
+                "end": 35,
                 "value": "1"
             },
             {
-                "time": 1016,
+                "time": 1421,
                 "type": "word",
-                "start": 35,
-                "end": 56,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1903,
-                "type": "word",
-                "start": 57,
-                "end": 63,
+                "start": 37,
+                "end": 43,
                 "value": "Select"
             },
             {
-                "time": 2412,
+                "time": 1936,
                 "type": "word",
-                "start": 64,
-                "end": 65,
+                "start": 44,
+                "end": 45,
                 "value": "a"
             },
             {
-                "time": 2462,
+                "time": 1986,
                 "type": "word",
-                "start": 66,
-                "end": 71,
+                "start": 46,
+                "end": 51,
                 "value": "shape"
             }
         ]
@@ -775,302 +771,226 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2.<break time=\"500ms\"/> Draw it on the Bristol board.<break time=\"500ms\"/> 3.<break time=\"500ms\"/> Colour the animal.<break time=\"500ms\"/> 4.<break time=\"500ms\"/> Cut out the mask.<break time=\"500ms\"/> 5.<break time=\"500ms\"/> Make two holes for the eyes.<break time=\"500ms\"/> 6.<break time=\"500ms\"/> Fix the elastic.<break time=\"500ms\"/> 7.<break time=\"500ms\"/> Wear your mask.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2. Draw it on the Bristol board. 3. Colour the animal. 4. Cut out the mask. 5. Make two holes for the eyes. 6. Fix the elastic. 7. Wear your mask.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 476,
+                "time": 874,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1363,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Draw"
             },
             {
-                "time": 1630,
+                "time": 1157,
                 "type": "word",
-                "start": 56,
-                "end": 58,
+                "start": 36,
+                "end": 38,
                 "value": "it"
             },
             {
-                "time": 1758,
+                "time": 1285,
                 "type": "word",
-                "start": 59,
-                "end": 61,
+                "start": 39,
+                "end": 41,
                 "value": "on"
             },
             {
-                "time": 1866,
+                "time": 1393,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "the"
             },
             {
-                "time": 1947,
+                "time": 1474,
                 "type": "word",
-                "start": 66,
-                "end": 73,
+                "start": 46,
+                "end": 53,
                 "value": "Bristol"
             },
             {
-                "time": 2429,
+                "time": 1975,
                 "type": "word",
-                "start": 74,
-                "end": 79,
+                "start": 54,
+                "end": 59,
                 "value": "board"
             },
             {
-                "time": 3018,
+                "time": 2951,
                 "type": "word",
-                "start": 80,
-                "end": 101,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3905,
-                "type": "word",
-                "start": 102,
-                "end": 103,
+                "start": 61,
+                "end": 62,
                 "value": "3"
             },
             {
-                "time": 4511,
+                "time": 3959,
                 "type": "word",
-                "start": 104,
-                "end": 125,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 5398,
-                "type": "word",
-                "start": 126,
-                "end": 132,
+                "start": 64,
+                "end": 70,
                 "value": "Colour"
             },
             {
-                "time": 5728,
+                "time": 4300,
                 "type": "word",
-                "start": 133,
-                "end": 136,
+                "start": 71,
+                "end": 74,
                 "value": "the"
             },
             {
-                "time": 5922,
+                "time": 4507,
                 "type": "word",
-                "start": 137,
-                "end": 143,
+                "start": 75,
+                "end": 81,
                 "value": "animal"
             },
             {
-                "time": 6484,
+                "time": 5463,
                 "type": "word",
-                "start": 144,
-                "end": 165,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7371,
-                "type": "word",
-                "start": 166,
-                "end": 167,
+                "start": 83,
+                "end": 84,
                 "value": "4"
             },
             {
-                "time": 7914,
+                "time": 6402,
                 "type": "word",
-                "start": 168,
-                "end": 189,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 8801,
-                "type": "word",
-                "start": 190,
-                "end": 193,
+                "start": 86,
+                "end": 89,
                 "value": "Cut"
             },
             {
-                "time": 9013,
+                "time": 6614,
                 "type": "word",
-                "start": 194,
-                "end": 197,
+                "start": 90,
+                "end": 93,
                 "value": "out"
             },
             {
-                "time": 9229,
+                "time": 6830,
                 "type": "word",
-                "start": 198,
-                "end": 201,
+                "start": 94,
+                "end": 97,
                 "value": "the"
             },
             {
-                "time": 9310,
+                "time": 6911,
                 "type": "word",
-                "start": 202,
-                "end": 206,
+                "start": 98,
+                "end": 102,
                 "value": "mask"
             },
             {
-                "time": 9920,
+                "time": 7942,
                 "type": "word",
-                "start": 207,
-                "end": 228,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 10806,
-                "type": "word",
-                "start": 229,
-                "end": 230,
+                "start": 104,
+                "end": 105,
                 "value": "5"
             },
             {
-                "time": 11401,
+                "time": 8944,
                 "type": "word",
-                "start": 231,
-                "end": 252,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12287,
-                "type": "word",
-                "start": 253,
-                "end": 257,
+                "start": 107,
+                "end": 111,
                 "value": "Make"
             },
             {
-                "time": 12535,
+                "time": 9207,
                 "type": "word",
-                "start": 258,
-                "end": 261,
+                "start": 112,
+                "end": 115,
                 "value": "two"
             },
             {
-                "time": 12813,
+                "time": 9498,
                 "type": "word",
-                "start": 262,
-                "end": 267,
+                "start": 116,
+                "end": 121,
                 "value": "holes"
             },
             {
-                "time": 13272,
+                "time": 9963,
                 "type": "word",
-                "start": 268,
-                "end": 271,
+                "start": 122,
+                "end": 125,
                 "value": "for"
             },
             {
-                "time": 13421,
+                "time": 10112,
                 "type": "word",
-                "start": 272,
-                "end": 275,
+                "start": 126,
+                "end": 129,
                 "value": "the"
             },
             {
-                "time": 13650,
+                "time": 10347,
                 "type": "word",
-                "start": 276,
-                "end": 280,
+                "start": 130,
+                "end": 134,
                 "value": "eyes"
             },
             {
-                "time": 14095,
+                "time": 11187,
                 "type": "word",
-                "start": 281,
-                "end": 302,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 14982,
-                "type": "word",
-                "start": 303,
-                "end": 304,
+                "start": 136,
+                "end": 137,
                 "value": "6"
             },
             {
-                "time": 15634,
+                "time": 12246,
                 "type": "word",
-                "start": 305,
-                "end": 326,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 16521,
-                "type": "word",
-                "start": 327,
-                "end": 330,
+                "start": 139,
+                "end": 142,
                 "value": "Fix"
             },
             {
-                "time": 16930,
+                "time": 12665,
                 "type": "word",
-                "start": 331,
-                "end": 334,
+                "start": 143,
+                "end": 146,
                 "value": "the"
             },
             {
-                "time": 17063,
+                "time": 12798,
                 "type": "word",
-                "start": 335,
-                "end": 342,
+                "start": 147,
+                "end": 154,
                 "value": "elastic"
             },
             {
-                "time": 17915,
+                "time": 14044,
                 "type": "word",
-                "start": 343,
-                "end": 364,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18802,
-                "type": "word",
-                "start": 365,
-                "end": 366,
+                "start": 156,
+                "end": 157,
                 "value": "7"
             },
             {
-                "time": 19502,
+                "time": 15161,
                 "type": "word",
-                "start": 367,
-                "end": 388,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 20389,
-                "type": "word",
-                "start": 389,
-                "end": 393,
+                "start": 159,
+                "end": 163,
                 "value": "Wear"
             },
             {
-                "time": 20595,
+                "time": 15372,
                 "type": "word",
-                "start": 394,
-                "end": 398,
+                "start": 164,
+                "end": 168,
                 "value": "your"
             },
             {
-                "time": 20773,
+                "time": 15564,
                 "type": "word",
-                "start": 399,
-                "end": 403,
+                "start": 169,
+                "end": 173,
                 "value": "mask"
             }
         ]

@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">5 Our festivals</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>5 Our festivals</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "5"
             },
             {
-                "time": 329,
+                "time": 356,
                 "type": "word",
-                "start": 29,
-                "end": 32,
+                "start": 30,
+                "end": 33,
                 "value": "Our"
             },
             {
-                "time": 494,
+                "time": 521,
                 "type": "word",
-                "start": 33,
-                "end": 42,
+                "start": 34,
+                "end": 43,
                 "value": "festivals"
             }
         ]
@@ -93,22 +94,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 1</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 1</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 385,
+                "time": 396,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "1"
             }
         ]
@@ -152,29 +154,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look and read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 12,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
                 "time": 206,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
                 "time": 381,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "read"
             }
         ]
@@ -317,87 +320,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sinhala &amp; Tamil new year Deepavali / Vesak Ramazan / C hristmas</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sinhala & Tamil new year Deepavali / Vesak Ramazan / Christmas</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 0,
+                "end": 7,
                 "value": "Sinhala"
             },
             {
-                "time": 651,
+                "time": 548,
                 "type": "word",
-                "start": 35,
-                "end": 40,
-                "value": "&amp;"
+                "start": 8,
+                "end": 9,
+                "value": "&"
             },
             {
-                "time": 808,
+                "time": 678,
                 "type": "word",
-                "start": 41,
-                "end": 46,
+                "start": 10,
+                "end": 15,
                 "value": "Tamil"
             },
             {
-                "time": 1240,
+                "time": 1036,
                 "type": "word",
-                "start": 47,
-                "end": 50,
+                "start": 16,
+                "end": 19,
                 "value": "new"
             },
             {
-                "time": 1423,
+                "time": 1191,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 20,
+                "end": 24,
                 "value": "year"
             },
             {
-                "time": 1640,
+                "time": 1386,
                 "type": "word",
-                "start": 56,
-                "end": 65,
+                "start": 25,
+                "end": 34,
                 "value": "Deepavali"
             },
             {
-                "time": 2731,
+                "time": 2323,
                 "type": "word",
-                "start": 68,
-                "end": 73,
+                "start": 37,
+                "end": 42,
                 "value": "Vesak"
             },
             {
-                "time": 3183,
+                "time": 2703,
                 "type": "word",
-                "start": 74,
-                "end": 81,
+                "start": 43,
+                "end": 50,
                 "value": "Ramazan"
             },
             {
-                "time": 4203,
+                "time": 3602,
                 "type": "word",
-                "start": 84,
-                "end": 85,
-                "value": "C"
-            },
-            {
-                "time": 4526,
-                "type": "word",
-                "start": 86,
-                "end": 94,
-                "value": "hristmas"
+                "start": 53,
+                "end": 62,
+                "value": "Christmas"
             }
         ]
     },
     "4": {
-        "text": "Vesak Festival",
+        "text": "Vesak Festival Sinhala and Tamil New Year",
         "words": [
             "Vesak",
-            "Festival"
+            "Festival",
+            "Sinhala",
+            "and",
+            "Tamil",
+            "New",
+            "Year"
         ],
         "bounding_boxes": [
             [
@@ -419,38 +421,7 @@
                     211.55062866210938,
                     438.40960693359375
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Vesak Festival</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Vesak"
-            },
-            {
-                "time": 448,
-                "type": "word",
-                "start": 33,
-                "end": 41,
-                "value": "Festival"
-            }
-        ]
-    },
-    "5": {
-        "text": "Sinhala and Tamil New Year",
-        "words": [
-            "Sinhala",
-            "and",
-            "Tamil",
-            "New",
-            "Year"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     302.53228759765625,
@@ -502,51 +473,68 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sinhala and Tamil New Year</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Vesak Festival Sinhala and Tamil New Year</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 33,
+                "value": "Vesak"
+            },
+            {
+                "time": 432,
+                "type": "word",
+                "start": 34,
+                "end": 42,
+                "value": "Festival"
+            },
+            {
+                "time": 1114,
+                "type": "word",
+                "start": 43,
+                "end": 50,
                 "value": "Sinhala"
             },
             {
-                "time": 667,
+                "time": 1825,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 51,
+                "end": 54,
                 "value": "and"
             },
             {
-                "time": 807,
+                "time": 1964,
                 "type": "word",
-                "start": 39,
-                "end": 44,
+                "start": 55,
+                "end": 60,
                 "value": "Tamil"
             },
             {
-                "time": 1256,
+                "time": 2403,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 61,
+                "end": 64,
                 "value": "New"
             },
             {
-                "time": 1453,
+                "time": 2599,
                 "type": "word",
-                "start": 49,
-                "end": 53,
+                "start": 65,
+                "end": 69,
                 "value": "Year"
             }
         ]
     },
-    "6": {
-        "text": "Ramazan Festival",
+    "5": {
+        "text": "Ramazan Festival Deepavali Festival",
         "words": [
             "Ramazan",
+            "Festival",
+            "Deepavali",
             "Festival"
         ],
         "bounding_boxes": [
@@ -569,35 +557,7 @@
                     220.0692138671875,
                     587.7501220703125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Ramazan Festival</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 34,
-                "value": "Ramazan"
-            },
-            {
-                "time": 635,
-                "type": "word",
-                "start": 35,
-                "end": 43,
-                "value": "Festival"
-            }
-        ]
-    },
-    "7": {
-        "text": "Deepavali Festival",
-        "words": [
-            "Deepavali",
-            "Festival"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     362.6683044433594,
@@ -619,27 +579,42 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Deepavali Festival</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ramazan Festival Deepavali Festival</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 35,
+                "value": "Ramazan"
+            },
+            {
+                "time": 731,
+                "type": "word",
+                "start": 36,
+                "end": 44,
+                "value": "Festival"
+            },
+            {
+                "time": 1401,
+                "type": "word",
+                "start": 45,
+                "end": 54,
                 "value": "Deepavali"
             },
             {
-                "time": 761,
+                "time": 2233,
                 "type": "word",
-                "start": 37,
-                "end": 45,
+                "start": 55,
+                "end": 63,
                 "value": "Festival"
             }
         ]
     },
-    "8": {
+    "6": {
         "text": "Christmas",
         "words": [
             "Christmas"
@@ -656,15 +631,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Christmas</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Christmas</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 36,
+                "start": 28,
+                "end": 37,
                 "value": "Christmas"
             }
         ]

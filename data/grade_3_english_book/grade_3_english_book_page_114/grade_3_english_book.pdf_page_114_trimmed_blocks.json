@@ -1,24 +1,13 @@
 {
     "0": {
-        "text": "105 Listen, repeat and act.",
+        "text": "Listen, repeat and act.",
         "words": [
-            "105",
             "Listen,",
             "repeat",
             "and",
             "act."
         ],
         "bounding_boxes": [
-            [
-                [
-                    545.5330200195312,
-                    24.34998893737793
-                ],
-                [
-                    585.822998046875,
-                    57.109989166259766
-                ]
-            ],
             [
                 [
                     59.59389877319336,
@@ -60,50 +49,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">105 Listen,<break time=\"300ms\"/> repeat and act.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, repeat and act.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "105"
-            },
-            {
-                "time": 1011,
-                "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 1756,
+                "time": 928,
                 "type": "word",
-                "start": 38,
-                "end": 59,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2156,
-                "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 36,
+                "end": 42,
                 "value": "repeat"
             },
             {
-                "time": 2669,
+                "time": 1476,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 43,
+                "end": 46,
                 "value": "and"
             },
             {
-                "time": 2859,
+                "time": 1666,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 47,
+                "end": 50,
                 "value": "act"
             }
         ]
@@ -136,22 +112,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Who&apos;s calling?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Who's calling?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Who&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Who's"
             },
             {
-                "time": 302,
+                "time": 309,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 34,
+                "end": 41,
                 "value": "calling"
             }
         ]
@@ -228,7 +205,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello,<break time=\"300ms\"/> is this 012 985 374?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello, is this 012 985 374?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -236,50 +213,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 717,
+                "time": 831,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1118,
-                "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 35,
+                "end": 37,
                 "value": "is"
             },
             {
-                "time": 1270,
+                "time": 983,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 38,
+                "end": 42,
                 "value": "this"
             },
             {
-                "time": 1541,
+                "time": 1266,
                 "type": "word",
-                "start": 63,
-                "end": 66,
+                "start": 43,
+                "end": 46,
                 "value": "012"
             },
             {
-                "time": 2107,
+                "time": 1849,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "985"
             },
             {
-                "time": 3546,
+                "time": 3355,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "374"
             }
         ]
@@ -312,7 +282,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Sorry,wrong number.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sorry, wrong number.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -320,22 +290,22 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Sorry"
             },
             {
-                "time": 878,
+                "time": 905,
                 "type": "word",
-                "start": 33,
-                "end": 38,
+                "start": 35,
+                "end": 40,
                 "value": "wrong"
             },
             {
-                "time": 1241,
+                "time": 1280,
                 "type": "word",
-                "start": 39,
-                "end": 45,
+                "start": 41,
+                "end": 47,
                 "value": "number"
             }
         ]
@@ -412,7 +382,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Hello,<break time=\"300ms\"/> is this 012 985 374?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Hello, is this 012 985 374?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -420,50 +390,43 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Hello"
             },
             {
-                "time": 717,
+                "time": 831,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1118,
-                "type": "word",
-                "start": 55,
-                "end": 57,
+                "start": 35,
+                "end": 37,
                 "value": "is"
             },
             {
-                "time": 1270,
+                "time": 983,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 38,
+                "end": 42,
                 "value": "this"
             },
             {
-                "time": 1541,
+                "time": 1266,
                 "type": "word",
-                "start": 63,
-                "end": 66,
+                "start": 43,
+                "end": 46,
                 "value": "012"
             },
             {
-                "time": 2107,
+                "time": 1849,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 47,
+                "end": 50,
                 "value": "985"
             },
             {
-                "time": 3546,
+                "time": 3355,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "374"
             }
         ]
@@ -518,7 +481,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> your name,<break time=\"300ms\"/> please.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Yes, your name, please.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -526,43 +489,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Yes"
             },
             {
-                "time": 712,
+                "time": 834,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1112,
-                "type": "word",
-                "start": 53,
-                "end": 57,
+                "start": 33,
+                "end": 37,
                 "value": "your"
             },
             {
-                "time": 1297,
+                "time": 1024,
                 "type": "word",
-                "start": 58,
-                "end": 62,
+                "start": 38,
+                "end": 42,
                 "value": "name"
             },
             {
-                "time": 1858,
+                "time": 1695,
                 "type": "word",
-                "start": 63,
-                "end": 84,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2251,
-                "type": "word",
-                "start": 85,
-                "end": 91,
+                "start": 44,
+                "end": 50,
                 "value": "please"
             }
         ]
@@ -661,7 +610,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I&apos;m Sunil.<break time=\"500ms\"/> Can I speak to Mr.<break time=\"500ms\"/> Kalpa?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I'm Sunil. Can I speak to Mr. <phoneme alphabet='ipa' ph='kalpa'>Kalpa</phoneme>?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -669,71 +618,57 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 35,
-                "value": "I&apos;m"
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
             },
             {
                 "time": 191,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 32,
+                "end": 37,
                 "value": "Sunil"
             },
             {
-                "time": 865,
+                "time": 1278,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1751,
-                "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 39,
+                "end": 42,
                 "value": "Can"
             },
             {
-                "time": 1933,
+                "time": 1450,
                 "type": "word",
-                "start": 68,
-                "end": 69,
+                "start": 43,
+                "end": 44,
                 "value": "I"
             },
             {
-                "time": 2039,
+                "time": 1580,
                 "type": "word",
-                "start": 70,
-                "end": 75,
+                "start": 45,
+                "end": 50,
                 "value": "speak"
             },
             {
-                "time": 2446,
+                "time": 2002,
                 "type": "word",
-                "start": 76,
-                "end": 78,
+                "start": 51,
+                "end": 53,
                 "value": "to"
             },
             {
-                "time": 2566,
+                "time": 2110,
                 "type": "word",
-                "start": 79,
-                "end": 82,
+                "start": 54,
+                "end": 57,
                 "value": "Mr."
             },
             {
-                "time": 3340,
+                "time": 2502,
                 "type": "word",
-                "start": 82,
-                "end": 103,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3940,
-                "type": "word",
-                "start": 104,
-                "end": 109,
+                "start": 93,
+                "end": 98,
                 "value": "Kalpa"
             }
         ]
@@ -788,7 +723,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Yes,<break time=\"300ms\"/> please hold on.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Yes, please hold on.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -796,36 +731,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Yes"
             },
             {
-                "time": 677,
+                "time": 796,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1077,
-                "type": "word",
-                "start": 53,
-                "end": 59,
+                "start": 33,
+                "end": 39,
                 "value": "please"
             },
             {
-                "time": 1458,
+                "time": 1206,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 40,
+                "end": 44,
                 "value": "hold"
             },
             {
-                "time": 1777,
+                "time": 1534,
                 "type": "word",
-                "start": 65,
-                "end": 67,
+                "start": 45,
+                "end": 47,
                 "value": "on"
             }
         ]

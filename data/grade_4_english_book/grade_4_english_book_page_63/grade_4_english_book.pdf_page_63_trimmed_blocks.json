@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 2</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 2</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 397,
+                "time": 410,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "2"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look and match.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look and match.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 12,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
                 "time": 214,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
                 "time": 369,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "match"
             }
         ]
@@ -185,36 +187,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">This / These That / Those</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>This / These That / Those</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "This"
             },
             {
-                "time": 743,
+                "time": 766,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "These"
             },
             {
-                "time": 1044,
+                "time": 1081,
                 "type": "word",
-                "start": 40,
-                "end": 44,
+                "start": 41,
+                "end": 45,
                 "value": "That"
             },
             {
-                "time": 1620,
+                "time": 1683,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 48,
+                "end": 53,
                 "value": "Those"
             }
         ]
@@ -302,71 +305,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like this T shirt.<break time=\"500ms\"/> It is beautiful.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like this T-shirt. It is beautiful.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 96,
+                "time": 93,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 405,
+                "time": 357,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "this"
             },
             {
-                "time": 629,
+                "time": 600,
                 "type": "word",
-                "start": 39,
-                "end": 40,
-                "value": "T"
+                "start": 40,
+                "end": 47,
+                "value": "T-shirt"
             },
             {
-                "time": 859,
+                "time": 1663,
                 "type": "word",
-                "start": 41,
-                "end": 46,
-                "value": "shirt"
-            },
-            {
-                "time": 1420,
-                "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2307,
-                "type": "word",
-                "start": 69,
-                "end": 71,
+                "start": 49,
+                "end": 51,
                 "value": "It"
             },
             {
-                "time": 2445,
+                "time": 1805,
                 "type": "word",
-                "start": 72,
-                "end": 74,
+                "start": 52,
+                "end": 54,
                 "value": "is"
             },
             {
-                "time": 2614,
+                "time": 1982,
                 "type": "word",
-                "start": 75,
-                "end": 84,
+                "start": 55,
+                "end": 64,
                 "value": "beautiful"
             }
         ]
@@ -454,64 +444,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like these shoes.<break time=\"500ms\"/> They are brown.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like these shoes. They are brown.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 96,
+                "time": 102,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 405,
+                "time": 429,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "these"
             },
             {
-                "time": 674,
+                "time": 699,
                 "type": "word",
-                "start": 40,
-                "end": 45,
+                "start": 41,
+                "end": 46,
                 "value": "shoes"
             },
             {
-                "time": 1271,
+                "time": 1711,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2158,
-                "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 48,
+                "end": 52,
                 "value": "They"
             },
             {
-                "time": 2331,
+                "time": 1890,
                 "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 53,
+                "end": 56,
                 "value": "are"
             },
             {
-                "time": 2453,
+                "time": 2018,
                 "type": "word",
-                "start": 77,
-                "end": 82,
+                "start": 57,
+                "end": 62,
                 "value": "brown"
             }
         ]
@@ -599,64 +583,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like that cap.<break time=\"500ms\"/> It is nice.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like that cap. It is nice.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 96,
+                "time": 102,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 406,
+                "time": 430,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "that"
             },
             {
-                "time": 639,
+                "time": 670,
                 "type": "word",
-                "start": 39,
-                "end": 42,
+                "start": 40,
+                "end": 43,
                 "value": "cap"
             },
             {
-                "time": 1189,
+                "time": 1620,
                 "type": "word",
-                "start": 43,
-                "end": 64,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2075,
-                "type": "word",
-                "start": 65,
-                "end": 67,
+                "start": 45,
+                "end": 47,
                 "value": "It"
             },
             {
-                "time": 2214,
+                "time": 1764,
                 "type": "word",
-                "start": 68,
-                "end": 70,
+                "start": 48,
+                "end": 50,
                 "value": "is"
             },
             {
-                "time": 2389,
+                "time": 1956,
                 "type": "word",
-                "start": 71,
-                "end": 75,
+                "start": 51,
+                "end": 55,
                 "value": "nice"
             }
         ]
@@ -744,64 +722,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like those socks.<break time=\"500ms\"/> They are blue.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like those socks. They are blue.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 103,
+                "time": 114,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 412,
+                "time": 442,
                 "type": "word",
-                "start": 34,
-                "end": 39,
+                "start": 35,
+                "end": 40,
                 "value": "those"
             },
             {
-                "time": 627,
+                "time": 657,
                 "type": "word",
-                "start": 40,
-                "end": 45,
+                "start": 41,
+                "end": 46,
                 "value": "socks"
             },
             {
-                "time": 1289,
+                "time": 1726,
                 "type": "word",
-                "start": 46,
-                "end": 67,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2175,
-                "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 48,
+                "end": 52,
                 "value": "They"
             },
             {
-                "time": 2352,
+                "time": 1909,
                 "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 53,
+                "end": 56,
                 "value": "are"
             },
             {
-                "time": 2489,
+                "time": 2046,
                 "type": "word",
-                "start": 77,
-                "end": 81,
+                "start": 57,
+                "end": 61,
                 "value": "blue"
             }
         ]

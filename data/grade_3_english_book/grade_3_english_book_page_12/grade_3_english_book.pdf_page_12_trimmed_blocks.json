@@ -16,15 +16,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Numbers</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Numbers</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Numbers"
             }
         ]
@@ -79,43 +80,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Count,<break time=\"300ms\"/> read and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Count, read and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Count"
             },
             {
-                "time": 693,
+                "time": 808,
                 "type": "word",
-                "start": 33,
-                "end": 54,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1095,
-                "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 35,
+                "end": 39,
                 "value": "read"
             },
             {
-                "time": 1377,
+                "time": 1107,
                 "type": "word",
-                "start": 60,
-                "end": 63,
+                "start": 40,
+                "end": 43,
                 "value": "and"
             },
             {
-                "time": 1541,
+                "time": 1271,
                 "type": "word",
-                "start": 64,
-                "end": 67,
+                "start": 44,
+                "end": 47,
                 "value": "say"
             }
         ]
@@ -137,15 +132,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">one</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>one</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "one"
             }
         ]
@@ -167,15 +163,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">two</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>two</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "two"
             }
         ]
@@ -197,15 +194,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">three</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>three</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "three"
             }
         ]
@@ -227,15 +225,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">four</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>four</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "four"
             }
         ]
@@ -257,15 +256,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">five</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>five</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "five"
             }
         ]

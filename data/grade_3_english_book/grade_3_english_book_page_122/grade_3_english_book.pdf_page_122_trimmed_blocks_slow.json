@@ -1,0 +1,781 @@
+{
+    "0": {
+        "text": "Listen, point and read.",
+        "words": [
+            "Listen,",
+            "point",
+            "and",
+            "read."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529598236083984,
+                    58.217987060546875
+                ],
+                [
+                    120.12959289550781,
+                    82.0379867553711
+                ]
+            ],
+            [
+                [
+                    124.12959289550781,
+                    58.217987060546875
+                ],
+                [
+                    172.52960205078125,
+                    82.0379867553711
+                ]
+            ],
+            [
+                [
+                    177.32960510253906,
+                    58.217987060546875
+                ],
+                [
+                    214.24961853027344,
+                    82.0379867553711
+                ]
+            ],
+            [
+                [
+                    219.24961853027344,
+                    58.217987060546875
+                ],
+                [
+                    267.4896240234375,
+                    82.0379867553711
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen, <break time='200ms'/> point <break time='200ms'/> and <break time='200ms'/> read. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 717,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1011,
+                "type": "word",
+                "start": 58,
+                "end": 63,
+                "value": "point"
+            },
+            {
+                "time": 1656,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1956,
+                "type": "word",
+                "start": 86,
+                "end": 89,
+                "value": "and"
+            },
+            {
+                "time": 2560,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2853,
+                "type": "word",
+                "start": 112,
+                "end": 116,
+                "value": "read"
+            },
+            {
+                "time": 3297,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "This is a big tree",
+        "words": [
+            "This",
+            "is",
+            "a",
+            "big",
+            "tree"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    223.44500732421875,
+                    106.65798950195312
+                ],
+                [
+                    260.4250183105469,
+                    130.47799682617188
+                ]
+            ],
+            [
+                [
+                    265.4250183105469,
+                    106.65798950195312
+                ],
+                [
+                    279.405029296875,
+                    130.47799682617188
+                ]
+            ],
+            [
+                [
+                    284.405029296875,
+                    106.65798950195312
+                ],
+                [
+                    296.5650329589844,
+                    130.47799682617188
+                ]
+            ],
+            [
+                [
+                    301.5650329589844,
+                    106.65798950195312
+                ],
+                [
+                    330.7650451660156,
+                    130.47799682617188
+                ]
+            ],
+            [
+                [
+                    335.5650329589844,
+                    106.65798950195312
+                ],
+                [
+                    372.1450500488281,
+                    130.47799682617188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> big <break time='200ms'/> tree <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 671,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 971,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "is"
+            },
+            {
+                "time": 1534,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1827,
+                "type": "word",
+                "start": 80,
+                "end": 81,
+                "value": "a"
+            },
+            {
+                "time": 2527,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2827,
+                "type": "word",
+                "start": 104,
+                "end": 107,
+                "value": "big"
+            },
+            {
+                "time": 3439,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3740,
+                "type": "word",
+                "start": 130,
+                "end": 134,
+                "value": "tree"
+            },
+            {
+                "time": 4474,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "It has leaves.",
+        "words": [
+            "It",
+            "has",
+            "leaves."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.529998779296875,
+                    193.44796752929688
+                ],
+                [
+                    74.52999877929688,
+                    217.26797485351562
+                ]
+            ],
+            [
+                [
+                    79.33000183105469,
+                    193.44796752929688
+                ],
+                [
+                    113.19000244140625,
+                    217.26797485351562
+                ]
+            ],
+            [
+                [
+                    118.19000244140625,
+                    193.44796752929688
+                ],
+                [
+                    183.38999938964844,
+                    217.26797485351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> leaves. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 549,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1490,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1791,
+                "type": "word",
+                "start": 79,
+                "end": 85,
+                "value": "leaves"
+            },
+            {
+                "time": 2420,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "It has branches.",
+        "words": [
+            "It",
+            "has",
+            "branches."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    114.16999816894531,
+                    441.4880065917969
+                ],
+                [
+                    129.1699981689453,
+                    465.3080139160156
+                ]
+            ],
+            [
+                [
+                    133.97000122070312,
+                    441.4880065917969
+                ],
+                [
+                    167.83001708984375,
+                    465.3080139160156
+                ]
+            ],
+            [
+                [
+                    172.83001708984375,
+                    441.4880065917969
+                ],
+                [
+                    265.73004150390625,
+                    465.3080139160156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> branches. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 524,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 817,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1465,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1765,
+                "type": "word",
+                "start": 79,
+                "end": 87,
+                "value": "branches"
+            },
+            {
+                "time": 2569,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "It has a trunk.",
+        "words": [
+            "It",
+            "has",
+            "a",
+            "trunk."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    405.6499938964844,
+                    465.2879638671875
+                ],
+                [
+                    420.6499938964844,
+                    489.10797119140625
+                ]
+            ],
+            [
+                [
+                    425.4499816894531,
+                    465.2879638671875
+                ],
+                [
+                    459.30999755859375,
+                    489.10797119140625
+                ]
+            ],
+            [
+                [
+                    464.30999755859375,
+                    465.2879638671875
+                ],
+                [
+                    476.4700012207031,
+                    489.10797119140625
+                ]
+            ],
+            [
+                [
+                    481.2699890136719,
+                    465.2879638671875
+                ],
+                [
+                    537.75,
+                    489.10797119140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> trunk. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 549,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1490,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1783,
+                "type": "word",
+                "start": 79,
+                "end": 80,
+                "value": "a"
+            },
+            {
+                "time": 2483,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2784,
+                "type": "word",
+                "start": 103,
+                "end": 108,
+                "value": "trunk"
+            },
+            {
+                "time": 3394,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "It has roots.",
+        "words": [
+            "It",
+            "has",
+            "roots."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    429.19000244140625,
+                    506.0879821777344
+                ],
+                [
+                    444.19000244140625,
+                    529.907958984375
+                ]
+            ],
+            [
+                [
+                    448.989990234375,
+                    506.0879821777344
+                ],
+                [
+                    482.8500061035156,
+                    529.907958984375
+                ]
+            ],
+            [
+                [
+                    487.8500061035156,
+                    506.0879821777344
+                ],
+                [
+                    539.6500244140625,
+                    529.907958984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> roots. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 549,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1490,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1783,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "roots"
+            },
+            {
+                "time": 2352,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "leaves branches roots",
+        "words": [
+            "leaves",
+            "branches",
+            "roots"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    108.6259994506836,
+                    625.5989990234375
+                ],
+                [
+                    167.54598999023438,
+                    649.4189453125
+                ]
+            ],
+            [
+                [
+                    261.2760009765625,
+                    629.5989990234375
+                ],
+                [
+                    347.8960266113281,
+                    653.4189453125
+                ]
+            ],
+            [
+                [
+                    448.32598876953125,
+                    629.5989990234375
+                ],
+                [
+                    493.8459777832031,
+                    653.4189453125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>leaves <break time='200ms'/> branches <break time='200ms'/> roots <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "leaves"
+            },
+            {
+                "time": 745,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1045,
+                "type": "word",
+                "start": 57,
+                "end": 65,
+                "value": "branches"
+            },
+            {
+                "time": 1913,
+                "type": "word",
+                "start": 66,
+                "end": 87,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2213,
+                "type": "word",
+                "start": 88,
+                "end": 93,
+                "value": "roots"
+            },
+            {
+                "time": 3058,
+                "type": "word",
+                "start": 94,
+                "end": 115,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "trunk flowers",
+        "words": [
+            "trunk",
+            "flowers"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    186.88600158691406,
+                    684.115966796875
+                ],
+                [
+                    237.0860137939453,
+                    707.9359741210938
+                ]
+            ],
+            [
+                [
+                    362.12298583984375,
+                    686.115966796875
+                ],
+                [
+                    429.38299560546875,
+                    709.9359741210938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>trunk <break time='200ms'/> flowers <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "trunk"
+            },
+            {
+                "time": 678,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 978,
+                "type": "word",
+                "start": 56,
+                "end": 63,
+                "value": "flowers"
+            },
+            {
+                "time": 1940,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

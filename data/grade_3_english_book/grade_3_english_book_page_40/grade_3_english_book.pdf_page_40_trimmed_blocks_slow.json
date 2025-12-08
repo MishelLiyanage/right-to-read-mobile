@@ -1,68 +1,5 @@
 {
     "0": {
-        "text": "sleep watch",
-        "words": [
-            "sleep",
-            "watch"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    374.8190002441406,
-                    546.550048828125
-                ],
-                [
-                    423.65899658203125,
-                    570.3699951171875
-                ]
-            ],
-            [
-                [
-                    157.21897888183594,
-                    546.550048828125
-                ],
-                [
-                    215.8389892578125,
-                    570.3699951171875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>sleep <break time='200ms'/> watch <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 33,
-                "value": "sleep"
-            },
-            {
-                "time": 728,
-                "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 1028,
-                "type": "word",
-                "start": 56,
-                "end": 61,
-                "value": "watch"
-            },
-            {
-                "time": 1783,
-                "type": "word",
-                "start": 62,
-                "end": 83,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "write play",
         "words": [
             "write",
@@ -121,6 +58,69 @@
                 "type": "word",
                 "start": 61,
                 "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "sleep watch",
+        "words": [
+            "sleep",
+            "watch"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    374.8190002441406,
+                    546.550048828125
+                ],
+                [
+                    423.65899658203125,
+                    570.3699951171875
+                ]
+            ],
+            [
+                [
+                    157.21897888183594,
+                    546.550048828125
+                ],
+                [
+                    215.8389892578125,
+                    570.3699951171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>sleep <break time='200ms'/> watch <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "sleep"
+            },
+            {
+                "time": 728,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1028,
+                "type": "word",
+                "start": 56,
+                "end": 61,
+                "value": "watch"
+            },
+            {
+                "time": 1783,
+                "type": "word",
+                "start": 62,
+                "end": 83,
                 "value": "<break time='200ms'/>"
             }
         ]

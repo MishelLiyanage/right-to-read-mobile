@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "20",
-        "words": [
-            "20"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.871599197387695,
-                    24.34998893737793
-                ],
-                [
-                    61.671600341796875,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>20 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 30,
-                "value": "20"
-            },
-            {
-                "time": 824,
-                "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -125,7 +87,7 @@
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "This is my family.",
         "words": [
             "This",

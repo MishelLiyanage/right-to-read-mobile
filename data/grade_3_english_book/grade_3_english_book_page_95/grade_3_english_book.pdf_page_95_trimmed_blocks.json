@@ -1,35 +1,5 @@
 {
     "0": {
-        "text": "86",
-        "words": [
-            "86"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    29.85689926147461,
-                    24.34998893737793
-                ],
-                [
-                    61.68689727783203,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">86</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 29,
-                "value": "86"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and read.",
         "words": [
             "Listen",
@@ -68,34 +38,35 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 602,
+                "time": 635,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "read"
             }
         ]
     },
-    "2": {
+    "1": {
         "text": "I have a hat.",
         "words": [
             "I",
@@ -145,7 +116,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have a hat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have a hat.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -153,34 +124,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 132,
+                "time": 141,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 417,
+                "time": 438,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 484,
+                "time": 513,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "hat"
             }
         ]
     },
-    "3": {
+    "2": {
         "text": "I have a belt.",
         "words": [
             "I",
@@ -230,7 +201,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have a belt.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have a belt.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -238,34 +209,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 195,
+                "time": 204,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 527,
+                "time": 544,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 575,
+                "time": 591,
                 "type": "word",
-                "start": 36,
-                "end": 40,
+                "start": 37,
+                "end": 41,
                 "value": "belt"
             }
         ]
     },
-    "4": {
+    "3": {
         "text": "I have a dress.",
         "words": [
             "I",
@@ -315,7 +286,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have a dress.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have a dress.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -323,34 +294,34 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 195,
+                "time": 204,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 527,
+                "time": 544,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 589,
+                "time": 606,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "dress"
             }
         ]
     },
-    "5": {
+    "4": {
         "text": "I have a raincoat.",
         "words": [
             "I",
@@ -400,7 +371,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have a raincoat.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have a raincoat.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -408,29 +379,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 143,
+                "time": 146,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 391,
+                "time": 402,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "a"
             },
             {
-                "time": 450,
+                "time": 461,
                 "type": "word",
-                "start": 36,
-                "end": 44,
+                "start": 37,
+                "end": 45,
                 "value": "raincoat"
             }
         ]

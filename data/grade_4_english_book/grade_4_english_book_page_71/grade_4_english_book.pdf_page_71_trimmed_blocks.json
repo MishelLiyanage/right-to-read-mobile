@@ -49,41 +49,127 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have fifteen rupees.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>I have fifteen rupees.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 139,
+                "time": 146,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 319,
+                "time": 373,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 35,
+                "end": 42,
                 "value": "fifteen"
             },
             {
-                "time": 845,
+                "time": 919,
                 "type": "word",
-                "start": 42,
-                "end": 48,
+                "start": 43,
+                "end": 49,
                 "value": "rupees"
             }
         ]
     },
     "1": {
+        "text": "5 rupees 10 rupees",
+        "words": [
+            "5",
+            "rupees",
+            "10",
+            "rupees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    243.7718963623047,
+                    128.65371704101562
+                ],
+                [
+                    254.60789489746094,
+                    150.0917205810547
+                ]
+            ],
+            [
+                [
+                    223.035888671875,
+                    150.25369262695312
+                ],
+                [
+                    279.86187744140625,
+                    171.6916961669922
+                ]
+            ],
+            [
+                [
+                    74.8292007446289,
+                    141.26712036132812
+                ],
+                [
+                    93.09920501708984,
+                    162.7051239013672
+                ]
+            ],
+            [
+                [
+                    97.59920501708984,
+                    141.26712036132812
+                ],
+                [
+                    154.42520141601562,
+                    162.7051239013672
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>5 rupees 10 rupees</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "5"
+            },
+            {
+                "time": 458,
+                "type": "word",
+                "start": 30,
+                "end": 36,
+                "value": "rupees"
+            },
+            {
+                "time": 1040,
+                "type": "word",
+                "start": 37,
+                "end": 39,
+                "value": "10"
+            },
+            {
+                "time": 1331,
+                "type": "word",
+                "start": 40,
+                "end": 46,
+                "value": "rupees"
+            }
+        ]
+    },
+    "2": {
         "text": "My sister has ten rupees.",
         "words": [
             "My",
@@ -144,48 +230,98 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My sister has ten rupees.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>My sister has ten rupees.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 176,
+                "time": 173,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "sister"
             },
             {
-                "time": 674,
+                "time": 656,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "has"
             },
             {
-                "time": 920,
+                "time": 990,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "ten"
             },
             {
-                "time": 1161,
+                "time": 1260,
                 "type": "word",
-                "start": 45,
-                "end": 51,
+                "start": 46,
+                "end": 52,
                 "value": "rupees"
             }
         ]
     },
-    "2": {
+    "3": {
+        "text": "10 rupees",
+        "words": [
+            "10",
+            "rupees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    74.8292007446289,
+                    251.906005859375
+                ],
+                [
+                    93.09920501708984,
+                    273.3440246582031
+                ]
+            ],
+            [
+                [
+                    97.59920501708984,
+                    251.906005859375
+                ],
+                [
+                    154.42520141601562,
+                    273.3440246582031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>10 rupees</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "10"
+            },
+            {
+                "time": 235,
+                "type": "word",
+                "start": 31,
+                "end": 37,
+                "value": "rupees"
+            }
+        ]
+    },
+    "4": {
         "text": "We give all to our mother to put into the till.",
         "words": [
             "We",
@@ -312,90 +448,91 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">We give all to our mother to put into the till.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>We give all to our mother to put into the till.</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "We"
             },
             {
-                "time": 132,
+                "time": 154,
                 "type": "word",
-                "start": 30,
-                "end": 34,
+                "start": 31,
+                "end": 35,
                 "value": "give"
             },
             {
-                "time": 345,
+                "time": 432,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "all"
             },
             {
-                "time": 575,
+                "time": 631,
                 "type": "word",
-                "start": 39,
-                "end": 41,
+                "start": 40,
+                "end": 42,
                 "value": "to"
             },
             {
-                "time": 795,
+                "time": 754,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "our"
             },
             {
-                "time": 949,
+                "time": 922,
                 "type": "word",
-                "start": 46,
-                "end": 52,
+                "start": 47,
+                "end": 53,
                 "value": "mother"
             },
             {
-                "time": 1304,
+                "time": 1367,
                 "type": "word",
-                "start": 53,
-                "end": 55,
+                "start": 54,
+                "end": 56,
                 "value": "to"
             },
             {
-                "time": 1437,
+                "time": 1460,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 57,
+                "end": 60,
                 "value": "put"
             },
             {
-                "time": 1702,
+                "time": 1751,
                 "type": "word",
-                "start": 60,
-                "end": 64,
+                "start": 61,
+                "end": 65,
                 "value": "into"
             },
             {
-                "time": 1961,
+                "time": 2033,
                 "type": "word",
-                "start": 65,
-                "end": 68,
+                "start": 66,
+                "end": 69,
                 "value": "the"
             },
             {
-                "time": 2093,
+                "time": 2152,
                 "type": "word",
-                "start": 69,
-                "end": 73,
+                "start": 70,
+                "end": 74,
                 "value": "till"
             }
         ]
     },
-    "3": {
+    "5": {
         "text": "How much money do we have ?",
         "words": [
             "How",
@@ -478,50 +615,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How much money do we have ?</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
+        "ssml": "<speak><prosody rate='slow'>How much money do we have ?</prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
-                "time": 186,
+                "time": 198,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "much"
             },
             {
-                "time": 524,
+                "time": 564,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "money"
             },
             {
-                "time": 879,
+                "time": 903,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 43,
+                "end": 45,
                 "value": "do"
             },
             {
-                "time": 1048,
+                "time": 1055,
                 "type": "word",
-                "start": 45,
-                "end": 47,
+                "start": 46,
+                "end": 48,
                 "value": "we"
             },
             {
-                "time": 1182,
+                "time": 1251,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 49,
+                "end": 53,
                 "value": "have"
             }
         ]

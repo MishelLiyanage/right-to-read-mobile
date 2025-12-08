@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -97,43 +98,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen,<break time=\"300ms\"/> point and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen, point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 702,
+                "time": 811,
                 "type": "word",
-                "start": 34,
-                "end": 55,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1102,
-                "type": "word",
-                "start": 56,
-                "end": 61,
+                "start": 36,
+                "end": 41,
                 "value": "point"
             },
             {
-                "time": 1461,
+                "time": 1170,
                 "type": "word",
-                "start": 62,
-                "end": 65,
+                "start": 42,
+                "end": 45,
                 "value": "and"
             },
             {
-                "time": 1635,
+                "time": 1345,
                 "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "say"
             }
         ]
@@ -243,79 +238,73 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">railway station car park bus stop airport Where do<break time=\"1000ms\"/>?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>railway station car park bus stop airport Where do.....?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "railway"
             },
             {
-                "time": 594,
+                "time": 618,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "station"
             },
             {
-                "time": 1166,
+                "time": 1244,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "car"
             },
             {
-                "time": 1423,
+                "time": 1509,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "park"
             },
             {
-                "time": 1778,
+                "time": 1871,
                 "type": "word",
-                "start": 52,
-                "end": 55,
+                "start": 53,
+                "end": 56,
                 "value": "bus"
             },
             {
-                "time": 2043,
+                "time": 2149,
                 "type": "word",
-                "start": 56,
-                "end": 60,
+                "start": 57,
+                "end": 61,
                 "value": "stop"
             },
             {
-                "time": 2451,
+                "time": 2557,
                 "type": "word",
-                "start": 61,
-                "end": 68,
+                "start": 62,
+                "end": 69,
                 "value": "airport"
             },
             {
-                "time": 3039,
+                "time": 3159,
                 "type": "word",
-                "start": 69,
-                "end": 74,
+                "start": 70,
+                "end": 75,
                 "value": "Where"
             },
             {
-                "time": 3177,
+                "time": 3297,
                 "type": "word",
-                "start": 75,
-                "end": 77,
+                "start": 76,
+                "end": 78,
                 "value": "do"
-            },
-            {
-                "time": 3540,
-                "type": "word",
-                "start": 77,
-                "end": 99,
-                "value": "<break time=\"1000ms\"/>"
             }
         ]
     },
@@ -369,36 +358,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">railway station car park</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>railway station car park</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "railway"
             },
             {
-                "time": 572,
+                "time": 598,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "station"
             },
             {
-                "time": 1114,
+                "time": 1173,
                 "type": "word",
-                "start": 43,
-                "end": 46,
+                "start": 44,
+                "end": 47,
                 "value": "car"
             },
             {
-                "time": 1398,
+                "time": 1464,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "park"
             }
         ]
@@ -739,176 +729,170 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">bus stop airport Listen and answer.<break time=\"500ms\"/> \u2022 Where do trains stop? \u2022 Where do you park cars ? \u2022 Where do buses stop ? \u2022 Where do aeroplanes land ?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>bus stop airport Listen and answer. \u2022 Where do trains stop? \u2022 Where do you park cars ? \u2022 Where do buses stop ? \u2022 Where do aeroplanes land ?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "bus"
             },
             {
-                "time": 262,
+                "time": 273,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "stop"
             },
             {
-                "time": 623,
+                "time": 631,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 37,
+                "end": 44,
                 "value": "airport"
             },
             {
-                "time": 1210,
+                "time": 1233,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 45,
+                "end": 51,
                 "value": "Listen"
             },
             {
-                "time": 1621,
+                "time": 1650,
                 "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 52,
+                "end": 55,
                 "value": "and"
             },
             {
-                "time": 1764,
+                "time": 1844,
                 "type": "word",
-                "start": 55,
-                "end": 61,
+                "start": 56,
+                "end": 62,
                 "value": "answer"
             },
             {
-                "time": 2385,
+                "time": 2728,
                 "type": "word",
-                "start": 62,
-                "end": 83,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2892,
-                "type": "word",
-                "start": 88,
-                "end": 93,
+                "start": 68,
+                "end": 73,
                 "value": "Where"
             },
             {
-                "time": 3083,
+                "time": 2928,
                 "type": "word",
-                "start": 94,
-                "end": 96,
+                "start": 74,
+                "end": 76,
                 "value": "do"
             },
             {
-                "time": 3360,
+                "time": 3184,
                 "type": "word",
-                "start": 97,
-                "end": 103,
+                "start": 77,
+                "end": 83,
                 "value": "trains"
             },
             {
-                "time": 3793,
+                "time": 3624,
                 "type": "word",
-                "start": 104,
-                "end": 108,
+                "start": 84,
+                "end": 88,
                 "value": "stop"
             },
             {
-                "time": 4729,
+                "time": 4581,
                 "type": "word",
-                "start": 114,
-                "end": 119,
+                "start": 94,
+                "end": 99,
                 "value": "Where"
             },
             {
-                "time": 4955,
+                "time": 4822,
                 "type": "word",
-                "start": 120,
-                "end": 122,
+                "start": 100,
+                "end": 102,
                 "value": "do"
             },
             {
-                "time": 5052,
+                "time": 4919,
                 "type": "word",
-                "start": 123,
-                "end": 126,
+                "start": 103,
+                "end": 106,
                 "value": "you"
             },
             {
-                "time": 5170,
+                "time": 5036,
                 "type": "word",
-                "start": 127,
-                "end": 131,
+                "start": 107,
+                "end": 111,
                 "value": "park"
             },
             {
-                "time": 5515,
+                "time": 5389,
                 "type": "word",
-                "start": 132,
-                "end": 136,
+                "start": 112,
+                "end": 116,
                 "value": "cars"
             },
             {
-                "time": 6552,
+                "time": 6467,
                 "type": "word",
-                "start": 143,
-                "end": 148,
+                "start": 123,
+                "end": 128,
                 "value": "Where"
             },
             {
-                "time": 6754,
+                "time": 6674,
                 "type": "word",
-                "start": 149,
-                "end": 151,
+                "start": 129,
+                "end": 131,
                 "value": "do"
             },
             {
-                "time": 6996,
+                "time": 6926,
                 "type": "word",
-                "start": 152,
-                "end": 157,
+                "start": 132,
+                "end": 137,
                 "value": "buses"
             },
             {
-                "time": 7459,
+                "time": 7410,
                 "type": "word",
-                "start": 158,
-                "end": 162,
+                "start": 138,
+                "end": 142,
                 "value": "stop"
             },
             {
-                "time": 8403,
+                "time": 8381,
                 "type": "word",
-                "start": 169,
-                "end": 174,
+                "start": 149,
+                "end": 154,
                 "value": "Where"
             },
             {
-                "time": 8586,
+                "time": 8564,
                 "type": "word",
-                "start": 175,
-                "end": 177,
+                "start": 155,
+                "end": 157,
                 "value": "do"
             },
             {
-                "time": 8864,
+                "time": 8865,
                 "type": "word",
-                "start": 178,
-                "end": 188,
+                "start": 158,
+                "end": 168,
                 "value": "aeroplanes"
             },
             {
-                "time": 9544,
+                "time": 9572,
                 "type": "word",
-                "start": 189,
-                "end": 193,
+                "start": 169,
+                "end": 173,
                 "value": "land"
             }
         ]

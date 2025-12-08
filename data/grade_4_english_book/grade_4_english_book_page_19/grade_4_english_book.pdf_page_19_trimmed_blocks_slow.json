@@ -1,0 +1,1008 @@
+{
+    "0": {
+        "text": "Say right or wrong.",
+        "words": [
+            "Say",
+            "right",
+            "or",
+            "wrong."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.78600311279297,
+                    43.083282470703125
+                ],
+                [
+                    161.9980010986328,
+                    69.2852783203125
+                ]
+            ],
+            [
+                [
+                    167.2779998779297,
+                    43.083282470703125
+                ],
+                [
+                    215.39199829101562,
+                    69.2852783203125
+                ]
+            ],
+            [
+                [
+                    220.6719970703125,
+                    43.083282470703125
+                ],
+                [
+                    240.42799377441406,
+                    69.2852783203125
+                ]
+            ],
+            [
+                [
+                    245.4879913330078,
+                    43.083282470703125
+                ],
+                [
+                    316.98797607421875,
+                    69.2852783203125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Say <break time='200ms'/> right <break time='200ms'/> or <break time='200ms'/> wrong. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Say"
+            },
+            {
+                "time": 713,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1013,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "right"
+            },
+            {
+                "time": 1708,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2009,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "or"
+            },
+            {
+                "time": 2565,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2865,
+                "type": "word",
+                "start": 107,
+                "end": 112,
+                "value": "wrong"
+            },
+            {
+                "time": 3469,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "1.Chandi has a bushy tail.",
+        "words": [
+            "1.Chandi",
+            "has",
+            "a",
+            "bushy",
+            "tail."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.722007751464844,
+                    108.15927124023438
+                ],
+                [
+                    153.04400634765625,
+                    134.36126708984375
+                ]
+            ],
+            [
+                [
+                    158.54400634765625,
+                    108.15927124023438
+                ],
+                [
+                    195.79000854492188,
+                    134.36126708984375
+                ]
+            ],
+            [
+                [
+                    201.29000854492188,
+                    108.15927124023438
+                ],
+                [
+                    214.666015625,
+                    134.36126708984375
+                ]
+            ],
+            [
+                [
+                    220.166015625,
+                    108.15927124023438
+                ],
+                [
+                    282.25006103515625,
+                    134.36126708984375
+                ]
+            ],
+            [
+                [
+                    287.31005859375,
+                    108.15927124023438
+                ],
+                [
+                    326.382080078125,
+                    134.36126708984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>1.<phoneme alphabet='ipa' ph='t\u0361\u0283andi'>Chandi</phoneme> <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> bushy <break time='200ms'/> tail. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "1"
+            },
+            {
+                "time": 981,
+                "type": "word",
+                "start": 69,
+                "end": 75,
+                "value": "Chandi"
+            },
+            {
+                "time": 1786,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2079,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "has"
+            },
+            {
+                "time": 2727,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3020,
+                "type": "word",
+                "start": 134,
+                "end": 135,
+                "value": "a"
+            },
+            {
+                "time": 3720,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4014,
+                "type": "word",
+                "start": 158,
+                "end": 163,
+                "value": "bushy"
+            },
+            {
+                "time": 4754,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5048,
+                "type": "word",
+                "start": 186,
+                "end": 190,
+                "value": "tail"
+            },
+            {
+                "time": 5571,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "2.Bindu has black spots.",
+        "words": [
+            "2.Bindu",
+            "has",
+            "black",
+            "spots."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.722007751464844,
+                    143.16128540039062
+                ],
+                [
+                    142.15402221679688,
+                    169.36328125
+                ]
+            ],
+            [
+                [
+                    147.65402221679688,
+                    143.16128540039062
+                ],
+                [
+                    184.9000244140625,
+                    169.36328125
+                ]
+            ],
+            [
+                [
+                    190.4000244140625,
+                    143.16128540039062
+                ],
+                [
+                    245.8180389404297,
+                    169.36328125
+                ]
+            ],
+            [
+                [
+                    251.09803771972656,
+                    143.16128540039062
+                ],
+                [
+                    312.1480407714844,
+                    169.36328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>2.<phoneme alphabet='ipa' ph='bindu'>Bindu</phoneme> <break time='200ms'/> has <break time='200ms'/> black <break time='200ms'/> spots. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "2"
+            },
+            {
+                "time": 874,
+                "type": "word",
+                "start": 65,
+                "end": 70,
+                "value": "Bindu"
+            },
+            {
+                "time": 1618,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 103,
+                "end": 106,
+                "value": "has"
+            },
+            {
+                "time": 2559,
+                "type": "word",
+                "start": 107,
+                "end": 128,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2859,
+                "type": "word",
+                "start": 129,
+                "end": 134,
+                "value": "black"
+            },
+            {
+                "time": 3479,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3769,
+                "type": "word",
+                "start": 157,
+                "end": 162,
+                "value": "spots"
+            },
+            {
+                "time": 4585,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "3.Tiny has orange fins.",
+        "words": [
+            "3.Tiny",
+            "has",
+            "orange",
+            "fins."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.722007751464844,
+                    178.16329956054688
+                ],
+                [
+                    122.42000579833984,
+                    204.36529541015625
+                ]
+            ],
+            [
+                [
+                    127.70000457763672,
+                    178.16329956054688
+                ],
+                [
+                    164.94601440429688,
+                    204.36529541015625
+                ]
+            ],
+            [
+                [
+                    170.44601440429688,
+                    178.16329956054688
+                ],
+                [
+                    242.8480224609375,
+                    204.36529541015625
+                ]
+            ],
+            [
+                [
+                    248.3480224609375,
+                    178.16329956054688
+                ],
+                [
+                    292.7000427246094,
+                    204.36529541015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>3.Tiny <break time='200ms'/> has <break time='200ms'/> orange <break time='200ms'/> fins. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "3"
+            },
+            {
+                "time": 1014,
+                "type": "word",
+                "start": 30,
+                "end": 34,
+                "value": "Tiny"
+            },
+            {
+                "time": 1778,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2071,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "has"
+            },
+            {
+                "time": 2719,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3012,
+                "type": "word",
+                "start": 83,
+                "end": 89,
+                "value": "orange"
+            },
+            {
+                "time": 3752,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4052,
+                "type": "word",
+                "start": 112,
+                "end": 116,
+                "value": "fins"
+            },
+            {
+                "time": 4745,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "4.Micky has a brown beak.",
+        "words": [
+            "4.Micky",
+            "has",
+            "a",
+            "brown",
+            "beak."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.722007751464844,
+                    213.16531372070312
+                ],
+                [
+                    140.04200744628906,
+                    239.3673095703125
+                ]
+            ],
+            [
+                [
+                    145.32200622558594,
+                    213.16531372070312
+                ],
+                [
+                    182.56800842285156,
+                    239.3673095703125
+                ]
+            ],
+            [
+                [
+                    188.06800842285156,
+                    213.16531372070312
+                ],
+                [
+                    201.4440155029297,
+                    239.3673095703125
+                ]
+            ],
+            [
+                [
+                    206.9440155029297,
+                    213.16531372070312
+                ],
+                [
+                    271.426025390625,
+                    239.3673095703125
+                ]
+            ],
+            [
+                [
+                    276.926025390625,
+                    213.16531372070312
+                ],
+                [
+                    334.9400329589844,
+                    239.3673095703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>4.Micky <break time='200ms'/> has <break time='200ms'/> a <break time='200ms'/> brown <break time='200ms'/> beak. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "4"
+            },
+            {
+                "time": 945,
+                "type": "word",
+                "start": 30,
+                "end": 35,
+                "value": "Micky"
+            },
+            {
+                "time": 1683,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1976,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "has"
+            },
+            {
+                "time": 2624,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2918,
+                "type": "word",
+                "start": 84,
+                "end": 85,
+                "value": "a"
+            },
+            {
+                "time": 3617,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3910,
+                "type": "word",
+                "start": 108,
+                "end": 113,
+                "value": "brown"
+            },
+            {
+                "time": 4615,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4915,
+                "type": "word",
+                "start": 136,
+                "end": 140,
+                "value": "beak"
+            },
+            {
+                "time": 5388,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Discuss the pictures with the students. Say the sentences aloud. Ask them to answer.",
+        "words": [
+            "Discuss",
+            "the",
+            "pictures",
+            "with",
+            "the",
+            "students.",
+            "Say",
+            "the",
+            "sentences",
+            "aloud.",
+            "Ask",
+            "them",
+            "to",
+            "answer."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    128.1356964111328,
+                    268.9024963378906
+                ],
+                [
+                    169.85971069335938,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    173.27972412109375,
+                    268.9024963378906
+                ],
+                [
+                    192.20372009277344,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    195.75572204589844,
+                    268.9024963378906
+                ],
+                [
+                    240.2997283935547,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    243.7317352294922,
+                    268.9024963378906
+                ],
+                [
+                    268.6197204589844,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    272.0517272949219,
+                    268.9024963378906
+                ],
+                [
+                    290.9757080078125,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    294.5277099609375,
+                    268.9024963378906
+                ],
+                [
+                    347.49566650390625,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    350.2076721191406,
+                    268.9024963378906
+                ],
+                [
+                    369.95965576171875,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    373.27166748046875,
+                    268.9024963378906
+                ],
+                [
+                    392.1956481933594,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    395.7476501464844,
+                    268.9024963378906
+                ],
+                [
+                    452.735595703125,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    456.2756042480469,
+                    268.9024963378906
+                ],
+                [
+                    491.8916015625,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    494.6036071777344,
+                    268.9024963378906
+                ],
+                [
+                    514.5236206054688,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    517.8356323242188,
+                    268.9024963378906
+                ],
+                [
+                    549.0596313476562,
+                    283.19451904296875
+                ]
+            ],
+            [
+                [
+                    128.1356964111328,
+                    283.302490234375
+                ],
+                [
+                    139.27169799804688,
+                    297.5945129394531
+                ]
+            ],
+            [
+                [
+                    142.27169799804688,
+                    283.302490234375
+                ],
+                [
+                    186.47972106933594,
+                    297.5945129394531
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Discuss <break time='200ms'/> the <break time='200ms'/> pictures <break time='200ms'/> with <break time='200ms'/> the <break time='200ms'/> students. <break time='200ms'/> Say <break time='200ms'/> the <break time='200ms'/> sentences <break time='200ms'/> aloud. <break time='200ms'/> Ask <break time='200ms'/> them <break time='200ms'/> to <break time='200ms'/> answer. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Discuss"
+            },
+            {
+                "time": 915,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1215,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "the"
+            },
+            {
+                "time": 1651,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1951,
+                "type": "word",
+                "start": 84,
+                "end": 92,
+                "value": "pictures"
+            },
+            {
+                "time": 2841,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3141,
+                "type": "word",
+                "start": 115,
+                "end": 119,
+                "value": "with"
+            },
+            {
+                "time": 3711,
+                "type": "word",
+                "start": 120,
+                "end": 141,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4011,
+                "type": "word",
+                "start": 142,
+                "end": 145,
+                "value": "the"
+            },
+            {
+                "time": 4441,
+                "type": "word",
+                "start": 146,
+                "end": 167,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4742,
+                "type": "word",
+                "start": 168,
+                "end": 176,
+                "value": "students"
+            },
+            {
+                "time": 5455,
+                "type": "word",
+                "start": 178,
+                "end": 199,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6042,
+                "type": "word",
+                "start": 200,
+                "end": 203,
+                "value": "Say"
+            },
+            {
+                "time": 6802,
+                "type": "word",
+                "start": 204,
+                "end": 225,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7097,
+                "type": "word",
+                "start": 226,
+                "end": 229,
+                "value": "the"
+            },
+            {
+                "time": 7648,
+                "type": "word",
+                "start": 230,
+                "end": 251,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7948,
+                "type": "word",
+                "start": 252,
+                "end": 261,
+                "value": "sentences"
+            },
+            {
+                "time": 9044,
+                "type": "word",
+                "start": 262,
+                "end": 283,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9345,
+                "type": "word",
+                "start": 284,
+                "end": 289,
+                "value": "aloud"
+            },
+            {
+                "time": 9956,
+                "type": "word",
+                "start": 291,
+                "end": 312,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10542,
+                "type": "word",
+                "start": 313,
+                "end": 316,
+                "value": "Ask"
+            },
+            {
+                "time": 11169,
+                "type": "word",
+                "start": 317,
+                "end": 338,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11469,
+                "type": "word",
+                "start": 339,
+                "end": 343,
+                "value": "them"
+            },
+            {
+                "time": 12004,
+                "type": "word",
+                "start": 344,
+                "end": 365,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12298,
+                "type": "word",
+                "start": 366,
+                "end": 368,
+                "value": "to"
+            },
+            {
+                "time": 12915,
+                "type": "word",
+                "start": 369,
+                "end": 390,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13216,
+                "type": "word",
+                "start": 391,
+                "end": 397,
+                "value": "answer"
+            },
+            {
+                "time": 13974,
+                "type": "word",
+                "start": 399,
+                "end": 420,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

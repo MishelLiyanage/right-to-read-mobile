@@ -1,0 +1,898 @@
+{
+    "0": {
+        "text": "I have fifteen rupees.",
+        "words": [
+            "I",
+            "have",
+            "fifteen",
+            "rupees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.71730041503906,
+                    87.58316040039062
+                ],
+                [
+                    104.37730407714844,
+                    109.02116394042969
+                ]
+            ],
+            [
+                [
+                    108.87730407714844,
+                    87.58316040039062
+                ],
+                [
+                    150.43931579589844,
+                    109.02116394042969
+                ]
+            ],
+            [
+                [
+                    154.93931579589844,
+                    87.58316040039062
+                ],
+                [
+                    211.7113037109375,
+                    109.02116394042969
+                ]
+            ],
+            [
+                [
+                    216.2113037109375,
+                    87.58316040039062
+                ],
+                [
+                    278.6893005371094,
+                    109.02116394042969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> have <break time='200ms'/> fifteen <break time='200ms'/> rupees. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 644,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 944,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "have"
+            },
+            {
+                "time": 1505,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1805,
+                "type": "word",
+                "start": 79,
+                "end": 86,
+                "value": "fifteen"
+            },
+            {
+                "time": 2752,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3053,
+                "type": "word",
+                "start": 109,
+                "end": 115,
+                "value": "rupees"
+            },
+            {
+                "time": 3863,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "5 rupees 10 rupees",
+        "words": [
+            "5",
+            "rupees",
+            "10",
+            "rupees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    243.7718963623047,
+                    128.65371704101562
+                ],
+                [
+                    254.60789489746094,
+                    150.0917205810547
+                ]
+            ],
+            [
+                [
+                    223.035888671875,
+                    150.25369262695312
+                ],
+                [
+                    279.86187744140625,
+                    171.6916961669922
+                ]
+            ],
+            [
+                [
+                    74.8292007446289,
+                    141.26712036132812
+                ],
+                [
+                    93.09920501708984,
+                    162.7051239013672
+                ]
+            ],
+            [
+                [
+                    97.59920501708984,
+                    141.26712036132812
+                ],
+                [
+                    154.42520141601562,
+                    162.7051239013672
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>5 <break time='200ms'/> rupees <break time='200ms'/> 10 <break time='200ms'/> rupees <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "5"
+            },
+            {
+                "time": 681,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 981,
+                "type": "word",
+                "start": 52,
+                "end": 58,
+                "value": "rupees"
+            },
+            {
+                "time": 1896,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2196,
+                "type": "word",
+                "start": 81,
+                "end": 83,
+                "value": "10"
+            },
+            {
+                "time": 2856,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3150,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "rupees"
+            },
+            {
+                "time": 4151,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "My sister has ten rupees.",
+        "words": [
+            "My",
+            "sister",
+            "has",
+            "ten",
+            "rupees."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.72520446777344,
+                    208.8751220703125
+                ],
+                [
+                    122.45720672607422,
+                    230.31312561035156
+                ]
+            ],
+            [
+                [
+                    126.77720642089844,
+                    208.8751220703125
+                ],
+                [
+                    170.26519775390625,
+                    230.31312561035156
+                ]
+            ],
+            [
+                [
+                    174.585205078125,
+                    208.8751220703125
+                ],
+                [
+                    205.0592041015625,
+                    230.31312561035156
+                ]
+            ],
+            [
+                [
+                    209.37921142578125,
+                    208.8751220703125
+                ],
+                [
+                    237.4951934814453,
+                    230.31312561035156
+                ]
+            ],
+            [
+                [
+                    241.9951934814453,
+                    208.8751220703125
+                ],
+                [
+                    304.47320556640625,
+                    230.31312561035156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>My <break time='200ms'/> sister <break time='200ms'/> has <break time='200ms'/> ten <break time='200ms'/> rupees. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "My"
+            },
+            {
+                "time": 640,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 941,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "sister"
+            },
+            {
+                "time": 1717,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2010,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "has"
+            },
+            {
+                "time": 2644,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2945,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "ten"
+            },
+            {
+                "time": 3660,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3961,
+                "type": "word",
+                "start": 134,
+                "end": 140,
+                "value": "rupees"
+            },
+            {
+                "time": 4771,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "10 rupees",
+        "words": [
+            "10",
+            "rupees"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    74.8292007446289,
+                    251.906005859375
+                ],
+                [
+                    93.09920501708984,
+                    273.3440246582031
+                ]
+            ],
+            [
+                [
+                    97.59920501708984,
+                    251.906005859375
+                ],
+                [
+                    154.42520141601562,
+                    273.3440246582031
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>10 <break time='200ms'/> rupees <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "10"
+            },
+            {
+                "time": 636,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 931,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "rupees"
+            },
+            {
+                "time": 1932,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "We give all to our mother to put into the till.",
+        "words": [
+            "We",
+            "give",
+            "all",
+            "to",
+            "our",
+            "mother",
+            "to",
+            "put",
+            "into",
+            "the",
+            "till."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.72520446777344,
+                    310.9640197753906
+                ],
+                [
+                    125.2112045288086,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    129.71121215820312,
+                    310.9640197753906
+                ],
+                [
+                    164.4152069091797,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    168.9152069091797,
+                    310.9640197753906
+                ],
+                [
+                    188.67921447753906,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    192.9992218017578,
+                    310.9640197753906
+                ],
+                [
+                    209.70321655273438,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    214.20321655273438,
+                    310.9640197753906
+                ],
+                [
+                    241.70721435546875,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    246.0272216796875,
+                    310.9640197753906
+                ],
+                [
+                    308.9372253417969,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    313.0772399902344,
+                    310.9640197753906
+                ],
+                [
+                    329.78125,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    334.28125,
+                    310.9640197753906
+                ],
+                [
+                    363.4052429199219,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    367.7252502441406,
+                    310.9640197753906
+                ],
+                [
+                    400.0712585449219,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    404.3912658691406,
+                    310.9640197753906
+                ],
+                [
+                    432.7772521972656,
+                    332.40203857421875
+                ]
+            ],
+            [
+                [
+                    437.0972595214844,
+                    310.9640197753906
+                ],
+                [
+                    462.80126953125,
+                    332.40203857421875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> give <break time='200ms'/> all <break time='200ms'/> to <break time='200ms'/> our <break time='200ms'/> mother <break time='200ms'/> to <break time='200ms'/> put <break time='200ms'/> into <break time='200ms'/> the <break time='200ms'/> till. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 545,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 843,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "give"
+            },
+            {
+                "time": 1535,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1836,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "all"
+            },
+            {
+                "time": 2379,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2679,
+                "type": "word",
+                "start": 106,
+                "end": 108,
+                "value": "to"
+            },
+            {
+                "time": 3367,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3661,
+                "type": "word",
+                "start": 131,
+                "end": 134,
+                "value": "our"
+            },
+            {
+                "time": 4364,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4667,
+                "type": "word",
+                "start": 157,
+                "end": 163,
+                "value": "mother"
+            },
+            {
+                "time": 5393,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5694,
+                "type": "word",
+                "start": 186,
+                "end": 188,
+                "value": "to"
+            },
+            {
+                "time": 6382,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6682,
+                "type": "word",
+                "start": 211,
+                "end": 214,
+                "value": "put"
+            },
+            {
+                "time": 7271,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7573,
+                "type": "word",
+                "start": 237,
+                "end": 241,
+                "value": "into"
+            },
+            {
+                "time": 8205,
+                "type": "word",
+                "start": 242,
+                "end": 263,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8505,
+                "type": "word",
+                "start": 264,
+                "end": 267,
+                "value": "the"
+            },
+            {
+                "time": 8911,
+                "type": "word",
+                "start": 268,
+                "end": 289,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9211,
+                "type": "word",
+                "start": 290,
+                "end": 294,
+                "value": "till"
+            },
+            {
+                "time": 9757,
+                "type": "word",
+                "start": 296,
+                "end": 317,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "How much money do we have ?",
+        "words": [
+            "How",
+            "much",
+            "money",
+            "do",
+            "we",
+            "have",
+            "?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    97.72520446777344,
+                    340.77203369140625
+                ],
+                [
+                    136.29920959472656,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    140.6192169189453,
+                    340.77203369140625
+                ],
+                [
+                    191.07321166992188,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    195.57321166992188,
+                    340.77203369140625
+                ],
+                [
+                    254.86520385742188,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    259.1852111816406,
+                    340.77203369140625
+                ],
+                [
+                    280.2632141113281,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    284.5832214355469,
+                    340.77203369140625
+                ],
+                [
+                    309.459228515625,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    313.959228515625,
+                    340.77203369140625
+                ],
+                [
+                    355.521240234375,
+                    362.2100524902344
+                ]
+            ],
+            [
+                [
+                    360.021240234375,
+                    340.77203369140625
+                ],
+                [
+                    369.2552490234375,
+                    362.2100524902344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>How <break time='200ms'/> much <break time='200ms'/> money <break time='200ms'/> do <break time='200ms'/> we <break time='200ms'/> have <break time='200ms'/> ? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "How"
+            },
+            {
+                "time": 599,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 899,
+                "type": "word",
+                "start": 54,
+                "end": 58,
+                "value": "much"
+            },
+            {
+                "time": 1539,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1840,
+                "type": "word",
+                "start": 81,
+                "end": 86,
+                "value": "money"
+            },
+            {
+                "time": 2558,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2859,
+                "type": "word",
+                "start": 109,
+                "end": 111,
+                "value": "do"
+            },
+            {
+                "time": 3450,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3751,
+                "type": "word",
+                "start": 134,
+                "end": 136,
+                "value": "we"
+            },
+            {
+                "time": 4293,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4583,
+                "type": "word",
+                "start": 159,
+                "end": 163,
+                "value": "have"
+            },
+            {
+                "time": 5131,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5711,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

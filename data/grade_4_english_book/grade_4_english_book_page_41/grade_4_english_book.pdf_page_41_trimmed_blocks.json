@@ -27,94 +27,29 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 8</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 8</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 447,
+                "time": 478,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "8"
             }
         ]
     },
     "1": {
-        "text": "Point and say.",
-        "words": [
-            "Point",
-            "and",
-            "say."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    131.4792022705078,
-                    81.39743041992188
-                ],
-                [
-                    183.4431915283203,
-                    107.59942626953125
-                ]
-            ],
-            [
-                [
-                    188.7231903076172,
-                    81.39743041992188
-                ],
-                [
-                    229.335205078125,
-                    107.59942626953125
-                ]
-            ],
-            [
-                [
-                    234.835205078125,
-                    81.39743041992188
-                ],
-                [
-                    274.4571838378906,
-                    107.59942626953125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Point and say.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Point"
-            },
-            {
-                "time": 357,
-                "type": "word",
-                "start": 33,
-                "end": 36,
-                "value": "and"
-            },
-            {
-                "time": 531,
-                "type": "word",
-                "start": 37,
-                "end": 40,
-                "value": "say"
-            }
-        ]
-    },
-    "2": {
-        "text": "I like to visit... There is / are...",
+        "text": "I like to visit... There is / are... Point and say.",
         "words": [
             "I",
             "like",
@@ -123,7 +58,10 @@
             "There",
             "is",
             "/",
-            "are..."
+            "are...",
+            "Point",
+            "and",
+            "say."
         ],
         "bounding_boxes": [
             [
@@ -205,74 +143,112 @@
                     493.6072998046875,
                     102.27507019042969
                 ]
+            ],
+            [
+                [
+                    131.4792022705078,
+                    81.39743041992188
+                ],
+                [
+                    183.4431915283203,
+                    107.59942626953125
+                ]
+            ],
+            [
+                [
+                    188.7231903076172,
+                    81.39743041992188
+                ],
+                [
+                    229.335205078125,
+                    107.59942626953125
+                ]
+            ],
+            [
+                [
+                    234.835205078125,
+                    81.39743041992188
+                ],
+                [
+                    274.4571838378906,
+                    107.59942626953125
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like to visit<break time=\"1000ms\"/> There is / are<break time=\"1000ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like to visit... There is / are... Point and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 142,
+                "time": 122,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 399,
+                "time": 456,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 517,
+                "time": 575,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 38,
+                "end": 43,
                 "value": "visit"
             },
             {
-                "time": 1182,
+                "time": 1536,
                 "type": "word",
-                "start": 42,
-                "end": 64,
-                "value": "<break time=\"1000ms\"/>"
-            },
-            {
-                "time": 2282,
-                "type": "word",
-                "start": 65,
-                "end": 70,
+                "start": 47,
+                "end": 52,
                 "value": "There"
             },
             {
-                "time": 2491,
+                "time": 1795,
                 "type": "word",
-                "start": 71,
-                "end": 73,
+                "start": 53,
+                "end": 55,
                 "value": "is"
             },
             {
-                "time": 3085,
+                "time": 2426,
                 "type": "word",
-                "start": 76,
-                "end": 79,
+                "start": 58,
+                "end": 61,
                 "value": "are"
             },
             {
-                "time": 3766,
+                "time": 3371,
                 "type": "word",
-                "start": 79,
-                "end": 101,
-                "value": "<break time=\"1000ms\"/>"
+                "start": 65,
+                "end": 70,
+                "value": "Point"
+            },
+            {
+                "time": 3722,
+                "type": "word",
+                "start": 71,
+                "end": 74,
+                "value": "and"
+            },
+            {
+                "time": 3896,
+                "type": "word",
+                "start": 75,
+                "end": 78,
+                "value": "say"
             }
         ]
     }

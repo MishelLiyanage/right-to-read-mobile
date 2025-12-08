@@ -1,0 +1,580 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.653099060058594,
+                    51.839996337890625
+                ],
+                [
+                    116.87308502197266,
+                    75.65999603271484
+                ]
+            ],
+            [
+                [
+                    121.87308502197266,
+                    51.839996337890625
+                ],
+                [
+                    158.7930908203125,
+                    75.65999603271484
+                ]
+            ],
+            [
+                [
+                    163.7930908203125,
+                    51.839996337890625
+                ],
+                [
+                    199.81309509277344,
+                    75.65999603271484
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "bee monkey crow butterfly",
+        "words": [
+            "bee",
+            "monkey",
+            "crow",
+            "butterfly"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    138.38699340820312,
+                    149.32797241210938
+                ],
+                [
+                    169.74298095703125,
+                    170.76597595214844
+                ]
+            ],
+            [
+                [
+                    188.8409881591797,
+                    128.55599975585938
+                ],
+                [
+                    257.31298828125,
+                    149.99400329589844
+                ]
+            ],
+            [
+                [
+                    295.34698486328125,
+                    126.28799438476562
+                ],
+                [
+                    335.14495849609375,
+                    147.7259979248047
+                ]
+            ],
+            [
+                [
+                    360.614990234375,
+                    133.48800659179688
+                ],
+                [
+                    434.0010070800781,
+                    154.92601013183594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bee <break time='200ms'/> monkey <break time='200ms'/> crow <break time='200ms'/> butterfly <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "bee"
+            },
+            {
+                "time": 599,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 899,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "monkey"
+            },
+            {
+                "time": 1739,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2032,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "crow"
+            },
+            {
+                "time": 2653,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2953,
+                "type": "word",
+                "start": 110,
+                "end": 119,
+                "value": "butterfly"
+            },
+            {
+                "time": 4054,
+                "type": "word",
+                "start": 120,
+                "end": 141,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "parrot",
+        "words": [
+            "parrot"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    473.906982421875,
+                    258.76800537109375
+                ],
+                [
+                    524.3789672851562,
+                    280.2060241699219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>parrot <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "parrot"
+            },
+            {
+                "time": 682,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "mynah",
+        "words": [
+            "mynah"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    112.46699523925781,
+                    299.0880126953125
+                ],
+                [
+                    173.52297973632812,
+                    320.5260314941406
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>mynah <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "mynah"
+            },
+            {
+                "time": 774,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "rat squirrel worm",
+        "words": [
+            "rat",
+            "squirrel",
+            "worm"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    424.9469909667969,
+                    301.8780212402344
+                ],
+                [
+                    448.3110046386719,
+                    323.3160400390625
+                ]
+            ],
+            [
+                [
+                    301.93499755859375,
+                    320.6880187988281
+                ],
+                [
+                    363.11700439453125,
+                    342.12603759765625
+                ]
+            ],
+            [
+                [
+                    223.27499389648438,
+                    331.63201904296875
+                ],
+                [
+                    272.5589904785156,
+                    353.0700378417969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>rat <break time='200ms'/> squirrel <break time='200ms'/> worm <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "rat"
+            },
+            {
+                "time": 606,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 899,
+                "type": "word",
+                "start": 54,
+                "end": 62,
+                "value": "squirrel"
+            },
+            {
+                "time": 1775,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2075,
+                "type": "word",
+                "start": 85,
+                "end": 89,
+                "value": "worm"
+            },
+            {
+                "time": 2689,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "These are animals and birds in my garden.",
+        "words": [
+            "These",
+            "are",
+            "animals",
+            "and",
+            "birds",
+            "in",
+            "my",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    335.2659912109375,
+                    447.4079895019531
+                ],
+                [
+                    384.5679626464844,
+                    468.84600830078125
+                ]
+            ],
+            [
+                [
+                    389.0679626464844,
+                    447.4079895019531
+                ],
+                [
+                    415.8879699707031,
+                    468.84600830078125
+                ]
+            ],
+            [
+                [
+                    420.3879699707031,
+                    447.4079895019531
+                ],
+                [
+                    489.0579833984375,
+                    468.84600830078125
+                ]
+            ],
+            [
+                [
+                    493.5579833984375,
+                    447.4079895019531
+                ],
+                [
+                    526.7860107421875,
+                    468.84600830078125
+                ]
+            ],
+            [
+                [
+                    335.2659912109375,
+                    469.00799560546875
+                ],
+                [
+                    375.406005859375,
+                    490.4460144042969
+                ]
+            ],
+            [
+                [
+                    379.906005859375,
+                    469.00799560546875
+                ],
+                [
+                    395.63800048828125,
+                    490.4460144042969
+                ]
+            ],
+            [
+                [
+                    400.13800048828125,
+                    469.00799560546875
+                ],
+                [
+                    427.5700378417969,
+                    490.4460144042969
+                ]
+            ],
+            [
+                [
+                    431.8900451660156,
+                    469.00799560546875
+                ],
+                [
+                    497.5900573730469,
+                    490.4460144042969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>These <break time='200ms'/> are <break time='200ms'/> animals <break time='200ms'/> and <break time='200ms'/> birds <break time='200ms'/> in <break time='200ms'/> my <break time='200ms'/> garden. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "These"
+            },
+            {
+                "time": 706,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1000,
+                "type": "word",
+                "start": 56,
+                "end": 59,
+                "value": "are"
+            },
+            {
+                "time": 1601,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1895,
+                "type": "word",
+                "start": 82,
+                "end": 89,
+                "value": "animals"
+            },
+            {
+                "time": 2770,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3072,
+                "type": "word",
+                "start": 112,
+                "end": 115,
+                "value": "and"
+            },
+            {
+                "time": 3654,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3954,
+                "type": "word",
+                "start": 138,
+                "end": 143,
+                "value": "birds"
+            },
+            {
+                "time": 4674,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4974,
+                "type": "word",
+                "start": 166,
+                "end": 168,
+                "value": "in"
+            },
+            {
+                "time": 5511,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5811,
+                "type": "word",
+                "start": 191,
+                "end": 193,
+                "value": "my"
+            },
+            {
+                "time": 6475,
+                "type": "word",
+                "start": 194,
+                "end": 215,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6776,
+                "type": "word",
+                "start": 216,
+                "end": 222,
+                "value": "garden"
+            },
+            {
+                "time": 7404,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

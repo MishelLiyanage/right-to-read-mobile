@@ -1,0 +1,1418 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    43.20000076293945,
+                    52.211029052734375
+                ],
+                [
+                    98.42000579833984,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    103.42000579833984,
+                    52.211029052734375
+                ],
+                [
+                    140.3400115966797,
+                    76.0310287475586
+                ]
+            ],
+            [
+                [
+                    145.3400115966797,
+                    52.211029052734375
+                ],
+                [
+                    181.36001586914062,
+                    76.0310287475586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "I'm a giraffe. I have a long neck.",
+        "words": [
+            "I'm",
+            "a",
+            "giraffe.",
+            "I",
+            "have",
+            "a",
+            "long",
+            "neck."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    61.84498596191406,
+                    145.01101684570312
+                ],
+                [
+                    87.1089859008789,
+                    164.0670166015625
+                ]
+            ],
+            [
+                [
+                    91.1089859008789,
+                    145.01101684570312
+                ],
+                [
+                    100.83699035644531,
+                    164.0670166015625
+                ]
+            ],
+            [
+                [
+                    104.83699035644531,
+                    145.01101684570312
+                ],
+                [
+                    159.58897399902344,
+                    164.0670166015625
+                ]
+            ],
+            [
+                [
+                    61.84498596191406,
+                    164.21102905273438
+                ],
+                [
+                    67.76498413085938,
+                    183.26702880859375
+                ]
+            ],
+            [
+                [
+                    71.76498413085938,
+                    164.21102905273438
+                ],
+                [
+                    108.70897674560547,
+                    183.26702880859375
+                ]
+            ],
+            [
+                [
+                    112.70897674560547,
+                    164.21102905273438
+                ],
+                [
+                    122.43698120117188,
+                    183.26702880859375
+                ]
+            ],
+            [
+                [
+                    126.43698120117188,
+                    164.21102905273438
+                ],
+                [
+                    159.1729736328125,
+                    183.26702880859375
+                ]
+            ],
+            [
+                [
+                    61.84498596191406,
+                    183.41104125976562
+                ],
+                [
+                    102.94898986816406,
+                    202.467041015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> a <break time='200ms'/> giraffe. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> a <break time='200ms'/> long <break time='200ms'/> neck. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1471,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1772,
+                "type": "word",
+                "start": 78,
+                "end": 85,
+                "value": "giraffe"
+            },
+            {
+                "time": 2516,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3103,
+                "type": "word",
+                "start": 109,
+                "end": 110,
+                "value": "I"
+            },
+            {
+                "time": 3741,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4041,
+                "type": "word",
+                "start": 133,
+                "end": 137,
+                "value": "have"
+            },
+            {
+                "time": 4602,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4902,
+                "type": "word",
+                "start": 160,
+                "end": 161,
+                "value": "a"
+            },
+            {
+                "time": 5479,
+                "type": "word",
+                "start": 162,
+                "end": 183,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5779,
+                "type": "word",
+                "start": 184,
+                "end": 188,
+                "value": "long"
+            },
+            {
+                "time": 6371,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6671,
+                "type": "word",
+                "start": 211,
+                "end": 215,
+                "value": "neck"
+            },
+            {
+                "time": 7252,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "I'm a zebra. I have stripes.",
+        "words": [
+            "I'm",
+            "a",
+            "zebra.",
+            "I",
+            "have",
+            "stripes."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    229.17298889160156,
+                    118.2590103149414
+                ],
+                [
+                    254.43698120117188,
+                    137.31500244140625
+                ]
+            ],
+            [
+                [
+                    258.4369812011719,
+                    118.2590103149414
+                ],
+                [
+                    268.16497802734375,
+                    137.31500244140625
+                ]
+            ],
+            [
+                [
+                    272.16497802734375,
+                    118.2590103149414
+                ],
+                [
+                    318.27691650390625,
+                    137.31500244140625
+                ]
+            ],
+            [
+                [
+                    229.17298889160156,
+                    137.45901489257812
+                ],
+                [
+                    235.09298706054688,
+                    156.5150146484375
+                ]
+            ],
+            [
+                [
+                    239.09298706054688,
+                    137.45901489257812
+                ],
+                [
+                    276.0370178222656,
+                    156.5150146484375
+                ]
+            ],
+            [
+                [
+                    280.0370178222656,
+                    137.45901489257812
+                ],
+                [
+                    333.6849670410156,
+                    156.5150146484375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> a <break time='200ms'/> zebra. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> stripes. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1550,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1850,
+                "type": "word",
+                "start": 78,
+                "end": 83,
+                "value": "zebra"
+            },
+            {
+                "time": 2470,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3057,
+                "type": "word",
+                "start": 107,
+                "end": 108,
+                "value": "I"
+            },
+            {
+                "time": 3608,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3908,
+                "type": "word",
+                "start": 131,
+                "end": 135,
+                "value": "have"
+            },
+            {
+                "time": 4609,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4903,
+                "type": "word",
+                "start": 158,
+                "end": 165,
+                "value": "stripes"
+            },
+            {
+                "time": 5698,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "I'm an elephant. I have a trunk. I have big ears.",
+        "words": [
+            "I'm",
+            "an",
+            "elephant.",
+            "I",
+            "have",
+            "a",
+            "trunk.",
+            "I",
+            "have",
+            "big",
+            "ears."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    379.70098876953125,
+                    87.74698638916016
+                ],
+                [
+                    404.9649963378906,
+                    106.80298614501953
+                ]
+            ],
+            [
+                [
+                    408.9649963378906,
+                    87.74698638916016
+                ],
+                [
+                    428.7729797363281,
+                    106.80298614501953
+                ]
+            ],
+            [
+                [
+                    432.7729797363281,
+                    87.74698638916016
+                ],
+                [
+                    505.4769287109375,
+                    106.80298614501953
+                ]
+            ],
+            [
+                [
+                    379.70098876953125,
+                    106.9469985961914
+                ],
+                [
+                    385.6210021972656,
+                    126.00299835205078
+                ]
+            ],
+            [
+                [
+                    389.6210021972656,
+                    106.9469985961914
+                ],
+                [
+                    426.56500244140625,
+                    126.00299835205078
+                ]
+            ],
+            [
+                [
+                    430.56500244140625,
+                    106.9469985961914
+                ],
+                [
+                    440.2929992675781,
+                    126.00299835205078
+                ]
+            ],
+            [
+                [
+                    444.13299560546875,
+                    106.9469985961914
+                ],
+                [
+                    489.31695556640625,
+                    126.00299835205078
+                ]
+            ],
+            [
+                [
+                    379.70098876953125,
+                    126.14701080322266
+                ],
+                [
+                    385.6210021972656,
+                    145.2030029296875
+                ]
+            ],
+            [
+                [
+                    389.6210021972656,
+                    126.14701080322266
+                ],
+                [
+                    426.56500244140625,
+                    145.2030029296875
+                ]
+            ],
+            [
+                [
+                    430.56500244140625,
+                    126.14701080322266
+                ],
+                [
+                    453.92498779296875,
+                    145.2030029296875
+                ]
+            ],
+            [
+                [
+                    457.92498779296875,
+                    126.14701080322266
+                ],
+                [
+                    494.3089599609375,
+                    145.2030029296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> an <break time='200ms'/> elephant. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> a <break time='200ms'/> trunk. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> big <break time='200ms'/> ears. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 892,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "an"
+            },
+            {
+                "time": 1507,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1797,
+                "type": "word",
+                "start": 79,
+                "end": 87,
+                "value": "elephant"
+            },
+            {
+                "time": 2610,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3197,
+                "type": "word",
+                "start": 111,
+                "end": 112,
+                "value": "I"
+            },
+            {
+                "time": 3834,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4134,
+                "type": "word",
+                "start": 135,
+                "end": 139,
+                "value": "have"
+            },
+            {
+                "time": 4696,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4994,
+                "type": "word",
+                "start": 162,
+                "end": 163,
+                "value": "a"
+            },
+            {
+                "time": 5549,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5849,
+                "type": "word",
+                "start": 186,
+                "end": 191,
+                "value": "trunk"
+            },
+            {
+                "time": 6521,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7108,
+                "type": "word",
+                "start": 215,
+                "end": 216,
+                "value": "I"
+            },
+            {
+                "time": 7745,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8045,
+                "type": "word",
+                "start": 239,
+                "end": 243,
+                "value": "have"
+            },
+            {
+                "time": 8607,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8909,
+                "type": "word",
+                "start": 266,
+                "end": 269,
+                "value": "big"
+            },
+            {
+                "time": 9669,
+                "type": "word",
+                "start": 270,
+                "end": 291,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9970,
+                "type": "word",
+                "start": 292,
+                "end": 296,
+                "value": "ears"
+            },
+            {
+                "time": 10502,
+                "type": "word",
+                "start": 298,
+                "end": 319,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "I'm a snake. I have a long body.",
+        "words": [
+            "I'm",
+            "a",
+            "snake.",
+            "I",
+            "have",
+            "a",
+            "long",
+            "body."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    312.35699462890625,
+                    344.14703369140625
+                ],
+                [
+                    337.6210021972656,
+                    363.2030334472656
+                ]
+            ],
+            [
+                [
+                    341.6210021972656,
+                    344.14703369140625
+                ],
+                [
+                    351.3489990234375,
+                    363.2030334472656
+                ]
+            ],
+            [
+                [
+                    355.3489990234375,
+                    344.14703369140625
+                ],
+                [
+                    404.6929626464844,
+                    363.2030334472656
+                ]
+            ],
+            [
+                [
+                    312.35699462890625,
+                    363.3470458984375
+                ],
+                [
+                    318.2770080566406,
+                    382.4030456542969
+                ]
+            ],
+            [
+                [
+                    322.2770080566406,
+                    363.3470458984375
+                ],
+                [
+                    359.22100830078125,
+                    382.4030456542969
+                ]
+            ],
+            [
+                [
+                    363.22100830078125,
+                    363.3470458984375
+                ],
+                [
+                    372.9490051269531,
+                    382.4030456542969
+                ]
+            ],
+            [
+                [
+                    312.35699462890625,
+                    382.54705810546875
+                ],
+                [
+                    345.0929870605469,
+                    401.6030578613281
+                ]
+            ],
+            [
+                [
+                    349.0929870605469,
+                    382.54705810546875
+                ],
+                [
+                    389.52496337890625,
+                    401.6030578613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> a <break time='200ms'/> snake. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> a <break time='200ms'/> long <break time='200ms'/> body. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1550,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1850,
+                "type": "word",
+                "start": 78,
+                "end": 83,
+                "value": "snake"
+            },
+            {
+                "time": 2509,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3096,
+                "type": "word",
+                "start": 107,
+                "end": 108,
+                "value": "I"
+            },
+            {
+                "time": 3647,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3947,
+                "type": "word",
+                "start": 131,
+                "end": 135,
+                "value": "have"
+            },
+            {
+                "time": 4648,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4948,
+                "type": "word",
+                "start": 158,
+                "end": 159,
+                "value": "a"
+            },
+            {
+                "time": 5556,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5856,
+                "type": "word",
+                "start": 182,
+                "end": 186,
+                "value": "long"
+            },
+            {
+                "time": 6535,
+                "type": "word",
+                "start": 187,
+                "end": 208,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6835,
+                "type": "word",
+                "start": 209,
+                "end": 213,
+                "value": "body"
+            },
+            {
+                "time": 7307,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "I'm a lion. I have mane.",
+        "words": [
+            "I'm",
+            "a",
+            "lion.",
+            "I",
+            "have",
+            "mane."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    52.292999267578125,
+                    481.6349792480469
+                ],
+                [
+                    77.55699920654297,
+                    500.69097900390625
+                ]
+            ],
+            [
+                [
+                    81.55699920654297,
+                    481.6349792480469
+                ],
+                [
+                    91.28500366210938,
+                    500.69097900390625
+                ]
+            ],
+            [
+                [
+                    95.28500366210938,
+                    481.6349792480469
+                ],
+                [
+                    127.22100830078125,
+                    500.69097900390625
+                ]
+            ],
+            [
+                [
+                    130.42100524902344,
+                    481.6349792480469
+                ],
+                [
+                    136.34100341796875,
+                    500.69097900390625
+                ]
+            ],
+            [
+                [
+                    140.34100341796875,
+                    481.6349792480469
+                ],
+                [
+                    177.28500366210938,
+                    500.69097900390625
+                ]
+            ],
+            [
+                [
+                    52.292999267578125,
+                    500.8349914550781
+                ],
+                [
+                    102.59700775146484,
+                    519.8909912109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> a <break time='200ms'/> lion. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> mane. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 594,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1471,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1771,
+                "type": "word",
+                "start": 78,
+                "end": 82,
+                "value": "lion"
+            },
+            {
+                "time": 2384,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2971,
+                "type": "word",
+                "start": 106,
+                "end": 107,
+                "value": "I"
+            },
+            {
+                "time": 3577,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3877,
+                "type": "word",
+                "start": 130,
+                "end": 134,
+                "value": "have"
+            },
+            {
+                "time": 4438,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4738,
+                "type": "word",
+                "start": 157,
+                "end": 161,
+                "value": "mane"
+            },
+            {
+                "time": 5268,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "I'm a camel. I have a hump. Please meet my friends!",
+        "words": [
+            "I'm",
+            "a",
+            "camel.",
+            "I",
+            "have",
+            "a",
+            "hump.",
+            "Please",
+            "meet",
+            "my",
+            "friends!"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    261.5090026855469,
+                    631.427001953125
+                ],
+                [
+                    286.77301025390625,
+                    650.4829711914062
+                ]
+            ],
+            [
+                [
+                    290.77301025390625,
+                    631.427001953125
+                ],
+                [
+                    300.5010070800781,
+                    650.4829711914062
+                ]
+            ],
+            [
+                [
+                    304.5010070800781,
+                    631.427001953125
+                ],
+                [
+                    356.9329833984375,
+                    650.4829711914062
+                ]
+            ],
+            [
+                [
+                    261.5090026855469,
+                    650.6270141601562
+                ],
+                [
+                    267.42901611328125,
+                    669.6829833984375
+                ]
+            ],
+            [
+                [
+                    271.42901611328125,
+                    650.6270141601562
+                ],
+                [
+                    308.3730163574219,
+                    669.6829833984375
+                ]
+            ],
+            [
+                [
+                    312.3730163574219,
+                    650.6270141601562
+                ],
+                [
+                    322.10101318359375,
+                    669.6829833984375
+                ]
+            ],
+            [
+                [
+                    326.10101318359375,
+                    650.6270141601562
+                ],
+                [
+                    377.4129638671875,
+                    669.6829833984375
+                ]
+            ],
+            [
+                [
+                    261.5090026855469,
+                    669.8270263671875
+                ],
+                [
+                    310.1809997558594,
+                    688.8829956054688
+                ]
+            ],
+            [
+                [
+                    314.1809997558594,
+                    669.8270263671875
+                ],
+                [
+                    354.7249755859375,
+                    688.8829956054688
+                ]
+            ],
+            [
+                [
+                    358.5649719238281,
+                    669.8270263671875
+                ],
+                [
+                    382.948974609375,
+                    688.8829956054688
+                ]
+            ],
+            [
+                [
+                    386.7889709472656,
+                    669.8270263671875
+                ],
+                [
+                    443.3648986816406,
+                    688.8829956054688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> a <break time='200ms'/> camel. <break time='200ms'/> I <break time='200ms'/> have <break time='200ms'/> a <break time='200ms'/> hump. <break time='200ms'/> Please <break time='200ms'/> meet <break time='200ms'/> my <break time='200ms'/> friends! <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 642,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 942,
+                "type": "word",
+                "start": 54,
+                "end": 55,
+                "value": "a"
+            },
+            {
+                "time": 1550,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1850,
+                "type": "word",
+                "start": 78,
+                "end": 83,
+                "value": "camel"
+            },
+            {
+                "time": 2403,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2989,
+                "type": "word",
+                "start": 107,
+                "end": 108,
+                "value": "I"
+            },
+            {
+                "time": 3540,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3840,
+                "type": "word",
+                "start": 131,
+                "end": 135,
+                "value": "have"
+            },
+            {
+                "time": 4541,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4841,
+                "type": "word",
+                "start": 158,
+                "end": 159,
+                "value": "a"
+            },
+            {
+                "time": 5449,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5749,
+                "type": "word",
+                "start": 182,
+                "end": 186,
+                "value": "hump"
+            },
+            {
+                "time": 6292,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6879,
+                "type": "word",
+                "start": 210,
+                "end": 216,
+                "value": "Please"
+            },
+            {
+                "time": 7575,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7875,
+                "type": "word",
+                "start": 239,
+                "end": 243,
+                "value": "meet"
+            },
+            {
+                "time": 8463,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8763,
+                "type": "word",
+                "start": 266,
+                "end": 268,
+                "value": "my"
+            },
+            {
+                "time": 9459,
+                "type": "word",
+                "start": 269,
+                "end": 290,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9759,
+                "type": "word",
+                "start": 291,
+                "end": 298,
+                "value": "friends"
+            },
+            {
+                "time": 10460,
+                "type": "word",
+                "start": 300,
+                "end": 321,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

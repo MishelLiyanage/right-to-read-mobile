@@ -38,37 +38,31 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\" pitch=\"+3%\">Sing the song.<break time=\"400ms\"/></prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sing the song.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 28,
+                "end": 32,
                 "value": "Sing"
             },
             {
-                "time": 324,
+                "time": 335,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 423,
+                "time": 437,
                 "type": "word",
-                "start": 48,
-                "end": 52,
+                "start": 37,
+                "end": 41,
                 "value": "song"
-            },
-            {
-                "time": 1054,
-                "type": "word",
-                "start": 53,
-                "end": 74,
-                "value": "<break time=\"400ms\"/>"
             }
         ]
     },
@@ -144,43 +138,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Do you have a pet ?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Do you have a pet ?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Do"
             },
             {
                 "time": 93,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "you"
             },
             {
                 "time": 227,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "have"
             },
             {
                 "time": 426,
                 "type": "word",
-                "start": 39,
-                "end": 40,
+                "start": 40,
+                "end": 41,
                 "value": "a"
             },
             {
                 "time": 487,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "pet"
             }
         ]
@@ -763,7 +758,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Do you have a pet? Yes,<break time=\"300ms\"/> I do.<break time=\"500ms\"/> I have a cat and it is Lu.<break time=\"500ms\"/> Do you have a pet? Yes,<break time=\"300ms\"/> I do.<break time=\"500ms\"/> I have a dog and it is Su.<break time=\"500ms\"/> Do you have a pet? Yes,<break time=\"300ms\"/> I do.<break time=\"500ms\"/> I have a f ish and it is Ru.<break time=\"500ms\"/> What about you?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Do you have a pet? Yes, I do. I have a cat and it is Lu. Do you have a pet? Yes, I do. I have a dog and it is Su. Do you have a pet? Yes, I do. I have a fish and it is Ru. What about you?</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
         "voice_id": "Joanna",
@@ -771,428 +766,358 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "Do"
             },
             {
                 "time": 93,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "you"
             },
             {
                 "time": 227,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "have"
             },
             {
                 "time": 426,
                 "type": "word",
-                "start": 39,
-                "end": 40,
+                "start": 40,
+                "end": 41,
                 "value": "a"
             },
             {
                 "time": 487,
                 "type": "word",
-                "start": 41,
-                "end": 44,
+                "start": 42,
+                "end": 45,
                 "value": "pet"
             },
             {
-                "time": 1273,
+                "time": 1294,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "Yes"
             },
             {
-                "time": 1821,
+                "time": 1941,
                 "type": "word",
-                "start": 50,
-                "end": 71,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2221,
-                "type": "word",
-                "start": 72,
-                "end": 73,
+                "start": 52,
+                "end": 53,
                 "value": "I"
             },
             {
-                "time": 2368,
+                "time": 2088,
                 "type": "word",
-                "start": 74,
-                "end": 76,
+                "start": 54,
+                "end": 56,
                 "value": "do"
             },
             {
-                "time": 2769,
+                "time": 2883,
                 "type": "word",
-                "start": 77,
-                "end": 98,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3655,
-                "type": "word",
-                "start": 99,
-                "end": 100,
+                "start": 58,
+                "end": 59,
                 "value": "I"
             },
             {
-                "time": 3745,
+                "time": 2984,
                 "type": "word",
-                "start": 101,
-                "end": 105,
+                "start": 60,
+                "end": 64,
                 "value": "have"
             },
             {
-                "time": 3942,
+                "time": 3191,
                 "type": "word",
-                "start": 106,
-                "end": 107,
+                "start": 65,
+                "end": 66,
                 "value": "a"
             },
             {
-                "time": 4004,
+                "time": 3252,
                 "type": "word",
-                "start": 108,
-                "end": 111,
+                "start": 67,
+                "end": 70,
                 "value": "cat"
             },
             {
-                "time": 4304,
+                "time": 3565,
                 "type": "word",
-                "start": 112,
-                "end": 115,
+                "start": 71,
+                "end": 74,
                 "value": "and"
             },
             {
-                "time": 4445,
+                "time": 3706,
                 "type": "word",
-                "start": 116,
-                "end": 118,
+                "start": 75,
+                "end": 77,
                 "value": "it"
             },
             {
-                "time": 4573,
+                "time": 3834,
                 "type": "word",
-                "start": 119,
-                "end": 121,
+                "start": 78,
+                "end": 80,
                 "value": "is"
             },
             {
-                "time": 4770,
+                "time": 4045,
                 "type": "word",
-                "start": 122,
-                "end": 124,
+                "start": 81,
+                "end": 83,
                 "value": "Lu"
             },
             {
-                "time": 5122,
+                "time": 4784,
                 "type": "word",
-                "start": 125,
-                "end": 146,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 6009,
-                "type": "word",
-                "start": 147,
-                "end": 149,
+                "start": 85,
+                "end": 87,
                 "value": "Do"
             },
             {
-                "time": 6096,
+                "time": 4871,
                 "type": "word",
-                "start": 150,
-                "end": 153,
+                "start": 88,
+                "end": 91,
                 "value": "you"
             },
             {
-                "time": 6230,
+                "time": 5005,
                 "type": "word",
-                "start": 154,
-                "end": 158,
+                "start": 92,
+                "end": 96,
                 "value": "have"
             },
             {
-                "time": 6429,
+                "time": 5203,
                 "type": "word",
-                "start": 159,
-                "end": 160,
+                "start": 97,
+                "end": 98,
                 "value": "a"
             },
             {
-                "time": 6490,
+                "time": 5265,
                 "type": "word",
-                "start": 161,
-                "end": 164,
+                "start": 99,
+                "end": 102,
                 "value": "pet"
             },
             {
-                "time": 7276,
+                "time": 6072,
                 "type": "word",
-                "start": 166,
-                "end": 169,
+                "start": 104,
+                "end": 107,
                 "value": "Yes"
             },
             {
-                "time": 7824,
+                "time": 6719,
                 "type": "word",
-                "start": 170,
-                "end": 191,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 8224,
-                "type": "word",
-                "start": 192,
-                "end": 193,
+                "start": 109,
+                "end": 110,
                 "value": "I"
             },
             {
-                "time": 8370,
+                "time": 6865,
                 "type": "word",
-                "start": 194,
-                "end": 196,
+                "start": 111,
+                "end": 113,
                 "value": "do"
             },
             {
-                "time": 8771,
+                "time": 7660,
                 "type": "word",
-                "start": 197,
-                "end": 218,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9658,
-                "type": "word",
-                "start": 219,
-                "end": 220,
+                "start": 115,
+                "end": 116,
                 "value": "I"
             },
             {
-                "time": 9748,
+                "time": 7761,
                 "type": "word",
-                "start": 221,
-                "end": 225,
+                "start": 117,
+                "end": 121,
                 "value": "have"
             },
             {
-                "time": 9944,
+                "time": 7968,
                 "type": "word",
-                "start": 226,
-                "end": 227,
+                "start": 122,
+                "end": 123,
                 "value": "a"
             },
             {
-                "time": 10012,
+                "time": 8036,
                 "type": "word",
-                "start": 228,
-                "end": 231,
+                "start": 124,
+                "end": 127,
                 "value": "dog"
             },
             {
-                "time": 10394,
+                "time": 8437,
                 "type": "word",
-                "start": 232,
-                "end": 235,
+                "start": 128,
+                "end": 131,
                 "value": "and"
             },
             {
-                "time": 10521,
+                "time": 8570,
                 "type": "word",
-                "start": 236,
-                "end": 238,
+                "start": 132,
+                "end": 134,
                 "value": "it"
             },
             {
-                "time": 10640,
+                "time": 8690,
                 "type": "word",
-                "start": 239,
-                "end": 241,
+                "start": 135,
+                "end": 137,
                 "value": "is"
             },
             {
-                "time": 10791,
+                "time": 8840,
                 "type": "word",
-                "start": 242,
-                "end": 244,
+                "start": 138,
+                "end": 140,
                 "value": "Su"
             },
             {
-                "time": 11231,
+                "time": 9676,
                 "type": "word",
-                "start": 245,
-                "end": 266,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 12118,
-                "type": "word",
-                "start": 267,
-                "end": 269,
+                "start": 142,
+                "end": 144,
                 "value": "Do"
             },
             {
-                "time": 12205,
+                "time": 9763,
                 "type": "word",
-                "start": 270,
-                "end": 273,
+                "start": 145,
+                "end": 148,
                 "value": "you"
             },
             {
-                "time": 12339,
+                "time": 9897,
                 "type": "word",
-                "start": 274,
-                "end": 278,
+                "start": 149,
+                "end": 153,
                 "value": "have"
             },
             {
-                "time": 12538,
+                "time": 10096,
                 "type": "word",
-                "start": 279,
-                "end": 280,
+                "start": 154,
+                "end": 155,
                 "value": "a"
             },
             {
-                "time": 12599,
+                "time": 10157,
                 "type": "word",
-                "start": 281,
-                "end": 284,
+                "start": 156,
+                "end": 159,
                 "value": "pet"
             },
             {
-                "time": 13385,
+                "time": 10964,
                 "type": "word",
-                "start": 286,
-                "end": 289,
+                "start": 161,
+                "end": 164,
                 "value": "Yes"
             },
             {
-                "time": 13933,
+                "time": 11611,
                 "type": "word",
-                "start": 290,
-                "end": 311,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 14333,
-                "type": "word",
-                "start": 312,
-                "end": 313,
+                "start": 166,
+                "end": 167,
                 "value": "I"
             },
             {
-                "time": 14480,
+                "time": 11758,
                 "type": "word",
-                "start": 314,
-                "end": 316,
+                "start": 168,
+                "end": 170,
                 "value": "do"
             },
             {
-                "time": 14880,
+                "time": 12553,
                 "type": "word",
-                "start": 317,
-                "end": 338,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 15767,
-                "type": "word",
-                "start": 339,
-                "end": 340,
+                "start": 172,
+                "end": 173,
                 "value": "I"
             },
             {
-                "time": 15835,
+                "time": 12654,
                 "type": "word",
-                "start": 341,
-                "end": 345,
+                "start": 174,
+                "end": 178,
                 "value": "have"
             },
             {
-                "time": 16054,
+                "time": 12855,
                 "type": "word",
-                "start": 346,
-                "end": 347,
+                "start": 179,
+                "end": 180,
                 "value": "a"
             },
             {
-                "time": 16149,
+                "time": 12954,
                 "type": "word",
-                "start": 348,
-                "end": 349,
-                "value": "f"
+                "start": 181,
+                "end": 185,
+                "value": "fish"
             },
             {
-                "time": 16431,
+                "time": 13330,
                 "type": "word",
-                "start": 350,
-                "end": 353,
-                "value": "ish"
-            },
-            {
-                "time": 16655,
-                "type": "word",
-                "start": 354,
-                "end": 357,
+                "start": 186,
+                "end": 189,
                 "value": "and"
             },
             {
-                "time": 16773,
+                "time": 13478,
                 "type": "word",
-                "start": 358,
-                "end": 360,
+                "start": 190,
+                "end": 192,
                 "value": "it"
             },
             {
-                "time": 16892,
+                "time": 13597,
                 "type": "word",
-                "start": 361,
-                "end": 363,
+                "start": 193,
+                "end": 195,
                 "value": "is"
             },
             {
-                "time": 17062,
+                "time": 13773,
                 "type": "word",
-                "start": 364,
-                "end": 366,
+                "start": 196,
+                "end": 198,
                 "value": "Ru"
             },
             {
-                "time": 17436,
+                "time": 14556,
                 "type": "word",
-                "start": 367,
-                "end": 388,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 18323,
-                "type": "word",
-                "start": 389,
-                "end": 393,
+                "start": 200,
+                "end": 204,
                 "value": "What"
             },
             {
-                "time": 18489,
+                "time": 14722,
                 "type": "word",
-                "start": 394,
-                "end": 399,
+                "start": 205,
+                "end": 210,
                 "value": "about"
             },
             {
-                "time": 18812,
+                "time": 15046,
                 "type": "word",
-                "start": 400,
-                "end": 403,
+                "start": 211,
+                "end": 214,
                 "value": "you"
             }
         ]

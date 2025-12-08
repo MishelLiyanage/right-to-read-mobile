@@ -1,0 +1,819 @@
+{
+    "0": {
+        "text": "Listen and say.",
+        "words": [
+            "Listen",
+            "and",
+            "say."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    59.527099609375,
+                    50.928009033203125
+                ],
+                [
+                    114.7470932006836,
+                    74.74800872802734
+                ]
+            ],
+            [
+                [
+                    119.7470932006836,
+                    50.928009033203125
+                ],
+                [
+                    156.66709899902344,
+                    74.74800872802734
+                ]
+            ],
+            [
+                [
+                    161.66709899902344,
+                    50.928009033203125
+                ],
+                [
+                    197.68710327148438,
+                    74.74800872802734
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> and <break time='200ms'/> say. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 684,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 977,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "and"
+            },
+            {
+                "time": 1611,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1911,
+                "type": "word",
+                "start": 83,
+                "end": 86,
+                "value": "say"
+            },
+            {
+                "time": 2411,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "It's cold. I wear a",
+        "words": [
+            "It's",
+            "cold.",
+            "I",
+            "wear",
+            "a"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    94.27349853515625,
+                    137.86001586914062
+                ],
+                [
+                    123.53350067138672,
+                    161.68002319335938
+                ]
+            ],
+            [
+                [
+                    128.53350830078125,
+                    137.86001586914062
+                ],
+                [
+                    173.49349975585938,
+                    161.68002319335938
+                ]
+            ],
+            [
+                [
+                    94.27349853515625,
+                    161.86001586914062
+                ],
+                [
+                    101.67350006103516,
+                    185.68002319335938
+                ]
+            ],
+            [
+                [
+                    106.47350311279297,
+                    161.86001586914062
+                ],
+                [
+                    152.9735107421875,
+                    185.68002319335938
+                ]
+            ],
+            [
+                [
+                    157.57351684570312,
+                    161.86001586914062
+                ],
+                [
+                    169.7335205078125,
+                    185.68002319335938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It's <break time='200ms'/> cold. <break time='200ms'/> I <break time='200ms'/> wear <break time='200ms'/> a <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "It's"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 896,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "cold"
+            },
+            {
+                "time": 1485,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2071,
+                "type": "word",
+                "start": 83,
+                "end": 84,
+                "value": "I"
+            },
+            {
+                "time": 2649,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2949,
+                "type": "word",
+                "start": 107,
+                "end": 111,
+                "value": "wear"
+            },
+            {
+                "time": 3581,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3875,
+                "type": "word",
+                "start": 134,
+                "end": 135,
+                "value": "a"
+            },
+            {
+                "time": 4674,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "sweater",
+        "words": [
+            "sweater"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    392.0400085449219,
+                    201.91299438476562
+                ],
+                [
+                    466.1800231933594,
+                    225.73300170898438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>sweater <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "sweater"
+            },
+            {
+                "time": 843,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "It's sunny. I wear",
+        "words": [
+            "It's",
+            "sunny.",
+            "I",
+            "wear"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    94.69490051269531,
+                    275.01800537109375
+                ],
+                [
+                    123.95490264892578,
+                    298.8380126953125
+                ]
+            ],
+            [
+                [
+                    128.95489501953125,
+                    275.01800537109375
+                ],
+                [
+                    190.51490783691406,
+                    298.8380126953125
+                ]
+            ],
+            [
+                [
+                    94.69490051269531,
+                    299.01800537109375
+                ],
+                [
+                    102.09490203857422,
+                    322.8380126953125
+                ]
+            ],
+            [
+                [
+                    106.89490509033203,
+                    299.01800537109375
+                ],
+                [
+                    153.39491271972656,
+                    322.8380126953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It's <break time='200ms'/> sunny. <break time='200ms'/> I <break time='200ms'/> wear <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "It's"
+            },
+            {
+                "time": 550,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 850,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "sunny"
+            },
+            {
+                "time": 1456,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2042,
+                "type": "word",
+                "start": 84,
+                "end": 85,
+                "value": "I"
+            },
+            {
+                "time": 2620,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2920,
+                "type": "word",
+                "start": 108,
+                "end": 112,
+                "value": "wear"
+            },
+            {
+                "time": 3653,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "hat",
+        "words": [
+            "hat"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    418.0400085449219,
+                    355.1029968261719
+                ],
+                [
+                    450.3000183105469,
+                    378.9230041503906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>hat <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "hat"
+            },
+            {
+                "time": 773,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "It's r aining. I wear",
+        "words": [
+            "It's",
+            "r",
+            "aining.",
+            "I",
+            "wear"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    86.00140380859375,
+                    409.4700012207031
+                ],
+                [
+                    115.26140594482422,
+                    433.2900085449219
+                ]
+            ],
+            [
+                [
+                    116.22140502929688,
+                    409.4700012207031
+                ],
+                [
+                    122.92140197753906,
+                    433.2900085449219
+                ]
+            ],
+            [
+                [
+                    126.5614013671875,
+                    409.4700012207031
+                ],
+                [
+                    192.12142944335938,
+                    433.2900085449219
+                ]
+            ],
+            [
+                [
+                    86.00140380859375,
+                    433.4700012207031
+                ],
+                [
+                    93.40140533447266,
+                    457.2900085449219
+                ]
+            ],
+            [
+                [
+                    98.20140838623047,
+                    433.4700012207031
+                ],
+                [
+                    144.701416015625,
+                    457.2900085449219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It's <break time='200ms'/> r <break time='200ms'/> aining. <break time='200ms'/> I <break time='200ms'/> wear <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "It's"
+            },
+            {
+                "time": 596,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 890,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "r"
+            },
+            {
+                "time": 1477,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1777,
+                "type": "word",
+                "start": 79,
+                "end": 85,
+                "value": "aining"
+            },
+            {
+                "time": 2343,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2930,
+                "type": "word",
+                "start": 109,
+                "end": 110,
+                "value": "I"
+            },
+            {
+                "time": 3508,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3808,
+                "type": "word",
+                "start": 133,
+                "end": 137,
+                "value": "wear"
+            },
+            {
+                "time": 4541,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "raincoat",
+        "words": [
+            "raincoat"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    393.7200012207031,
+                    489.77398681640625
+                ],
+                [
+                    470.9400329589844,
+                    513.593994140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>raincoat <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "raincoat"
+            },
+            {
+                "time": 927,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "I work in the garden. I wear",
+        "words": [
+            "I",
+            "work",
+            "in",
+            "the",
+            "garden.",
+            "I",
+            "wear"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    92.71290588378906,
+                    571.947021484375
+                ],
+                [
+                    100.11290740966797,
+                    595.7669677734375
+                ]
+            ],
+            [
+                [
+                    105.11290740966797,
+                    571.947021484375
+                ],
+                [
+                    150.17291259765625,
+                    595.7669677734375
+                ]
+            ],
+            [
+                [
+                    154.77291870117188,
+                    571.947021484375
+                ],
+                [
+                    172.4529266357422,
+                    595.7669677734375
+                ]
+            ],
+            [
+                [
+                    177.2529296875,
+                    571.947021484375
+                ],
+                [
+                    208.79293823242188,
+                    595.7669677734375
+                ]
+            ],
+            [
+                [
+                    87.91290283203125,
+                    595.947021484375
+                ],
+                [
+                    160.91290283203125,
+                    619.7669677734375
+                ]
+            ],
+            [
+                [
+                    102.91290283203125,
+                    619.947021484375
+                ],
+                [
+                    110.31290435791016,
+                    643.7669677734375
+                ]
+            ],
+            [
+                [
+                    115.11290740966797,
+                    619.947021484375
+                ],
+                [
+                    161.61289978027344,
+                    643.7669677734375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> work <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> garden. <break time='200ms'/> I <break time='200ms'/> wear <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 584,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 884,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "work"
+            },
+            {
+                "time": 1525,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1825,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "in"
+            },
+            {
+                "time": 2363,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2658,
+                "type": "word",
+                "start": 104,
+                "end": 107,
+                "value": "the"
+            },
+            {
+                "time": 3209,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3509,
+                "type": "word",
+                "start": 130,
+                "end": 136,
+                "value": "garden"
+            },
+            {
+                "time": 4136,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4722,
+                "type": "word",
+                "start": 160,
+                "end": 161,
+                "value": "I"
+            },
+            {
+                "time": 5300,
+                "type": "word",
+                "start": 162,
+                "end": 183,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5600,
+                "type": "word",
+                "start": 184,
+                "end": 188,
+                "value": "wear"
+            },
+            {
+                "time": 6333,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "gloves",
+        "words": [
+            "gloves"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    401.6000061035156,
+                    649.7139892578125
+                ],
+                [
+                    460.44000244140625,
+                    673.5339965820312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>gloves <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "gloves"
+            },
+            {
+                "time": 880,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

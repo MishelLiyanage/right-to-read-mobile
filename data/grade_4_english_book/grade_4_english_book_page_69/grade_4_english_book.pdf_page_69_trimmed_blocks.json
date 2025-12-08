@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 419,
+                "time": 439,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "7"
             }
         ]
@@ -75,22 +76,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s count.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's count.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 296,
+                "time": 307,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 34,
+                "end": 39,
                 "value": "count"
             }
         ]
@@ -112,26 +114,27 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">01)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>01)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "01"
             }
         ]
     },
     "3": {
-        "text": "I have six flower cards.",
+        "text": "I have six \ufb02ower cards.",
         "words": [
             "I",
             "have",
             "six",
-            "flower",
+            "\ufb02ower",
             "cards."
         ],
         "bounding_boxes": [
@@ -186,43 +189,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have six flower cards.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have six flower cards.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 152,
+                "time": 157,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 311,
+                "time": 316,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "six"
             },
             {
-                "time": 666,
+                "time": 683,
                 "type": "word",
-                "start": 38,
-                "end": 44,
+                "start": 39,
+                "end": 45,
                 "value": "flower"
             },
             {
-                "time": 1099,
+                "time": 1142,
                 "type": "word",
-                "start": 45,
-                "end": 50,
+                "start": 46,
+                "end": 51,
                 "value": "cards"
             }
         ]
@@ -277,46 +281,47 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My sister has four.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My sister has four.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 176,
+                "time": 187,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "sister"
             },
             {
-                "time": 732,
+                "time": 777,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "has"
             },
             {
-                "time": 1031,
+                "time": 1090,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "four"
             }
         ]
     },
     "5": {
-        "text": "How many flower cards do we have?",
+        "text": "How many \ufb02ower cards do we have?",
         "words": [
             "How",
             "many",
-            "flower",
+            "\ufb02ower",
             "cards",
             "do",
             "we",
@@ -394,57 +399,58 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How many flower cards do we have?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How many flower cards do we have?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 172,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "many"
             },
             {
-                "time": 441,
+                "time": 460,
                 "type": "word",
-                "start": 36,
-                "end": 42,
+                "start": 37,
+                "end": 43,
                 "value": "flower"
             },
             {
-                "time": 888,
+                "time": 934,
                 "type": "word",
-                "start": 43,
-                "end": 48,
+                "start": 44,
+                "end": 49,
                 "value": "cards"
             },
             {
-                "time": 1402,
+                "time": 1481,
                 "type": "word",
-                "start": 49,
-                "end": 51,
+                "start": 50,
+                "end": 52,
                 "value": "do"
             },
             {
-                "time": 1552,
+                "time": 1638,
                 "type": "word",
-                "start": 52,
-                "end": 54,
+                "start": 53,
+                "end": 55,
                 "value": "we"
             },
             {
-                "time": 1685,
+                "time": 1771,
                 "type": "word",
-                "start": 55,
-                "end": 59,
+                "start": 56,
+                "end": 60,
                 "value": "have"
             }
         ]
@@ -466,15 +472,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">02)</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>02)</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "02"
             }
         ]
@@ -529,36 +536,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I have ten marbles.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I have ten marbles.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
                 "time": 133,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "have"
             },
             {
-                "time": 359,
+                "time": 365,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "ten"
             },
             {
-                "time": 640,
+                "time": 670,
                 "type": "word",
-                "start": 38,
-                "end": 45,
+                "start": 39,
+                "end": 46,
                 "value": "marbles"
             }
         ]
@@ -613,36 +621,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My brother has five.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My brother has five.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 196,
+                "time": 207,
                 "type": "word",
-                "start": 30,
-                "end": 37,
+                "start": 31,
+                "end": 38,
                 "value": "brother"
             },
             {
-                "time": 622,
+                "time": 640,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "has"
             },
             {
-                "time": 877,
+                "time": 908,
                 "type": "word",
-                "start": 42,
-                "end": 46,
+                "start": 43,
+                "end": 47,
                 "value": "five"
             }
         ]
@@ -719,50 +728,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">How many marbles do we have?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>How many marbles do we have?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "How"
             },
             {
                 "time": 185,
                 "type": "word",
-                "start": 31,
-                "end": 35,
+                "start": 32,
+                "end": 36,
                 "value": "many"
             },
             {
                 "time": 461,
                 "type": "word",
-                "start": 36,
-                "end": 43,
+                "start": 37,
+                "end": 44,
                 "value": "marbles"
             },
             {
-                "time": 1040,
+                "time": 1066,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "do"
             },
             {
-                "time": 1196,
+                "time": 1221,
                 "type": "word",
-                "start": 47,
-                "end": 49,
+                "start": 48,
+                "end": 50,
                 "value": "we"
             },
             {
-                "time": 1329,
+                "time": 1354,
                 "type": "word",
-                "start": 50,
-                "end": 54,
+                "start": 51,
+                "end": 55,
                 "value": "have"
             }
         ]

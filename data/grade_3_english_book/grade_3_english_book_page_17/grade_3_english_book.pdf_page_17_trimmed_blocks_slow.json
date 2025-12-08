@@ -1,43 +1,5 @@
 {
     "0": {
-        "text": "8",
-        "words": [
-            "8"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    37.56930160522461,
-                    24.34998893737793
-                ],
-                [
-                    53.97930145263672,
-                    57.109989166259766
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>8 <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 29,
-                "value": "8"
-            },
-            {
-                "time": 713,
-                "type": "word",
-                "start": 30,
-                "end": 51,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "1": {
         "text": "Listen and say.",
         "words": [
             "Listen",
@@ -121,6 +83,137 @@
                 "type": "word",
                 "start": 88,
                 "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "How old are you ?",
+        "words": [
+            "How",
+            "old",
+            "are",
+            "you",
+            "?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    175.29400634765625,
+                    141.48501586914062
+                ],
+                [
+                    218.15399169921875,
+                    165.30502319335938
+                ]
+            ],
+            [
+                [
+                    222.95399475097656,
+                    141.48501586914062
+                ],
+                [
+                    251.27398681640625,
+                    165.30502319335938
+                ]
+            ],
+            [
+                [
+                    256.27398681640625,
+                    141.48501586914062
+                ],
+                [
+                    286.0740051269531,
+                    165.30502319335938
+                ]
+            ],
+            [
+                [
+                    290.8739929199219,
+                    141.48501586914062
+                ],
+                [
+                    324.91400146484375,
+                    165.30502319335938
+                ]
+            ],
+            [
+                [
+                    329.91400146484375,
+                    141.48501586914062
+                ],
+                [
+                    340.17401123046875,
+                    165.30502319335938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>How <break time='200ms'/> old <break time='200ms'/> are <break time='200ms'/> you <break time='200ms'/> ? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged woman",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "How"
+            },
+            {
+                "time": 570,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 863,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "old"
+            },
+            {
+                "time": 1458,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1752,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "are"
+            },
+            {
+                "time": 2409,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2709,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "you"
+            },
+            {
+                "time": 3343,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3923,
+                "type": "word",
+                "start": 134,
+                "end": 155,
                 "value": "<break time='200ms'/>"
             }
         ]
@@ -508,137 +601,6 @@
         ]
     },
     "5": {
-        "text": "How old are you ?",
-        "words": [
-            "How",
-            "old",
-            "are",
-            "you",
-            "?"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    175.29400634765625,
-                    141.48501586914062
-                ],
-                [
-                    218.15399169921875,
-                    165.30502319335938
-                ]
-            ],
-            [
-                [
-                    222.95399475097656,
-                    141.48501586914062
-                ],
-                [
-                    251.27398681640625,
-                    165.30502319335938
-                ]
-            ],
-            [
-                [
-                    256.27398681640625,
-                    141.48501586914062
-                ],
-                [
-                    286.0740051269531,
-                    165.30502319335938
-                ]
-            ],
-            [
-                [
-                    290.8739929199219,
-                    141.48501586914062
-                ],
-                [
-                    324.91400146484375,
-                    165.30502319335938
-                ]
-            ],
-            [
-                [
-                    329.91400146484375,
-                    141.48501586914062
-                ],
-                [
-                    340.17401123046875,
-                    165.30502319335938
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>How <break time='200ms'/> old <break time='200ms'/> are <break time='200ms'/> you <break time='200ms'/> ? <break time='200ms'/></prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 31,
-                "value": "How"
-            },
-            {
-                "time": 570,
-                "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 863,
-                "type": "word",
-                "start": 54,
-                "end": 57,
-                "value": "old"
-            },
-            {
-                "time": 1458,
-                "type": "word",
-                "start": 58,
-                "end": 79,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 1752,
-                "type": "word",
-                "start": 80,
-                "end": 83,
-                "value": "are"
-            },
-            {
-                "time": 2409,
-                "type": "word",
-                "start": 84,
-                "end": 105,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 2709,
-                "type": "word",
-                "start": 106,
-                "end": 109,
-                "value": "you"
-            },
-            {
-                "time": 3343,
-                "type": "word",
-                "start": 110,
-                "end": 131,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 3923,
-                "type": "word",
-                "start": 134,
-                "end": 155,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "6": {
         "text": "Read.",
         "words": [
             "Read."
@@ -676,7 +638,7 @@
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "I'm six.",
         "words": [
             "I'm",
@@ -739,70 +701,7 @@
             }
         ]
     },
-    "8": {
-        "text": "I'm ten.",
-        "words": [
-            "I'm",
-            "ten."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    356.19500732421875,
-                    677.8955078125
-                ],
-                [
-                    389.2550048828125,
-                    701.7154541015625
-                ]
-            ],
-            [
-                [
-                    394.05499267578125,
-                    677.8955078125
-                ],
-                [
-                    431.57501220703125,
-                    701.7154541015625
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> ten. <break time='200ms'/></prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 31,
-                "value": "I'm"
-            },
-            {
-                "time": 570,
-                "type": "word",
-                "start": 32,
-                "end": 53,
-                "value": "<break time='200ms'/>"
-            },
-            {
-                "time": 870,
-                "type": "word",
-                "start": 54,
-                "end": 57,
-                "value": "ten"
-            },
-            {
-                "time": 1391,
-                "type": "word",
-                "start": 59,
-                "end": 80,
-                "value": "<break time='200ms'/>"
-            }
-        ]
-    },
-    "9": {
+    "7": {
         "text": "I'm seven. I'm eight.",
         "words": [
             "I'm",
@@ -915,7 +814,7 @@
             }
         ]
     },
-    "10": {
+    "8": {
         "text": "I'm nine.",
         "words": [
             "I'm",
@@ -974,6 +873,69 @@
                 "type": "word",
                 "start": 60,
                 "end": 81,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "I'm ten.",
+        "words": [
+            "I'm",
+            "ten."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    356.19500732421875,
+                    677.8955078125
+                ],
+                [
+                    389.2550048828125,
+                    701.7154541015625
+                ]
+            ],
+            [
+                [
+                    394.05499267578125,
+                    677.8955078125
+                ],
+                [
+                    431.57501220703125,
+                    701.7154541015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I'm <break time='200ms'/> ten. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "I'm"
+            },
+            {
+                "time": 570,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 870,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "ten"
+            },
+            {
+                "time": 1391,
+                "type": "word",
+                "start": 59,
+                "end": 80,
                 "value": "<break time='200ms'/>"
             }
         ]

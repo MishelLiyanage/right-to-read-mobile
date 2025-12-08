@@ -1,209 +1,5 @@
 {
     "0": {
-        "text": "Let's talk about Senuri's garden.",
-        "words": [
-            "Let's",
-            "talk",
-            "about",
-            "Senuri's",
-            "garden."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    60.78179931640625,
-                    93.29348754882812
-                ],
-                [
-                    105.7938003540039,
-                    119.4954833984375
-                ]
-            ],
-            [
-                [
-                    111.07379913330078,
-                    93.29348754882812
-                ],
-                [
-                    149.7498016357422,
-                    119.4954833984375
-                ]
-            ],
-            [
-                [
-                    155.02980041503906,
-                    93.29348754882812
-                ],
-                [
-                    216.3878173828125,
-                    119.4954833984375
-                ]
-            ],
-            [
-                [
-                    221.22781372070312,
-                    93.29348754882812
-                ],
-                [
-                    299.30584716796875,
-                    119.4954833984375
-                ]
-            ],
-            [
-                [
-                    304.80584716796875,
-                    93.29348754882812
-                ],
-                [
-                    385.1058654785156,
-                    119.4954833984375
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s talk about Senuri&apos;s garden.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
-            },
-            {
-                "time": 329,
-                "type": "word",
-                "start": 38,
-                "end": 42,
-                "value": "talk"
-            },
-            {
-                "time": 625,
-                "type": "word",
-                "start": 43,
-                "end": 48,
-                "value": "about"
-            },
-            {
-                "time": 908,
-                "type": "word",
-                "start": 49,
-                "end": 62,
-                "value": "Senuri&apos;s"
-            },
-            {
-                "time": 1561,
-                "type": "word",
-                "start": 63,
-                "end": 69,
-                "value": "garden"
-            }
-        ]
-    },
-    "1": {
-        "text": "Senuri has a beautiful garden.",
-        "words": [
-            "Senuri",
-            "has",
-            "a",
-            "beautiful",
-            "garden."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    60.78179931640625,
-                    129.70346069335938
-                ],
-                [
-                    125.46180725097656,
-                    155.90545654296875
-                ]
-            ],
-            [
-                [
-                    130.96180725097656,
-                    129.70346069335938
-                ],
-                [
-                    168.2078094482422,
-                    155.90545654296875
-                ]
-            ],
-            [
-                [
-                    173.7078094482422,
-                    129.70346069335938
-                ],
-                [
-                    187.0838165283203,
-                    155.90545654296875
-                ]
-            ],
-            [
-                [
-                    192.5838165283203,
-                    129.70346069335938
-                ],
-                [
-                    286.8538513183594,
-                    155.90545654296875
-                ]
-            ],
-            [
-                [
-                    292.3538513183594,
-                    129.70346069335938
-                ],
-                [
-                    372.65386962890625,
-                    155.90545654296875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Senuri has a beautiful garden.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Senuri"
-            },
-            {
-                "time": 571,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "has"
-            },
-            {
-                "time": 792,
-                "type": "word",
-                "start": 38,
-                "end": 39,
-                "value": "a"
-            },
-            {
-                "time": 847,
-                "type": "word",
-                "start": 40,
-                "end": 49,
-                "value": "beautiful"
-            },
-            {
-                "time": 1359,
-                "type": "word",
-                "start": 50,
-                "end": 56,
-                "value": "garden"
-            }
-        ]
-    },
-    "2": {
         "text": "Read the words and ask the students to point to the objects in the picture while repeating the words.",
         "words": [
             "Read",
@@ -418,142 +214,356 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read the words and ask the students to point to the objects in the picture while repeating the words.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read the words and ask the students to point to the objects in the picture while repeating the words.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 236,
+                "time": 241,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "the"
             },
             {
-                "time": 306,
+                "time": 318,
                 "type": "word",
-                "start": 36,
-                "end": 41,
+                "start": 37,
+                "end": 42,
                 "value": "words"
             },
             {
-                "time": 694,
+                "time": 718,
                 "type": "word",
-                "start": 42,
-                "end": 45,
+                "start": 43,
+                "end": 46,
                 "value": "and"
             },
             {
-                "time": 881,
+                "time": 906,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "ask"
             },
             {
-                "time": 1254,
+                "time": 1300,
                 "type": "word",
-                "start": 50,
-                "end": 53,
+                "start": 51,
+                "end": 54,
                 "value": "the"
             },
             {
-                "time": 1366,
+                "time": 1412,
                 "type": "word",
-                "start": 54,
-                "end": 62,
+                "start": 55,
+                "end": 63,
                 "value": "students"
             },
             {
-                "time": 1908,
+                "time": 1979,
                 "type": "word",
-                "start": 63,
-                "end": 65,
+                "start": 64,
+                "end": 66,
                 "value": "to"
             },
             {
-                "time": 2004,
+                "time": 2081,
                 "type": "word",
-                "start": 66,
-                "end": 71,
+                "start": 67,
+                "end": 72,
                 "value": "point"
             },
             {
-                "time": 2345,
+                "time": 2429,
                 "type": "word",
-                "start": 72,
-                "end": 74,
+                "start": 73,
+                "end": 75,
                 "value": "to"
             },
             {
-                "time": 2480,
+                "time": 2564,
                 "type": "word",
-                "start": 75,
-                "end": 78,
+                "start": 76,
+                "end": 79,
                 "value": "the"
             },
             {
-                "time": 2689,
+                "time": 2773,
                 "type": "word",
-                "start": 79,
-                "end": 86,
+                "start": 80,
+                "end": 87,
                 "value": "objects"
             },
             {
-                "time": 3287,
+                "time": 3378,
                 "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 88,
+                "end": 90,
                 "value": "in"
             },
             {
-                "time": 3380,
+                "time": 3470,
                 "type": "word",
-                "start": 90,
-                "end": 93,
+                "start": 91,
+                "end": 94,
                 "value": "the"
             },
             {
-                "time": 3448,
+                "time": 3539,
                 "type": "word",
-                "start": 94,
-                "end": 101,
+                "start": 95,
+                "end": 102,
                 "value": "picture"
             },
             {
-                "time": 3916,
+                "time": 4013,
                 "type": "word",
-                "start": 102,
-                "end": 107,
+                "start": 103,
+                "end": 108,
                 "value": "while"
             },
             {
-                "time": 4299,
+                "time": 4441,
                 "type": "word",
-                "start": 108,
-                "end": 117,
+                "start": 109,
+                "end": 118,
                 "value": "repeating"
             },
             {
-                "time": 4878,
+                "time": 5025,
                 "type": "word",
-                "start": 118,
-                "end": 121,
+                "start": 119,
+                "end": 122,
                 "value": "the"
             },
             {
-                "time": 4948,
+                "time": 5096,
                 "type": "word",
-                "start": 122,
-                "end": 127,
+                "start": 123,
+                "end": 128,
                 "value": "words"
+            }
+        ]
+    },
+    "1": {
+        "text": "Let's talk about Senuri's garden.",
+        "words": [
+            "Let's",
+            "talk",
+            "about",
+            "Senuri's",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    60.78179931640625,
+                    93.29348754882812
+                ],
+                [
+                    105.7938003540039,
+                    119.4954833984375
+                ]
+            ],
+            [
+                [
+                    111.07379913330078,
+                    93.29348754882812
+                ],
+                [
+                    149.7498016357422,
+                    119.4954833984375
+                ]
+            ],
+            [
+                [
+                    155.02980041503906,
+                    93.29348754882812
+                ],
+                [
+                    216.3878173828125,
+                    119.4954833984375
+                ]
+            ],
+            [
+                [
+                    221.22781372070312,
+                    93.29348754882812
+                ],
+                [
+                    299.30584716796875,
+                    119.4954833984375
+                ]
+            ],
+            [
+                [
+                    304.80584716796875,
+                    93.29348754882812
+                ],
+                [
+                    385.1058654785156,
+                    119.4954833984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Let's talk about <phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme>'s garden.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
+            },
+            {
+                "time": 352,
+                "type": "word",
+                "start": 34,
+                "end": 38,
+                "value": "talk"
+            },
+            {
+                "time": 660,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "about"
+            },
+            {
+                "time": 985,
+                "type": "word",
+                "start": 81,
+                "end": 87,
+                "value": "Senuri"
+            },
+            {
+                "time": 1567,
+                "type": "word",
+                "start": 97,
+                "end": 99,
+                "value": "'s"
+            },
+            {
+                "time": 1676,
+                "type": "word",
+                "start": 100,
+                "end": 106,
+                "value": "garden"
+            }
+        ]
+    },
+    "2": {
+        "text": "Senuri has a beautiful garden.",
+        "words": [
+            "Senuri",
+            "has",
+            "a",
+            "beautiful",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    60.78179931640625,
+                    129.70346069335938
+                ],
+                [
+                    125.46180725097656,
+                    155.90545654296875
+                ]
+            ],
+            [
+                [
+                    130.96180725097656,
+                    129.70346069335938
+                ],
+                [
+                    168.2078094482422,
+                    155.90545654296875
+                ]
+            ],
+            [
+                [
+                    173.7078094482422,
+                    129.70346069335938
+                ],
+                [
+                    187.0838165283203,
+                    155.90545654296875
+                ]
+            ],
+            [
+                [
+                    192.5838165283203,
+                    129.70346069335938
+                ],
+                [
+                    286.8538513183594,
+                    155.90545654296875
+                ]
+            ],
+            [
+                [
+                    292.3538513183594,
+                    129.70346069335938
+                ],
+                [
+                    372.65386962890625,
+                    155.90545654296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> has a beautiful garden.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 64,
+                "end": 70,
+                "value": "Senuri"
+            },
+            {
+                "time": 621,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "has"
+            },
+            {
+                "time": 889,
+                "type": "word",
+                "start": 85,
+                "end": 86,
+                "value": "a"
+            },
+            {
+                "time": 929,
+                "type": "word",
+                "start": 87,
+                "end": 96,
+                "value": "beautiful"
+            },
+            {
+                "time": 1460,
+                "type": "word",
+                "start": 97,
+                "end": 103,
+                "value": "garden"
             }
         ]
     },
@@ -629,50 +639,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">e.g.<break time=\"500ms\"/> : There is a pond.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>e.g. :- There is a pond.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "e.g."
             },
             {
-                "time": 993,
+                "time": 1109,
                 "type": "word",
-                "start": 31,
-                "end": 52,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1594,
-                "type": "word",
-                "start": 55,
-                "end": 60,
+                "start": 36,
+                "end": 41,
                 "value": "There"
             },
             {
-                "time": 1799,
+                "time": 1319,
                 "type": "word",
-                "start": 61,
-                "end": 63,
+                "start": 42,
+                "end": 44,
                 "value": "is"
             },
             {
-                "time": 1943,
+                "time": 1463,
                 "type": "word",
-                "start": 64,
-                "end": 65,
+                "start": 45,
+                "end": 46,
                 "value": "a"
             },
             {
-                "time": 1997,
+                "time": 1517,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 47,
+                "end": 51,
                 "value": "pond"
             }
         ]
@@ -716,29 +720,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There are trees.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There are trees.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 188,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             },
             {
                 "time": 302,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 38,
+                "end": 43,
                 "value": "trees"
             }
         ]
@@ -782,29 +787,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There is a\u2026\u2026\u2026\u2026</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There is a\u2026\u2026\u2026\u2026</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 192,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 405,
+                "time": 418,
                 "type": "word",
-                "start": 36,
-                "end": 37,
+                "start": 37,
+                "end": 38,
                 "value": "a"
             }
         ]
@@ -813,7 +819,7 @@
         "text": "There are\u2026\u2026\u2026\u2026\u2026.",
         "words": [
             "There",
-            "are\u2026\u2026\u2026\u2026\u2026."
+            "are\u2026\u2026\u2026\u2026\u2026.."
         ],
         "bounding_boxes": [
             [
@@ -837,22 +843,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There are\u2026\u2026\u2026\u2026\u2026.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There are\u2026\u2026\u2026\u2026\u2026.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 209,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "are"
             }
         ]
@@ -995,99 +1002,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Discuss the example with the students.<break time=\"500ms\"/> Ask them to describe the garden.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Discuss the example with the students. Ask them to describe the garden.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "Discuss"
             },
             {
-                "time": 438,
+                "time": 449,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 581,
+                "time": 592,
                 "type": "word",
-                "start": 39,
-                "end": 46,
+                "start": 40,
+                "end": 47,
                 "value": "example"
             },
             {
-                "time": 1173,
+                "time": 1184,
                 "type": "word",
-                "start": 47,
-                "end": 51,
+                "start": 48,
+                "end": 52,
                 "value": "with"
             },
             {
-                "time": 1370,
+                "time": 1381,
                 "type": "word",
-                "start": 52,
-                "end": 55,
+                "start": 53,
+                "end": 56,
                 "value": "the"
             },
             {
-                "time": 1472,
+                "time": 1483,
                 "type": "word",
-                "start": 56,
-                "end": 64,
+                "start": 57,
+                "end": 65,
                 "value": "students"
             },
             {
-                "time": 2221,
+                "time": 2633,
                 "type": "word",
-                "start": 65,
-                "end": 86,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3107,
-                "type": "word",
-                "start": 87,
-                "end": 90,
+                "start": 67,
+                "end": 70,
                 "value": "Ask"
             },
             {
-                "time": 3458,
+                "time": 3008,
                 "type": "word",
-                "start": 91,
-                "end": 95,
+                "start": 71,
+                "end": 75,
                 "value": "them"
             },
             {
-                "time": 3664,
+                "time": 3214,
                 "type": "word",
-                "start": 96,
-                "end": 98,
+                "start": 76,
+                "end": 78,
                 "value": "to"
             },
             {
-                "time": 3805,
+                "time": 3354,
                 "type": "word",
-                "start": 99,
-                "end": 107,
+                "start": 79,
+                "end": 87,
                 "value": "describe"
             },
             {
-                "time": 4377,
+                "time": 3952,
                 "type": "word",
-                "start": 108,
-                "end": 111,
+                "start": 88,
+                "end": 91,
                 "value": "the"
             },
             {
-                "time": 4491,
+                "time": 4067,
                 "type": "word",
-                "start": 112,
-                "end": 118,
+                "start": 92,
+                "end": 98,
                 "value": "garden"
             }
         ]

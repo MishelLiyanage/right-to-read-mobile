@@ -1,0 +1,303 @@
+{
+    "0": {
+        "text": "Deepavali is in October or in November.",
+        "words": [
+            "Deepavali",
+            "is",
+            "in",
+            "October",
+            "or",
+            "in",
+            "November."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    374.8049011230469,
+                    64.7479248046875
+                ],
+                [
+                    472.1129455566406,
+                    86.56392669677734
+                ]
+            ],
+            [
+                [
+                    477.8189392089844,
+                    64.7479248046875
+                ],
+                [
+                    489.84295654296875,
+                    86.56392669677734
+                ]
+            ],
+            [
+                [
+                    495.5489501953125,
+                    64.7479248046875
+                ],
+                [
+                    511.5689697265625,
+                    86.56392669677734
+                ]
+            ],
+            [
+                [
+                    374.8049011230469,
+                    86.347900390625
+                ],
+                [
+                    454.4189147949219,
+                    108.16390228271484
+                ]
+            ],
+            [
+                [
+                    460.1249084472656,
+                    86.347900390625
+                ],
+                [
+                    478.7729187011719,
+                    108.16390228271484
+                ]
+            ],
+            [
+                [
+                    484.4789123535156,
+                    86.347900390625
+                ],
+                [
+                    500.4989318847656,
+                    108.16390228271484
+                ]
+            ],
+            [
+                [
+                    374.8049011230469,
+                    107.9478759765625
+                ],
+                [
+                    479.3309326171875,
+                    129.76388549804688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Deepavali <break time='200ms'/> is <break time='200ms'/> in <break time='200ms'/> October <break time='200ms'/> or <break time='200ms'/> in <break time='200ms'/> November. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Deepavali"
+            },
+            {
+                "time": 989,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1283,
+                "type": "word",
+                "start": 60,
+                "end": 62,
+                "value": "is"
+            },
+            {
+                "time": 1912,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2212,
+                "type": "word",
+                "start": 85,
+                "end": 87,
+                "value": "in"
+            },
+            {
+                "time": 2781,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3081,
+                "type": "word",
+                "start": 110,
+                "end": 117,
+                "value": "October"
+            },
+            {
+                "time": 3961,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4261,
+                "type": "word",
+                "start": 140,
+                "end": 142,
+                "value": "or"
+            },
+            {
+                "time": 4928,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5228,
+                "type": "word",
+                "start": 165,
+                "end": 167,
+                "value": "in"
+            },
+            {
+                "time": 5796,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6097,
+                "type": "word",
+                "start": 190,
+                "end": 198,
+                "value": "November"
+            },
+            {
+                "time": 6829,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Christmas is in December.",
+        "words": [
+            "Christmas",
+            "is",
+            "in",
+            "December."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    75.94539642333984,
+                    361.35400390625
+                ],
+                [
+                    166.30540466308594,
+                    383.1700134277344
+                ]
+            ],
+            [
+                [
+                    172.0113983154297,
+                    361.35400390625
+                ],
+                [
+                    184.035400390625,
+                    383.1700134277344
+                ]
+            ],
+            [
+                [
+                    189.74139404296875,
+                    361.35400390625
+                ],
+                [
+                    205.7613983154297,
+                    383.1700134277344
+                ]
+            ],
+            [
+                [
+                    75.94539642333984,
+                    382.9540100097656
+                ],
+                [
+                    182.1273956298828,
+                    404.77001953125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Christmas <break time='200ms'/> is <break time='200ms'/> in <break time='200ms'/> December. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Christmas"
+            },
+            {
+                "time": 839,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1132,
+                "type": "word",
+                "start": 60,
+                "end": 62,
+                "value": "is"
+            },
+            {
+                "time": 1641,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1941,
+                "type": "word",
+                "start": 85,
+                "end": 87,
+                "value": "in"
+            },
+            {
+                "time": 2534,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2834,
+                "type": "word",
+                "start": 110,
+                "end": 118,
+                "value": "December"
+            },
+            {
+                "time": 3738,
+                "type": "word",
+                "start": 120,
+                "end": 141,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

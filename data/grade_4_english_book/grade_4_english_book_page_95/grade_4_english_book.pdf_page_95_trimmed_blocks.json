@@ -1,119 +1,5 @@
 {
     "0": {
-        "text": "Lesson 7",
-        "words": [
-            "Lesson",
-            "7"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    62.361698150634766,
-                    391.7323913574219
-                ],
-                [
-                    131.77169799804688,
-                    417.93438720703125
-                ]
-            ],
-            [
-                [
-                    137.27169799804688,
-                    391.7323913574219
-                ],
-                [
-                    148.8217010498047,
-                    417.93438720703125
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 7</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Lesson"
-            },
-            {
-                "time": 419,
-                "type": "word",
-                "start": 34,
-                "end": 35,
-                "value": "7"
-            }
-        ]
-    },
-    "1": {
-        "text": "Listen and speak.",
-        "words": [
-            "Listen",
-            "and",
-            "speak."
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    131.48170471191406,
-                    445.8009033203125
-                ],
-                [
-                    192.22369384765625,
-                    472.0028991699219
-                ]
-            ],
-            [
-                [
-                    197.72369384765625,
-                    445.8009033203125
-                ],
-                [
-                    238.33570861816406,
-                    472.0028991699219
-                ]
-            ],
-            [
-                [
-                    243.83570861816406,
-                    445.8009033203125
-                ],
-                [
-                    311.8597106933594,
-                    472.0028991699219
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and speak.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 33,
-                "value": "Listen"
-            },
-            {
-                "time": 421,
-                "type": "word",
-                "start": 34,
-                "end": 37,
-                "value": "and"
-            },
-            {
-                "time": 595,
-                "type": "word",
-                "start": 38,
-                "end": 43,
-                "value": "speak"
-            }
-        ]
-    },
-    "2": {
         "text": "Talk to five friends. Ask the following.",
         "words": [
             "Talk",
@@ -196,69 +82,63 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Talk to five friends.<break time=\"500ms\"/> Ask the following.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Talk to five friends. Ask the following.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Talk"
             },
             {
-                "time": 278,
+                "time": 289,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "to"
             },
             {
-                "time": 401,
+                "time": 412,
                 "type": "word",
-                "start": 35,
-                "end": 39,
+                "start": 36,
+                "end": 40,
                 "value": "five"
             },
             {
-                "time": 794,
+                "time": 826,
                 "type": "word",
-                "start": 40,
-                "end": 47,
+                "start": 41,
+                "end": 48,
                 "value": "friends"
             },
             {
-                "time": 1452,
+                "time": 1872,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2339,
-                "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 50,
+                "end": 53,
                 "value": "Ask"
             },
             {
-                "time": 2670,
+                "time": 2220,
                 "type": "word",
-                "start": 74,
-                "end": 77,
+                "start": 54,
+                "end": 57,
                 "value": "the"
             },
             {
-                "time": 2787,
+                "time": 2337,
                 "type": "word",
-                "start": 78,
-                "end": 87,
+                "start": 58,
+                "end": 67,
                 "value": "following"
             }
         ]
     },
-    "3": {
+    "1": {
         "text": "I like cycling. What do you like?",
         "words": [
             "I",
@@ -341,7 +221,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like cycling.<break time=\"500ms\"/> What do you like?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like cycling. What do you like?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -349,62 +229,55 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 139,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 440,
+                "time": 453,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 35,
+                "end": 42,
                 "value": "cycling"
             },
             {
-                "time": 1285,
+                "time": 1713,
                 "type": "word",
-                "start": 42,
-                "end": 63,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 2172,
-                "type": "word",
-                "start": 64,
-                "end": 68,
+                "start": 44,
+                "end": 48,
                 "value": "What"
             },
             {
-                "time": 2409,
+                "time": 1950,
                 "type": "word",
-                "start": 69,
-                "end": 71,
+                "start": 49,
+                "end": 51,
                 "value": "do"
             },
             {
-                "time": 2512,
+                "time": 2054,
                 "type": "word",
-                "start": 72,
-                "end": 75,
+                "start": 52,
+                "end": 55,
                 "value": "you"
             },
             {
-                "time": 2697,
+                "time": 2242,
                 "type": "word",
-                "start": 76,
-                "end": 80,
+                "start": 56,
+                "end": 60,
                 "value": "like"
             }
         ]
     },
-    "4": {
+    "2": {
         "text": "I like swimming.",
         "words": [
             "I",
@@ -443,7 +316,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like swimming.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like swimming.</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -451,27 +324,27 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 134,
+                "time": 139,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 440,
+                "time": 453,
                 "type": "word",
-                "start": 34,
-                "end": 42,
+                "start": 35,
+                "end": 43,
                 "value": "swimming"
             }
         ]
     },
-    "5": {
+    "3": {
         "text": "I like to play netball.",
         "words": [
             "I",
@@ -532,7 +405,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">I like to play netball.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>I like to play netball.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -540,37 +413,153 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "I"
             },
             {
-                "time": 123,
+                "time": 127,
                 "type": "word",
-                "start": 29,
-                "end": 33,
+                "start": 30,
+                "end": 34,
                 "value": "like"
             },
             {
-                "time": 473,
+                "time": 509,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 561,
+                "time": 604,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 38,
+                "end": 42,
                 "value": "play"
             },
             {
-                "time": 944,
+                "time": 1002,
                 "type": "word",
-                "start": 42,
-                "end": 49,
+                "start": 43,
+                "end": 50,
                 "value": "netball"
+            }
+        ]
+    },
+    "4": {
+        "text": "Lesson 7",
+        "words": [
+            "Lesson",
+            "7"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    62.361698150634766,
+                    391.7323913574219
+                ],
+                [
+                    131.77169799804688,
+                    417.93438720703125
+                ]
+            ],
+            [
+                [
+                    137.27169799804688,
+                    391.7323913574219
+                ],
+                [
+                    148.8217010498047,
+                    417.93438720703125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson 7</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 439,
+                "type": "word",
+                "start": 35,
+                "end": 36,
+                "value": "7"
+            }
+        ]
+    },
+    "5": {
+        "text": "Listen and speak.",
+        "words": [
+            "Listen",
+            "and",
+            "speak."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    131.48170471191406,
+                    445.8009033203125
+                ],
+                [
+                    192.22369384765625,
+                    472.0028991699219
+                ]
+            ],
+            [
+                [
+                    197.72369384765625,
+                    445.8009033203125
+                ],
+                [
+                    238.33570861816406,
+                    472.0028991699219
+                ]
+            ],
+            [
+                [
+                    243.83570861816406,
+                    445.8009033203125
+                ],
+                [
+                    311.8597106933594,
+                    472.0028991699219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen and speak.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Joanna",
+        "timing": [
+            {
+                "time": 6,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 454,
+                "type": "word",
+                "start": 35,
+                "end": 38,
+                "value": "and"
+            },
+            {
+                "time": 628,
+                "type": "word",
+                "start": 39,
+                "end": 44,
+                "value": "speak"
             }
         ]
     },
@@ -800,7 +789,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Good morning,<break time=\"300ms\"/> my dear friends.<break time=\"500ms\"/> I&apos;m Meena.<break time=\"500ms\"/> I&apos;m 9 years old.<break time=\"500ms\"/> I like to play badminton.<break time=\"500ms\"/> My hobby is gardening.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Good morning, my dear friends. I'm <phoneme alphabet='ipa' ph='mi\u02d0na'>Meena</phoneme>. I'm 9 years old. I like to play badminton. My hobby is gardening.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -808,176 +797,141 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Good"
             },
             {
                 "time": 279,
                 "type": "word",
-                "start": 32,
-                "end": 39,
+                "start": 33,
+                "end": 40,
                 "value": "morning"
             },
             {
-                "time": 959,
+                "time": 1066,
                 "type": "word",
-                "start": 40,
-                "end": 61,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1359,
-                "type": "word",
-                "start": 62,
-                "end": 64,
+                "start": 42,
+                "end": 44,
                 "value": "my"
             },
             {
-                "time": 1620,
+                "time": 1338,
                 "type": "word",
-                "start": 65,
-                "end": 69,
+                "start": 45,
+                "end": 49,
                 "value": "dear"
             },
             {
-                "time": 1906,
+                "time": 1630,
                 "type": "word",
-                "start": 70,
-                "end": 77,
+                "start": 50,
+                "end": 57,
                 "value": "friends"
             },
             {
-                "time": 2575,
+                "time": 2713,
                 "type": "word",
-                "start": 78,
-                "end": 99,
-                "value": "<break time=\"500ms\"/>"
+                "start": 59,
+                "end": 62,
+                "value": "I'm"
             },
             {
-                "time": 3461,
+                "time": 2880,
                 "type": "word",
-                "start": 100,
-                "end": 108,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 3707,
-                "type": "word",
-                "start": 109,
-                "end": 114,
+                "start": 99,
+                "end": 104,
                 "value": "Meena"
             },
             {
-                "time": 4213,
+                "time": 3791,
                 "type": "word",
-                "start": 115,
-                "end": 136,
-                "value": "<break time=\"500ms\"/>"
+                "start": 116,
+                "end": 119,
+                "value": "I'm"
             },
             {
-                "time": 5100,
+                "time": 3998,
                 "type": "word",
-                "start": 137,
-                "end": 145,
-                "value": "I&apos;m"
-            },
-            {
-                "time": 5294,
-                "type": "word",
-                "start": 146,
-                "end": 147,
+                "start": 120,
+                "end": 121,
                 "value": "9"
             },
             {
-                "time": 5673,
+                "time": 4390,
                 "type": "word",
-                "start": 148,
-                "end": 153,
+                "start": 122,
+                "end": 127,
                 "value": "years"
             },
             {
-                "time": 5997,
+                "time": 4739,
                 "type": "word",
-                "start": 154,
-                "end": 157,
+                "start": 128,
+                "end": 131,
                 "value": "old"
             },
             {
-                "time": 6393,
+                "time": 5532,
                 "type": "word",
-                "start": 158,
-                "end": 179,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 7280,
-                "type": "word",
-                "start": 180,
-                "end": 181,
+                "start": 133,
+                "end": 134,
                 "value": "I"
             },
             {
-                "time": 7396,
+                "time": 5653,
                 "type": "word",
-                "start": 182,
-                "end": 186,
+                "start": 135,
+                "end": 139,
                 "value": "like"
             },
             {
-                "time": 7740,
+                "time": 6022,
                 "type": "word",
-                "start": 187,
-                "end": 189,
+                "start": 140,
+                "end": 142,
                 "value": "to"
             },
             {
-                "time": 7828,
+                "time": 6114,
                 "type": "word",
-                "start": 190,
-                "end": 194,
+                "start": 143,
+                "end": 147,
                 "value": "play"
             },
             {
-                "time": 8199,
+                "time": 6505,
                 "type": "word",
-                "start": 195,
-                "end": 204,
+                "start": 148,
+                "end": 157,
                 "value": "badminton"
             },
             {
-                "time": 9016,
+                "time": 7721,
                 "type": "word",
-                "start": 205,
-                "end": 226,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 9902,
-                "type": "word",
-                "start": 227,
-                "end": 229,
+                "start": 159,
+                "end": 161,
                 "value": "My"
             },
             {
-                "time": 10171,
+                "time": 8002,
                 "type": "word",
-                "start": 230,
-                "end": 235,
+                "start": 162,
+                "end": 167,
                 "value": "hobby"
             },
             {
-                "time": 10699,
+                "time": 8559,
                 "type": "word",
-                "start": 236,
-                "end": 238,
+                "start": 168,
+                "end": 170,
                 "value": "is"
             },
             {
-                "time": 10841,
+                "time": 8705,
                 "type": "word",
-                "start": 239,
-                "end": 248,
+                "start": 171,
+                "end": 180,
                 "value": "gardening"
             }
         ]
@@ -1032,36 +986,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Now speak about yourself.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Now speak about yourself.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Now"
             },
             {
-                "time": 261,
+                "time": 271,
                 "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 32,
+                "end": 37,
                 "value": "speak"
             },
             {
-                "time": 639,
+                "time": 656,
                 "type": "word",
-                "start": 37,
-                "end": 42,
+                "start": 38,
+                "end": 43,
                 "value": "about"
             },
             {
-                "time": 943,
+                "time": 975,
                 "type": "word",
-                "start": 43,
-                "end": 51,
+                "start": 44,
+                "end": 52,
                 "value": "yourself"
             }
         ]

@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Read aloud.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Read aloud.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Read"
             },
             {
-                "time": 266,
+                "time": 278,
                 "type": "word",
-                "start": 32,
-                "end": 37,
+                "start": 33,
+                "end": 38,
                 "value": "aloud"
             }
         ]
@@ -119,36 +120,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">First 1st Second 2nd</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>First - 1st Second - 2nd</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "First"
             },
             {
-                "time": 399,
+                "time": 874,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 36,
+                "end": 39,
                 "value": "1st"
             },
             {
-                "time": 780,
+                "time": 1229,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 40,
+                "end": 46,
                 "value": "Second"
             },
             {
-                "time": 1219,
+                "time": 2081,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 49,
+                "end": 52,
                 "value": "2nd"
             }
         ]
@@ -225,36 +227,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Third 3rd Fourth 4th</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Third - 3rd Fourth - 4th</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Third"
             },
             {
-                "time": 389,
+                "time": 735,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 36,
+                "end": 39,
                 "value": "3rd"
             },
             {
-                "time": 781,
+                "time": 1066,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 40,
+                "end": 46,
                 "value": "Fourth"
             },
             {
-                "time": 1183,
+                "time": 1863,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 49,
+                "end": 52,
                 "value": "4th"
             }
         ]
@@ -375,85 +378,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look at the calendar in your classroom.<break time=\"500ms\"/> Say the date.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look at the calendar in your classroom. Say the date.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
                 "time": 224,
                 "type": "word",
-                "start": 32,
-                "end": 34,
+                "start": 33,
+                "end": 35,
                 "value": "at"
             },
             {
                 "time": 311,
                 "type": "word",
-                "start": 35,
-                "end": 38,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             },
             {
-                "time": 406,
+                "time": 413,
                 "type": "word",
-                "start": 39,
-                "end": 47,
+                "start": 40,
+                "end": 48,
                 "value": "calendar"
             },
             {
-                "time": 1082,
+                "time": 1124,
                 "type": "word",
-                "start": 48,
-                "end": 50,
+                "start": 49,
+                "end": 51,
                 "value": "in"
             },
             {
-                "time": 1213,
+                "time": 1255,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 52,
+                "end": 56,
                 "value": "your"
             },
             {
-                "time": 1352,
+                "time": 1394,
                 "type": "word",
-                "start": 56,
-                "end": 65,
+                "start": 57,
+                "end": 66,
                 "value": "classroom"
             },
             {
-                "time": 2193,
+                "time": 2652,
                 "type": "word",
-                "start": 66,
-                "end": 87,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 3080,
-                "type": "word",
-                "start": 88,
-                "end": 91,
+                "start": 68,
+                "end": 71,
                 "value": "Say"
             },
             {
-                "time": 3361,
+                "time": 2934,
                 "type": "word",
-                "start": 92,
-                "end": 95,
+                "start": 72,
+                "end": 75,
                 "value": "the"
             },
             {
-                "time": 3480,
+                "time": 3053,
                 "type": "word",
-                "start": 96,
-                "end": 100,
+                "start": 76,
+                "end": 80,
                 "value": "date"
             }
         ]
@@ -508,36 +505,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Today is the of</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Today is the of</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Today"
             },
             {
-                "time": 418,
+                "time": 431,
                 "type": "word",
-                "start": 33,
-                "end": 35,
+                "start": 34,
+                "end": 36,
                 "value": "is"
             },
             {
-                "time": 566,
+                "time": 585,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             },
             {
-                "time": 749,
+                "time": 782,
                 "type": "word",
-                "start": 40,
-                "end": 42,
+                "start": 41,
+                "end": 43,
                 "value": "of"
             }
         ]
@@ -570,22 +568,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -662,51 +661,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s make a calendar of birthdays.</prosody></speak>",
-        "dialog": "true",
-        "person_type": "middle aged woman",
+        "ssml": "<speak><prosody rate='slow'>Let's make a calendar of birthdays.</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
         "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 317,
+                "time": 326,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "make"
             },
             {
-                "time": 571,
+                "time": 586,
                 "type": "word",
-                "start": 43,
-                "end": 44,
+                "start": 39,
+                "end": 40,
                 "value": "a"
             },
             {
-                "time": 634,
+                "time": 649,
                 "type": "word",
-                "start": 45,
-                "end": 53,
+                "start": 41,
+                "end": 49,
                 "value": "calendar"
             },
             {
-                "time": 1199,
+                "time": 1236,
                 "type": "word",
-                "start": 54,
-                "end": 56,
+                "start": 50,
+                "end": 52,
                 "value": "of"
             },
             {
-                "time": 1320,
+                "time": 1357,
                 "type": "word",
-                "start": 57,
-                "end": 66,
+                "start": 53,
+                "end": 62,
                 "value": "birthdays"
             }
         ]
@@ -761,36 +760,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Take some colour papers.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Take some colour papers.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Take"
             },
             {
-                "time": 292,
+                "time": 291,
                 "type": "word",
-                "start": 32,
-                "end": 36,
+                "start": 33,
+                "end": 37,
                 "value": "some"
             },
             {
-                "time": 537,
+                "time": 549,
                 "type": "word",
-                "start": 37,
-                "end": 43,
+                "start": 38,
+                "end": 44,
                 "value": "colour"
             },
             {
-                "time": 911,
+                "time": 944,
                 "type": "word",
-                "start": 44,
-                "end": 50,
+                "start": 45,
+                "end": 51,
                 "value": "papers"
             }
         ]
@@ -834,29 +834,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Draw a balloon.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Draw a balloon.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Draw"
             },
             {
-                "time": 381,
+                "time": 393,
                 "type": "word",
-                "start": 32,
-                "end": 33,
+                "start": 33,
+                "end": 34,
                 "value": "a"
             },
             {
-                "time": 432,
+                "time": 444,
                 "type": "word",
-                "start": 34,
-                "end": 41,
+                "start": 35,
+                "end": 42,
                 "value": "balloon"
             }
         ]
@@ -889,22 +890,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Cut it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Cut it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Cut"
             },
             {
                 "time": 207,
                 "type": "word",
-                "start": 31,
-                "end": 33,
+                "start": 32,
+                "end": 34,
                 "value": "it"
             }
         ]
@@ -970,43 +972,44 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Write your name on it.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Write your name on it.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "Write"
             },
             {
-                "time": 265,
+                "time": 283,
                 "type": "word",
-                "start": 33,
-                "end": 37,
+                "start": 34,
+                "end": 38,
                 "value": "your"
             },
             {
-                "time": 418,
+                "time": 436,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 39,
+                "end": 43,
                 "value": "name"
             },
             {
-                "time": 784,
+                "time": 821,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 44,
+                "end": 46,
                 "value": "on"
             },
             {
-                "time": 929,
+                "time": 975,
                 "type": "word",
-                "start": 46,
-                "end": 48,
+                "start": 47,
+                "end": 49,
                 "value": "it"
             }
         ]

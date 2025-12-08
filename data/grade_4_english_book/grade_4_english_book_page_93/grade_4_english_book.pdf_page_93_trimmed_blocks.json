@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 5</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 5</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 434,
+                "time": 458,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "5"
             }
         ]
@@ -86,29 +87,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 421,
+                "time": 454,
                 "type": "word",
-                "start": 34,
-                "end": 37,
+                "start": 35,
+                "end": 38,
                 "value": "and"
             },
             {
-                "time": 595,
+                "time": 628,
                 "type": "word",
-                "start": 38,
-                "end": 41,
+                "start": 39,
+                "end": 42,
                 "value": "say"
             }
         ]
@@ -130,15 +132,16 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">hobbies</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>hobbies</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "hobbies"
             }
         ]
@@ -182,29 +185,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">reading dancing gardening</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>reading dancing gardening</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "reading"
             },
             {
-                "time": 379,
+                "time": 396,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "dancing"
             },
             {
-                "time": 926,
+                "time": 957,
                 "type": "word",
-                "start": 43,
-                "end": 52,
+                "start": 44,
+                "end": 53,
                 "value": "gardening"
             }
         ]
@@ -270,51 +274,59 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">cycling drawing playing with pets</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>cycling drawing playing with pets</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 34,
+                "start": 28,
+                "end": 35,
                 "value": "cycling"
             },
             {
-                "time": 632,
+                "time": 660,
                 "type": "word",
-                "start": 35,
-                "end": 42,
+                "start": 36,
+                "end": 43,
                 "value": "drawing"
             },
             {
-                "time": 1085,
+                "time": 1112,
                 "type": "word",
-                "start": 43,
-                "end": 50,
+                "start": 44,
+                "end": 51,
                 "value": "playing"
             },
             {
-                "time": 1520,
+                "time": 1562,
                 "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 52,
+                "end": 56,
                 "value": "with"
             },
             {
-                "time": 1717,
+                "time": 1759,
                 "type": "word",
-                "start": 56,
-                "end": 60,
+                "start": 57,
+                "end": 61,
                 "value": "pets"
             }
         ]
     },
     "5": {
-        "text": "Speak.",
+        "text": "Speak. My hobby is reading. What's your hobby?",
         "words": [
-            "Speak."
+            "Speak.",
+            "My",
+            "hobby",
+            "is",
+            "reading.",
+            "What's",
+            "your",
+            "hobby?"
         ],
         "bounding_boxes": [
             [
@@ -326,33 +338,7 @@
                     133.18389892578125,
                     490.0753173828125
                 ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate=\"85%\">Speak.</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 27,
-                "end": 32,
-                "value": "Speak"
-            }
-        ]
-    },
-    "6": {
-        "text": "My hobby is reading. What's your hobby?",
-        "words": [
-            "My",
-            "hobby",
-            "is",
-            "reading.",
-            "What's",
-            "your",
-            "hobby?"
-        ],
-        "bounding_boxes": [
+            ],
             [
                 [
                     71.64620208740234,
@@ -424,7 +410,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My hobby is reading.<break time=\"500ms\"/> What&apos;s your hobby?</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Speak. My hobby is reading. What's your hobby?</prosody></speak>",
         "dialog": "true",
         "person_type": "young boy",
         "voice_id": "Justin",
@@ -432,62 +418,62 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 33,
+                "value": "Speak"
+            },
+            {
+                "time": 1197,
+                "type": "word",
+                "start": 35,
+                "end": 37,
                 "value": "My"
             },
             {
-                "time": 215,
+                "time": 1414,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 38,
+                "end": 43,
                 "value": "hobby"
             },
             {
-                "time": 616,
+                "time": 1830,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 44,
+                "end": 46,
                 "value": "is"
             },
             {
-                "time": 787,
+                "time": 2006,
                 "type": "word",
-                "start": 39,
-                "end": 46,
+                "start": 47,
+                "end": 54,
                 "value": "reading"
             },
             {
-                "time": 1305,
+                "time": 2918,
                 "type": "word",
-                "start": 47,
-                "end": 68,
-                "value": "<break time=\"500ms\"/>"
+                "start": 56,
+                "end": 62,
+                "value": "What's"
             },
             {
-                "time": 2192,
+                "time": 3191,
                 "type": "word",
-                "start": 69,
-                "end": 80,
-                "value": "What&apos;s"
-            },
-            {
-                "time": 2452,
-                "type": "word",
-                "start": 81,
-                "end": 85,
+                "start": 63,
+                "end": 67,
                 "value": "your"
             },
             {
-                "time": 2609,
+                "time": 3357,
                 "type": "word",
-                "start": 86,
-                "end": 91,
+                "start": 68,
+                "end": 73,
                 "value": "hobby"
             }
         ]
     },
-    "7": {
+    "6": {
         "text": "My hobby is drawing.",
         "words": [
             "My",
@@ -537,7 +523,7 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">My hobby is drawing.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>My hobby is drawing.</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
@@ -545,29 +531,29 @@
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "My"
             },
             {
-                "time": 275,
+                "time": 287,
                 "type": "word",
-                "start": 30,
-                "end": 35,
+                "start": 31,
+                "end": 36,
                 "value": "hobby"
             },
             {
-                "time": 887,
+                "time": 931,
                 "type": "word",
-                "start": 36,
-                "end": 38,
+                "start": 37,
+                "end": 39,
                 "value": "is"
             },
             {
-                "time": 1032,
+                "time": 1084,
                 "type": "word",
-                "start": 39,
-                "end": 46,
+                "start": 40,
+                "end": 47,
                 "value": "drawing"
             }
         ]

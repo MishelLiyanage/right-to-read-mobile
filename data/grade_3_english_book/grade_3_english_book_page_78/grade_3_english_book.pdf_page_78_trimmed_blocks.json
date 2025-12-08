@@ -71,50 +71,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Listen to the poem and recite.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Listen to the poem and recite.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 380,
+                "time": 402,
                 "type": "word",
-                "start": 34,
-                "end": 36,
+                "start": 35,
+                "end": 37,
                 "value": "to"
             },
             {
-                "time": 529,
+                "time": 552,
                 "type": "word",
-                "start": 37,
-                "end": 40,
+                "start": 38,
+                "end": 41,
                 "value": "the"
             },
             {
-                "time": 634,
+                "time": 657,
                 "type": "word",
-                "start": 41,
-                "end": 45,
+                "start": 42,
+                "end": 46,
                 "value": "poem"
             },
             {
-                "time": 1089,
+                "time": 1112,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 47,
+                "end": 50,
                 "value": "and"
             },
             {
-                "time": 1254,
+                "time": 1277,
                 "type": "word",
-                "start": 50,
-                "end": 56,
+                "start": 51,
+                "end": 57,
                 "value": "recite"
             }
         ]
@@ -224,71 +225,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There was a wise old owl by Leanne Guenther</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There was a wise old owl by Leanne Guenther</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 140,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "was"
             },
             {
                 "time": 343,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
                 "time": 396,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "wise"
             },
             {
-                "time": 898,
+                "time": 920,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 45,
+                "end": 48,
                 "value": "old"
             },
             {
-                "time": 1201,
+                "time": 1235,
                 "type": "word",
-                "start": 48,
-                "end": 51,
+                "start": 49,
+                "end": 52,
                 "value": "owl"
             },
             {
-                "time": 1407,
+                "time": 1456,
                 "type": "word",
-                "start": 52,
-                "end": 54,
+                "start": 53,
+                "end": 55,
                 "value": "by"
             },
             {
-                "time": 1602,
+                "time": 1650,
                 "type": "word",
-                "start": 55,
-                "end": 61,
+                "start": 56,
+                "end": 62,
                 "value": "Leanne"
             },
             {
-                "time": 2083,
+                "time": 2138,
                 "type": "word",
-                "start": 62,
-                "end": 70,
+                "start": 63,
+                "end": 71,
                 "value": "Guenther"
             }
         ]
@@ -431,106 +433,93 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">There was a wise,<break time=\"300ms\"/> old owl,<break time=\"300ms\"/> who lived up in a tree.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>There was a wise, old owl, who lived up in a tree.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 32,
+                "start": 28,
+                "end": 33,
                 "value": "There"
             },
             {
                 "time": 140,
                 "type": "word",
-                "start": 33,
-                "end": 36,
+                "start": 34,
+                "end": 37,
                 "value": "was"
             },
             {
                 "time": 339,
                 "type": "word",
-                "start": 37,
-                "end": 38,
+                "start": 38,
+                "end": 39,
                 "value": "a"
             },
             {
                 "time": 393,
                 "type": "word",
-                "start": 39,
-                "end": 43,
+                "start": 40,
+                "end": 44,
                 "value": "wise"
             },
             {
-                "time": 1140,
+                "time": 1247,
                 "type": "word",
-                "start": 44,
-                "end": 65,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1533,
-                "type": "word",
-                "start": 66,
-                "end": 69,
+                "start": 46,
+                "end": 49,
                 "value": "old"
             },
             {
-                "time": 1833,
+                "time": 1553,
                 "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 50,
+                "end": 53,
                 "value": "owl"
             },
             {
-                "time": 2445,
+                "time": 2272,
                 "type": "word",
-                "start": 74,
-                "end": 95,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2839,
-                "type": "word",
-                "start": 96,
-                "end": 99,
+                "start": 55,
+                "end": 58,
                 "value": "who"
             },
             {
-                "time": 2972,
+                "time": 2410,
                 "type": "word",
-                "start": 100,
-                "end": 105,
+                "start": 59,
+                "end": 64,
                 "value": "lived"
             },
             {
-                "time": 3296,
+                "time": 2747,
                 "type": "word",
-                "start": 106,
-                "end": 108,
+                "start": 65,
+                "end": 67,
                 "value": "up"
             },
             {
-                "time": 3490,
+                "time": 2940,
                 "type": "word",
-                "start": 109,
-                "end": 111,
+                "start": 68,
+                "end": 70,
                 "value": "in"
             },
             {
-                "time": 3623,
+                "time": 3073,
                 "type": "word",
-                "start": 112,
-                "end": 113,
+                "start": 71,
+                "end": 72,
                 "value": "a"
             },
             {
-                "time": 3688,
+                "time": 3138,
                 "type": "word",
-                "start": 114,
-                "end": 118,
+                "start": 73,
+                "end": 77,
                 "value": "tree"
             }
         ]
@@ -662,92 +651,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He sat upon a branch,<break time=\"300ms\"/> so all the world he&apos;d see.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>He sat upon a branch, so all the world he'd see.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "He"
             },
             {
-                "time": 144,
+                "time": 149,
                 "type": "word",
-                "start": 30,
-                "end": 33,
+                "start": 31,
+                "end": 34,
                 "value": "sat"
             },
             {
-                "time": 512,
+                "time": 519,
                 "type": "word",
-                "start": 34,
-                "end": 38,
+                "start": 35,
+                "end": 39,
                 "value": "upon"
             },
             {
-                "time": 846,
+                "time": 859,
                 "type": "word",
-                "start": 39,
-                "end": 40,
+                "start": 40,
+                "end": 41,
                 "value": "a"
             },
             {
-                "time": 873,
+                "time": 886,
                 "type": "word",
-                "start": 41,
-                "end": 47,
+                "start": 42,
+                "end": 48,
                 "value": "branch"
             },
             {
-                "time": 1625,
+                "time": 1746,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 2027,
-                "type": "word",
-                "start": 70,
-                "end": 72,
+                "start": 50,
+                "end": 52,
                 "value": "so"
             },
             {
-                "time": 2316,
+                "time": 2036,
                 "type": "word",
-                "start": 73,
-                "end": 76,
+                "start": 53,
+                "end": 56,
                 "value": "all"
             },
             {
-                "time": 2484,
+                "time": 2205,
                 "type": "word",
-                "start": 77,
-                "end": 80,
+                "start": 57,
+                "end": 60,
                 "value": "the"
             },
             {
-                "time": 2605,
+                "time": 2325,
                 "type": "word",
-                "start": 81,
-                "end": 86,
+                "start": 61,
+                "end": 66,
                 "value": "world"
             },
             {
-                "time": 3011,
+                "time": 2762,
                 "type": "word",
-                "start": 87,
-                "end": 96,
-                "value": "he&apos;d"
+                "start": 67,
+                "end": 71,
+                "value": "he'd"
             },
             {
-                "time": 3237,
+                "time": 2988,
                 "type": "word",
-                "start": 97,
-                "end": 100,
+                "start": 72,
+                "end": 75,
                 "value": "see"
             }
         ]
@@ -868,85 +851,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He looked at a snake,<break time=\"300ms\"/> he looked at a bee.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>He looked at a snake, he looked at a bee.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "He"
             },
             {
                 "time": 141,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "looked"
             },
             {
-                "time": 454,
+                "time": 464,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "at"
             },
             {
-                "time": 558,
+                "time": 574,
                 "type": "word",
-                "start": 40,
-                "end": 41,
+                "start": 41,
+                "end": 42,
                 "value": "a"
             },
             {
-                "time": 623,
+                "time": 639,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "snake"
             },
             {
-                "time": 1351,
+                "time": 1468,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1751,
-                "type": "word",
-                "start": 70,
-                "end": 72,
+                "start": 50,
+                "end": 52,
                 "value": "he"
             },
             {
-                "time": 1886,
+                "time": 1603,
                 "type": "word",
-                "start": 73,
-                "end": 79,
+                "start": 53,
+                "end": 59,
                 "value": "looked"
             },
             {
-                "time": 2214,
+                "time": 1941,
                 "type": "word",
-                "start": 80,
-                "end": 82,
+                "start": 60,
+                "end": 62,
                 "value": "at"
             },
             {
-                "time": 2302,
+                "time": 2035,
                 "type": "word",
-                "start": 83,
-                "end": 84,
+                "start": 63,
+                "end": 64,
                 "value": "a"
             },
             {
-                "time": 2370,
+                "time": 2103,
                 "type": "word",
-                "start": 85,
-                "end": 88,
+                "start": 65,
+                "end": 68,
                 "value": "bee"
             }
         ]
@@ -1067,85 +1044,79 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">He looked at a mouse,<break time=\"300ms\"/> but he winked at me!</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>He looked at a mouse, but he winked at me!</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 29,
+                "start": 28,
+                "end": 30,
                 "value": "He"
             },
             {
                 "time": 146,
                 "type": "word",
-                "start": 30,
-                "end": 36,
+                "start": 31,
+                "end": 37,
                 "value": "looked"
             },
             {
-                "time": 440,
+                "time": 456,
                 "type": "word",
-                "start": 37,
-                "end": 39,
+                "start": 38,
+                "end": 40,
                 "value": "at"
             },
             {
-                "time": 552,
+                "time": 569,
                 "type": "word",
-                "start": 40,
-                "end": 41,
+                "start": 41,
+                "end": 42,
                 "value": "a"
             },
             {
-                "time": 609,
+                "time": 625,
                 "type": "word",
-                "start": 42,
-                "end": 47,
+                "start": 43,
+                "end": 48,
                 "value": "mouse"
             },
             {
-                "time": 1276,
+                "time": 1422,
                 "type": "word",
-                "start": 48,
-                "end": 69,
-                "value": "<break time=\"300ms\"/>"
-            },
-            {
-                "time": 1676,
-                "type": "word",
-                "start": 70,
-                "end": 73,
+                "start": 50,
+                "end": 53,
                 "value": "but"
             },
             {
-                "time": 1778,
+                "time": 1524,
                 "type": "word",
-                "start": 74,
-                "end": 76,
+                "start": 54,
+                "end": 56,
                 "value": "he"
             },
             {
-                "time": 1906,
+                "time": 1651,
                 "type": "word",
-                "start": 77,
-                "end": 83,
+                "start": 57,
+                "end": 63,
                 "value": "winked"
             },
             {
-                "time": 2297,
+                "time": 2043,
                 "type": "word",
-                "start": 84,
-                "end": 86,
+                "start": 64,
+                "end": 66,
                 "value": "at"
             },
             {
-                "time": 2432,
+                "time": 2177,
                 "type": "word",
-                "start": 87,
-                "end": 89,
+                "start": 67,
+                "end": 69,
                 "value": "me"
             }
         ]

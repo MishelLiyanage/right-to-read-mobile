@@ -38,29 +38,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Look and say.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Look and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 12,
                 "type": "word",
-                "start": 27,
-                "end": 31,
+                "start": 28,
+                "end": 32,
                 "value": "Look"
             },
             {
                 "time": 216,
                 "type": "word",
-                "start": 32,
-                "end": 35,
+                "start": 33,
+                "end": 36,
                 "value": "and"
             },
             {
                 "time": 355,
                 "type": "word",
-                "start": 36,
-                "end": 39,
+                "start": 37,
+                "end": 40,
                 "value": "say"
             }
         ]
@@ -170,71 +171,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2022 Senuri goes to the to post a letter.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='senuri'>Senuri</phoneme> goes to the to post a letter.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
-                "time": 0,
+                "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "\u2022"
-            },
-            {
-                "time": 206,
-                "type": "word",
-                "start": 31,
-                "end": 37,
+                "start": 64,
+                "end": 70,
                 "value": "Senuri"
             },
             {
-                "time": 754,
+                "time": 585,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 81,
+                "end": 85,
                 "value": "goes"
             },
             {
-                "time": 1120,
+                "time": 936,
                 "type": "word",
-                "start": 43,
-                "end": 45,
+                "start": 86,
+                "end": 88,
                 "value": "to"
             },
             {
-                "time": 1255,
+                "time": 1026,
                 "type": "word",
-                "start": 46,
-                "end": 49,
+                "start": 89,
+                "end": 92,
                 "value": "the"
             },
             {
-                "time": 1385,
+                "time": 1147,
                 "type": "word",
-                "start": 50,
-                "end": 52,
+                "start": 93,
+                "end": 95,
                 "value": "to"
             },
             {
-                "time": 1534,
+                "time": 1306,
                 "type": "word",
-                "start": 53,
-                "end": 57,
+                "start": 96,
+                "end": 100,
                 "value": "post"
             },
             {
-                "time": 1941,
+                "time": 1719,
                 "type": "word",
-                "start": 58,
-                "end": 59,
+                "start": 101,
+                "end": 102,
                 "value": "a"
             },
             {
-                "time": 1996,
+                "time": 1773,
                 "type": "word",
-                "start": 60,
-                "end": 66,
+                "start": 103,
+                "end": 109,
                 "value": "letter"
             }
         ]
@@ -344,71 +339,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2022 Kumar goes to the to see a doctor.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Kumar goes to the to see a doctor.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
-                "time": 0,
+                "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "\u2022"
-            },
-            {
-                "time": 206,
-                "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 28,
+                "end": 33,
                 "value": "Kumar"
             },
             {
-                "time": 605,
+                "time": 422,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 34,
+                "end": 38,
                 "value": "goes"
             },
             {
-                "time": 907,
+                "time": 730,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 39,
+                "end": 41,
                 "value": "to"
             },
             {
-                "time": 1060,
+                "time": 884,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 42,
+                "end": 45,
                 "value": "the"
             },
             {
-                "time": 1178,
+                "time": 1001,
                 "type": "word",
-                "start": 49,
-                "end": 51,
+                "start": 46,
+                "end": 48,
                 "value": "to"
             },
             {
-                "time": 1359,
+                "time": 1182,
                 "type": "word",
-                "start": 52,
-                "end": 55,
+                "start": 49,
+                "end": 52,
                 "value": "see"
             },
             {
-                "time": 1614,
+                "time": 1451,
                 "type": "word",
-                "start": 56,
-                "end": 57,
+                "start": 53,
+                "end": 54,
                 "value": "a"
             },
             {
-                "time": 1671,
+                "time": 1508,
                 "type": "word",
-                "start": 58,
-                "end": 64,
+                "start": 55,
+                "end": 61,
                 "value": "doctor"
             }
         ]
@@ -529,78 +518,72 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2022 Sonia goes to the to buy an exercise book.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Sonia goes to the to buy an exercise book.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
-                "time": 0,
+                "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "\u2022"
-            },
-            {
-                "time": 206,
-                "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 28,
+                "end": 33,
                 "value": "Sonia"
             },
             {
-                "time": 650,
+                "time": 450,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 34,
+                "end": 38,
                 "value": "goes"
             },
             {
-                "time": 945,
+                "time": 752,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 39,
+                "end": 41,
                 "value": "to"
             },
             {
-                "time": 1092,
+                "time": 899,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 42,
+                "end": 45,
                 "value": "the"
             },
             {
-                "time": 1194,
+                "time": 1001,
                 "type": "word",
-                "start": 49,
-                "end": 51,
+                "start": 46,
+                "end": 48,
                 "value": "to"
             },
             {
-                "time": 1324,
+                "time": 1138,
                 "type": "word",
-                "start": 52,
-                "end": 55,
+                "start": 49,
+                "end": 52,
                 "value": "buy"
             },
             {
-                "time": 1620,
+                "time": 1455,
                 "type": "word",
-                "start": 56,
-                "end": 58,
+                "start": 53,
+                "end": 55,
                 "value": "an"
             },
             {
-                "time": 1747,
+                "time": 1589,
                 "type": "word",
-                "start": 59,
-                "end": 67,
+                "start": 56,
+                "end": 64,
                 "value": "exercise"
             },
             {
-                "time": 2524,
+                "time": 2401,
                 "type": "word",
-                "start": 68,
-                "end": 72,
+                "start": 65,
+                "end": 69,
                 "value": "book"
             }
         ]
@@ -710,71 +693,65 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">\u2022 Navaz goes to the to borrow a book.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='nava\u02d0z'>Navaz</phoneme> goes to the to borrow a book.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
-                "time": 0,
+                "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
-                "value": "\u2022"
-            },
-            {
-                "time": 206,
-                "type": "word",
-                "start": 31,
-                "end": 36,
+                "start": 65,
+                "end": 70,
                 "value": "Navaz"
             },
             {
-                "time": 670,
+                "time": 563,
                 "type": "word",
-                "start": 37,
-                "end": 41,
+                "start": 81,
+                "end": 85,
                 "value": "goes"
             },
             {
-                "time": 957,
+                "time": 855,
                 "type": "word",
-                "start": 42,
-                "end": 44,
+                "start": 86,
+                "end": 88,
                 "value": "to"
             },
             {
-                "time": 1098,
+                "time": 1010,
                 "type": "word",
-                "start": 45,
-                "end": 48,
+                "start": 89,
+                "end": 92,
                 "value": "the"
             },
             {
-                "time": 1219,
+                "time": 1128,
                 "type": "word",
-                "start": 49,
-                "end": 51,
+                "start": 93,
+                "end": 95,
                 "value": "to"
             },
             {
-                "time": 1335,
+                "time": 1300,
                 "type": "word",
-                "start": 52,
-                "end": 58,
+                "start": 96,
+                "end": 102,
                 "value": "borrow"
             },
             {
-                "time": 1778,
+                "time": 1762,
                 "type": "word",
-                "start": 59,
-                "end": 60,
+                "start": 103,
+                "end": 104,
                 "value": "a"
             },
             {
-                "time": 1825,
+                "time": 1810,
                 "type": "word",
-                "start": 61,
-                "end": 65,
+                "start": 105,
+                "end": 109,
                 "value": "book"
             }
         ]

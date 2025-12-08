@@ -27,22 +27,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Lesson 4</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Lesson 4</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 33,
+                "start": 28,
+                "end": 34,
                 "value": "Lesson"
             },
             {
-                "time": 396,
+                "time": 415,
                 "type": "word",
-                "start": 34,
-                "end": 35,
+                "start": 35,
+                "end": 36,
                 "value": "4"
             }
         ]
@@ -75,22 +76,23 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s read.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's read.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 271,
+                "time": 276,
                 "type": "word",
-                "start": 38,
-                "end": 42,
+                "start": 34,
+                "end": 38,
                 "value": "read"
             }
         ]
@@ -145,36 +147,37 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Let&apos;s clean our garden.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Let's clean our garden.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 37,
-                "value": "Let&apos;s"
+                "start": 28,
+                "end": 33,
+                "value": "Let's"
             },
             {
-                "time": 293,
+                "time": 302,
                 "type": "word",
-                "start": 38,
-                "end": 43,
+                "start": 34,
+                "end": 39,
                 "value": "clean"
             },
             {
-                "time": 690,
+                "time": 712,
                 "type": "word",
-                "start": 44,
-                "end": 47,
+                "start": 40,
+                "end": 43,
                 "value": "our"
             },
             {
-                "time": 850,
+                "time": 872,
                 "type": "word",
-                "start": 48,
-                "end": 54,
+                "start": 44,
+                "end": 50,
                 "value": "garden"
             }
         ]
@@ -218,36 +221,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">1.<break time=\"500ms\"/> Take the</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>1. Take the</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "1"
             },
             {
-                "time": 573,
+                "time": 981,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1460,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Take"
             },
             {
-                "time": 1790,
+                "time": 1321,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             }
         ]
@@ -291,36 +288,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">2.<break time=\"500ms\"/> Sweep the</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>2. Sweep the</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "2"
             },
             {
-                "time": 476,
+                "time": 874,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1363,
-                "type": "word",
-                "start": 51,
-                "end": 56,
+                "start": 31,
+                "end": 36,
                 "value": "Sweep"
             },
             {
-                "time": 1778,
+                "time": 1313,
                 "type": "word",
-                "start": 57,
-                "end": 60,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             }
         ]
@@ -364,36 +355,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">3.<break time=\"500ms\"/> Pick the</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>3. Pick the</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "3"
             },
             {
-                "time": 613,
+                "time": 1014,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1499,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Pick"
             },
             {
-                "time": 1720,
+                "time": 1242,
                 "type": "word",
-                "start": 56,
-                "end": 59,
+                "start": 36,
+                "end": 39,
                 "value": "the"
             }
         ]
@@ -470,57 +455,51 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">4.<break time=\"500ms\"/> Put the leaves into the</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>4. Put the leaves into the</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "4"
             },
             {
-                "time": 550,
+                "time": 945,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1437,
-                "type": "word",
-                "start": 51,
-                "end": 54,
+                "start": 31,
+                "end": 34,
                 "value": "Put"
             },
             {
-                "time": 1590,
+                "time": 1099,
                 "type": "word",
-                "start": 55,
-                "end": 58,
+                "start": 35,
+                "end": 38,
                 "value": "the"
             },
             {
-                "time": 1692,
+                "time": 1200,
                 "type": "word",
-                "start": 59,
-                "end": 65,
+                "start": 39,
+                "end": 45,
                 "value": "leaves"
             },
             {
-                "time": 2057,
+                "time": 1585,
                 "type": "word",
-                "start": 66,
-                "end": 70,
+                "start": 46,
+                "end": 50,
                 "value": "into"
             },
             {
-                "time": 2307,
+                "time": 1834,
                 "type": "word",
-                "start": 71,
-                "end": 74,
+                "start": 51,
+                "end": 54,
                 "value": "the"
             }
         ]
@@ -564,36 +543,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">5.<break time=\"500ms\"/> Water the</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>5. Water the</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "5"
             },
             {
-                "time": 600,
+                "time": 1009,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1487,
-                "type": "word",
-                "start": 51,
-                "end": 56,
+                "start": 31,
+                "end": 36,
                 "value": "Water"
             },
             {
-                "time": 1796,
+                "time": 1324,
                 "type": "word",
-                "start": 57,
-                "end": 60,
+                "start": 37,
+                "end": 40,
                 "value": "the"
             }
         ]
@@ -637,36 +610,30 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">6.<break time=\"500ms\"/> Wash your</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>6. Wash your</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 28,
+                "start": 28,
+                "end": 29,
                 "value": "6"
             },
             {
-                "time": 658,
+                "time": 1065,
                 "type": "word",
-                "start": 29,
-                "end": 50,
-                "value": "<break time=\"500ms\"/>"
-            },
-            {
-                "time": 1545,
-                "type": "word",
-                "start": 51,
-                "end": 55,
+                "start": 31,
+                "end": 35,
                 "value": "Wash"
             },
             {
-                "time": 1902,
+                "time": 1433,
                 "type": "word",
-                "start": 56,
-                "end": 60,
+                "start": 36,
+                "end": 40,
                 "value": "your"
             }
         ]
@@ -798,85 +765,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate=\"85%\">Ask the students to guess the words for the picture clues.</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>Ask the students to guess the words for the picture clues.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
+        "voice_id": "Joanna",
         "timing": [
             {
                 "time": 6,
                 "type": "word",
-                "start": 27,
-                "end": 30,
+                "start": 28,
+                "end": 31,
                 "value": "Ask"
             },
             {
-                "time": 363,
+                "time": 387,
                 "type": "word",
-                "start": 31,
-                "end": 34,
+                "start": 32,
+                "end": 35,
                 "value": "the"
             },
             {
-                "time": 456,
+                "time": 479,
                 "type": "word",
-                "start": 35,
-                "end": 43,
+                "start": 36,
+                "end": 44,
                 "value": "students"
             },
             {
-                "time": 1040,
+                "time": 1070,
                 "type": "word",
-                "start": 44,
-                "end": 46,
+                "start": 45,
+                "end": 47,
                 "value": "to"
             },
             {
-                "time": 1158,
+                "time": 1188,
                 "type": "word",
-                "start": 47,
-                "end": 52,
+                "start": 48,
+                "end": 53,
                 "value": "guess"
             },
             {
-                "time": 1453,
+                "time": 1497,
                 "type": "word",
-                "start": 53,
-                "end": 56,
+                "start": 54,
+                "end": 57,
                 "value": "the"
             },
             {
-                "time": 1547,
+                "time": 1590,
                 "type": "word",
-                "start": 57,
-                "end": 62,
+                "start": 58,
+                "end": 63,
                 "value": "words"
             },
             {
-                "time": 1933,
+                "time": 1990,
                 "type": "word",
-                "start": 63,
-                "end": 66,
+                "start": 64,
+                "end": 67,
                 "value": "for"
             },
             {
-                "time": 2076,
+                "time": 2140,
                 "type": "word",
-                "start": 67,
-                "end": 70,
+                "start": 68,
+                "end": 71,
                 "value": "the"
             },
             {
-                "time": 2203,
+                "time": 2267,
                 "type": "word",
-                "start": 71,
-                "end": 78,
+                "start": 72,
+                "end": 79,
                 "value": "picture"
             },
             {
-                "time": 2666,
+                "time": 2743,
                 "type": "word",
-                "start": 79,
-                "end": 84,
+                "start": 80,
+                "end": 85,
                 "value": "clues"
             }
         ]

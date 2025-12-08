@@ -685,7 +685,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                     )}
                     {currentPage?.blocks && (() => {
                       const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
-                      const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, isSlowMode);
+                      // Always use normal (non-slow) trimmed blocks for button positioning
+                      // because the bounding boxes need to match the original book.pages block structure
+                      const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, false);
                       const blocksWithBounds = currentPage.blocks.map(block => {
                         // Try to find matching block data by text content instead of ID
                         let matchingBlockData = null;
@@ -762,7 +764,9 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
                   {currentPage?.blocks && (() => {
                     // Load block data with bounding boxes from TrimmedBlocksDataService
                     const trimmedBlocksService = TrimmedBlocksDataService.getInstance();
-                    const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, isSlowMode);
+                    // Always use normal (non-slow) trimmed blocks for button positioning
+                    // because the bounding boxes need to match the original book.pages block structure
+                    const pageBlocksData = trimmedBlocksService.getTrimmedBlocksForPage(currentPage.pageNumber, book.title, false);
                     
                     // Prepare blocks data with enhanced filtering
                     const blocksWithBounds = currentPage.blocks.map(block => {
