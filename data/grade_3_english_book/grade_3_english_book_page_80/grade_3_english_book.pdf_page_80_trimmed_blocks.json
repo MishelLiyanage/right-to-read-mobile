@@ -41,24 +41,24 @@
         "ssml": "<speak><prosody rate='slow'>Listen and say.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 34,
                 "value": "Listen"
             },
             {
-                "time": 454,
+                "time": 569,
                 "type": "word",
                 "start": 35,
                 "end": 38,
                 "value": "and"
             },
             {
-                "time": 628,
+                "time": 829,
                 "type": "word",
                 "start": 39,
                 "end": 42,
@@ -86,10 +86,10 @@
         "ssml": "<speak><prosody rate='slow'>sheep</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
                 "start": 28,
                 "end": 33,
@@ -128,17 +128,17 @@
         "ssml": "<speak><prosody rate='slow'>cow duck</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 31,
                 "value": "cow"
             },
             {
-                "time": 208,
+                "time": 428,
                 "type": "word",
                 "start": 32,
                 "end": 36,
@@ -166,10 +166,10 @@
         "ssml": "<speak><prosody rate='slow'>dog</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 31,
@@ -197,10 +197,10 @@
         "ssml": "<speak><prosody rate='slow'>owl</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 200,
                 "type": "word",
                 "start": 28,
                 "end": 31,
@@ -228,10 +228,10 @@
         "ssml": "<speak><prosody rate='slow'>cat</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 31,
@@ -259,10 +259,10 @@
         "ssml": "<speak><prosody rate='slow'>rabbit</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 34,
@@ -290,10 +290,10 @@
         "ssml": "<speak><prosody rate='slow'>duckling</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 36,
@@ -321,10 +321,10 @@
         "ssml": "<speak><prosody rate='slow'>bunny</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 33,
@@ -352,10 +352,10 @@
         "ssml": "<speak><prosody rate='slow'>kitten</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 34,
@@ -383,10 +383,10 @@
         "ssml": "<speak><prosody rate='slow'>owlet</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 33,
@@ -395,40 +395,10 @@
         ]
     },
     "11": {
-        "text": "lamb",
+        "text": "calf lamb",
         "words": [
+            "calf",
             "lamb"
-        ],
-        "bounding_boxes": [
-            [
-                [
-                    406.8330078125,
-                    477.77294921875
-                ],
-                [
-                    456.5530090332031,
-                    501.59295654296875
-                ]
-            ]
-        ],
-        "ssml": "<speak><prosody rate='slow'>lamb</prosody></speak>",
-        "dialog": "false",
-        "person_type": "null",
-        "voice_id": "Joanna",
-        "timing": [
-            {
-                "time": 6,
-                "type": "word",
-                "start": 28,
-                "end": 32,
-                "value": "lamb"
-            }
-        ]
-    },
-    "12": {
-        "text": "calf",
-        "words": [
-            "calf"
         ],
         "bounding_boxes": [
             [
@@ -440,23 +410,40 @@
                     515.2130126953125,
                     485.5129699707031
                 ]
+            ],
+            [
+                [
+                    406.8330078125,
+                    477.77294921875
+                ],
+                [
+                    456.5530090332031,
+                    501.59295654296875
+                ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>calf</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>calf lamb</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 32,
                 "value": "calf"
+            },
+            {
+                "time": 519,
+                "type": "word",
+                "start": 33,
+                "end": 37,
+                "value": "lamb"
             }
         ]
     },
-    "13": {
+    "12": {
         "text": "puppy",
         "words": [
             "puppy"
@@ -476,10 +463,10 @@
         "ssml": "<speak><prosody rate='slow'>puppy</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 33,
@@ -487,7 +474,7 @@
             }
         ]
     },
-    "14": {
+    "13": {
         "text": "This is a puppy.",
         "words": [
             "This",
@@ -543,28 +530,28 @@
         "voice_id": "Justin",
         "timing": [
             {
-                "time": 6,
+                "time": 62,
                 "type": "word",
                 "start": 28,
                 "end": 32,
                 "value": "This"
             },
             {
-                "time": 246,
+                "time": 368,
                 "type": "word",
                 "start": 33,
                 "end": 35,
                 "value": "is"
             },
             {
-                "time": 416,
+                "time": 490,
                 "type": "word",
                 "start": 36,
                 "end": 37,
                 "value": "a"
             },
             {
-                "time": 464,
+                "time": 597,
                 "type": "word",
                 "start": 38,
                 "end": 43,
