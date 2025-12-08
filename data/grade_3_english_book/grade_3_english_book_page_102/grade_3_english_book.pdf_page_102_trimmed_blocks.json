@@ -173,108 +173,108 @@
         "ssml": "<speak><prosody rate='slow'>Her mother gives a present to <phoneme alphabet='ipa' ph='dinu'>Dinu</phoneme>. \"Happy birthday my daughter. This is your present.\"</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 31,
                 "value": "Her"
             },
             {
-                "time": 151,
+                "time": 336,
                 "type": "word",
                 "start": 32,
                 "end": 38,
                 "value": "mother"
             },
             {
-                "time": 512,
+                "time": 657,
                 "type": "word",
                 "start": 39,
                 "end": 44,
                 "value": "gives"
             },
             {
-                "time": 863,
+                "time": 1039,
                 "type": "word",
                 "start": 45,
                 "end": 46,
                 "value": "a"
             },
             {
-                "time": 917,
+                "time": 1116,
                 "type": "word",
                 "start": 47,
                 "end": 54,
                 "value": "present"
             },
             {
-                "time": 1430,
+                "time": 1651,
                 "type": "word",
                 "start": 55,
                 "end": 57,
                 "value": "to"
             },
             {
-                "time": 1545,
+                "time": 1789,
                 "type": "word",
                 "start": 92,
                 "end": 96,
                 "value": "Dinu"
             },
             {
-                "time": 2451,
+                "time": 2937,
                 "type": "word",
                 "start": 109,
                 "end": 114,
                 "value": "Happy"
             },
             {
-                "time": 2806,
+                "time": 3381,
                 "type": "word",
                 "start": 115,
                 "end": 123,
                 "value": "birthday"
             },
             {
-                "time": 3331,
+                "time": 3916,
                 "type": "word",
                 "start": 124,
                 "end": 126,
                 "value": "my"
             },
             {
-                "time": 3530,
+                "time": 4069,
                 "type": "word",
                 "start": 127,
                 "end": 135,
                 "value": "daughter"
             },
             {
-                "time": 4476,
+                "time": 5285,
                 "type": "word",
                 "start": 137,
                 "end": 141,
                 "value": "This"
             },
             {
-                "time": 4712,
+                "time": 5515,
                 "type": "word",
                 "start": 142,
                 "end": 144,
                 "value": "is"
             },
             {
-                "time": 4867,
+                "time": 5668,
                 "type": "word",
                 "start": 145,
                 "end": 149,
                 "value": "your"
             },
             {
-                "time": 5014,
+                "time": 5821,
                 "type": "word",
                 "start": 150,
                 "end": 157,
@@ -398,79 +398,86 @@
                 ]
             ]
         ],
-        "ssml": "<speak><prosody rate='slow'>\"Wow! It's a beautiful blouse.Orange in colour. Thank you mother.\"</prosody></speak>",
+        "ssml": "<speak><prosody rate='slow'>\"Wow! It's a beautiful blouse. Orange in colour. Thank you mother.\"</prosody></speak>",
         "dialog": "true",
         "person_type": "young girl",
         "voice_id": "Ivy",
         "timing": [
             {
-                "time": 6,
+                "time": 125,
                 "type": "word",
                 "start": 29,
                 "end": 32,
                 "value": "Wow"
             },
             {
-                "time": 932,
+                "time": 1215,
                 "type": "word",
                 "start": 34,
                 "end": 38,
                 "value": "It's"
             },
             {
-                "time": 1166,
+                "time": 1429,
                 "type": "word",
                 "start": 39,
                 "end": 40,
                 "value": "a"
             },
             {
-                "time": 1223,
+                "time": 1521,
                 "type": "word",
                 "start": 41,
                 "end": 50,
                 "value": "beautiful"
             },
             {
-                "time": 1759,
+                "time": 2056,
                 "type": "word",
                 "start": 51,
-                "end": 64,
-                "value": "blouse.Orange"
+                "end": 57,
+                "value": "blouse"
             },
             {
-                "time": 3141,
+                "time": 3214,
                 "type": "word",
-                "start": 65,
-                "end": 67,
+                "start": 59,
+                "end": 65,
+                "value": "Orange"
+            },
+            {
+                "time": 3688,
+                "type": "word",
+                "start": 66,
+                "end": 68,
                 "value": "in"
             },
             {
-                "time": 3358,
+                "time": 3826,
                 "type": "word",
-                "start": 68,
-                "end": 74,
+                "start": 69,
+                "end": 75,
                 "value": "colour"
             },
             {
-                "time": 4257,
+                "time": 4908,
                 "type": "word",
-                "start": 76,
-                "end": 81,
+                "start": 77,
+                "end": 82,
                 "value": "Thank"
             },
             {
-                "time": 4515,
+                "time": 5244,
                 "type": "word",
-                "start": 82,
-                "end": 85,
+                "start": 83,
+                "end": 86,
                 "value": "you"
             },
             {
-                "time": 4691,
+                "time": 5443,
                 "type": "word",
-                "start": 86,
-                "end": 92,
+                "start": 87,
+                "end": 93,
                 "value": "mother"
             }
         ]
@@ -561,52 +568,52 @@
         "ssml": "<speak><prosody rate='slow'>2. What does the mother give her?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 29,
                 "value": "2"
             },
             {
-                "time": 874,
+                "time": 1238,
                 "type": "word",
                 "start": 31,
                 "end": 35,
                 "value": "What"
             },
             {
-                "time": 1053,
+                "time": 1452,
                 "type": "word",
                 "start": 36,
                 "end": 40,
                 "value": "does"
             },
             {
-                "time": 1251,
+                "time": 1682,
                 "type": "word",
                 "start": 41,
                 "end": 44,
                 "value": "the"
             },
             {
-                "time": 1361,
+                "time": 1758,
                 "type": "word",
                 "start": 45,
                 "end": 51,
                 "value": "mother"
             },
             {
-                "time": 1729,
+                "time": 2217,
                 "type": "word",
                 "start": 52,
                 "end": 56,
                 "value": "give"
             },
             {
-                "time": 2010,
+                "time": 2462,
                 "type": "word",
                 "start": 57,
                 "end": 60,
@@ -678,38 +685,38 @@
         "ssml": "<speak><prosody rate='slow'>3. What colour is it?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 29,
                 "value": "3"
             },
             {
-                "time": 1014,
+                "time": 1238,
                 "type": "word",
                 "start": 31,
                 "end": 35,
                 "value": "What"
             },
             {
-                "time": 1260,
+                "time": 1452,
                 "type": "word",
                 "start": 36,
                 "end": 42,
                 "value": "colour"
             },
             {
-                "time": 1658,
+                "time": 1911,
                 "type": "word",
                 "start": 43,
                 "end": 45,
                 "value": "is"
             },
             {
-                "time": 1810,
+                "time": 2095,
                 "type": "word",
                 "start": 46,
                 "end": 48,
@@ -869,87 +876,87 @@
         "ssml": "<speak><prosody rate='slow'>\"Here's a present from your father. There is a birthday card too.\"</prosody></speak>",
         "dialog": "true",
         "person_type": "middle aged woman",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 29,
                 "end": 35,
                 "value": "Here's"
             },
             {
-                "time": 378,
+                "time": 428,
                 "type": "word",
                 "start": 36,
                 "end": 37,
                 "value": "a"
             },
             {
-                "time": 438,
+                "time": 519,
                 "type": "word",
                 "start": 38,
                 "end": 45,
                 "value": "present"
             },
             {
-                "time": 995,
+                "time": 1039,
                 "type": "word",
                 "start": 46,
                 "end": 50,
                 "value": "from"
             },
             {
-                "time": 1212,
+                "time": 1269,
                 "type": "word",
                 "start": 51,
                 "end": 55,
                 "value": "your"
             },
             {
-                "time": 1361,
+                "time": 1498,
                 "type": "word",
                 "start": 56,
                 "end": 62,
                 "value": "father"
             },
             {
-                "time": 2397,
+                "time": 2715,
                 "type": "word",
                 "start": 64,
                 "end": 69,
                 "value": "There"
             },
             {
-                "time": 2590,
+                "time": 2944,
                 "type": "word",
                 "start": 70,
                 "end": 72,
                 "value": "is"
             },
             {
-                "time": 2736,
+                "time": 3097,
                 "type": "word",
                 "start": 73,
                 "end": 74,
                 "value": "a"
             },
             {
-                "time": 2798,
+                "time": 3173,
                 "type": "word",
                 "start": 75,
                 "end": 83,
                 "value": "birthday"
             },
             {
-                "time": 3354,
+                "time": 3785,
                 "type": "word",
                 "start": 84,
                 "end": 88,
                 "value": "card"
             },
             {
-                "time": 3702,
+                "time": 4244,
                 "type": "word",
                 "start": 89,
                 "end": 92,
@@ -1076,73 +1083,73 @@
         "ssml": "<speak><prosody rate='slow'>It's a blue pair of shoes. <phoneme alphabet='ipa' ph='dinu'>Dinu</phoneme> is very happy.</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 137,
                 "type": "word",
                 "start": 28,
                 "end": 32,
                 "value": "It's"
             },
             {
-                "time": 182,
+                "time": 351,
                 "type": "word",
                 "start": 33,
                 "end": 34,
                 "value": "a"
             },
             {
-                "time": 230,
+                "time": 428,
                 "type": "word",
                 "start": 35,
                 "end": 39,
                 "value": "blue"
             },
             {
-                "time": 546,
+                "time": 733,
                 "type": "word",
                 "start": 40,
                 "end": 44,
                 "value": "pair"
             },
             {
-                "time": 837,
+                "time": 1055,
                 "type": "word",
                 "start": 45,
                 "end": 47,
                 "value": "of"
             },
             {
-                "time": 944,
+                "time": 1238,
                 "type": "word",
                 "start": 48,
                 "end": 53,
                 "value": "shoes"
             },
             {
-                "time": 1943,
+                "time": 2399,
                 "type": "word",
                 "start": 89,
                 "end": 93,
                 "value": "Dinu"
             },
             {
-                "time": 2349,
+                "time": 2781,
                 "type": "word",
                 "start": 104,
                 "end": 106,
                 "value": "is"
             },
             {
-                "time": 2543,
+                "time": 2934,
                 "type": "word",
                 "start": 107,
                 "end": 111,
                 "value": "very"
             },
             {
-                "time": 2868,
+                "time": 3393,
                 "type": "word",
                 "start": 112,
                 "end": 117,
@@ -1247,59 +1254,59 @@
         "ssml": "<speak><prosody rate='slow'>4. Who gives her a pair of shoes?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 29,
                 "value": "4"
             },
             {
-                "time": 945,
+                "time": 1251,
                 "type": "word",
                 "start": 31,
                 "end": 34,
                 "value": "Who"
             },
             {
-                "time": 1094,
+                "time": 1465,
                 "type": "word",
                 "start": 35,
                 "end": 40,
                 "value": "gives"
             },
             {
-                "time": 1393,
+                "time": 1771,
                 "type": "word",
                 "start": 41,
                 "end": 44,
                 "value": "her"
             },
             {
-                "time": 1555,
+                "time": 1924,
                 "type": "word",
                 "start": 45,
                 "end": 46,
                 "value": "a"
             },
             {
-                "time": 1622,
+                "time": 2077,
                 "type": "word",
                 "start": 47,
                 "end": 51,
                 "value": "pair"
             },
             {
-                "time": 1955,
+                "time": 2382,
                 "type": "word",
                 "start": 52,
                 "end": 54,
                 "value": "of"
             },
             {
-                "time": 2063,
+                "time": 2612,
                 "type": "word",
                 "start": 55,
                 "end": 60,
@@ -1371,38 +1378,38 @@
         "ssml": "<speak><prosody rate='slow'>5. What colour is it?</prosody></speak>",
         "dialog": "false",
         "person_type": "null",
-        "voice_id": "Joanna",
+        "voice_id": "Ruth",
         "timing": [
             {
-                "time": 6,
+                "time": 187,
                 "type": "word",
                 "start": 28,
                 "end": 29,
                 "value": "5"
             },
             {
-                "time": 1009,
+                "time": 1354,
                 "type": "word",
                 "start": 31,
                 "end": 35,
                 "value": "What"
             },
             {
-                "time": 1254,
+                "time": 1568,
                 "type": "word",
                 "start": 36,
                 "end": 42,
                 "value": "colour"
             },
             {
-                "time": 1653,
+                "time": 2027,
                 "type": "word",
                 "start": 43,
                 "end": 45,
                 "value": "is"
             },
             {
-                "time": 1805,
+                "time": 2210,
                 "type": "word",
                 "start": 46,
                 "end": 48,
