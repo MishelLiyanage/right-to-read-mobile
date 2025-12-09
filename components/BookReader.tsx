@@ -121,10 +121,17 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
           setIsPaused(false);
         },
         onPlaybackComplete: () => {
+          // Check if TTS service is paused after completion (e.g., after specific block playback)
+          // If so, maintain the paused state so user can resume sequential reading
+          const isPausedAfterCompletion = ttsService.current?.getIsPaused() || false;
+          
           setIsPlaying(false);
-          setIsPaused(false);
-          setCurrentBlockIndex(0);
-          setCurrentBlockHighlightData(null);
+          setIsPaused(isPausedAfterCompletion);
+          
+          if (!isPausedAfterCompletion) {
+            setCurrentBlockIndex(0);
+            setCurrentBlockHighlightData(null);
+          }
           setCurrentlyPlayingBlockId(null); // Reset individual block playback
         },
         onPlaybackError: (error) => {
@@ -396,9 +403,11 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
       }
 
       // Stop any current playback (both full page and individual block)
-      if (isPlaying || currentlyPlayingBlockId !== null) {
+      // This is critical: we must stop paused audio before playing a block
+      if (isPlaying || isPaused || currentlyPlayingBlockId !== null) {
         // console.log(`[BookReader] Stopping previous playback`, {
         //   isPlaying,
+        //   isPaused,
         //   currentlyPlayingBlockId
         // });
         await ttsService.current.stop();

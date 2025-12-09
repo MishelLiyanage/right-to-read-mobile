@@ -18,11 +18,13 @@ export class TTSService {
   private isPlaying: boolean = false;
   private isPaused: boolean = false;
   private currentBlockIndex: number = 0;
+  private savedSequentialBlockIndex: number = -1; // Saves position when playing specific blocks (-1 = not set)
   private blocks: TextBlock[] = [];
   private callbacks: TTSServiceCallbacks = {};
   private isInitialized: boolean = false;
   private bookTitle: string = '';
   private isSlowMode: boolean = false;
+  private isPlayingSpecificBlock: boolean = false; // Flag to indicate single block playback mode
   // private playbackRate: number = 1.0; // Default speed (1.0 = normal speed)
 
   constructor(callbacks?: TTSServiceCallbacks) {
@@ -168,10 +170,16 @@ export class TTSService {
       // If resuming from pause, don't reset block index
       if (!this.isPaused) {
         this.currentBlockIndex = 0;
+        this.savedSequentialBlockIndex = -1; // Clear saved position when starting fresh
+      } else {
+        // Resuming from pause - clear the saved position as we're back in sequential mode
+        this.savedSequentialBlockIndex = -1;
+        console.log(`[TTS] Resuming sequential playback from block ${this.currentBlockIndex}`);
       }
       
       this.isPlaying = true;
       this.isPaused = false;
+      this.isPlayingSpecificBlock = false; // Ensure we're in sequential mode, not specific block mode
       
       this.callbacks.onPlaybackStart?.();
       
@@ -186,7 +194,8 @@ export class TTSService {
 
   private async playSequentially(): Promise<void> {
     for (let i = this.currentBlockIndex; i < this.blocks.length; i++) {
-      if (!this.isPlaying) break;
+      // Break if not playing OR if we're in specific block playback mode
+      if (!this.isPlaying || this.isPlayingSpecificBlock) break;
       
       this.currentBlockIndex = i;
       const block = this.blocks[i];
@@ -198,12 +207,14 @@ export class TTSService {
       // Wait for block to complete (this will wait during pause)
       await this.waitForCompletion();
       
-      if (!this.isPlaying) break;
+      // Break if not playing OR if we're in specific block playback mode
+      if (!this.isPlaying || this.isPlayingSpecificBlock) break;
       
       this.callbacks.onBlockComplete?.(i);
     }
     
-    if (this.isPlaying && !this.isPaused) {
+    // Only call completion callback if we're in sequential mode and not interrupted
+    if (this.isPlaying && !this.isPaused && !this.isPlayingSpecificBlock) {
       this.isPlaying = false;
       this.callbacks.onPlaybackComplete?.();
     }
@@ -220,10 +231,20 @@ export class TTSService {
         text: block.text.substring(0, 50) + '...'
       });
       
-      // Cleanup previous sound
+      // Cleanup previous sound - ensure it's fully stopped before unloading
       if (this.currentSound) {
         console.log('[TTS] Cleaning up previous sound');
-        await this.currentSound.unloadAsync();
+        try {
+          await this.currentSound.stopAsync();
+        } catch (stopError) {
+          console.warn('[TTS] Error stopping previous sound:', stopError);
+        }
+        try {
+          await this.currentSound.unloadAsync();
+        } catch (unloadError) {
+          console.warn('[TTS] Error unloading previous sound:', unloadError);
+        }
+        this.currentSound = null;
       }
 
       // Load and play new audio
@@ -365,14 +386,29 @@ export class TTSService {
     try {
       this.isPlaying = false;
       this.isPaused = false;
+      this.isPlayingSpecificBlock = false; // Reset specific block flag
       
       if (this.currentSound) {
-        await this.currentSound.stopAsync();
-        await this.currentSound.unloadAsync();
+        try {
+          await this.currentSound.stopAsync();
+        } catch (stopError) {
+          console.error('Error stopping sound:', stopError);
+        }
+        
+        try {
+          await this.currentSound.unloadAsync();
+        } catch (unloadError) {
+          console.error('Error unloading sound:', unloadError);
+        }
+        
         this.currentSound = null;
       }
       
-      this.currentBlockIndex = 0;
+      // Only reset currentBlockIndex if we're not preserving position for specific block playback
+      // If savedSequentialBlockIndex is set (>= 0), it means we want to preserve position
+      if (this.savedSequentialBlockIndex < 0) {
+        this.currentBlockIndex = 0;
+      }
 
     } catch (error) {
       console.error('Error stopping TTS:', error);
@@ -393,6 +429,14 @@ export class TTSService {
 
   async resume(): Promise<void> {
     try {
+      // If we're paused but there's no current sound (e.g., after playing a specific block),
+      // we need to restart sequential reading from the saved position
+      if (this.isPaused && !this.currentSound) {
+        console.log('[TTS] Resume called with no current sound, restarting sequential reading from saved position');
+        await this.startReading();
+        return;
+      }
+      
       if (this.currentSound && this.isPlaying && this.isPaused) {
         // Ensure correct playback rate is set when resuming
         await this.currentSound.setStatusAsync({
@@ -546,8 +590,23 @@ export class TTSService {
 
       const block = this.blocks[blockIndex];
       
-      // Stop any current playback
+      // Save the current sequential position before stopping
+      // This allows the user to resume page reading from where they paused
+      if (this.isPaused || this.isPlaying) {
+        this.savedSequentialBlockIndex = this.currentBlockIndex;
+        console.log(`[TTS] Saved sequential position: block ${this.savedSequentialBlockIndex}`);
+      }
+      
+      // Stop any current playback (this will break any ongoing playSequentially loop)
       await this.stop();
+      
+      // Set the specific block playback flag BEFORE setting isPlaying
+      // This ensures any lingering playSequentially loop will detect it and break
+      this.isPlayingSpecificBlock = true;
+      
+      // IMPORTANT: Add a small delay to ensure the old playSequentially loop has fully stopped
+      // This prevents the old loop from continuing when we set isPlaying = true
+      await new Promise(resolve => setTimeout(resolve, 50));
       
       // Set playing state
       this.isPlaying = true;
@@ -569,6 +628,15 @@ export class TTSService {
       // Reset state after completion
       this.isPlaying = false;
       this.isPaused = false;
+      // Restore the saved sequential position so user can resume from where they paused
+      if (this.savedSequentialBlockIndex >= 0) {
+        this.currentBlockIndex = this.savedSequentialBlockIndex;
+        this.isPaused = true; // Mark as paused so user can resume
+        console.log(`[TTS] Restored sequential position to block ${this.currentBlockIndex}, marked as paused`);
+      } else {
+        this.currentBlockIndex = 0;
+      }
+      this.isPlayingSpecificBlock = false; // Reset the flag
       
       // Notify completion
       this.callbacks.onBlockComplete?.(blockIndex);
@@ -580,7 +648,14 @@ export class TTSService {
       console.error('TTS Service: Error playing specific block:', error);
       this.callbacks.onPlaybackError?.(`Failed to play block: ${error}`);
       this.isPlaying = false;
-      this.isPaused = false;
+      // Restore position even on error
+      if (this.savedSequentialBlockIndex >= 0) {
+        this.currentBlockIndex = this.savedSequentialBlockIndex;
+        this.isPaused = true;
+      } else {
+        this.isPaused = false;
+      }
+      this.isPlayingSpecificBlock = false; // Reset the flag on error too
     }
   }
 

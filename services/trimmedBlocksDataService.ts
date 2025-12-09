@@ -1864,19 +1864,15 @@ export class TrimmedBlocksDataService {
     // this.grade6SlowDataMap.set(133, page133G6SlowTrimmedBlocks as any);
     // this.grade6SlowDataMap.set(134, page134G6SlowTrimmedBlocks as any);
     // this.grade6SlowDataMap.set(135, page135G6SlowTrimmedBlocks as any);
-    console.log('TrimmedBlocksDataService initialized with Demo pages:', Array.from(this.demoDataMap.keys()).length, 'Grade 3 pages:', Array.from(this.grade3DataMap.keys()).length, 'Grade 4 pages:', Array.from(this.grade4DataMap.keys()).length);
   }
 
   getTrimmedBlocksForPage(pageNumber: number, bookTitle?: string, isSlowMode?: boolean): TrimmedBlockData | null {
-    console.log(`[TrimmedBlocksDataService] Getting blocks for page ${pageNumber}, book: "${bookTitle}", slowMode: ${isSlowMode}`);
     
     // If slow mode is enabled, try to get slow version first
     if (isSlowMode) {
       if (bookTitle && (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book'))) {
-        console.log(`[TrimmedBlocksDataService] Looking for demo slow data, available pages:`, Array.from(this.demoSlowDataMap.keys()));
         const slowData = this.demoSlowDataMap.get(pageNumber);
         if (slowData) {
-          console.log(`[TrimmedBlocksDataService] Found demo slow data for page ${pageNumber}`);
           return slowData;
         }
         console.warn(`[TrimmedBlocksDataService] Slow trimmed blocks not available for page ${pageNumber}, using normal version`);
@@ -1921,12 +1917,9 @@ export class TrimmedBlocksDataService {
       dataMap = this.grade3DataMap;
       mapType = 'grade3';
     }
-    
-    console.log(`[TrimmedBlocksDataService] Using ${mapType} data map, available pages:`, Array.from(dataMap.keys()));
-    
+        
     const data = dataMap.get(pageNumber);
     if (data) {
-      console.log(`[TrimmedBlocksDataService] Found data for page ${pageNumber}, blocks:`, Object.keys(data));
       return data;
     } else {
       console.warn(`[TrimmedBlocksDataService] No trimmed blocks data found for page ${pageNumber} in ${bookTitle || 'Grade 3 book'}`);
