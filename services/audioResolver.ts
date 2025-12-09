@@ -6894,11 +6894,6 @@ const grade6SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any 
 
 export class AudioResolver {
   static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
-    console.log(`[AudioResolver] ========== RESOLVING AUDIO ==========`);
-    console.log(`[AudioResolver] Raw inputs:`, { pageNumber, blockId, bookTitle, isSlowMode });
-    console.log(`[AudioResolver] pageNumber type: ${typeof pageNumber}, value: "${pageNumber}"`);
-    console.log(`[AudioResolver] blockId type: ${typeof blockId}, value: "${blockId}"`);
-    console.log(`[AudioResolver] bookTitle: "${bookTitle}"`);
     
     // If slow mode is enabled, try slow audio first for supported grades
     if (isSlowMode) {
@@ -6919,16 +6914,13 @@ export class AudioResolver {
         slowMappingType = 'grade6';
       }
       
-      console.log(`[AudioResolver] Slow mode mapping type: ${slowMappingType}`);
       
       if (slowMappings) {
         const slowPageAudio = slowMappings[pageNumber.toString()];
         if (slowPageAudio && slowPageAudio[blockId]) {
-          console.log(`[AudioResolver] Found slow audio for page ${pageNumber}, block ${blockId}`);
           return slowPageAudio[blockId];
         }
         // Fall back to normal audio if slow audio not available
-        console.log(`[AudioResolver] No slow audio found for page ${pageNumber}, block ${blockId}, using normal audio`);
       }
     }
     
@@ -6952,34 +6944,19 @@ export class AudioResolver {
       audioMappings = grade3AudioMappings;
       mappingType = 'grade3';
     }
-    
-    console.log(`[AudioResolver] Selected mapping type: ${mappingType}`);
-    console.log(`[AudioResolver] Available pages in ${mappingType}:`, Object.keys(audioMappings));
-    
+        
     const pageKey = pageNumber.toString();
-    console.log(`[AudioResolver] Looking for page key: "${pageKey}"`);
-    console.log(`[AudioResolver] Does mapping have this page?`, audioMappings.hasOwnProperty(pageKey));
     
     const pageAudio = audioMappings[pageKey];
     if (!pageAudio) {
-      console.error(`[AudioResolver] ❌ No audio mappings found for page ${pageNumber} (key: "${pageKey}") in ${bookTitle || 'Grade 3 book'}`);
-      console.error(`[AudioResolver] Available pages:`, Object.keys(audioMappings));
       return null;
     }
-    
-    console.log(`[AudioResolver] ✓ Found page audio, available blocks:`, Object.keys(pageAudio));
-    console.log(`[AudioResolver] Looking for block: "${blockId}"`);
-    console.log(`[AudioResolver] Does page have this block?`, pageAudio.hasOwnProperty(blockId));
-    
+        
     const audio = pageAudio[blockId];
     if (!audio) {
-      console.error(`[AudioResolver] ❌ No audio found for block ${blockId} on page ${pageNumber}`);
-      console.error(`[AudioResolver] Available blocks:`, Object.keys(pageAudio));
       return null;
     }
     
-    console.log(`[AudioResolver] ✓✓✓ Successfully resolved audio for page ${pageNumber}, block ${blockId} ✓✓✓`);
-    console.log(`[AudioResolver] Audio object:`, audio ? 'EXISTS' : 'NULL');
     return audio;
   }
   
