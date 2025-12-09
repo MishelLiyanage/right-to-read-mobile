@@ -1,5 +1,7 @@
 import { ThemedView } from '@/components/ThemedView';
+import { getPictureDictionaryImage } from '@/constants/PictureDictionary';
 import { DictionaryEntry as DictionaryEntryType } from '@/types/book';
+import { Image } from 'expo-image';
 import React, { useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
@@ -10,6 +12,10 @@ interface DictionaryEntryProps {
 
 export default function DictionaryEntry({ entry, onSpeakWord }: DictionaryEntryProps) {
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [imageLoadError, setImageLoadError] = useState(false);
+  
+  // Get picture dictionary image for this word
+  const pictureDictionaryImage = getPictureDictionaryImage(entry.word);
 
   const handleSpeakPress = async () => {
     if (isSpeaking) return;
@@ -113,6 +119,20 @@ export default function DictionaryEntry({ entry, onSpeakWord }: DictionaryEntryP
         </TouchableOpacity>
       </View>
 
+      {/* Picture Dictionary Image */}
+      {pictureDictionaryImage && !imageLoadError && (
+        <View style={styles.pictureContainer}>
+          <Image
+            source={{ uri: pictureDictionaryImage }}
+            style={styles.pictureImage}
+            contentFit="contain"
+            transition={300}
+            cachePolicy="memory-disk"
+            onError={() => setImageLoadError(true)}
+          />
+        </View>
+      )}
+
       <View style={styles.contentContainer}>
         {entry.isLoading && renderLoading()}
         {!entry.isLoading && renderDefinitions()}
@@ -158,6 +178,22 @@ const styles = StyleSheet.create({
   speakerIcon: {
     fontSize: 16,
     color: '#fff',
+  },
+  pictureContainer: {
+    width: '100%',
+    height: 180,
+    backgroundColor: '#1a1a1a',
+    borderRadius: 12,
+    marginVertical: 12,
+    overflow: 'hidden',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: '#333333',
+  },
+  pictureImage: {
+    width: '100%',
+    height: '100%',
   },
   contentContainer: {
     paddingLeft: 8,
