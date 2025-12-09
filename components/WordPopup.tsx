@@ -1,20 +1,21 @@
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { getPictureDictionaryImage } from '@/constants/PictureDictionary';
 import { WordPosition } from '@/services/wordPositionService';
 import { WordDefinition } from '@/types/book';
 import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-  ActivityIndicator,
-  Animated,
-  Dimensions,
-  Modal,
-  ScrollView,
-  StyleSheet,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
+    ActivityIndicator,
+    Animated,
+    Dimensions,
+    Modal,
+    ScrollView,
+    StyleSheet,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View,
 } from 'react-native';
 
 interface WordPopupProps {
@@ -52,6 +53,9 @@ export default function WordPopup({
   const [imageLoadError, setImageLoadError] = useState(false);
   const scaleAnim = useRef(new Animated.Value(0)).current;
   const opacityAnim = useRef(new Animated.Value(0)).current;
+  
+  // Get picture dictionary image for this word
+  const pictureDictionaryImage = getPictureDictionaryImage(word);
 
   useEffect(() => {
     if (isVisible && wordPosition) {
@@ -226,7 +230,22 @@ export default function WordPopup({
 
                   {definition && !isLoading && !error && (
                     <View style={styles.definitionContainer}>
-                      {definition.imageUrl && !imageLoadError && (
+                      {/* Picture Dictionary Image - Priority display */}
+                      {pictureDictionaryImage && !imageLoadError && (
+                        <View style={styles.pictureImageContainer}>
+                          <Image
+                            source={{ uri: pictureDictionaryImage }}
+                            style={styles.pictureDictionaryImage}
+                            contentFit="contain"
+                            transition={300}
+                            cachePolicy="memory-disk"
+                            onError={() => setImageLoadError(true)}
+                          />
+                        </View>
+                      )}
+                      
+                      {/* Fallback to Google Images if no picture dictionary image */}
+                      {!pictureDictionaryImage && definition.imageUrl && !imageLoadError && (
                         <View style={styles.imageContainer}>
                           <Image
                             source={{ uri: definition.imageUrl }}
@@ -246,7 +265,7 @@ export default function WordPopup({
                           />
                         </View>
                       )}
-                      {definition.imageUrl && imageLoadError && (
+                      {!pictureDictionaryImage && definition.imageUrl && imageLoadError && (
                         <View style={styles.imageContainer}>
                           <Image
                             source={{ uri: `https://picsum.photos/seed/${word}/140/140` }}
@@ -448,6 +467,20 @@ const styles = StyleSheet.create({
   },
   definitionContainer: {
     paddingBottom: 8,
+  },
+  pictureImageContainer: {
+    width: '100%',
+    height: 160,
+    backgroundColor: '#F2F2F7',
+    borderRadius: 12,
+    marginBottom: 12,
+    overflow: 'hidden',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  pictureDictionaryImage: {
+    width: '100%',
+    height: '100%',
   },
   imageContainer: {
     alignItems: 'center',
