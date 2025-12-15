@@ -64,8 +64,10 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
 
   const { sourceImageDimensions, containerDimensions, getRenderedImageSize, getImageOffset, onImageLoad, onImageLayout } = useImageLayout();
   
-  // Analytics tracking
-  const { startPageTracking, endPageTracking } = useAnalyticsTracking(book.id, book.title);
+  // Analytics tracking - use grade for backend compatibility
+  const bookGrade = book.grade ?? book.id;  // Fallback to id if grade not set
+  const totalPages = book.pages?.length || 0;
+  const { startPageTracking, endPageTracking } = useAnalyticsTracking(bookGrade, book.title, totalPages);
   const pageTransition = useRef(new Animated.Value(1)).current;
 
   const ttsService = useRef<TTSService | null>(null);
@@ -74,9 +76,6 @@ export default function BookReader({ book, onClose }: BookReaderProps) {
   const wordPositionService = useRef(WordPositionService.getInstance());
   const imagePreloadService = useRef(ImagePreloadService.getInstance());
   const currentPage = book.pages?.[currentPageIndex];
-  const totalPages = book.pages?.length || 0;
-
-
 
   // Analytics tracking for page changes
   useEffect(() => {

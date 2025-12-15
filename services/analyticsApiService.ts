@@ -6,7 +6,7 @@ import type { SchoolAnalytics, SyncPayload } from '@/types/analytics';
  * Handles communication with the backend analytics API.
  * 
  * Configuration:
- * - Set EXPO_PUBLIC_API_URL in .env file to enable backend sync
+ * - Set EXPO_PUBLIC_API_URL in .env file (can be local or production URL)
  * - If not configured, analytics will be stored locally only
  * 
  * Backend Endpoints Required:
@@ -22,7 +22,7 @@ export interface SyncResponse {
   recordsProcessed?: number;
 }
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || '';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.1.200:8080/api';
 const SYNC_ENDPOINT = '/analytics/sync';
 
 /**

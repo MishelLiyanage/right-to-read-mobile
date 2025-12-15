@@ -31,7 +31,7 @@ export class AnalyticsService {
   /**
    * Start tracking time for a specific page
    */
-  async startPageSession(bookId: number, bookTitle: string, pageNumber: number): Promise<void> {
+  async startPageSession(bookId: number, bookTitle: string, pageNumber: number, totalPages?: number): Promise<void> {
     const pageId = `${bookId}_${pageNumber}`;
     const now = Date.now();
 
@@ -39,12 +39,13 @@ export class AnalyticsService {
       pageId,
       bookTitle,
       pageNumber,
+      totalPages,
       timestamp: new Date(now).toISOString()
     });
 
     // End any existing session for this page
     if (this.currentSessions.has(pageId)) {
-      await this.endPageSession(bookId, bookTitle, pageNumber);
+      await this.endPageSession(bookId, bookTitle, pageNumber, totalPages);
     }
 
     // Create new session
@@ -65,7 +66,7 @@ export class AnalyticsService {
   /**
    * End tracking time for a specific page
    */
-  async endPageSession(bookId: number, bookTitle: string, pageNumber: number): Promise<void> {
+  async endPageSession(bookId: number, bookTitle: string, pageNumber: number, totalPages?: number): Promise<void> {
     const pageId = `${bookId}_${pageNumber}`;
     const session = this.currentSessions.get(pageId);
 
@@ -102,7 +103,7 @@ export class AnalyticsService {
     await this.saveToPendingSync(pageAnalytics);
 
     // Update book analytics
-    await this.updateBookAnalytics(bookId, bookTitle, pageNumber, sessionDuration);
+    await this.updateBookAnalytics(bookId, bookTitle, pageNumber, sessionDuration, totalPages);
 
     // Remove from current sessions
     this.currentSessions.delete(pageId);
@@ -317,7 +318,7 @@ export class AnalyticsService {
     }
   }
 
-  private async updateBookAnalytics(bookId: number, bookTitle: string, pageNumber: number, sessionDuration: number): Promise<void> {
+  private async updateBookAnalytics(bookId: number, bookTitle: string, pageNumber: number, sessionDuration: number, totalPages?: number): Promise<void> {
     try {
       const bookSummaries = await this.getBookSummaries();
       let bookAnalytics = bookSummaries.find(book => book.bookId === bookId);
@@ -329,7 +330,7 @@ export class AnalyticsService {
           totalActiveTime: 0,
           firstAccessTime: Date.now(),
           lastAccessTime: Date.now(),
-          totalPages: 0,
+          totalPages: totalPages || 0,
           pagesAccessed: [],
         };
         bookSummaries.push(bookAnalytics);
@@ -338,6 +339,11 @@ export class AnalyticsService {
       // Update book analytics
       bookAnalytics.totalActiveTime += sessionDuration;
       bookAnalytics.lastAccessTime = Date.now();
+      
+      // Update totalPages if provided and different
+      if (totalPages && totalPages > bookAnalytics.totalPages) {
+        bookAnalytics.totalPages = totalPages;
+      }
       
       if (!bookAnalytics.pagesAccessed.includes(pageNumber)) {
         bookAnalytics.pagesAccessed.push(pageNumber);
