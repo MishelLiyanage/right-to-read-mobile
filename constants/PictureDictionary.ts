@@ -17,6 +17,10 @@ export const PICTURE_DICTIONARY: Record<string, string> = {
   dress: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcThb7YckcSwF9hS973x1SJFoxkeS0z040UQ&s',
   belt: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfQUQe0c7uWnNLJDhIcw4br912k0QNPjwGcA&s',
   hat: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4d2QAceeJRtg4k3SLJyMV7IRKGkfkxyw9eQ&s',
+  listen: 'https://static.vecteezy.com/system/resources/thumbnails/008/197/720/small/cute-little-boy-with-hearing-problem-try-listening-carefully-by-putting-her-hand-to-ear-vector.jpg',
+  say: 'https://static.vecteezy.com/system/resources/thumbnails/047/417/239/small/color-icon-for-speak-vector.jpg',
+  answer: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqv-X23lIu3D2_5_XuDLBm-DxLGW5Oz-6vhA&s',
+  ask: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO33pPKLQQLAkupPCi_dwdOjYdRZQxIEek2g&s',
 };
 
 /**

@@ -8,6 +8,8 @@ const demo_page0_block2 = require('../data/demo_book/demo_book_page_0/block_0_2_
 const demo_page0_block3 = require('../data/demo_book/demo_book_page_0/block_0_3_audio.mp3');
 const demo_page0_block4 = require('../data/demo_book/demo_book_page_0/block_0_4_audio.mp3');
 const demo_page0_block5 = require('../data/demo_book/demo_book_page_0/block_0_5_audio.mp3');
+const demo_page0_block6 = require('../data/demo_book/demo_book_page_0/block_0_6_audio.mp3');
+const demo_page0_block7 = require('../data/demo_book/demo_book_page_0/block_0_7_audio.mp3');
 
 // demo_book Page 1 audio files
 const demo_page1_block0 = require('../data/demo_book/demo_book_page_1/block_1_0_audio.mp3');
@@ -2278,6 +2280,9 @@ const demo_page0_block2_slow = require('../data/demo_book/demo_book_page_0/block
 const demo_page0_block3_slow = require('../data/demo_book/demo_book_page_0/block_0_3_slow_audio.mp3');
 const demo_page0_block4_slow = require('../data/demo_book/demo_book_page_0/block_0_4_slow_audio.mp3');
 const demo_page0_block5_slow = require('../data/demo_book/demo_book_page_0/block_0_5_slow_audio.mp3');
+const demo_page0_block6_slow = require('../data/demo_book/demo_book_page_0/block_0_6_slow_audio.mp3');
+const demo_page0_block7_slow = require('../data/demo_book/demo_book_page_0/block_0_7_slow_audio.mp3');
+const demo_page0_block8_slow = require('../data/demo_book/demo_book_page_0/block_0_8_slow_audio.mp3');
 
 // demo_book Page 1 SLOW audio files
 const demo_page1_block0_slow = require('../data/demo_book/demo_book_page_1/block_1_0_slow_audio.mp3');
@@ -3442,6 +3447,8 @@ const demoAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = 
     '3': demo_page0_block3,
     '4': demo_page0_block4,
     '5': demo_page0_block5,
+    '6': demo_page0_block6,
+    '7': demo_page0_block7,
   },
   '1': {
     '0': demo_page1_block0,
@@ -5726,6 +5733,9 @@ const demoSlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } 
     '3': demo_page0_block3_slow,
     '4': demo_page0_block4_slow,
     '5': demo_page0_block5_slow,
+    '6': demo_page0_block6_slow,
+    '7': demo_page0_block7_slow,
+    '8': demo_page0_block8_slow,
   },
   '1': {
     '0': demo_page1_block0_slow,
@@ -6894,26 +6904,19 @@ const grade6SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any 
 
 export class AudioResolver {
   static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
-    
     // If slow mode is enabled, try slow audio first for supported grades
     if (isSlowMode) {
       let slowMappings = null;
-      let slowMappingType = 'none';
       
-      if (bookTitle && (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book'))) {
+      if (!bookTitle || bookTitle.toLowerCase().includes('demo')) {
         slowMappings = demoSlowAudioMappings;
-        slowMappingType = 'demo';
-      } else if (!bookTitle || bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3')) {
+      } else if (bookTitle.toLowerCase().includes('grade 3') || bookTitle.toLowerCase().includes('grade_3')) {
         slowMappings = grade3SlowAudioMappings;
-        slowMappingType = 'grade3';
       } else if (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5')) {
         slowMappings = grade5SlowAudioMappings;
-        slowMappingType = 'grade5';
       } else if (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6')) {
         slowMappings = grade6SlowAudioMappings;
-        slowMappingType = 'grade6';
       }
-      
       
       if (slowMappings) {
         const slowPageAudio = slowMappings[pageNumber.toString()];
@@ -6921,39 +6924,34 @@ export class AudioResolver {
           return slowPageAudio[blockId];
         }
         // Fall back to normal audio if slow audio not available
+        console.log(`No slow audio found for page ${pageNumber}, block ${blockId}, using normal audio`);
       }
     }
     
     // Determine which audio mappings to use based on book title
     let audioMappings;
-    let mappingType = 'unknown';
-    if (bookTitle && (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book'))) {
+    if (bookTitle && (bookTitle.toLowerCase().includes('demo'))) {
       audioMappings = demoAudioMappings;
-      mappingType = 'demo';
     } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
-      mappingType = 'grade4';
     } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5'))) {
       audioMappings = grade5AudioMappings;
-      mappingType = 'grade5';
     } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6'))) {
       audioMappings = grade6AudioMappings;
-      mappingType = 'grade6';
     } else {
       // Default to Grade 3 for backward compatibility
       audioMappings = grade3AudioMappings;
-      mappingType = 'grade3';
     }
-        
-    const pageKey = pageNumber.toString();
     
-    const pageAudio = audioMappings[pageKey];
+    const pageAudio = audioMappings[pageNumber.toString()];
     if (!pageAudio) {
+      console.log(`No audio mappings found for page ${pageNumber} in ${bookTitle || 'Grade 3 book'}`);
       return null;
     }
-        
+    
     const audio = pageAudio[blockId];
     if (!audio) {
+      console.log(`No audio found for page ${pageNumber}, block ${blockId} in ${bookTitle || 'Grade 3 book'}`);
       return null;
     }
     
@@ -6962,7 +6960,7 @@ export class AudioResolver {
   
   static hasAudioForPage(pageNumber: number, bookTitle?: string): boolean {
     let audioMappings;
-    if (bookTitle && (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book'))) {
+    if (bookTitle && (bookTitle.toLowerCase().includes('demo'))) {
       audioMappings = demoAudioMappings;
     } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
@@ -6978,7 +6976,7 @@ export class AudioResolver {
   
   static getAvailableBlocksForPage(pageNumber: number, bookTitle?: string): string[] {
     let audioMappings;
-    if (bookTitle && (bookTitle.toLowerCase().includes('demo') || bookTitle.toLowerCase().replace(/\s+/g, '_').includes('demo_book'))) {
+    if (bookTitle && (bookTitle.toLowerCase().includes('demo'))) {
       audioMappings = demoAudioMappings;
     } else if (bookTitle && (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4'))) {
       audioMappings = grade4AudioMappings;
