@@ -42,11 +42,13 @@ export function AnalyticsSyncButton({
     autoSync.getSyncStatus().then(setSyncStatus);
     
     // Subscribe to changes
-    const unsubscribe = autoSync.addSyncListener((status) => {
+    const unsubscribe = autoSync.addSyncListener(async (status) => {
       setSyncStatus(status);
       // Reload summary after sync completes
       if (!status.isLoading && !status.error) {
-        loadSummary();
+        // Wait a moment for AsyncStorage to clear, then reload
+        await new Promise(resolve => setTimeout(resolve, 100));
+        await loadSummary();
       }
     });
 
@@ -84,7 +86,8 @@ export function AnalyticsSyncButton({
         );
       }
       
-      // Reload summary
+      // Wait a moment for AsyncStorage to clear, then reload summary
+      await new Promise(resolve => setTimeout(resolve, 100));
       await loadSummary();
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
