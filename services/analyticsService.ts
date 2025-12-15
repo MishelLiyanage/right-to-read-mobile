@@ -227,8 +227,11 @@ export class AnalyticsService {
    */
   async markDataAsSynced(): Promise<void> {
     try {
-      // Clear pending sync data
+      // Clear pending sync data (page sessions)
       await AsyncStorage.removeItem(ANALYTICS_KEYS.PENDING_SYNC);
+
+      // Clear book summaries (reset reading time and books tracked)
+      await AsyncStorage.removeItem(ANALYTICS_KEYS.BOOK_SUMMARIES);
 
       // Update sync status
       const syncStatus = {
@@ -238,7 +241,7 @@ export class AnalyticsService {
       
       await AsyncStorage.setItem(ANALYTICS_KEYS.SYNC_STATUS, JSON.stringify(syncStatus));
       
-      console.log('[AnalyticsService] Data marked as synced successfully');
+      console.log('[AnalyticsService] Data marked as synced successfully - cleared pending data and book summaries');
     } catch (error) {
       console.error('[AnalyticsService] Error marking data as synced:', error);
       throw error;
