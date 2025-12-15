@@ -1,6 +1,6 @@
 export interface PageAnalytics {
-  pageId: string;               // `${bookId}_${pageNumber}`
-  bookId: number;
+  pageId: string;               // `${grade}_${pageNumber}`
+  bookId: number;               // Grade level for backend lookup
   bookTitle: string;
   pageNumber: number;
   sessionStartTime: number;     // timestamp
@@ -11,7 +11,7 @@ export interface PageAnalytics {
 }
 
 export interface BookAnalytics {
-  bookId: number;
+  bookId: number;               // Grade level for backend lookup
   bookTitle: string;
   totalActiveTime: number;      // sum of all pages
   firstAccessTime: number;

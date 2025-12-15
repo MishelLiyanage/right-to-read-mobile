@@ -9,8 +9,9 @@ interface UseAnalyticsTrackingReturn {
 }
 
 export function useAnalyticsTracking(
-  bookId: number,
-  bookTitle: string
+  grade: number,  // Changed from bookId to grade
+  bookTitle: string,
+  totalPages?: number  // Total pages in the book
 ): UseAnalyticsTrackingReturn {
   const analyticsService = useRef(AnalyticsService.getInstance());
   const currentPageRef = useRef<number | null>(null);
@@ -19,36 +20,36 @@ export function useAnalyticsTracking(
 
   const startPageTracking = useCallback(async (pageNumber: number) => {
     try {
-      console.log(`[useAnalyticsTracking] Starting tracking for book ${bookId}, page ${pageNumber}`);
+      console.log(`[useAnalyticsTracking] Starting tracking for grade ${grade}, page ${pageNumber}`);
       
       // End previous page tracking if exists
       if (currentPageRef.current !== null) {
-        await analyticsService.current.endPageSession(bookId, bookTitle, currentPageRef.current);
+        await analyticsService.current.endPageSession(grade, bookTitle, currentPageRef.current, totalPages);
       }
 
       // Start new page tracking
-      await analyticsService.current.startPageSession(bookId, bookTitle, pageNumber);
+      await analyticsService.current.startPageSession(grade, bookTitle, pageNumber, totalPages);
       currentPageRef.current = pageNumber;
       isTrackingRef.current = true;
       
     } catch (error) {
       console.error('[useAnalyticsTracking] Error starting page tracking:', error);
     }
-  }, [bookId, bookTitle]);
+  }, [grade, bookTitle, totalPages]);
 
   const endPageTracking = useCallback(async (pageNumber: number) => {
     try {
       if (currentPageRef.current === pageNumber && isTrackingRef.current) {
-        console.log(`[useAnalyticsTracking] Ending tracking for book ${bookId}, page ${pageNumber}`);
+        console.log(`[useAnalyticsTracking] Ending tracking for grade ${grade}, page ${pageNumber}`);
         
-        await analyticsService.current.endPageSession(bookId, bookTitle, pageNumber);
+        await analyticsService.current.endPageSession(grade, bookTitle, pageNumber, totalPages);
         currentPageRef.current = null;
         isTrackingRef.current = false;
       }
     } catch (error) {
       console.error('[useAnalyticsTracking] Error ending page tracking:', error);
     }
-  }, [bookId, bookTitle]);
+  }, [grade, bookTitle, totalPages]);
 
   // Handle app state changes (background/foreground)
   useEffect(() => {
@@ -81,10 +82,10 @@ export function useAnalyticsTracking(
       if (currentPageRef.current !== null && isTrackingRef.current) {
         console.log('[useAnalyticsTracking] Component unmounting - ending current page tracking');
         // End current session on unmount
-        analyticsService.current.endPageSession(bookId, bookTitle, currentPageRef.current);
+        analyticsService.current.endPageSession(grade, bookTitle, currentPageRef.current, totalPages);
       }
     };
-  }, [bookId, bookTitle]);
+  }, [grade, bookTitle, totalPages]);
 
   // Initialize analytics service on mount
   useEffect(() => {

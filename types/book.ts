@@ -3,6 +3,7 @@ export interface Book {
   title: string;
   author: string;
   backgroundColor: string;
+  grade?: number;  // Grade level for backend analytics
   pages?: BookPage[];
   hasData?: boolean;
   tableOfContents?: TableOfContentsSection[];
