@@ -174,7 +174,6 @@ export class TTSService {
       } else {
         // Resuming from pause - clear the saved position as we're back in sequential mode
         this.savedSequentialBlockIndex = -1;
-        console.log(`[TTS] Resuming sequential playback from block ${this.currentBlockIndex}`);
       }
       
       this.isPlaying = true;
@@ -222,55 +221,34 @@ export class TTSService {
 
   private async playBlock(block: TextBlock): Promise<void> {
     try {
-      console.log(`[TTS] Starting playBlock with rate: 1.0, block:`, block.id);
-      console.log(`[TTS] Block details:`, {
-        id: block.id,
-        pageNumber: block.pageNumber,
-        blockId: block.blockId,
-        bookTitle: this.bookTitle,
-        text: block.text.substring(0, 50) + '...'
-      });
       
       // Cleanup previous sound - ensure it's fully stopped before unloading
       if (this.currentSound) {
-        console.log('[TTS] Cleaning up previous sound');
         try {
           await this.currentSound.stopAsync();
         } catch (stopError) {
-          console.warn('[TTS] Error stopping previous sound:', stopError);
         }
         try {
           await this.currentSound.unloadAsync();
         } catch (unloadError) {
-          console.warn('[TTS] Error unloading previous sound:', unloadError);
         }
         this.currentSound = null;
       }
 
       // Load and play new audio
-      console.log('[TTS] Creating new sound from block audio');
       
       // Resolve audio using AudioResolver for dynamic paths
       // Check for null/undefined explicitly, not falsy values (0 is a valid page number!)
       const resolvedAudio = (block.pageNumber !== null && block.pageNumber !== undefined) && (block.blockId !== null && block.blockId !== undefined) ? 
         AudioResolver.resolveAudio(block.pageNumber, block.blockId.toString(), this.bookTitle, this.isSlowMode) : null;
-        
-      console.log(`[TTS] AudioResolver result:`, {
-        hasResolvedAudio: !!resolvedAudio,
-        pageNumber: block.pageNumber,
-        blockId: block.blockId,
-        bookTitle: this.bookTitle
-      });
       
       if (!resolvedAudio) {
-        console.warn('[TTS] No audio available for this block');
         this.callbacks.onPlaybackError?.('No audio available for this block');
         return;
       }
       
       const { sound } = await Audio.Sound.createAsync(resolvedAudio);
       this.currentSound = sound;
-      console.log('[TTS] Sound created successfully');
 
       // Set up playback status monitoring
       sound.setOnPlaybackStatusUpdate((status: AVPlaybackStatus) => {
@@ -289,7 +267,6 @@ export class TTSService {
       });
 
       // Set playback rate with robust error handling
-      console.log(`[TTS] Setting initial playback rate for new block: 1.0`);
       
       let rateSetSuccessfully = false;
       
@@ -300,9 +277,7 @@ export class TTSService {
           shouldCorrectPitch: true
         });
         rateSetSuccessfully = true;
-        console.log('[TTS] Block rate set with pitch correction');
       } catch (pitchError) {
-        console.warn('[TTS] Block rate failed with pitch correction, trying without:', pitchError);
         
         try {
           await sound.setStatusAsync({
@@ -310,16 +285,13 @@ export class TTSService {
             shouldCorrectPitch: false
           });
           rateSetSuccessfully = true;
-          console.log('[TTS] Block rate set without pitch correction');
         } catch (noPitchError) {
-          console.warn('[TTS] Block rate failed without pitch correction, trying rate only:', noPitchError);
           
           try {
             await sound.setStatusAsync({
               rate: 1.0
             });
             rateSetSuccessfully = true;
-            console.log('[TTS] Block rate set with rate only');
           } catch (rateOnlyError) {
             console.error('[TTS] All block rate setting attempts failed:', rateOnlyError);
             // Continue without rate adjustment
@@ -332,7 +304,6 @@ export class TTSService {
         try {
           const status = await sound.getStatusAsync();
           if (status.isLoaded && 'rate' in status) {
-            console.log(`[TTS] Verified block playback rate: ${(status as any).rate}`);
           }
         } catch (statusError) {
           console.warn('[TTS] Could not verify block playback rate:', statusError);
@@ -340,7 +311,6 @@ export class TTSService {
       }
       
       await sound.playAsync();
-      console.log('[TTS] Block playback started successfully');
       
     } catch (error) {
       console.error('[TTS] Error playing block:', error);
@@ -432,7 +402,6 @@ export class TTSService {
       // If we're paused but there's no current sound (e.g., after playing a specific block),
       // we need to restart sequential reading from the saved position
       if (this.isPaused && !this.currentSound) {
-        console.log('[TTS] Resume called with no current sound, restarting sequential reading from saved position');
         await this.startReading();
         return;
       }
@@ -492,7 +461,6 @@ export class TTSService {
             if (resolvedAudio) {
               await this.playWordFromBlock(word, resolvedAudio, block.speechMarks, wordMark);
             } else {
-              console.warn('[TTS] No audio available for word playback');
             }
             return;
           }
@@ -564,11 +532,8 @@ export class TTSService {
 
   // Play specific block by ID
   async playSpecificBlock(blockId: number): Promise<void> {
-    console.log(`[TTS] playSpecificBlock called with blockId: ${blockId}`);
-    console.log(`[TTS] Current blocks array:`, this.blocks.map(b => ({ id: b.id, blockId: b.blockId, text: b.text.substring(0, 30) + '...' })));
     
     if (!this.isInitialized) {
-      console.log('[TTS] Service not initialized, initializing...');
       await this.initialize();
     }
 
@@ -581,7 +546,6 @@ export class TTSService {
     try {
       // Find the block by ID
       const blockIndex = this.blocks.findIndex(block => block.id === blockId);
-      console.log(`[TTS] Block search result: blockIndex=${blockIndex} for blockId=${blockId}`);
       
       if (blockIndex === -1) {
         console.error(`[TTS] Block with ID ${blockId} not found. Available blocks:`, this.blocks.map(b => b.id));
@@ -594,7 +558,6 @@ export class TTSService {
       // This allows the user to resume page reading from where they paused
       if (this.isPaused || this.isPlaying) {
         this.savedSequentialBlockIndex = this.currentBlockIndex;
-        console.log(`[TTS] Saved sequential position: block ${this.savedSequentialBlockIndex}`);
       }
       
       // Stop any current playback (this will break any ongoing playSequentially loop)
@@ -632,7 +595,6 @@ export class TTSService {
       if (this.savedSequentialBlockIndex >= 0) {
         this.currentBlockIndex = this.savedSequentialBlockIndex;
         this.isPaused = true; // Mark as paused so user can resume
-        console.log(`[TTS] Restored sequential position to block ${this.currentBlockIndex}, marked as paused`);
       } else {
         this.currentBlockIndex = 0;
       }
