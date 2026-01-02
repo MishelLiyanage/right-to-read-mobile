@@ -1,0 +1,3729 @@
+{
+    "0": {
+        "text": "Listening",
+        "words": [
+            "Listening"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    136.55999755859375,
+                    100.53852844238281
+                ],
+                [
+                    200.29200744628906,
+                    120.72853088378906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listening <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Listening"
+            },
+            {
+                "time": 913,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Listen to the text and underline the correct answer.",
+        "words": [
+            "Listen",
+            "to",
+            "the",
+            "text",
+            "and",
+            "underline",
+            "the",
+            "correct",
+            "answer."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    73.0,
+                    137.49366760253906
+                ],
+                [
+                    105.5,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    108.75,
+                    137.49366760253906
+                ],
+                [
+                    118.86399841308594,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    122.11399841308594,
+                    137.49366760253906
+                ],
+                [
+                    138.0,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    141.25,
+                    137.49366760253906
+                ],
+                [
+                    160.75,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    164.0,
+                    137.49366760253906
+                ],
+                [
+                    182.77200317382812,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    186.02200317382812,
+                    137.49366760253906
+                ],
+                [
+                    235.1230010986328,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    238.3730010986328,
+                    137.49366760253906
+                ],
+                [
+                    254.25900268554688,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    257.5090026855469,
+                    137.49366760253906
+                ],
+                [
+                    293.5970458984375,
+                    155.00466918945312
+                ]
+            ],
+            [
+                [
+                    296.8470458984375,
+                    137.49366760253906
+                ],
+                [
+                    336.1551513671875,
+                    155.00466918945312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Listen <break time='200ms'/> to <break time='200ms'/> the <break time='200ms'/> text <break time='200ms'/> and <break time='200ms'/> underline <break time='200ms'/> the <break time='200ms'/> correct <break time='200ms'/> answer. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Listen"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 59,
+                "value": "to"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 82,
+                "end": 85,
+                "value": "the"
+            },
+            {
+                "time": 2292,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2517,
+                "type": "word",
+                "start": 108,
+                "end": 112,
+                "value": "text"
+            },
+            {
+                "time": 3335,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3572,
+                "type": "word",
+                "start": 135,
+                "end": 138,
+                "value": "and"
+            },
+            {
+                "time": 4078,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4341,
+                "type": "word",
+                "start": 161,
+                "end": 170,
+                "value": "underline"
+            },
+            {
+                "time": 5149,
+                "type": "word",
+                "start": 171,
+                "end": 192,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5393,
+                "type": "word",
+                "start": 193,
+                "end": 196,
+                "value": "the"
+            },
+            {
+                "time": 5816,
+                "type": "word",
+                "start": 197,
+                "end": 218,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6072,
+                "type": "word",
+                "start": 219,
+                "end": 226,
+                "value": "correct"
+            },
+            {
+                "time": 6728,
+                "type": "word",
+                "start": 227,
+                "end": 248,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6971,
+                "type": "word",
+                "start": 249,
+                "end": 255,
+                "value": "answer"
+            },
+            {
+                "time": 7630,
+                "type": "word",
+                "start": 257,
+                "end": 278,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "1. The house belongs to",
+        "words": [
+            "1.",
+            "The",
+            "house",
+            "belongs",
+            "to"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.9990005493164,
+                    175.49266052246094
+                ],
+                [
+                    81.7490005493164,
+                    193.003662109375
+                ]
+            ],
+            [
+                [
+                    90.00399780273438,
+                    175.49266052246094
+                ],
+                [
+                    110.21900177001953,
+                    193.003662109375
+                ]
+            ],
+            [
+                [
+                    113.46900177001953,
+                    175.49266052246094
+                ],
+                [
+                    143.79800415039062,
+                    193.003662109375
+                ]
+            ],
+            [
+                [
+                    147.04800415039062,
+                    175.49266052246094
+                ],
+                [
+                    187.4910125732422,
+                    193.003662109375
+                ]
+            ],
+            [
+                [
+                    190.7410125732422,
+                    175.49266052246094
+                ],
+                [
+                    200.85501098632812,
+                    193.003662109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>1. <break time='200ms'/> The <break time='200ms'/> house <break time='200ms'/> belongs <break time='200ms'/> to <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "1"
+            },
+            {
+                "time": 683,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1451,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "The"
+            },
+            {
+                "time": 1828,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2084,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "house"
+            },
+            {
+                "time": 2765,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3034,
+                "type": "word",
+                "start": 107,
+                "end": 114,
+                "value": "belongs"
+            },
+            {
+                "time": 3922,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4216,
+                "type": "word",
+                "start": 137,
+                "end": 139,
+                "value": "to"
+            },
+            {
+                "time": 4715,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "a) Tin Tan b) Tin Ton c) Tin Tin",
+        "words": [
+            "a)",
+            "Tin",
+            "Tan",
+            "b)",
+            "Tin",
+            "Ton",
+            "c)",
+            "Tin",
+            "Tin"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99840545654297,
+                    198.4896697998047
+                ],
+                [
+                    136.09939575195312,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    139.11801147460938,
+                    198.4896697998047
+                ],
+                [
+                    156.7161102294922,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    159.72300720214844,
+                    198.4896697998047
+                ],
+                [
+                    179.0279998779297,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    215.99740600585938,
+                    198.4896697998047
+                ],
+                [
+                    226.82640075683594,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    229.84500122070312,
+                    198.4896697998047
+                ],
+                [
+                    247.44309997558594,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    250.4499969482422,
+                    198.4896697998047
+                ],
+                [
+                    270.4830017089844,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    304.9953918457031,
+                    198.4896697998047
+                ],
+                [
+                    315.0964050292969,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    318.114990234375,
+                    198.4896697998047
+                ],
+                [
+                    335.7131042480469,
+                    216.00067138671875
+                ]
+            ],
+            [
+                [
+                    338.7200012207031,
+                    198.4896697998047
+                ],
+                [
+                    356.318115234375,
+                    216.00067138671875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> Tin <break time='200ms'/> Tan <break time='200ms'/> b) <break time='200ms'/> Tin <break time='200ms'/> Ton <break time='200ms'/> c) <break time='200ms'/> Tin <break time='200ms'/> Tin <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 496,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 790,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "Tin"
+            },
+            {
+                "time": 1427,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1684,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "Tan"
+            },
+            {
+                "time": 2333,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2602,
+                "type": "word",
+                "start": 105,
+                "end": 106,
+                "value": "b"
+            },
+            {
+                "time": 3114,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3383,
+                "type": "word",
+                "start": 130,
+                "end": 133,
+                "value": "Tin"
+            },
+            {
+                "time": 3898,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4154,
+                "type": "word",
+                "start": 156,
+                "end": 159,
+                "value": "Ton"
+            },
+            {
+                "time": 4707,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5001,
+                "type": "word",
+                "start": 182,
+                "end": 183,
+                "value": "c"
+            },
+            {
+                "time": 5460,
+                "type": "word",
+                "start": 185,
+                "end": 206,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5691,
+                "type": "word",
+                "start": 207,
+                "end": 210,
+                "value": "Tin"
+            },
+            {
+                "time": 6365,
+                "type": "word",
+                "start": 211,
+                "end": 232,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6596,
+                "type": "word",
+                "start": 233,
+                "end": 236,
+                "value": "Tin"
+            },
+            {
+                "time": 7159,
+                "type": "word",
+                "start": 237,
+                "end": 258,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "2. How can you go there?",
+        "words": [
+            "2.",
+            "How",
+            "can",
+            "you",
+            "go",
+            "there?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99899291992188,
+                    221.48667907714844
+                ],
+                [
+                    81.74899291992188,
+                    238.9976806640625
+                ]
+            ],
+            [
+                [
+                    90.00399017333984,
+                    221.48667907714844
+                ],
+                [
+                    115.27599334716797,
+                    238.9976806640625
+                ]
+            ],
+            [
+                [
+                    118.52599334716797,
+                    221.48667907714844
+                ],
+                [
+                    136.5699920654297,
+                    238.9976806640625
+                ]
+            ],
+            [
+                [
+                    139.8199920654297,
+                    221.48667907714844
+                ],
+                [
+                    159.3199920654297,
+                    238.9976806640625
+                ]
+            ],
+            [
+                [
+                    162.5699920654297,
+                    221.48667907714844
+                ],
+                [
+                    175.5699920654297,
+                    238.9976806640625
+                ]
+            ],
+            [
+                [
+                    178.8199920654297,
+                    221.48667907714844
+                ],
+                [
+                    210.57899475097656,
+                    238.9976806640625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>2. <break time='200ms'/> How <break time='200ms'/> can <break time='200ms'/> you <break time='200ms'/> go <break time='200ms'/> there? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "2"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1438,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "How"
+            },
+            {
+                "time": 1823,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2116,
+                "type": "word",
+                "start": 79,
+                "end": 82,
+                "value": "can"
+            },
+            {
+                "time": 2754,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3010,
+                "type": "word",
+                "start": 105,
+                "end": 108,
+                "value": "you"
+            },
+            {
+                "time": 3492,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3760,
+                "type": "word",
+                "start": 131,
+                "end": 133,
+                "value": "go"
+            },
+            {
+                "time": 4377,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4690,
+                "type": "word",
+                "start": 156,
+                "end": 161,
+                "value": "there"
+            },
+            {
+                "time": 5146,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "a) by boat b) by helicopter c) by boat or helicopter",
+        "words": [
+            "a)",
+            "by",
+            "boat",
+            "b)",
+            "by",
+            "helicopter",
+            "c)",
+            "by",
+            "boat",
+            "or",
+            "helicopter"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99839782714844,
+                    244.4836883544922
+                ],
+                [
+                    136.09939575195312,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    139.34939575195312,
+                    244.4836883544922
+                ],
+                [
+                    152.34939575195312,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    155.59939575195312,
+                    244.4836883544922
+                ],
+                [
+                    177.9853973388672,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    215.9987030029297,
+                    244.4836883544922
+                ],
+                [
+                    226.82769775390625,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    230.07769775390625,
+                    244.4836883544922
+                ],
+                [
+                    243.07769775390625,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    246.32769775390625,
+                    244.4836883544922
+                ],
+                [
+                    298.31475830078125,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    304.9993591308594,
+                    244.4836883544922
+                ],
+                [
+                    315.1003723144531,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    318.3503723144531,
+                    244.4836883544922
+                ],
+                [
+                    331.3503723144531,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    334.6003723144531,
+                    244.4836883544922
+                ],
+                [
+                    356.98638916015625,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    360.23638916015625,
+                    244.4836883544922
+                ],
+                [
+                    371.0653991699219,
+                    261.99468994140625
+                ]
+            ],
+            [
+                [
+                    374.3153991699219,
+                    244.4836883544922
+                ],
+                [
+                    426.3024597167969,
+                    261.99468994140625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> by <break time='200ms'/> boat <break time='200ms'/> b) <break time='200ms'/> by <break time='200ms'/> helicopter <break time='200ms'/> c) <break time='200ms'/> by <break time='200ms'/> boat <break time='200ms'/> or <break time='200ms'/> helicopter <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 587,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 818,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "by"
+            },
+            {
+                "time": 1473,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1717,
+                "type": "word",
+                "start": 78,
+                "end": 82,
+                "value": "boat"
+            },
+            {
+                "time": 2323,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2548,
+                "type": "word",
+                "start": 105,
+                "end": 106,
+                "value": "b"
+            },
+            {
+                "time": 3167,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3436,
+                "type": "word",
+                "start": 130,
+                "end": 132,
+                "value": "by"
+            },
+            {
+                "time": 3861,
+                "type": "word",
+                "start": 133,
+                "end": 154,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4179,
+                "type": "word",
+                "start": 155,
+                "end": 165,
+                "value": "helicopter"
+            },
+            {
+                "time": 5273,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5541,
+                "type": "word",
+                "start": 188,
+                "end": 189,
+                "value": "c"
+            },
+            {
+                "time": 6139,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6370,
+                "type": "word",
+                "start": 213,
+                "end": 215,
+                "value": "by"
+            },
+            {
+                "time": 6870,
+                "type": "word",
+                "start": 216,
+                "end": 237,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7158,
+                "type": "word",
+                "start": 238,
+                "end": 242,
+                "value": "boat"
+            },
+            {
+                "time": 7634,
+                "type": "word",
+                "start": 243,
+                "end": 264,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7927,
+                "type": "word",
+                "start": 265,
+                "end": 267,
+                "value": "or"
+            },
+            {
+                "time": 8312,
+                "type": "word",
+                "start": 268,
+                "end": 289,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8605,
+                "type": "word",
+                "start": 290,
+                "end": 300,
+                "value": "helicopter"
+            },
+            {
+                "time": 9637,
+                "type": "word",
+                "start": 301,
+                "end": 322,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "3. The number of bed rooms is",
+        "words": [
+            "3.",
+            "The",
+            "number",
+            "of",
+            "bed",
+            "rooms",
+            "is"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99899291992188,
+                    267.480712890625
+                ],
+                [
+                    81.74899291992188,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    90.00399017333984,
+                    267.480712890625
+                ],
+                [
+                    110.218994140625,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    113.468994140625,
+                    267.480712890625
+                ],
+                [
+                    153.18399047851562,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    156.43399047851562,
+                    267.480712890625
+                ],
+                [
+                    167.2629852294922,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    170.5129852294922,
+                    267.480712890625
+                ],
+                [
+                    189.2849884033203,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    192.5349884033203,
+                    267.480712890625
+                ],
+                [
+                    225.0349884033203,
+                    284.99169921875
+                ]
+            ],
+            [
+                [
+                    228.2849884033203,
+                    267.480712890625
+                ],
+                [
+                    236.95599365234375,
+                    284.99169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>3. <break time='200ms'/> The <break time='200ms'/> number <break time='200ms'/> of <break time='200ms'/> bed <break time='200ms'/> rooms <break time='200ms'/> is <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "3"
+            },
+            {
+                "time": 721,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1488,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "The"
+            },
+            {
+                "time": 1902,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2133,
+                "type": "word",
+                "start": 79,
+                "end": 85,
+                "value": "number"
+            },
+            {
+                "time": 2901,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3257,
+                "type": "word",
+                "start": 108,
+                "end": 110,
+                "value": "of"
+            },
+            {
+                "time": 3676,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3988,
+                "type": "word",
+                "start": 133,
+                "end": 136,
+                "value": "bed"
+            },
+            {
+                "time": 4524,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4755,
+                "type": "word",
+                "start": 159,
+                "end": 164,
+                "value": "rooms"
+            },
+            {
+                "time": 5562,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5881,
+                "type": "word",
+                "start": 187,
+                "end": 189,
+                "value": "is"
+            },
+            {
+                "time": 6224,
+                "type": "word",
+                "start": 190,
+                "end": 211,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "a) 20 b) 12 c) 15",
+        "words": [
+            "a)",
+            "20",
+            "b)",
+            "12",
+            "c)",
+            "15"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99839782714844,
+                    290.47772216796875
+                ],
+                [
+                    136.09939575195312,
+                    307.98870849609375
+                ]
+            ],
+            [
+                [
+                    139.34939575195312,
+                    290.47772216796875
+                ],
+                [
+                    152.34939575195312,
+                    307.98870849609375
+                ]
+            ],
+            [
+                [
+                    215.99868774414062,
+                    290.47772216796875
+                ],
+                [
+                    226.8276824951172,
+                    307.98870849609375
+                ]
+            ],
+            [
+                [
+                    230.0776824951172,
+                    290.47772216796875
+                ],
+                [
+                    243.0776824951172,
+                    307.98870849609375
+                ]
+            ],
+            [
+                [
+                    304.9992980957031,
+                    290.47772216796875
+                ],
+                [
+                    315.1003112792969,
+                    307.98870849609375
+                ]
+            ],
+            [
+                [
+                    318.3503112792969,
+                    290.47772216796875
+                ],
+                [
+                    331.3503112792969,
+                    307.98870849609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> 20 <break time='200ms'/> b) <break time='200ms'/> 12 <break time='200ms'/> c) <break time='200ms'/> 15 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 465,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 727,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "20"
+            },
+            {
+                "time": 1564,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1820,
+                "type": "word",
+                "start": 78,
+                "end": 79,
+                "value": "b"
+            },
+            {
+                "time": 2341,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2604,
+                "type": "word",
+                "start": 103,
+                "end": 105,
+                "value": "12"
+            },
+            {
+                "time": 3340,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3633,
+                "type": "word",
+                "start": 128,
+                "end": 129,
+                "value": "c"
+            },
+            {
+                "time": 4112,
+                "type": "word",
+                "start": 131,
+                "end": 152,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4393,
+                "type": "word",
+                "start": 153,
+                "end": 155,
+                "value": "15"
+            },
+            {
+                "time": 5278,
+                "type": "word",
+                "start": 156,
+                "end": 177,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "4. .......................... are on the wall of each room.",
+        "words": [
+            "4.",
+            "..........................",
+            "are",
+            "on",
+            "the",
+            "wall",
+            "of",
+            "each",
+            "room."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99899291992188,
+                    313.4747314453125
+                ],
+                [
+                    81.74899291992188,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    90.00399017333984,
+                    313.4747314453125
+                ],
+                [
+                    174.50399780273438,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    177.75399780273438,
+                    313.4747314453125
+                ],
+                [
+                    193.6269989013672,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    196.8769989013672,
+                    313.4747314453125
+                ],
+                [
+                    209.8769989013672,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    213.1269989013672,
+                    313.4747314453125
+                ],
+                [
+                    229.01300048828125,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    232.26300048828125,
+                    313.4747314453125
+                ],
+                [
+                    254.6490020751953,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    257.89898681640625,
+                    313.4747314453125
+                ],
+                [
+                    268.7279968261719,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    271.9779968261719,
+                    313.4747314453125
+                ],
+                [
+                    295.79400634765625,
+                    330.9857177734375
+                ]
+            ],
+            [
+                [
+                    299.04400634765625,
+                    313.4747314453125
+                ],
+                [
+                    329.7370300292969,
+                    330.9857177734375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>4. <break time='200ms'/> are <break time='200ms'/> on <break time='200ms'/> the <break time='200ms'/> wall <break time='200ms'/> of <break time='200ms'/> each <break time='200ms'/> room. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "4"
+            },
+            {
+                "time": 733,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1513,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "are"
+            },
+            {
+                "time": 1912,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2143,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "on"
+            },
+            {
+                "time": 2799,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3074,
+                "type": "word",
+                "start": 104,
+                "end": 107,
+                "value": "the"
+            },
+            {
+                "time": 3510,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3778,
+                "type": "word",
+                "start": 130,
+                "end": 134,
+                "value": "wall"
+            },
+            {
+                "time": 4347,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4704,
+                "type": "word",
+                "start": 157,
+                "end": 159,
+                "value": "of"
+            },
+            {
+                "time": 5213,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5494,
+                "type": "word",
+                "start": 182,
+                "end": 186,
+                "value": "each"
+            },
+            {
+                "time": 5951,
+                "type": "word",
+                "start": 187,
+                "end": 208,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6195,
+                "type": "word",
+                "start": 209,
+                "end": 213,
+                "value": "room"
+            },
+            {
+                "time": 6819,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "a) framed pictures b) clocks",
+        "words": [
+            "a)",
+            "framed",
+            "pictures",
+            "b)",
+            "clocks"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99839782714844,
+                    336.47174072265625
+                ],
+                [
+                    136.09939575195312,
+                    353.98272705078125
+                ]
+            ],
+            [
+                [
+                    142.59939575195312,
+                    336.47174072265625
+                ],
+                [
+                    179.41539001464844,
+                    353.98272705078125
+                ]
+            ],
+            [
+                [
+                    182.66539001464844,
+                    336.47174072265625
+                ],
+                [
+                    223.82339477539062,
+                    353.98272705078125
+                ]
+            ],
+            [
+                [
+                    304.99798583984375,
+                    336.47174072265625
+                ],
+                [
+                    315.8269958496094,
+                    353.98272705078125
+                ]
+            ],
+            [
+                [
+                    322.3269958496094,
+                    336.47174072265625
+                ],
+                [
+                    355.5420227050781,
+                    353.98272705078125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> framed <break time='200ms'/> pictures <break time='200ms'/> b) <break time='200ms'/> clocks <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 621,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 883,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "framed"
+            },
+            {
+                "time": 1607,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 82,
+                "end": 90,
+                "value": "pictures"
+            },
+            {
+                "time": 2657,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2939,
+                "type": "word",
+                "start": 113,
+                "end": 114,
+                "value": "b"
+            },
+            {
+                "time": 3323,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3617,
+                "type": "word",
+                "start": 138,
+                "end": 144,
+                "value": "clocks"
+            },
+            {
+                "time": 4440,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "c) wall hangings d) video screens",
+        "words": [
+            "c)",
+            "wall",
+            "hangings",
+            "d)",
+            "video",
+            "screens"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    359.46875
+                ],
+                [
+                    136.09938049316406,
+                    376.979736328125
+                ]
+            ],
+            [
+                [
+                    142.59938049316406,
+                    359.46875
+                ],
+                [
+                    164.98538208007812,
+                    376.979736328125
+                ]
+            ],
+            [
+                [
+                    168.23538208007812,
+                    359.46875
+                ],
+                [
+                    215.1783905029297,
+                    376.979736328125
+                ]
+            ],
+            [
+                [
+                    304.99798583984375,
+                    359.46875
+                ],
+                [
+                    315.8269958496094,
+                    376.979736328125
+                ]
+            ],
+            [
+                [
+                    322.3269958496094,
+                    359.46875
+                ],
+                [
+                    351.2130126953125,
+                    376.979736328125
+                ]
+            ],
+            [
+                [
+                    354.4630126953125,
+                    359.46875
+                ],
+                [
+                    392.7220458984375,
+                    376.979736328125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>c) <break time='200ms'/> wall <break time='200ms'/> hangings <break time='200ms'/> d) <break time='200ms'/> video <break time='200ms'/> screens <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "c"
+            },
+            {
+                "time": 718,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 993,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "wall"
+            },
+            {
+                "time": 1515,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1809,
+                "type": "word",
+                "start": 80,
+                "end": 88,
+                "value": "hangings"
+            },
+            {
+                "time": 2617,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2861,
+                "type": "word",
+                "start": 111,
+                "end": 112,
+                "value": "d"
+            },
+            {
+                "time": 3337,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3631,
+                "type": "word",
+                "start": 136,
+                "end": 141,
+                "value": "video"
+            },
+            {
+                "time": 4396,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4627,
+                "type": "word",
+                "start": 164,
+                "end": 171,
+                "value": "screens"
+            },
+            {
+                "time": 5511,
+                "type": "word",
+                "start": 172,
+                "end": 193,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "5. The library contains ...........................",
+        "words": [
+            "5.",
+            "The",
+            "library",
+            "contains",
+            "..........................."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99897766113281,
+                    382.46575927734375
+                ],
+                [
+                    81.74897766113281,
+                    399.97674560546875
+                ]
+            ],
+            [
+                [
+                    90.00397491455078,
+                    382.46575927734375
+                ],
+                [
+                    110.21897888183594,
+                    399.97674560546875
+                ]
+            ],
+            [
+                [
+                    113.46897888183594,
+                    382.46575927734375
+                ],
+                [
+                    148.12696838378906,
+                    399.97674560546875
+                ]
+            ],
+            [
+                [
+                    151.37696838378906,
+                    382.46575927734375
+                ],
+                [
+                    194.7059783935547,
+                    399.97674560546875
+                ]
+            ],
+            [
+                [
+                    197.9559783935547,
+                    382.46575927734375
+                ],
+                [
+                    285.70599365234375,
+                    399.97674560546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>5. <break time='200ms'/> The <break time='200ms'/> library <break time='200ms'/> contains <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "5"
+            },
+            {
+                "time": 836,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "The"
+            },
+            {
+                "time": 1954,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2229,
+                "type": "word",
+                "start": 79,
+                "end": 86,
+                "value": "library"
+            },
+            {
+                "time": 3164,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3457,
+                "type": "word",
+                "start": 109,
+                "end": 117,
+                "value": "contains"
+            },
+            {
+                "time": 4311,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "a) books only b) books and maps",
+        "words": [
+            "a)",
+            "books",
+            "only",
+            "b)",
+            "books",
+            "and",
+            "maps"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    405.4627685546875
+                ],
+                [
+                    136.09938049316406,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    142.59938049316406,
+                    405.4627685546875
+                ],
+                [
+                    173.65638732910156,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    176.90638732910156,
+                    405.4627685546875
+                ],
+                [
+                    200.0203857421875,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    304.99798583984375,
+                    405.4627685546875
+                ],
+                [
+                    315.8269958496094,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    322.3269958496094,
+                    405.4627685546875
+                ],
+                [
+                    353.3840026855469,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    356.6340026855469,
+                    405.4627685546875
+                ],
+                [
+                    375.406005859375,
+                    422.9737548828125
+                ]
+            ],
+            [
+                [
+                    378.656005859375,
+                    405.4627685546875
+                ],
+                [
+                    406.0990295410156,
+                    422.9737548828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> books <break time='200ms'/> only <break time='200ms'/> b) <break time='200ms'/> books <break time='200ms'/> and <break time='200ms'/> maps <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 550,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 807,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "books"
+            },
+            {
+                "time": 1607,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1888,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "only"
+            },
+            {
+                "time": 2431,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2731,
+                "type": "word",
+                "start": 108,
+                "end": 109,
+                "value": "b"
+            },
+            {
+                "time": 3268,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3530,
+                "type": "word",
+                "start": 133,
+                "end": 138,
+                "value": "books"
+            },
+            {
+                "time": 4101,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4382,
+                "type": "word",
+                "start": 161,
+                "end": 164,
+                "value": "and"
+            },
+            {
+                "time": 4894,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5163,
+                "type": "word",
+                "start": 187,
+                "end": 191,
+                "value": "maps"
+            },
+            {
+                "time": 5800,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "c) books and newspapers d) maps only",
+        "words": [
+            "c)",
+            "books",
+            "and",
+            "newspapers",
+            "d)",
+            "maps",
+            "only"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    428.45977783203125
+                ],
+                [
+                    136.09938049316406,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    142.59938049316406,
+                    428.45977783203125
+                ],
+                [
+                    173.65638732910156,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    176.90638732910156,
+                    428.45977783203125
+                ],
+                [
+                    195.6783905029297,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    198.9283905029297,
+                    428.45977783203125
+                ],
+                [
+                    259.5733947753906,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    304.9992980957031,
+                    428.45977783203125
+                ],
+                [
+                    315.82830810546875,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    322.32830810546875,
+                    428.45977783203125
+                ],
+                [
+                    349.7713317871094,
+                    445.97076416015625
+                ]
+            ],
+            [
+                [
+                    353.0213317871094,
+                    428.45977783203125
+                ],
+                [
+                    376.1353454589844,
+                    445.97076416015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>c) <break time='200ms'/> books <break time='200ms'/> and <break time='200ms'/> newspapers <break time='200ms'/> d) <break time='200ms'/> maps <break time='200ms'/> only <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "c"
+            },
+            {
+                "time": 674,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 53,
+                "end": 58,
+                "value": "books"
+            },
+            {
+                "time": 1660,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1973,
+                "type": "word",
+                "start": 81,
+                "end": 84,
+                "value": "and"
+            },
+            {
+                "time": 2421,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2702,
+                "type": "word",
+                "start": 107,
+                "end": 117,
+                "value": "newspapers"
+            },
+            {
+                "time": 3756,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4031,
+                "type": "word",
+                "start": 140,
+                "end": 141,
+                "value": "d"
+            },
+            {
+                "time": 4538,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4831,
+                "type": "word",
+                "start": 165,
+                "end": 169,
+                "value": "maps"
+            },
+            {
+                "time": 5444,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5707,
+                "type": "word",
+                "start": 192,
+                "end": 196,
+                "value": "only"
+            },
+            {
+                "time": 6264,
+                "type": "word",
+                "start": 197,
+                "end": 218,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "14": {
+        "text": "6. How many people can sit in the dining room?",
+        "words": [
+            "6.",
+            "How",
+            "many",
+            "people",
+            "can",
+            "sit",
+            "in",
+            "the",
+            "dining",
+            "room?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99897766113281,
+                    451.456787109375
+                ],
+                [
+                    81.74897766113281,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    91.49897766113281,
+                    451.456787109375
+                ],
+                [
+                    116.77098083496094,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    120.02098083496094,
+                    451.456787109375
+                ],
+                [
+                    148.906982421875,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    152.156982421875,
+                    451.456787109375
+                ],
+                [
+                    186.8149871826172,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    190.0649871826172,
+                    451.456787109375
+                ],
+                [
+                    208.10899353027344,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    211.35899353027344,
+                    451.456787109375
+                ],
+                [
+                    223.6439971923828,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    226.8939971923828,
+                    451.456787109375
+                ],
+                [
+                    237.00799560546875,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    240.25799560546875,
+                    451.456787109375
+                ],
+                [
+                    256.14398193359375,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    259.39398193359375,
+                    451.456787109375
+                ],
+                [
+                    292.62200927734375,
+                    468.9677734375
+                ]
+            ],
+            [
+                [
+                    295.87200927734375,
+                    451.456787109375
+                ],
+                [
+                    329.0870361328125,
+                    468.9677734375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>6. <break time='200ms'/> How <break time='200ms'/> many <break time='200ms'/> people <break time='200ms'/> can <break time='200ms'/> sit <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> dining <break time='200ms'/> room? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "6"
+            },
+            {
+                "time": 793,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1561,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "How"
+            },
+            {
+                "time": 1884,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2177,
+                "type": "word",
+                "start": 79,
+                "end": 83,
+                "value": "many"
+            },
+            {
+                "time": 2815,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3071,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "people"
+            },
+            {
+                "time": 3727,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4002,
+                "type": "word",
+                "start": 135,
+                "end": 138,
+                "value": "can"
+            },
+            {
+                "time": 4596,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4808,
+                "type": "word",
+                "start": 161,
+                "end": 164,
+                "value": "sit"
+            },
+            {
+                "time": 5413,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5713,
+                "type": "word",
+                "start": 187,
+                "end": 189,
+                "value": "in"
+            },
+            {
+                "time": 6097,
+                "type": "word",
+                "start": 190,
+                "end": 211,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6391,
+                "type": "word",
+                "start": 212,
+                "end": 215,
+                "value": "the"
+            },
+            {
+                "time": 6796,
+                "type": "word",
+                "start": 216,
+                "end": 237,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7065,
+                "type": "word",
+                "start": 238,
+                "end": 244,
+                "value": "dining"
+            },
+            {
+                "time": 7763,
+                "type": "word",
+                "start": 245,
+                "end": 266,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8020,
+                "type": "word",
+                "start": 267,
+                "end": 271,
+                "value": "room"
+            },
+            {
+                "time": 8506,
+                "type": "word",
+                "start": 273,
+                "end": 294,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "15": {
+        "text": "a)18 b) 80 c) 800",
+        "words": [
+            "a)18",
+            "b)",
+            "80",
+            "c)",
+            "800"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    474.45379638671875
+                ],
+                [
+                    149.09938049316406,
+                    491.96478271484375
+                ]
+            ],
+            [
+                [
+                    214.09938049316406,
+                    474.45379638671875
+                ],
+                [
+                    224.92837524414062,
+                    491.96478271484375
+                ]
+            ],
+            [
+                [
+                    228.17837524414062,
+                    474.45379638671875
+                ],
+                [
+                    241.17837524414062,
+                    491.96478271484375
+                ]
+            ],
+            [
+                [
+                    306.1783752441406,
+                    474.45379638671875
+                ],
+                [
+                    316.2793884277344,
+                    491.96478271484375
+                ]
+            ],
+            [
+                [
+                    319.5293884277344,
+                    474.45379638671875
+                ],
+                [
+                    339.0293884277344,
+                    491.96478271484375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a)18 <break time='200ms'/> b) <break time='200ms'/> 80 <break time='200ms'/> c) <break time='200ms'/> 800 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 325,
+                "type": "word",
+                "start": 30,
+                "end": 32,
+                "value": "18"
+            },
+            {
+                "time": 1063,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1345,
+                "type": "word",
+                "start": 55,
+                "end": 56,
+                "value": "b"
+            },
+            {
+                "time": 1897,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2191,
+                "type": "word",
+                "start": 80,
+                "end": 82,
+                "value": "80"
+            },
+            {
+                "time": 2750,
+                "type": "word",
+                "start": 83,
+                "end": 104,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3050,
+                "type": "word",
+                "start": 105,
+                "end": 106,
+                "value": "c"
+            },
+            {
+                "time": 3535,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3822,
+                "type": "word",
+                "start": 130,
+                "end": 133,
+                "value": "800"
+            },
+            {
+                "time": 4686,
+                "type": "word",
+                "start": 134,
+                "end": 155,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "16": {
+        "text": "7. Broowy is his",
+        "words": [
+            "7.",
+            "Broowy",
+            "is",
+            "his"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99897766113281,
+                    497.4508056640625
+                ],
+                [
+                    81.74897766113281,
+                    514.9617919921875
+                ]
+            ],
+            [
+                [
+                    89.998779296875,
+                    497.4508056640625
+                ],
+                [
+                    131.88478088378906,
+                    514.9617919921875
+                ]
+            ],
+            [
+                [
+                    135.13478088378906,
+                    497.4508056640625
+                ],
+                [
+                    143.8057861328125,
+                    514.9617919921875
+                ]
+            ],
+            [
+                [
+                    147.0557861328125,
+                    497.4508056640625
+                ],
+                [
+                    162.22679138183594,
+                    514.9617919921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>7. <break time='200ms'/> Broowy <break time='200ms'/> is <break time='200ms'/> his <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "7"
+            },
+            {
+                "time": 833,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1551,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "Broowy"
+            },
+            {
+                "time": 2254,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2560,
+                "type": "word",
+                "start": 82,
+                "end": 84,
+                "value": "is"
+            },
+            {
+                "time": 3059,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3316,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "his"
+            },
+            {
+                "time": 3909,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "17": {
+        "text": "a) brother b) friendly dog c) neighbour",
+        "words": [
+            "a)",
+            "brother",
+            "b)",
+            "friendly",
+            "dog",
+            "c)",
+            "neighbour"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    520.44775390625
+                ],
+                [
+                    136.09938049316406,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    139.34938049316406,
+                    520.44775390625
+                ],
+                [
+                    176.89337158203125,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    215.99867248535156,
+                    520.44775390625
+                ],
+                [
+                    226.82766723632812,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    230.07766723632812,
+                    520.44775390625
+                ],
+                [
+                    271.23565673828125,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    274.48565673828125,
+                    520.44775390625
+                ],
+                [
+                    293.98565673828125,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    304.999267578125,
+                    520.44775390625
+                ],
+                [
+                    315.10028076171875,
+                    537.9588012695312
+                ]
+            ],
+            [
+                [
+                    318.35028076171875,
+                    520.44775390625
+                ],
+                [
+                    371.0653076171875,
+                    537.9588012695312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> brother <break time='200ms'/> b) <break time='200ms'/> friendly <break time='200ms'/> dog <break time='200ms'/> c) <break time='200ms'/> neighbour <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 523,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 798,
+                "type": "word",
+                "start": 53,
+                "end": 60,
+                "value": "brother"
+            },
+            {
+                "time": 1567,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1817,
+                "type": "word",
+                "start": 83,
+                "end": 84,
+                "value": "b"
+            },
+            {
+                "time": 2382,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2688,
+                "type": "word",
+                "start": 108,
+                "end": 116,
+                "value": "friendly"
+            },
+            {
+                "time": 3417,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3674,
+                "type": "word",
+                "start": 139,
+                "end": 142,
+                "value": "dog"
+            },
+            {
+                "time": 4312,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4599,
+                "type": "word",
+                "start": 165,
+                "end": 166,
+                "value": "c"
+            },
+            {
+                "time": 5127,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5395,
+                "type": "word",
+                "start": 190,
+                "end": 199,
+                "value": "neighbour"
+            },
+            {
+                "time": 6029,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "18": {
+        "text": "8. What can you see behind the house?",
+        "words": [
+            "8.",
+            "What",
+            "can",
+            "you",
+            "see",
+            "behind",
+            "the",
+            "house?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    71.99897766113281,
+                    543.4447631835938
+                ],
+                [
+                    81.74897766113281,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    84.76367950439453,
+                    543.4447631835938
+                ],
+                [
+                    112.92168426513672,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    116.17168426513672,
+                    543.4447631835938
+                ],
+                [
+                    134.2156982421875,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    137.4656982421875,
+                    543.4447631835938
+                ],
+                [
+                    156.9656982421875,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    160.2156982421875,
+                    543.4447631835938
+                ],
+                [
+                    176.81671142578125,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    180.06671142578125,
+                    543.4447631835938
+                ],
+                [
+                    215.4527130126953,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    218.7027130126953,
+                    543.4447631835938
+                ],
+                [
+                    234.58871459960938,
+                    560.955810546875
+                ]
+            ],
+            [
+                [
+                    237.83871459960938,
+                    543.4447631835938
+                ],
+                [
+                    273.9397277832031,
+                    560.955810546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>8. <break time='200ms'/> What <break time='200ms'/> can <break time='200ms'/> you <break time='200ms'/> see <break time='200ms'/> behind <break time='200ms'/> the <break time='200ms'/> house? <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "8"
+            },
+            {
+                "time": 647,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1415,
+                "type": "word",
+                "start": 53,
+                "end": 57,
+                "value": "What"
+            },
+            {
+                "time": 1765,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2040,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "can"
+            },
+            {
+                "time": 2727,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3033,
+                "type": "word",
+                "start": 106,
+                "end": 109,
+                "value": "you"
+            },
+            {
+                "time": 3461,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3799,
+                "type": "word",
+                "start": 132,
+                "end": 135,
+                "value": "see"
+            },
+            {
+                "time": 4311,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4580,
+                "type": "word",
+                "start": 158,
+                "end": 164,
+                "value": "behind"
+            },
+            {
+                "time": 5331,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5593,
+                "type": "word",
+                "start": 187,
+                "end": 190,
+                "value": "the"
+            },
+            {
+                "time": 5964,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6214,
+                "type": "word",
+                "start": 213,
+                "end": 218,
+                "value": "house"
+            },
+            {
+                "time": 6869,
+                "type": "word",
+                "start": 220,
+                "end": 241,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "19": {
+        "text": "a) a valley b) a lake c) a mountain",
+        "words": [
+            "a)",
+            "a",
+            "valley",
+            "b)",
+            "a",
+            "lake",
+            "c)",
+            "a",
+            "mountain"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    566.4417724609375
+                ],
+                [
+                    136.09938049316406,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    139.34938049316406,
+                    566.4417724609375
+                ],
+                [
+                    145.1213836669922,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    148.3713836669922,
+                    566.4417724609375
+                ],
+                [
+                    180.1433868408203,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    215.99868774414062,
+                    566.4417724609375
+                ],
+                [
+                    226.8276824951172,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    230.0776824951172,
+                    566.4417724609375
+                ],
+                [
+                    235.8496856689453,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    239.0996856689453,
+                    566.4417724609375
+                ],
+                [
+                    260.7576904296875,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    304.9992980957031,
+                    566.4417724609375
+                ],
+                [
+                    315.1003112792969,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    318.3503112792969,
+                    566.4417724609375
+                ],
+                [
+                    324.122314453125,
+                    583.9528198242188
+                ]
+            ],
+            [
+                [
+                    327.372314453125,
+                    566.4417724609375
+                ],
+                [
+                    376.4863586425781,
+                    583.9528198242188
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a) <break time='200ms'/> a <break time='200ms'/> valley <break time='200ms'/> b) <break time='200ms'/> a <break time='200ms'/> lake <break time='200ms'/> c) <break time='200ms'/> a <break time='200ms'/> mountain <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 553,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 809,
+                "type": "word",
+                "start": 53,
+                "end": 54,
+                "value": "a"
+            },
+            {
+                "time": 1447,
+                "type": "word",
+                "start": 55,
+                "end": 76,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1703,
+                "type": "word",
+                "start": 77,
+                "end": 83,
+                "value": "valley"
+            },
+            {
+                "time": 2433,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2720,
+                "type": "word",
+                "start": 106,
+                "end": 107,
+                "value": "b"
+            },
+            {
+                "time": 3260,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3647,
+                "type": "word",
+                "start": 131,
+                "end": 132,
+                "value": "a"
+            },
+            {
+                "time": 4065,
+                "type": "word",
+                "start": 133,
+                "end": 154,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4346,
+                "type": "word",
+                "start": 155,
+                "end": 159,
+                "value": "lake"
+            },
+            {
+                "time": 4981,
+                "type": "word",
+                "start": 160,
+                "end": 181,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5281,
+                "type": "word",
+                "start": 182,
+                "end": 183,
+                "value": "c"
+            },
+            {
+                "time": 5911,
+                "type": "word",
+                "start": 185,
+                "end": 206,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6236,
+                "type": "word",
+                "start": 207,
+                "end": 208,
+                "value": "a"
+            },
+            {
+                "time": 6585,
+                "type": "word",
+                "start": 209,
+                "end": 230,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6829,
+                "type": "word",
+                "start": 231,
+                "end": 239,
+                "value": "mountain"
+            },
+            {
+                "time": 7580,
+                "type": "word",
+                "start": 240,
+                "end": 261,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "20": {
+        "text": "d) a farm",
+        "words": [
+            "d)",
+            "a",
+            "farm"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    125.99838256835938,
+                    589.4387817382812
+                ],
+                [
+                    136.82737731933594,
+                    606.9498291015625
+                ]
+            ],
+            [
+                [
+                    140.07737731933594,
+                    589.4387817382812
+                ],
+                [
+                    145.84938049316406,
+                    606.9498291015625
+                ]
+            ],
+            [
+                [
+                    149.09938049316406,
+                    589.4387817382812
+                ],
+                [
+                    173.64337158203125,
+                    606.9498291015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>d) <break time='200ms'/> a <break time='200ms'/> farm <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "d"
+            },
+            {
+                "time": 694,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1019,
+                "type": "word",
+                "start": 53,
+                "end": 54,
+                "value": "a"
+            },
+            {
+                "time": 1445,
+                "type": "word",
+                "start": 55,
+                "end": 76,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1689,
+                "type": "word",
+                "start": 77,
+                "end": 81,
+                "value": "farm"
+            },
+            {
+                "time": 2512,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}
