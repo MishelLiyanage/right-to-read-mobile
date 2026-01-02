@@ -142,7 +142,13 @@ export class DictionaryService {
       return 'grade_6_english_book';
     }
     if (bookTitle.toLowerCase().includes('grade 7') || bookTitle.toLowerCase().includes('grade_7')) {
-      return 'grade_7_english_book_unit_1';
+      if (bookTitle.toLowerCase().includes('unit 2') || bookTitle.toLowerCase().includes('unit_2')) {
+        return 'grade_7_english_book_unit_2';
+      } else if (bookTitle.toLowerCase().includes('unit 3') || bookTitle.toLowerCase().includes('unit_3')) {
+        return 'grade_7_english_book_unit_3';
+      } else {
+        return 'grade_7_english_book_unit_1';
+      }
     }
     
     // Default to grade 3
