@@ -1,0 +1,228 @@
+{
+    "0": {
+        "text": "I water the plants.",
+        "words": [
+            "I",
+            "water",
+            "the",
+            "plants."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    89.63809967041016,
+                    72.38571166992188
+                ],
+                [
+                    97.03810119628906,
+                    96.2057113647461
+                ]
+            ],
+            [
+                [
+                    101.83810424804688,
+                    72.38571166992188
+                ],
+                [
+                    155.53810119628906,
+                    96.2057113647461
+                ]
+            ],
+            [
+                [
+                    160.1381072998047,
+                    72.38571166992188
+                ],
+                [
+                    191.67811584472656,
+                    96.2057113647461
+                ]
+            ],
+            [
+                [
+                    108.75810241699219,
+                    96.38571166992188
+                ],
+                [
+                    173.55812072753906,
+                    120.2057113647461
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I <break time='200ms'/> water <break time='200ms'/> the <break time='200ms'/> plants. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 431,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 52,
+                "end": 57,
+                "value": "water"
+            },
+            {
+                "time": 1705,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1967,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "the"
+            },
+            {
+                "time": 2479,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2716,
+                "type": "word",
+                "start": 106,
+                "end": 112,
+                "value": "plants"
+            },
+            {
+                "time": 3720,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "We do the washing-up.",
+        "words": [
+            "We",
+            "do",
+            "the",
+            "washing-up."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    324.0790100097656,
+                    259.2552795410156
+                ],
+                [
+                    354.6190185546875,
+                    283.0752868652344
+                ]
+            ],
+            [
+                [
+                    359.41900634765625,
+                    259.2552795410156
+                ],
+                [
+                    383.0390319824219,
+                    283.0752868652344
+                ]
+            ],
+            [
+                [
+                    387.8390197753906,
+                    259.2552795410156
+                ],
+                [
+                    419.3790283203125,
+                    283.0752868652344
+                ]
+            ],
+            [
+                [
+                    324.0790100097656,
+                    283.2552795410156
+                ],
+                [
+                    443.6190490722656,
+                    307.0752868652344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>We <break time='200ms'/> do <break time='200ms'/> the <break time='200ms'/> washing-up. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "We"
+            },
+            {
+                "time": 514,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 876,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "do"
+            },
+            {
+                "time": 1544,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1800,
+                "type": "word",
+                "start": 78,
+                "end": 81,
+                "value": "the"
+            },
+            {
+                "time": 2618,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2993,
+                "type": "word",
+                "start": 104,
+                "end": 114,
+                "value": "washing-up"
+            },
+            {
+                "time": 4014,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

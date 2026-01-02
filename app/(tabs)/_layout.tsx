@@ -18,7 +18,7 @@ export default function TabLayout() {
         tabBarButton: HapticTab,
         tabBarBackground: TabBarBackground,
         tabBarStyle: {
-          display: 'none', // Hide the bottom tab bar
+          // display: 'none', // Show the tab bar to access downloads
         },
       }}>
       <Tabs.Screen
@@ -26,6 +26,13 @@ export default function TabLayout() {
         options={{
           title: 'Books',
           tabBarIcon: ({ color }) => <IconSymbol size={24} name="book.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="downloads"
+        options={{
+          title: 'Downloads',
+          tabBarIcon: ({ color }) => <IconSymbol size={24} name="arrow.down.circle.fill" color={color} />,
         }}
       />
       <Tabs.Screen

@@ -22,7 +22,7 @@ export interface SyncResponse {
   recordsProcessed?: number;
 }
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.1.200:8080/api';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.1.9:8080/api';
 const SYNC_ENDPOINT = '/analytics/sync';
 
 /**

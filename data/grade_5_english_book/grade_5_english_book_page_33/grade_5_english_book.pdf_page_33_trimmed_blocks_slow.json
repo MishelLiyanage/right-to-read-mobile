@@ -1,0 +1,1368 @@
+{
+    "0": {
+        "text": "It has three lines on its back. It comes to eat fruit in our garden.",
+        "words": [
+            "It",
+            "has",
+            "three",
+            "lines",
+            "on",
+            "its",
+            "back.",
+            "It",
+            "comes",
+            "to",
+            "eat",
+            "fruit",
+            "in",
+            "our",
+            "garden."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    206.3428955078125,
+                    79.16250610351562
+                ],
+                [
+                    222.8428955078125,
+                    105.364501953125
+                ]
+            ],
+            [
+                [
+                    227.90289306640625,
+                    79.16250610351562
+                ],
+                [
+                    265.368896484375,
+                    105.364501953125
+                ]
+            ],
+            [
+                [
+                    270.6488952636719,
+                    79.16250610351562
+                ],
+                [
+                    324.7469177246094,
+                    105.364501953125
+                ]
+            ],
+            [
+                [
+                    180.77890014648438,
+                    105.56253051757812
+                ],
+                [
+                    227.88088989257812,
+                    131.7645263671875
+                ]
+            ],
+            [
+                [
+                    233.38088989257812,
+                    105.56253051757812
+                ],
+                [
+                    259.62689208984375,
+                    131.7645263671875
+                ]
+            ],
+            [
+                [
+                    265.12689208984375,
+                    105.56253051757812
+                ],
+                [
+                    288.97491455078125,
+                    131.7645263671875
+                ]
+            ],
+            [
+                [
+                    294.47491455078125,
+                    105.56253051757812
+                ],
+                [
+                    351.4109191894531,
+                    131.7645263671875
+                ]
+            ],
+            [
+                [
+                    207.39889526367188,
+                    131.96255493164062
+                ],
+                [
+                    223.89889526367188,
+                    158.16455078125
+                ]
+            ],
+            [
+                [
+                    228.95889282226562,
+                    131.96255493164062
+                ],
+                [
+                    297.9949035644531,
+                    158.16455078125
+                ]
+            ],
+            [
+                [
+                    303.27490234375,
+                    131.96255493164062
+                ],
+                [
+                    323.6908874511719,
+                    158.16455078125
+                ]
+            ],
+            [
+                [
+                    192.5269012451172,
+                    158.36257934570312
+                ],
+                [
+                    226.6269073486328,
+                    184.5645751953125
+                ]
+            ],
+            [
+                [
+                    231.9069061279297,
+                    158.36257934570312
+                ],
+                [
+                    275.180908203125,
+                    184.5645751953125
+                ]
+            ],
+            [
+                [
+                    280.4609069824219,
+                    158.36257934570312
+                ],
+                [
+                    299.6889343261719,
+                    184.5645751953125
+                ]
+            ],
+            [
+                [
+                    305.1889343261719,
+                    158.36257934570312
+                ],
+                [
+                    338.804931640625,
+                    184.5645751953125
+                ]
+            ],
+            [
+                [
+                    225.9449005126953,
+                    184.7625732421875
+                ],
+                [
+                    306.24493408203125,
+                    210.96456909179688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> three <break time='200ms'/> lines <break time='200ms'/> on <break time='200ms'/> its <break time='200ms'/> back. <break time='200ms'/> It <break time='200ms'/> comes <break time='200ms'/> to <break time='200ms'/> eat <break time='200ms'/> fruit <break time='200ms'/> in <break time='200ms'/> our <break time='200ms'/> garden. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 431,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1432,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1682,
+                "type": "word",
+                "start": 79,
+                "end": 84,
+                "value": "three"
+            },
+            {
+                "time": 2304,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2529,
+                "type": "word",
+                "start": 107,
+                "end": 112,
+                "value": "lines"
+            },
+            {
+                "time": 3319,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3575,
+                "type": "word",
+                "start": 135,
+                "end": 137,
+                "value": "on"
+            },
+            {
+                "time": 4114,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4364,
+                "type": "word",
+                "start": 160,
+                "end": 163,
+                "value": "its"
+            },
+            {
+                "time": 4767,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5048,
+                "type": "word",
+                "start": 186,
+                "end": 190,
+                "value": "back"
+            },
+            {
+                "time": 5608,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6388,
+                "type": "word",
+                "start": 214,
+                "end": 216,
+                "value": "It"
+            },
+            {
+                "time": 6620,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6913,
+                "type": "word",
+                "start": 239,
+                "end": 244,
+                "value": "comes"
+            },
+            {
+                "time": 7594,
+                "type": "word",
+                "start": 245,
+                "end": 266,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7863,
+                "type": "word",
+                "start": 267,
+                "end": 269,
+                "value": "to"
+            },
+            {
+                "time": 8359,
+                "type": "word",
+                "start": 270,
+                "end": 291,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8628,
+                "type": "word",
+                "start": 292,
+                "end": 295,
+                "value": "eat"
+            },
+            {
+                "time": 9122,
+                "type": "word",
+                "start": 296,
+                "end": 317,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9404,
+                "type": "word",
+                "start": 318,
+                "end": 323,
+                "value": "fruit"
+            },
+            {
+                "time": 9992,
+                "type": "word",
+                "start": 324,
+                "end": 345,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10261,
+                "type": "word",
+                "start": 346,
+                "end": 348,
+                "value": "in"
+            },
+            {
+                "time": 10751,
+                "type": "word",
+                "start": 349,
+                "end": 370,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10982,
+                "type": "word",
+                "start": 371,
+                "end": 374,
+                "value": "our"
+            },
+            {
+                "time": 11589,
+                "type": "word",
+                "start": 375,
+                "end": 396,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11845,
+                "type": "word",
+                "start": 397,
+                "end": 403,
+                "value": "garden"
+            },
+            {
+                "time": 12469,
+                "type": "word",
+                "start": 405,
+                "end": 426,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "bee",
+        "words": [
+            "bee"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    388.18231201171875,
+                    131.36196899414062
+                ],
+                [
+                    426.5063171386719,
+                    157.56396484375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>bee <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "bee"
+            },
+            {
+                "time": 658,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "It is an insect. It is small and green. It has two antennae.",
+        "words": [
+            "It",
+            "is",
+            "an",
+            "insect.",
+            "It",
+            "is",
+            "small",
+            "and",
+            "green.",
+            "It",
+            "has",
+            "two",
+            "antennae."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    200.26849365234375,
+                    258.8291015625
+                ],
+                [
+                    216.76849365234375,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    222.04849243164062,
+                    258.8291015625
+                ],
+                [
+                    237.42648315429688,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    242.92648315429688,
+                    258.8291015625
+                ],
+                [
+                    270.1625061035156,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    275.6625061035156,
+                    258.8291015625
+                ],
+                [
+                    343.9285583496094,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    348.32855224609375,
+                    258.8291015625
+                ],
+                [
+                    364.82855224609375,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    370.1085510253906,
+                    258.8291015625
+                ],
+                [
+                    385.486572265625,
+                    285.0310974121094
+                ]
+            ],
+            [
+                [
+                    195.36248779296875,
+                    285.2290954589844
+                ],
+                [
+                    252.0784912109375,
+                    311.43109130859375
+                ]
+            ],
+            [
+                [
+                    257.5784912109375,
+                    285.2290954589844
+                ],
+                [
+                    298.1905212402344,
+                    311.43109130859375
+                ]
+            ],
+            [
+                [
+                    303.6905212402344,
+                    285.2290954589844
+                ],
+                [
+                    369.7125244140625,
+                    311.43109130859375
+                ]
+            ],
+            [
+                [
+                    374.1125183105469,
+                    285.2290954589844
+                ],
+                [
+                    390.612548828125,
+                    311.43109130859375
+                ]
+            ],
+            [
+                [
+                    195.75848388671875,
+                    311.62908935546875
+                ],
+                [
+                    233.00448608398438,
+                    337.8310852050781
+                ]
+            ],
+            [
+                [
+                    238.28448486328125,
+                    311.62908935546875
+                ],
+                [
+                    277.510498046875,
+                    337.8310852050781
+                ]
+            ],
+            [
+                [
+                    283.010498046875,
+                    311.62908935546875
+                ],
+                [
+                    391.1185607910156,
+                    337.8310852050781
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> is <break time='200ms'/> an <break time='200ms'/> insect. <break time='200ms'/> It <break time='200ms'/> is <break time='200ms'/> small <break time='200ms'/> and <break time='200ms'/> green. <break time='200ms'/> It <break time='200ms'/> has <break time='200ms'/> two <break time='200ms'/> antennae. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 534,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 809,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "is"
+            },
+            {
+                "time": 1331,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1593,
+                "type": "word",
+                "start": 78,
+                "end": 80,
+                "value": "an"
+            },
+            {
+                "time": 2044,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2313,
+                "type": "word",
+                "start": 103,
+                "end": 109,
+                "value": "insect"
+            },
+            {
+                "time": 3044,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3824,
+                "type": "word",
+                "start": 133,
+                "end": 135,
+                "value": "It"
+            },
+            {
+                "time": 4163,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4488,
+                "type": "word",
+                "start": 158,
+                "end": 160,
+                "value": "is"
+            },
+            {
+                "time": 4848,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5148,
+                "type": "word",
+                "start": 183,
+                "end": 188,
+                "value": "small"
+            },
+            {
+                "time": 5768,
+                "type": "word",
+                "start": 189,
+                "end": 210,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6036,
+                "type": "word",
+                "start": 211,
+                "end": 214,
+                "value": "and"
+            },
+            {
+                "time": 6591,
+                "type": "word",
+                "start": 215,
+                "end": 236,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6841,
+                "type": "word",
+                "start": 237,
+                "end": 242,
+                "value": "green"
+            },
+            {
+                "time": 7551,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8331,
+                "type": "word",
+                "start": 266,
+                "end": 268,
+                "value": "It"
+            },
+            {
+                "time": 8563,
+                "type": "word",
+                "start": 269,
+                "end": 290,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8856,
+                "type": "word",
+                "start": 291,
+                "end": 294,
+                "value": "has"
+            },
+            {
+                "time": 9537,
+                "type": "word",
+                "start": 295,
+                "end": 316,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9806,
+                "type": "word",
+                "start": 317,
+                "end": 320,
+                "value": "two"
+            },
+            {
+                "time": 10302,
+                "type": "word",
+                "start": 321,
+                "end": 342,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10571,
+                "type": "word",
+                "start": 343,
+                "end": 351,
+                "value": "antennae"
+            },
+            {
+                "time": 11364,
+                "type": "word",
+                "start": 353,
+                "end": 374,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "squirrel",
+        "words": [
+            "squirrel"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    409.247314453125,
+                    279.3493957519531
+                ],
+                [
+                    484.0253601074219,
+                    305.5513916015625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>squirrel <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "squirrel"
+            },
+            {
+                "time": 913,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "It collects nectar from flowers. It lives in a hive.",
+        "words": [
+            "It",
+            "collects",
+            "nectar",
+            "from",
+            "flowers.",
+            "It",
+            "lives",
+            "in",
+            "a",
+            "hive."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    185.60690307617188,
+                    369.82940673828125
+                ],
+                [
+                    202.10690307617188,
+                    396.0314025878906
+                ]
+            ],
+            [
+                [
+                    207.38690185546875,
+                    369.82940673828125
+                ],
+                [
+                    284.18890380859375,
+                    396.0314025878906
+                ]
+            ],
+            [
+                [
+                    289.68890380859375,
+                    369.82940673828125
+                ],
+                [
+                    356.0849609375,
+                    396.0314025878906
+                ]
+            ],
+            [
+                [
+                    192.0529022216797,
+                    396.2294006347656
+                ],
+                [
+                    242.3448944091797,
+                    422.431396484375
+                ]
+            ],
+            [
+                [
+                    247.8448944091797,
+                    396.2294006347656
+                ],
+                [
+                    328.73895263671875,
+                    422.431396484375
+                ]
+            ],
+            [
+                [
+                    333.1389465332031,
+                    396.2294006347656
+                ],
+                [
+                    349.63897705078125,
+                    422.431396484375
+                ]
+            ],
+            [
+                [
+                    199.6208953857422,
+                    422.62939453125
+                ],
+                [
+                    244.06088256835938,
+                    448.8313903808594
+                ]
+            ],
+            [
+                [
+                    249.56088256835938,
+                    422.62939453125
+                ],
+                [
+                    268.78887939453125,
+                    448.8313903808594
+                ]
+            ],
+            [
+                [
+                    274.28887939453125,
+                    422.62939453125
+                ],
+                [
+                    287.6648864746094,
+                    448.8313903808594
+                ]
+            ],
+            [
+                [
+                    293.1648864746094,
+                    422.62939453125
+                ],
+                [
+                    342.9729309082031,
+                    448.8313903808594
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> collects <break time='200ms'/> nectar <break time='200ms'/> from <break time='200ms'/> flowers. <break time='200ms'/> It <break time='200ms'/> lives <break time='200ms'/> in <break time='200ms'/> a <break time='200ms'/> hive. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 431,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 53,
+                "end": 61,
+                "value": "collects"
+            },
+            {
+                "time": 1502,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1714,
+                "type": "word",
+                "start": 84,
+                "end": 90,
+                "value": "nectar"
+            },
+            {
+                "time": 2529,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2779,
+                "type": "word",
+                "start": 113,
+                "end": 117,
+                "value": "from"
+            },
+            {
+                "time": 3343,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3618,
+                "type": "word",
+                "start": 140,
+                "end": 147,
+                "value": "flowers"
+            },
+            {
+                "time": 4456,
+                "type": "word",
+                "start": 149,
+                "end": 170,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5236,
+                "type": "word",
+                "start": 171,
+                "end": 173,
+                "value": "It"
+            },
+            {
+                "time": 5468,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5762,
+                "type": "word",
+                "start": 196,
+                "end": 201,
+                "value": "lives"
+            },
+            {
+                "time": 6543,
+                "type": "word",
+                "start": 202,
+                "end": 223,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6837,
+                "type": "word",
+                "start": 224,
+                "end": 226,
+                "value": "in"
+            },
+            {
+                "time": 7203,
+                "type": "word",
+                "start": 227,
+                "end": 248,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7478,
+                "type": "word",
+                "start": 249,
+                "end": 250,
+                "value": "a"
+            },
+            {
+                "time": 7963,
+                "type": "word",
+                "start": 251,
+                "end": 272,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8250,
+                "type": "word",
+                "start": 273,
+                "end": 277,
+                "value": "hive"
+            },
+            {
+                "time": 9012,
+                "type": "word",
+                "start": 279,
+                "end": 300,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "snail",
+        "words": [
+            "snail"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    397.6473083496094,
+                    393.82940673828125
+                ],
+                [
+                    445.6513671875,
+                    420.0314025878906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>snail <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "snail"
+            },
+            {
+                "time": 836,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "It has no legs. It lives in the soil. frog",
+        "words": [
+            "It",
+            "has",
+            "no",
+            "legs.",
+            "It",
+            "lives",
+            "in",
+            "the",
+            "soil.",
+            "frog"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    187.59019470214844,
+                    499.2090759277344
+                ],
+                [
+                    204.09019470214844,
+                    525.4110717773438
+                ]
+            ],
+            [
+                [
+                    209.3701934814453,
+                    499.2090759277344
+                ],
+                [
+                    246.61619567871094,
+                    525.4110717773438
+                ]
+            ],
+            [
+                [
+                    252.11619567871094,
+                    499.2090759277344
+                ],
+                [
+                    278.3621826171875,
+                    525.4110717773438
+                ]
+            ],
+            [
+                [
+                    283.8621826171875,
+                    499.2090759277344
+                ],
+                [
+                    332.02020263671875,
+                    525.4110717773438
+                ]
+            ],
+            [
+                [
+                    336.4201965332031,
+                    499.2090759277344
+                ],
+                [
+                    352.92022705078125,
+                    525.4110717773438
+                ]
+            ],
+            [
+                [
+                    193.35418701171875,
+                    525.6090698242188
+                ],
+                [
+                    237.79417419433594,
+                    551.8110961914062
+                ]
+            ],
+            [
+                [
+                    243.29417419433594,
+                    525.6090698242188
+                ],
+                [
+                    262.5221862792969,
+                    551.8110961914062
+                ]
+            ],
+            [
+                [
+                    267.80218505859375,
+                    525.6090698242188
+                ],
+                [
+                    302.4961853027344,
+                    551.8110961914062
+                ]
+            ],
+            [
+                [
+                    307.9961853027344,
+                    525.6090698242188
+                ],
+                [
+                    348.0581970214844,
+                    551.8110961914062
+                ]
+            ],
+            [
+                [
+                    399.5887145996094,
+                    524.1493530273438
+                ],
+                [
+                    440.70672607421875,
+                    550.3513793945312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>It <break time='200ms'/> has <break time='200ms'/> no <break time='200ms'/> legs. <break time='200ms'/> It <break time='200ms'/> lives <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> soil. <break time='200ms'/> frog <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "It"
+            },
+            {
+                "time": 431,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 725,
+                "type": "word",
+                "start": 53,
+                "end": 56,
+                "value": "has"
+            },
+            {
+                "time": 1432,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1682,
+                "type": "word",
+                "start": 79,
+                "end": 81,
+                "value": "no"
+            },
+            {
+                "time": 2161,
+                "type": "word",
+                "start": 82,
+                "end": 103,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2442,
+                "type": "word",
+                "start": 104,
+                "end": 108,
+                "value": "legs"
+            },
+            {
+                "time": 3168,
+                "type": "word",
+                "start": 110,
+                "end": 131,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3948,
+                "type": "word",
+                "start": 132,
+                "end": 134,
+                "value": "It"
+            },
+            {
+                "time": 4179,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4473,
+                "type": "word",
+                "start": 157,
+                "end": 162,
+                "value": "lives"
+            },
+            {
+                "time": 5205,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5449,
+                "type": "word",
+                "start": 185,
+                "end": 187,
+                "value": "in"
+            },
+            {
+                "time": 5930,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6199,
+                "type": "word",
+                "start": 210,
+                "end": 213,
+                "value": "the"
+            },
+            {
+                "time": 6675,
+                "type": "word",
+                "start": 214,
+                "end": 235,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6969,
+                "type": "word",
+                "start": 236,
+                "end": 240,
+                "value": "soil"
+            },
+            {
+                "time": 7578,
+                "type": "word",
+                "start": 242,
+                "end": 263,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8345,
+                "type": "word",
+                "start": 264,
+                "end": 268,
+                "value": "frog"
+            },
+            {
+                "time": 9025,
+                "type": "word",
+                "start": 269,
+                "end": 290,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}
