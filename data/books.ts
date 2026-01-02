@@ -579,6 +579,33 @@ const grade7Unit3PageImages = {
   16: require('@/data/grade_7_english_book_unit_3/grade_7_english_book_unit_3_page_16/grade_7_english_book_unit_3.pdf_page_16.png'),
 };
 
+// Static imports for Grade 7 English Book Unit 4 pages (pages 0-8)
+const grade7Unit4PageImages = {
+  0: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_0/grade_7_english_book_unit_4.pdf_page_0.png'),
+  1: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_1/grade_7_english_book_unit_4.pdf_page_1.png'),
+  2: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_2/grade_7_english_book_unit_4.pdf_page_2.png'),
+  3: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_3/grade_7_english_book_unit_4.pdf_page_3.png'),
+  4: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_4/grade_7_english_book_unit_4.pdf_page_4.png'),
+  5: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_5/grade_7_english_book_unit_4.pdf_page_5.png'),
+  6: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_6/grade_7_english_book_unit_4.pdf_page_6.png'),
+  7: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_7/grade_7_english_book_unit_4.pdf_page_7.png'),
+  8: require('@/data/grade_7_english_book_unit_4/grade_7_english_book_unit_4_page_8/grade_7_english_book_unit_4.pdf_page_8.png'),
+};
+
+// Static imports for Grade 7 English Book Unit 5 pages (pages 0-9)
+const grade7Unit5PageImages = {
+  0: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_0/grade_7_english_book_unit_5.pdf_page_0.png'),
+  1: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_1/grade_7_english_book_unit_5.pdf_page_1.png'),
+  2: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_2/grade_7_english_book_unit_5.pdf_page_2.png'),
+  3: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_3/grade_7_english_book_unit_5.pdf_page_3.png'),
+  4: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_4/grade_7_english_book_unit_5.pdf_page_4.png'),
+  5: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_5/grade_7_english_book_unit_5.pdf_page_5.png'),
+  6: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_6/grade_7_english_book_unit_5.pdf_page_6.png'),
+  7: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_7/grade_7_english_book_unit_5.pdf_page_7.png'),
+  8: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_8/grade_7_english_book_unit_5.pdf_page_8.png'),
+  9: require('@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_9/grade_7_english_book_unit_5.pdf_page_9.png'),
+};
+
 // Generate pages for Grade 5 English Book using static imports with dynamic blocks
 const generateGrade5Pages = () => {
   const availablePages = Object.keys(grade5PageImages).map(Number).sort((a, b) => a - b);
@@ -626,6 +653,26 @@ const generateGrade7Unit3Pages = () => {
     pageNumber,
     image: grade7Unit3PageImages[pageNumber as keyof typeof grade7Unit3PageImages],
     blocks: generateBlocksForPage(pageNumber, 'Grade 7 English Book Unit 3')
+  }));
+};
+
+// Generate pages for Grade 7 English Book Unit 4 using static imports with dynamic blocks
+const generateGrade7Unit4Pages = () => {
+  const availablePages = Object.keys(grade7Unit4PageImages).map(Number).sort((a, b) => a - b);
+  return availablePages.map(pageNumber => ({
+    pageNumber,
+    image: grade7Unit4PageImages[pageNumber as keyof typeof grade7Unit4PageImages],
+    blocks: generateBlocksForPage(pageNumber, 'Grade 7 English Book Unit 4')
+  }));
+};
+
+// Generate pages for Grade 7 English Book Unit 5 using static imports with dynamic blocks
+const generateGrade7Unit5Pages = () => {
+  const availablePages = Object.keys(grade7Unit5PageImages).map(Number).sort((a, b) => a - b);
+  return availablePages.map(pageNumber => ({
+    pageNumber,
+    image: grade7Unit5PageImages[pageNumber as keyof typeof grade7Unit5PageImages],
+    blocks: generateBlocksForPage(pageNumber, 'Grade 7 English Book Unit 5')
   }));
 };
 
@@ -1015,6 +1062,38 @@ export const getAllBooks = (): Book[] => {
         }
       ],
       pages: generateGrade7Unit3Pages()
+    },
+    {
+      id: 8,
+      title: 'Grade 7 English Book Unit 4',
+      author: 'Ministry of Education',
+      backgroundColor: '#3498DB',
+      hasData: true,
+      tableOfContents: [
+        {
+          id: 'unit-4',
+          title: 'Unit 4',
+          pageNumber: 0,
+          navigationPageNumber: 0
+        }
+      ],
+      pages: generateGrade7Unit4Pages()
+    },
+    {
+      id: 9,
+      title: 'Grade 7 English Book Unit 5',
+      author: 'Ministry of Education',
+      backgroundColor: '#E74C3C',
+      hasData: true,
+      tableOfContents: [
+        {
+          id: 'unit-5',
+          title: 'Unit 5',
+          pageNumber: 0,
+          navigationPageNumber: 0
+        }
+      ],
+      pages: generateGrade7Unit5Pages()
     },
   ];
 };

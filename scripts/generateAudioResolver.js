@@ -32,6 +32,8 @@ const grade6Pages = getPageNumbers('grade_6_english_book');
 const grade7Pages = getPageNumbers('grade_7_english_book_unit_1');
 const grade7Unit2Pages = getPageNumbers('grade_7_english_book_unit_2');
 const grade7Unit3Pages = getPageNumbers('grade_7_english_book_unit_3');
+const grade7Unit4Pages = getPageNumbers('grade_7_english_book_unit_4');
+const grade7Unit5Pages = getPageNumbers('grade_7_english_book_unit_5');
 
 console.log('Found Demo pages:', demoPages.length);
 console.log('Found Grade 3 pages:', grade3Pages.length);
@@ -41,6 +43,8 @@ console.log('Found Grade 6 pages:', grade6Pages.length);
 console.log('Found Grade 7 Unit 1 pages:', grade7Pages.length);
 console.log('Found Grade 7 Unit 2 pages:', grade7Unit2Pages.length);
 console.log('Found Grade 7 Unit 3 pages:', grade7Unit3Pages.length);
+console.log('Found Grade 7 Unit 4 pages:', grade7Unit4Pages.length);
+console.log('Found Grade 7 Unit 5 pages:', grade7Unit5Pages.length);
 
 // Generate the audio resolver content
 let content = `// Auto-generated AudioResolver service
@@ -103,6 +107,8 @@ addAudioImports('grade_6_english_book', grade6Pages, 'g6_');
 addAudioImports('grade_7_english_book_unit_1', grade7Pages, 'g7_');
 addAudioImports('grade_7_english_book_unit_2', grade7Unit2Pages, 'g7u2_');
 addAudioImports('grade_7_english_book_unit_3', grade7Unit3Pages, 'g7u3_');
+addAudioImports('grade_7_english_book_unit_4', grade7Unit4Pages, 'g7u4_');
+addAudioImports('grade_7_english_book_unit_5', grade7Unit5Pages, 'g7u5_');
 
 // Add SLOW audio imports
 content += `// Slow audio files for all grades\n`;
@@ -113,6 +119,8 @@ addSlowAudioImports('grade_6_english_book', grade6Pages, 'g6_');
 addSlowAudioImports('grade_7_english_book_unit_1', grade7Pages, 'g7_');
 addSlowAudioImports('grade_7_english_book_unit_2', grade7Unit2Pages, 'g7u2_');
 addSlowAudioImports('grade_7_english_book_unit_3', grade7Unit3Pages, 'g7u3_');
+addSlowAudioImports('grade_7_english_book_unit_4', grade7Unit4Pages, 'g7u4_');
+addSlowAudioImports('grade_7_english_book_unit_5', grade7Unit5Pages, 'g7u5_');
 
 // Create audio mappings objects for both books
 content += `// Audio mappings by book and page\n`;
@@ -208,6 +216,16 @@ content += `const grade7Unit3AudioMappings: { [pageNumber: string]: { [blockId: 
 addAudioMappings('grade_7_english_book_unit_3', grade7Unit3Pages, 'g7u3_');
 content += `};\n\n`;
 
+// Add Grade 7 Unit 4 mappings
+content += `const grade7Unit4AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addAudioMappings('grade_7_english_book_unit_4', grade7Unit4Pages, 'g7u4_');
+content += `};\n\n`;
+
+// Add Grade 7 Unit 5 mappings
+content += `const grade7Unit5AudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addAudioMappings('grade_7_english_book_unit_5', grade7Unit5Pages, 'g7u5_');
+content += `};\n\n`;
+
 // Add Demo SLOW mappings
 content += `const demoSlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
 addSlowAudioMappings('demo_book', demoPages, 'demo_');
@@ -243,6 +261,16 @@ content += `const grade7Unit3SlowAudioMappings: { [pageNumber: string]: { [block
 addSlowAudioMappings('grade_7_english_book_unit_3', grade7Unit3Pages, 'g7u3_');
 content += `};\n\n`;
 
+// Add Grade 7 Unit 4 SLOW mappings
+content += `const grade7Unit4SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addSlowAudioMappings('grade_7_english_book_unit_4', grade7Unit4Pages, 'g7u4_');
+content += `};\n\n`;
+
+// Add Grade 7 Unit 5 SLOW mappings
+content += `const grade7Unit5SlowAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {\n`;
+addSlowAudioMappings('grade_7_english_book_unit_5', grade7Unit5Pages, 'g7u5_');
+content += `};\n\n`;
+
 // Add the book-aware service class
 content += `export class AudioResolver {
   static resolveAudio(pageNumber: number, blockId: string, bookTitle?: string, isSlowMode?: boolean): any | null {
@@ -263,6 +291,10 @@ content += `export class AudioResolver {
           slowMappings = grade7Unit2SlowAudioMappings;
         } else if (bookTitle.toLowerCase().includes('unit 3') || bookTitle.toLowerCase().includes('unit_3')) {
           slowMappings = grade7Unit3SlowAudioMappings;
+        } else if (bookTitle.toLowerCase().includes('unit 4') || bookTitle.toLowerCase().includes('unit_4')) {
+          slowMappings = grade7Unit4SlowAudioMappings;
+        } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
+          slowMappings = grade7Unit5SlowAudioMappings;
         } else {
           slowMappings = grade7SlowAudioMappings;
         }
@@ -293,6 +325,10 @@ content += `export class AudioResolver {
         audioMappings = grade7Unit2AudioMappings;
       } else if (bookTitle.toLowerCase().includes('unit 3') || bookTitle.toLowerCase().includes('unit_3')) {
         audioMappings = grade7Unit3AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 4') || bookTitle.toLowerCase().includes('unit_4')) {
+        audioMappings = grade7Unit4AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
+        audioMappings = grade7Unit5AudioMappings;
       } else {
         audioMappings = grade7AudioMappings;
       }
@@ -329,6 +365,10 @@ content += `export class AudioResolver {
         audioMappings = grade7Unit2AudioMappings;
       } else if (bookTitle.toLowerCase().includes('unit 3') || bookTitle.toLowerCase().includes('unit_3')) {
         audioMappings = grade7Unit3AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 4') || bookTitle.toLowerCase().includes('unit_4')) {
+        audioMappings = grade7Unit4AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
+        audioMappings = grade7Unit5AudioMappings;
       } else {
         audioMappings = grade7AudioMappings;
       }
@@ -355,6 +395,10 @@ content += `export class AudioResolver {
         audioMappings = grade7Unit2AudioMappings;
       } else if (bookTitle.toLowerCase().includes('unit 3') || bookTitle.toLowerCase().includes('unit_3')) {
         audioMappings = grade7Unit3AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 4') || bookTitle.toLowerCase().includes('unit_4')) {
+        audioMappings = grade7Unit4AudioMappings;
+      } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
+        audioMappings = grade7Unit5AudioMappings;
       } else {
         audioMappings = grade7AudioMappings;
       }
