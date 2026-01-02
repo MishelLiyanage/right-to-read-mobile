@@ -141,6 +141,9 @@ export class DictionaryService {
     if (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6')) {
       return 'grade_6_english_book';
     }
+    if (bookTitle.toLowerCase().includes('grade 7') || bookTitle.toLowerCase().includes('grade_7')) {
+      return 'grade_7_english_book_unit_1';
+    }
     
     // Default to grade 3
     return 'grade_3_english_book';

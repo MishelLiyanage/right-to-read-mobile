@@ -526,6 +526,23 @@ const grade6PageImages = {
   135: require('@/data/grade_6_english_book/grade_6_english_book_page_135/grade_6_english_book.pdf_page_135.png'),
 };
 
+// Static imports for Grade 7 English Book Unit 1 pages (pages 0-12)
+const grade7PageImages = {
+  0: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_0/grade_7_english_book_unit_1.pdf_page_0.png'),
+  1: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_1/grade_7_english_book_unit_1.pdf_page_1.png'),
+  2: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_2/grade_7_english_book_unit_1.pdf_page_2.png'),
+  3: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_3/grade_7_english_book_unit_1.pdf_page_3.png'),
+  4: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_4/grade_7_english_book_unit_1.pdf_page_4.png'),
+  5: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_5/grade_7_english_book_unit_1.pdf_page_5.png'),
+  6: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_6/grade_7_english_book_unit_1.pdf_page_6.png'),
+  7: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_7/grade_7_english_book_unit_1.pdf_page_7.png'),
+  8: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_8/grade_7_english_book_unit_1.pdf_page_8.png'),
+  9: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_9/grade_7_english_book_unit_1.pdf_page_9.png'),
+  10: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_10/grade_7_english_book_unit_1.pdf_page_10.png'),
+  11: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_11/grade_7_english_book_unit_1.pdf_page_11.png'),
+  12: require('@/data/grade_7_english_book_unit_1/grade_7_english_book_unit_1_page_12/grade_7_english_book_unit_1.pdf_page_12.png'),
+};
+
 // Generate pages for Grade 5 English Book using static imports with dynamic blocks
 const generateGrade5Pages = () => {
   const availablePages = Object.keys(grade5PageImages).map(Number).sort((a, b) => a - b);
@@ -543,6 +560,16 @@ const generateGrade6Pages = () => {
     pageNumber,
     image: grade6PageImages[pageNumber as keyof typeof grade6PageImages],
     blocks: generateBlocksForPage(pageNumber, 'Grade 6 English Book')
+  }));
+};
+
+// Generate pages for Grade 7 English Book Unit 1 using static imports with dynamic blocks
+const generateGrade7Pages = () => {
+  const availablePages = Object.keys(grade7PageImages).map(Number).sort((a, b) => a - b);
+  return availablePages.map(pageNumber => ({
+    pageNumber,
+    image: grade7PageImages[pageNumber as keyof typeof grade7PageImages],
+    blocks: generateBlocksForPage(pageNumber, 'Grade 7 English Book Unit 1')
   }));
 };
 
@@ -884,6 +911,22 @@ export const getAllBooks = (): Book[] => {
         }
       ],
       pages: generateGrade6Pages()
+    },
+    {
+      id: 5,
+      title: 'Grade 7 English Book Unit 1',
+      author: 'Ministry of Education',
+      backgroundColor: '#50C878',
+      hasData: true,
+      tableOfContents: [
+        {
+          id: 'unit-1',
+          title: 'Unit 1',
+          pageNumber: 0,
+          navigationPageNumber: 0
+        }
+      ],
+      pages: generateGrade7Pages()
     },
   ];
 };
