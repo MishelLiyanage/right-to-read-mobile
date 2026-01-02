@@ -1,0 +1,509 @@
+{
+    "0": {
+        "text": "Activity 12",
+        "words": [
+            "Activity",
+            "12"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    228.33799743652344,
+                    55.94679641723633
+                ],
+                [
+                    277.3687744140625,
+                    74.7907943725586
+                ]
+            ],
+            [
+                [
+                    280.4487609863281,
+                    55.94679641723633
+                ],
+                [
+                    297.0247497558594,
+                    74.7907943725586
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Activity <break time='200ms'/> 12 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Activity"
+            },
+            {
+                "time": 966,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1260,
+                "type": "word",
+                "start": 59,
+                "end": 61,
+                "value": "12"
+            },
+            {
+                "time": 1988,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Describe the following picture of a village fair.",
+        "words": [
+            "Describe",
+            "the",
+            "following",
+            "picture",
+            "of",
+            "a",
+            "village",
+            "fair."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    94.0000228881836
+                ],
+                [
+                    118.20201110839844,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    121.45201110839844,
+                    94.0000228881836
+                ],
+                [
+                    137.3380126953125,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    140.5880126953125,
+                    94.0000228881836
+                ],
+                [
+                    191.14500427246094,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    194.39500427246094,
+                    94.0000228881836
+                ],
+                [
+                    230.49600219726562,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    233.74600219726562,
+                    94.0000228881836
+                ],
+                [
+                    244.5749969482422,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    247.8249969482422,
+                    94.0000228881836
+                ],
+                [
+                    253.5970001220703,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    256.84698486328125,
+                    94.0000228881836
+                ],
+                [
+                    292.2330322265625,
+                    111.51101684570312
+                ]
+            ],
+            [
+                [
+                    295.4830322265625,
+                    94.0000228881836
+                ],
+                [
+                    316.0230712890625,
+                    111.51101684570312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Describe <break time='200ms'/> the <break time='200ms'/> following <break time='200ms'/> picture <break time='200ms'/> of <break time='200ms'/> a <break time='200ms'/> village <break time='200ms'/> fair. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Describe"
+            },
+            {
+                "time": 980,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1274,
+                "type": "word",
+                "start": 59,
+                "end": 62,
+                "value": "the"
+            },
+            {
+                "time": 1646,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1959,
+                "type": "word",
+                "start": 85,
+                "end": 94,
+                "value": "following"
+            },
+            {
+                "time": 2722,
+                "type": "word",
+                "start": 95,
+                "end": 116,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2997,
+                "type": "word",
+                "start": 117,
+                "end": 124,
+                "value": "picture"
+            },
+            {
+                "time": 3618,
+                "type": "word",
+                "start": 125,
+                "end": 146,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3981,
+                "type": "word",
+                "start": 147,
+                "end": 149,
+                "value": "of"
+            },
+            {
+                "time": 4494,
+                "type": "word",
+                "start": 150,
+                "end": 171,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4794,
+                "type": "word",
+                "start": 172,
+                "end": 173,
+                "value": "a"
+            },
+            {
+                "time": 5181,
+                "type": "word",
+                "start": 174,
+                "end": 195,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5462,
+                "type": "word",
+                "start": 196,
+                "end": 203,
+                "value": "village"
+            },
+            {
+                "time": 6145,
+                "type": "word",
+                "start": 204,
+                "end": 225,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6401,
+                "type": "word",
+                "start": 226,
+                "end": 230,
+                "value": "fair"
+            },
+            {
+                "time": 6989,
+                "type": "word",
+                "start": 232,
+                "end": 253,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "e.g. :- One kilo of rice is Rs. 65.00.",
+        "words": [
+            "e.g.",
+            ":-",
+            "One",
+            "kilo",
+            "of",
+            "rice",
+            "is",
+            "Rs.",
+            "65.00."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    463.18402099609375
+                ],
+                [
+                    90.77200317382812,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    94.02200317382812,
+                    463.18402099609375
+                ],
+                [
+                    102.68000793457031,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    109.18000793457031,
+                    463.08001708984375
+                ],
+                [
+                    130.8380126953125,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    134.0880126953125,
+                    463.08001708984375
+                ],
+                [
+                    154.31600952148438,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    157.56600952148438,
+                    463.08001708984375
+                ],
+                [
+                    168.39500427246094,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    171.64500427246094,
+                    463.08001708984375
+                ],
+                [
+                    191.1320037841797,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    194.3820037841797,
+                    463.08001708984375
+                ],
+                [
+                    203.05300903320312,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    206.30300903320312,
+                    463.08001708984375
+                ],
+                [
+                    223.28102111816406,
+                    480.59100341796875
+                ]
+            ],
+            [
+                [
+                    226.53102111816406,
+                    463.08001708984375
+                ],
+                [
+                    259.031005859375,
+                    480.59100341796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>e.g. <break time='200ms'/> :- <break time='200ms'/> One <break time='200ms'/> kilo <break time='200ms'/> of <break time='200ms'/> rice <break time='200ms'/> is <break time='200ms'/> Rs. <break time='200ms'/> 65.00. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "e.g."
+            },
+            {
+                "time": 1277,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1477,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1727,
+                "type": "word",
+                "start": 80,
+                "end": 83,
+                "value": "One"
+            },
+            {
+                "time": 2224,
+                "type": "word",
+                "start": 84,
+                "end": 105,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2493,
+                "type": "word",
+                "start": 106,
+                "end": 110,
+                "value": "kilo"
+            },
+            {
+                "time": 3188,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3457,
+                "type": "word",
+                "start": 133,
+                "end": 135,
+                "value": "of"
+            },
+            {
+                "time": 4030,
+                "type": "word",
+                "start": 136,
+                "end": 157,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4299,
+                "type": "word",
+                "start": 158,
+                "end": 162,
+                "value": "rice"
+            },
+            {
+                "time": 4989,
+                "type": "word",
+                "start": 163,
+                "end": 184,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5283,
+                "type": "word",
+                "start": 185,
+                "end": 187,
+                "value": "is"
+            },
+            {
+                "time": 5639,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5921,
+                "type": "word",
+                "start": 210,
+                "end": 212,
+                "value": "Rs"
+            },
+            {
+                "time": 6530,
+                "type": "word",
+                "start": 214,
+                "end": 235,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7310,
+                "type": "word",
+                "start": 236,
+                "end": 241,
+                "value": "65.00"
+            },
+            {
+                "time": 9631,
+                "type": "word",
+                "start": 243,
+                "end": 264,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

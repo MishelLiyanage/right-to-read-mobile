@@ -104,6 +104,9 @@ export class DictionaryService {
         case 'grade_4_english_book':
           dictionary = require('@/data/grade_4_english_book/grade_4_english_book_dictionary.json');
           break;
+        case 'grade_5_english_book':
+          dictionary = require('@/data/grade_5_english_book/grade_5_english_book_dictionary.json');
+          break;
         default:
           dictionary = require('@/data/grade_3_english_book/grade_3_english_book_dictionary.json');
           break;
@@ -131,6 +134,15 @@ export class DictionaryService {
     }
     if (bookTitle.toLowerCase().includes('grade 4') || bookTitle.toLowerCase().includes('grade_4')) {
       return 'grade_4_english_book';
+    }
+    if (bookTitle.toLowerCase().includes('grade 5') || bookTitle.toLowerCase().includes('grade_5')) {
+      return 'grade_5_english_book';
+    }
+    if (bookTitle.toLowerCase().includes('grade 6') || bookTitle.toLowerCase().includes('grade_6')) {
+      return 'grade_6_english_book';
+    }
+    if (bookTitle.toLowerCase().includes('grade 7') || bookTitle.toLowerCase().includes('grade_7')) {
+      return 'grade_7_english_book_unit_1';
     }
     
     // Default to grade 3

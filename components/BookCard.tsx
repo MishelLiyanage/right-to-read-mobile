@@ -1,6 +1,6 @@
 import { ThemedText } from '@/components/ThemedText';
 import React from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Dimensions, StyleSheet, TouchableOpacity, View } from 'react-native';
 
 interface BookCardProps {
   title: string;
@@ -9,9 +9,12 @@ interface BookCardProps {
   onPress?: () => void;
 }
 
+const { width: screenWidth } = Dimensions.get('window');
+const cardWidth = (screenWidth - 85) / 4; 
+
 export default function BookCard({ title, backgroundColor, hasData, onPress }: BookCardProps) {
   return (
-    <TouchableOpacity style={[styles.card, { backgroundColor }]} onPress={onPress}>
+    <TouchableOpacity style={[styles.card, { backgroundColor, width: cardWidth }]} onPress={onPress}>
       <View style={styles.cardContent}>
         <ThemedText style={styles.cardTitle}>{title}</ThemedText>
         {hasData && (
@@ -26,12 +29,11 @@ export default function BookCard({ title, backgroundColor, hasData, onPress }: B
 
 const styles = StyleSheet.create({
   card: {
-    width: 200,
     height: 220,
     borderRadius: 12,
-    marginRight: 15,
     justifyContent: 'flex-end',
     padding: 15,
+    marginBottom: 15,
   },
   cardContent: {
     backgroundColor: 'rgba(0, 0, 0, 0.3)',
