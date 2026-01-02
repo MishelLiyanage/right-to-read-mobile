@@ -2,7 +2,7 @@ import BookCard from '@/components/BookCard';
 import { ThemedText } from '@/components/ThemedText';
 import { Book } from '@/types/book';
 import React from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 interface BooksSectionProps {
   books: Book[];
@@ -46,7 +46,7 @@ export default function BooksSection({ books, onBookPress, isSearchMode = false,
           </ThemedText>
         </View>
       )}
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>
+      <View style={styles.gridContainer}>
         {books.map((book: Book) => (
           <BookCard
             key={book.id}
@@ -56,17 +56,20 @@ export default function BooksSection({ books, onBookPress, isSearchMode = false,
             onPress={() => handleBookPress(book)}
           />
         ))}
-      </ScrollView>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   section: {
-    paddingLeft: 20,
+    paddingHorizontal: 20,
   },
-  scrollContent: {
-    paddingRight: 20,
+  gridContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 15,
+    justifyContent: 'flex-start',
   },
   noResultsContainer: {
     paddingVertical: 40,
@@ -86,7 +89,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   searchResultsHeader: {
-    paddingRight: 20,
     paddingBottom: 10,
   },
   searchResultsText: {
