@@ -1,0 +1,991 @@
+{
+    "0": {
+        "text": "Lesson 2",
+        "words": [
+            "Lesson",
+            "2"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50399780273438,
+                    57.363922119140625
+                ],
+                [
+                    149.91400146484375,
+                    83.56591796875
+                ]
+            ],
+            [
+                [
+                    154.9739990234375,
+                    57.363922119140625
+                ],
+                [
+                    168.15199279785156,
+                    83.56591796875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 2 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "2"
+            },
+            {
+                "time": 1642,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Read and answer.",
+        "words": [
+            "Read",
+            "and",
+            "answer."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50399780273438,
+                    116.58792114257812
+                ],
+                [
+                    132.92999267578125,
+                    142.7899169921875
+                ]
+            ],
+            [
+                [
+                    138.42999267578125,
+                    116.58792114257812
+                ],
+                [
+                    179.04200744628906,
+                    142.7899169921875
+                ]
+            ],
+            [
+                [
+                    184.54200744628906,
+                    116.58792114257812
+                ],
+                [
+                    265.5899963378906,
+                    142.7899169921875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> and <break time='200ms'/> answer. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "and"
+            },
+            {
+                "time": 1469,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1725,
+                "type": "word",
+                "start": 81,
+                "end": 87,
+                "value": "answer"
+            },
+            {
+                "time": 2487,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Sonia : What are you looking at?",
+        "words": [
+            "Sonia",
+            ":",
+            "What",
+            "are",
+            "you",
+            "looking",
+            "at?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    391.6820068359375
+                ],
+                [
+                    137.24191284179688,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    171.49591064453125,
+                    391.6820068359375
+                ],
+                [
+                    178.513916015625,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    188.5019073486328,
+                    391.6820068359375
+                ],
+                [
+                    245.9879150390625,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    251.26791381835938,
+                    391.6820068359375
+                ],
+                [
+                    284.04791259765625,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    289.3279113769531,
+                    391.6820068359375
+                ],
+                [
+                    326.7719421386719,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    332.2719421386719,
+                    391.6820068359375
+                ],
+                [
+                    406.91796875,
+                    417.8840026855469
+                ]
+            ],
+            [
+                [
+                    412.41796875,
+                    391.6820068359375
+                ],
+                [
+                    445.33001708984375,
+                    417.8840026855469
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sonia <break time='200ms'/> : <break time='200ms'/> What <break time='200ms'/> are <break time='200ms'/> you <break time='200ms'/> looking <break time='200ms'/> at? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Sonia"
+            },
+            {
+                "time": 840,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1040,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1346,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "What"
+            },
+            {
+                "time": 2192,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2473,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "are"
+            },
+            {
+                "time": 3185,
+                "type": "word",
+                "start": 111,
+                "end": 132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3485,
+                "type": "word",
+                "start": 133,
+                "end": 136,
+                "value": "you"
+            },
+            {
+                "time": 4165,
+                "type": "word",
+                "start": 137,
+                "end": 158,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4571,
+                "type": "word",
+                "start": 159,
+                "end": 166,
+                "value": "looking"
+            },
+            {
+                "time": 5206,
+                "type": "word",
+                "start": 167,
+                "end": 188,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5474,
+                "type": "word",
+                "start": 189,
+                "end": 191,
+                "value": "at"
+            },
+            {
+                "time": 6267,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Waruni : It's a picture of our netball",
+        "words": [
+            "Waruni",
+            ":",
+            "It's",
+            "a",
+            "picture",
+            "of",
+            "our",
+            "netball"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    428.6860046386719
+                ],
+                [
+                    155.347900390625,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    171.4958953857422,
+                    428.6860046386719
+                ],
+                [
+                    178.51390075683594,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    188.50189208984375,
+                    428.6860046386719
+                ],
+                [
+                    218.1578826904297,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    223.34988403320312,
+                    428.6860046386719
+                ],
+                [
+                    236.72589111328125,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    241.91787719726562,
+                    428.6860046386719
+                ],
+                [
+                    312.64788818359375,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    317.83990478515625,
+                    428.6860046386719
+                ],
+                [
+                    338.60791015625,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    343.5799255371094,
+                    428.6860046386719
+                ],
+                [
+                    376.8879089355469,
+                    454.88800048828125
+                ]
+            ],
+            [
+                [
+                    381.85992431640625,
+                    428.6860046386719
+                ],
+                [
+                    453.0519104003906,
+                    454.88800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> <break time='200ms'/> : <break time='200ms'/> It's <break time='200ms'/> a <break time='200ms'/> picture <break time='200ms'/> of <break time='200ms'/> our <break time='200ms'/> netball <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 64,
+                "end": 70,
+                "value": "Waruni"
+            },
+            {
+                "time": 862,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1062,
+                "type": "word",
+                "start": 105,
+                "end": 126,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1281,
+                "type": "word",
+                "start": 127,
+                "end": 131,
+                "value": "It's"
+            },
+            {
+                "time": 2056,
+                "type": "word",
+                "start": 132,
+                "end": 153,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2344,
+                "type": "word",
+                "start": 154,
+                "end": 155,
+                "value": "a"
+            },
+            {
+                "time": 2862,
+                "type": "word",
+                "start": 156,
+                "end": 177,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3105,
+                "type": "word",
+                "start": 178,
+                "end": 185,
+                "value": "picture"
+            },
+            {
+                "time": 4042,
+                "type": "word",
+                "start": 186,
+                "end": 207,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4292,
+                "type": "word",
+                "start": 208,
+                "end": 210,
+                "value": "of"
+            },
+            {
+                "time": 5126,
+                "type": "word",
+                "start": 211,
+                "end": 232,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5426,
+                "type": "word",
+                "start": 233,
+                "end": 236,
+                "value": "our"
+            },
+            {
+                "time": 6273,
+                "type": "word",
+                "start": 237,
+                "end": 258,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6585,
+                "type": "word",
+                "start": 259,
+                "end": 266,
+                "value": "netball"
+            },
+            {
+                "time": 7483,
+                "type": "word",
+                "start": 267,
+                "end": 288,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "team.",
+        "words": [
+            "team."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    188.50189208984375,
+                    465.69000244140625
+                ],
+                [
+                    251.83990478515625,
+                    491.8919982910156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>team. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "team"
+            },
+            {
+                "time": 686,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "Sonia : Really! Netball is my",
+        "words": [
+            "Sonia",
+            ":",
+            "Really!",
+            "Netball",
+            "is",
+            "my"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389099121094,
+                    502.6940002441406
+                ],
+                [
+                    137.2418975830078,
+                    528.89599609375
+                ]
+            ],
+            [
+                [
+                    152.50990295410156,
+                    502.6940002441406
+                ],
+                [
+                    159.5279083251953,
+                    528.89599609375
+                ]
+            ],
+            [
+                [
+                    188.50189208984375,
+                    502.6940002441406
+                ],
+                [
+                    256.5478820800781,
+                    528.89599609375
+                ]
+            ],
+            [
+                [
+                    282.5738830566406,
+                    502.6940002441406
+                ],
+                [
+                    357.76995849609375,
+                    528.89599609375
+                ]
+            ],
+            [
+                [
+                    383.79595947265625,
+                    502.6940002441406
+                ],
+                [
+                    399.1739807128906,
+                    528.89599609375
+                ]
+            ],
+            [
+                [
+                    425.1999816894531,
+                    502.6940002441406
+                ],
+                [
+                    458.72802734375,
+                    528.89599609375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sonia <break time='200ms'/> : <break time='200ms'/> Really! <break time='200ms'/> Netball <break time='200ms'/> is <break time='200ms'/> my <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Sonia"
+            },
+            {
+                "time": 751,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 951,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1244,
+                "type": "word",
+                "start": 80,
+                "end": 86,
+                "value": "Really"
+            },
+            {
+                "time": 2159,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2864,
+                "type": "word",
+                "start": 110,
+                "end": 117,
+                "value": "Netball"
+            },
+            {
+                "time": 3754,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4079,
+                "type": "word",
+                "start": 140,
+                "end": 142,
+                "value": "is"
+            },
+            {
+                "time": 4744,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5013,
+                "type": "word",
+                "start": 165,
+                "end": 167,
+                "value": "my"
+            },
+            {
+                "time": 5883,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "favourite game.",
+        "words": [
+            "favourite",
+            "game."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    188.47991943359375,
+                    539.6979370117188
+                ],
+                [
+                    280.6379089355469,
+                    565.8999633789062
+                ]
+            ],
+            [
+                [
+                    286.1379089355469,
+                    539.6979370117188
+                ],
+                [
+                    354.8219299316406,
+                    565.8999633789062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>favourite <break time='200ms'/> game. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "favourite"
+            },
+            {
+                "time": 735,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1010,
+                "type": "word",
+                "start": 60,
+                "end": 64,
+                "value": "game"
+            },
+            {
+                "time": 1710,
+                "type": "word",
+                "start": 66,
+                "end": 87,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Waruni : They're the 2018",
+        "words": [
+            "Waruni",
+            ":",
+            "They're",
+            "the",
+            "2018"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50390625,
+                    573.68798828125
+                ],
+                [
+                    155.34791564941406,
+                    599.8900146484375
+                ]
+            ],
+            [
+                [
+                    171.49591064453125,
+                    573.68798828125
+                ],
+                [
+                    178.513916015625,
+                    599.8900146484375
+                ]
+            ],
+            [
+                [
+                    188.5019073486328,
+                    573.68798828125
+                ],
+                [
+                    261.5859069824219,
+                    599.8900146484375
+                ]
+            ],
+            [
+                [
+                    266.86590576171875,
+                    573.68798828125
+                ],
+                [
+                    301.5599060058594,
+                    599.8900146484375
+                ]
+            ],
+            [
+                [
+                    306.6199035644531,
+                    573.68798828125
+                ],
+                [
+                    355.4599304199219,
+                    599.8900146484375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='varuni'>Waruni</phoneme> <break time='200ms'/> : <break time='200ms'/> They're <break time='200ms'/> the <break time='200ms'/> 2018 <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 64,
+                "end": 70,
+                "value": "Waruni"
+            },
+            {
+                "time": 862,
+                "type": "word",
+                "start": 81,
+                "end": 102,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1062,
+                "type": "word",
+                "start": 105,
+                "end": 126,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1281,
+                "type": "word",
+                "start": 127,
+                "end": 134,
+                "value": "They're"
+            },
+            {
+                "time": 2102,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2358,
+                "type": "word",
+                "start": 157,
+                "end": 160,
+                "value": "the"
+            },
+            {
+                "time": 2872,
+                "type": "word",
+                "start": 161,
+                "end": 182,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3097,
+                "type": "word",
+                "start": 183,
+                "end": 187,
+                "value": "2018"
+            },
+            {
+                "time": 4761,
+                "type": "word",
+                "start": 188,
+                "end": 209,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Asian Champions.",
+        "words": [
+            "Asian",
+            "Champions."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    188.50189208984375,
+                    607.677978515625
+                ],
+                [
+                    245.7458953857422,
+                    633.8800048828125
+                ]
+            ],
+            [
+                [
+                    251.2458953857422,
+                    607.677978515625
+                ],
+                [
+                    378.27392578125,
+                    633.8800048828125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Asian <break time='200ms'/> Champions. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Asian"
+            },
+            {
+                "time": 780,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1024,
+                "type": "word",
+                "start": 56,
+                "end": 65,
+                "value": "Champions"
+            },
+            {
+                "time": 2168,
+                "type": "word",
+                "start": 67,
+                "end": 88,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

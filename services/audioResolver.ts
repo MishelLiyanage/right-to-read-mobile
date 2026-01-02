@@ -3438,6 +3438,25 @@ const g3_page135_block2_slow = require('../data/grade_3_english_book/grade_3_eng
 // grade_3_english_book Page 136 SLOW audio files
 const g3_page136_block0_slow = require('../data/grade_3_english_book/grade_3_english_book_page_136/block_136_0_slow_audio.mp3');
 
+//grade_5_english_book Page 1 audio files
+const g5_page10_block0 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_0_audio.mp3');
+const g5_page10_block1 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_1_audio.mp3');
+const g5_page10_block2 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_2_audio.mp3');
+const g5_page10_block3 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_3_audio.mp3');
+const g5_page10_block4 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_4_audio.mp3');
+const g5_page10_block5 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_5_audio.mp3');
+const g5_page10_block6 = require('../data/grade_5_english_book/grade_5_english_book_page_1/block_1_6_audio.mp3');
+
+// grade_5_english_book Page 2 audio files
+const g5_page11_block0 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_0_audio.mp3');
+const g5_page11_block1 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_1_audio.mp3');
+const g5_page11_block2 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_2_audio.mp3');
+const g5_page11_block3 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_3_audio.mp3');
+const g5_page11_block4 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_4_audio.mp3');
+const g5_page11_block5 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_5_audio.mp3');
+const g5_page11_block6 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_6_audio.mp3');
+const g5_page11_block7 = require('../data/grade_5_english_book/grade_5_english_book_page_2/block_2_7_audio.mp3');
+
 // Audio mappings by book and page
 const demoAudioMappings: { [pageNumber: string]: { [blockId: string]: any } } = {
   '0': {

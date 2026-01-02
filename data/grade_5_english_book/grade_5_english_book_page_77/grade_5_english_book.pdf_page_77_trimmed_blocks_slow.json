@@ -1,0 +1,291 @@
+{
+    "0": {
+        "text": "He is riding a bicycle.",
+        "words": [
+            "He",
+            "is",
+            "riding",
+            "a",
+            "bicycle."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    304.5585021972656,
+                    114.95578002929688
+                ],
+                [
+                    333.86248779296875,
+                    141.15777587890625
+                ]
+            ],
+            [
+                [
+                    339.36248779296875,
+                    114.95578002929688
+                ],
+                [
+                    354.7405090332031,
+                    141.15777587890625
+                ]
+            ],
+            [
+                [
+                    360.2405090332031,
+                    114.95578002929688
+                ],
+                [
+                    418.95855712890625,
+                    141.15777587890625
+                ]
+            ],
+            [
+                [
+                    424.45855712890625,
+                    114.95578002929688
+                ],
+                [
+                    437.8345642089844,
+                    141.15777587890625
+                ]
+            ],
+            [
+                [
+                    333.0484924316406,
+                    141.35580444335938
+                ],
+                [
+                    410.4445495605469,
+                    167.55780029296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>He <break time='200ms'/> is <break time='200ms'/> riding <break time='200ms'/> a <break time='200ms'/> bicycle. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "He"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 53,
+                "end": 55,
+                "value": "is"
+            },
+            {
+                "time": 1416,
+                "type": "word",
+                "start": 56,
+                "end": 77,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1678,
+                "type": "word",
+                "start": 78,
+                "end": 84,
+                "value": "riding"
+            },
+            {
+                "time": 2315,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2540,
+                "type": "word",
+                "start": 107,
+                "end": 108,
+                "value": "a"
+            },
+            {
+                "time": 3165,
+                "type": "word",
+                "start": 109,
+                "end": 130,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3440,
+                "type": "word",
+                "start": 131,
+                "end": 138,
+                "value": "bicycle"
+            },
+            {
+                "time": 4340,
+                "type": "word",
+                "start": 140,
+                "end": 161,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "She is skipping",
+        "words": [
+            "She",
+            "is",
+            "skipping"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    292.337890625,
+                    269.66668701171875
+                ],
+                [
+                    330.4198913574219,
+                    295.8686828613281
+                ]
+            ],
+            [
+                [
+                    335.9198913574219,
+                    269.66668701171875
+                ],
+                [
+                    351.29791259765625,
+                    295.8686828613281
+                ]
+            ],
+            [
+                [
+                    356.79791259765625,
+                    269.66668701171875
+                ],
+                [
+                    443.4119873046875,
+                    295.8686828613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>She <break time='200ms'/> is <break time='200ms'/> skipping <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "She"
+            },
+            {
+                "time": 673,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 979,
+                "type": "word",
+                "start": 54,
+                "end": 56,
+                "value": "is"
+            },
+            {
+                "time": 1399,
+                "type": "word",
+                "start": 57,
+                "end": 78,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1668,
+                "type": "word",
+                "start": 79,
+                "end": 87,
+                "value": "skipping"
+            },
+            {
+                "time": 2376,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "a rope.",
+        "words": [
+            "a",
+            "rope."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    332.94989013671875,
+                    296.0666809082031
+                ],
+                [
+                    346.3258972167969,
+                    322.2686767578125
+                ]
+            ],
+            [
+                [
+                    351.8258972167969,
+                    296.0666809082031
+                ],
+                [
+                    403.8998718261719,
+                    322.2686767578125
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> rope. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 523,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 798,
+                "type": "word",
+                "start": 52,
+                "end": 56,
+                "value": "rope"
+            },
+            {
+                "time": 1468,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

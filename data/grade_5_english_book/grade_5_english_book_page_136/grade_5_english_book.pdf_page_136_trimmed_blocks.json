@@ -1,0 +1,234 @@
+{
+    "0": {
+        "text": "Me and my mom",
+        "words": [
+            "Me",
+            "and",
+            "my",
+            "mom"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    220.2805938720703,
+                    77.42080688476562
+                ],
+                [
+                    245.96658325195312,
+                    98.85881042480469
+                ]
+            ],
+            [
+                [
+                    250.46658325195312,
+                    77.42080688476562
+                ],
+                [
+                    283.694580078125,
+                    98.85881042480469
+                ]
+            ],
+            [
+                [
+                    220.2805938720703,
+                    99.02078247070312
+                ],
+                [
+                    247.71258544921875,
+                    120.45878601074219
+                ]
+            ],
+            [
+                [
+                    252.0325927734375,
+                    99.02078247070312
+                ],
+                [
+                    299.0666198730469,
+                    120.45878601074219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Me and my mom</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "Me"
+            },
+            {
+                "time": 401,
+                "type": "word",
+                "start": 31,
+                "end": 34,
+                "value": "and"
+            },
+            {
+                "time": 569,
+                "type": "word",
+                "start": 35,
+                "end": 37,
+                "value": "my"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 38,
+                "end": 41,
+                "value": "mom"
+            }
+        ]
+    },
+    "1": {
+        "text": "Bicycle lane",
+        "words": [
+            "Bicycle",
+            "lane"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    273.5785827636719,
+                    130.86276245117188
+                ],
+                [
+                    331.66461181640625,
+                    152.30076599121094
+                ]
+            ],
+            [
+                [
+                    294.76458740234375,
+                    152.46273803710938
+                ],
+                [
+                    331.6645812988281,
+                    173.90074157714844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Bicycle lane</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Bicycle"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 36,
+                "end": 40,
+                "value": "lane"
+            }
+        ]
+    },
+    "2": {
+        "text": "Bicycle station",
+        "words": [
+            "Bicycle",
+            "station"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    51.09749984741211,
+                    266.1806945800781
+                ],
+                [
+                    109.18350982666016,
+                    287.61871337890625
+                ]
+            ],
+            [
+                [
+                    50.95349884033203,
+                    287.78070068359375
+                ],
+                [
+                    109.18351745605469,
+                    309.2187194824219
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Bicycle station</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Bicycle"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 36,
+                "end": 43,
+                "value": "station"
+            }
+        ]
+    },
+    "3": {
+        "text": "Bicycle bus",
+        "words": [
+            "Bicycle",
+            "bus"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    432.1488037109375,
+                    266.35479736328125
+                ],
+                [
+                    490.2348327636719,
+                    287.7928161621094
+                ]
+            ],
+            [
+                [
+                    432.1488037109375,
+                    287.9548034667969
+                ],
+                [
+                    462.622802734375,
+                    309.392822265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Bicycle bus</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "Bicycle"
+            },
+            {
+                "time": 722,
+                "type": "word",
+                "start": 36,
+                "end": 39,
+                "value": "bus"
+            }
+        ]
+    }
+}

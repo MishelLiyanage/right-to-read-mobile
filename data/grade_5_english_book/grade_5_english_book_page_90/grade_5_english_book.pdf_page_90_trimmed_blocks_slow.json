@@ -1,0 +1,628 @@
+{
+    "0": {
+        "text": "5 6",
+        "words": [
+            "5",
+            "6"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    166.49220275878906,
+                    226.84689331054688
+                ],
+                [
+                    179.7362060546875,
+                    253.04888916015625
+                ]
+            ],
+            [
+                [
+                    354.864501953125,
+                    226.59799194335938
+                ],
+                [
+                    368.3284912109375,
+                    252.79998779296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>5 <break time='200ms'/> 6 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "5"
+            },
+            {
+                "time": 782,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1044,
+                "type": "word",
+                "start": 52,
+                "end": 53,
+                "value": "6"
+            },
+            {
+                "time": 1770,
+                "type": "word",
+                "start": 54,
+                "end": 75,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "a sneezing or coughing b before eating c touching a wound d playing with pets e playing outside f using the toilet",
+        "words": [
+            "a",
+            "sneezing",
+            "or",
+            "coughing",
+            "b",
+            "before",
+            "eating",
+            "c",
+            "touching",
+            "a",
+            "wound",
+            "d",
+            "playing",
+            "with",
+            "pets",
+            "e",
+            "playing",
+            "outside",
+            "f",
+            "using",
+            "the",
+            "toilet"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50250244140625,
+                    269.7619934082031
+                ],
+                [
+                    93.87850189208984,
+                    295.9639892578125
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    269.7619934082031
+                ],
+                [
+                    210.2584991455078,
+                    295.9639892578125
+                ]
+            ],
+            [
+                [
+                    215.7584991455078,
+                    269.7619934082031
+                ],
+                [
+                    235.51449584960938,
+                    295.9639892578125
+                ]
+            ],
+            [
+                [
+                    240.79449462890625,
+                    269.7619934082031
+                ],
+                [
+                    338.27655029296875,
+                    295.9639892578125
+                ]
+            ],
+            [
+                [
+                    80.50250244140625,
+                    299.7699890136719
+                ],
+                [
+                    93.87850189208984,
+                    325.97198486328125
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    299.7699890136719
+                ],
+                [
+                    184.2324981689453,
+                    325.97198486328125
+                ]
+            ],
+            [
+                [
+                    189.7324981689453,
+                    299.7699890136719
+                ],
+                [
+                    256.4364929199219,
+                    325.97198486328125
+                ]
+            ],
+            [
+                [
+                    80.50250244140625,
+                    329.7779846191406
+                ],
+                [
+                    91.89849853515625,
+                    355.97998046875
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    329.7779846191406
+                ],
+                [
+                    210.63250732421875,
+                    355.97998046875
+                ]
+            ],
+            [
+                [
+                    216.13250732421875,
+                    329.7779846191406
+                ],
+                [
+                    229.50851440429688,
+                    355.97998046875
+                ]
+            ],
+            [
+                [
+                    234.78851318359375,
+                    329.7779846191406
+                ],
+                [
+                    306.2005615234375,
+                    355.97998046875
+                ]
+            ],
+            [
+                [
+                    80.50250244140625,
+                    359.7859802246094
+                ],
+                [
+                    93.87850189208984,
+                    385.98797607421875
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    359.7859802246094
+                ],
+                [
+                    194.3305206298828,
+                    385.98797607421875
+                ]
+            ],
+            [
+                [
+                    199.6105194091797,
+                    359.7859802246094
+                ],
+                [
+                    245.23851013183594,
+                    385.98797607421875
+                ]
+            ],
+            [
+                [
+                    250.5185089111328,
+                    359.7859802246094
+                ],
+                [
+                    294.95849609375,
+                    385.98797607421875
+                ]
+            ],
+            [
+                [
+                    80.50250244140625,
+                    389.7939758300781
+                ],
+                [
+                    92.97650146484375,
+                    415.9959716796875
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    389.7939758300781
+                ],
+                [
+                    194.3305206298828,
+                    415.9959716796875
+                ]
+            ],
+            [
+                [
+                    199.8305206298828,
+                    389.7939758300781
+                ],
+                [
+                    275.7745056152344,
+                    415.9959716796875
+                ]
+            ],
+            [
+                [
+                    80.50250244140625,
+                    419.8019714355469
+                ],
+                [
+                    89.14849853515625,
+                    446.00396728515625
+                ]
+            ],
+            [
+                [
+                    118.49650573730469,
+                    419.8019714355469
+                ],
+                [
+                    174.9705047607422,
+                    446.00396728515625
+                ]
+            ],
+            [
+                [
+                    180.25050354003906,
+                    419.8019714355469
+                ],
+                [
+                    214.9445037841797,
+                    446.00396728515625
+                ]
+            ],
+            [
+                [
+                    220.22450256347656,
+                    419.8019714355469
+                ],
+                [
+                    272.12249755859375,
+                    446.00396728515625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>a <break time='200ms'/> sneezing <break time='200ms'/> or <break time='200ms'/> coughing <break time='200ms'/> b <break time='200ms'/> before <break time='200ms'/> eating <break time='200ms'/> c <break time='200ms'/> touching <break time='200ms'/> a <break time='200ms'/> wound <break time='200ms'/> d <break time='200ms'/> playing <break time='200ms'/> with <break time='200ms'/> pets <break time='200ms'/> e <break time='200ms'/> playing <break time='200ms'/> outside <break time='200ms'/> f <break time='200ms'/> using <break time='200ms'/> the <break time='200ms'/> toilet <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 237,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "a"
+            },
+            {
+                "time": 526,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 801,
+                "type": "word",
+                "start": 52,
+                "end": 60,
+                "value": "sneezing"
+            },
+            {
+                "time": 1748,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2055,
+                "type": "word",
+                "start": 83,
+                "end": 85,
+                "value": "or"
+            },
+            {
+                "time": 2360,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2666,
+                "type": "word",
+                "start": 108,
+                "end": 116,
+                "value": "coughing"
+            },
+            {
+                "time": 3376,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3614,
+                "type": "word",
+                "start": 139,
+                "end": 140,
+                "value": "b"
+            },
+            {
+                "time": 4093,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4374,
+                "type": "word",
+                "start": 163,
+                "end": 169,
+                "value": "before"
+            },
+            {
+                "time": 5119,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5406,
+                "type": "word",
+                "start": 192,
+                "end": 198,
+                "value": "eating"
+            },
+            {
+                "time": 5971,
+                "type": "word",
+                "start": 199,
+                "end": 220,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6278,
+                "type": "word",
+                "start": 221,
+                "end": 222,
+                "value": "c"
+            },
+            {
+                "time": 6772,
+                "type": "word",
+                "start": 223,
+                "end": 244,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7053,
+                "type": "word",
+                "start": 245,
+                "end": 253,
+                "value": "touching"
+            },
+            {
+                "time": 7746,
+                "type": "word",
+                "start": 254,
+                "end": 275,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8027,
+                "type": "word",
+                "start": 276,
+                "end": 277,
+                "value": "a"
+            },
+            {
+                "time": 8454,
+                "type": "word",
+                "start": 278,
+                "end": 299,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8729,
+                "type": "word",
+                "start": 300,
+                "end": 305,
+                "value": "wound"
+            },
+            {
+                "time": 9321,
+                "type": "word",
+                "start": 306,
+                "end": 327,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9609,
+                "type": "word",
+                "start": 328,
+                "end": 329,
+                "value": "d"
+            },
+            {
+                "time": 9982,
+                "type": "word",
+                "start": 330,
+                "end": 351,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10220,
+                "type": "word",
+                "start": 352,
+                "end": 359,
+                "value": "playing"
+            },
+            {
+                "time": 10979,
+                "type": "word",
+                "start": 360,
+                "end": 381,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11204,
+                "type": "word",
+                "start": 382,
+                "end": 386,
+                "value": "with"
+            },
+            {
+                "time": 11686,
+                "type": "word",
+                "start": 387,
+                "end": 408,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11986,
+                "type": "word",
+                "start": 409,
+                "end": 413,
+                "value": "pets"
+            },
+            {
+                "time": 12623,
+                "type": "word",
+                "start": 414,
+                "end": 435,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12985,
+                "type": "word",
+                "start": 436,
+                "end": 437,
+                "value": "e"
+            },
+            {
+                "time": 13179,
+                "type": "word",
+                "start": 438,
+                "end": 459,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13435,
+                "type": "word",
+                "start": 460,
+                "end": 467,
+                "value": "playing"
+            },
+            {
+                "time": 14183,
+                "type": "word",
+                "start": 468,
+                "end": 489,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14458,
+                "type": "word",
+                "start": 490,
+                "end": 497,
+                "value": "outside"
+            },
+            {
+                "time": 15255,
+                "type": "word",
+                "start": 498,
+                "end": 519,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15517,
+                "type": "word",
+                "start": 520,
+                "end": 521,
+                "value": "f"
+            },
+            {
+                "time": 15965,
+                "type": "word",
+                "start": 522,
+                "end": 543,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16215,
+                "type": "word",
+                "start": 544,
+                "end": 549,
+                "value": "using"
+            },
+            {
+                "time": 16834,
+                "type": "word",
+                "start": 550,
+                "end": 571,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17103,
+                "type": "word",
+                "start": 572,
+                "end": 575,
+                "value": "the"
+            },
+            {
+                "time": 17468,
+                "type": "word",
+                "start": 576,
+                "end": 597,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17743,
+                "type": "word",
+                "start": 598,
+                "end": 604,
+                "value": "toilet"
+            },
+            {
+                "time": 18472,
+                "type": "word",
+                "start": 605,
+                "end": 626,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

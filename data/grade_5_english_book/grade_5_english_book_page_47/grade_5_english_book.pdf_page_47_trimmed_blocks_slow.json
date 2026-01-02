@@ -1,0 +1,116 @@
+{
+    "0": {
+        "text": "garden",
+        "words": [
+            "garden"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    336.3266906738281,
+                    139.90377807617188
+                ],
+                [
+                    403.0467224121094,
+                    163.72378540039062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>garden <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "garden"
+            },
+            {
+                "time": 796,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "guitar",
+        "words": [
+            "guitar"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    339.3894958496094,
+                    325.9508972167969
+                ],
+                [
+                    395.1895446777344,
+                    349.7709045410156
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>guitar <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "guitar"
+            },
+            {
+                "time": 950,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "market",
+        "words": [
+            "market"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    333.03948974609375,
+                    508.7038269042969
+                ],
+                [
+                    401.4394836425781,
+                    532.5238037109375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>market <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "market"
+            },
+            {
+                "time": 842,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

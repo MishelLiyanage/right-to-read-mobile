@@ -1,0 +1,1754 @@
+{
+    "0": {
+        "text": "I. is/Nizam/where/? ii. bookshop/is/he/the/ at/. iii. doing/he/what/is/? iv. buying/he/a/is/story book/.",
+        "words": [
+            "I.",
+            "is/Nizam/where/?",
+            "ii.",
+            "bookshop/is/he/the/",
+            "at/.",
+            "iii.",
+            "doing/he/what/is/?",
+            "iv.",
+            "buying/he/a/is/story",
+            "book/."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    223.61050415039062,
+                    57.585723876953125
+                ],
+                [
+                    238.65850830078125,
+                    83.7877197265625
+                ]
+            ],
+            [
+                [
+                    253.61849975585938,
+                    57.585723876953125
+                ],
+                [
+                    446.6246337890625,
+                    83.7877197265625
+                ]
+            ],
+            [
+                [
+                    223.61050415039062,
+                    83.98574829101562
+                ],
+                [
+                    241.25450134277344,
+                    110.187744140625
+                ]
+            ],
+            [
+                [
+                    253.61849975585938,
+                    83.98574829101562
+                ],
+                [
+                    491.0864562988281,
+                    110.187744140625
+                ]
+            ],
+            [
+                [
+                    253.61849975585938,
+                    110.38577270507812
+                ],
+                [
+                    293.0424499511719,
+                    136.5877685546875
+                ]
+            ],
+            [
+                [
+                    223.61050415039062,
+                    136.78579711914062
+                ],
+                [
+                    246.62249755859375,
+                    162.98779296875
+                ]
+            ],
+            [
+                [
+                    253.6184844970703,
+                    136.78579711914062
+                ],
+                [
+                    463.16864013671875,
+                    162.98779296875
+                ]
+            ],
+            [
+                [
+                    223.61050415039062,
+                    163.18582153320312
+                ],
+                [
+                    245.65451049804688,
+                    189.3878173828125
+                ]
+            ],
+            [
+                [
+                    253.61849975585938,
+                    163.18582153320312
+                ],
+                [
+                    491.3946838378906,
+                    189.3878173828125
+                ]
+            ],
+            [
+                [
+                    253.61849975585938,
+                    189.5858154296875
+                ],
+                [
+                    321.4444885253906,
+                    215.78781127929688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>I. <break time='200ms'/> is/Nizam/where/? <break time='200ms'/> ii. <break time='200ms'/> bookshop/is/he/the/ <break time='200ms'/> at/. <break time='200ms'/> iii. <break time='200ms'/> doing/he/what/is/? <break time='200ms'/> iv. <break time='200ms'/> buying/he/a/is/story <break time='200ms'/> book/. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "I"
+            },
+            {
+                "time": 555,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 861,
+                "type": "word",
+                "start": 53,
+                "end": 68,
+                "value": "is/Nizam/where/"
+            },
+            {
+                "time": 3544,
+                "type": "word",
+                "start": 70,
+                "end": 91,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4311,
+                "type": "word",
+                "start": 92,
+                "end": 94,
+                "value": "ii"
+            },
+            {
+                "time": 5225,
+                "type": "word",
+                "start": 96,
+                "end": 117,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5943,
+                "type": "word",
+                "start": 118,
+                "end": 137,
+                "value": "bookshop/is/he/the/"
+            },
+            {
+                "time": 9207,
+                "type": "word",
+                "start": 138,
+                "end": 159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9476,
+                "type": "word",
+                "start": 160,
+                "end": 163,
+                "value": "at/"
+            },
+            {
+                "time": 10391,
+                "type": "word",
+                "start": 165,
+                "end": 186,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11158,
+                "type": "word",
+                "start": 187,
+                "end": 190,
+                "value": "iii"
+            },
+            {
+                "time": 12072,
+                "type": "word",
+                "start": 192,
+                "end": 213,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12839,
+                "type": "word",
+                "start": 214,
+                "end": 231,
+                "value": "doing/he/what/is/"
+            },
+            {
+                "time": 16045,
+                "type": "word",
+                "start": 233,
+                "end": 254,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16813,
+                "type": "word",
+                "start": 255,
+                "end": 257,
+                "value": "iv"
+            },
+            {
+                "time": 17739,
+                "type": "word",
+                "start": 259,
+                "end": 280,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18506,
+                "type": "word",
+                "start": 281,
+                "end": 301,
+                "value": "buying/he/a/is/story"
+            },
+            {
+                "time": 22055,
+                "type": "word",
+                "start": 302,
+                "end": 323,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 22286,
+                "type": "word",
+                "start": 324,
+                "end": 329,
+                "value": "book/"
+            },
+            {
+                "time": 23277,
+                "type": "word",
+                "start": 331,
+                "end": 352,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Help students to read out the questions and answers meaningfully. After the lesson, get the students to attempt lesson 4 in the workbook. Write example sentences on the blackboard. Get the students to pay attention to the capitalization, question mark and full stop before engaging in the workbook activity.",
+        "words": [
+            "Help",
+            "students",
+            "to",
+            "read",
+            "out",
+            "the",
+            "questions",
+            "and",
+            "answers",
+            "meaningfully.",
+            "After",
+            "the",
+            "lesson,",
+            "get",
+            "the",
+            "students",
+            "to",
+            "attempt",
+            "lesson",
+            "4",
+            "in",
+            "the",
+            "workbook.",
+            "Write",
+            "example",
+            "sentences",
+            "on",
+            "the",
+            "blackboard.",
+            "Get",
+            "the",
+            "students",
+            "to",
+            "pay",
+            "attention",
+            "to",
+            "the",
+            "capitalization,",
+            "question",
+            "mark",
+            "and",
+            "full",
+            "stop",
+            "before",
+            "engaging",
+            "in",
+            "the",
+            "workbook",
+            "activity."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    146.92230224609375,
+                    253.66590881347656
+                ],
+                [
+                    173.14230346679688,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    178.09829711914062,
+                    253.66590881347656
+                ],
+                [
+                    227.29830932617188,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    232.13430786132812,
+                    253.66590881347656
+                ],
+                [
+                    243.2703094482422,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    248.22630310058594,
+                    253.66590881347656
+                ],
+                [
+                    273.40228271484375,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    278.3582763671875,
+                    253.66590881347656
+                ],
+                [
+                    297.2342834472656,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    301.9502868652344,
+                    253.66590881347656
+                ],
+                [
+                    320.874267578125,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    325.83026123046875,
+                    253.66590881347656
+                ],
+                [
+                    380.15423583984375,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    385.1102294921875,
+                    253.66590881347656
+                ],
+                [
+                    407.26220703125,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    412.21820068359375,
+                    253.66590881347656
+                ],
+                [
+                    458.53814697265625,
+                    267.9579162597656
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    268.0658874511719
+                ],
+                [
+                    225.5583038330078,
+                    282.35791015625
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    282.46588134765625
+                ],
+                [
+                    174.9423065185547,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    180.66632080078125,
+                    282.46588134765625
+                ],
+                [
+                    199.59031677246094,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    205.5543212890625,
+                    282.46588134765625
+                ],
+                [
+                    243.7623291015625,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    249.12632751464844,
+                    282.46588134765625
+                ],
+                [
+                    267.726318359375,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    273.4503173828125,
+                    282.46588134765625
+                ],
+                [
+                    292.3742980957031,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    298.3382873535156,
+                    282.46588134765625
+                ],
+                [
+                    347.5382385253906,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    353.3822326660156,
+                    282.46588134765625
+                ],
+                [
+                    364.51824951171875,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    370.48223876953125,
+                    282.46588134765625
+                ],
+                [
+                    417.6781921386719,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    423.5221862792969,
+                    282.46588134765625
+                ],
+                [
+                    458.5021667480469,
+                    296.7579040527344
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    296.8658752441406
+                ],
+                [
+                    153.76229858398438,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    159.89430236816406,
+                    296.8658752441406
+                ],
+                [
+                    170.38229370117188,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    176.39430236816406,
+                    296.8658752441406
+                ],
+                [
+                    195.31829833984375,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    201.33030700683594,
+                    296.8658752441406
+                ],
+                [
+                    259.42230224609375,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    264.59429931640625,
+                    296.8658752441406
+                ],
+                [
+                    294.6062927246094,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    300.73828125,
+                    296.8658752441406
+                ],
+                [
+                    350.0222473144531,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    356.15423583984375,
+                    296.8658752441406
+                ],
+                [
+                    413.1421813964844,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    419.274169921875,
+                    296.8658752441406
+                ],
+                [
+                    433.5901794433594,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    439.6021728515625,
+                    296.8658752441406
+                ],
+                [
+                    458.5261535644531,
+                    311.15789794921875
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    311.265869140625
+                ],
+                [
+                    213.3423309326172,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    218.17831420898438,
+                    311.265869140625
+                ],
+                [
+                    238.78231811523438,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    243.9783172607422,
+                    311.265869140625
+                ],
+                [
+                    262.9023132324219,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    268.33831787109375,
+                    311.265869140625
+                ],
+                [
+                    317.53826904296875,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    322.8542785644531,
+                    311.265869140625
+                ],
+                [
+                    333.99029541015625,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    339.4263000488281,
+                    311.265869140625
+                ],
+                [
+                    360.0662841796875,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    365.3822937011719,
+                    311.265869140625
+                ],
+                [
+                    417.7862854003906,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    423.102294921875,
+                    311.265869140625
+                ],
+                [
+                    434.2383117675781,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    439.5543212890625,
+                    311.265869140625
+                ],
+                [
+                    458.4783020019531,
+                    325.5578918457031
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    325.6658630371094
+                ],
+                [
+                    226.1103057861328,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    233.2863006591797,
+                    325.6658630371094
+                ],
+                [
+                    282.15032958984375,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    297.70233154296875,
+                    325.6658630371094
+                ],
+                [
+                    327.7983093261719,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    335.4543151855469,
+                    325.6658630371094
+                ],
+                [
+                    357.6062927246094,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    365.3822937011719,
+                    325.6658630371094
+                ],
+                [
+                    383.2983093261719,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    391.0743103027344,
+                    325.6658630371094
+                ],
+                [
+                    414.90631103515625,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    422.68231201171875,
+                    325.6658630371094
+                ],
+                [
+                    458.5382995605469,
+                    339.9578857421875
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    340.06585693359375
+                ],
+                [
+                    200.95831298828125,
+                    354.3578796386719
+                ]
+            ],
+            [
+                [
+                    203.95831298828125,
+                    340.06585693359375
+                ],
+                [
+                    214.44630432128906,
+                    354.3578796386719
+                ]
+            ],
+            [
+                [
+                    217.32630920410156,
+                    340.06585693359375
+                ],
+                [
+                    236.25030517578125,
+                    354.3578796386719
+                ]
+            ],
+            [
+                [
+                    239.13031005859375,
+                    340.06585693359375
+                ],
+                [
+                    293.454345703125,
+                    354.3578796386719
+                ]
+            ],
+            [
+                [
+                    296.21435546875,
+                    340.06585693359375
+                ],
+                [
+                    340.1463623046875,
+                    354.3578796386719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Help <break time='200ms'/> students <break time='200ms'/> to <break time='200ms'/> read <break time='200ms'/> out <break time='200ms'/> the <break time='200ms'/> questions <break time='200ms'/> and <break time='200ms'/> answers <break time='200ms'/> meaningfully. <break time='200ms'/> After <break time='200ms'/> the <break time='200ms'/> lesson, <break time='200ms'/> get <break time='200ms'/> the <break time='200ms'/> students <break time='200ms'/> to <break time='200ms'/> attempt <break time='200ms'/> lesson <break time='200ms'/> 4 <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> workbook. <break time='200ms'/> Write <break time='200ms'/> example <break time='200ms'/> sentences <break time='200ms'/> on <break time='200ms'/> the <break time='200ms'/> blackboard. <break time='200ms'/> Get <break time='200ms'/> the <break time='200ms'/> students <break time='200ms'/> to <break time='200ms'/> pay <break time='200ms'/> attention <break time='200ms'/> to <break time='200ms'/> the <break time='200ms'/> capitalization, <break time='200ms'/> question <break time='200ms'/> mark <break time='200ms'/> and <break time='200ms'/> full <break time='200ms'/> stop <break time='200ms'/> before <break time='200ms'/> engaging <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> workbook <break time='200ms'/> activity. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Help"
+            },
+            {
+                "time": 612,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 843,
+                "type": "word",
+                "start": 55,
+                "end": 63,
+                "value": "students"
+            },
+            {
+                "time": 1747,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2009,
+                "type": "word",
+                "start": 86,
+                "end": 88,
+                "value": "to"
+            },
+            {
+                "time": 2440,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2765,
+                "type": "word",
+                "start": 111,
+                "end": 115,
+                "value": "read"
+            },
+            {
+                "time": 3348,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3642,
+                "type": "word",
+                "start": 138,
+                "end": 141,
+                "value": "out"
+            },
+            {
+                "time": 4173,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4460,
+                "type": "word",
+                "start": 164,
+                "end": 167,
+                "value": "the"
+            },
+            {
+                "time": 4808,
+                "type": "word",
+                "start": 168,
+                "end": 189,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5095,
+                "type": "word",
+                "start": 190,
+                "end": 199,
+                "value": "questions"
+            },
+            {
+                "time": 6060,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6322,
+                "type": "word",
+                "start": 222,
+                "end": 225,
+                "value": "and"
+            },
+            {
+                "time": 6816,
+                "type": "word",
+                "start": 226,
+                "end": 247,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7098,
+                "type": "word",
+                "start": 248,
+                "end": 255,
+                "value": "answers"
+            },
+            {
+                "time": 7793,
+                "type": "word",
+                "start": 256,
+                "end": 277,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8062,
+                "type": "word",
+                "start": 278,
+                "end": 290,
+                "value": "meaningfully"
+            },
+            {
+                "time": 8935,
+                "type": "word",
+                "start": 292,
+                "end": 313,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9715,
+                "type": "word",
+                "start": 314,
+                "end": 319,
+                "value": "After"
+            },
+            {
+                "time": 10234,
+                "type": "word",
+                "start": 320,
+                "end": 341,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10509,
+                "type": "word",
+                "start": 342,
+                "end": 345,
+                "value": "the"
+            },
+            {
+                "time": 10962,
+                "type": "word",
+                "start": 346,
+                "end": 367,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11219,
+                "type": "word",
+                "start": 368,
+                "end": 374,
+                "value": "lesson"
+            },
+            {
+                "time": 11934,
+                "type": "word",
+                "start": 376,
+                "end": 397,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12253,
+                "type": "word",
+                "start": 398,
+                "end": 401,
+                "value": "get"
+            },
+            {
+                "time": 12825,
+                "type": "word",
+                "start": 402,
+                "end": 423,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13063,
+                "type": "word",
+                "start": 424,
+                "end": 427,
+                "value": "the"
+            },
+            {
+                "time": 13494,
+                "type": "word",
+                "start": 428,
+                "end": 449,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13819,
+                "type": "word",
+                "start": 450,
+                "end": 458,
+                "value": "students"
+            },
+            {
+                "time": 14628,
+                "type": "word",
+                "start": 459,
+                "end": 480,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14903,
+                "type": "word",
+                "start": 481,
+                "end": 483,
+                "value": "to"
+            },
+            {
+                "time": 15440,
+                "type": "word",
+                "start": 484,
+                "end": 505,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15734,
+                "type": "word",
+                "start": 506,
+                "end": 513,
+                "value": "attempt"
+            },
+            {
+                "time": 16304,
+                "type": "word",
+                "start": 514,
+                "end": 535,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16585,
+                "type": "word",
+                "start": 536,
+                "end": 542,
+                "value": "lesson"
+            },
+            {
+                "time": 17269,
+                "type": "word",
+                "start": 543,
+                "end": 564,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17525,
+                "type": "word",
+                "start": 565,
+                "end": 566,
+                "value": "4"
+            },
+            {
+                "time": 18121,
+                "type": "word",
+                "start": 567,
+                "end": 588,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18459,
+                "type": "word",
+                "start": 589,
+                "end": 591,
+                "value": "in"
+            },
+            {
+                "time": 18837,
+                "type": "word",
+                "start": 592,
+                "end": 613,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19124,
+                "type": "word",
+                "start": 614,
+                "end": 617,
+                "value": "the"
+            },
+            {
+                "time": 19444,
+                "type": "word",
+                "start": 618,
+                "end": 639,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19719,
+                "type": "word",
+                "start": 640,
+                "end": 648,
+                "value": "workbook"
+            },
+            {
+                "time": 20551,
+                "type": "word",
+                "start": 650,
+                "end": 671,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21319,
+                "type": "word",
+                "start": 672,
+                "end": 677,
+                "value": "Write"
+            },
+            {
+                "time": 21732,
+                "type": "word",
+                "start": 678,
+                "end": 699,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21964,
+                "type": "word",
+                "start": 700,
+                "end": 707,
+                "value": "example"
+            },
+            {
+                "time": 23097,
+                "type": "word",
+                "start": 708,
+                "end": 729,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23359,
+                "type": "word",
+                "start": 730,
+                "end": 739,
+                "value": "sentences"
+            },
+            {
+                "time": 24397,
+                "type": "word",
+                "start": 740,
+                "end": 761,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 24641,
+                "type": "word",
+                "start": 762,
+                "end": 764,
+                "value": "on"
+            },
+            {
+                "time": 25119,
+                "type": "word",
+                "start": 765,
+                "end": 786,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 25401,
+                "type": "word",
+                "start": 787,
+                "end": 790,
+                "value": "the"
+            },
+            {
+                "time": 25799,
+                "type": "word",
+                "start": 791,
+                "end": 812,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 26030,
+                "type": "word",
+                "start": 813,
+                "end": 823,
+                "value": "blackboard"
+            },
+            {
+                "time": 26955,
+                "type": "word",
+                "start": 825,
+                "end": 846,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 27722,
+                "type": "word",
+                "start": 847,
+                "end": 850,
+                "value": "Get"
+            },
+            {
+                "time": 28212,
+                "type": "word",
+                "start": 851,
+                "end": 872,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 28443,
+                "type": "word",
+                "start": 873,
+                "end": 876,
+                "value": "the"
+            },
+            {
+                "time": 29002,
+                "type": "word",
+                "start": 877,
+                "end": 898,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 29302,
+                "type": "word",
+                "start": 899,
+                "end": 907,
+                "value": "students"
+            },
+            {
+                "time": 30056,
+                "type": "word",
+                "start": 908,
+                "end": 929,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 30306,
+                "type": "word",
+                "start": 930,
+                "end": 932,
+                "value": "to"
+            },
+            {
+                "time": 30870,
+                "type": "word",
+                "start": 933,
+                "end": 954,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 31145,
+                "type": "word",
+                "start": 955,
+                "end": 958,
+                "value": "pay"
+            },
+            {
+                "time": 31695,
+                "type": "word",
+                "start": 959,
+                "end": 980,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 32001,
+                "type": "word",
+                "start": 981,
+                "end": 990,
+                "value": "attention"
+            },
+            {
+                "time": 32788,
+                "type": "word",
+                "start": 991,
+                "end": 1012,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 33057,
+                "type": "word",
+                "start": 1013,
+                "end": 1015,
+                "value": "to"
+            },
+            {
+                "time": 33546,
+                "type": "word",
+                "start": 1016,
+                "end": 1037,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 33852,
+                "type": "word",
+                "start": 1038,
+                "end": 1041,
+                "value": "the"
+            },
+            {
+                "time": 34309,
+                "type": "word",
+                "start": 1042,
+                "end": 1063,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 34584,
+                "type": "word",
+                "start": 1064,
+                "end": 1078,
+                "value": "capitalization"
+            },
+            {
+                "time": 35781,
+                "type": "word",
+                "start": 1080,
+                "end": 1101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 36031,
+                "type": "word",
+                "start": 1102,
+                "end": 1110,
+                "value": "question"
+            },
+            {
+                "time": 36876,
+                "type": "word",
+                "start": 1111,
+                "end": 1132,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 37126,
+                "type": "word",
+                "start": 1133,
+                "end": 1137,
+                "value": "mark"
+            },
+            {
+                "time": 37730,
+                "type": "word",
+                "start": 1138,
+                "end": 1159,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 37999,
+                "type": "word",
+                "start": 1160,
+                "end": 1163,
+                "value": "and"
+            },
+            {
+                "time": 38462,
+                "type": "word",
+                "start": 1164,
+                "end": 1185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 38744,
+                "type": "word",
+                "start": 1186,
+                "end": 1190,
+                "value": "full"
+            },
+            {
+                "time": 39302,
+                "type": "word",
+                "start": 1191,
+                "end": 1212,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 39570,
+                "type": "word",
+                "start": 1213,
+                "end": 1217,
+                "value": "stop"
+            },
+            {
+                "time": 40162,
+                "type": "word",
+                "start": 1218,
+                "end": 1239,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 40418,
+                "type": "word",
+                "start": 1240,
+                "end": 1246,
+                "value": "before"
+            },
+            {
+                "time": 41169,
+                "type": "word",
+                "start": 1247,
+                "end": 1268,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 41431,
+                "type": "word",
+                "start": 1269,
+                "end": 1277,
+                "value": "engaging"
+            },
+            {
+                "time": 42279,
+                "type": "word",
+                "start": 1278,
+                "end": 1299,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 42517,
+                "type": "word",
+                "start": 1300,
+                "end": 1302,
+                "value": "in"
+            },
+            {
+                "time": 42916,
+                "type": "word",
+                "start": 1303,
+                "end": 1324,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 43210,
+                "type": "word",
+                "start": 1325,
+                "end": 1328,
+                "value": "the"
+            },
+            {
+                "time": 43695,
+                "type": "word",
+                "start": 1329,
+                "end": 1350,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 43983,
+                "type": "word",
+                "start": 1351,
+                "end": 1359,
+                "value": "workbook"
+            },
+            {
+                "time": 44639,
+                "type": "word",
+                "start": 1360,
+                "end": 1381,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 44914,
+                "type": "word",
+                "start": 1382,
+                "end": 1390,
+                "value": "activity"
+            },
+            {
+                "time": 45737,
+                "type": "word",
+                "start": 1392,
+                "end": 1413,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Lesson 5",
+        "words": [
+            "Lesson",
+            "5"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    401.1619873046875
+                ],
+                [
+                    149.9138946533203,
+                    427.3639831542969
+                ]
+            ],
+            [
+                [
+                    155.4138946533203,
+                    401.1619873046875
+                ],
+                [
+                    168.65789794921875,
+                    427.3639831542969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 5 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "5"
+            },
+            {
+                "time": 1810,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Read the poster and complete the table.",
+        "words": [
+            "Read",
+            "the",
+            "poster",
+            "and",
+            "complete",
+            "the",
+            "table."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    453.9620056152344
+                ],
+                [
+                    132.92990112304688,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    143.6658935546875,
+                    453.9620056152344
+                ],
+                [
+                    178.35989379882812,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    189.31588745117188,
+                    453.9620056152344
+                ],
+                [
+                    252.8518829345703,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    263.587890625,
+                    453.9620056152344
+                ],
+                [
+                    304.1999206542969,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    315.1559143066406,
+                    453.9620056152344
+                ],
+                [
+                    413.1219787597656,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    423.8359680175781,
+                    453.9620056152344
+                ],
+                [
+                    458.5299987792969,
+                    480.16400146484375
+                ]
+            ],
+            [
+                [
+                    80.50389862060547,
+                    480.36199951171875
+                ],
+                [
+                    140.0579071044922,
+                    506.5639953613281
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> the <break time='200ms'/> poster <break time='200ms'/> and <break time='200ms'/> complete <break time='200ms'/> the <break time='200ms'/> table. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 677,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 908,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "the"
+            },
+            {
+                "time": 1353,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1616,
+                "type": "word",
+                "start": 81,
+                "end": 87,
+                "value": "poster"
+            },
+            {
+                "time": 2379,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2654,
+                "type": "word",
+                "start": 110,
+                "end": 113,
+                "value": "and"
+            },
+            {
+                "time": 3151,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3419,
+                "type": "word",
+                "start": 136,
+                "end": 144,
+                "value": "complete"
+            },
+            {
+                "time": 4143,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4424,
+                "type": "word",
+                "start": 167,
+                "end": 170,
+                "value": "the"
+            },
+            {
+                "time": 4826,
+                "type": "word",
+                "start": 171,
+                "end": 192,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5108,
+                "type": "word",
+                "start": 193,
+                "end": 198,
+                "value": "table"
+            },
+            {
+                "time": 5747,
+                "type": "word",
+                "start": 200,
+                "end": 221,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

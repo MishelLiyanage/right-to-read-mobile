@@ -1,0 +1,1567 @@
+{
+    "0": {
+        "text": "Act out.",
+        "words": [
+            "Act",
+            "out."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    57.355804443359375
+                ],
+                [
+                    114.77989196777344,
+                    83.55780029296875
+                ]
+            ],
+            [
+                [
+                    120.05989074707031,
+                    57.355804443359375
+                ],
+                [
+                    161.5738983154297,
+                    83.55780029296875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Act <break time='200ms'/> out. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Act"
+            },
+            {
+                "time": 674,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 54,
+                "end": 57,
+                "value": "out"
+            },
+            {
+                "time": 1478,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Hello! I'm Mary. I'm from England.",
+        "words": [
+            "Hello!",
+            "I'm",
+            "Mary.",
+            "I'm",
+            "from",
+            "England."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    39.00809860229492,
+                    117.38137817382812
+                ],
+                [
+                    92.98810577392578,
+                    141.20138549804688
+                ]
+            ],
+            [
+                [
+                    97.98810577392578,
+                    117.38137817382812
+                ],
+                [
+                    129.568115234375,
+                    141.20138549804688
+                ]
+            ],
+            [
+                [
+                    134.568115234375,
+                    117.38137817382812
+                ],
+                [
+                    186.1881103515625,
+                    141.20138549804688
+                ]
+            ],
+            [
+                [
+                    70.9480972290039,
+                    136.38137817382812
+                ],
+                [
+                    102.5280990600586,
+                    160.20138549804688
+                ]
+            ],
+            [
+                [
+                    107.5280990600586,
+                    136.38137817382812
+                ],
+                [
+                    153.2480926513672,
+                    160.20138549804688
+                ]
+            ],
+            [
+                [
+                    70.72809600830078,
+                    155.38137817382812
+                ],
+                [
+                    154.4881134033203,
+                    179.20138549804688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Hello! <break time='200ms'/> I'm <break time='200ms'/> Mary. <break time='200ms'/> I'm <break time='200ms'/> from <break time='200ms'/> England. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Hello"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1504,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "I'm"
+            },
+            {
+                "time": 1989,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2276,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "Mary"
+            },
+            {
+                "time": 3176,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3881,
+                "type": "word",
+                "start": 111,
+                "end": 114,
+                "value": "I'm"
+            },
+            {
+                "time": 4371,
+                "type": "word",
+                "start": 115,
+                "end": 136,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4602,
+                "type": "word",
+                "start": 137,
+                "end": 141,
+                "value": "from"
+            },
+            {
+                "time": 5652,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5908,
+                "type": "word",
+                "start": 164,
+                "end": 171,
+                "value": "England"
+            },
+            {
+                "time": 6808,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "Konnichi wa! I'm Yashumi. I'm from Japan.",
+        "words": [
+            "Konnichi",
+            "wa!",
+            "I'm",
+            "Yashumi.",
+            "I'm",
+            "from",
+            "Japan."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    338.0177917480469,
+                    99.29562377929688
+                ],
+                [
+                    418.6978454589844,
+                    123.1156234741211
+                ]
+            ],
+            [
+                [
+                    423.4978332519531,
+                    99.29562377929688
+                ],
+                [
+                    458.2378234863281,
+                    123.1156234741211
+                ]
+            ],
+            [
+                [
+                    336.55780029296875,
+                    118.29562377929688
+                ],
+                [
+                    368.1377868652344,
+                    142.11563110351562
+                ]
+            ],
+            [
+                [
+                    372.53778076171875,
+                    118.29562377929688
+                ],
+                [
+                    460.69781494140625,
+                    142.11563110351562
+                ]
+            ],
+            [
+                [
+                    322.8977966308594,
+                    137.29562377929688
+                ],
+                [
+                    354.477783203125,
+                    161.11563110351562
+                ]
+            ],
+            [
+                [
+                    359.0777893066406,
+                    137.29562377929688
+                ],
+                [
+                    405.19781494140625,
+                    161.11563110351562
+                ]
+            ],
+            [
+                [
+                    409.7978210449219,
+                    137.29562377929688
+                ],
+                [
+                    474.33782958984375,
+                    161.11563110351562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Konnichi <break time='200ms'/> wa! <break time='200ms'/> I'm <break time='200ms'/> Yashumi. <break time='200ms'/> I'm <break time='200ms'/> from <break time='200ms'/> Japan. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Konnichi"
+            },
+            {
+                "time": 920,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1182,
+                "type": "word",
+                "start": 59,
+                "end": 61,
+                "value": "wa"
+            },
+            {
+                "time": 2277,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2982,
+                "type": "word",
+                "start": 85,
+                "end": 88,
+                "value": "I'm"
+            },
+            {
+                "time": 3472,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3704,
+                "type": "word",
+                "start": 111,
+                "end": 118,
+                "value": "Yashumi"
+            },
+            {
+                "time": 4939,
+                "type": "word",
+                "start": 120,
+                "end": 141,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5644,
+                "type": "word",
+                "start": 142,
+                "end": 145,
+                "value": "I'm"
+            },
+            {
+                "time": 6134,
+                "type": "word",
+                "start": 146,
+                "end": 167,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6366,
+                "type": "word",
+                "start": 168,
+                "end": 172,
+                "value": "from"
+            },
+            {
+                "time": 7313,
+                "type": "word",
+                "start": 173,
+                "end": 194,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7619,
+                "type": "word",
+                "start": 195,
+                "end": 200,
+                "value": "Japan"
+            },
+            {
+                "time": 8549,
+                "type": "word",
+                "start": 202,
+                "end": 223,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Nice to meet you. Nice to meet you too.",
+        "words": [
+            "Nice",
+            "to",
+            "meet",
+            "you.",
+            "Nice",
+            "to",
+            "meet",
+            "you",
+            "too."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    46.02180099487305,
+                    245.56768798828125
+                ],
+                [
+                    88.00180053710938,
+                    269.3876953125
+                ]
+            ],
+            [
+                [
+                    92.80180358886719,
+                    245.56768798828125
+                ],
+                [
+                    111.36180114746094,
+                    269.3876953125
+                ]
+            ],
+            [
+                [
+                    116.16180419921875,
+                    245.56768798828125
+                ],
+                [
+                    167.0417938232422,
+                    269.3876953125
+                ]
+            ],
+            [
+                [
+                    86.76179504394531,
+                    264.56768798828125
+                ],
+                [
+                    127.08179473876953,
+                    288.3876953125
+                ]
+            ],
+            [
+                [
+                    376.1034851074219,
+                    255.48049926757812
+                ],
+                [
+                    418.0834655761719,
+                    279.3005065917969
+                ]
+            ],
+            [
+                [
+                    422.8834533691406,
+                    255.48049926757812
+                ],
+                [
+                    441.4434814453125,
+                    279.3005065917969
+                ]
+            ],
+            [
+                [
+                    446.24346923828125,
+                    255.48049926757812
+                ],
+                [
+                    497.12347412109375,
+                    279.3005065917969
+                ]
+            ],
+            [
+                [
+                    399.5434875488281,
+                    274.4804992675781
+                ],
+                [
+                    433.58349609375,
+                    298.3005065917969
+                ]
+            ],
+            [
+                [
+                    438.38348388671875,
+                    274.4804992675781
+                ],
+                [
+                    474.4835205078125,
+                    298.3005065917969
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Nice <break time='200ms'/> to <break time='200ms'/> meet <break time='200ms'/> you. <break time='200ms'/> Nice <break time='200ms'/> to <break time='200ms'/> meet <break time='200ms'/> you <break time='200ms'/> too. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young girl",
+        "voice_id": "Ivy",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Nice"
+            },
+            {
+                "time": 718,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 931,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "to"
+            },
+            {
+                "time": 1814,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2133,
+                "type": "word",
+                "start": 80,
+                "end": 84,
+                "value": "meet"
+            },
+            {
+                "time": 2892,
+                "type": "word",
+                "start": 85,
+                "end": 106,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3117,
+                "type": "word",
+                "start": 107,
+                "end": 110,
+                "value": "you"
+            },
+            {
+                "time": 3937,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4642,
+                "type": "word",
+                "start": 134,
+                "end": 138,
+                "value": "Nice"
+            },
+            {
+                "time": 5235,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5448,
+                "type": "word",
+                "start": 161,
+                "end": 163,
+                "value": "to"
+            },
+            {
+                "time": 6376,
+                "type": "word",
+                "start": 164,
+                "end": 185,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6664,
+                "type": "word",
+                "start": 186,
+                "end": 190,
+                "value": "meet"
+            },
+            {
+                "time": 7450,
+                "type": "word",
+                "start": 191,
+                "end": 212,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7656,
+                "type": "word",
+                "start": 213,
+                "end": 216,
+                "value": "you"
+            },
+            {
+                "time": 8343,
+                "type": "word",
+                "start": 217,
+                "end": 238,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8618,
+                "type": "word",
+                "start": 239,
+                "end": 242,
+                "value": "too"
+            },
+            {
+                "time": 10087,
+                "type": "word",
+                "start": 244,
+                "end": 265,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Introduce the countries using a globe. Decorate the class with different flags. Get the students to dress up representing different countries. After you introduce the lesson, get them to mingle round the class greeting each other.",
+        "words": [
+            "Introduce",
+            "the",
+            "countries",
+            "using",
+            "a",
+            "globe.",
+            "Decorate",
+            "the",
+            "class",
+            "with",
+            "different",
+            "flags.",
+            "Get",
+            "the",
+            "students",
+            "to",
+            "dress",
+            "up",
+            "representing",
+            "different",
+            "countries.",
+            "After",
+            "you",
+            "introduce",
+            "the",
+            "lesson,",
+            "get",
+            "them",
+            "to",
+            "mingle",
+            "round",
+            "the",
+            "class",
+            "greeting",
+            "each",
+            "other."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    146.92230224609375,
+                    417.6333923339844
+                ],
+                [
+                    201.8343048095703,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    204.18630981445312,
+                    417.6333923339844
+                ],
+                [
+                    223.1103057861328,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    225.58230590820312,
+                    417.6333923339844
+                ],
+                [
+                    277.38629150390625,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    279.8582763671875,
+                    417.6333923339844
+                ],
+                [
+                    310.6622619628906,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    313.1342468261719,
+                    417.6333923339844
+                ],
+                [
+                    320.43023681640625,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    322.9022216796875,
+                    417.6333923339844
+                ],
+                [
+                    357.76220703125,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    359.6341857910156,
+                    417.6333923339844
+                ],
+                [
+                    410.25018310546875,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    412.6021728515625,
+                    417.6333923339844
+                ],
+                [
+                    431.5261535644531,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    433.9981384277344,
+                    417.6333923339844
+                ],
+                [
+                    461.3701171875,
+                    431.9254150390625
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    432.03338623046875
+                ],
+                [
+                    171.81028747558594,
+                    446.3254089355469
+                ]
+            ],
+            [
+                [
+                    174.81028747558594,
+                    432.03338623046875
+                ],
+                [
+                    223.73428344726562,
+                    446.3254089355469
+                ]
+            ],
+            [
+                [
+                    226.61428833007812,
+                    432.03338623046875
+                ],
+                [
+                    258.0903015136719,
+                    446.3254089355469
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    446.4333801269531
+                ],
+                [
+                    167.52630615234375,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    174.7023162841797,
+                    446.4333801269531
+                ],
+                [
+                    193.62631225585938,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    201.0423126220703,
+                    446.4333801269531
+                ],
+                [
+                    250.24232482910156,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    257.538330078125,
+                    446.4333801269531
+                ],
+                [
+                    268.6743469238281,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    276.09033203125,
+                    446.4333801269531
+                ],
+                [
+                    304.8902893066406,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    312.3062744140625,
+                    446.4333801269531
+                ],
+                [
+                    327.1622619628906,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    334.5782470703125,
+                    446.4333801269531
+                ],
+                [
+                    405.1501770019531,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    412.566162109375,
+                    446.4333801269531
+                ],
+                [
+                    461.4901428222656,
+                    460.72540283203125
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    460.8333740234375
+                ],
+                [
+                    202.4943084716797,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    206.22630310058594,
+                    460.8333740234375
+                ],
+                [
+                    234.24630737304688,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    238.57830810546875,
+                    460.8333740234375
+                ],
+                [
+                    259.0023193359375,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    263.5743103027344,
+                    460.8333740234375
+                ],
+                [
+                    316.97430419921875,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    325.998291015625,
+                    460.8333740234375
+                ],
+                [
+                    344.9222717285156,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    349.4942626953125,
+                    460.8333740234375
+                ],
+                [
+                    387.7022399902344,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    391.6742248535156,
+                    460.8333740234375
+                ],
+                [
+                    410.2742004394531,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    414.606201171875,
+                    460.8333740234375
+                ],
+                [
+                    445.8301696777344,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    450.28216552734375,
+                    460.8333740234375
+                ],
+                [
+                    461.4181823730469,
+                    475.1253967285156
+                ]
+            ],
+            [
+                [
+                    146.92230224609375,
+                    475.2333679199219
+                ],
+                [
+                    186.75030517578125,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    189.75030517578125,
+                    475.2333679199219
+                ],
+                [
+                    222.70230102539062,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    225.58230590820312,
+                    475.2333679199219
+                ],
+                [
+                    244.5063018798828,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    247.5063018798828,
+                    475.2333679199219
+                ],
+                [
+                    274.8782653808594,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    277.8782653808594,
+                    475.2333679199219
+                ],
+                [
+                    324.8462219238281,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    327.8462219238281,
+                    475.2333679199219
+                ],
+                [
+                    355.7221984863281,
+                    489.525390625
+                ]
+            ],
+            [
+                [
+                    358.7221984863281,
+                    475.2333679199219
+                ],
+                [
+                    391.6501770019531,
+                    489.525390625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Introduce <break time='200ms'/> the <break time='200ms'/> countries <break time='200ms'/> using <break time='200ms'/> a <break time='200ms'/> globe. <break time='200ms'/> Decorate <break time='200ms'/> the <break time='200ms'/> class <break time='200ms'/> with <break time='200ms'/> different <break time='200ms'/> flags. <break time='200ms'/> Get <break time='200ms'/> the <break time='200ms'/> students <break time='200ms'/> to <break time='200ms'/> dress <break time='200ms'/> up <break time='200ms'/> representing <break time='200ms'/> different <break time='200ms'/> countries. <break time='200ms'/> After <break time='200ms'/> you <break time='200ms'/> introduce <break time='200ms'/> the <break time='200ms'/> lesson, <break time='200ms'/> get <break time='200ms'/> them <break time='200ms'/> to <break time='200ms'/> mingle <break time='200ms'/> round <break time='200ms'/> the <break time='200ms'/> class <break time='200ms'/> greeting <break time='200ms'/> each <break time='200ms'/> other. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 37,
+                "value": "Introduce"
+            },
+            {
+                "time": 969,
+                "type": "word",
+                "start": 38,
+                "end": 59,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1263,
+                "type": "word",
+                "start": 60,
+                "end": 63,
+                "value": "the"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 86,
+                "end": 95,
+                "value": "countries"
+            },
+            {
+                "time": 2762,
+                "type": "word",
+                "start": 96,
+                "end": 117,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3043,
+                "type": "word",
+                "start": 118,
+                "end": 123,
+                "value": "using"
+            },
+            {
+                "time": 3754,
+                "type": "word",
+                "start": 124,
+                "end": 145,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4054,
+                "type": "word",
+                "start": 146,
+                "end": 147,
+                "value": "a"
+            },
+            {
+                "time": 4465,
+                "type": "word",
+                "start": 148,
+                "end": 169,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4709,
+                "type": "word",
+                "start": 170,
+                "end": 175,
+                "value": "globe"
+            },
+            {
+                "time": 5398,
+                "type": "word",
+                "start": 177,
+                "end": 198,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6166,
+                "type": "word",
+                "start": 199,
+                "end": 207,
+                "value": "Decorate"
+            },
+            {
+                "time": 6948,
+                "type": "word",
+                "start": 208,
+                "end": 229,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7242,
+                "type": "word",
+                "start": 230,
+                "end": 233,
+                "value": "the"
+            },
+            {
+                "time": 7588,
+                "type": "word",
+                "start": 234,
+                "end": 255,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7813,
+                "type": "word",
+                "start": 256,
+                "end": 261,
+                "value": "class"
+            },
+            {
+                "time": 8658,
+                "type": "word",
+                "start": 262,
+                "end": 283,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8940,
+                "type": "word",
+                "start": 284,
+                "end": 288,
+                "value": "with"
+            },
+            {
+                "time": 9339,
+                "type": "word",
+                "start": 289,
+                "end": 310,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9601,
+                "type": "word",
+                "start": 311,
+                "end": 320,
+                "value": "different"
+            },
+            {
+                "time": 10284,
+                "type": "word",
+                "start": 321,
+                "end": 342,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10541,
+                "type": "word",
+                "start": 343,
+                "end": 348,
+                "value": "flags"
+            },
+            {
+                "time": 11318,
+                "type": "word",
+                "start": 350,
+                "end": 371,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12085,
+                "type": "word",
+                "start": 372,
+                "end": 375,
+                "value": "Get"
+            },
+            {
+                "time": 12575,
+                "type": "word",
+                "start": 376,
+                "end": 397,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12806,
+                "type": "word",
+                "start": 398,
+                "end": 401,
+                "value": "the"
+            },
+            {
+                "time": 13367,
+                "type": "word",
+                "start": 402,
+                "end": 423,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13624,
+                "type": "word",
+                "start": 424,
+                "end": 432,
+                "value": "students"
+            },
+            {
+                "time": 14469,
+                "type": "word",
+                "start": 433,
+                "end": 454,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14751,
+                "type": "word",
+                "start": 455,
+                "end": 457,
+                "value": "to"
+            },
+            {
+                "time": 15239,
+                "type": "word",
+                "start": 458,
+                "end": 479,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15514,
+                "type": "word",
+                "start": 480,
+                "end": 485,
+                "value": "dress"
+            },
+            {
+                "time": 16167,
+                "type": "word",
+                "start": 486,
+                "end": 507,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16454,
+                "type": "word",
+                "start": 508,
+                "end": 510,
+                "value": "up"
+            },
+            {
+                "time": 16719,
+                "type": "word",
+                "start": 511,
+                "end": 532,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17000,
+                "type": "word",
+                "start": 533,
+                "end": 545,
+                "value": "representing"
+            },
+            {
+                "time": 18057,
+                "type": "word",
+                "start": 546,
+                "end": 567,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18319,
+                "type": "word",
+                "start": 568,
+                "end": 577,
+                "value": "different"
+            },
+            {
+                "time": 18993,
+                "type": "word",
+                "start": 578,
+                "end": 599,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 19256,
+                "type": "word",
+                "start": 600,
+                "end": 609,
+                "value": "countries"
+            },
+            {
+                "time": 20064,
+                "type": "word",
+                "start": 611,
+                "end": 632,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 20844,
+                "type": "word",
+                "start": 633,
+                "end": 638,
+                "value": "After"
+            },
+            {
+                "time": 21412,
+                "type": "word",
+                "start": 639,
+                "end": 660,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 21737,
+                "type": "word",
+                "start": 661,
+                "end": 664,
+                "value": "you"
+            },
+            {
+                "time": 22119,
+                "type": "word",
+                "start": 665,
+                "end": 686,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 22425,
+                "type": "word",
+                "start": 687,
+                "end": 696,
+                "value": "introduce"
+            },
+            {
+                "time": 23233,
+                "type": "word",
+                "start": 697,
+                "end": 718,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 23477,
+                "type": "word",
+                "start": 719,
+                "end": 722,
+                "value": "the"
+            },
+            {
+                "time": 23915,
+                "type": "word",
+                "start": 723,
+                "end": 744,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 24172,
+                "type": "word",
+                "start": 745,
+                "end": 751,
+                "value": "lesson"
+            },
+            {
+                "time": 24826,
+                "type": "word",
+                "start": 753,
+                "end": 774,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 25144,
+                "type": "word",
+                "start": 775,
+                "end": 778,
+                "value": "get"
+            },
+            {
+                "time": 25672,
+                "type": "word",
+                "start": 779,
+                "end": 800,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 25941,
+                "type": "word",
+                "start": 801,
+                "end": 805,
+                "value": "them"
+            },
+            {
+                "time": 26379,
+                "type": "word",
+                "start": 806,
+                "end": 827,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 26635,
+                "type": "word",
+                "start": 828,
+                "end": 830,
+                "value": "to"
+            },
+            {
+                "time": 27179,
+                "type": "word",
+                "start": 831,
+                "end": 852,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 27479,
+                "type": "word",
+                "start": 853,
+                "end": 859,
+                "value": "mingle"
+            },
+            {
+                "time": 28034,
+                "type": "word",
+                "start": 860,
+                "end": 881,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 28284,
+                "type": "word",
+                "start": 882,
+                "end": 887,
+                "value": "round"
+            },
+            {
+                "time": 29019,
+                "type": "word",
+                "start": 888,
+                "end": 909,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 29281,
+                "type": "word",
+                "start": 910,
+                "end": 913,
+                "value": "the"
+            },
+            {
+                "time": 29637,
+                "type": "word",
+                "start": 914,
+                "end": 935,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 29855,
+                "type": "word",
+                "start": 936,
+                "end": 941,
+                "value": "class"
+            },
+            {
+                "time": 30621,
+                "type": "word",
+                "start": 942,
+                "end": 963,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 30884,
+                "type": "word",
+                "start": 964,
+                "end": 972,
+                "value": "greeting"
+            },
+            {
+                "time": 31628,
+                "type": "word",
+                "start": 973,
+                "end": 994,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 31884,
+                "type": "word",
+                "start": 995,
+                "end": 999,
+                "value": "each"
+            },
+            {
+                "time": 32329,
+                "type": "word",
+                "start": 1000,
+                "end": 1021,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 32592,
+                "type": "word",
+                "start": 1022,
+                "end": 1027,
+                "value": "other"
+            },
+            {
+                "time": 33109,
+                "type": "word",
+                "start": 1029,
+                "end": 1050,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

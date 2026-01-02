@@ -1,0 +1,228 @@
+{
+    "0": {
+        "text": "6 Healthy living",
+        "words": [
+            "6",
+            "Healthy",
+            "living"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    99.31880187988281,
+                    189.82228088378906
+                ],
+                [
+                    128.69480895996094,
+                    246.9902801513672
+                ]
+            ],
+            [
+                [
+                    195.7440948486328,
+                    174.30239868164062
+                ],
+                [
+                    328.72808837890625,
+                    217.17840576171875
+                ]
+            ],
+            [
+                [
+                    337.36810302734375,
+                    174.30239868164062
+                ],
+                [
+                    426.8280944824219,
+                    217.17840576171875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>6 <break time='200ms'/> Healthy <break time='200ms'/> living <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "6"
+            },
+            {
+                "time": 737,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1030,
+                "type": "word",
+                "start": 52,
+                "end": 59,
+                "value": "Healthy"
+            },
+            {
+                "time": 1705,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1967,
+                "type": "word",
+                "start": 82,
+                "end": 88,
+                "value": "living"
+            },
+            {
+                "time": 2616,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Lesson 1 Read and match.",
+        "words": [
+            "Lesson",
+            "1",
+            "Read",
+            "and",
+            "match."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    80.50389862060547,
+                    259.7638854980469
+                ],
+                [
+                    149.9138946533203,
+                    285.96588134765625
+                ]
+            ],
+            [
+                [
+                    154.3138885498047,
+                    259.7638854980469
+                ],
+                [
+                    163.6638946533203,
+                    285.96588134765625
+                ]
+            ],
+            [
+                [
+                    80.50389862060547,
+                    292.6978759765625
+                ],
+                [
+                    132.92990112304688,
+                    318.8998718261719
+                ]
+            ],
+            [
+                [
+                    138.42990112304688,
+                    292.6978759765625
+                ],
+                [
+                    179.0419158935547,
+                    318.8998718261719
+                ]
+            ],
+            [
+                [
+                    184.5419158935547,
+                    292.6978759765625
+                ],
+                [
+                    260.5519104003906,
+                    318.8998718261719
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Lesson <break time='200ms'/> 1 <break time='200ms'/> Read <break time='200ms'/> and <break time='200ms'/> match. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "Lesson"
+            },
+            {
+                "time": 740,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1033,
+                "type": "word",
+                "start": 57,
+                "end": 58,
+                "value": "1"
+            },
+            {
+                "time": 1604,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1885,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "Read"
+            },
+            {
+                "time": 2492,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2748,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "and"
+            },
+            {
+                "time": 3312,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3587,
+                "type": "word",
+                "start": 134,
+                "end": 139,
+                "value": "match"
+            },
+            {
+                "time": 4255,
+                "type": "word",
+                "start": 141,
+                "end": 162,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

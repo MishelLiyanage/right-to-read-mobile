@@ -1,0 +1,64 @@
+{
+    "0": {
+        "text": "park",
+        "words": [
+            "park"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    344.37921142578125,
+                    131.26388549804688
+                ],
+                [
+                    386.19921875,
+                    155.08389282226562
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>park</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "park"
+            }
+        ]
+    },
+    "1": {
+        "text": "star",
+        "words": [
+            "star"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    347.7090148925781,
+                    317.9705810546875
+                ],
+                [
+                    382.8690185546875,
+                    341.79058837890625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>star</prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "star"
+            }
+        ]
+    }
+}
