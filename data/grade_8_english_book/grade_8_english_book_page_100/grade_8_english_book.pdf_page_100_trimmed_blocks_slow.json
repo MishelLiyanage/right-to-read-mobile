@@ -1,0 +1,5489 @@
+{
+    "0": {
+        "text": "Sahan: Ah! Sounds interesting. When will the exhibition be held?",
+        "words": [
+            "Sahan:",
+            "Ah!",
+            "Sounds",
+            "interesting.",
+            "When",
+            "will",
+            "the",
+            "exhibition",
+            "be",
+            "held?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    49.28567123413086
+                ],
+                [
+                    111.01299285888672,
+                    67.27767181396484
+                ]
+            ],
+            [
+                [
+                    174.00399780273438,
+                    49.49367141723633
+                ],
+                [
+                    194.218994140625,
+                    67.00466918945312
+                ]
+            ],
+            [
+                [
+                    200.95298767089844,
+                    49.49367141723633
+                ],
+                [
+                    239.2379913330078,
+                    67.00466918945312
+                ]
+            ],
+            [
+                [
+                    245.97198486328125,
+                    49.49367141723633
+                ],
+                [
+                    304.1080627441406,
+                    67.00466918945312
+                ]
+            ],
+            [
+                [
+                    310.5976867675781,
+                    49.49367141723633
+                ],
+                [
+                    341.6416931152344,
+                    67.00466918945312
+                ]
+            ],
+            [
+                [
+                    174.0,
+                    65.09358978271484
+                ],
+                [
+                    194.22799682617188,
+                    82.60458374023438
+                ]
+            ],
+            [
+                [
+                    197.47799682617188,
+                    65.09358978271484
+                ],
+                [
+                    213.36399841308594,
+                    82.60458374023438
+                ]
+            ],
+            [
+                [
+                    216.61399841308594,
+                    65.09358978271484
+                ],
+                [
+                    269.3420104980469,
+                    82.60458374023438
+                ]
+            ],
+            [
+                [
+                    272.5920104980469,
+                    65.09358978271484
+                ],
+                [
+                    284.864013671875,
+                    82.60458374023438
+                ]
+            ],
+            [
+                [
+                    288.114013671875,
+                    65.09358978271484
+                ],
+                [
+                    316.27203369140625,
+                    82.60458374023438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>: <break time='200ms'/> Ah! <break time='200ms'/> Sounds <break time='200ms'/> interesting. <break time='200ms'/> When <break time='200ms'/> will <break time='200ms'/> the <break time='200ms'/> exhibition <break time='200ms'/> be <break time='200ms'/> held? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Sahan"
+            },
+            {
+                "time": 1019,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1363,
+                "type": "word",
+                "start": 102,
+                "end": 104,
+                "value": "Ah"
+            },
+            {
+                "time": 2048,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2815,
+                "type": "word",
+                "start": 128,
+                "end": 134,
+                "value": "Sounds"
+            },
+            {
+                "time": 3547,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3791,
+                "type": "word",
+                "start": 157,
+                "end": 168,
+                "value": "interesting"
+            },
+            {
+                "time": 4920,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5625,
+                "type": "word",
+                "start": 192,
+                "end": 196,
+                "value": "When"
+            },
+            {
+                "time": 6083,
+                "type": "word",
+                "start": 197,
+                "end": 218,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6389,
+                "type": "word",
+                "start": 219,
+                "end": 223,
+                "value": "will"
+            },
+            {
+                "time": 7238,
+                "type": "word",
+                "start": 224,
+                "end": 245,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7644,
+                "type": "word",
+                "start": 246,
+                "end": 249,
+                "value": "the"
+            },
+            {
+                "time": 8114,
+                "type": "word",
+                "start": 250,
+                "end": 271,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8433,
+                "type": "word",
+                "start": 272,
+                "end": 282,
+                "value": "exhibition"
+            },
+            {
+                "time": 9355,
+                "type": "word",
+                "start": 283,
+                "end": 304,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9742,
+                "type": "word",
+                "start": 305,
+                "end": 307,
+                "value": "be"
+            },
+            {
+                "time": 10240,
+                "type": "word",
+                "start": 308,
+                "end": 329,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10540,
+                "type": "word",
+                "start": 330,
+                "end": 334,
+                "value": "held"
+            },
+            {
+                "time": 11317,
+                "type": "word",
+                "start": 336,
+                "end": 357,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "1": {
+        "text": "Event Manager: It will be held from 12th to",
+        "words": [
+            "Event",
+            "Manager:",
+            "It",
+            "will",
+            "be",
+            "held",
+            "from",
+            "12th",
+            "to"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    87.0025863647461
+                ],
+                [
+                    105.28780364990234,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    108.1478042602539,
+                    87.0025863647461
+                ],
+                [
+                    164.20379638671875,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    173.9980010986328,
+                    87.0025863647461
+                ],
+                [
+                    183.29299926757812,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    186.1529998779297,
+                    87.0025863647461
+                ],
+                [
+                    208.61700439453125,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    211.4770050048828,
+                    87.0025863647461
+                ],
+                [
+                    226.06300354003906,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    228.92300415039062,
+                    87.0025863647461
+                ],
+                [
+                    255.3520050048828,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    258.2120056152344,
+                    87.0025863647461
+                ],
+                [
+                    287.2462463378906,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    290.1062316894531,
+                    87.0025863647461
+                ],
+                [
+                    312.8080749511719,
+                    104.5005874633789
+                ]
+            ],
+            [
+                [
+                    315.66741943359375,
+                    87.0025863647461
+                ],
+                [
+                    327.6352233886719,
+                    104.5005874633789
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Event <break time='200ms'/> Manager: <break time='200ms'/> It <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> held <break time='200ms'/> from <break time='200ms'/> 12th <break time='200ms'/> to <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Event"
+            },
+            {
+                "time": 753,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1047,
+                "type": "word",
+                "start": 56,
+                "end": 63,
+                "value": "Manager"
+            },
+            {
+                "time": 2072,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2304,
+                "type": "word",
+                "start": 87,
+                "end": 89,
+                "value": "It"
+            },
+            {
+                "time": 3024,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3318,
+                "type": "word",
+                "start": 112,
+                "end": 116,
+                "value": "will"
+            },
+            {
+                "time": 3934,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4184,
+                "type": "word",
+                "start": 139,
+                "end": 141,
+                "value": "be"
+            },
+            {
+                "time": 4977,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5221,
+                "type": "word",
+                "start": 164,
+                "end": 168,
+                "value": "held"
+            },
+            {
+                "time": 6187,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6544,
+                "type": "word",
+                "start": 191,
+                "end": 195,
+                "value": "from"
+            },
+            {
+                "time": 7181,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7437,
+                "type": "word",
+                "start": 218,
+                "end": 222,
+                "value": "12th"
+            },
+            {
+                "time": 8526,
+                "type": "word",
+                "start": 223,
+                "end": 244,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8745,
+                "type": "word",
+                "start": 245,
+                "end": 247,
+                "value": "to"
+            },
+            {
+                "time": 9486,
+                "type": "word",
+                "start": 248,
+                "end": 269,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "2": {
+        "text": "15th June. We are open from 9.00 a.m. to 6.00 p.m.",
+        "words": [
+            "15th",
+            "June.",
+            "We",
+            "are",
+            "open",
+            "from",
+            "9.00",
+            "a.m.",
+            "to",
+            "6.00",
+            "p.m."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    174.0,
+                    103.0025863647461
+                ],
+                [
+                    196.69039916992188,
+                    120.5005874633789
+                ]
+            ],
+            [
+                [
+                    199.5498046875,
+                    103.0025863647461
+                ],
+                [
+                    229.38092041015625,
+                    120.5005874633789
+                ]
+            ],
+            [
+                [
+                    232.24020385742188,
+                    106.21358489990234
+                ],
+                [
+                    249.80320739746094,
+                    119.21358489990234
+                ]
+            ],
+            [
+                [
+                    252.6632080078125,
+                    106.21358489990234
+                ],
+                [
+                    270.540771484375,
+                    119.21358489990234
+                ]
+            ],
+            [
+                [
+                    273.4007568359375,
+                    106.21358489990234
+                ],
+                [
+                    301.1297607421875,
+                    119.21358489990234
+                ]
+            ],
+            [
+                [
+                    303.98974609375,
+                    106.21358489990234
+                ],
+                [
+                    330.8308410644531,
+                    119.21358489990234
+                ]
+            ],
+            [
+                [
+                    174.0,
+                    122.21358489990234
+                ],
+                [
+                    198.27098083496094,
+                    135.21359252929688
+                ]
+            ],
+            [
+                [
+                    201.1309814453125,
+                    122.21358489990234
+                ],
+                [
+                    223.62095642089844,
+                    135.21359252929688
+                ]
+            ],
+            [
+                [
+                    226.48095703125,
+                    122.21358489990234
+                ],
+                [
+                    237.67005920410156,
+                    135.21359252929688
+                ]
+            ],
+            [
+                [
+                    240.53005981445312,
+                    122.21358489990234
+                ],
+                [
+                    264.8010559082031,
+                    135.21359252929688
+                ]
+            ],
+            [
+                [
+                    267.6610412597656,
+                    122.21358489990234
+                ],
+                [
+                    291.0350646972656,
+                    135.21359252929688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>15th <break time='200ms'/> June. <break time='200ms'/> We <break time='200ms'/> are <break time='200ms'/> open <break time='200ms'/> from <break time='200ms'/> 9.00 <break time='200ms'/> a.m. <break time='200ms'/> to <break time='200ms'/> 6.00 <break time='200ms'/> p.m. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "15th"
+            },
+            {
+                "time": 1146,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1496,
+                "type": "word",
+                "start": 55,
+                "end": 59,
+                "value": "June"
+            },
+            {
+                "time": 2179,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2884,
+                "type": "word",
+                "start": 83,
+                "end": 85,
+                "value": "We"
+            },
+            {
+                "time": 3310,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3585,
+                "type": "word",
+                "start": 108,
+                "end": 111,
+                "value": "are"
+            },
+            {
+                "time": 4558,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4889,
+                "type": "word",
+                "start": 134,
+                "end": 138,
+                "value": "open"
+            },
+            {
+                "time": 5509,
+                "type": "word",
+                "start": 139,
+                "end": 160,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5809,
+                "type": "word",
+                "start": 161,
+                "end": 165,
+                "value": "from"
+            },
+            {
+                "time": 6773,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7142,
+                "type": "word",
+                "start": 188,
+                "end": 192,
+                "value": "9.00"
+            },
+            {
+                "time": 9428,
+                "type": "word",
+                "start": 193,
+                "end": 214,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9696,
+                "type": "word",
+                "start": 215,
+                "end": 218,
+                "value": "a.m"
+            },
+            {
+                "time": 10572,
+                "type": "word",
+                "start": 220,
+                "end": 241,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10822,
+                "type": "word",
+                "start": 242,
+                "end": 244,
+                "value": "to"
+            },
+            {
+                "time": 11641,
+                "type": "word",
+                "start": 245,
+                "end": 266,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11941,
+                "type": "word",
+                "start": 267,
+                "end": 271,
+                "value": "6.00"
+            },
+            {
+                "time": 14156,
+                "type": "word",
+                "start": 272,
+                "end": 293,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14400,
+                "type": "word",
+                "start": 294,
+                "end": 297,
+                "value": "p.m"
+            },
+            {
+                "time": 15330,
+                "type": "word",
+                "start": 299,
+                "end": 320,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "3": {
+        "text": "Sahan: How much is a ticket?",
+        "words": [
+            "Sahan:",
+            "How",
+            "much",
+            "is",
+            "a",
+            "ticket?"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    141.00257873535156
+                ],
+                [
+                    111.92950439453125,
+                    158.50057983398438
+                ]
+            ],
+            [
+                [
+                    173.9954071044922,
+                    144.21359252929688
+                ],
+                [
+                    199.818603515625,
+                    157.21359252929688
+                ]
+            ],
+            [
+                [
+                    202.67860412597656,
+                    144.21359252929688
+                ],
+                [
+                    233.57958984375,
+                    157.21359252929688
+                ]
+            ],
+            [
+                [
+                    236.43959045410156,
+                    144.21359252929688
+                ],
+                [
+                    245.64358520507812,
+                    157.21359252929688
+                ]
+            ],
+            [
+                [
+                    248.5035858154297,
+                    144.21359252929688
+                ],
+                [
+                    254.8475799560547,
+                    157.21359252929688
+                ]
+            ],
+            [
+                [
+                    257.70758056640625,
+                    144.21359252929688
+                ],
+                [
+                    294.2831115722656,
+                    157.21359252929688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>: <break time='200ms'/> How <break time='200ms'/> much <break time='200ms'/> is <break time='200ms'/> a <break time='200ms'/> ticket? <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Sahan"
+            },
+            {
+                "time": 1019,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1363,
+                "type": "word",
+                "start": 102,
+                "end": 105,
+                "value": "How"
+            },
+            {
+                "time": 2107,
+                "type": "word",
+                "start": 106,
+                "end": 127,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2501,
+                "type": "word",
+                "start": 128,
+                "end": 132,
+                "value": "much"
+            },
+            {
+                "time": 3171,
+                "type": "word",
+                "start": 133,
+                "end": 154,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3552,
+                "type": "word",
+                "start": 155,
+                "end": 157,
+                "value": "is"
+            },
+            {
+                "time": 4091,
+                "type": "word",
+                "start": 158,
+                "end": 179,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4447,
+                "type": "word",
+                "start": 180,
+                "end": 181,
+                "value": "a"
+            },
+            {
+                "time": 4773,
+                "type": "word",
+                "start": 182,
+                "end": 203,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5023,
+                "type": "word",
+                "start": 204,
+                "end": 210,
+                "value": "ticket"
+            },
+            {
+                "time": 5953,
+                "type": "word",
+                "start": 212,
+                "end": 233,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "4": {
+        "text": "Event Manager: Fifty rupees for adults and",
+        "words": [
+            "Event",
+            "Manager:",
+            "Fifty",
+            "rupees",
+            "for",
+            "adults",
+            "and"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    163.00270080566406
+                ],
+                [
+                    105.28780364990234,
+                    180.50070190429688
+                ]
+            ],
+            [
+                [
+                    108.1478042602539,
+                    163.00270080566406
+                ],
+                [
+                    164.20379638671875,
+                    180.50070190429688
+                ]
+            ],
+            [
+                [
+                    174.001708984375,
+                    166.21371459960938
+                ],
+                [
+                    199.48170471191406,
+                    179.21371459960938
+                ]
+            ],
+            [
+                [
+                    207.36361694335938,
+                    166.21371459960938
+                ],
+                [
+                    245.42759704589844,
+                    179.21371459960938
+                ]
+            ],
+            [
+                [
+                    253.30560302734375,
+                    166.21371459960938
+                ],
+                [
+                    269.3670959472656,
+                    179.21371459960938
+                ]
+            ],
+            [
+                [
+                    277.2476806640625,
+                    166.21371459960938
+                ],
+                [
+                    311.48968505859375,
+                    179.21371459960938
+                ]
+            ],
+            [
+                [
+                    319.38848876953125,
+                    166.21371459960938
+                ],
+                [
+                    340.20147705078125,
+                    179.21371459960938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Event <break time='200ms'/> Manager: <break time='200ms'/> Fifty <break time='200ms'/> rupees <break time='200ms'/> for <break time='200ms'/> adults <break time='200ms'/> and <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Event"
+            },
+            {
+                "time": 799,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1061,
+                "type": "word",
+                "start": 56,
+                "end": 63,
+                "value": "Manager"
+            },
+            {
+                "time": 2155,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2455,
+                "type": "word",
+                "start": 87,
+                "end": 92,
+                "value": "Fifty"
+            },
+            {
+                "time": 3176,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3470,
+                "type": "word",
+                "start": 115,
+                "end": 121,
+                "value": "rupees"
+            },
+            {
+                "time": 4705,
+                "type": "word",
+                "start": 122,
+                "end": 143,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5023,
+                "type": "word",
+                "start": 144,
+                "end": 147,
+                "value": "for"
+            },
+            {
+                "time": 5706,
+                "type": "word",
+                "start": 148,
+                "end": 169,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6068,
+                "type": "word",
+                "start": 170,
+                "end": 176,
+                "value": "adults"
+            },
+            {
+                "time": 6950,
+                "type": "word",
+                "start": 177,
+                "end": 198,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7207,
+                "type": "word",
+                "start": 199,
+                "end": 202,
+                "value": "and"
+            },
+            {
+                "time": 8088,
+                "type": "word",
+                "start": 203,
+                "end": 224,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "5": {
+        "text": "twenty for children. Tickets will be sold at the entrance.",
+        "words": [
+            "twenty",
+            "for",
+            "children.",
+            "Tickets",
+            "will",
+            "be",
+            "sold",
+            "at",
+            "the",
+            "entrance."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    174.0,
+                    182.21371459960938
+                ],
+                [
+                    212.8452911376953,
+                    195.21371459960938
+                ]
+            ],
+            [
+                [
+                    219.1866912841797,
+                    182.21371459960938
+                ],
+                [
+                    235.24818420410156,
+                    195.21371459960938
+                ]
+            ],
+            [
+                [
+                    241.5791778564453,
+                    182.21371459960938
+                ],
+                [
+                    290.28497314453125,
+                    195.21371459960938
+                ]
+            ],
+            [
+                [
+                    296.6234130859375,
+                    179.00270080566406
+                ],
+                [
+                    340.2007751464844,
+                    196.50070190429688
+                ]
+            ],
+            [
+                [
+                    174.0,
+                    195.00270080566406
+                ],
+                [
+                    196.4639892578125,
+                    212.50070190429688
+                ]
+            ],
+            [
+                [
+                    199.32398986816406,
+                    195.00270080566406
+                ],
+                [
+                    213.9099884033203,
+                    212.50070190429688
+                ]
+            ],
+            [
+                [
+                    216.76998901367188,
+                    195.00270080566406
+                ],
+                [
+                    241.89898681640625,
+                    212.50070190429688
+                ]
+            ],
+            [
+                [
+                    244.7589874267578,
+                    195.00270080566406
+                ],
+                [
+                    256.458984375,
+                    212.50070190429688
+                ]
+            ],
+            [
+                [
+                    259.3189697265625,
+                    195.00270080566406
+                ],
+                [
+                    278.72796630859375,
+                    212.50070190429688
+                ]
+            ],
+            [
+                [
+                    281.58795166015625,
+                    195.00270080566406
+                ],
+                [
+                    337.49700927734375,
+                    212.50070190429688
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>twenty <break time='200ms'/> for <break time='200ms'/> children. <break time='200ms'/> Tickets <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> sold <break time='200ms'/> at <break time='200ms'/> the <break time='200ms'/> entrance. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 62,
+                "type": "word",
+                "start": 28,
+                "end": 34,
+                "value": "twenty"
+            },
+            {
+                "time": 628,
+                "type": "word",
+                "start": 35,
+                "end": 56,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 860,
+                "type": "word",
+                "start": 57,
+                "end": 60,
+                "value": "for"
+            },
+            {
+                "time": 1807,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2113,
+                "type": "word",
+                "start": 83,
+                "end": 91,
+                "value": "children"
+            },
+            {
+                "time": 2890,
+                "type": "word",
+                "start": 93,
+                "end": 114,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3533,
+                "type": "word",
+                "start": 115,
+                "end": 122,
+                "value": "Tickets"
+            },
+            {
+                "time": 4608,
+                "type": "word",
+                "start": 123,
+                "end": 144,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4889,
+                "type": "word",
+                "start": 145,
+                "end": 149,
+                "value": "will"
+            },
+            {
+                "time": 5563,
+                "type": "word",
+                "start": 150,
+                "end": 171,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5794,
+                "type": "word",
+                "start": 172,
+                "end": 174,
+                "value": "be"
+            },
+            {
+                "time": 6553,
+                "type": "word",
+                "start": 175,
+                "end": 196,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6778,
+                "type": "word",
+                "start": 197,
+                "end": 201,
+                "value": "sold"
+            },
+            {
+                "time": 7912,
+                "type": "word",
+                "start": 202,
+                "end": 223,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8205,
+                "type": "word",
+                "start": 224,
+                "end": 226,
+                "value": "at"
+            },
+            {
+                "time": 8755,
+                "type": "word",
+                "start": 227,
+                "end": 248,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9061,
+                "type": "word",
+                "start": 249,
+                "end": 252,
+                "value": "the"
+            },
+            {
+                "time": 9688,
+                "type": "word",
+                "start": 253,
+                "end": 274,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10026,
+                "type": "word",
+                "start": 275,
+                "end": 283,
+                "value": "entrance"
+            },
+            {
+                "time": 10920,
+                "type": "word",
+                "start": 285,
+                "end": 306,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "6": {
+        "text": "Sahan: Thank you.",
+        "words": [
+            "Sahan:",
+            "Thank",
+            "you."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    217.00270080566406
+                ],
+                [
+                    111.92950439453125,
+                    234.50070190429688
+                ]
+            ],
+            [
+                [
+                    173.9954071044922,
+                    220.21371459960938
+                ],
+                [
+                    209.29039001464844,
+                    233.21371459960938
+                ]
+            ],
+            [
+                [
+                    212.150390625,
+                    220.21371459960938
+                ],
+                [
+                    235.1980743408203,
+                    233.21371459960938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'><phoneme alphabet='ipa' ph='sahan'>Sahan</phoneme>: <break time='200ms'/> Thank <break time='200ms'/> you. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "young boy",
+        "voice_id": "Justin",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 63,
+                "end": 68,
+                "value": "Sahan"
+            },
+            {
+                "time": 1019,
+                "type": "word",
+                "start": 80,
+                "end": 101,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1363,
+                "type": "word",
+                "start": 102,
+                "end": 107,
+                "value": "Thank"
+            },
+            {
+                "time": 2079,
+                "type": "word",
+                "start": 108,
+                "end": 129,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2323,
+                "type": "word",
+                "start": 130,
+                "end": 133,
+                "value": "you"
+            },
+            {
+                "time": 3082,
+                "type": "word",
+                "start": 135,
+                "end": 156,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "7": {
+        "text": "Event Manager: You're welcome.",
+        "words": [
+            "Event",
+            "Manager:",
+            "You're",
+            "welcome."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    239.00270080566406
+                ],
+                [
+                    105.28780364990234,
+                    256.5007019042969
+                ]
+            ],
+            [
+                [
+                    108.1478042602539,
+                    239.00270080566406
+                ],
+                [
+                    164.20379638671875,
+                    256.5007019042969
+                ]
+            ],
+            [
+                [
+                    174.001708984375,
+                    242.21371459960938
+                ],
+                [
+                    208.75721740722656,
+                    255.21371459960938
+                ]
+            ],
+            [
+                [
+                    211.61721801757812,
+                    242.21371459960938
+                ],
+                [
+                    263.8486022949219,
+                    255.21371459960938
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Event <break time='200ms'/> Manager: <break time='200ms'/> You're <break time='200ms'/> welcome. <break time='200ms'/></prosody></speak>",
+        "dialog": "true",
+        "person_type": "middle aged man",
+        "voice_id": "Joey",
+        "timing": [
+            {
+                "time": 125,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "Event"
+            },
+            {
+                "time": 822,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1185,
+                "type": "word",
+                "start": 56,
+                "end": 63,
+                "value": "Manager"
+            },
+            {
+                "time": 1987,
+                "type": "word",
+                "start": 65,
+                "end": 86,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2256,
+                "type": "word",
+                "start": 87,
+                "end": 93,
+                "value": "You're"
+            },
+            {
+                "time": 2952,
+                "type": "word",
+                "start": 94,
+                "end": 115,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3221,
+                "type": "word",
+                "start": 116,
+                "end": 123,
+                "value": "welcome"
+            },
+            {
+                "time": 4348,
+                "type": "word",
+                "start": 125,
+                "end": 146,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "8": {
+        "text": "Read the conversation and complete the table given in activity 1 of the Workbook Unit 8.",
+        "words": [
+            "Read",
+            "the",
+            "conversation",
+            "and",
+            "complete",
+            "the",
+            "table",
+            "given",
+            "in",
+            "activity",
+            "1",
+            "of",
+            "the",
+            "Workbook",
+            "Unit",
+            "8."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    267.08001708984375
+                ],
+                [
+                    99.74200439453125,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    103.69400787353516,
+                    267.08001708984375
+                ],
+                [
+                    121.6080093383789,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    125.55351257324219,
+                    267.08001708984375
+                ],
+                [
+                    197.31349182128906,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    201.2563934326172,
+                    267.08001708984375
+                ],
+                [
+                    222.0693817138672,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    226.02137756347656,
+                    267.08001708984375
+                ],
+                [
+                    277.198486328125,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    281.1504821777344,
+                    267.08001708984375
+                ],
+                [
+                    299.0644836425781,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    303.0164794921875,
+                    267.08001708984375
+                ],
+                [
+                    330.73248291015625,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    334.7013854980469,
+                    267.08001708984375
+                ],
+                [
+                    364.3713073730469,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    368.32330322265625,
+                    267.08001708984375
+                ],
+                [
+                    379.1913146972656,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    383.143310546875,
+                    267.08001708984375
+                ],
+                [
+                    424.0855712890625,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    428.0375671386719,
+                    267.08001708984375
+                ],
+                [
+                    435.23956298828125,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    439.18505859375,
+                    267.08001708984375
+                ],
+                [
+                    450.0270690917969,
+                    280.08001708984375
+                ]
+            ],
+            [
+                [
+                    72.0,
+                    283.08001708984375
+                ],
+                [
+                    89.91400146484375,
+                    296.08001708984375
+                ]
+            ],
+            [
+                [
+                    92.77400207519531,
+                    283.08001708984375
+                ],
+                [
+                    150.63050842285156,
+                    296.08001708984375
+                ]
+            ],
+            [
+                [
+                    153.49050903320312,
+                    283.08001708984375
+                ],
+                [
+                    177.17649841308594,
+                    296.08001708984375
+                ]
+            ],
+            [
+                [
+                    180.0364990234375,
+                    283.08001708984375
+                ],
+                [
+                    189.9034881591797,
+                    296.08001708984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> the <break time='200ms'/> conversation <break time='200ms'/> and <break time='200ms'/> complete <break time='200ms'/> the <break time='200ms'/> table <break time='200ms'/> given <break time='200ms'/> in <break time='200ms'/> activity <break time='200ms'/> 1 <break time='200ms'/> of <break time='200ms'/> the <break time='200ms'/> Workbook <break time='200ms'/> Unit <break time='200ms'/> 8. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 677,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 908,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "the"
+            },
+            {
+                "time": 1398,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1630,
+                "type": "word",
+                "start": 81,
+                "end": 93,
+                "value": "conversation"
+            },
+            {
+                "time": 2794,
+                "type": "word",
+                "start": 94,
+                "end": 115,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3087,
+                "type": "word",
+                "start": 116,
+                "end": 119,
+                "value": "and"
+            },
+            {
+                "time": 3517,
+                "type": "word",
+                "start": 120,
+                "end": 141,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3779,
+                "type": "word",
+                "start": 142,
+                "end": 150,
+                "value": "complete"
+            },
+            {
+                "time": 4527,
+                "type": "word",
+                "start": 151,
+                "end": 172,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4770,
+                "type": "word",
+                "start": 173,
+                "end": 176,
+                "value": "the"
+            },
+            {
+                "time": 5279,
+                "type": "word",
+                "start": 177,
+                "end": 198,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5529,
+                "type": "word",
+                "start": 199,
+                "end": 204,
+                "value": "table"
+            },
+            {
+                "time": 6127,
+                "type": "word",
+                "start": 205,
+                "end": 226,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6389,
+                "type": "word",
+                "start": 227,
+                "end": 232,
+                "value": "given"
+            },
+            {
+                "time": 7005,
+                "type": "word",
+                "start": 233,
+                "end": 254,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7255,
+                "type": "word",
+                "start": 255,
+                "end": 257,
+                "value": "in"
+            },
+            {
+                "time": 7670,
+                "type": "word",
+                "start": 258,
+                "end": 279,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7964,
+                "type": "word",
+                "start": 280,
+                "end": 288,
+                "value": "activity"
+            },
+            {
+                "time": 8807,
+                "type": "word",
+                "start": 289,
+                "end": 310,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9101,
+                "type": "word",
+                "start": 311,
+                "end": 312,
+                "value": "1"
+            },
+            {
+                "time": 9563,
+                "type": "word",
+                "start": 313,
+                "end": 334,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9813,
+                "type": "word",
+                "start": 335,
+                "end": 337,
+                "value": "of"
+            },
+            {
+                "time": 10411,
+                "type": "word",
+                "start": 338,
+                "end": 359,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10674,
+                "type": "word",
+                "start": 360,
+                "end": 363,
+                "value": "the"
+            },
+            {
+                "time": 11051,
+                "type": "word",
+                "start": 364,
+                "end": 385,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11307,
+                "type": "word",
+                "start": 386,
+                "end": 394,
+                "value": "Workbook"
+            },
+            {
+                "time": 12094,
+                "type": "word",
+                "start": 395,
+                "end": 416,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12332,
+                "type": "word",
+                "start": 417,
+                "end": 421,
+                "value": "Unit"
+            },
+            {
+                "time": 12968,
+                "type": "word",
+                "start": 422,
+                "end": 443,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13193,
+                "type": "word",
+                "start": 444,
+                "end": 445,
+                "value": "8"
+            },
+            {
+                "time": 13741,
+                "type": "word",
+                "start": 447,
+                "end": 468,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "9": {
+        "text": "Activity 8.2",
+        "words": [
+            "Activity",
+            "8.2"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    302.5150146484375
+                ],
+                [
+                    126.97649383544922,
+                    320.08001708984375
+                ]
+            ],
+            [
+                [
+                    130.87649536132812,
+                    302.5150146484375
+                ],
+                [
+                    151.9364776611328,
+                    320.08001708984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Activity <break time='200ms'/> 8.2 <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 36,
+                "value": "Activity"
+            },
+            {
+                "time": 997,
+                "type": "word",
+                "start": 37,
+                "end": 58,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1322,
+                "type": "word",
+                "start": 59,
+                "end": 62,
+                "value": "8.2"
+            },
+            {
+                "time": 2387,
+                "type": "word",
+                "start": 63,
+                "end": 84,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "10": {
+        "text": "Read the news items aloud.",
+        "words": [
+            "Read",
+            "the",
+            "news",
+            "items",
+            "aloud."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    72.0,
+                    329.08001708984375
+                ],
+                [
+                    99.74200439453125,
+                    342.08001708984375
+                ]
+            ],
+            [
+                [
+                    102.60200500488281,
+                    329.08001708984375
+                ],
+                [
+                    120.51600646972656,
+                    342.08001708984375
+                ]
+            ],
+            [
+                [
+                    123.37600708007812,
+                    329.08001708984375
+                ],
+                [
+                    152.52459716796875,
+                    342.08001708984375
+                ]
+            ],
+            [
+                [
+                    155.3845977783203,
+                    329.08001708984375
+                ],
+                [
+                    186.02947998046875,
+                    342.08001708984375
+                ]
+            ],
+            [
+                [
+                    188.8894805908203,
+                    329.08001708984375
+                ],
+                [
+                    222.7154541015625,
+                    342.08001708984375
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Read <break time='200ms'/> the <break time='200ms'/> news <break time='200ms'/> items <break time='200ms'/> aloud. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "Read"
+            },
+            {
+                "time": 674,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 905,
+                "type": "word",
+                "start": 55,
+                "end": 58,
+                "value": "the"
+            },
+            {
+                "time": 1433,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1702,
+                "type": "word",
+                "start": 81,
+                "end": 85,
+                "value": "news"
+            },
+            {
+                "time": 2315,
+                "type": "word",
+                "start": 86,
+                "end": 107,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2609,
+                "type": "word",
+                "start": 108,
+                "end": 113,
+                "value": "items"
+            },
+            {
+                "time": 3171,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3458,
+                "type": "word",
+                "start": 136,
+                "end": 141,
+                "value": "aloud"
+            },
+            {
+                "time": 4159,
+                "type": "word",
+                "start": 143,
+                "end": 164,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "11": {
+        "text": "ABC Company Ltd. will begin the construction of its new office complex tomorrow. The foundation stone will be laid by",
+        "words": [
+            "ABC",
+            "Company",
+            "Ltd.",
+            "will",
+            "begin",
+            "the",
+            "construction",
+            "of",
+            "its",
+            "new",
+            "office",
+            "complex",
+            "tomorrow.",
+            "The",
+            "foundation",
+            "stone",
+            "will",
+            "be",
+            "laid",
+            "by"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    142.82420349121094,
+                    360.35760498046875
+                ],
+                [
+                    164.38819885253906,
+                    372.35760498046875
+                ]
+            ],
+            [
+                [
+                    167.0281982421875,
+                    360.35760498046875
+                ],
+                [
+                    215.17698669433594,
+                    372.35760498046875
+                ]
+            ],
+            [
+                [
+                    96.64939880371094,
+                    374.75750732421875
+                ],
+                [
+                    116.1637954711914,
+                    386.75750732421875
+                ]
+            ],
+            [
+                [
+                    121.44379425048828,
+                    374.75750732421875
+                ],
+                [
+                    140.57179260253906,
+                    386.75750732421875
+                ]
+            ],
+            [
+                [
+                    143.2117919921875,
+                    374.75750732421875
+                ],
+                [
+                    171.59178161621094,
+                    386.75750732421875
+                ]
+            ],
+            [
+                [
+                    174.23178100585938,
+                    374.75750732421875
+                ],
+                [
+                    190.7677764892578,
+                    386.75750732421875
+                ]
+            ],
+            [
+                [
+                    193.40777587890625,
+                    374.75750732421875
+                ],
+                [
+                    258.3277893066406,
+                    386.75750732421875
+                ]
+            ],
+            [
+                [
+                    84.9657974243164,
+                    389.1575927734375
+                ],
+                [
+                    94.97380065917969,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    97.61380004882812,
+                    389.1575927734375
+                ],
+                [
+                    110.16580200195312,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    112.80580139160156,
+                    389.1575927734375
+                ],
+                [
+                    134.6457977294922,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    137.28579711914062,
+                    389.1575927734375
+                ],
+                [
+                    165.41380310058594,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    170.6938018798828,
+                    389.1575927734375
+                ],
+                [
+                    213.7738037109375,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    216.41380310058594,
+                    389.1575927734375
+                ],
+                [
+                    270.03338623046875,
+                    401.1575927734375
+                ]
+            ],
+            [
+                [
+                    83.0,
+                    400.5935974121094
+                ],
+                [
+                    103.64929962158203,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    106.26529693603516,
+                    400.5935974121094
+                ],
+                [
+                    167.22531127929688,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    169.8509063720703,
+                    400.5935974121094
+                ],
+                [
+                    200.02610778808594,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    202.64210510253906,
+                    400.5935974121094
+                ],
+                [
+                    223.37811279296875,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    226.0133056640625,
+                    400.5935974121094
+                ],
+                [
+                    239.477294921875,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    242.10049438476562,
+                    400.5935974121094
+                ],
+                [
+                    263.14849853515625,
+                    416.74560546875
+                ]
+            ],
+            [
+                [
+                    265.78253173828125,
+                    400.5935974121094
+                ],
+                [
+                    278.9921569824219,
+                    416.74560546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>ABC <break time='200ms'/> Company <break time='200ms'/> Ltd. <break time='200ms'/> will <break time='200ms'/> begin <break time='200ms'/> the <break time='200ms'/> construction <break time='200ms'/> of <break time='200ms'/> its <break time='200ms'/> new <break time='200ms'/> office <break time='200ms'/> complex <break time='200ms'/> tomorrow. <break time='200ms'/> The <break time='200ms'/> foundation <break time='200ms'/> stone <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> laid <break time='200ms'/> by <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "ABC"
+            },
+            {
+                "time": 1061,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1342,
+                "type": "word",
+                "start": 54,
+                "end": 61,
+                "value": "Company"
+            },
+            {
+                "time": 2007,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2276,
+                "type": "word",
+                "start": 84,
+                "end": 88,
+                "value": "Ltd."
+            },
+            {
+                "time": 2990,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3278,
+                "type": "word",
+                "start": 111,
+                "end": 115,
+                "value": "will"
+            },
+            {
+                "time": 3700,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3925,
+                "type": "word",
+                "start": 138,
+                "end": 143,
+                "value": "begin"
+            },
+            {
+                "time": 4655,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4943,
+                "type": "word",
+                "start": 166,
+                "end": 169,
+                "value": "the"
+            },
+            {
+                "time": 5414,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5658,
+                "type": "word",
+                "start": 192,
+                "end": 204,
+                "value": "construction"
+            },
+            {
+                "time": 6704,
+                "type": "word",
+                "start": 205,
+                "end": 226,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7016,
+                "type": "word",
+                "start": 227,
+                "end": 229,
+                "value": "of"
+            },
+            {
+                "time": 7431,
+                "type": "word",
+                "start": 230,
+                "end": 251,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7725,
+                "type": "word",
+                "start": 252,
+                "end": 255,
+                "value": "its"
+            },
+            {
+                "time": 8109,
+                "type": "word",
+                "start": 256,
+                "end": 277,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8403,
+                "type": "word",
+                "start": 278,
+                "end": 281,
+                "value": "new"
+            },
+            {
+                "time": 8955,
+                "type": "word",
+                "start": 282,
+                "end": 303,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9249,
+                "type": "word",
+                "start": 304,
+                "end": 310,
+                "value": "office"
+            },
+            {
+                "time": 9770,
+                "type": "word",
+                "start": 311,
+                "end": 332,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10033,
+                "type": "word",
+                "start": 333,
+                "end": 340,
+                "value": "complex"
+            },
+            {
+                "time": 10900,
+                "type": "word",
+                "start": 341,
+                "end": 362,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11188,
+                "type": "word",
+                "start": 363,
+                "end": 371,
+                "value": "tomorrow"
+            },
+            {
+                "time": 11913,
+                "type": "word",
+                "start": 373,
+                "end": 394,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12681,
+                "type": "word",
+                "start": 395,
+                "end": 398,
+                "value": "The"
+            },
+            {
+                "time": 13031,
+                "type": "word",
+                "start": 399,
+                "end": 420,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13306,
+                "type": "word",
+                "start": 421,
+                "end": 431,
+                "value": "foundation"
+            },
+            {
+                "time": 14488,
+                "type": "word",
+                "start": 432,
+                "end": 453,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14769,
+                "type": "word",
+                "start": 454,
+                "end": 459,
+                "value": "stone"
+            },
+            {
+                "time": 15450,
+                "type": "word",
+                "start": 460,
+                "end": 481,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15719,
+                "type": "word",
+                "start": 482,
+                "end": 486,
+                "value": "will"
+            },
+            {
+                "time": 16234,
+                "type": "word",
+                "start": 487,
+                "end": 508,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16490,
+                "type": "word",
+                "start": 509,
+                "end": 511,
+                "value": "be"
+            },
+            {
+                "time": 17042,
+                "type": "word",
+                "start": 512,
+                "end": 533,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17336,
+                "type": "word",
+                "start": 534,
+                "end": 538,
+                "value": "laid"
+            },
+            {
+                "time": 17922,
+                "type": "word",
+                "start": 539,
+                "end": 560,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 18203,
+                "type": "word",
+                "start": 561,
+                "end": 563,
+                "value": "by"
+            },
+            {
+                "time": 18659,
+                "type": "word",
+                "start": 564,
+                "end": 585,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "12": {
+        "text": "the Chairman.",
+        "words": [
+            "the",
+            "Chairman."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    144.2725067138672,
+                    414.99359130859375
+                ],
+                [
+                    162.18850708007812,
+                    431.1455993652344
+                ]
+            ],
+            [
+                [
+                    164.82850646972656,
+                    414.99359130859375
+                ],
+                [
+                    221.72052001953125,
+                    431.1455993652344
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>the <break time='200ms'/> Chairman. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "the"
+            },
+            {
+                "time": 510,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 804,
+                "type": "word",
+                "start": 54,
+                "end": 62,
+                "value": "Chairman"
+            },
+            {
+                "time": 1573,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "13": {
+        "text": "England and West Indies will face each other in the ICC T20 World Cup final. The match",
+        "words": [
+            "England",
+            "and",
+            "West",
+            "Indies",
+            "will",
+            "face",
+            "each",
+            "other",
+            "in",
+            "the",
+            "ICC",
+            "T20",
+            "World",
+            "Cup",
+            "final.",
+            "The",
+            "match"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    368.3920593261719,
+                    343.760498046875
+                ],
+                [
+                    417.4871520996094,
+                    356.1874694824219
+                ]
+            ],
+            [
+                [
+                    301.2689514160156,
+                    357.5752868652344
+                ],
+                [
+                    320.5848388671875,
+                    369.7424011230469
+                ]
+            ],
+            [
+                [
+                    325.0159606933594,
+                    357.782470703125
+                ],
+                [
+                    350.5451965332031,
+                    370.0038146972656
+                ]
+            ],
+            [
+                [
+                    354.976318359375,
+                    358.04388427734375
+                ],
+                [
+                    386.67572021484375,
+                    370.3190612792969
+                ]
+            ],
+            [
+                [
+                    391.09722900390625,
+                    358.3590393066406
+                ],
+                [
+                    410.32916259765625,
+                    370.52545166015625
+                ]
+            ],
+            [
+                [
+                    414.77227783203125,
+                    358.56561279296875
+                ],
+                [
+                    435.3721008300781,
+                    370.74395751953125
+                ]
+            ],
+            [
+                [
+                    289.1437683105469,
+                    371.8699951171875
+                ],
+                [
+                    312.8754577636719,
+                    384.0756530761719
+                ]
+            ],
+            [
+                [
+                    320.8104248046875,
+                    372.14630126953125
+                ],
+                [
+                    348.7899475097656,
+                    384.3890380859375
+                ]
+            ],
+            [
+                [
+                    356.72491455078125,
+                    372.4596862792969
+                ],
+                [
+                    366.8612060546875,
+                    384.5467224121094
+                ]
+            ],
+            [
+                [
+                    374.7961730957031,
+                    372.61737060546875
+                ],
+                [
+                    391.4361572265625,
+                    384.76116943359375
+                ]
+            ],
+            [
+                [
+                    399.3711242675781,
+                    372.8318176269531
+                ],
+                [
+                    416.8018798828125,
+                    384.9825439453125
+                ]
+            ],
+            [
+                [
+                    424.7368469238281,
+                    373.0531921386719
+                ],
+                [
+                    445.2527160644531,
+                    385.2308044433594
+                ]
+            ],
+            [
+                [
+                    285.0182800292969,
+                    386.2345886230469
+                ],
+                [
+                    316.66009521484375,
+                    398.50927734375
+                ]
+            ],
+            [
+                [
+                    323.5439147949219,
+                    386.57073974609375
+                ],
+                [
+                    343.6061706542969,
+                    398.7444152832031
+                ]
+            ],
+            [
+                [
+                    350.49359130859375,
+                    386.805908203125
+                ],
+                [
+                    375.8332214355469,
+                    399.0256042480469
+                ]
+            ],
+            [
+                [
+                    382.710693359375,
+                    384.1233215332031
+                ],
+                [
+                    404.05474853515625,
+                    400.45965576171875
+                ]
+            ],
+            [
+                [
+                    410.89752197265625,
+                    384.3692626953125
+                ],
+                [
+                    445.15185546875,
+                    400.8182067871094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>England <break time='200ms'/> and <break time='200ms'/> West <break time='200ms'/> Indies <break time='200ms'/> will <break time='200ms'/> face <break time='200ms'/> each <break time='200ms'/> other <break time='200ms'/> in <break time='200ms'/> the <break time='200ms'/> ICC <break time='200ms'/> T20 <break time='200ms'/> World <break time='200ms'/> Cup <break time='200ms'/> final. <break time='200ms'/> The <break time='200ms'/> match <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 35,
+                "value": "England"
+            },
+            {
+                "time": 785,
+                "type": "word",
+                "start": 36,
+                "end": 57,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1047,
+                "type": "word",
+                "start": 58,
+                "end": 61,
+                "value": "and"
+            },
+            {
+                "time": 1618,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1899,
+                "type": "word",
+                "start": 84,
+                "end": 88,
+                "value": "West"
+            },
+            {
+                "time": 2506,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2762,
+                "type": "word",
+                "start": 111,
+                "end": 117,
+                "value": "Indies"
+            },
+            {
+                "time": 3452,
+                "type": "word",
+                "start": 118,
+                "end": 139,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3714,
+                "type": "word",
+                "start": 140,
+                "end": 144,
+                "value": "will"
+            },
+            {
+                "time": 4292,
+                "type": "word",
+                "start": 145,
+                "end": 166,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4610,
+                "type": "word",
+                "start": 167,
+                "end": 171,
+                "value": "face"
+            },
+            {
+                "time": 5255,
+                "type": "word",
+                "start": 172,
+                "end": 193,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5548,
+                "type": "word",
+                "start": 194,
+                "end": 198,
+                "value": "each"
+            },
+            {
+                "time": 5960,
+                "type": "word",
+                "start": 199,
+                "end": 220,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6235,
+                "type": "word",
+                "start": 221,
+                "end": 226,
+                "value": "other"
+            },
+            {
+                "time": 6793,
+                "type": "word",
+                "start": 227,
+                "end": 248,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7093,
+                "type": "word",
+                "start": 249,
+                "end": 251,
+                "value": "in"
+            },
+            {
+                "time": 7423,
+                "type": "word",
+                "start": 252,
+                "end": 273,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7723,
+                "type": "word",
+                "start": 274,
+                "end": 277,
+                "value": "the"
+            },
+            {
+                "time": 8150,
+                "type": "word",
+                "start": 278,
+                "end": 299,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8456,
+                "type": "word",
+                "start": 300,
+                "end": 303,
+                "value": "ICC"
+            },
+            {
+                "time": 9351,
+                "type": "word",
+                "start": 304,
+                "end": 325,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9620,
+                "type": "word",
+                "start": 326,
+                "end": 329,
+                "value": "T20"
+            },
+            {
+                "time": 10561,
+                "type": "word",
+                "start": 330,
+                "end": 351,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10861,
+                "type": "word",
+                "start": 352,
+                "end": 357,
+                "value": "World"
+            },
+            {
+                "time": 11412,
+                "type": "word",
+                "start": 358,
+                "end": 379,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11643,
+                "type": "word",
+                "start": 380,
+                "end": 383,
+                "value": "Cup"
+            },
+            {
+                "time": 12132,
+                "type": "word",
+                "start": 384,
+                "end": 405,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12438,
+                "type": "word",
+                "start": 406,
+                "end": 411,
+                "value": "final"
+            },
+            {
+                "time": 13057,
+                "type": "word",
+                "start": 413,
+                "end": 434,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13824,
+                "type": "word",
+                "start": 435,
+                "end": 438,
+                "value": "The"
+            },
+            {
+                "time": 14201,
+                "type": "word",
+                "start": 439,
+                "end": 460,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14458,
+                "type": "word",
+                "start": 461,
+                "end": 466,
+                "value": "match"
+            },
+            {
+                "time": 15263,
+                "type": "word",
+                "start": 467,
+                "end": 488,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "14": {
+        "text": "will be played in Kolkata",
+        "words": [
+            "will",
+            "be",
+            "played",
+            "in",
+            "Kolkata"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    288.882080078125,
+                    397.70501708984375
+                ],
+                [
+                    309.75811767578125,
+                    414.03729248046875
+                ]
+            ],
+            [
+                [
+                    315.4969482421875,
+                    397.937255859375
+                ],
+                [
+                    329.101318359375,
+                    414.2060852050781
+                ]
+            ],
+            [
+                [
+                    334.8281555175781,
+                    398.10595703125
+                ],
+                [
+                    371.4379577636719,
+                    414.57550048828125
+                ]
+            ],
+            [
+                [
+                    377.164794921875,
+                    398.4753723144531
+                ],
+                [
+                    388.3212890625,
+                    414.7228088378906
+                ]
+            ],
+            [
+                [
+                    394.0481262207031,
+                    398.6226806640625
+                ],
+                [
+                    437.0104675292969,
+                    415.1476135253906
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>will <break time='200ms'/> be <break time='200ms'/> played <break time='200ms'/> in <break time='200ms'/> Kolkata <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "will"
+            },
+            {
+                "time": 601,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 832,
+                "type": "word",
+                "start": 55,
+                "end": 57,
+                "value": "be"
+            },
+            {
+                "time": 1469,
+                "type": "word",
+                "start": 58,
+                "end": 79,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1725,
+                "type": "word",
+                "start": 80,
+                "end": 86,
+                "value": "played"
+            },
+            {
+                "time": 2419,
+                "type": "word",
+                "start": 87,
+                "end": 108,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2731,
+                "type": "word",
+                "start": 109,
+                "end": 111,
+                "value": "in"
+            },
+            {
+                "time": 3137,
+                "type": "word",
+                "start": 112,
+                "end": 133,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3405,
+                "type": "word",
+                "start": 134,
+                "end": 141,
+                "value": "Kolkata"
+            },
+            {
+                "time": 4244,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "15": {
+        "text": "on Sunday.",
+        "words": [
+            "on",
+            "Sunday."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    304.75579833984375,
+                    412.2441101074219
+                ],
+                [
+                    318.97216796875,
+                    428.51824951171875
+                ]
+            ],
+            [
+                [
+                    321.47113037109375,
+                    412.38995361328125
+                ],
+                [
+                    363.4242858886719,
+                    428.9060974121094
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>on <break time='200ms'/> Sunday. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 30,
+                "value": "on"
+            },
+            {
+                "time": 566,
+                "type": "word",
+                "start": 31,
+                "end": 52,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 872,
+                "type": "word",
+                "start": 53,
+                "end": 59,
+                "value": "Sunday"
+            },
+            {
+                "time": 1738,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "16": {
+        "text": "Sri Lanka Scouts Association is holding its National Jamboree in Jaffna this time.",
+        "words": [
+            "Sri",
+            "Lanka",
+            "Scouts",
+            "Association",
+            "is",
+            "holding",
+            "its",
+            "National",
+            "Jamboree",
+            "in",
+            "Jaffna",
+            "this",
+            "time."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    135.97360229492188,
+                    448.6091003417969
+                ],
+                [
+                    150.22959899902344,
+                    460.6091003417969
+                ]
+            ],
+            [
+                [
+                    152.86959838867188,
+                    448.6091003417969
+                ],
+                [
+                    183.92320251464844,
+                    460.6091003417969
+                ]
+            ],
+            [
+                [
+                    186.56320190429688,
+                    448.6091003417969
+                ],
+                [
+                    220.01919555664062,
+                    460.6091003417969
+                ]
+            ],
+            [
+                [
+                    113.03130340576172,
+                    463.00909423828125
+                ],
+                [
+                    172.14329528808594,
+                    475.00909423828125
+                ]
+            ],
+            [
+                [
+                    174.78329467773438,
+                    463.00909423828125
+                ],
+                [
+                    183.279296875,
+                    475.00909423828125
+                ]
+            ],
+            [
+                [
+                    185.91929626464844,
+                    463.00909423828125
+                ],
+                [
+                    224.78729248046875,
+                    475.00909423828125
+                ]
+            ],
+            [
+                [
+                    227.4272918701172,
+                    463.00909423828125
+                ],
+                [
+                    239.9792938232422,
+                    475.00909423828125
+                ]
+            ],
+            [
+                [
+                    81.4843978881836,
+                    477.4090881347656
+                ],
+                [
+                    125.08040618896484,
+                    489.4090881347656
+                ]
+            ],
+            [
+                [
+                    127.72040557861328,
+                    477.4090881347656
+                ],
+                [
+                    176.69239807128906,
+                    489.4090881347656
+                ]
+            ],
+            [
+                [
+                    179.3323974609375,
+                    477.4090881347656
+                ],
+                [
+                    189.36439514160156,
+                    489.4090881347656
+                ]
+            ],
+            [
+                [
+                    192.00439453125,
+                    477.4090881347656
+                ],
+                [
+                    221.368408203125,
+                    489.4090881347656
+                ]
+            ],
+            [
+                [
+                    224.00840759277344,
+                    477.4090881347656
+                ],
+                [
+                    243.18441772460938,
+                    489.4090881347656
+                ]
+            ],
+            [
+                [
+                    245.8244171142578,
+                    477.4090881347656
+                ],
+                [
+                    271.5163879394531,
+                    489.4090881347656
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sri <break time='200ms'/> Lanka <break time='200ms'/> Scouts <break time='200ms'/> Association <break time='200ms'/> is <break time='200ms'/> holding <break time='200ms'/> its <break time='200ms'/> National <break time='200ms'/> Jamboree <break time='200ms'/> in <break time='200ms'/> Jaffna <break time='200ms'/> this <break time='200ms'/> time. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Sri"
+            },
+            {
+                "time": 768,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1093,
+                "type": "word",
+                "start": 54,
+                "end": 59,
+                "value": "Lanka"
+            },
+            {
+                "time": 1792,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2080,
+                "type": "word",
+                "start": 82,
+                "end": 88,
+                "value": "Scouts"
+            },
+            {
+                "time": 2787,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3037,
+                "type": "word",
+                "start": 111,
+                "end": 122,
+                "value": "Association"
+            },
+            {
+                "time": 4215,
+                "type": "word",
+                "start": 123,
+                "end": 144,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4447,
+                "type": "word",
+                "start": 145,
+                "end": 147,
+                "value": "is"
+            },
+            {
+                "time": 4861,
+                "type": "word",
+                "start": 148,
+                "end": 169,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5155,
+                "type": "word",
+                "start": 170,
+                "end": 177,
+                "value": "holding"
+            },
+            {
+                "time": 5796,
+                "type": "word",
+                "start": 178,
+                "end": 199,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6071,
+                "type": "word",
+                "start": 200,
+                "end": 203,
+                "value": "its"
+            },
+            {
+                "time": 6485,
+                "type": "word",
+                "start": 204,
+                "end": 225,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6716,
+                "type": "word",
+                "start": 226,
+                "end": 234,
+                "value": "National"
+            },
+            {
+                "time": 7516,
+                "type": "word",
+                "start": 235,
+                "end": 256,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7797,
+                "type": "word",
+                "start": 257,
+                "end": 265,
+                "value": "Jamboree"
+            },
+            {
+                "time": 8561,
+                "type": "word",
+                "start": 266,
+                "end": 287,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8867,
+                "type": "word",
+                "start": 288,
+                "end": 290,
+                "value": "in"
+            },
+            {
+                "time": 9199,
+                "type": "word",
+                "start": 291,
+                "end": 312,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9487,
+                "type": "word",
+                "start": 313,
+                "end": 319,
+                "value": "Jaffna"
+            },
+            {
+                "time": 10237,
+                "type": "word",
+                "start": 320,
+                "end": 341,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10500,
+                "type": "word",
+                "start": 342,
+                "end": 346,
+                "value": "this"
+            },
+            {
+                "time": 10951,
+                "type": "word",
+                "start": 347,
+                "end": 368,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11220,
+                "type": "word",
+                "start": 369,
+                "end": 373,
+                "value": "time"
+            },
+            {
+                "time": 11777,
+                "type": "word",
+                "start": 375,
+                "end": 396,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "17": {
+        "text": "This event will be declared open by",
+        "words": [
+            "This",
+            "event",
+            "will",
+            "be",
+            "declared",
+            "open",
+            "by"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    83.82029724121094,
+                    488.8451232910156
+                ],
+                [
+                    107.92829895019531,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    110.56829833984375,
+                    488.8451232910156
+                ],
+                [
+                    140.7675018310547,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    143.40750122070312,
+                    488.8451232910156
+                ],
+                [
+                    164.1435089111328,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    166.78350830078125,
+                    488.8451232910156
+                ],
+                [
+                    180.24749755859375,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    182.8874969482422,
+                    488.8451232910156
+                ],
+                [
+                    231.07948303222656,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    233.719482421875,
+                    488.8451232910156
+                ],
+                [
+                    261.33148193359375,
+                    504.99713134765625
+                ]
+            ],
+            [
+                [
+                    263.97149658203125,
+                    488.8451232910156
+                ],
+                [
+                    277.18231201171875,
+                    504.99713134765625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>This <break time='200ms'/> event <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> declared <break time='200ms'/> open <break time='200ms'/> by <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 32,
+                "value": "This"
+            },
+            {
+                "time": 632,
+                "type": "word",
+                "start": 33,
+                "end": 54,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 894,
+                "type": "word",
+                "start": 55,
+                "end": 60,
+                "value": "event"
+            },
+            {
+                "time": 1587,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1837,
+                "type": "word",
+                "start": 83,
+                "end": 87,
+                "value": "will"
+            },
+            {
+                "time": 2389,
+                "type": "word",
+                "start": 88,
+                "end": 109,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2683,
+                "type": "word",
+                "start": 110,
+                "end": 112,
+                "value": "be"
+            },
+            {
+                "time": 3149,
+                "type": "word",
+                "start": 113,
+                "end": 134,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3418,
+                "type": "word",
+                "start": 135,
+                "end": 143,
+                "value": "declared"
+            },
+            {
+                "time": 4255,
+                "type": "word",
+                "start": 144,
+                "end": 165,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4542,
+                "type": "word",
+                "start": 166,
+                "end": 170,
+                "value": "open"
+            },
+            {
+                "time": 5070,
+                "type": "word",
+                "start": 171,
+                "end": 192,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5338,
+                "type": "word",
+                "start": 193,
+                "end": 195,
+                "value": "by"
+            },
+            {
+                "time": 5896,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "18": {
+        "text": "the President tomorrow.",
+        "words": [
+            "the",
+            "President",
+            "tomorrow."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    114.10060119628906,
+                    503.2450866699219
+                ],
+                [
+                    132.0166015625,
+                    519.3970947265625
+                ]
+            ],
+            [
+                [
+                    134.65660095214844,
+                    503.2450866699219
+                ],
+                [
+                    188.19338989257812,
+                    519.3970947265625
+                ]
+            ],
+            [
+                [
+                    193.473388671875,
+                    503.2450866699219
+                ],
+                [
+                    250.9005889892578,
+                    519.3970947265625
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>the <break time='200ms'/> President <break time='200ms'/> tomorrow. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "the"
+            },
+            {
+                "time": 479,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 741,
+                "type": "word",
+                "start": 54,
+                "end": 63,
+                "value": "President"
+            },
+            {
+                "time": 1721,
+                "type": "word",
+                "start": 64,
+                "end": 85,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1984,
+                "type": "word",
+                "start": 86,
+                "end": 94,
+                "value": "tomorrow"
+            },
+            {
+                "time": 2792,
+                "type": "word",
+                "start": 96,
+                "end": 117,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "19": {
+        "text": "A musical evening will be held at the BMICH on 27th May from 7.00 p.m. to 10.00 p.m. This",
+        "words": [
+            "A",
+            "musical",
+            "evening",
+            "will",
+            "be",
+            "held",
+            "at",
+            "the",
+            "BMICH",
+            "on",
+            "27th",
+            "May",
+            "from",
+            "7.00",
+            "p.m.",
+            "to",
+            "10.00",
+            "p.m.",
+            "This"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    310.6437072753906,
+                    442.8440246582031
+                ],
+                [
+                    318.46771240234375,
+                    458.99603271484375
+                ]
+            ],
+            [
+                [
+                    321.10772705078125,
+                    442.8440246582031
+                ],
+                [
+                    363.97174072265625,
+                    458.99603271484375
+                ]
+            ],
+            [
+                [
+                    366.61175537109375,
+                    442.8440246582031
+                ],
+                [
+                    409.6929626464844,
+                    458.99603271484375
+                ]
+            ],
+            [
+                [
+                    412.3329772949219,
+                    442.8440246582031
+                ],
+                [
+                    433.0690002441406,
+                    458.99603271484375
+                ]
+            ],
+            [
+                [
+                    435.7090148925781,
+                    442.8440246582031
+                ],
+                [
+                    449.17303466796875,
+                    458.99603271484375
+                ]
+            ],
+            [
+                [
+                    292.3800048828125,
+                    457.2439880371094
+                ],
+                [
+                    316.7760314941406,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    319.4160461425781,
+                    457.2439880371094
+                ],
+                [
+                    330.216064453125,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    332.8560791015625,
+                    457.2439880371094
+                ],
+                [
+                    350.7720947265625,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    353.412109375,
+                    457.2439880371094
+                ],
+                [
+                    391.11614990234375,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    393.75616455078125,
+                    457.2439880371094
+                ],
+                [
+                    407.8321533203125,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    410.47216796875,
+                    457.2439880371094
+                ],
+                [
+                    436.22418212890625,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    438.86419677734375,
+                    457.2439880371094
+                ],
+                [
+                    461.4494323730469,
+                    473.39599609375
+                ]
+            ],
+            [
+                [
+                    287.9971923828125,
+                    471.6440124511719
+                ],
+                [
+                    314.7799987792969,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    317.4200134277344,
+                    471.6440124511719
+                ],
+                [
+                    341.5160217285156,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    344.1560363769531,
+                    471.6440124511719
+                ],
+                [
+                    367.4732360839844,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    370.1132507324219,
+                    471.6440124511719
+                ],
+                [
+                    381.1628723144531,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    383.8028869628906,
+                    471.6440124511719
+                ],
+                [
+                    415.0028991699219,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    417.6429138183594,
+                    471.6440124511719
+                ],
+                [
+                    440.9624938964844,
+                    487.7960205078125
+                ]
+            ],
+            [
+                [
+                    443.6046142578125,
+                    474.6080017089844
+                ],
+                [
+                    465.8406066894531,
+                    486.6080017089844
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>A <break time='200ms'/> musical <break time='200ms'/> evening <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> held <break time='200ms'/> at <break time='200ms'/> the <break time='200ms'/> BMICH <break time='200ms'/> on <break time='200ms'/> 27th <break time='200ms'/> May <break time='200ms'/> from <break time='200ms'/> 7.00 <break time='200ms'/> p.m. <break time='200ms'/> to <break time='200ms'/> 10.00 <break time='200ms'/> p.m. <break time='200ms'/> This <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 250,
+                "type": "word",
+                "start": 28,
+                "end": 29,
+                "value": "A"
+            },
+            {
+                "time": 523,
+                "type": "word",
+                "start": 30,
+                "end": 51,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 798,
+                "type": "word",
+                "start": 52,
+                "end": 59,
+                "value": "musical"
+            },
+            {
+                "time": 1803,
+                "type": "word",
+                "start": 60,
+                "end": 81,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2091,
+                "type": "word",
+                "start": 82,
+                "end": 89,
+                "value": "evening"
+            },
+            {
+                "time": 2691,
+                "type": "word",
+                "start": 90,
+                "end": 111,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2941,
+                "type": "word",
+                "start": 112,
+                "end": 116,
+                "value": "will"
+            },
+            {
+                "time": 3407,
+                "type": "word",
+                "start": 117,
+                "end": 138,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3644,
+                "type": "word",
+                "start": 139,
+                "end": 141,
+                "value": "be"
+            },
+            {
+                "time": 4207,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4525,
+                "type": "word",
+                "start": 164,
+                "end": 168,
+                "value": "held"
+            },
+            {
+                "time": 5095,
+                "type": "word",
+                "start": 169,
+                "end": 190,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5345,
+                "type": "word",
+                "start": 191,
+                "end": 193,
+                "value": "at"
+            },
+            {
+                "time": 5881,
+                "type": "word",
+                "start": 194,
+                "end": 215,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6112,
+                "type": "word",
+                "start": 216,
+                "end": 219,
+                "value": "the"
+            },
+            {
+                "time": 6584,
+                "type": "word",
+                "start": 220,
+                "end": 241,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6828,
+                "type": "word",
+                "start": 242,
+                "end": 247,
+                "value": "BMICH"
+            },
+            {
+                "time": 7413,
+                "type": "word",
+                "start": 248,
+                "end": 269,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7663,
+                "type": "word",
+                "start": 270,
+                "end": 272,
+                "value": "on"
+            },
+            {
+                "time": 8139,
+                "type": "word",
+                "start": 273,
+                "end": 294,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8401,
+                "type": "word",
+                "start": 295,
+                "end": 299,
+                "value": "27th"
+            },
+            {
+                "time": 9422,
+                "type": "word",
+                "start": 300,
+                "end": 321,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9709,
+                "type": "word",
+                "start": 322,
+                "end": 325,
+                "value": "May"
+            },
+            {
+                "time": 10194,
+                "type": "word",
+                "start": 326,
+                "end": 347,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10482,
+                "type": "word",
+                "start": 348,
+                "end": 352,
+                "value": "from"
+            },
+            {
+                "time": 11012,
+                "type": "word",
+                "start": 353,
+                "end": 374,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11268,
+                "type": "word",
+                "start": 375,
+                "end": 379,
+                "value": "7.00"
+            },
+            {
+                "time": 13089,
+                "type": "word",
+                "start": 380,
+                "end": 401,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13352,
+                "type": "word",
+                "start": 402,
+                "end": 405,
+                "value": "p.m"
+            },
+            {
+                "time": 13981,
+                "type": "word",
+                "start": 407,
+                "end": 428,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14274,
+                "type": "word",
+                "start": 429,
+                "end": 431,
+                "value": "to"
+            },
+            {
+                "time": 14719,
+                "type": "word",
+                "start": 432,
+                "end": 453,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14982,
+                "type": "word",
+                "start": 454,
+                "end": 459,
+                "value": "10.00"
+            },
+            {
+                "time": 16717,
+                "type": "word",
+                "start": 460,
+                "end": 481,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16986,
+                "type": "word",
+                "start": 482,
+                "end": 485,
+                "value": "p.m"
+            },
+            {
+                "time": 17666,
+                "type": "word",
+                "start": 487,
+                "end": 508,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17903,
+                "type": "word",
+                "start": 509,
+                "end": 513,
+                "value": "This"
+            },
+            {
+                "time": 18451,
+                "type": "word",
+                "start": 514,
+                "end": 535,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "20": {
+        "text": "event is organized by Sri Lanka",
+        "words": [
+            "event",
+            "is",
+            "organized",
+            "by",
+            "Sri",
+            "Lanka"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    295.1387939453125,
+                    489.00799560546875
+                ],
+                [
+                    323.29559326171875,
+                    501.00799560546875
+                ]
+            ],
+            [
+                [
+                    325.93560791015625,
+                    489.00799560546875
+                ],
+                [
+                    334.4316101074219,
+                    501.00799560546875
+                ]
+            ],
+            [
+                [
+                    337.0716247558594,
+                    489.00799560546875
+                ],
+                [
+                    388.0188293457031,
+                    501.00799560546875
+                ]
+            ],
+            [
+                [
+                    390.6588439941406,
+                    489.00799560546875
+                ],
+                [
+                    403.0932312011719,
+                    501.00799560546875
+                ]
+            ],
+            [
+                [
+                    405.7332458496094,
+                    489.00799560546875
+                ],
+                [
+                    419.9892272949219,
+                    501.00799560546875
+                ]
+            ],
+            [
+                [
+                    422.6292419433594,
+                    489.00799560546875
+                ],
+                [
+                    453.68402099609375,
+                    501.00799560546875
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>event <break time='200ms'/> is <break time='200ms'/> organized <break time='200ms'/> by <break time='200ms'/> Sri <break time='200ms'/> Lanka <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 187,
+                "type": "word",
+                "start": 28,
+                "end": 33,
+                "value": "event"
+            },
+            {
+                "time": 785,
+                "type": "word",
+                "start": 34,
+                "end": 55,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1047,
+                "type": "word",
+                "start": 56,
+                "end": 58,
+                "value": "is"
+            },
+            {
+                "time": 1543,
+                "type": "word",
+                "start": 59,
+                "end": 80,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1781,
+                "type": "word",
+                "start": 81,
+                "end": 90,
+                "value": "organized"
+            },
+            {
+                "time": 2758,
+                "type": "word",
+                "start": 91,
+                "end": 112,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3033,
+                "type": "word",
+                "start": 113,
+                "end": 115,
+                "value": "by"
+            },
+            {
+                "time": 3552,
+                "type": "word",
+                "start": 116,
+                "end": 137,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3859,
+                "type": "word",
+                "start": 138,
+                "end": 141,
+                "value": "Sri"
+            },
+            {
+                "time": 4453,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4728,
+                "type": "word",
+                "start": 164,
+                "end": 169,
+                "value": "Lanka"
+            },
+            {
+                "time": 5439,
+                "type": "word",
+                "start": 170,
+                "end": 191,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "21": {
+        "text": "Musicians' Association.",
+        "words": [
+            "Musicians'",
+            "Association."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    311.8623962402344,
+                    503.4079895019531
+                ],
+                [
+                    365.75439453125,
+                    515.4080200195312
+                ]
+            ],
+            [
+                [
+                    368.3944091796875,
+                    503.4079895019531
+                ],
+                [
+                    429.9664306640625,
+                    515.4080200195312
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Musicians' <break time='200ms'/> Association. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 137,
+                "type": "word",
+                "start": 28,
+                "end": 38,
+                "value": "Musicians'"
+            },
+            {
+                "time": 1075,
+                "type": "word",
+                "start": 39,
+                "end": 60,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1356,
+                "type": "word",
+                "start": 61,
+                "end": 72,
+                "value": "Association"
+            },
+            {
+                "time": 2540,
+                "type": "word",
+                "start": 74,
+                "end": 95,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "22": {
+        "text": "Sri Lankan Airlines will launch direct flights from Colombo to Denmark from next month. Passengers who purchase the first ten",
+        "words": [
+            "Sri",
+            "Lankan",
+            "Airlines",
+            "will",
+            "launch",
+            "direct",
+            "flights",
+            "from",
+            "Colombo",
+            "to",
+            "Denmark",
+            "from",
+            "next",
+            "month.",
+            "Passengers",
+            "who",
+            "purchase",
+            "the",
+            "first",
+            "ten"
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    130.0,
+                    543.134033203125
+                ],
+                [
+                    144.25599670410156,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    145.75,
+                    543.134033203125
+                ],
+                [
+                    183.50320434570312,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    185.00320434570312,
+                    543.134033203125
+                ],
+                [
+                    225.01840209960938,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    226.51840209960938,
+                    543.134033203125
+                ],
+                [
+                    245.64639282226562,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    247.16079711914062,
+                    543.134033203125
+                ],
+                [
+                    281.5047912597656,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    283.014404296875,
+                    543.134033203125
+                ],
+                [
+                    312.99517822265625,
+                    555.134033203125
+                ]
+            ],
+            [
+                [
+                    100.0,
+                    557.5340576171875
+                ],
+                [
+                    131.9127960205078,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    138.53439331054688,
+                    557.5340576171875
+                ],
+                [
+                    163.310791015625,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    169.93359375,
+                    557.5340576171875
+                ],
+                [
+                    215.60556030273438,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    222.22596740722656,
+                    557.5340576171875
+                ],
+                [
+                    232.55316162109375,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    239.1747589111328,
+                    557.5340576171875
+                ],
+                [
+                    286.70074462890625,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    293.33074951171875,
+                    557.5340576171875
+                ],
+                [
+                    318.1059265136719,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    324.7287292480469,
+                    557.5340576171875
+                ],
+                [
+                    346.9911193847656,
+                    569.5340576171875
+                ]
+            ],
+            [
+                [
+                    94.0,
+                    571.9340209960938
+                ],
+                [
+                    130.19200134277344,
+                    583.9340209960938
+                ]
+            ],
+            [
+                [
+                    134.68359375,
+                    568.969970703125
+                ],
+                [
+                    196.46437072753906,
+                    585.1220092773438
+                ]
+            ],
+            [
+                [
+                    200.9487762451172,
+                    568.969970703125
+                ],
+                [
+                    224.40399169921875,
+                    585.1220092773438
+                ]
+            ],
+            [
+                [
+                    228.89439392089844,
+                    568.969970703125
+                ],
+                [
+                    279.67962646484375,
+                    585.1220092773438
+                ]
+            ],
+            [
+                [
+                    284.1616516113281,
+                    568.969970703125
+                ],
+                [
+                    302.0776672363281,
+                    585.1220092773438
+                ]
+            ],
+            [
+                [
+                    306.5644836425781,
+                    568.969970703125
+                ],
+                [
+                    329.66448974609375,
+                    585.1220092773438
+                ]
+            ],
+            [
+                [
+                    334.1705017089844,
+                    568.969970703125
+                ],
+                [
+                    352.0085144042969,
+                    585.1220092773438
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>Sri <break time='200ms'/> Lankan <break time='200ms'/> Airlines <break time='200ms'/> will <break time='200ms'/> launch <break time='200ms'/> direct <break time='200ms'/> flights <break time='200ms'/> from <break time='200ms'/> Colombo <break time='200ms'/> to <break time='200ms'/> Denmark <break time='200ms'/> from <break time='200ms'/> next <break time='200ms'/> month. <break time='200ms'/> Passengers <break time='200ms'/> who <break time='200ms'/> purchase <break time='200ms'/> the <break time='200ms'/> first <break time='200ms'/> ten <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "Sri"
+            },
+            {
+                "time": 737,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1030,
+                "type": "word",
+                "start": 54,
+                "end": 60,
+                "value": "Lankan"
+            },
+            {
+                "time": 1806,
+                "type": "word",
+                "start": 61,
+                "end": 82,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2094,
+                "type": "word",
+                "start": 83,
+                "end": 91,
+                "value": "Airlines"
+            },
+            {
+                "time": 2942,
+                "type": "word",
+                "start": 92,
+                "end": 113,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3211,
+                "type": "word",
+                "start": 114,
+                "end": 118,
+                "value": "will"
+            },
+            {
+                "time": 3654,
+                "type": "word",
+                "start": 119,
+                "end": 140,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3992,
+                "type": "word",
+                "start": 141,
+                "end": 147,
+                "value": "launch"
+            },
+            {
+                "time": 4629,
+                "type": "word",
+                "start": 148,
+                "end": 169,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4885,
+                "type": "word",
+                "start": 170,
+                "end": 176,
+                "value": "direct"
+            },
+            {
+                "time": 5544,
+                "type": "word",
+                "start": 177,
+                "end": 198,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5775,
+                "type": "word",
+                "start": 199,
+                "end": 206,
+                "value": "flights"
+            },
+            {
+                "time": 6491,
+                "type": "word",
+                "start": 207,
+                "end": 228,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6735,
+                "type": "word",
+                "start": 229,
+                "end": 233,
+                "value": "from"
+            },
+            {
+                "time": 7241,
+                "type": "word",
+                "start": 234,
+                "end": 255,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 7504,
+                "type": "word",
+                "start": 256,
+                "end": 263,
+                "value": "Colombo"
+            },
+            {
+                "time": 8334,
+                "type": "word",
+                "start": 264,
+                "end": 285,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 8615,
+                "type": "word",
+                "start": 286,
+                "end": 288,
+                "value": "to"
+            },
+            {
+                "time": 9167,
+                "type": "word",
+                "start": 289,
+                "end": 310,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 9430,
+                "type": "word",
+                "start": 311,
+                "end": 318,
+                "value": "Denmark"
+            },
+            {
+                "time": 10180,
+                "type": "word",
+                "start": 319,
+                "end": 340,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 10443,
+                "type": "word",
+                "start": 341,
+                "end": 345,
+                "value": "from"
+            },
+            {
+                "time": 10922,
+                "type": "word",
+                "start": 346,
+                "end": 367,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 11203,
+                "type": "word",
+                "start": 368,
+                "end": 372,
+                "value": "next"
+            },
+            {
+                "time": 11816,
+                "type": "word",
+                "start": 373,
+                "end": 394,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 12078,
+                "type": "word",
+                "start": 395,
+                "end": 400,
+                "value": "month"
+            },
+            {
+                "time": 12596,
+                "type": "word",
+                "start": 402,
+                "end": 423,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 13313,
+                "type": "word",
+                "start": 424,
+                "end": 434,
+                "value": "Passengers"
+            },
+            {
+                "time": 14342,
+                "type": "word",
+                "start": 435,
+                "end": 456,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 14592,
+                "type": "word",
+                "start": 457,
+                "end": 460,
+                "value": "who"
+            },
+            {
+                "time": 14970,
+                "type": "word",
+                "start": 461,
+                "end": 482,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 15289,
+                "type": "word",
+                "start": 483,
+                "end": 491,
+                "value": "purchase"
+            },
+            {
+                "time": 16030,
+                "type": "word",
+                "start": 492,
+                "end": 513,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16268,
+                "type": "word",
+                "start": 514,
+                "end": 517,
+                "value": "the"
+            },
+            {
+                "time": 16682,
+                "type": "word",
+                "start": 518,
+                "end": 539,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 16944,
+                "type": "word",
+                "start": 540,
+                "end": 545,
+                "value": "first"
+            },
+            {
+                "time": 17634,
+                "type": "word",
+                "start": 546,
+                "end": 567,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 17896,
+                "type": "word",
+                "start": 568,
+                "end": 571,
+                "value": "ten"
+            },
+            {
+                "time": 18472,
+                "type": "word",
+                "start": 572,
+                "end": 593,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    },
+    "23": {
+        "text": "air tickets will be given a special discount.",
+        "words": [
+            "air",
+            "tickets",
+            "will",
+            "be",
+            "given",
+            "a",
+            "special",
+            "discount."
+        ],
+        "bounding_boxes": [
+            [
+                [
+                    104.0,
+                    583.3699951171875
+                ],
+                [
+                    119.7199935913086,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    122.35999298095703,
+                    583.3699951171875
+                ],
+                [
+                    159.31280517578125,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    161.9528045654297,
+                    583.3699951171875
+                ],
+                [
+                    182.68881225585938,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    185.3288116455078,
+                    583.3699951171875
+                ],
+                [
+                    198.7928009033203,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    201.43280029296875,
+                    583.3699951171875
+                ],
+                [
+                    230.7991943359375,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    233.43919372558594,
+                    583.3699951171875
+                ],
+                [
+                    239.85919189453125,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    242.4991912841797,
+                    583.3699951171875
+                ],
+                [
+                    281.0552062988281,
+                    599.5220336914062
+                ]
+            ],
+            [
+                [
+                    283.6952209472656,
+                    583.3699951171875
+                ],
+                [
+                    334.2799987792969,
+                    599.5220336914062
+                ]
+            ]
+        ],
+        "ssml": "<speak><prosody rate='slow'>air <break time='200ms'/> tickets <break time='200ms'/> will <break time='200ms'/> be <break time='200ms'/> given <break time='200ms'/> a <break time='200ms'/> special <break time='200ms'/> discount. <break time='200ms'/></prosody></speak>",
+        "dialog": "false",
+        "person_type": "null",
+        "voice_id": "Ruth",
+        "timing": [
+            {
+                "time": 200,
+                "type": "word",
+                "start": 28,
+                "end": 31,
+                "value": "air"
+            },
+            {
+                "time": 534,
+                "type": "word",
+                "start": 32,
+                "end": 53,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 809,
+                "type": "word",
+                "start": 54,
+                "end": 61,
+                "value": "tickets"
+            },
+            {
+                "time": 1578,
+                "type": "word",
+                "start": 62,
+                "end": 83,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 1828,
+                "type": "word",
+                "start": 84,
+                "end": 88,
+                "value": "will"
+            },
+            {
+                "time": 2393,
+                "type": "word",
+                "start": 89,
+                "end": 110,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 2699,
+                "type": "word",
+                "start": 111,
+                "end": 113,
+                "value": "be"
+            },
+            {
+                "time": 3135,
+                "type": "word",
+                "start": 114,
+                "end": 135,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 3404,
+                "type": "word",
+                "start": 136,
+                "end": 141,
+                "value": "given"
+            },
+            {
+                "time": 4200,
+                "type": "word",
+                "start": 142,
+                "end": 163,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 4568,
+                "type": "word",
+                "start": 164,
+                "end": 165,
+                "value": "a"
+            },
+            {
+                "time": 4930,
+                "type": "word",
+                "start": 166,
+                "end": 187,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 5187,
+                "type": "word",
+                "start": 188,
+                "end": 195,
+                "value": "special"
+            },
+            {
+                "time": 5907,
+                "type": "word",
+                "start": 196,
+                "end": 217,
+                "value": "<break time='200ms'/>"
+            },
+            {
+                "time": 6201,
+                "type": "word",
+                "start": 218,
+                "end": 226,
+                "value": "discount"
+            },
+            {
+                "time": 7039,
+                "type": "word",
+                "start": 228,
+                "end": 249,
+                "value": "<break time='200ms'/>"
+            }
+        ]
+    }
+}

@@ -1048,6 +1048,58 @@ import page7G7U5SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_5/grade
 import page8G7U5SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_8/grade_7_english_book_unit_5.pdf_page_8_trimmed_blocks_slow.json';
 import page9G7U5SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_5/grade_7_english_book_unit_5_page_9/grade_7_english_book_unit_5.pdf_page_9_trimmed_blocks_slow.json';
 
+// Grade 7 English Book Unit 6 imports (pages 0-11)
+import page0G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_0/grade_7_english_book_unit_6.pdf_page_0_trimmed_blocks.json';
+import page1G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_1/grade_7_english_book_unit_6.pdf_page_1_trimmed_blocks.json';
+import page2G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_2/grade_7_english_book_unit_6.pdf_page_2_trimmed_blocks.json';
+import page3G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_3/grade_7_english_book_unit_6.pdf_page_3_trimmed_blocks.json';
+import page4G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_4/grade_7_english_book_unit_6.pdf_page_4_trimmed_blocks.json';
+import page5G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_5/grade_7_english_book_unit_6.pdf_page_5_trimmed_blocks.json';
+import page6G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_6/grade_7_english_book_unit_6.pdf_page_6_trimmed_blocks.json';
+import page7G7U6TrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_7/grade_7_english_book_unit_6.pdf_page_7_trimmed_blocks.json';
+// Pages 8-11 are missing complete trimmed_blocks/audio files
+
+// Grade 7 English Book Unit 6 slow imports (pages 0-7)
+import page0G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_0/grade_7_english_book_unit_6.pdf_page_0_trimmed_blocks_slow.json';
+import page1G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_1/grade_7_english_book_unit_6.pdf_page_1_trimmed_blocks_slow.json';
+import page2G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_2/grade_7_english_book_unit_6.pdf_page_2_trimmed_blocks_slow.json';
+import page3G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_3/grade_7_english_book_unit_6.pdf_page_3_trimmed_blocks_slow.json';
+import page4G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_4/grade_7_english_book_unit_6.pdf_page_4_trimmed_blocks_slow.json';
+import page5G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_5/grade_7_english_book_unit_6.pdf_page_5_trimmed_blocks_slow.json';
+import page6G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_6/grade_7_english_book_unit_6.pdf_page_6_trimmed_blocks_slow.json';
+import page7G7U6SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_6/grade_7_english_book_unit_6_page_7/grade_7_english_book_unit_6.pdf_page_7_trimmed_blocks_slow.json';
+// Pages 8-11 are missing complete trimmed_blocks/audio files
+
+// Grade 7 English Book Unit 7 imports (pages 0-12)
+import page0G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_0/grade_7_english_book_unit_7.pdf_page_0_trimmed_blocks.json';
+import page1G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_1/grade_7_english_book_unit_7.pdf_page_1_trimmed_blocks.json';
+import page10G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_10/grade_7_english_book_unit_7.pdf_page_10_trimmed_blocks.json';
+import page11G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_11/grade_7_english_book_unit_7.pdf_page_11_trimmed_blocks.json';
+import page12G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_12/grade_7_english_book_unit_7.pdf_page_12_trimmed_blocks.json';
+import page2G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_2/grade_7_english_book_unit_7.pdf_page_2_trimmed_blocks.json';
+import page3G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_3/grade_7_english_book_unit_7.pdf_page_3_trimmed_blocks.json';
+import page4G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_4/grade_7_english_book_unit_7.pdf_page_4_trimmed_blocks.json';
+import page5G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_5/grade_7_english_book_unit_7.pdf_page_5_trimmed_blocks.json';
+import page6G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_6/grade_7_english_book_unit_7.pdf_page_6_trimmed_blocks.json';
+import page7G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_7/grade_7_english_book_unit_7.pdf_page_7_trimmed_blocks.json';
+import page8G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_8/grade_7_english_book_unit_7.pdf_page_8_trimmed_blocks.json';
+import page9G7U7TrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_9/grade_7_english_book_unit_7.pdf_page_9_trimmed_blocks.json';
+
+// Grade 7 English Book Unit 7 slow imports (pages 0-12)
+import page0G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_0/grade_7_english_book_unit_7.pdf_page_0_trimmed_blocks_slow.json';
+import page1G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_1/grade_7_english_book_unit_7.pdf_page_1_trimmed_blocks_slow.json';
+import page10G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_10/grade_7_english_book_unit_7.pdf_page_10_trimmed_blocks_slow.json';
+import page11G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_11/grade_7_english_book_unit_7.pdf_page_11_trimmed_blocks_slow.json';
+import page12G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_12/grade_7_english_book_unit_7.pdf_page_12_trimmed_blocks_slow.json';
+import page2G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_2/grade_7_english_book_unit_7.pdf_page_2_trimmed_blocks_slow.json';
+import page3G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_3/grade_7_english_book_unit_7.pdf_page_3_trimmed_blocks_slow.json';
+import page4G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_4/grade_7_english_book_unit_7.pdf_page_4_trimmed_blocks_slow.json';
+import page5G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_5/grade_7_english_book_unit_7.pdf_page_5_trimmed_blocks_slow.json';
+import page6G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_6/grade_7_english_book_unit_7.pdf_page_6_trimmed_blocks_slow.json';
+import page7G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_7/grade_7_english_book_unit_7.pdf_page_7_trimmed_blocks_slow.json';
+import page8G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_8/grade_7_english_book_unit_7.pdf_page_8_trimmed_blocks_slow.json';
+import page9G7U7SlowTrimmedBlocks from '@/data/grade_7_english_book_unit_7/grade_7_english_book_unit_7_page_9/grade_7_english_book_unit_7.pdf_page_9_trimmed_blocks_slow.json';
+
 export interface TrimmedBlockData {
   [blockId: string]: {
     text: string;
@@ -1088,6 +1140,10 @@ export class TrimmedBlocksDataService {
   private grade7Unit3SlowDataMap: Map<number, TrimmedBlockData> = new Map();
   private grade7Unit4SlowDataMap: Map<number, TrimmedBlockData> = new Map();
   private grade7Unit5SlowDataMap: Map<number, TrimmedBlockData> = new Map();
+  private grade7Unit6DataMap: Map<number, TrimmedBlockData> = new Map();
+  private grade7Unit6SlowDataMap: Map<number, TrimmedBlockData> = new Map();
+  private grade7Unit7DataMap: Map<number, TrimmedBlockData> = new Map();
+  private grade7Unit7SlowDataMap: Map<number, TrimmedBlockData> = new Map();
 
   static getInstance(): TrimmedBlocksDataService {
     if (!TrimmedBlocksDataService.instance) {
@@ -2149,6 +2205,58 @@ export class TrimmedBlocksDataService {
     this.grade7Unit5SlowDataMap.set(7, page7G7U5SlowTrimmedBlocks as any);
     this.grade7Unit5SlowDataMap.set(8, page8G7U5SlowTrimmedBlocks as any);
     this.grade7Unit5SlowDataMap.set(9, page9G7U5SlowTrimmedBlocks as any);
+
+    // Initialize Grade 7 English Book Unit 6
+    this.grade7Unit6DataMap.set(0, page0G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(1, page1G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(2, page2G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(3, page3G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(4, page4G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(5, page5G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(6, page6G7U6TrimmedBlocks as any);
+    this.grade7Unit6DataMap.set(7, page7G7U6TrimmedBlocks as any);
+    // Pages 8-11 are missing complete trimmed_blocks/audio files
+
+    // Initialize Grade 7 English Book Unit 6 slow reading versions
+    this.grade7Unit6SlowDataMap.set(0, page0G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(1, page1G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(2, page2G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(3, page3G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(4, page4G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(5, page5G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(6, page6G7U6SlowTrimmedBlocks as any);
+    this.grade7Unit6SlowDataMap.set(7, page7G7U6SlowTrimmedBlocks as any);
+    // Pages 8-11 are missing complete trimmed_blocks/audio files
+
+    // Initialize Grade 7 English Book Unit 7
+    this.grade7Unit7DataMap.set(0, page0G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(1, page1G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(2, page2G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(3, page3G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(4, page4G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(5, page5G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(6, page6G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(7, page7G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(8, page8G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(9, page9G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(10, page10G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(11, page11G7U7TrimmedBlocks as any);
+    this.grade7Unit7DataMap.set(12, page12G7U7TrimmedBlocks as any);
+
+    // Initialize Grade 7 English Book Unit 7 slow reading versions
+    this.grade7Unit7SlowDataMap.set(0, page0G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(1, page1G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(2, page2G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(3, page3G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(4, page4G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(5, page5G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(6, page6G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(7, page7G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(8, page8G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(9, page9G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(10, page10G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(11, page11G7U7SlowTrimmedBlocks as any);
+    this.grade7Unit7SlowDataMap.set(12, page12G7U7SlowTrimmedBlocks as any);
   }
 
   getTrimmedBlocksForPage(pageNumber: number, bookTitle?: string, isSlowMode?: boolean): TrimmedBlockData | null {
@@ -2189,6 +2297,10 @@ export class TrimmedBlocksDataService {
           slowData = this.grade7Unit4SlowDataMap.get(pageNumber);
         } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
           slowData = this.grade7Unit5SlowDataMap.get(pageNumber);
+        } else if (bookTitle.toLowerCase().includes('unit 6') || bookTitle.toLowerCase().includes('unit_6')) {
+          slowData = this.grade7Unit6SlowDataMap.get(pageNumber);
+        } else if (bookTitle.toLowerCase().includes('unit 7') || bookTitle.toLowerCase().includes('unit_7')) {
+          slowData = this.grade7Unit7SlowDataMap.get(pageNumber);
         } else {
           slowData = this.grade7SlowDataMap.get(pageNumber);
         }
@@ -2228,6 +2340,12 @@ export class TrimmedBlocksDataService {
       } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
         dataMap = this.grade7Unit5DataMap;
         mapType = 'grade7unit5';
+      } else if (bookTitle.toLowerCase().includes('unit 6') || bookTitle.toLowerCase().includes('unit_6')) {
+        dataMap = this.grade7Unit6DataMap;
+        mapType = 'grade7unit6';
+      } else if (bookTitle.toLowerCase().includes('unit 7') || bookTitle.toLowerCase().includes('unit_7')) {
+        dataMap = this.grade7Unit7DataMap;
+        mapType = 'grade7unit7';
       } else {
         dataMap = this.grade7DataMap;
         mapType = 'grade7';

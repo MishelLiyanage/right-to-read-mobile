@@ -150,6 +150,10 @@ export class DictionaryService {
         return 'grade_7_english_book_unit_4';
       } else if (bookTitle.toLowerCase().includes('unit 5') || bookTitle.toLowerCase().includes('unit_5')) {
         return 'grade_7_english_book_unit_5';
+      } else if (bookTitle.toLowerCase().includes('unit 6') || bookTitle.toLowerCase().includes('unit_6')) {
+        return 'grade_7_english_book_unit_6';
+      } else if (bookTitle.toLowerCase().includes('unit 7') || bookTitle.toLowerCase().includes('unit_7')) {
+        return 'grade_7_english_book_unit_7';
       } else {
         return 'grade_7_english_book_unit_1';
       }
